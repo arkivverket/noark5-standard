@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<?xml-stylesheet href="docbook-css-0.4/driver.css" type="text/css"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+ "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" []>
+
+<book id="index" lang="nb">
+  <bookinfo>
+  <title>Noark 5 versjon 5.0</title>
+    <legalnotice>
+      <para>Denne spesifikasjonen faller inn under unntakene i
+      åndsverkslovens § 9, og er ikke opphavsrettslig vernet.</para>
+
+      <para>Videredistribusjon og bruk i kildeformat (RST) og
+      kompilert form (XML, HTML, PDF, PostScript, RTF og så videre) er
+      tillatt både med og uten endringer.</para>
+    </legalnotice>
+  </bookinfo>
+</book>

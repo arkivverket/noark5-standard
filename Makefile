@@ -28,6 +28,8 @@ docbook: kapitler/*.rst
 		-t docbook4 $$m \
 		-o docbook/$$(basename $$m .rst).xml; \
 	done
+	sed -i -e 's%<chapter%<preface%' -e 's%</chapter%</preface%' docbook/*-forord*.xml
+	sed -i -e 's%<chapter%<appendix%' -e 's%</chapter%</appendix%' docbook/*-vedlegg*.xml
 DBLATEX_OPTS = \
 	-T simple \
 	-p docbook/pdf.xsl
@@ -50,7 +52,7 @@ spesifikasjon.html: docbook images
 .SUFFIXES: .rst .pdf .docx .puml .png .svg
 
 clean:
-	$(RM) $(IMG_PNG) docbook/[012]*.xml spesifikasjon-kropp.pdf
+	$(RM) $(IMG_PNG) docbook/[012]*.xml
 
 docx-to-rst:
 	cd arkiv; for f in *.docx; do \

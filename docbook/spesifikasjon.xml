@@ -15,4 +15,15 @@
       tillatt både med og uten endringer.</para>
     </legalnotice>
   </bookinfo>
+  <xi:include href="010-forord-til-5.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+  <xi:include href="020-innledning.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+  <xi:include href="030-noark-5-datamodell.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+  <xi:include href="040-fangst_frys_forvaltning.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+  <xi:include href="050-sikkerhet_og_tilgang.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+  <xi:include href="060-gjenfinning_innsyn_rapportering.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+  <xi:include href="070-funksjoner_for_periodiske_oppgaver.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+  <xi:include href="110-vedlegg_1_metadatakatalog.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+  <xi:include href="120-vedlegg_2_metadatakatalog_objektsortert.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+  <xi:include href="130-vedlegg_3_logg_over_endringer.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+  <xi:include href="150-vedlegg_5_eksempel_paa_arkivuttrekk.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 </book>

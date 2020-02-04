@@ -738,44 +738,37 @@ Datasettbeskrivelsen arkivuttrekk.xml skal inneholde følgende informasjon om et
 
 I Riksarkivarens Noark 5-mal for arkivuttrekk.xml er strukturen i beskrivelsen av et Noark 5-uttrekk opprettet på forhånd. Selve malen og XML-skjemaet for ADDML (addml.xsd) er tilgjengelige på Arkivverkets nettsider.
 
-| De stedene hvor Noark 5-løsningen må angi verdier, er angitt ved hjelp av hakeparenteser.
-| Et eksempel på dette er ved angivelse av arkivuttrekkets periode:
-| .
-| .
-| <content>
+De stedene hvor Noark 5-løsningen må angi verdier, er angitt ved hjelp av hakeparenteser.
+Et eksempel på dette er ved angivelse av arkivuttrekkets periode:
 
-<additionalElements>
+.. code:: XML
 
-<additionalElement name="archivalPeriod">
+  .
+  .
+  <content>
+    <additionalElements>
+      <additionalElement name="archivalPeriod">
+        <properties>
+          <property name="startDate">
+            <value>[ÅÅÅÅ-MM-DD]</value>
+          </property>
+          <property name="endDate">
+            <value>[ÅÅÅÅ-MM-DD]</value>
+          </property>
+        </properties>
+      </additionalElement>
+    </additionalElements>
+  </content>
+  .
+  .
 
-<properties>
+Her brukes et tilleggselement – archivalPeriod – til å omkapsle informasjonen om start- og sluttdatoen til uttrekket. Start- og sluttdatoen angis som egenskaper ved perioden, henholdsvis startDate og endDate. Det er løsningens oppgave å bytte ut [ÅÅÅÅ-MM-DD] med aktuell dato. Merk at parentesene ikke skal med i den faktiske verdien.
 
-<property name="startDate">
+Strukturen i malen er i hovedsak todelt – den første delen inneholder overordnet informasjon om uttrekket som passer inn i den generelle delen av datasettbeskrivelsen. Den andre delen beskriver det som er Noark 5-spesifikt. Eksemplet over er tatt fra den generelle delen - *reference*.
 
-<value>**[ÅÅÅÅ-MM-DD]**\ </value>
+Det Noark 5-spesifikke er organisert i en struktur av dataobjekter (*dataObjects*/*dataObject*) med tilhørende egenskaper (*properties*/*property*). Den første delen i denne dataobjektstrukturen inneholder overordnet informasjon om uttrekk som ikke ble registrert i den generelle delen. Den andre delen inneholder informasjon om de filene som arkivuttrekket består av. Eksempler på typer informasjon som er med om den enkelte fil, er sjekksummer og kvantitative opplysninger.
 
-</property>
-
-<property name="endDate">
-
-<value>**[ÅÅÅÅ-MM-DD]**\ </value>
-
-</property>
-
-</properties>
-
-</additionalElement>
-
-</additionalElements>
-
-| </content>
-| .
-| .
-| Her brukes et tilleggselement – archivalPeriod – til å omkapsle informasjonen om start- og sluttdatoen til uttrekket. Start- og sluttdatoen angis som egenskaper ved perioden, henholdsvis startDate og endDate. Det er løsningens oppgave å bytte ut [ÅÅÅÅ-MM-DD] med aktuell dato. Merk at parentesene ikke skal med i den faktiske verdien.
-| Strukturen i malen er i hovedsak todelt – den første delen inneholder overordnet informasjon om uttrekket som passer inn i den generelle delen av datasettbeskrivelsen. Den andre delen beskriver det som er Noark 5-spesifikt. Eksemplet over er tatt fra den generelle delen - *reference*.
-
-| Det Noark 5-spesifikke er organisert i en struktur av dataobjekter (*dataObjects*/*dataObject*) med tilhørende egenskaper (*properties*/*property*). Den første delen i denne dataobjektstrukturen inneholder overordnet informasjon om uttrekk som ikke ble registrert i den generelle delen. Den andre delen inneholder informasjon om de filene som arkivuttrekket består av. Eksempler på typer informasjon som er med om den enkelte fil, er sjekksummer og kvantitative opplysninger.
-| Tabellen under viser påkrevde elementer i arkivuttrekk.xml og og hvilket navn de er gitt i malen.
+Tabellen under viser påkrevde elementer i arkivuttrekk.xml og og hvilket navn de er gitt i malen.
 
 +-----------------------------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------------------+
 | **Navn i listen over påkrevde typer informasjon**               | **Navn i arkivstruktur.xml**                                    | **Kommentar/                                                    |

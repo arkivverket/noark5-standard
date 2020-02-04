@@ -348,7 +348,7 @@ Bruk av periodisering og særlig med overlappingsperiode er ikke aktuelt for all
 |                                                 | mulig å registrere oppbevaringssted.            |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
- Migrering mellom Noark-løsninger
+Migrering mellom Noark-løsninger
 ---------------------------------
 
 Med *migrering* menes i denne sammenheng flytting av komplette datasett fra en teknisk plattform til en annen (ny versjon eller ny løsning), hvor dataene i så stor grad som mulig skal være uendret etter at dataene er flyttet.
@@ -395,7 +395,7 @@ Dersom en eller flere arkivdeler flyttes fra en løsning til en annen vil det v�
 |                                                 | som det ikke har vært mulig å importere.        |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
- Avlevering
+Avlevering
 -----------
 
 En *avlevering* vil si at arkivmateriale overføres fra arkivskaper til arkivdepot. Offentlige organer skal avlevere arkivmateriale som det er fattet bevaringsvedtak for. Hovedregelen er at arkivmaterialet skal avleveres 25 år etter at det er produsert, fordi en da regner med at det har gått ut av administrativt bruk. En avlevering innebærer at råderetten for materialet overføres fra arkivskaper til arkivdepot. Etter avlevering er det arkivdepotet som må vedlikeholde og tilgjengeliggjøre materialet.

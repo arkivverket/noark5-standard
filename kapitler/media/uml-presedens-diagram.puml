@@ -1,0 +1,31 @@
+@startuml
+scale max 4096 width
+skinparam nodesep 100
+hide circle
+
+class mappe
+class saksmappe
+class registrering
+class journalpost
+class presedens {
+  <b>presedensDato</b>
+  <b>opprettetDato</b>
+  <b>opprettetAv</b>
+  avsluttetDato
+  avsluttetAv
+  <b>tittel</b>
+  beskrivelse
+  presedensHjemmel
+  <b>rettskildefaktor</b>
+  presedensGodkjentDato
+  presedensGodkjentAv
+  presedensStatus
+}
+
+mappe "1" o--> "0..*" registrering
+mappe <- saksmappe
+saksmappe "0..*" o-> "0..*" presedens
+saksmappe -[hidden]- journalpost
+registrering <- journalpost
+journalpost "0..*" o-> "0..*" presedens
+@enduml

@@ -1,0 +1,79 @@
+@startuml
+scale max 4096 width
+skinparam nodesep 50
+hide circle
+
+class gradering {
+  <b>gradering</b>
+  <b>graderingsdato</b>
+  <b>gradertAv</b>
+  nedgraderingsdato
+  nedgradertAv
+}
+
+class kassasjon {
+  <b>kassasjonsvedtak</b>
+  kassasjonshjemmel
+  <b>bevaringstid</b>
+  <b>kassasjonsdato</b>
+}
+
+class kryssreferanse {
+  referanseTilKlasse
+  referanseTilMappe
+  referanseTilRegistrering
+}
+
+class skjerming {
+  <b>tilgangsrestriksjon</b>
+  <b>skjermingshjemmel</b>
+  <b>skjermingMetadata</b>
+  skjermingDokument
+  skjermingsvarighet
+  skjermingOpphoererDato
+}
+
+class klassifikasjonssystem {
+  <b>systemID</b>
+  klassifikasjonstype
+  <b>tittel</b>
+  beskrivelse
+  <b>opprettetDato</b>
+  <b>opprettetAv</b>
+  avsluttetDato
+  avsluttetAv
+}
+
+class klasse {
+  <b>systemID</b>
+  <b>klasseID</b>
+  <b>tittel</b>
+  beskrivelse
+  noekkelord
+  <b>opprettetDato</b>
+  <b>opprettetAv</b>
+  avsluttetDato
+  avsluttetAv
+}
+
+class arkivdel
+class registrering
+class klassifikasjonssystem
+class mappe
+
+gradering "0..1" <--o "0..*" klasse
+kassasjon "0..1" <--o "0..*" klasse
+klasse "0..1" o--> "0..*" kryssreferanse
+skjerming "0..1" <-o "0..*" klasse
+arkiv "1" o-> "1..*" arkivdel
+arkivdel "1" o-> "0..*" klassifikasjonssystem
+klassifikasjonssystem "1" o--> "1..*" klasse
+
+klasse "0..1" o--> "0..*" klasse : underklasse
+klasse "0..1" o--> "0..*" mappe
+' FIXME should constraint also cover klasse-registrering?
+constraint on links: enten/eller
+
+klasse "1" o--> "0..*" registrering
+
+@enduml

@@ -24,11 +24,10 @@ Modellene i Noark 5 er *konseptuelle modeller* som skal vise sammenhengen mellom
 
 Overordnet skisse av den konseptuelle modellen for Noark 5:
 
-|image1|
+|umlarkivstruktur|
 
-.. |image1| figure:: ./media/image2.png
-   :width: 5.672in
-   :height: 6.31375in
+.. |umlarkivstruktur| figure:: ./media/uml-arkivstruktur-diagram.png
+   :width: 100%
 
     *Arkivstruktur*
 
@@ -36,11 +35,10 @@ Nivåene for *mappe* og *registrerin*\ g er bygd ut ved hjelp av spesialisering 
 
 I enkelte system kan det være behov for en forenklet struktur, og visse nivå i strukturen kan utgå dersom det ikke er behov for nivået.
 
-|image2|
+|umlforenklet|
 
-.. |image2| figure:: ./media/image3.png
-   :width: 3.67058in
-   :height: 5.032in
+.. |umlforenklet| figure:: ./media/uml-forenklet-arkivstruktur-diagram.png
+   :width: 100%
 
    *forenklet arkivstruktur*
 
@@ -89,11 +87,10 @@ Vedlegg 2 *Metadata gruppert på objekter* spesifiserer hvilke metadata som bruk
 
 En arkivkjerne som kun dekker obligatoriske objekt i datamodellen og de obligatoriske metadata på disse objektene, kan dermed fremstilles slik:
 
-|image3|
+|umlarkivkjerne|
 
-.. |image3| figure:: ./media/image4.jpg
-   :width: 3.56983in
-   :height: 8.472in
+.. |umlarkivkjerne| figure:: ./media/uml-arkivkjerne-diagram.png
+   :width: 100%
    
    *arkivhjerne med obligatoriskekrav*
 
@@ -134,11 +131,10 @@ Forskjellige virksomheter vil ha forskjellig behov for definering av arkiv og ar
 
 Konseptuell modell for *arkiv* og *arkivdel*
 
-|image4|
+|umlarkiv|
 
-.. |image4| figure:: ./media/image5.jpg
-   :width: 6.37708in
-   :height: 6.18819in
+.. |umlarkiv| figure:: ./media/uml-arkiv-arkivdel-diagram.png
+   :width: 100%
 
    *arkiv og arkivdel*
 
@@ -253,11 +249,10 @@ Klassene vil ofte legges inn før en Noark 5-løsning tas i bruk. Men det skal o
 
 Konseptuell modell for klassifikasjonssystem
 *************************************************
-|image5|
+|klassifikasjonssystem|
 
-.. |image5| figure:: ./media/image6.jpg
-   :width: 5.32418in
-   :height: 6.144in
+.. |klassifikasjonssystem| figure:: ./media/uml-klassifikasjonssystem-diagram.png
+   :width: 100%
 
    *klassifikasjonssystem*
 
@@ -310,11 +305,10 @@ En *sak* i Noark-4 utgjør en bestemt mappetype i Noark 5, nemlig *saksmappe*. D
 Konseptuell modell for mappe
 **********************************
 
-|image6|
+|mappestrukturen|
 
-.. |image6| figure:: ./media/image7.jpg
-   :width: 6.37708in
-   :height: 5.89792in
+.. |mappestrukturen| figure:: ./media/uml-mappestrukturen-diagram.png
+   :width: 100%
 
    *mappestrukturen*
 
@@ -375,11 +369,10 @@ En *registrering* tilsvarer "record" eller "dokumentasjon" i ISO-standarder, og 
 Konseptuell modell for registrering
 **************************************
 
-|image7|
+|registrering|
 
-.. |image7| figure:: ./media/image8.jpg
-   :width: 6.37708in
-   :height: 6.41181in
+.. |registrering| figure:: ./media/uml-registrering-diagram.png
+   :width: 100%
 
    *registrering*
 
@@ -452,11 +445,10 @@ I en relasjonsdatabase vil det typisk være et mange-til-mange-forhold mellom re
 Konseptuell modell for dokumentbeskrivelse og dokumentobjekt
 *************************************************************
 
-|image8|
+|dokumentbeskrivelse|
 
-.. |image8| figure:: ./media/image9.jpg
-   :width: 5.864in
-   :height: 6.60538in
+.. |dokumentbeskrivelse| figure:: ./media/uml-dokumentbeskrivelse-diagram.png
+   :width: 100%
 
    *dokumentbeskrivelse og dokumentobjekt*
 
@@ -611,11 +603,10 @@ Løsningens brukere skal være klarert for bestemte tilgangskoder og autorisert 
 
 **Konseptuell modell for Skjerming**
 
-|image9|
+|skjerming|
 
-.. |image9| figure:: ./media/image10.jpg
-   :width: 5.944in
-   :height: 3.51928in
+.. |skjerming| figure:: ./media/uml-skjerming-diagram.png
+   :width: 80%
 
    *skjerming*
 
@@ -659,11 +650,10 @@ Kryssreferanse er valgfritt, og kan knyttes en eller flere ganger til klasse, ma
 Konseptuell modell for Kryssreferanse
 ****************************************
 
-|image10|
+|kryssreferanse|
 
-.. |image10| figure:: ./media/image11.jpg
-   :width: 4.96in
-   :height: 3.28398in
+.. |kryssreferanse| figure:: ./media/uml-kryssreferanse-diagram.png
+   :width: 50%
 
    *kryssreferanse*
 
@@ -694,11 +684,10 @@ En eller flere merknader skal kunne knyttes til en mappe, registrering eller en 
 Konseptuell modell for Merknad
 *******************************
 
-|image11|
+|merknad|
 
-.. |image11| figure:: ./media/image12.jpg
-   :width: 4.672in
-   :height: 3.43911in
+.. |merknad| figure:: ./media/uml-merknad-diagram.png
+   :width: 50%
 
    *Merknad*
 
@@ -728,11 +717,11 @@ Noark 5 legger opp til at det er virksomhetens behov som styrer bruken av *part*
 
 Konseptuell modell for Part
 ******************************
-|image12|
 
-.. |image12| figure:: ./media/image13.jpg
-   :width: 4.752in
-   :height: 2.9429in
+|part|
+
+.. |part| figure:: ./media/uml-part-diagram.png
+   :width: 70%
 
    *part*
    
@@ -757,11 +746,11 @@ Man snakker vanligvis om presedenssaker, men det er vanligvis ett eller noen få
 
 Konseptuell modell for Presedens
 **********************************
-|image13|
 
-.. |image13| figure:: ./media/image14.jpg
-   :width: 6.37708in
-   :height: 1.91111in
+|presedens|
+
+.. |presedens| figure:: ./media/uml-presedens-diagram.png
+   :width: 80%
 
    *presedens*
 

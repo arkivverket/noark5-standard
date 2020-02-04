@@ -1,0 +1,19 @@
+@startuml
+scale max 4096 width
+skinparam nodesep 100
+allowmixing
+hide circle
+
+class arkiv
+class arkivdel
+class registrering
+class dokumentbeskrivelse
+class dokumentobjekt
+rectangle "Elektronisk dokument"
+
+arkiv "1" o-> "1..*" arkivdel
+arkivdel "1" o-> "0..*" registrering
+registrering "1..*" o-> "0..*" dokumentbeskrivelse
+dokumentbeskrivelse "1" o-> "0..*" dokumentobjekt
+dokumentobjekt .. "1" "Elektronisk dokument"
+@enduml

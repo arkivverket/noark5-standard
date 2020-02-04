@@ -1,0 +1,87 @@
+@startuml
+scale max 4096 width
+skinparam nodesep 100
+hide circle
+
+class arkivskaper {
+  <b>arkivskaperID</b>
+  <b>arkivskaperNavn</b>
+  beskrivelse
+}
+
+class gradering {
+  <b>gradering</b>
+  <b>graderingsdato</b>
+  <b>gradertAv</b>
+  nedgraderingsdato
+  nedgradertAv
+}
+
+class kassasjon {
+  <b>kassasjonsvedtak</b>
+  kassasjonshjemmel
+  <b>bevaringstid</b>
+  <b>kassasjonsdato</b>
+}
+
+class utfoertKassasjon {
+  <b>kassertDato</b>
+  <b>kassertAv</b>
+}
+
+class skjerming {
+  <b>tilgangsrestriksjon</b>
+  <b>skjermingshjemmel</b>
+  <b>skjermingMetadata</b>
+  skjermingDokument
+  skjermingsvarighet
+  skjermingOpphoererDato
+}
+
+class arkiv {
+  <b>systemID</b>
+  <b>tittel</b>
+  beskrivelse
+  arkivstatus
+  dokumentmedium
+  <b>opprettetDato</b>
+  <b>opprettetAv</b>
+  <b>avsluttetDato</b>
+  <b>avsluttetAv</b>
+}
+
+class arkivdel {
+  <b>systemID</b>
+  <b>tittel</b>
+  beskrivelse
+  arkivdelstatus
+  dokumentmedium
+  oppbevaringssted
+  <b>opprettetDato</b>
+  <b>opprettetAv</b>
+  <b>avsluttetDato</b>
+  <b>avsluttetAv</b>
+  arkivperiodeStartDato
+  arkivperiodeSluttDato
+  referanseForloeper
+  referanseArvtaker
+}
+
+class registrering
+class klassifikasjonssystem
+class mappe
+
+arkivskaper "1..*" <--o "1..*" arkiv
+
+arkiv "0..1" o--> "0..*" arkiv : underarkiv
+arkiv "1" o--> "1..*" arkivdel
+constraint on links: enten/eller
+
+gradering "0..1" <-o "0..*" arkivdel
+kassasjon "0..1" <--o "0..*" arkivdel
+utfoertKassasjon "0..1" <--o "0..*" arkivdel
+skjerming "0..1" <-o "0..*" arkivdel
+arkivdel "1" o--> "0..*" registrering
+arkivdel "1" o--> "0..*" klassifikasjonssystem
+arkivdel "1" o--> "0..*" mappe
+@enduml

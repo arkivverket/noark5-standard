@@ -1,0 +1,21 @@
+@startuml
+scale max 4096 width
+skinparam nodesep 100
+hide circle
+
+class mappe
+class registrering
+class dokumentbeskrivelse
+class merknad {
+  <b>merknadstekst</b>
+  merknadstype
+  <b>merknadsdato</b>
+  <b>merknadRegistrertAv</b>
+}
+
+mappe "1" o--> "0..*" registrering
+registrering "1..*" o--> "0..*" dokumentbeskrivelse
+mappe "0..*" o-> "0..*" merknad
+registrering "0..*" o-> "0..*" merknad
+dokumentbeskrivelse "0..*" o-> "0..*" merknad
+@enduml

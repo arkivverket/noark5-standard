@@ -1,0 +1,28 @@
+@startuml
+scale max 4096 width
+skinparam nodesep 100
+hide circle
+
+class mappe
+class registrering
+class dokumentbeskrivelse
+class part {
+  partID
+  <b>partNavn</b>
+  <b>partRolle</b>
+  postadresse
+  postnummer
+  poststed
+  land
+  epostadresse
+  telefonnummer
+  kontaktperson
+  virksomhetsspesifikkeMetadata
+}
+
+mappe "1" o--> "0..*" registrering
+registrering "1..*" o--> "0..*" dokumentbeskrivelse
+mappe "0..*" o-> "0..*" part
+registrering "0..*" o-> "0..*" part
+dokumentbeskrivelse "0..*" o-> "0..*" part
+@enduml

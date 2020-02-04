@@ -10,11 +10,13 @@ pdf: spesifikasjon.pdf
 
 images: $(IMG_PNG)
 
+PLANTUML = java -jar scripts/plantuml.jar
+
 .puml.png:
-	plantuml -p < $^ > $@.new && mv $@.new $@
+	$(PLANTUML) -p < $^ > $@.new && mv $@.new $@
 
 .puml.svg:
-	plantuml -svg -p < $^ > $@.new && mv $@.new $@
+	$(PLANTUML) -svg -p < $^ > $@.new && mv $@.new $@
 
 # Draft Docbook based PDF building.  Remove colwidth to let the
 # docbook processors calculate columns widths.  Can pandoc be told to

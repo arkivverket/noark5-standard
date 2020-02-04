@@ -1,0 +1,69 @@
+@startuml
+scale max 4096 width
+skinparam nodesep 100
+hide circle
+
+class arkivskaper {
+  <b>arkivskaperID</b>
+  <b>arkivskaperNavn</b>
+}
+
+class arkiv {
+  <b>systemID</b>
+  <b>tittel</b>
+  <b>opprettetDato</b>
+  <b>opprettetAv</b>
+  <b>avsluttetDato</b>
+  <b>avsluttetAv</b>
+}
+
+class arkivdel {
+  <b>systemID</b>
+  <b>tittel</b>
+  <b>opprettetDato</b>
+  <b>opprettetAv</b>
+  <b>avsluttetDato</b>
+  <b>avsluttetAv</b>
+}
+
+class registrering {
+  <b>systemID</b>
+  <b>opprettetDato</b>
+  <b>opprettetAv</b>
+  <b>arkivertDato</b>
+  <b>arkivertAv</b>
+  <b>tittel</b>
+}
+
+class dokumentbeskrivelse {
+  <b>systemID</b>
+  <b>dokumenttype</b>
+  <b>dokumentstatus</b>
+  <b>tittel</b>
+  <b>opprettetDato</b>
+  <b>opprettetAv</b>
+  <b>tilknyttetRegistreringSom</b>
+  <b>dokumentnummer</b>
+  <b>tilknyttetDato</b>
+  <b>tilknyttetAv</b>
+}
+
+class dokumentobjekt {
+  <b>systemID</b>
+  <b>versjonsnummer</b>
+  <b>variantformat</b>
+  <b>format</b>
+  <b>opprettetDato</b>
+  <b>opprettetAv</b>
+  <b>referanseDokumentfil</b>
+  <b>sjekksum</b>
+  <b>sjekksumAlgoritme</b>
+  <b>filstoerrelse</b>
+}
+
+arkivskaper "1..*" <--o "1..*" arkiv
+arkiv "1" o-> "1..*" arkivdel
+arkivdel "1" o-> "0..*" registrering
+registrering "1..*" o-> "0..*" dokumentbeskrivelse
+dokumentbeskrivelse "1" o-> "0..*" dokumentobjekt
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+scale max 4096 width
+skinparam nodesep 100
+hide circle
+
+class klasse
+class mappe
+class registrering
+class kryssreferanse {
+  referanseTilKlasse
+  referanseTilMappe
+  referanseTilregistrering
+}
+
+klasse "0..1" o--> "0..*" mappe
+mappe "1" o--> "0..*" registrering
+klasse "0..*" o-> "0..*" kryssreferanse
+mappe "0..*" o-> "0..*" kryssreferanse
+registrering "0..*" o-> "0..*" kryssreferanse
+@enduml

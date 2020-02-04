@@ -1,0 +1,37 @@
+@startuml
+scale max 4096 width
+skinparam nodesep 100
+hide circle
+
+class arkivdel
+class mappe
+class klasse
+class registrering
+class dokumentbeskrivelse
+class utfoertKassasjon {
+  <b>kassertDato</b>
+  <b>kassertAv</b>
+}
+class kassasjon {
+  <b>kassasjonsvedtak</b>
+  kassasjonshjemmel
+  <b>bevaringstid</b>
+  <b>kassasjonsdato</b>
+}
+arkivdel "1" o--> "0..*" mappe
+arkivdel -[hidden] klasse
+mappe "0..*" <-o "0..1" klasse
+mappe "1" o--> "0..*" registrering
+registrering "1..*" o--> "0..*" dokumentbeskrivelse
+
+arkivdel "0..*" o-> "0..1" kassasjon
+klasse "0..*" o-> "0..1" kassasjon
+mappe "0..*" o-> "0..1" kassasjon
+registrering "0..*" o-> "0..1" kassasjon
+dokumentbeskrivelse "0..*" o-> "0..1" kassasjon
+
+arkivdel "0..*" o-> "0..1" utfoertKassasjon
+dokumentbeskrivelse "0..*" o-> "0..1" utfoertKassasjon
+kassasjon  -[hidden]- utfoertKassasjon
+
+@enduml

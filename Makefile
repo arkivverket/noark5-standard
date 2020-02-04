@@ -42,6 +42,10 @@ html: spesifikasjon.html
 spesifikasjon.html: docbook images
 	xmlto html-nochunks docbook/spesifikasjon.xml
 
+epub: spesifikasjon.epub
+spesifikasjon.epub: docbook images
+	dbtoepub docbook/spesifikasjon.xml
+
 # Rules useful for checking out the docx based documents
 .docx.pdf:
 	cd $(shell dirname $@); libreoffice --headless --invisible --convert-to pdf $(abspath $^)
@@ -49,7 +53,7 @@ spesifikasjon.html: docbook images
 	pandoc -f $(PANDOC_TYPE) -t latex $^ -o $@
 
 .PHONY: docbook
-.SUFFIXES: .rst .pdf .docx .puml .png .svg
+.SUFFIXES: .rst .pdf .docx .puml .png .svg .epub
 
 clean:
 	$(RM) $(IMG_PNG) docbook/[012]*.xml

@@ -637,44 +637,43 @@ For arkivuttrekk fra Noark 5-løsninger er det laget en mal for arkivuttrekk.xml
 
 Datasettbeskrivelsen arkivuttrekk.xml skal inneholde følgende informasjon om et Noark 5-uttrekk:
 
-1.  | **Arkivskapernavn**
-    | Kan være flere enn én
+1.  **Arkivskapernavn**
 
-2.  **Navn på systemet/løsningen
-    **
+    Kan være flere enn én
 
-3.  **Navn på arkivet
-    **
+2.  **Navn på systemet/løsningen**
 
-4.  **Start- og sluttdato for arkivuttrekket
-    **
+3.  **Navn på arkivet**
 
-5.  | **Hvilken type periodisering som er utført i forrige periode og denne periode**
-    | Den som er ansvarlig for å produsere arkivuttrekket, skal angi hva slags type periodisering som ble foretatt før det ble produsert - enten skarpt periodeskille eller mykt skille (med bruk av overlappingsperiode). Dette har betydning for innholdet i uttrekket. En eventuell foregående periodisering skal også dokumenteres.
+4.  **Start- og sluttdato for arkivuttrekket**
 
-6.  | **Opplysning om det finnes skjermet informasjon i uttrekket**
-    | Det skal angis om det finnes skjermet informasjon i uttrekket. Dersom det er tilfelle, må alle nødvendige metadata for skjerming følge med.
+5.  **Hvilken type periodisering som er utført i forrige periode og denne periode**
 
-7.  | **Opplysning om uttrekket omfatter dokumenter som er kassert**
-    | Det skal angis om det er foretatt kassasjon av dokumenter. Dersom kassasjonen er utført før uttrekket produseres, vil arkivdokumentene ikke være med. Men dreier det seg om kassasjon i et sakarkiv, skal metadata for de kasserte dokumentene likevel inngå i uttrekket.
+    Den som er ansvarlig for å produsere arkivuttrekket, skal angi hva slags type periodisering som ble foretatt før det ble produsert - enten skarpt periodeskille eller mykt skille (med bruk av overlappingsperiode). Dette har betydning for innholdet i uttrekket. En eventuell foregående periodisering skal også dokumenteres.
 
-8.  | **Opplysning om uttrekket inneholder dokumenter som skal kasseres på et senere tidspunkt**
-    | Det skal anmerkes om det finnes dokumenter i uttrekket som skal kasseres på et senere tidspunkt. I slike tilfeller kan det tenkes at arkivdepotet selv utfører kassasjonen, men det kan også være aktuelt med et nytt uttrekk når kassasjon er utført hos arkivskaper.
+6.  **Opplysning om det finnes skjermet informasjon i uttrekket**
 
-9.  **Opplysning om det finnes virksomhetsspesifikke metadata i arkivstruktur.xml
-    **
+    Det skal angis om det finnes skjermet informasjon i uttrekket. Dersom det er tilfelle, må alle nødvendige metadata for skjerming følge med.
 
-10. **Antall mapper i arkivstruktur.xml
-    **
+7.  **Opplysning om uttrekket omfatter dokumenter som er kassert**
 
-11. **Antall registreringer i arkivstruktur.xml, loependeJournal.xml og offentligJournal.xml
-    **
+    Det skal angis om det er foretatt kassasjon av dokumenter. Dersom kassasjonen er utført før uttrekket produseres, vil arkivdokumentene ikke være med. Men dreier det seg om kassasjon i et sakarkiv, skal metadata for de kasserte dokumentene likevel inngå i uttrekket.
 
-12. **Antall dokumentfiler i uttrekket
-    **
+8.  **Opplysning om uttrekket inneholder dokumenter som skal kasseres på et senere tidspunkt**
 
-13. | **Sjekksummer for alle XML-filer og XML-skjemaer i arkivuttrekket**
-    | Unntatt er arkivuttrekk.xml og addml.xsd
+    Det skal anmerkes om det finnes dokumenter i uttrekket som skal kasseres på et senere tidspunkt. I slike tilfeller kan det tenkes at arkivdepotet selv utfører kassasjonen, men det kan også være aktuelt med et nytt uttrekk når kassasjon er utført hos arkivskaper.
+
+9.  **Opplysning om det finnes virksomhetsspesifikke metadata i arkivstruktur.xml**
+
+10. **Antall mapper i arkivstruktur.xml**
+
+11. **Antall registreringer i arkivstruktur.xml, loependeJournal.xml og offentligJournal.xml**
+
+12. **Antall dokumentfiler i uttrekket**
+
+13. **Sjekksummer for alle XML-filer og XML-skjemaer i arkivuttrekket**
+
+    Unntatt er arkivuttrekk.xml og addml.xsd
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Krav til opplysninger om avleveringen           | Type                                            | Merknad                                         |

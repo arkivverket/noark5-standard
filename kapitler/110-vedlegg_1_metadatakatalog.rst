@@ -77,8 +77,9 @@ M700-M799: Tekniske metadata
 
 Avleveringsuttrekk
 
-| De aller fleste metadata nedenfor vil inngå i filen arkivstruktur.xml. Men det er også definert metadata som bare inngår i filene *endringslogg.xml, loependeJournal.xml* og *offentligJournal.xml*.
-| Identifikasjon
+De aller fleste metadata nedenfor vil inngå i filen arkivstruktur.xml. Men det er også definert metadata som bare inngår i filene *endringslogg.xml, loependeJournal.xml* og *offentligJournal.xml*.
+
+Identifikasjon
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Nr**                                          | **M001**                                        | **Navn**                                        | **systemID**                                    |

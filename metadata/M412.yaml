@@ -1,0 +1,14 @@
+Arkivenhet: korrespondansepart, part
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Kontaktperson hos en organisasjon som er avsender eller mottaker, eller
+  part
+Forekomster: 0-1
+Gruppe: Korrespondanse
+Kilde: Registreres manuelt eller automatisk
+Kommentarer:
+Navn: kontaktperson
+Nr: M412
+Obligatorisk/valgfri: Valgfri

@@ -1,0 +1,13 @@
+Arkivenhet: dokumentobjekt
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Tekststreng
+Definisjon: Nærmere spesifikasjon av dokuments format, f.eks. informasjon om komprimering
+Forekomster: 0-1
+Gruppe: Tekniske metadata
+Kilde:
+Kommentarer:
+Navn: formatDetaljer
+Nr: M702
+Obligatorisk/valgfri: Valgfri

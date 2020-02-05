@@ -1,0 +1,23 @@
+Arkivenhet: registrering
+Arv: Nei
+Avleveres: A
+Betingelser: |-
+  Obligatoriske verdier:
+
+  - "Avsender"
+  - "Mottaker"
+  - "Kopimottaker"
+  - "Gruppemottaker"
+  - "Intern avsender"
+  - "Intern mottaker"
+Datatype: Tekststreng
+Definisjon: Type korrespondansepart
+Forekomster: '1'
+Gruppe: Typer
+Kilde: Registreres automatisk knyttet til funksjonalitet i forbindelse med opprettelse
+  av journalpost, kan også registreres manuelt
+Kommentarer: Korrespondansetype forekommer én gang innenfor objektet korrespondansepart,
+  men denne kan forekomme flere ganger innenfor en journalpost.
+Navn: korrespondanseparttype
+Nr: M087
+Obligatorisk/valgfri: Obligatorisk

@@ -1,0 +1,19 @@
+Arkivenhet: arkiv
+Arv: Nei
+Avleveres: A
+Betingelser: |-
+  Obligatoriske verdier:
+
+  - "Opprettet"
+  - "Avsluttet"
+
+  Skifte av status kan bare utføres av autoriserte personer.
+Datatype: Tekststreng
+Definisjon: Status til arkivet
+Forekomster: 0-1
+Gruppe: Status
+Kilde: Registreres manuelt når arkivet opprettes eller ved skifte av status.
+Kommentarer:
+Navn: arkivstatus
+Nr: M050
+Obligatorisk/valgfri: Valgfri

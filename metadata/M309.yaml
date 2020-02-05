@@ -1,0 +1,14 @@
+Arkivenhet: saksmappe, journalpost
+Arv: Nei
+Avleveres:
+Betingelser: Utlån skal også kunne registreres etter at en saksmappe er avsluttet,
+  eller at dokumentene i en journalpost ble arkivert
+Datatype: Tekststreng
+Definisjon: Navnet på person som har lånt en fysisk saksmappe
+Forekomster: 0-1
+Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
+Kilde: Registreres manuelt ved utlån
+Kommentarer:
+Navn: utlaantTil
+Nr: M309
+Obligatorisk/valgfri: Valgfri

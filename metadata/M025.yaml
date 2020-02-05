@@ -1,0 +1,16 @@
+Arkivenhet: mappe, registrering
+Arv:
+Avleveres: A
+Betingelser: Obligatorisk i arkivuttrekk dersom tittelen inneholder ord som skal skjermes,
+  jf. *M504 skjermingMetadata.*
+Datatype: Tekststreng
+Definisjon: Offentlig tittel på arkivenheten, ord som skal skjermes er fjernet fra
+  innholdet i tittelen (erstattet med ******)
+Forekomster: 0-1
+Gruppe: Kjernemetadata (jf. Dublin Core)
+Kilde:
+Kommentarer: I løpende og offentlig journaler skal også offentligTittel være med dersom
+  ord i tittelfeltet skal skjermes.
+Navn: offentligTittel
+Nr: M025
+Obligatorisk/valgfri: Betinget obligatorisk

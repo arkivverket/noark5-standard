@@ -1,0 +1,14 @@
+Arkivenhet: arkiv
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Unik ID for arkivskaperen
+Forekomster: '1'
+Gruppe: Identifikasjon
+Kilde: Registreres manuelt ved opprettelsen av arkivet
+Kommentarer: Kan være organisasjonsnummer (Brønnøysundregistrene) eller annen identifikasjon
+  avtalt med arkivdepotet
+Navn: arkivskaperID
+Nr: M006
+Obligatorisk/valgfri: Obligatorisk

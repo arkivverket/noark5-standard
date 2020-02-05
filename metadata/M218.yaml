@@ -1,0 +1,18 @@
+Arkivenhet: dokumentobjekt
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Referanse til filen som inneholder det elektroniske dokumentet som dokumentobjektet
+  beskriver
+Forekomster: '1'
+Gruppe: Referanser
+Kilde: Registreres automatisk når et dokument tilknyttes en registrering, når det
+  arkiveres flere versjoner av et dokument, når det lages en egen variant av dokumentet
+  og når dokumentet konverteres til nye formater
+Kommentarer: Referansen skal være en "sti" (dvs. også inneholde katalogstrukturen)
+  til filnavnet som gjør det mulig å identifisere riktig fil i et arkivuttrekk. Stien
+  skal angis relativt i forhold til filen *arkivstruktur.xml*.
+Navn: referanseDokumentfil
+Nr: M218
+Obligatorisk/valgfri: Obligatorisk

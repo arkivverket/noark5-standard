@@ -1,0 +1,13 @@
+Arkivenhet: journalpost, arkivnotat
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Merknad eller kommentar til et dokument som er sendt på flyt
+Forekomster: 0-1
+Gruppe: Logging av arbeidsflyt og saksfordeling
+Kilde: Registreres manuelt
+Kommentarer:
+Navn: flytMerknad
+Nr: M664
+Obligatorisk/valgfri: Valgfri

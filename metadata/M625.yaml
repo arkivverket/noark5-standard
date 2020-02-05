@@ -1,0 +1,13 @@
+Arkivenhet: mappe, registrering, dokumentbeskrivelse
+Arv: Ja
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Navn på person som foretok graderingen
+Forekomster: '1'
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk ved gradering
+Kommentarer:
+Navn: gradertAv
+Nr: M625
+Obligatorisk/valgfri: Betinget obligatorisk

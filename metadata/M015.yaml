@@ -1,0 +1,18 @@
+Arkivenhet: journalpost
+Arv:
+Avleveres: A
+Betingelser: Skal normalt ikke endres, men ved flytting til en annen saksmappe kan
+  journalposten få et nytt nummer (fordi det inngår i en annen nummerrekkefølge i
+  denne mappen).
+Datatype: Heltall
+Definisjon: Viser rekkefølgen på journalpostene innenfor saksmappen,.
+Forekomster: '1'
+Gruppe: Identifikasjon
+Kilde: Registreres automatisk når journalposten opprettes
+Kommentarer: Er ikke obligatorisk, men anbefales brukt i sakarkiver. Kombineres med
+  *M003 mappeID*, og inngår i *M004 registreringsID*. Dersom journalpostnummer ikke
+  brukes, må andre kriterier kunne identifisere journalpostenes rekkefølge innenfor
+  saksmappen.
+Navn: journalpostnummer
+Nr: M015
+Obligatorisk/valgfri: Valgfri

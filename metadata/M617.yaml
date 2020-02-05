@@ -1,0 +1,13 @@
+Arkivenhet: journalpost
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Dato
+Definisjon: Dato et dokument ble avskrevet
+Forekomster: 0-1
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk nå avskrivning foretas
+Kommentarer:
+Navn: avskrivningsdato
+Nr: M617
+Obligatorisk/valgfri: Betinget obligatorisk

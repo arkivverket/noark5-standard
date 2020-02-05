@@ -1,0 +1,15 @@
+Arkivenhet: arkivdel, klasse, mappe, registrering, dokument­beskrivelse
+Arv: Ja
+Avleveres: A
+Betingelser:
+Datatype: Heltall
+Definisjon: Antall år dokumentene som tilhører denne arkivdelen skal bevares.
+Forekomster: '1'
+Gruppe: Bevaring og kassasjon
+Kilde: Registreres manuelt ved opprettelse av *arkivdel* eller *klasse*. Arves til
+  underliggende enheter, men kan endres manuelt.
+Kommentarer: Tidspunktet for når bevaringstiden starter å løpe, vil vanligvis være
+  når en mappe avsluttes. Men andre regler kan være aktuelle.
+Navn: bevaringstid
+Nr: M451
+Obligatorisk/valgfri: Betinget obligatorisk

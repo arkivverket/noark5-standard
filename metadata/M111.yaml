@@ -1,0 +1,14 @@
+Arkivenhet: saksmappe eller journalpost
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Dato
+Definisjon: Datoen på presedensen
+Forekomster: '1'
+Gruppe: Datoer
+Kilde: Registreres manuelt ved opprettelse av presedens, men bør også kunne hentes
+  automatisk fra *M103 dokumentetsDato* på journalposten presedensen opprettes på.
+Kommentarer:
+Navn: presedensDato
+Nr: M111
+Obligatorisk/valgfri: Betinget obligatorisk

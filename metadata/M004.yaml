@@ -1,0 +1,17 @@
+Arkivenhet: registrering
+Arv: Kan arve *M003 mappeID* fra mappe og kombinere det med *M015 journalpostnummer*
+Avleveres: A
+Betingelser: Skal normalt ikke kunne endres. Ved flytting til en annen mappe, kan
+  endring av *registreringsID* forekomme.
+Datatype: Tekststreng
+Definisjon: Entydig identifikasjon av registreringen innenfor arkivet.
+Forekomster: 0-1
+Gruppe: Identifikasjon
+Kilde: Registreres automatisk av systemet etter interne regler
+Kommentarer: |-
+  Ulike arkiv innenfor samme system kan inneholde samme identifikasjon. Identifikasjonen kan være rent numerisk, men den kan også ha en logisk oppbygging.
+
+  Er en videreføring av saksår og sakssekvensnummer (oftest bare kalt "saksnummer") i kombinasjon med "dokumentnummer" i Noark 4 (f.eks. 2011/3869-8, dvs. dokument nummer 8 i saksnummer 2011/3869), men trenger ikke ha denne formen for andre deler av arkivet.
+Navn: registreringsID
+Nr: M004
+Obligatorisk/valgfri: Valgfri

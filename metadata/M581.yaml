@@ -1,0 +1,19 @@
+Arkivenhet: Brukeradministrasjon inngår ikke i arkivstrukturen
+Arv: Nei
+Avleveres:
+Betingelser: |-
+  Ingen obligatoriske verdier. Aktuelle verdier kan være:
+
+  - "Arkivansvarlig"
+  - "Arkivpersonale"
+  - "Leder"
+  - "Saksbehandler"
+Datatype: Tekststreng
+Definisjon: Rollen til en bruker av en Noark 5-løsning.
+Forekomster: '1'
+Gruppe: Brukeradministrasjon og administrasjonsstruktur
+Kilde: Registreres manuelt av administrator
+Kommentarer:
+Navn: brukerRolle
+Nr: M581
+Obligatorisk/valgfri: Obligatorisk

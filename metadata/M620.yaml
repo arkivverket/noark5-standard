@@ -1,0 +1,13 @@
+Arkivenhet: dokumentbeskrivelse
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Dato og klokkeslett
+Definisjon: Datoen et dokument ble knyttet til en registrering
+Forekomster: '1'
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk nå tilknytning foretas
+Kommentarer:
+Navn: tilknyttetDato
+Nr: M620
+Obligatorisk/valgfri: Obligatorisk

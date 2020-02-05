@@ -1,0 +1,13 @@
+Arkivenhet: moeteregistrering
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: systemID
+Definisjon: Referanse fra en annen møteregistrering
+Forekomster: 0-M
+Gruppe: Referanser
+Kilde:
+Kommentarer: Kan brukes for å knytte sammen dokumenter som tilhører samme "møtesak"
+Navn: referanseFraMoeteregistrering
+Nr: M224
+Obligatorisk/valgfri: Valgfri

@@ -1,0 +1,13 @@
+Arkivenhet: mappe, registrering, dokumentbeskrivelse
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Navn på person som foretok nedgraderingen
+Forekomster: 0-1
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk ved nedgradering
+Kommentarer:
+Navn: nedgradertAv
+Nr: M627
+Obligatorisk/valgfri: Betinget obligatorisk

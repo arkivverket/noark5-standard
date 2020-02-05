@@ -1,0 +1,14 @@
+Arkivenhet: Filen endringslogg.xml
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Referanse til arkivenheten (systemID) som inneholder metadata­elementet
+  som ble endret
+Forekomster: '1'
+Gruppe: Logging av endringer
+Kilde: Registreres automatisk ved endring av metadata
+Kommentarer:
+Navn: referanseArkivenhet
+Nr: M680
+Obligatorisk/valgfri: Betinget obligatorisk

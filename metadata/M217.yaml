@@ -1,0 +1,17 @@
+Arkivenhet: dokumentbeskrivelse
+Arv: Nei
+Avleveres: A
+Betingelser: |-
+  Obligatoriske verdier:
+
+  - "Hoveddokument"
+  - "Vedlegg"
+Datatype: Tekststreng
+Definisjon: Angivelse av hvilken "rolle" dokumentet har i forhold til registreringen
+Forekomster: '1'
+Gruppe: Referanser
+Kilde: Registreres automatisk eller manuelt når et dokument blir tilknyttet en registrering
+Kommentarer:
+Navn: tilknyttetRegistreringSom
+Nr: M217
+Obligatorisk/valgfri: Obligatorisk

@@ -1,0 +1,20 @@
+Arkivenhet: klasse
+Arv: I hierarkiske klassifikasjonssystemer (f.eks. statens arkivnøkkel) skal en underordnet
+  klasse arve og aggregere (slå sammen) identifikasjonen fra alle overordnede klasser,
+  se kommentar nedenfor.
+Avleveres: A
+Betingelser: Skal ikke kunne endres
+Datatype: Tekststreng
+Definisjon: Entydig identifikasjon av klassen innenfor klassifikasjonssystemet.
+Forekomster: '1'
+Gruppe: Identifikasjon
+Kilde: Alle klasser i et klassifikasjonssystem opprettes vanligvis når et arkivsystem
+  tas i bruk. Men enkelte løsninger kan tillate at det opprettes nye klasser ved behov
+  (mest aktuelt ved objektbasert klassifikasjon).
+Kommentarer: Ulike klassifikasjonssystemer innenfor samme arkivsystem kan inneholde
+  en eller flere av de samme identifikasjonene. Identifikasjonen kan være rent nummerisk,
+  men kan også være alfanumerisk og ha et logisk meningsinnhold. Merk at *klasseID*
+  er identisk med begrepene ordningsverdi og arkivkode i Noark 4.
+Navn: klasseID
+Nr: M002
+Obligatorisk/valgfri: Obligatorisk

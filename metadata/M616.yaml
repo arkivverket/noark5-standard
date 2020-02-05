@@ -1,0 +1,13 @@
+Arkivenhet: dokumentobjekt
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Tekststreng
+Definisjon: Person eller system som har foretatt konverteringen
+Forekomster: '1'
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk ved konvertering
+Kommentarer:
+Navn: konvertertAv
+Nr: M616
+Obligatorisk/valgfri: Betinget obligatorisk

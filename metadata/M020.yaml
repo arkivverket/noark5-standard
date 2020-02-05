@@ -1,0 +1,18 @@
+Arkivenhet: arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse
+  (ikke dokumentobjekt), forekommer også i presedens
+Arv: Kan eventuelt arves fra *klasse*, se ovenfor
+Avleveres: A
+Betingelser: Skal normalt ikke kunne endres etter at enheten er lukket, eller dokumentene
+  arkivert
+Datatype: Tekststreng
+Definisjon: Tittel eller navn på arkivenheten
+Forekomster: '1'
+Gruppe: Kjernemetadata (jf. Dublin Core)
+Kilde: Registreres manuelt eller hentes automatisk fra innholdet i arkivdokumentet.
+  Ja fra klassetittel dersom alle mapper skal ha samme tittel som klassen. Kan også
+  hentes automatisk fra et fagsystem.
+Kommentarer: For saksmappe og journalpost vil dette tilsvare "Sakstittel" og "Dokumentbeskrivelse".
+  Disse navnene kan beholdes i grensesnittet.
+Navn: tittel
+Nr: M020
+Obligatorisk/valgfri: Obligatorisk

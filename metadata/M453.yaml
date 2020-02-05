@@ -1,0 +1,14 @@
+Arkivenhet: arkivdel, klasse, mappe, registrering, dokumentbeskrivelse
+Arv:
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Angivelse av hjemmel for kassasjon
+Forekomster: 0-1
+Gruppe: Bevaring og kassasjon
+Kilde: Registreres manuelt ved opprettelse av *arkivdel* eller *klasse*. Arves til
+  underliggende enheter, men kan endres manuelt
+Kommentarer: Hjemmel kan f.eks. være Riksarkivarens bevarings- og kassasjons­vedtak.
+Navn: kassasjonshjemmel
+Nr: M453
+Obligatorisk/valgfri: Valgfri

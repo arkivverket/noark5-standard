@@ -1,0 +1,14 @@
+Arkivenhet: journalpost, arkivnotat
+Arv: Nei
+Avleveres: A
+Betingelser: Obligatorisk dersom dokumentet har blitt sendt på flyt. Skal ikke kunne
+  endres.
+Datatype: Dato og klokkeslett
+Definisjon: Dato og klokkeslett et dokument på flyt ble sendt videre
+Forekomster: '1'
+Gruppe: Logging av arbeidsflyt og saksfordeling
+Kilde: Registreres automatisk av funksjonalitet knyttet til arbeidsflyt
+Kommentarer:
+Navn: flytSendtDato
+Nr: M662
+Obligatorisk/valgfri: Betinget obligatorisk

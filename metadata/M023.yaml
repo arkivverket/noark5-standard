@@ -1,0 +1,13 @@
+Arkivenhet: arkiv
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Navn på organisasjonen som har skapt arkivet
+Forekomster: '1'
+Gruppe: Kjernemetadata (jf. Dublin Core)
+Kilde: Registreres manuelt ved opprettelsen av arkivet.
+Kommentarer:
+Navn: arkivskaperNavn
+Nr: M023
+Obligatorisk/valgfri: Obligatorisk

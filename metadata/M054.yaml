@@ -1,0 +1,17 @@
+Arkivenhet: dokumentbeskrivelse
+Arv: Nei
+Avleveres: A
+Betingelser: |-
+  Obligatoriske verdier:
+
+  - "Dokumentet er under redigering"
+  - "Dokumentet er ferdigstilt"
+Datatype: Tekststreng
+Definisjon: Status til dokumentet
+Forekomster: '1'
+Gruppe: Status
+Kilde: Kan endres automatisk ved endring i saksstatus eller journalstatus.
+Kommentarer: Dokumentbeskrivelser som avlevers skal ha status "Dokumentet er ferdigstilt".
+Navn: dokumentstatus
+Nr: M054
+Obligatorisk/valgfri: Obligatorisk

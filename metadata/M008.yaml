@@ -1,0 +1,14 @@
+Arkivenhet: moetemappe
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Identifikasjon av møter som et utvalg har avholdt, viser rekkefølgene
+  på møtene
+Forekomster: '1'
+Gruppe: Identifikasjon
+Kilde: Registreres automatisk av systemet, eventuelt også manuelt
+Kommentarer:
+Navn: moetenummer
+Nr: M008
+Obligatorisk/valgfri: Obligatorisk

@@ -1,0 +1,15 @@
+Arkivenhet: saksmappe
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: systemID
+Definisjon: Referanse til sekundærklassifikasjon. Kan også referere til flere enn
+  én sekundær klassifikasjon (tertiærklassifikasjon osv.)
+Forekomster: 0-M
+Gruppe: Referanser
+Kilde: Registreres automatisk ved klassifikasjon
+Kommentarer: Kan også brukes for å bygge opp mangefasettert klassifikasjon og kommunenes
+  klassifikasjonssystem "K-kodene".
+Navn: referanseSekundaerKlassifikasjon
+Nr: M209
+Obligatorisk/valgfri: Valgfri

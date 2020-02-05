@@ -1,0 +1,13 @@
+Arkivenhet: korrespondansepart, part
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Telefonnummeret til en avsender/mottaker eller part
+Forekomster: 0-M
+Gruppe: Korrespondanse
+Kilde: Registreres manuelt eller automatisk
+Kommentarer:
+Navn: telefonnummer
+Nr: M411
+Obligatorisk/valgfri: Valgfri

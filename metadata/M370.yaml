@@ -1,0 +1,13 @@
+Arkivenhet: moetemappe
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Navn på utvalget som avholdt møte
+Forekomster: '1'
+Gruppe: Møtebehandling
+Kilde: Registreres manuelt ved opprettelsen av møtemappen
+Kommentarer:
+Navn: utvalg
+Nr: M370
+Obligatorisk/valgfri: Betinget obligatorisk

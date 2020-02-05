@@ -1,0 +1,14 @@
+Arkivenhet: dokumentobjekt
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Dato og klokkeslett
+Definisjon: Dato og klokkeslett for når et dokument ble konvertert fra et format til
+  et annet
+Forekomster: '1'
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk ved konvertering
+Kommentarer:
+Navn: konvertertDato
+Nr: M615
+Obligatorisk/valgfri: Betinget obligatorisk

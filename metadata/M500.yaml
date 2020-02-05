@@ -1,0 +1,22 @@
+Arkivenhet: arkivdel, klasse, mappe, registrering, dokumentbeskrivelse
+Arv: Ja
+Avleveres: A
+Betingelser: |-
+  Obligatorisk verdi:
+
+  - "Unntatt offentlighet"
+
+  Valgfrie verdier:
+
+  - "Personalsaker"
+  - "Klientsaker"
+Datatype: Tekststreng
+Definisjon: Angivelse av at dokumentene som tilhører arkivenheten ikke er offentlig
+  tilgjengelig i henhold til offentlighetsloven eller av en annen grunn
+Forekomster: 0-1
+Gruppe: Skjerming og gradering
+Kilde: Registreres manuelt ved valg fra liste, kan også registres automatisk
+Kommentarer:
+Navn: tilgangsrestriksjon
+Nr: M500
+Obligatorisk/valgfri: Betinget obligatorisk

@@ -1,0 +1,13 @@
+Arkivenhet: journalpost
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Heltall
+Definisjon: Antall fysiske vedlegg til et fysisk hoveddokument
+Forekomster: 0-1
+Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
+Kilde: Registreres manuelt
+Kommentarer:
+Navn: antallVedlegg
+Nr: M304
+Obligatorisk/valgfri: Valgfri

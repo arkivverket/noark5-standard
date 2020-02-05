@@ -1,0 +1,24 @@
+Arkivenhet: arkiv, arkivdel, mappe, registrering, dokumentbeskrivelse
+Arv: Ja
+Avleveres: A
+Betingelser: |-
+  Obligatoriske verdier:
+
+  - "Fysisk arkiv"
+  - "Elektronisk arkiv"
+  - "Blandet fysisk og elektronisk arkiv"
+Datatype: Tekststreng
+Definisjon: Angivelse av om arkivenheten inneholder fysiske dokumenter, elektroniske
+  dokumenter eller en blanding av fysiske og elektroniske dokumenter
+Forekomster: 0-1
+Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
+Kilde: Arves fra overordnet nivå, kan overstyres manuelt
+Kommentarer: Obligatorisk ved blanding av fysisk og elektronisk arkiv. Er hele arkivet
+  enten fysisk eller elektronisk, er det tilstrekkelig med verdi på arkivnivå. Er
+  en hel arkivdel enten fysisk eller elektronisk, er det tilstrekkelig å angi det
+  på arkivdelnivå. Dersom underordnede arkivdeler inneholder både fysiske og elektroniske
+  dokumenter, må informasjon om dette arves nedover i hierarkiet. Se også kommentar
+  til *M208 referanseArkivdel.*
+Navn: dokumentmedium
+Nr: M300
+Obligatorisk/valgfri: Betinget obligatorisk

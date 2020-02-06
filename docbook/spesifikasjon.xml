@@ -5,9 +5,16 @@
 
 <book id="index" lang="nb">
   <bookinfo>
-    <title>Noark 5</title>
-    <subtitle>versjon 5.0</subtitle>
-
+    <title>Noark 5 versjon 5.0</title>
+    <subtitle>Norsk arkivstandard</subtitle>
+    <pubdate>2018-12-06</pubdate>
+    <edition>1</edition>
+    <releaseinfo>git-utgaven</releaseinfo>
+    <authorgroup>
+      <author>
+	<surname>Avdeling for Dokumentasjonsforvaltning</surname>
+      </author>
+    </authorgroup>
     <publisher>
       <publishername>Arkivverket</publishername>
       <address><city>Oslo</city></address>

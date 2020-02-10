@@ -531,21 +531,21 @@ Hele klassifikasjonsstrukturen skal tas med i uttrekket, også klasser som er "u
 |                                                 | Avleveringspakken skal inneholde følgende       |                                                 |                                                 |
 |                                                 | filer:                                          |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  **arkivuttrekk.xml** (dokumentasjon av       |                                                 |                                                 |
-|                                                 |       innholdet i arkivuttrekket)               |                                                 |                                                 |
+|                                                 | - **arkivuttrekk.xml** (dokumentasjon av        |                                                 |                                                 |
+|                                                 |   innholdet i arkivuttrekket)                   |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  **arkivstruktur.xml** (metadata om           |                                                 |                                                 |
-|                                                 |       dokumentene)                              |                                                 |                                                 |
+|                                                 | - **arkivstruktur.xml** (metadata om            |                                                 |                                                 |
+|                                                 |   dokumentene)                                  |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  **endringslogg.xml** (logging av endrede     |                                                 |                                                 |
-|                                                 |       metadata)                                 |                                                 |                                                 |
+|                                                 | - **endringslogg.xml** (logging av endrede      |                                                 |                                                 |
+|                                                 |   metadata)                                     |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | ..                                              |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 |    Dersom avleveringspakken inneholder          |                                                 |                                                 |
-|                                                 |    arkivuttrekk med journalføringspliktig       |                                                 |                                                 |
-|                                                 |    informasjon, skal den i tillegg inneholde    |                                                 |                                                 |
-|                                                 |    følgende filer:                              |                                                 |                                                 |
+|                                                 | Dersom avleveringspakken inneholder             |                                                 |                                                 |
+|                                                 | arkivuttrekk med journalføringspliktig          |                                                 |                                                 |
+|                                                 | informasjon, skal den i tillegg inneholde       |                                                 |                                                 |
+|                                                 | følgende filer:                                 |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | -  **loependeJournal.xml**                      |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
@@ -1179,8 +1179,7 @@ Hensikten med rapporten *arkivoversikt* er å gi en oversikt over hvilke arkivde
 |          |                                                                                       |      |                             |
 |          | *klassifikasjonstype*                                                                 |      |                             |
 |          |                                                                                       |      |                             |
-|          | *tittel                                                                               |      |                             |
-|          | *                                                                                     |      |                             |
+|          | *tittel*                                                                              |      |                             |
 |          |                                                                                       |      |                             |
 |          | Fra *arkivdel:*                                                                       |      |                             |
 |          |                                                                                       |      |                             |

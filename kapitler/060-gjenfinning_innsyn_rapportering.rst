@@ -83,8 +83,8 @@ Bestemmelsene om journaler finnes i arkivforskriften §§ 9 og 10.
 +----------+--------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
 | 2.       | *Rapportens innhold:*                                                                                                    | B    | Obligatorisk for sakarkiv |
 |          |                                                                                                                          |      |                           |
-|          | | Følgende metadataelementer skal være med i rapporten, så fremt de finnes i løsningen:                                  |      |                           |
-|          | | **Saksmappeinformasjon**                                                                                               |      |                           |
+|          | Følgende metadataelementer skal være med i rapporten, så fremt de finnes i løsningen:                                    |      |                           |
+|          | **Saksmappeinformasjon**                                                                                                 |      |                           |
 |          |                                                                                                                          |      |                           |
 |          | Fra *Saksmappe:*                                                                                                         |      |                           |
 |          |                                                                                                                          |      |                           |
@@ -96,15 +96,13 @@ Bestemmelsene om journaler finnes i arkivforskriften §§ 9 og 10.
 |          |                                                                                                                          |      |                           |
 |          | *Saksansvarlig*                                                                                                          |      |                           |
 |          |                                                                                                                          |      |                           |
-|          | *referanseArkivdel                                                                                                       |      |                           |
-|          | *                                                                                                                        |      |                           |
+|          | *referanseArkivdel*                                                                                                      |      |                           |
 |          |                                                                                                                          |      |                           |
 |          | Fra *klasse*                                                                                                             |      |                           |
 |          |                                                                                                                          |      |                           |
 |          | *klasseID og tittel*                                                                                                     |      |                           |
 |          |                                                                                                                          |      |                           |
-|          | **                                                                                                                       |      |                           |
-|          | Journalpostinformasjon**                                                                                                 |      |                           |
+|          | **Journalpostinformasjon**                                                                                               |      |                           |
 |          |                                                                                                                          |      |                           |
 |          | Fra *Journalpost*:                                                                                                       |      |                           |
 |          |                                                                                                                          |      |                           |
@@ -186,9 +184,9 @@ Kravene under er obligatoriske for sakarkivløsninger eller andre løsninger und
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 9.                                              | *Rapportens innhold:*                           | B                                               | Obligatorisk for arkiv underlagt Offentleglova  |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | | Følgende metadataelementer skal være med i    |                                                 |                                                 |
-|                                                 |   rapporten, så fremt de finnes i løsningen:    |                                                 |                                                 |
-|                                                 | | **Saksmappeinformasjon**                      |                                                 |                                                 |
+|                                                 | Følgende metadataelementer skal være med i      |                                                 |                                                 |
+|                                                 | rapporten, så fremt de finnes i løsningen:      |                                                 |                                                 |
+|                                                 | **Saksmappeinformasjon**                        |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | Fra *Saksmappe:*                                |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
@@ -202,8 +200,7 @@ Kravene under er obligatoriske for sakarkivløsninger eller andre løsninger und
 |                                                 | *klasseID* (skrives ikke ut hvis markert som    |                                                 |                                                 |
 |                                                 | avskjermet i løsningen)                         |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | **                                              |                                                 |                                                 |
-|                                                 | Journalpostinformasjon**                        |                                                 |                                                 |
+|                                                 | **Journalpostinformasjon**                      |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | Fra *Journalpost*:                              |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
@@ -230,8 +227,7 @@ Kravene under er obligatoriske for sakarkivløsninger eller andre løsninger und
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | *referanseAvskrivesAvJournalpost*               |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | *referanseAvskriverJournalpost                  |                                                 |                                                 |
-|                                                 | *                                               |                                                 |                                                 |
+|                                                 | *referanseAvskriverJournalpost*                 |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 10.                                             | Rapporten bør i tillegg valgfritt kunne         | V                                               |                                                 |
 |                                                 | inneholde en eller flere av opplysningene       |                                                 |                                                 |
@@ -247,8 +243,7 @@ Kravene under er obligatoriske for sakarkivløsninger eller andre løsninger und
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | *tilgangsrestriksjon*                           |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | *skjermingshjemmel                              |                                                 |                                                 |
-|                                                 | *                                               |                                                 |                                                 |
+|                                                 | *skjermingshjemmel*                             |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | **Journalpostinformasjon**                      |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |

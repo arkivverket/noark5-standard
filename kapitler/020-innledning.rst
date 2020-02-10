@@ -169,11 +169,9 @@ Alle gjeldende krav framgår av kravtabellene. Kravtabellene er satt opp på den
 
 **Type:** Angir type krav. Her brukes:
 
-O (Obligatorisk)
-
-B (Betinget obligatorisk)
-
-V (Valgfritt)
+- O (Obligatorisk)
+- B (Betinget obligatorisk)
+- V (Valgfritt)
 
 **Merknad:** Merknader til kravet, f.eks. betingelser for når kravet er obligatorisk
 

@@ -331,14 +331,13 @@ Prosessrelaterte rettigheter er et verktøy for å angi ulike betingelser for au
 |                                                 | handlingen, for eksempel en av følgende         |                                                 |                                                 |
 |                                                 | personer:                                       |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 12. Hvilken som helst annen autorisert bruker   |                                                 |                                                 |
+|                                                 | - Hvilken som helst annen autorisert bruker     |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 13. En bruker med en konkret angitt rolle (for  |                                                 |                                                 |
-|                                                 |     eksempel ”leder” eller ”kontrollør”)        |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 14. Konkret angitt annen bruker, som er         |                                                 |                                                 |
-|                                                 |     registrert som kontrasignerende på mappe-   |                                                 |                                                 |
-|                                                 |     eller registreringsnivå                     |                                                 |                                                 |
+|                                                 | - En bruker med en konkret angitt rolle (for    |                                                 |                                                 |
+|                                                 |   eksempel ”leder” eller ”kontrollør”)          |                                                 |                                                 |
+|                                                 | - Konkret angitt annen bruker, som er           |                                                 |                                                 |
+|                                                 |   registrert som kontrasignerende på mappe-     |                                                 |                                                 |
+|                                                 |   eller registreringsnivå                       |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 12.                                             | Regler i et regelsett bør kunne uttrykke et     | V                                               |                                                 |
 |                                                 | krav til at partens samtykke innhentes og       |                                                 |                                                 |
@@ -374,29 +373,22 @@ I relativt store virksomheter vil en person, eller en person i en bestemt rolle,
 |                                                 | avgrenses innen angitt element i                |                                                 |                                                 |
 |                                                 | arkivstrukturen, ett av følgende:               |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 15. Hele Noark 5-løsningen                      |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 16. Logisk arkiv                                |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 17. Arkivdel                                    |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 18. Mappe                                       |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 19. Registrering                                |                                                 |                                                 |
+|                                                 | - Hele Noark 5-løsningen                        |                                                 |                                                 |
+|                                                 | - Logisk arkiv                                  |                                                 |                                                 |
+|                                                 | - Arkivdel                                      |                                                 |                                                 |
+|                                                 | - Mappe                                         |                                                 |                                                 |
+|                                                 | - Registrering                                  |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 17.                                             | Tilgangene for en bruker i en rolle bør kunne   | V                                               |                                                 |
 |                                                 | avgrenses innen angitte organisatoriske         |                                                 |                                                 |
 |                                                 | grenser, en av følgende:                        |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 20. Hele virksomheten                           |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 21. Egen administrativ enhet uten underliggende |                                                 |                                                 |
-|                                                 |     enheter                                     |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 22. Egen administrativ enhet og underliggende   |                                                 |                                                 |
-|                                                 |     enheter                                     |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 23. Navngitt annen administrativ enhet          |                                                 |                                                 |
+|                                                 | - Hele virksomheten                             |                                                 |                                                 |
+|                                                 | - Egen administrativ enhet uten underliggende   |                                                 |                                                 |
+|                                                 |   enheter                                       |                                                 |                                                 |
+|                                                 | - Egen administrativ enhet og underliggende     |                                                 |                                                 |
+|                                                 |   enheter                                       |                                                 |                                                 |
+|                                                 | - Navngitt annen administrativ enhet            |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 18.                                             | Tilgangene for en bruker i en rolle bør kunne   | V                                               |                                                 |
 |                                                 | avgrenses til visse klassifiseringsverdier      |                                                 |                                                 |
@@ -412,19 +404,19 @@ I relativt store virksomheter vil en person, eller en person i en bestemt rolle,
 |                                                 | parter. Slike begrensninger kan for eksempel    |                                                 |                                                 |
 |                                                 | gjelde:                                         |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 24. Partens geografiske tilhørighet (bosted,    |                                                 |                                                 |
-|                                                 |     virksomhetsadresse etc.) etter postnummer,  |                                                 |                                                 |
-|                                                 |     kommuner, fylker eller lignende             |                                                 |                                                 |
+|                                                 | - Partens geografiske tilhørighet (bosted,      |                                                 |                                                 |
+|                                                 |   virksomhetsadresse etc.) etter postnummer,    |                                                 |                                                 |
+|                                                 |   kommuner, fylker eller lignende               |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 25. Andre definerte partskategorier, som kan    |                                                 |                                                 |
-|                                                 |     fremgå av eksterne parts- eller             |                                                 |                                                 |
-|                                                 |     avsender/mottakerkataloger, for eksempel    |                                                 |                                                 |
-|                                                 |     næringskategori, sivilstatus, alderstrinn,  |                                                 |                                                 |
-|                                                 |     yrke osv.                                   |                                                 |                                                 |
+|                                                 | - Andre definerte partskategorier, som kan      |                                                 |                                                 |
+|                                                 |   fremgå av eksterne parts- eller               |                                                 |                                                 |
+|                                                 |   avsender/mottakerkataloger, for eksempel      |                                                 |                                                 |
+|                                                 |   næringskategori, sivilstatus, alderstrinn,    |                                                 |                                                 |
+|                                                 |   yrke osv.                                     |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 26. Konkret registrert tilordning av den        |                                                 |                                                 |
-|                                                 |     enkelte part/klient mot en bestemt          |                                                 |                                                 |
-|                                                 |     saksbehandler eller administrativ enhet     |                                                 |                                                 |
+|                                                 | - Konkret registrert tilordning av den          |                                                 |                                                 |
+|                                                 |   enkelte part/klient mot en bestemt            |                                                 |                                                 |
+|                                                 |   saksbehandler eller administrativ enhet       |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 21.                                             | Tilgangene for en bruker i en rolle bør kunne   | V                                               |                                                 |
 |                                                 | avgrenses til graderingskoder som er angitt på  |                                                 |                                                 |

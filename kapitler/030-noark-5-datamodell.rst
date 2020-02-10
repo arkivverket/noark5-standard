@@ -798,10 +798,9 @@ Løsningen må dessuten legge til rette for at administratorer har kontroll på 
    fjernet ved den versjonen. Dokumentbeskrivelse er dermed obligatorisk
    i alle Noark 5-løsninger.
 
-.. [6]
-   Godkjente filformater for arkivdokumenter ved avlevering eller
+.. [6] Godkjente filformater for arkivdokumenter ved avlevering eller
    deponering fremgår av riksarkivarens forskrift § 5-17
-   (`https://lovdata.no/SF/forskrift/2017-12-19-2286/§5-17 <https://lovdata.no/SF/forskrift/2017-12-19-2286/§5-17>`__)
+   ( https://lovdata.no/SF/forskrift/2017-12-19-2286/§5-17 ).
 
 .. [7]
    I tidligere versjoner av standarden var dette kalt sakspart, og kunne

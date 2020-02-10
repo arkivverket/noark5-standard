@@ -578,8 +578,7 @@ Restanselisten er ment å gi en leder informasjon om hvordan restansesituasjonen
 |          |                                                                                                                                                  |      |         |
 |          | Følgende metadataelementer bør være med i rapporten, så fremt de finnes i løsningen:                                                             |      |         |
 |          |                                                                                                                                                  |      |         |
-|          | **                                                                                                                                               |      |         |
-|          | Saksmappeinformasjon**                                                                                                                           |      |         |
+|          | **Saksmappeinformasjon**                                                                                                                         |      |         |
 |          |                                                                                                                                                  |      |         |
 |          | Fra *Saksmappe:*                                                                                                                                 |      |         |
 |          |                                                                                                                                                  |      |         |
@@ -595,8 +594,7 @@ Restanselisten er ment å gi en leder informasjon om hvordan restansesituasjonen
 |          |                                                                                                                                                  |      |         |
 |          | Fra *klasse*                                                                                                                                     |      |         |
 |          |                                                                                                                                                  |      |         |
-|          | *klasseID og tittel                                                                                                                              |      |         |
-|          | *                                                                                                                                                |      |         |
+|          | *klasseID* og *tittel*                                                                                                                           |      |         |
 |          |                                                                                                                                                  |      |         |
 |          | **Journalpostinformasjon**                                                                                                                       |      |         |
 |          |                                                                                                                                                  |      |         |

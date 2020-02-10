@@ -23,11 +23,13 @@ docbook: kapitler/*.rst
 	[ -h docbook/media ] || ln -s ../kapitler/media docbook
 	for m in kapitler/*.rst; do \
             echo "Converting $$m to docbook" ; \
+            basename=$$(basename $$m .rst); \
 	    pandoc \
 		--top-level-division=chapter -f $(PANDOC_TYPE) \
+		--id-prefix id-$$basename- \
 		-t docbook4 $$m \
-		-o docbook/$$(basename $$m .rst).xml; \
-		sed -i 's/ colwidth="[0-9]*\*"//' docbook/$$(basename $$m .rst).xml ; \
+		-o docbook/$$basename.xml; \
+		sed -i 's/ colwidth="[0-9]*\*"//' docbook/$$basename.xml ; \
 	done
 	sed -i -e 's%<chapter%<preface%' -e 's%</chapter%</preface%' docbook/*-forord*.xml
 	sed -i -e 's%<chapter%<appendix%' -e 's%</chapter%</appendix%' docbook/*-vedlegg*.xml

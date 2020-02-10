@@ -33,12 +33,14 @@ Forklaring på metadatatabellen i dette vedlegget:
 
 **Datatype:** I avleveringsuttrekk skilles det mellom følgende datatyper:
 
-**Tekststreng
-Heltall**
+**Tekststreng**
+
+**Heltall**
 
 **Dato**
 
 **Dato og klokkeslett
+
 Vilkårlig struktur** når det er snakk om virksomhetsspesifikke metadata.
 
 Dersom det dreier seg om en referanse til en ID, vil navnet på denne IDen oppgis i dette feltet.
@@ -49,12 +51,13 @@ For hvert objekt er det angitt hvilket overordnet objekt det inngår i (gruppere
 
 I avleveringsformatet er det ikke nødvendig å skille mellom flere enn datatypene ovenfor. Det stilles heller ikke krav til maksimumslengde i avleveringsformatet. Men ved eksport av data som skal importeres inn i et nytt system – f.eks. ved migrering av data fra en Noark 5-løsning til en annen – vil det være aktuelt å sette krav både til flere datatyper (f.eks. ja/nei og desimaltall) og til maksimumslengde.
 
-A. Metadata som inngår i arkivstrukturen
-----------------------------------------
+Metadata som inngår i arkivstrukturen
+-------------------------------------
 
 Metadataene nedenfor skal nøstes inn i hverandre i én samlet, hierarkisk struktur med navn **arkivstruktur.xml** i innleveringspakken. Navnene i kursiv skal brukes som objektnavn, dvs. navn på de overordnede XML-elementene som omslutter objektet. Noen av navnene vil være attributter til XML-elementer.
 
 Metadata for *arkiv*
+~~~~~~~~~~~~~~~~~~~~
 
 Øverste nivå i strukturen.
 
@@ -87,6 +90,7 @@ Merk: En og bare en av objekttypene *arkiv* eller *arkivdel* grupperes inn i *ar
 +---------+------------------+--------------+------------+----------+---------------------+
 
 Metadata for *arkivskaper*
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1-M forekomster av *arkivskaper* grupperes inn i 1-M forekomster av *arkiv*.
 
@@ -101,6 +105,7 @@ Metadata for *arkivskaper*
 +---------+-----------------+--------------+------------+----------+--------------+
 
 Metadata for *arkivdel*
+~~~~~~~~~~~~~~~~~~~~~~~
 
 1-M forekomster av *arkivdel* grupperes inn i 1 forekomst av *arkiv*.
 
@@ -139,6 +144,7 @@ Merk: En og bare en av objekttypene *arkiv* eller *arkivdel* grupperes inn i *ar
 +---------+-----------------------+-------------+------------+----------+---------------------+
 
 Metadata for *klassifikasjonssystem*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *klassifikasjonssystem* grupperes inn i 1-M forekomster av *arkivdel*.
 
@@ -165,6 +171,7 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
 +---------+---------------------+-------------+------------+----------+---------------------+
 
 Metadata for *klasse*
+~~~~~~~~~~~~~~~~~~~~~
 
 1-M forekomster av *klasse* grupperes inn i 1 forekomst av *klassifikasjonssystem*.
 
@@ -195,6 +202,7 @@ Merk: Bare en av objekttypene *klasse*, *mappe* eller *registrering* kan grupper
 +---------+---------------+-------------+------------+----------+---------------------+
 
 Metadata for *mappe*
+~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *mappe* grupperes inn i 0-1 forekomster av *klasse*.
 
@@ -241,6 +249,7 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
 +---------+--------------------------------+---------------------+------------+----------+---------------------+
 
 Metadata for *saksmappe*
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spesialisering av: *mappe*
 
@@ -269,6 +278,7 @@ Spesialisering av: *mappe*
 +---------+-----------------------------------+--------------+------------+----------+-----------------+
 
 Metadata for *moetemappe*
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spesialisering av: *mappe*
 
@@ -289,6 +299,7 @@ Spesialisering av: *mappe*
 +---------+-----------------------+-------------+------------+----------+----------------+
 
 Metadata for *moetedeltaker*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *moetedeltaker* grupperes inn i 1-M forekomst av *moetemappe*.
 
@@ -301,6 +312,7 @@ Metadata for *moetedeltaker*
 +---------+-----------------------+-------------+------------+----------+--------------+
 
 Metadata for *registrering*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *registrering* grupperes inn i 1 forekomst av *mappe*.
 
@@ -349,6 +361,7 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
 +---------+--------------------------------+--------------------------------+------------+----------+---------------------+
 
 Metadata for *korrespondansepart*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *korrespondansepart* grupperes inn i 0-M forekomster av *registrering*.
 
@@ -379,6 +392,7 @@ Metadata for *korrespondansepart*
 +---------+------------------------+----------------------------------------+------------+----------+--------------+
 
 Metadata for *journalpost*
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spesialisering av: *registrering*
 
@@ -417,6 +431,7 @@ Spesialisering av: *registrering*
 +---------+--------------------------+-------------+------------+----------+--------------+
 
 Metadata for *avskrivning*
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *avskrivning* grupperes inn i 1-M forekomster av *journalpost*.
 
@@ -431,10 +446,11 @@ Merk: Grupperes inn in den journalposten som avskrives.
 +---------+----------------------------------+-------------+------------+----------+------------------------+
 | M619    | avskrivningsmaate                | AM.AVSKM    | 1          | A        | Tekststreng            |
 +---------+----------------------------------+-------------+------------+----------+------------------------+
-| M215    | referanseAvskrivesAv Journalpost | AM.AVSKAV   | 0-1        | A        | registrering. systemID |
+| M215    | referanseAvskrivesAv Journalpost | AM.AVSKAV   | 0-1        | A        | registrering.systemID  |
 +---------+----------------------------------+-------------+------------+----------+------------------------+
 
 Metadata for *arkivnotat*
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spesialisering av: *registrering*
 
@@ -459,6 +475,7 @@ Spesialisering av: *registrering*
 +---------+--------------------------+-------------+------------+----------+--------------+
 
 Metadata for *dokumentflyt*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *dokumentflyt* grupperes inn i 1 forekomst av *journalpost*.
 
@@ -481,6 +498,7 @@ Metadata for *dokumentflyt*
 +---------+-----------------+-------------+------------+----------+---------------------+
 
 Metadata for *moeteregistrering*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spesialisering av: *registrering*
 
@@ -497,12 +515,13 @@ Spesialisering av: *registrering*
 +---------+--------------------------------+-------------+------------+----------+-------------------------+
 | M307    | saksbehandler                  | (MD.SBHID)  | 1          | A        | Tekststreng             |
 +---------+--------------------------------+-------------+------------+----------+-------------------------+
-| M223    | referanseTil Moeteregistrering |             | 0-M        | A        | registrering. systemID  |
+| M223    | referanseTil Moeteregistrering |             | 0-M        | A        | registrering.systemID   |
 +---------+--------------------------------+-------------+------------+----------+-------------------------+
-| M224    | referanseFraMoeteregistrering  |             | 0-M        | A        | registrering. system ID |
+| M224    | referanseFraMoeteregistrering  |             | 0-M        | A        | registrering.systemID   |
 +---------+--------------------------------+-------------+------------+----------+-------------------------+
 
 Metadata for *dokumentbeskrivelse*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *dokumentbeskrivelse* grupperes inn i 1-M forekomster av *registrering*.
 
@@ -543,6 +562,7 @@ Merk: En *dokumentbeskrivelse* kan være knyttet til mer enn én enkelt *registr
 +---------+----------------------------+--------------+------------+----------+---------------------+
 
 Metadata for *sletting*
+~~~~~~~~~~~~~~~~~~~~~~~
 
 0-1 forekomster av *sletting* grupperes inn i 0-M forekomster av *dokumentbeskrivelse*.
 
@@ -559,6 +579,7 @@ Merk: Angir at dokumentobjektet som refererer til en eldre versjon av et opprinn
 +---------+---------------+-------------+------------+----------+---------------------+
 
 Metadata for *dokumentobjekt*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *dokumentobjekt* grupperes inn i 1 forekomst av *dokumentbeskrivelse*.
 
@@ -589,6 +610,7 @@ Metadata for *dokumentobjekt*
 +---------+----------------------+-----------------+------------+----------+--------------------------------------------+
 
 Metadata for *konvertering*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *konvertering* grupperes inn i 1 forekomst av *dokumentobjekt*.
 
@@ -608,9 +630,11 @@ Metadata for *konvertering*
 | M715    | konverterings­kommentar |             | 0-1        | A        | Tekststreng         |
 +---------+-------------------------+-------------+------------+----------+---------------------+
 
-**B. Metadata som kan grupperes inn i flere arkivenheter**
+Metadata som kan grupperes inn i flere arkivenheter
+---------------------------------------------------
 
 Metadata for *kryssreferanse*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *kryssreferanse* grupperes inn i 0-1 forekomster av *klasse*.
 
@@ -633,6 +657,7 @@ Merk: Referansen kan gå fra en *klasse* til en annen *klasse*, fra en *mappe* t
 +---------+--------------------------+-------------+------------+----------+-----------------------+
 
 Metadata for *merknad*
+~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *merknad* grupperes inn i 0-M forekomst av *mappe*.
 
@@ -653,6 +678,7 @@ Metadata for *merknad*
 +---------+---------------------+-------------+------------+----------+---------------------+
 
 Metadata for *part*
+~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *part* grupperes inn i 0-M forekomster av *mappe*.
 
@@ -687,7 +713,8 @@ Metadata for *part*
 +---------+--------------------------------+-------------+------------+----------+--------------------+
 
 Metadata for *kassasjon*
-
+~~~~~~~~~~~~~~~~~~~~~~~~
+ 
 0-1 forekomster av *kassasjon* grupperes inn i 0-M forekomster av *arkivdel*.
 
 0-1 forekomster av *kassasjon* grupperes inn i 0-M forekomster av *klasse*.
@@ -717,6 +744,7 @@ Ved avlevering skal metadata om kassasjon arves til (kopieres inn i) alle underl
 +---------+-------------------+-------------+------------+----------+--------------+
 
 Metadata for *utfoertKassasjon*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-1 forekomster av *utfoertKassasjon* grupperes inn i 0-M forekomster av *arkivdel*.
 
@@ -733,6 +761,7 @@ Merk: Ved kassasjon av dokumenter blir dokumentobjektet slettet. Sletting som ik
 +---------+-------------+-------------+------------+----------+---------------------+
 
 Metadata for *skjerming*
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-1 forekomster av *skjerming* grupperes inn i 0-M forekomster av *arkivdel*.
 
@@ -767,6 +796,7 @@ Ved avlevering skal metadata om skjerming være gruppert inn i alle nivåer i ar
 +---------+------------------------+-------------+------------+----------+--------------+
 
 Metadata for *gradering*
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-1 forekomster av *gradering* grupperes inn i 0-M forekomster av *arkivdel*.
 
@@ -795,6 +825,7 @@ Ved avlevering skal metadata om gradering være gruppert inn i alle nivåer i ar
 +---------+-------------------+-------------+------------+----------+---------------------+
 
 Metadata for *presedens*
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *presedens* grupperes inn i 0-M forekomster av *saksmappe*.
 
@@ -829,6 +860,7 @@ Metadata for *presedens*
 +---------+-----------------------+-------------+------------+----------+---------------------+
 
 Metadata for *elektroniskSignatur*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-1 forekomster av *elektroniskSignatur* grupperes inn i 1 forekomst av *journalpost*.
 
@@ -850,15 +882,18 @@ Merk: Elektronisk signatur knyttes til dokumentobjektet i tillegg til dokumentbe
 | M623    | verifisertAv                        | DI.SIGVERAV    | 1          | A        | Tekststreng         |
 +---------+-------------------------------------+----------------+------------+----------+---------------------+
 
-**C. Metadata som avleveres som egne filer**
+Metadata som avleveres som egne filer
+-------------------------------------
 
-**1. Metadata for endringslogg**
+Metadata for endringslogg
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Avleveres som en egen fil kalt **endringslogg.xml**
 
 Øverste nivå i strukturen.
 
 Metadata for *endring*
+**********************
 
 1-M forekomster av *endring* grupperes inn i 1 forekomst av *endringslogg*.
 
@@ -880,13 +915,15 @@ Nærmere spesifikasjon av hvilke endringer som skal logges, følger som et eget 
 | M685    | nyVerdi             |             | 1          | A        | Tekststreng                            |
 +---------+---------------------+-------------+------------+----------+----------------------------------------+
 
-**2. Metadata for loependeJournal**
+Metadata for loependeJournal
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Avleveres som en egen fil kalt **loependeJournal.xml**.
 
 Øverste nivå i strukturen.
 
 Metadata for *journalhode*
+**************************
 
 1 forekomst av *journalhode* grupperes inn i 1 forekomst av *loependeJournal*.
 
@@ -903,6 +940,7 @@ Metadata for *journalhode*
 +---------+---------------------+-------------+------------+----------+--------------+
 
 Metadata for *arkivskaper*
+**************************
 
 1-M forekomster av *arkivskaper* grupperes inn i 1 forekomster av *journalhode*.
 
@@ -917,10 +955,12 @@ Metadata for *arkivskaper*
 +---------+-----------------+--------------+------------+----------+--------------+
 
 Metadata for *journalregistrering*
+**********************************
 
 1-M forekomster av *journalregistrering* grupperes inn i 1 forekomst av *loependeJournal*.
 
 Metadata for *klasse*
+*********************
 
 0-1 forekomster av *klasse* grupperes inn i 1 forekomst av *journalregistrering*.
 
@@ -935,6 +975,7 @@ Metadata for *klasse*
 +---------+-------------------+-------------+------------+----------+--------------+
 
 Metadata for *saksmappe*
+************************
 
 1 forekomst av *saksmappe* grupperes inn i 1 forekomst av *journalregistrering*.
 
@@ -953,6 +994,7 @@ Metadata for *saksmappe*
 +---------+-------------------+--------------+------------+----------+--------------+
 
 Metadata for *journalpost*
+**************************
 
 1 forekomst av *journalpost* grupperes inn i 1 forekomst av *journalregistrering*.
 
@@ -991,6 +1033,7 @@ Metadata for *journalpost*
 +---------+----------------------------------+---------------+------------+----------+--------------+
 
 Metadata for *korrespondansepart*
+*********************************
 
 1-M forekomster av *korrespondansepart* grupperes inn i 1 forekomst av *registrering*.
 
@@ -1004,13 +1047,15 @@ Metadata for *korrespondansepart*
 | M502    | skjermingMetadata      |                                       | 0-1        | A        | Tekststreng  |
 +---------+------------------------+---------------------------------------+------------+----------+--------------+
 
-**3. Metadata for offentligJournal**
+Metadata for offentligJournal
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Avleveres som en egen fil kalt **offentligJournal.xml**.
 
 Øverste nivå i strukturen.
 
 Metadata for *journalhode*
+**************************
 
 1 forekomst av *journalhode* grupperes inn i 1 forekomst av *offentligJournal*.
 
@@ -1027,6 +1072,7 @@ Metadata for *journalhode*
 +---------+---------------------+-------------+------------+----------+--------------+
 
 Metadata for *arkivskaper*
+**************************
 
 1-M forekomster av *arkivskaper* grupperes inn i 1 forekomster av *journalhode*.
 
@@ -1041,10 +1087,12 @@ Metadata for *arkivskaper*
 +---------+-----------------+--------------+------------+----------+--------------+
 
 Metadata for *journalregistrering*
+**********************************
 
 1-M forekomster av *journalregistrering* grupperes inn i 1 forekomst av *offentligJournal*.
 
 Metadata for *klasse*
+*********************
 
 0-1 forekomster av *klasse* grupperes inn i 1 forekomst av *journalregistrering*.
 
@@ -1057,6 +1105,7 @@ Metadata for *klasse*
 +---------+----------+-------------+------------+----------+--------------+
 
 Metadata for *saksmappe*
+************************
 
 1 forekomst av *saksmappe* grupperes inn i 1 forekomst av *journalregistrering*.
 
@@ -1071,6 +1120,7 @@ Metadata for *saksmappe*
 +---------+-------------------+--------------+------------+----------+--------------+
 
 Metadata for *journalpost*
+**************************
 
 1 forekomst av *journalpost* grupperes inn i 1 forekomst av *journalregistrering*.
 
@@ -1107,6 +1157,7 @@ Metadata for *journalpost*
 +---------+----------------------------------+---------------+------------+----------+--------------+
 
 Metadata for *korrespondansepart*
+*********************************
 
 1-M forekomster av *korrespondansepart* grupperes inn i 1 forekomst av *registrering*.
 
@@ -1118,11 +1169,13 @@ Metadata for *korrespondansepart*
 | M400    | korrespondansepartNavn | AM.NAVN                               | 1          | A        | Tekststreng  |
 +---------+------------------------+---------------------------------------+------------+----------+--------------+
 
-**D. Metadata som ikke inngår i arkivstrukturen**
+Metadata som ikke inngår i arkivstrukturen
+------------------------------------------
 
 Disse metadataene inngår ikke i arkivstrukturen, og skal ikke avleveres. Metadataene er tatt med fordi det kan være aktuelt å migrere disse mellom forskjellige systemer eller tjenester, og de kan derfor inngå i forskjellige tjenestegrensesnitt mot Noark 5 kjerne (f.eks. fremtidige Noark 5 webservices).
 
 Metadata for *brukeradministrasjon*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +---------+---------------+-------------+------------+----------+---------------------+
 | **Nr.** | **Navn**      | **Noark 4** | **Forek.** | **Avl.** | **Datatype**        |
@@ -1141,6 +1194,7 @@ Metadata for *brukeradministrasjon*
 +---------+---------------+-------------+------------+----------+---------------------+
 
 Metadata for *administrativEnhet*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Metadata for administrasjonsstruktur skal ikke avleveres, men skal kunne migreres mellom systemer. Slik migrering kan omfatte flere metadata enn det som er listet opp her.
 

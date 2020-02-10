@@ -6,6 +6,7 @@ Ved utarbeidelsen av metadata i Noark 5 er det tatt utgangspunkt i attributtlist
 Metadatakatalogen i Noark 5 har også tatt utgangspunkt i tilsvarende spesifikasjoner (egne vedlegg) i *Moreq2,* samt i *Requirements for Electronic Records Management* utarbeidet av The National Archives i England (TNA). Disse to har mye til felles, men det er også en del forskjeller på hvilke metadata som er tatt med. Metadata i Moreq2 bygger på *ISO 23081 Records Management Processes - Metadata for Records*, mens TNA har tatt utgangspunkt i *Dublin Core.*
 
 Navn på metadataelementer
+-------------------------
 
 Navnene er obligatoriske ved avlevering og utveksling. Internt i systemet og i grensesnittet kan helt andre navn brukes. Følgende prinsipper er brukt når det gjelder navn på metadata:
 
@@ -22,6 +23,7 @@ Navnene er obligatoriske ved avlevering og utveksling. Internt i systemet og i g
 -  De særnorske bokstavene æ, ø og å skal ikke brukes i navnene. De konverteres etter følgende mønster: æ > ae, ø > oe og å > aa. Grunnen til dette er at navn på metadata blir "taggnavn" i XML, og her bør ikke disse bokstavene brukes.
 
 Hovedprinsipper for spesifisering av metadataelementer i Noark 5
+----------------------------------------------------------------
 
 -  Metadataelementene gis en entydig identifikasjon: M etterfulgt av et tresifret nummer.
 
@@ -40,46 +42,36 @@ Hovedprinsipper for spesifisering av metadataelementer i Noark 5
 -  Arkivenhetene klasse, mappe og registrering skal også inneholde en logisk identifikasjon, f.eks. arkivkode og saksnummer.
 
 Grupper av metadata
+-------------------
 
-M001-M019: Identifikasjon
-
-M020-M029: Kjernemetadata (jf. Dublin Core)
-
-M030-M049: Nasjonale identifikatorer
-
-M050-M079: Status
-
-M080-M099: Typer
-
-M100-M199: Datoer
-
-M200-M299: Referanser
-
-M300-M369: Arkiv- og saksbehandlingsfunksjonalitet
-
-M370-M399: Møtebehandling
-
-M400-M449: Korrespondanse
-
-M450-M499: Bevaring og kassasjon
-
-M500-M579: Skjerming og gradering
-
-M580-M599: Brukeradministrasjon og administrativ oppbygning
-
-M600-M659: Logging av hendelser
-
-M660-M679: Logging av arbeidsflyt
-
-M680-M699: Logging av endringer
-
-M700-M799: Tekniske metadata
+* M001-M019: Identifikasjon
+* M020-M029: Kjernemetadata (jf. Dublin Core)
+* M030-M049: Nasjonale identifikatorer
+* M050-M079: Status
+* M080-M099: Typer
+* M100-M199: Datoer
+* M200-M299: Referanser
+* M300-M369: Arkiv- og saksbehandlingsfunksjonalitet
+* M370-M399: Møtebehandling
+* M400-M449: Korrespondanse
+* M450-M499: Bevaring og kassasjon
+* M500-M579: Skjerming og gradering
+* M580-M599: Brukeradministrasjon og administrativ oppbygning
+* M600-M659: Logging av hendelser
+* M660-M679: Logging av arbeidsflyt
+* M680-M699: Logging av endringer
+* M700-M799: Tekniske metadata
 
 Avleveringsuttrekk
+------------------
 
 De aller fleste metadata nedenfor vil inngå i filen arkivstruktur.xml. Men det er også definert metadata som bare inngår i filene *endringslogg.xml, loependeJournal.xml* og *offentligJournal.xml*.
 
+Katalogoppføringer
+------------------
+
 Identifikasjon
+~~~~~~~~~~~~~~
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Nr**                                          | **M001**                                        | **Navn**                                        | **systemID**                                    |
@@ -312,13 +304,13 @@ Identifikasjon
 +--------------------------+-----------------------------------------------------------------+-----------------+-------------+
 | **Obligatorisk/valgfri** | Valgfri                                                         | **Forekomster** | En          |
 +--------------------------+-----------------------------------------------------------------+-----------------+-------------+
-| **Definisjon**           | Inngår i M\ *003 mappeID*. Viser året saksmappen ble opprettet. |                 |             |
+| **Definisjon**           | Inngår i *M003 mappeID*. Viser året saksmappen ble opprettet.   |                 |             |
 +--------------------------+-----------------------------------------------------------------+-----------------+-------------+
 | **Arkivenhet**           | *saksmappe*                                                     |                 |             |
 +--------------------------+-----------------------------------------------------------------+-----------------+-------------+
 | **Kilde**                | Registreres automatisk når saksmappen opprettes                 |                 |             |
 +--------------------------+-----------------------------------------------------------------+-----------------+-------------+
-| **Arv**                  | Kopieres fra M\ *003 mappeID*                                   |                 |             |
+| **Arv**                  | Kopieres fra *M003 mappeID*                                     |                 |             |
 +--------------------------+-----------------------------------------------------------------+-----------------+-------------+
 | **Betingelser**          | Skal ikke kunne endres                                          |                 |             |
 +--------------------------+-----------------------------------------------------------------+-----------------+-------------+
@@ -330,13 +322,13 @@ Identifikasjon
 +--------------------------+---------------------------------------------------------------------------------------------------+-----------------+-----------------------+
 | **Obligatorisk/valgfri** | Valgfri                                                                                           | **Forekomster** | En                    |
 +--------------------------+---------------------------------------------------------------------------------------------------+-----------------+-----------------------+
-| **Definisjon**           | Inngår i M\ *003 mappeID*. Viser rekkefølgen når saksmappen ble opprettet innenfor året.          |                 |                       |
+| **Definisjon**           | Inngår i *M003 mappeID*. Viser rekkefølgen når saksmappen ble opprettet innenfor året.            |                 |                       |
 +--------------------------+---------------------------------------------------------------------------------------------------+-----------------+-----------------------+
 | **Arkivenhet**           | *saksmappe*                                                                                       |                 |                       |
 +--------------------------+---------------------------------------------------------------------------------------------------+-----------------+-----------------------+
 | **Kilde**                | Registreres automatisk når saksmappen opprettes                                                   |                 |                       |
 +--------------------------+---------------------------------------------------------------------------------------------------+-----------------+-----------------------+
-| **Arv**                  | Kopieres fra M\ *003 mappeID*                                                                     |                 |                       |
+| **Arv**                  | Kopieres fra *M003 mappeID*                                                                       |                 |                       |
 +--------------------------+---------------------------------------------------------------------------------------------------+-----------------+-----------------------+
 | **Betingelser**          | Skal ikke kunne endres                                                                            |                 |                       |
 +--------------------------+---------------------------------------------------------------------------------------------------+-----------------+-----------------------+
@@ -422,6 +414,7 @@ Identifikasjon
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
 Kjernemetadata (jf. Dublin Core)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Nr**                                          | **M020**                                        | **Navn**                                        | **tittel**                                      |
@@ -566,6 +559,7 @@ Kjernemetadata (jf. Dublin Core)
 +--------------------------+---------------------------------------------------------------------------------------------------------------------+-----------------+---------------------+
 
 Status
+~~~~~~
 
 +--------------------------+-----------------------------------------------------------------------+-----------------+-----------------+
 | **Nr**                   | **M050**                                                              | **Navn**        | **arkivstatus** |
@@ -582,9 +576,8 @@ Status
 +--------------------------+-----------------------------------------------------------------------+-----------------+-----------------+
 | **Betingelser**          | Obligatoriske verdier:                                                |                 |                 |
 |                          |                                                                       |                 |                 |
-|                          | -  "Opprettet"                                                        |                 |                 |
-|                          |                                                                       |                 |                 |
-|                          | -  "Avsluttet"                                                        |                 |                 |
+|                          | - "Opprettet"                                                         |                 |                 |
+|                          | - "Avsluttet"                                                         |                 |                 |
 |                          |                                                                       |                 |                 |
 |                          | Skifte av status kan bare utføres av autoriserte personer.            |                 |                 |
 +--------------------------+-----------------------------------------------------------------------+-----------------+-----------------+
@@ -606,13 +599,10 @@ Status
 +--------------------------+--------------------------------------------------------------------------+-----------------+--------------------+
 | **Betingelser**          | Obligatoriske verdier:                                                   |                 |                    |
 |                          |                                                                          |                 |                    |
-|                          | -  "Aktiv periode"                                                       |                 |                    |
-|                          |                                                                          |                 |                    |
-|                          | -  "Overlappingsperiode"                                                 |                 |                    |
-|                          |                                                                          |                 |                    |
-|                          | -  "Avsluttet periode"                                                   |                 |                    |
-|                          |                                                                          |                 |                    |
-|                          | -  "Uaktuelle mapper"                                                    |                 |                    |
+|                          | - "Aktiv periode"                                                        |                 |                    |
+|                          | - "Overlappingsperiode"                                                  |                 |                    |
+|                          | - "Avsluttet periode"                                                    |                 |                    |
+|                          | - "Uaktuelle mapper"                                                     |                 |                    |
 |                          |                                                                          |                 |                    |
 |                          | Skifte av status kan bare utføres av autoriserte personer.               |                 |                    |
 +--------------------------+--------------------------------------------------------------------------+-----------------+--------------------+
@@ -634,11 +624,9 @@ Status
 +--------------------------+------------------------------------------------------------------------------------------------------+-----------------+----------------+
 | **Betingelser**          | Obligatoriske verdier:                                                                               |                 |                |
 |                          |                                                                                                      |                 |                |
-|                          | -  "Under behandling"                                                                                |                 |                |
-|                          |                                                                                                      |                 |                |
-|                          | -  "Avsluttet"                                                                                       |                 |                |
-|                          |                                                                                                      |                 |                |
-|                          | -  "Utgår"                                                                                           |                 |                |
+|                          | - "Under behandling"                                                                                 |                 |                |
+|                          | - "Avsluttet"                                                                                        |                 |                |
+|                          | - "Utgår"                                                                                            |                 |                |
 |                          |                                                                                                      |                 |                |
 |                          | Skifte av status kan bare utføres av autoriserte personer.                                           |                 |                |
 +--------------------------+------------------------------------------------------------------------------------------------------+-----------------+----------------+
@@ -660,13 +648,10 @@ Status
 +--------------------------+------------------------------------------------------------------------------------------------------+-----------------+-------------------+
 | **Betingelser**          | Obligatoriske verdier:                                                                               |                 |                   |
 |                          |                                                                                                      |                 |                   |
-|                          | -  "Journalført"                                                                                     |                 |                   |
-|                          |                                                                                                      |                 |                   |
-|                          | -  "Ekspedert"                                                                                       |                 |                   |
-|                          |                                                                                                      |                 |                   |
-|                          | -  "Arkivert"                                                                                        |                 |                   |
-|                          |                                                                                                      |                 |                   |
-|                          | -  "Utgår"                                                                                           |                 |                   |
+|                          | - "Journalført"                                                                                      |                 |                   |
+|                          | - "Ekspedert"                                                                                        |                 |                   |
+|                          | - "Arkivert"                                                                                         |                 |                   |
+|                          | - "Utgår"                                                                                            |                 |                   |
 |                          |                                                                                                      |                 |                   |
 |                          | Skifte av status kan bare utføres av autoriserte personer.                                           |                 |                   |
 +--------------------------+------------------------------------------------------------------------------------------------------+-----------------+-------------------+
@@ -688,9 +673,8 @@ Status
 +--------------------------+-------------------------------------------------------------------------------+-----------------+--------------------+
 | **Betingelser**          | Obligatoriske verdier:                                                        |                 |                    |
 |                          |                                                                               |                 |                    |
-|                          | -  "Dokumentet er under redigering"                                           |                 |                    |
-|                          |                                                                               |                 |                    |
-|                          | -  "Dokumentet er ferdigstilt"                                                |                 |                    |
+|                          | - "Dokumentet er under redigering"                                            |                 |                    |
+|                          | - "Dokumentet er ferdigstilt"                                                 |                 |                    |
 +--------------------------+-------------------------------------------------------------------------------+-----------------+--------------------+
 | **Kommentarer**          | Dokumentbeskrivelser som avlevers skal ha status "Dokumentet er ferdigstilt". |                 |                    |
 +--------------------------+-------------------------------------------------------------------------------+-----------------+--------------------+
@@ -710,11 +694,9 @@ Status
 +--------------------------+------------------------------------------+-----------------+------------------------------+
 | **Betingelser**          | Valgfrie verdier, eksempler:             |                 |                              |
 |                          |                                          |                 |                              |
-|                          | -  "Ferdig behandlet av utvalget"        |                 |                              |
-|                          |                                          |                 |                              |
-|                          | -  "Utsatt til nytt møte i samme utvalg" |                 |                              |
-|                          |                                          |                 |                              |
-|                          | -  "Sendt tilbake til foregående utvalg" |                 |                              |
+|                          | - "Ferdig behandlet av utvalget"         |                 |                              |
+|                          | - "Utsatt til nytt møte i samme utvalg"  |                 |                              |
+|                          | - "Sendt tilbake til foregående utvalg"  |                 |                              |
 +--------------------------+------------------------------------------+-----------------+------------------------------+
 | **Kommentarer**          |                                          |                 |                              |
 +--------------------------+------------------------------------------+-----------------+------------------------------+
@@ -734,14 +716,14 @@ Status
 +--------------------------+--------------------------------------------------------+-----------------+---------------------+
 | **Betingelser**          | Obligatoriske verdier:                                 |                 |                     |
 |                          |                                                        |                 |                     |
-|                          | -  "Gjeldende"                                         |                 |                     |
-|                          |                                                        |                 |                     |
-|                          | -  "Foreldet"                                          |                 |                     |
+|                          | - "Gjeldende"                                          |                 |                     |
+|                          | - "Foreldet"                                           |                 |                     |
 +--------------------------+--------------------------------------------------------+-----------------+---------------------+
 | **Kommentarer**          |                                                        |                 |                     |
 +--------------------------+--------------------------------------------------------+-----------------+---------------------+
 
 Typer
+~~~~~
 
 +--------------------------+--------------------------------------------------+-----------------+---------------------+
 | **Nr**                   | **M082**                                         | **Navn**        | **journalposttype** |
@@ -758,15 +740,11 @@ Typer
 +--------------------------+--------------------------------------------------+-----------------+---------------------+
 | **Betingelser**          | Obligatoriske verdier:                           |                 |                     |
 |                          |                                                  |                 |                     |
-|                          | -  "Inngående dokument"                          |                 |                     |
-|                          |                                                  |                 |                     |
-|                          | -  "Utgående dokument"                           |                 |                     |
-|                          |                                                  |                 |                     |
-|                          | -  "Organinternt dokument for oppfølging"        |                 |                     |
-|                          |                                                  |                 |                     |
-|                          | -  "Organinternt dokument uten oppfølging"       |                 |                     |
-|                          |                                                  |                 |                     |
-|                          | -  "Saksframlegg"                                |                 |                     |
+|                          | - "Inngående dokument"                           |                 |                     |
+|                          | - "Utgående dokument"                            |                 |                     |
+|                          | - "Organinternt dokument for oppfølging"         |                 |                     |
+|                          | - "Organinternt dokument uten oppfølging"        |                 |                     |
+|                          | - "Saksframlegg"                                 |                 |                     |
 +--------------------------+--------------------------------------------------+-----------------+---------------------+
 | **Kommentarer**          | Tilsvarer "Noark dokumenttype" i Noark 4         |                 |                     |
 +--------------------------+--------------------------------------------------+-----------------+---------------------+
@@ -786,13 +764,10 @@ Typer
 +--------------------------+--------------------------------------------------------------+-----------------+------------------+
 | **Betingelser**          | Ingen obligatoriske typer. Aktuelle verdier kan f.eks. være: |                 |                  |
 |                          |                                                              |                 |                  |
-|                          | -  "Brev"                                                    |                 |                  |
-|                          |                                                              |                 |                  |
-|                          | -  "Rundskriv"                                               |                 |                  |
-|                          |                                                              |                 |                  |
-|                          | -  "Faktura"                                                 |                 |                  |
-|                          |                                                              |                 |                  |
-|                          | -  "Ordrebekreftelser"                                       |                 |                  |
+|                          | - "Brev"                                                     |                 |                  |
+|                          | - "Rundskriv"                                                |                 |                  |
+|                          | - "Faktura"                                                  |                 |                  |
+|                          | - "Ordrebekreftelser"                                        |                 |                  |
 +--------------------------+--------------------------------------------------------------+-----------------+------------------+
 | **Kommentarer**          |                                                              |                 |                  |
 +--------------------------+--------------------------------------------------------------+-----------------+------------------+
@@ -812,11 +787,9 @@ Typer
 +--------------------------+--------------------------------------------------------------+-----------------+------------------+
 | **Betingelser**          | Ingen obligatoriske typer. Aktuelle verdier kan f.eks. være: |                 |                  |
 |                          |                                                              |                 |                  |
-|                          | -  "Merknad fra saksbehandler"                               |                 |                  |
-|                          |                                                              |                 |                  |
-|                          | -  "Merknad fra leder"                                       |                 |                  |
-|                          |                                                              |                 |                  |
-|                          | -  "Merknad fra arkivansvarlig"                              |                 |                  |
+|                          | - "Merknad fra saksbehandler"                                |                 |                  |
+|                          | - "Merknad fra leder"                                        |                 |                  |
+|                          | - "Merknad fra arkivansvarlig"                               |                 |                  |
 +--------------------------+--------------------------------------------------------------+-----------------+------------------+
 | **Kommentarer**          |                                                              |                 |                  |
 +--------------------------+--------------------------------------------------------------+-----------------+------------------+
@@ -836,13 +809,10 @@ Typer
 +--------------------------+--------------------------------------------------------------+-----------------+----------------------------+
 | **Betingelser**          | Ingen obligatoriske typer. Aktuelle verdier kan f.eks. være: |                 |                            |
 |                          |                                                              |                 |                            |
-|                          | -  "Møteinnkallelse"                                         |                 |                            |
-|                          |                                                              |                 |                            |
-|                          | -  "Saksliste"                                               |                 |                            |
-|                          |                                                              |                 |                            |
-|                          | -  "Saksframlegg"                                            |                 |                            |
-|                          |                                                              |                 |                            |
-|                          | -  "Vedlegg til møtesak"                                     |                 |                            |
+|                          | - "Møteinnkallelse"                                          |                 |                            |
+|                          | - "Saksliste"                                                |                 |                            |
+|                          | - "Saksframlegg"                                             |                 |                            |
+|                          | - "Vedlegg til møtesak"                                      |                 |                            |
 +--------------------------+--------------------------------------------------------------+-----------------+----------------------------+
 | **Kommentarer**          |                                                              |                 |                            |
 +--------------------------+--------------------------------------------------------------+-----------------+----------------------------+
@@ -862,21 +832,14 @@ Typer
 +--------------------------+----------------------------------------------------------------+-----------------+-------------------------+
 | **Betingelser**          | Ingen obligatoriske typer. Aktuelle verdier kan f.eks. være:   |                 |                         |
 |                          |                                                                |                 |                         |
-|                          | -  "Funksjonsbasert, hierarkisk"                               |                 |                         |
-|                          |                                                                |                 |                         |
-|                          | -  "Emnebasert, hierarkisk arkivnøkkel"                        |                 |                         |
-|                          |                                                                |                 |                         |
-|                          | -  "Emnebasert, ett nivå"                                      |                 |                         |
-|                          |                                                                |                 |                         |
-|                          | -  "K-koder"                                                   |                 |                         |
-|                          |                                                                |                 |                         |
-|                          | -  "Mangefasettert, ikke hierarki"                             |                 |                         |
-|                          |                                                                |                 |                         |
-|                          | -  "Objektbasert"                                              |                 |                         |
-|                          |                                                                |                 |                         |
-|                          | -  "Fødselsnummer"                                             |                 |                         |
-|                          |                                                                |                 |                         |
-|                          | -  "Gårds- og bruksnummer"                                     |                 |                         |
+|                          | - "Funksjonsbasert, hierarkisk"                                |                 |                         |
+|                          | - "Emnebasert, hierarkisk arkivnøkkel"                         |                 |                         |
+|                          | - "Emnebasert, ett nivå"                                       |                 |                         |
+|                          | - "K-koder"                                                    |                 |                         |
+|                          | - "Mangefasettert, ikke hierarki"                              |                 |                         |
+|                          | - "Objektbasert"                                               |                 |                         |
+|                          | - "Fødselsnummer"                                              |                 |                         |
+|                          | - "Gårds- og bruksnummer"                                      |                 |                         |
 +--------------------------+----------------------------------------------------------------+-----------------+-------------------------+
 | **Kommentarer**          |                                                                |                 |                         |
 +--------------------------+----------------------------------------------------------------+-----------------+-------------------------+
@@ -898,17 +861,12 @@ Typer
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Betingelser**                                 | Obligatoriske verdier:                          |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Avsender"                                   |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Mottaker"                                   |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Kopimottaker"                               |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Gruppemottaker"                             |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Intern avsender"                            |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Intern mottaker"                            |                                                 |                                                 |
+|                                                 | - "Avsender"                                    |                                                 |                                                 |
+|                                                 | - "Mottaker"                                    |                                                 |                                                 |
+|                                                 | - "Kopimottaker"                                |                                                 |                                                 |
+|                                                 | - "Gruppemottaker"                              |                                                 |                                                 |
+|                                                 | - "Intern avsender"                             |                                                 |                                                 |
+|                                                 | - "Intern mottaker"                             |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Kommentarer**                                 | Korrespondansetype forekommer én gang innenfor  |                                                 |                                                 |
 |                                                 | objektet korrespondansepart, men denne kan      |                                                 |                                                 |
@@ -930,13 +888,10 @@ Typer
 +--------------------------+-----------------------+-----------------+-------------------+
 | **Betingelser**          | Foreslåtte verdier:   |                 |                   |
 |                          |                       |                 |                   |
-|                          | -  "Politisk sak"     |                 |                   |
-|                          |                       |                 |                   |
-|                          | -  "Delegert møtesak" |                 |                   |
-|                          |                       |                 |                   |
-|                          | -  "Referatsak"       |                 |                   |
-|                          |                       |                 |                   |
-|                          | -  "Interpellasjon"   |                 |                   |
+|                          | - "Politisk sak"      |                 |                   |
+|                          | - "Delegert møtesak"  |                 |                   |
+|                          | - "Referatsak"        |                 |                   |
+|                          | - "Interpellasjon"    |                 |                   |
 +--------------------------+-----------------------+-----------------+-------------------+
 | **Kommentarer**          |                       |                 |                   |
 +--------------------------+-----------------------+-----------------+-------------------+
@@ -956,10 +911,8 @@ Typer
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Betingelser**                                 | Obligatoriske verdier:                          |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Sletting av produksjonsformat"              |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Sletting av tidligere versjon"              |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
+|                                                 | - "Sletting av produksjonsformat"               |                                                 |                                                 |
+|                                                 | - "Sletting av tidligere versjon"               |                                                 |                                                 |
 |                                                 | -  "Sletting av variant med sladdet             |                                                 |                                                 |
 |                                                 |    informasjon"                                 |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -970,6 +923,7 @@ Typer
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
 Datoer
+~~~~~~
 
 +--------------------------+-----------------------------------------------------------+-----------------+--------------+
 | **Nr**                   | **M100**                                                  | **Navn**        | **saksdato** |
@@ -1239,6 +1193,7 @@ Datoer
 +--------------------------+-------------------------------------------------------------------------------------------------------------------+-----------------+----------------------+
 
 Referanser
+~~~~~~~~~~
 
 +--------------------------+----------------------------------------------------------------------------------------------------------+-----------------+------------------------+
 | **Nr**                   | **M202**                                                                                                 | **Navn**        | **referanseForloeper** |
@@ -1407,9 +1362,8 @@ Referanser
 +--------------------------+--------------------------------------------------------------------------------------+-----------------+-------------------------------+
 | **Betingelser**          | Obligatoriske verdier:                                                               |                 |                               |
 |                          |                                                                                      |                 |                               |
-|                          | -  "Hoveddokument"                                                                   |                 |                               |
-|                          |                                                                                      |                 |                               |
-|                          | -  "Vedlegg"                                                                         |                 |                               |
+|                          | - "Hoveddokument"                                                                    |                 |                               |
+|                          | - "Vedlegg"                                                                          |                 |                               |
 +--------------------------+--------------------------------------------------------------------------------------+-----------------+-------------------------------+
 | **Kommentarer**          |                                                                                      |                 |                               |
 +--------------------------+--------------------------------------------------------------------------------------+-----------------+-------------------------------+
@@ -1539,6 +1493,7 @@ Referanser
 +--------------------------+------------------------------------------------------------------------+-----------------+-----------------------------------+
 
 Arkiv- og saksbehandlingsfunksjonalitet
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Nr**                                          | **M300**                                        | **Navn**                                        | **dokumentmedium**                              |
@@ -1559,11 +1514,9 @@ Arkiv- og saksbehandlingsfunksjonalitet
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Betingelser**                                 | Obligatoriske verdier:                          |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Fysisk arkiv"                               |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Elektronisk arkiv"                          |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Blandet fysisk og elektronisk arkiv"        |                                                 |                                                 |
+|                                                 | - "Fysisk arkiv"                                |                                                 |                                                 |
+|                                                 | - "Elektronisk arkiv"                           |                                                 |                                                 |
+|                                                 | - "Blandet fysisk og elektronisk arkiv"         |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Kommentarer**                                 | Obligatorisk ved blanding av fysisk og          |                                                 |                                                 |
 |                                                 | elektronisk arkiv. Er hele arkivet enten fysisk |                                                 |                                                 |
@@ -1644,11 +1597,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
 | **Betingelser**          | Her er det mange tenkelige roller, f.eks.          |                 |               |
 |                          |                                                    |                 |               |
 |                          | -  Klient                                          |                 |               |
-|                          |                                                    |                 |               |
 |                          | -  Pårørende                                       |                 |               |
-|                          |                                                    |                 |               |
 |                          | -  Formynder                                       |                 |               |
-|                          |                                                    |                 |               |
 |                          | -  Advokat                                         |                 |               |
 +--------------------------+----------------------------------------------------+-----------------+---------------+
 | **Kommentarer**          |                                                    |                 |               |
@@ -1861,6 +1811,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
 +--------------------------+------------------------------------------------------------------------------------------------------------------------------------+-----------------+---------------+
 
 Møtebehandling
+~~~~~~~~~~~~~~
 
 +--------------------------+----------------------------------------------------+-----------------+------------+
 | **Nr**                   | **M370**                                           | **Navn**        | **utvalg** |
@@ -1931,14 +1882,14 @@ Møtebehandling
 +--------------------------+--------------------------------------------------------------+-----------------+---------------------------+
 | **Betingelser**          | Ingen obligatoriske typer. Aktuelle verdier kan f.eks. være: |                 |                           |
 |                          |                                                              |                 |                           |
-|                          | -  "Møteleder"                                               |                 |                           |
-|                          |                                                              |                 |                           |
-|                          | -  "Referent"                                                |                 |                           |
+|                          | - "Møteleder"                                                |                 |                           |
+|                          | - "Referent"                                                 |                 |                           |
 +--------------------------+--------------------------------------------------------------+-----------------+---------------------------+
 | **Kommentarer**          |                                                              |                 |                           |
 +--------------------------+--------------------------------------------------------------+-----------------+---------------------------+
 
 Korrespondanse
+~~~~~~~~~~~~~~
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Nr**                                          | **M400**                                        | **Navn**                                        | **korrespondansepartNavn**                      |
@@ -2091,6 +2042,7 @@ Korrespondanse
 +--------------------------+------------------------------------------------------------------------------+-----------------+-------------------+
 
 Bevaring og kassasjon
+~~~~~~~~~~~~~~~~~~~~~
 
 +--------------------------+----------------------------------------------------------------------------------------------------------------------------+-----------------+----------------------+
 | **Nr**                   | **M450**                                                                                                                   | **Navn**        | **kassasjonsvedtak** |
@@ -2107,11 +2059,9 @@ Bevaring og kassasjon
 +--------------------------+----------------------------------------------------------------------------------------------------------------------------+-----------------+----------------------+
 | **Betingelser**          | Obligatoriske verdier:                                                                                                     |                 |                      |
 |                          |                                                                                                                            |                 |                      |
-|                          | -  "Bevares"                                                                                                               |                 |                      |
-|                          |                                                                                                                            |                 |                      |
-|                          | -  "Kasseres",                                                                                                             |                 |                      |
-|                          |                                                                                                                            |                 |                      |
-|                          | -  "Vurderes senere"                                                                                                       |                 |                      |
+|                          | - "Bevares"                                                                                                                |                 |                      |
+|                          | - "Kasseres" ,                                                                                                             |                 |                      |
+|                          | - "Vurderes senere"                                                                                                        |                 |                      |
 +--------------------------+----------------------------------------------------------------------------------------------------------------------------+-----------------+----------------------+
 | **Kommentarer**          |                                                                                                                            |                 |                      |
 +--------------------------+----------------------------------------------------------------------------------------------------------------------------+-----------------+----------------------+
@@ -2171,6 +2121,7 @@ Bevaring og kassasjon
 +--------------------------+---------------------------------------------------------------------------------------------------------------------------+-----------------+-----------------------+
 
 Skjerming og gradering
+~~~~~~~~~~~~~~~~~~~~~~
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Nr**                                          | **M500**                                        | **Navn**                                        | **tilgangsrestriksjon**                         |
@@ -2192,13 +2143,12 @@ Skjerming og gradering
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Betingelser**                                 | Obligatorisk verdi:                             |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Unntatt offentlighet"                       |                                                 |                                                 |
+|                                                 | - "Unntatt offentlighet"                        |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | Valgfrie verdier:                               |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Personalsaker"                              |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Klientsaker"                                |                                                 |                                                 |
+|                                                 | - "Personalsaker"                               |                                                 |                                                 |
+|                                                 | - "Klientsaker"                                 |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
 +--------------------------+------------------------------------------------------------------------------------------------------+-----------------+-----------------------+
@@ -2238,32 +2188,21 @@ Skjerming og gradering
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Betingelser**                                 | Obligatoriske verdier:                          |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Skjerming klasseID"                         |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Skjerming tittel klasse"                    |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
+|                                                 | - "Skjerming klasseID"                          |                                                 |                                                 |
+|                                                 | - "Skjerming tittel klasse"                     |                                                 |                                                 |
 |                                                 | -  "Skjerming tittel mappe - unntatt første     |                                                 |                                                 |
 |                                                 |    linje"                                       |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Skjerming tittel mappe - utvalgte ord"      |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Skjerming navn part i sak"                  |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
+|                                                 | - "Skjerming tittel mappe - utvalgte ord"       |                                                 |                                                 |
+|                                                 | - "Skjerming navn part i sak"                   |                                                 |                                                 |
 |                                                 | -  "Skjerming tittel registrering - unntatt     |                                                 |                                                 |
 |                                                 |    første linje"                                |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
 |                                                 | -  "Skjerming tittel registrering - utvalgte    |                                                 |                                                 |
 |                                                 |    ord"                                         |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Skjerming navn avsender"                    |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Skjerming navn mottaker"                    |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Skjerming tittel dokumentbeskrivelse"       |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Skjerming merknadstekst"                    |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Midlertidig skjerming"                      |                                                 |                                                 |
+|                                                 | - "Skjerming navn avsender"                     |                                                 |                                                 |
+|                                                 | - "Skjerming navn mottaker"                     |                                                 |                                                 |
+|                                                 | - "Skjerming tittel dokumentbeskrivelse"        |                                                 |                                                 |
+|                                                 | - "Skjerming merknadstekst"                     |                                                 |                                                 |
+|                                                 | - "Midlertidig skjerming"                       |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Kommentarer**                                 | Skjerming av klasseID (arkivnøkkel, arkivkode)  |                                                 |                                                 |
 |                                                 | er f.eks. aktuelt når identifikasjonen er et    |                                                 |                                                 |
@@ -2294,9 +2233,8 @@ Skjerming og gradering
 +--------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+-----------------+-----------------------+
 | **Betingelser**          | Obligatoriske verdier:                                                                                                                      |                 |                       |
 |                          |                                                                                                                                             |                 |                       |
-|                          | -  "Skjerming av hele dokumentet"                                                                                                           |                 |                       |
-|                          |                                                                                                                                             |                 |                       |
-|                          | -  "Skjerming av deler av dokumentet"                                                                                                       |                 |                       |
+|                          | - "Skjerming av hele dokumentet"                                                                                                            |                 |                       |
+|                          | - "Skjerming av deler av dokumentet"                                                                                                        |                 |                       |
 +--------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+-----------------+-----------------------+
 | **Kommentarer**          | Dersom deler av dokumentet skal skjermes, må dokumentet også finnes i en variant. Her må all informasjon som skal skjermes, være "sladdet". |                 |                       |
 +--------------------------+---------------------------------------------------------------------------------------------------------------------------------------------+-----------------+-----------------------+
@@ -2360,17 +2298,12 @@ Skjerming og gradering
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | **Betingelser**                                 | Obligatoriske verdier:                          |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Strengt hemmelig (sikkerhetsgrad)"          |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Hemmelig (sikkerhetsgrad)"                  |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Konfidensielt (sikkerhetsgrad)"             |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Begrenset (sikkerhetsgrad)"                 |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Fortrolig (beskyttelsesgrad)"               |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | -  "Strengt fortrolig (beskyttelsesgrad)"       |                                                 |                                                 |
+|                                                 | - "Strengt hemmelig (sikkerhetsgrad)"           |                                                 |                                                 |
+|                                                 | - "Hemmelig (sikkerhetsgrad)"                   |                                                 |                                                 |
+|                                                 | - "Konfidensielt (sikkerhetsgrad)"              |                                                 |                                                 |
+|                                                 | - "Begrenset (sikkerhetsgrad)"                  |                                                 |                                                 |
+|                                                 | - "Fortrolig (beskyttelsesgrad)"                |                                                 |                                                 |
+|                                                 | - "Strengt fortrolig (beskyttelsesgrad)"        |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | Disse verdiene har et hierarkisk forhold seg i  |                                                 |                                                 |
 |                                                 | mellom                                          |                                                 |                                                 |
@@ -2396,13 +2329,10 @@ Skjerming og gradering
 +--------------------------+--------------------------------------------------------------------------------------------------------+-----------------+----------------------------------------+
 | **Betingelser**          | Aktuelle verdier:                                                                                      |                 |                                        |
 |                          |                                                                                                        |                 |                                        |
-|                          | -  "Symmetrisk kryptert"                                                                               |                 |                                        |
-|                          |                                                                                                        |                 |                                        |
-|                          | -  "Sendt med PKI/virksomhetssertifikat"                                                               |                 |                                        |
-|                          |                                                                                                        |                 |                                        |
-|                          | -  "Sendt med PKI/"person standard"-sertifikat"                                                        |                 |                                        |
-|                          |                                                                                                        |                 |                                        |
-|                          | -  "Sendt med PKI/"person høy"-sertifikat"                                                             |                 |                                        |
+|                          | - "Symmetrisk kryptert"                                                                                |                 |                                        |
+|                          | - "Sendt med PKI/virksomhetssertifikat"                                                                |                 |                                        |
+|                          | - "Sendt med PKI/" person standard"-sertifikat"                                                        |                 |                                        |
+|                          | - "Sendt med PKI/" person høy"-sertifikat"                                                             |                 |                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+-----------------+----------------------------------------+
 | **Kommentarer**          |                                                                                                        |                 |                                        |
 +--------------------------+--------------------------------------------------------------------------------------------------------+-----------------+----------------------------------------+
@@ -2422,14 +2352,14 @@ Skjerming og gradering
 +--------------------------+--------------------------------------------------------------------------------------------------+-----------------+-----------------------------------+
 | **Betingelser**          | Obligatoriske verdier:                                                                           |                 |                                   |
 |                          |                                                                                                  |                 |                                   |
-|                          | -  "Signatur påført, ikke verifisert"                                                            |                 |                                   |
-|                          |                                                                                                  |                 |                                   |
-|                          | -  "Signatur påført og verifisert"                                                               |                 |                                   |
+|                          | - "Signatur påført, ikke verifisert"                                                             |                 |                                   |
+|                          | - "Signatur påført og verifisert"                                                                |                 |                                   |
 +--------------------------+--------------------------------------------------------------------------------------------------+-----------------+-----------------------------------+
 | **Kommentarer**          | Dersom signaturen er verifisert, skal det logges hvem som verifiserte den og når det skjedde     |                 |                                   |
 +--------------------------+--------------------------------------------------------------------------------------------------+-----------------+-----------------------------------+
 
 Brukeradministrasjon og administrasjonsstruktur
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +--------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+----------------+
 | **Nr**                   | **M580**                                                                                                                                        | **Navn**        | **brukerNavn** |
@@ -2464,13 +2394,10 @@ Brukeradministrasjon og administrasjonsstruktur
 +--------------------------+---------------------------------------------------------+-----------------+-----------------+
 | **Betingelser**          | Ingen obligatoriske verdier. Aktuelle verdier kan være: |                 |                 |
 |                          |                                                         |                 |                 |
-|                          | -  "Arkivansvarlig"                                     |                 |                 |
-|                          |                                                         |                 |                 |
-|                          | -  "Arkivpersonale"                                     |                 |                 |
-|                          |                                                         |                 |                 |
-|                          | -  "Leder"                                              |                 |                 |
-|                          |                                                         |                 |                 |
-|                          | -  "Saksbehandler"                                      |                 |                 |
+|                          | - "Arkivansvarlig"                                      |                 |                 |
+|                          | - "Arkivpersonale"                                      |                 |                 |
+|                          | - "Leder"                                               |                 |                 |
+|                          | - "Saksbehandler"                                       |                 |                 |
 +--------------------------+---------------------------------------------------------+-----------------+-----------------+
 | **Kommentarer**          |                                                         |                 |                 |
 +--------------------------+---------------------------------------------------------+-----------------+-----------------+
@@ -2490,9 +2417,8 @@ Brukeradministrasjon og administrasjonsstruktur
 +--------------------------+---------------------------------------------------------+-----------------+------------------+
 | **Betingelser**          | Ingen obligatoriske verdier. Aktuelle verdier kan være: |                 |                  |
 |                          |                                                         |                 |                  |
-|                          | -  "Ansatt"                                             |                 |                  |
-|                          |                                                         |                 |                  |
-|                          |    -  "Sluttet"                                         |                 |                  |
+|                          | - "Ansatt"                                              |                 |                  |
+|                          | - "Sluttet"                                             |                 |                  |
 +--------------------------+---------------------------------------------------------+-----------------+------------------+
 | **Kommentarer**          |                                                         |                 |                  |
 +--------------------------+---------------------------------------------------------+-----------------+------------------+
@@ -2534,9 +2460,8 @@ Brukeradministrasjon og administrasjonsstruktur
 +--------------------------+---------------------------------------------------------+-----------------+-------------------------------+
 | **Betingelser**          | Ingen obligatoriske verdier. Aktuelle verdier kan være: |                 |                               |
 |                          |                                                         |                 |                               |
-|                          | -  "Aktiv enhet"                                        |                 |                               |
-|                          |                                                         |                 |                               |
-|                          | -  "Passiv enhet"                                       |                 |                               |
+|                          | - "Aktiv enhet"                                         |                 |                               |
+|                          | - "Passiv enhet"                                        |                 |                               |
 +--------------------------+---------------------------------------------------------+-----------------+-------------------------------+
 | **Kommentarer**          |                                                         |                 |                               |
 +--------------------------+---------------------------------------------------------+-----------------+-------------------------------+
@@ -2560,6 +2485,7 @@ Brukeradministrasjon og administrasjonsstruktur
 +--------------------------+-------------------------------------------------------------+-----------------+------------------------------+
 
 Logging av hendelser
+~~~~~~~~~~~~~~~~~~~~
 
 +--------------------------+------------------------------------------------------------------------------------------------------------------------------+-----------------+-------------------+
 | **Nr**                   | **M600**                                                                                                                     | **Navn**        | **opprettetDato** |
@@ -2856,15 +2782,11 @@ Logging av hendelser
 +--------------------------+--------------------------------------------------+-----------------+-----------------------+
 | **Betingelser**          | Obligatoriske verdier:                           |                 |                       |
 |                          |                                                  |                 |                       |
-|                          | -  "Besvart med brev"                            |                 |                       |
-|                          |                                                  |                 |                       |
-|                          | -  "Besvart med e-post"                          |                 |                       |
-|                          |                                                  |                 |                       |
-|                          | -  "Besvart på telefon"                          |                 |                       |
-|                          |                                                  |                 |                       |
-|                          | -  "Tatt til etterretning"                       |                 |                       |
-|                          |                                                  |                 |                       |
-|                          | -  "Tatt til orientering"                        |                 |                       |
+|                          | - "Besvart med brev"                             |                 |                       |
+|                          | - "Besvart med e-post"                           |                 |                       |
+|                          | - "Besvart på telefon"                           |                 |                       |
+|                          | - "Tatt til etterretning"                        |                 |                       |
+|                          | - "Tatt til orientering"                         |                 |                       |
 +--------------------------+--------------------------------------------------+-----------------+-----------------------+
 | **Kommentarer**          |                                                  |                 |                       |
 +--------------------------+--------------------------------------------------+-----------------+-----------------------+
@@ -3086,6 +3008,7 @@ Logging av hendelser
 +--------------------------+----------------------------------------------+-----------------+---------------+
 
 Logging av arbeidsflyt og saksfordeling
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +--------------------------+--------------------------------------------------------------------------------+-----------------+-------------+
 | **Nr**                   | **M660**                                                                       | **Navn**        | **flytTil** |
@@ -3156,11 +3079,9 @@ Logging av arbeidsflyt og saksfordeling
 +--------------------------+-------------------------------------------------------------------+-----------------+----------------+
 | **Betingelser**          | Anbefalte verdier:                                                |                 |                |
 |                          |                                                                   |                 |                |
-|                          | -  "Godkjent"                                                     |                 |                |
-|                          |                                                                   |                 |                |
-|                          | -  "Ikke godkjent"                                                |                 |                |
-|                          |                                                                   |                 |                |
-|                          | -  "Sendt tilbake til saksbehandler med kommentarer"              |                 |                |
+|                          | - "Godkjent"                                                      |                 |                |
+|                          | - "Ikke godkjent"                                                 |                 |                |
+|                          | - "Sendt tilbake til saksbehandler med kommentarer"               |                 |                |
 +--------------------------+-------------------------------------------------------------------+-----------------+----------------+
 | **Kommentarer**          |                                                                   |                 |                |
 +--------------------------+-------------------------------------------------------------------+-----------------+----------------+
@@ -3202,6 +3123,7 @@ Logging av arbeidsflyt og saksfordeling
 +--------------------------+---------------------------------------------------------------------------------+-----------------+-------------+
 
 Logging av endringer
+~~~~~~~~~~~~~~~~~~~~
 
 +--------------------------+----------------------------------------------------------------------------------------+-----------------+-------------------------+
 | **Nr**                   | **M680**                                                                               | **Navn**        | **referanseArkivenhet** |
@@ -3312,6 +3234,7 @@ Logging av endringer
 +--------------------------+------------------------------------------------+-----------------+-------------+
 
 Tekniske metadata
+~~~~~~~~~~~~~~~~~
 
 +--------------------------+-------------------------------------------------------+-----------------+-------------------+
 | **Nr**                   | **M700**                                              | **Navn**        | **variantformat** |
@@ -3328,11 +3251,9 @@ Tekniske metadata
 +--------------------------+-------------------------------------------------------+-----------------+-------------------+
 | **Betingelser**          | Obligatoriske verdier:                                |                 |                   |
 |                          |                                                       |                 |                   |
-|                          | -  "Produksjonsformat"                                |                 |                   |
-|                          |                                                       |                 |                   |
-|                          | -  "Arkivformat"                                      |                 |                   |
-|                          |                                                       |                 |                   |
-|                          | -  "Dokument hvor deler av innholdet er skjermet"     |                 |                   |
+|                          | - "Produksjonsformat"                                 |                 |                   |
+|                          | - "Arkivformat"                                       |                 |                   |
+|                          | - "Dokument hvor deler av innholdet er skjermet"      |                 |                   |
 |                          |                                                       |                 |                   |
 |                          | Kan ikke endres                                       |                 |                   |
 +--------------------------+-------------------------------------------------------+-----------------+-------------------+

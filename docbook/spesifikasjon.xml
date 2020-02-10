@@ -5,7 +5,14 @@
 
 <book id="index" lang="nb">
   <bookinfo>
-  <title>Noark 5 versjon 5.0</title>
+    <title>Noark 5</title>
+    <subtitle>versjon 5.0</subtitle>
+
+    <publisher>
+      <publishername>Arkivverket</publishername>
+      <address><city>Oslo</city></address>
+    </publisher>
+
     <legalnotice>
       <para>Denne spesifikasjonen faller inn under unntakene i
       åndsverkslovens § 9, og er ikke opphavsrettslig vernet.</para>

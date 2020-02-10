@@ -18,6 +18,9 @@ PLANTUML = java -jar scripts/plantuml.jar
 .puml.svg:
 	$(PLANTUML) -svg -p < $^ > $@.new && mv $@.new $@
 
+kapitler/110-vedlegg_1_metadatakatalog-auto.rst: metadata/*.yaml
+	scripts/metadata2rst $^ > $@
+
 # Draft Docbook based PDF building.  Remove colwidth to let the
 # docbook processors calculate columns widths.  Can pandoc be told to
 # not set colwidth?
@@ -57,6 +60,10 @@ spesifikasjon.epub: docbook images
 	cd $(shell dirname $@); libreoffice --headless --invisible --convert-to pdf $(abspath $^)
 .rst.pdf:
 	pandoc -f $(PANDOC_TYPE) -t latex $^ -o $@
+
+# Rule useful for comparing official XSD with content of spesification
+metadatakatalog.xsd:  metadata/*.yaml
+	scripts/metadata2xsd metadata/*.yaml
 
 .PHONY: docbook
 .SUFFIXES: .rst .pdf .docx .puml .png .svg .epub

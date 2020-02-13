@@ -26,7 +26,11 @@ Overordnet skisse av den konseptuelle modellen for Noark 5:
 
 |image1|
 
-Arkivstruktur
+.. |image1| figure:: ./media/image2.png
+   :width: 5.672in
+   :height: 6.31375in
+
+   Arkivstruktur
 
 Nivåene for *mappe* og *registrerin*\ g er bygd ut ved hjelp av spesialisering av klassene. Eksempler på slike spesialiseringer er *saksmappe* og *journalpost*. Den arkivstrukturen som er skissert gjennom den konseptuelle modellen i dette kapitlet, utgjør hovedstrukturen i Noark 5 og er obligatorisk for sakarkiver.
 
@@ -34,7 +38,11 @@ I enkelte system kan det være behov for en forenklet struktur, og visse nivå i
 
 |image2|
 
-Forenklet arkivstruktur
+.. |image2| figure:: ./media/image3.png
+   :width: 3.67058in
+   :height: 5.032in
+
+   Forenklet arkivstruktur
 
 I et elektronisk arkiv eksisterer ikke mappene som fysiske enheter. Arkivstrukturen i et elektronisk arkiv er bygd opp av forskjellige metadata. Hver enhet i strukturen har sine bestemte metadata, og de forskjellige nivåene er også koblet sammen med metadata. Metadata er altså aggregert på flere nivåer, slik at metadata på øverste nivå vil være knyttet til alle dokumenter i arkivet, mens metadata på laveste nivå bare er knyttet til et enkeltdokument.
 
@@ -81,6 +89,10 @@ En arkivkjerne som kun dekker obligatoriske objekt i datamodellen og de obligato
 
 |image3|
 
+.. |image3| image:: ./media/image4.png
+   :width: 3.56983in
+   :height: 8.472in
+
 Utgangspunktet for definisjonen av metadata har vært kravet til hva som skal inngå i et arkivuttrekk. Men det er også tatt hensyn til metadata som skal kunne utveksles elektronisk sammen med dokumenter, metadata som skal kunne deles ved integrasjon med fagsystemer, og metadata som skal kunne migreres til andre systemer sammen med tilhørende dokumenter.
 
 Metadata blir navngitt på en entydig måte som er nærmere forklart i metadatakatalogen. Metadatanavnene er obligatoriske ved eksport og utveksling av data. Noen metadataelementer skal kunne *arves* fra en overordnet enhet til en underordnet.
@@ -118,7 +130,11 @@ Konseptuell modell for *arkiv* og *arkivdel*
 
 |image4|
 
-arkiv og arkivdel
+.. |image4| figure:: ./media/image5.jpg
+   :width: 6.37708in
+   :height: 6.18819in
+
+   arkiv og arkivdel
 
 Arkiv
 
@@ -227,7 +243,11 @@ Konseptuell modell for *klassifikasjonssystem*
 
 |image5|
 
-klassifikasjonssystem
+.. |image5| figure:: ./media/image6.jpg
+   :width: 5.32418in
+   :height: 6.144in
+
+   klassifikasjonssystem
 
 Klassifikasjonssystem
 
@@ -276,7 +296,11 @@ Konseptuell modell for *mappe*
 
 |image6|
 
-mappestrukturen
+.. |image6| figure:: ./media/image7.jpg
+   :width: 6.37708in
+   :height: 5.89792in
+
+   mappestrukturen
 
 Mappe
 
@@ -332,7 +356,11 @@ Konseptuell modell for *registrering*
 
 |image7|
 
-registrering
+.. |image7| figure:: ./media/image8.jpg
+   :width: 6.37708in
+   :height: 6.41181in
+
+   registrering
 
 Registrering
 
@@ -402,7 +430,11 @@ Konseptuell modell for *dokumentbeskrivelse* og *dokumentobjekt*
 
 |image8|
 
-dokumentbeskrivelse og dokumentobjekt
+.. |image8| figure:: ./media/image9.jpg
+   :width: 5.864in
+   :height: 6.60538in
+
+   dokumentbeskrivelse og dokumentobjekt
 
 Dokumentbeskrivelse
 
@@ -545,7 +577,11 @@ Konseptuell modell for *Skjerming*
 
 |image9|
 
-Skjerming
+.. |image9| figure:: ./media/image10.jpg
+   :width: 5.944in
+   :height: 3.51928in
+
+   Skjerming
 
 +----------+---------------------------------------------------------------------------------------------------------+------+---------+
 | Krav nr. | Funksjonelle krav til *Skjerming*                                                                       | Type | Merknad |
@@ -585,7 +621,11 @@ Konseptuell modell for *Kryssreferanse*
 
 |image10|
 
-Kryssreferanse
+.. |image10| figure:: ./media/image11.jpg
+   :width: 4.96in
+   :height: 3.28398in
+
+   Kryssreferanse
 
 +----------+------------------------------------------------------------------------------------------------------------+------+-----------------------------------------------------------+
 | Krav nr. | Funksjonelle krav til *Kryssreferanse*                                                                     | Type | Merknad                                                   |
@@ -612,7 +652,11 @@ Konseptuell modell for *Merknad*
 
 |image11|
 
-Merknad
+.. |image11| figure:: ./media/image12.jpg
+   :width: 4.672in
+   :height: 3.43911in
+
+   Merknad
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Funksjonelle krav til *Merknad*                 | Type                                            | Merknad                                         |
@@ -640,7 +684,11 @@ Konseptuell modell for *Part*
 
 |image12|
 
-Part
+.. |image12| figure:: ./media/image13.jpg
+   :width: 4.752in
+   :height: 2.9429in
+
+   Part
 
 +----------+-----------------------------------------------------------------------------------------------------------------+------+-----------------------------------------------------+
 | Krav nr. | Krav til *Part*                                                                                                 | Type | Merknad                                             |
@@ -663,7 +711,11 @@ Konseptuell modell for *Presedens*
 
 |image13|
 
-Presedens
+.. |image13| figure:: ./media/image14.jpg
+   :width: 6.37708in
+   :height: 1.91111in
+
+   Presedens
 
 Noark 5 legger opp til at det skal kunne bygges opp et presedensregister med henvisninger til Saksmapper og Journalposter som danner presedens. Registeret bygges opp ved at presedensmetadata knyttes til de arkivenhetene (saker eller journalposter) som danner presedens.
 
@@ -807,43 +859,3 @@ Løsningen må dessuten legge til rette for at administratorer har kontroll på 
    utelukkende knyttes til saksmappe. Fra og med denne versjonen er
    partsbegrepet generalisert, og kan knyttes til flere arkivenheter for
    å øke fleksibiliteten i bruken av ulike typer parter i løsningene.
-
-.. |image1| image:: ./media/image2.png
-   :width: 5.672in
-   :height: 6.31375in
-.. |image2| image:: ./media/image3.png
-   :width: 3.67058in
-   :height: 5.032in
-.. |image3| image:: ./media/image4.jpg
-   :width: 3.56983in
-   :height: 8.472in
-.. |image4| image:: ./media/image5.jpg
-   :width: 6.37708in
-   :height: 6.18819in
-.. |image5| image:: ./media/image6.jpg
-   :width: 5.32418in
-   :height: 6.144in
-.. |image6| image:: ./media/image7.jpg
-   :width: 6.37708in
-   :height: 5.89792in
-.. |image7| image:: ./media/image8.jpg
-   :width: 6.37708in
-   :height: 6.41181in
-.. |image8| image:: ./media/image9.jpg
-   :width: 5.864in
-   :height: 6.60538in
-.. |image9| image:: ./media/image10.jpg
-   :width: 5.944in
-   :height: 3.51928in
-.. |image10| image:: ./media/image11.jpg
-   :width: 4.96in
-   :height: 3.28398in
-.. |image11| image:: ./media/image12.jpg
-   :width: 4.672in
-   :height: 3.43911in
-.. |image12| image:: ./media/image13.jpg
-   :width: 4.752in
-   :height: 2.9429in
-.. |image13| image:: ./media/image14.jpg
-   :width: 6.37708in
-   :height: 1.91111in

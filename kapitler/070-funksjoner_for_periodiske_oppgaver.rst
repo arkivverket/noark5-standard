@@ -18,7 +18,11 @@ Konseptuell modell for *Kassasjon*
 
 |image14|
 
-Kassasjon
+.. |image14| figure:: ./media/image15.jpg
+   :width: 5.32794in
+   :height: 5.256in
+
+   Kassasjon
 
 Overordnede kassasjonsbestemmelser kan settes på arkiv- og klassenivå, og skal da arves nedover i arkivstrukturen til mappe, registrering og dokumentbeskrivelse. Verdiene som arves skal kunne overstyres. Ved deponering/avlevering er det bare kassasjonsvedtak som innebærer kassasjon som skal være med. Det skal altså ikke knyttes opplysninger om kassasjon til arkivenheter hvor alle tilordnede dokumenter skal bevares. Kassasjon kan altså være knyttet en gang til arkivdel, klasse, mappe, registrering og dokumentbeskrivelse.
 
@@ -1233,7 +1237,3 @@ Hensikten med rapporten *arkivoversikt* er å gi en oversikt over hvilke arkivde
 
 .. [17]
    Per 1. mars 2011 er det versjon 8.2 av ADDML som er gjeldende.
-
-.. |image14| image:: ./media/image15.jpg
-   :width: 5.32794in
-   :height: 5.256in

@@ -40,5 +40,6 @@
   <xi:include href="110-vedlegg_1_metadatakatalog.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
   <xi:include href="120-vedlegg_2_metadatakatalog_objektsortert.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
   <xi:include href="130-vedlegg_3_logg_over_endringer.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+  <xi:include href="140-vedlegg_4.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
   <xi:include href="150-vedlegg_5_eksempel_paa_arkivuttrekk.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 </book>

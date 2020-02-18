@@ -93,13 +93,10 @@ Ved elektronisk kommunikasjon er det nødvendig å kunne angi krav til sikkerhet
 |                                                 | elektronisk signatur skal kreves, for inngående |                                                 |                                                 |
 |                                                 | dokumenter:                                     |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 1. Arkiv                                        |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 2. Arkivdel                                     |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 3. Klassifikasjonssystem                        |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 4. Mappe                                        |                                                 |                                                 |
+|                                                 | - Arkiv                                         |                                                 |                                                 |
+|                                                 | - Arkivdel                                      |                                                 |                                                 |
+|                                                 | - Klassifikasjonssystem                         |                                                 |                                                 |
+|                                                 | - Mappe                                         |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 15.                                             | På følgende nivåer i arkivstrukturen bør        | V                                               |                                                 |
 |                                                 | arkivadministrator kunne angi hvilket           |                                                 |                                                 |
@@ -107,13 +104,10 @@ Ved elektronisk kommunikasjon er det nødvendig å kunne angi krav til sikkerhet
 |                                                 | elektronisk signatur skal brukes, ved           |                                                 |                                                 |
 |                                                 | elektronisk utsending av dokumenter:            |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 5. Arkiv                                        |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 6. Arkivdel                                     |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 7. Klassifikasjonssystem                        |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 8. Mappe                                        |                                                 |                                                 |
+|                                                 | - Arkiv                                         |                                                 |                                                 |
+|                                                 | - Arkivdel                                      |                                                 |                                                 |
+|                                                 | - Klassifikasjonssystem                         |                                                 |                                                 |
+|                                                 | - Mappe                                         |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 16.                                             | Noark 5-løsningen skal kunne konfigureres slik  | B                                               | Obligatorisk for arkiver som mottar eller       |
 |                                                 | at alle dokumenter som sendes eller mottas      |                                                 | sender krypterte dokumenter                     |
@@ -269,11 +263,9 @@ Disse kravene alene kan allikevel ikke være styrende for hva alle brukere skal 
 +----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
 | 10.      | Når statusen til en *Saksmappe* settes til avsluttet, skal det på mappenivå ikke være mulig å endre metadataene:                                            | B    | Obligatorisk for sakarkiv |
 |          |                                                                                                                                                             |      |                           |
-|          | 9.  saksdato                                                                                                                                                |      |                           |
-|          |                                                                                                                                                             |      |                           |
-|          | 10. administrativEnhet                                                                                                                                      |      |                           |
-|          |                                                                                                                                                             |      |                           |
-|          | 11. saksansvarlig                                                                                                                                           |      |                           |
+|          | -  saksdato                                                                                                                                                 |      |                           |
+|          | - administrativEnhet                                                                                                                                        |      |                           |
+|          | - saksansvarlig                                                                                                                                             |      |                           |
 +----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
 | 11.      | En avsluttet *Saksmappe* bør kunne åpnes igjen av autoriserte brukere. Åpning av mappe skal logges.                                                         | V    |                           |
 +----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
@@ -562,17 +554,12 @@ Restanselisten er ment å gi en leder informasjon om hvordan restansesituasjonen
 |          |                                                                                                                                                  |      |         |
 |          | Rapporten bør kunne selekteres på følgende metadataelementer                                                                                     |      |         |
 |          |                                                                                                                                                  |      |         |
-|          | • *journaldato* fra *Journalpost* (intervall bør kunne angis) og                                                                                 |      |         |
-|          |                                                                                                                                                  |      |         |
-|          | • journalpost\ *type* fra *Journalpost*                                                                                                          |      |         |
-|          |                                                                                                                                                  |      |         |
-|          | • *journalenhet*                                                                                                                                 |      |         |
-|          |                                                                                                                                                  |      |         |
-|          | • *administrativEnhet* (Her bør det kunne angis om underliggende enheter skal inkluderes).                                                       |      |         |
-|          |                                                                                                                                                  |      |         |
-|          | • *avskrivingsmåte* (Her bør det kunne velges mellom *uavskrevne dokumente*\ r og *uavskrevne* og *foreløpig avskrevne dokumenter* (verdi \***). |      |         |
-|          |                                                                                                                                                  |      |         |
-|          | • *kopimottaker*. Det bør kunne angis om kopimottakere skal inkluderes eller ikke.                                                               |      |         |
+|          | - *journaldato* fra *Journalpost* (intervall bør kunne angis) og                                                                                 |      |         |
+|          | - journalpost\ *type* fra *Journalpost*                                                                                                          |      |         |
+|          | - *journalenhet*                                                                                                                                 |      |         |
+|          | - *administrativEnhet* (Her bør det kunne angis om underliggende enheter skal inkluderes).                                                       |      |         |
+|          | - *avskrivingsmåte* (Her bør det kunne velges mellom *uavskrevne dokumente*\ r og *uavskrevne* og *foreløpig avskrevne dokumenter* (verdi \***). |      |         |
+|          | - *kopimottaker*. Det bør kunne angis om kopimottakere skal inkluderes eller ikke.                                                               |      |         |
 +----------+--------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | 11.      | *Rapportens innhold:*                                                                                                                            | V    |         |
 |          |                                                                                                                                                  |      |         |
@@ -628,17 +615,17 @@ Hensikten med rapporten *Forfallsliste* er å kunne vise dokumenter med en frist
 |          |                                                                                             |      |         |
 |          | Rapporten skal kunne selekteres på følgende metadataelementer                               |      |         |
 |          |                                                                                             |      |         |
-|          | • *journaldato* fra *Journalpost* (intervall skal kunne angis) og                           |      |         |
+|          | - *journaldato* fra *Journalpost* (intervall skal kunne angis) og                           |      |         |
 |          |                                                                                             |      |         |
-|          | • *journalposttype* fra Journalpost                                                         |      |         |
+|          | - *journalposttype* fra Journalpost                                                         |      |         |
 |          |                                                                                             |      |         |
-|          | • *journalenhet*                                                                            |      |         |
+|          | - *journalenhet*                                                                            |      |         |
 |          |                                                                                             |      |         |
-|          | • *administrativEnhet* (Her skal det kunne angis om underliggende enheter skal inkluderes). |      |         |
+|          | - *administrativEnhet* (Her skal det kunne angis om underliggende enheter skal inkluderes). |      |         |
 |          |                                                                                             |      |         |
-|          | • *kopimottaker:* Det skal kunne angis om kopimottakere skal inkluderes eller ikke.         |      |         |
+|          | - *kopimottaker:* Det skal kunne angis om kopimottakere skal inkluderes eller ikke.         |      |         |
 |          |                                                                                             |      |         |
-|          | • *forfallsdato* i *Journalpost* (intervall skal kunne angis),                              |      |         |
+|          | - *forfallsdato* i *Journalpost* (intervall skal kunne angis),                              |      |         |
 +----------+---------------------------------------------------------------------------------------------+------+---------+
 | 15.      | *Rapportens innhold:*                                                                       | V    |         |
 |          |                                                                                             |      |         |

@@ -56,11 +56,9 @@ Arv skal kunne skje videre ned til registrerings- og dokumentbeskrivelsesnivå. 
 |                                                 | Kassasjonsvedtaket skal bestå av følgende       |                                                 |                                                 |
 |                                                 | obligatoriske verdier:                          |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 1. Bevares                                      |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 2. Kasseres                                     |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | 3. Vurderes senere                              |                                                 |                                                 |
+|                                                 | - Bevares                                       |                                                 |                                                 |
+|                                                 | - Kasseres                                      |                                                 |                                                 |
+|                                                 | - Vurderes senere                               |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | Andre verdier kan legges til.                   |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -220,17 +218,13 @@ Hensikten med rapporten *Kassasjonsliste* er todelt, både å være en hjelp i s
 |          |                                                                                            |      |                                                                   |
 |          | Rapporten skal kunne selekteres på følgende metadataelementer i *Saksmappe*:               |      |                                                                   |
 |          |                                                                                            |      |                                                                   |
-|          | • *kassasjonsdato* (intervall skal kunne angis)                                            |      |                                                                   |
+|          | - *kassasjonsdato* (intervall skal kunne angis)                                            |      |                                                                   |
+|          | - *kassasjonsvedtak*                                                                       |      |                                                                   |
+|          | - *administrativEnhet* (Her skal det kunne angis om underliggende enheter skal inkluderes) |      |                                                                   |
 |          |                                                                                            |      |                                                                   |
-|          | • *kassasjonsvedtak*                                                                       |      |                                                                   |
-|          |                                                                                            |      |                                                                   |
-|          | • *administrativEnhet* (Her skal det kunne angis om underliggende enheter skal inkluderes) |      |                                                                   |
-|          |                                                                                            |      |                                                                   |
-|          | • *journalenhet*.                                                                          |      |                                                                   |
-|          |                                                                                            |      |                                                                   |
-|          | • *referanseArkivdel*                                                                      |      |                                                                   |
-|          |                                                                                            |      |                                                                   |
-|          | • *arkivperiodeStartDato* og *arkivperiodeSluttDato* fra arkivdel                          |      |                                                                   |
+|          | - *journalenhet*.                                                                          |      |                                                                   |
+|          | - *referanseArkivdel*                                                                      |      |                                                                   |
+|          | - *arkivperiodeStartDato* og *arkivperiodeSluttDato* fra arkivdel                          |      |                                                                   |
 +----------+--------------------------------------------------------------------------------------------+------+-------------------------------------------------------------------+
 | 29.      | Rapporten skal inneholde følgende opplysninger, så fremt de finnes i løsningen:            | B    | Obligatorisk for løsninger som skal legge til rette for kassasjon |
 |          |                                                                                            |      |                                                                   |
@@ -1079,26 +1073,27 @@ Overføringslisten skal utformes som en avleveringsliste til arkivdepot.Organet 
 |                                                 | Rapporten skal valgfritt kunne selekteres på    |                                                 |                                                 |
 |                                                 | følgende metadataelementer:                     |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | • *arkivperiodeStartDato og                     |                                                 |                                                 |
-|                                                 | arkivperiodeSluttDato* fra *arkivdel* (en eller |                                                 |                                                 |
-|                                                 | flere)\ *,* eller                               |                                                 |                                                 |
+|                                                 | - *arkivperiodeStartDato og                     |                                                 |                                                 |
+|                                                 |   arkivperiodeSluttDato* fra *arkivdel* (en     |                                                 |                                                 |
+|                                                 |   eller flere)\ *,* eller                       |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | • referanse\ *Arkivdel* fra *Saksmappe* (en     |                                                 |                                                 |
-|                                                 | eller flere).                                   |                                                 |                                                 |
+|                                                 | - referanse\ *Arkivdel* fra *Saksmappe* (en     |                                                 |                                                 |
+|                                                 |   eller flere).                                 |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | • *journalenhet* fra *Saksmappe* (en eller      |                                                 |                                                 |
-|                                                 | flere)                                          |                                                 |                                                 |
+|                                                 | - *journalenhet* fra *Saksmappe* (en eller      |                                                 |                                                 |
+|                                                 |   flere)                                        |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | • *administrativEnhet* fra *Saksmappe* (Her     |                                                 |                                                 |
-|                                                 | skal det kunne angis om underliggende enheter   |                                                 |                                                 |
-|                                                 | skal inkluderes.)                               |                                                 |                                                 |
+|                                                 | - *administrativEnhet* fra *Saksmappe* (Her     |                                                 |                                                 |
+|                                                 |   skal det kunne angis om underliggende enheter |                                                 |                                                 |
+|                                                 |   skal inkluderes.)                             |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | • *saksstatus* i *Saksmappe*                    |                                                 |                                                 |
+|                                                 | - *saksstatus* i *Saksmappe*                    |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | • *avskrivningsdato* fra *Journalpost* (Her     |                                                 |                                                 |
-|                                                 | skal også verdien ”tomt felt” kunne angis)      |                                                 |                                                 |
+|                                                 | - *avskrivningsdato* fra *Journalpost* (Her     |                                                 |                                                 |
+|                                                 |   skal også verdien ”tomt felt” kunne angis)    |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | • kassasjonsvedtak                              |                                                 |                                                 |
+|                                                 | - kassasjonsvedtak                              |                                                 |                                                 |
+|                                                 |                                                 |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 2.                                              | *Rapportens innhold:*                           | B                                               | Obligatorisk for løsninger som skal foreta      |
 |                                                 |                                                 |                                                 | bortsetting, avlevering og overføring           |
@@ -1159,9 +1154,8 @@ Hensikten med rapporten *arkivoversikt* er å gi en oversikt over hvilke arkivde
 |          |                                                                                       |      |                             |
 |          | Rapporten skal valgfritt kunne selekteres etter metadataelementene:                   |      |                             |
 |          |                                                                                       |      |                             |
-|          | • *referanseForelder* i *arkivdel,* eller                                             |      |                             |
-|          |                                                                                       |      |                             |
-|          | • *arkivperiodeStartDato og arkivperiodeSluttDato* i *arkivdel*                       |      |                             |
+|          | - *referanseForelder* i *arkivdel,* eller                                             |      |                             |
+|          | - *arkivperiodeStartDato og arkivperiodeSluttDato* i *arkivdel*                       |      |                             |
 +----------+---------------------------------------------------------------------------------------+------+-----------------------------+
 | 2.       | *Rapportens innhold:*                                                                 | B    | Obligatorisk for sakarkiver |
 |          |                                                                                       |      |                             |

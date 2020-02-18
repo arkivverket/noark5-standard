@@ -71,15 +71,11 @@ Bestemmelsene om journaler finnes i arkivforskriften §§ 9 og 10.
 |          |                                                                                                                          |      |                           |
 |          | Rapporten skal valgfritt kunne selekteres på følgende metadataelementer (fra *journalpost* dersom ikke annet er angitt): |      |                           |
 |          |                                                                                                                          |      |                           |
-|          | • *journaldato* (intervall skal kunne angis), eller                                                                      |      |                           |
-|          |                                                                                                                          |      |                           |
-|          | • *løpenummer* (intervall skal kunne angis)                                                                              |      |                           |
-|          |                                                                                                                          |      |                           |
-|          | • *journalposttype* (en eller flere skal kunne velges)                                                                   |      |                           |
-|          |                                                                                                                          |      |                           |
-|          | • *journalenhet* til saksbehandler                                                                                       |      |                           |
-|          |                                                                                                                          |      |                           |
-|          | • *administrativEnhet* til saksbehandler                                                                                 |      |                           |
+|          | - *journaldato* (intervall skal kunne angis), eller                                                                      |      |                           |
+|          | - *løpenummer* (intervall skal kunne angis)                                                                              |      |                           |
+|          | - *journalposttype* (en eller flere skal kunne velges)                                                                   |      |                           |
+|          | - *journalenhet* til saksbehandler                                                                                       |      |                           |
+|          | - *administrativEnhet* til saksbehandler                                                                                 |      |                           |
 +----------+--------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
 | 2.       | *Rapportens innhold:*                                                                                                    | B    | Obligatorisk for sakarkiv |
 |          |                                                                                                                          |      |                           |
@@ -167,11 +163,9 @@ Kravene under er obligatoriske for sakarkivløsninger eller andre løsninger und
 |                                                 | metadataelementer (fra *Journalpost* hvis ikke  |                                                 |                                                 |
 |                                                 | annet er angitt):                               |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | • *journaldato* (intervall skal kunne angis)    |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | • *journalenhet*                                |                                                 |                                                 |
-|                                                 |                                                 |                                                 |                                                 |
-|                                                 | • *administrativEnhet* til saksbehandler        |                                                 |                                                 |
+|                                                 | - *journaldato* (intervall skal kunne angis)    |                                                 |                                                 |
+|                                                 | - *journalenhet*                                |                                                 |                                                 |
+|                                                 | - *administrativEnhet* til saksbehandler        |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 8.                                              | For virksomheter som har tatt i bruk            | B                                               | Obligatorisk for arkiv underlagt Offentleglova  |
 |                                                 | funksjonalitet for midlertidig sperring, skal   |                                                 |                                                 |
@@ -179,7 +173,8 @@ Kravene under er obligatoriske for sakarkivløsninger eller andre løsninger und
 |                                                 | etter journaldato, kunne selekteres etter       |                                                 |                                                 |
 |                                                 | metadataelementet:                              |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | • *offentlighetsvurdert* (jf. *Journalpost*).   |                                                 |                                                 |
+|                                                 | - *offentlighetsvurdert* (jf. *Journalpost*).   |                                                 |                                                 |
+|                                                 |                                                 |                                                 |                                                 |
 |                                                 | Intervall skal kunne angis.                     |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 9.                                              | *Rapportens innhold:*                           | B                                               | Obligatorisk for arkiv underlagt Offentleglova  |
@@ -304,18 +299,18 @@ Noen ganger vil det likevel være helt klart på forhånd at det ikke blir aktue
 |                                                 | følgende begrensninger når tilgangskoden        |                                                 |                                                 |
 |                                                 | benyttes:                                       |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 27. Deler av mappetittelen: Løsningen skal      |                                                 |                                                 |
-|                                                 |     enten tillate skjerming av alt unntatt      |                                                 |                                                 |
-|                                                 |     første del av tittelen (for eksempel første |                                                 |                                                 |
-|                                                 |     linje), eller alternativt skjerming av      |                                                 |                                                 |
-|                                                 |     enkeltord som bruker markerer               |                                                 |                                                 |
+|                                                 | - Deler av mappetittelen: Løsningen skal        |                                                 |                                                 |
+|                                                 |   enten tillate skjerming av alt unntatt        |                                                 |                                                 |
+|                                                 |   første del av tittelen (for eksempel første   |                                                 |                                                 |
+|                                                 |   linje), eller alternativt skjerming av        |                                                 |                                                 |
+|                                                 |   enkeltord som bruker markerer                 |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 28. Klassifikasjon: Dette er primært beregnet   |                                                 |                                                 |
-|                                                 |     på skjerming av objektkoder som er          |                                                 |                                                 |
-|                                                 |     personnavn eller fødselsnummer              |                                                 |                                                 |
+|                                                 | - Klassifikasjon: Dette er primært beregnet     |                                                 |                                                 |
+|                                                 |   på skjerming av objektkoder som er            |                                                 |                                                 |
+|                                                 |   personnavn eller fødselsnummer                |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 29. Opplysninger som identifiserer parter i     |                                                 |                                                 |
-|                                                 |     saken                                       |                                                 |                                                 |
+|                                                 | - Opplysninger som identifiserer parter i       |                                                 |                                                 |
+|                                                 |   saken                                         |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 20.                                             | I tilknytning til en tilgangskode, skal         | O                                               |                                                 |
 |                                                 | følgende opplysninger knyttet til               |                                                 |                                                 |
@@ -324,14 +319,14 @@ Noen ganger vil det likevel være helt klart på forhånd at det ikke blir aktue
 |                                                 | fra arkivet får følgende begrensninger når      |                                                 |                                                 |
 |                                                 | tilgangskoden benyttes:                         |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 30. Deler av innholdsbeskrivelsen: Løsningen    |                                                 |                                                 |
-|                                                 |     skal enten tillate skjerming av alt unntatt |                                                 |                                                 |
-|                                                 |     første del av innholdsbeskrivelsen (for     |                                                 |                                                 |
-|                                                 |     eksempel første linje), eller alternativt   |                                                 |                                                 |
-|                                                 |     skjerming av enkeltord som bruker markerer  |                                                 |                                                 |
+|                                                 | - Deler av innholdsbeskrivelsen: Løsningen      |                                                 |                                                 |
+|                                                 |   skal enten tillate skjerming av alt unntatt   |                                                 |                                                 |
+|                                                 |   første del av innholdsbeskrivelsen (for       |                                                 |                                                 |
+|                                                 |   eksempel første linje), eller alternativt     |                                                 |                                                 |
+|                                                 |   skjerming av enkeltord som bruker markerer    |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 31. Opplysninger som identifiserer avsender     |                                                 |                                                 |
-|                                                 |     og/eller mottaker                           |                                                 |                                                 |
+|                                                 | - Opplysninger som identifiserer avsender       |                                                 |                                                 |
+|                                                 |   og/eller mottaker                             |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 21.                                             | *Dokumentbeskrivelser* knyttet til en           | O                                               |                                                 |
 |                                                 | *registrering* skal kunne skjermes. Det skal    |                                                 |                                                 |
@@ -343,9 +338,9 @@ Noen ganger vil det likevel være helt klart på forhånd at det ikke blir aktue
 |                                                 | dokumenter skal kunne skjermes ved hjelp av     |                                                 |                                                 |
 |                                                 | tilgangskode:                                   |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | 32. alle opplysninger om et dokument,           |                                                 |                                                 |
-|                                                 |     innbefattet ulike formater og versjoner av  |                                                 |                                                 |
-|                                                 |     dokumentet                                  |                                                 |                                                 |
+|                                                 | - alle opplysninger om et dokument,             |                                                 |                                                 |
+|                                                 |   innbefattet ulike formater og versjoner av    |                                                 |                                                 |
+|                                                 |   dokumentet                                    |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 23.                                             | Dersom tilgangskoden er merket med indikasjon   | V                                               |                                                 |
 |                                                 | på at det bare er anledning til å unnta visse   |                                                 |                                                 |

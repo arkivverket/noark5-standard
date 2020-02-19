@@ -3,6 +3,9 @@
 
 <xsl:param name="latex.class.book">arkivverketbook</xsl:param>
 
+<xsl:param name="latex.encoding">utf8</xsl:param>
+<xsl:param name="latex.unicode.use">1</xsl:param>
+
 <xsl:param name="double.sided">1</xsl:param>
 <xsl:param name="page.width">21cm</xsl:param>
 <xsl:param name="page.height">29cm</xsl:param>

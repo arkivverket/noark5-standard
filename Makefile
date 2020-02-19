@@ -35,6 +35,7 @@ docbook: kapitler/*.rst
 	sed -i -e 's%<chapter%<appendix%' -e 's%</chapter%</appendix%' docbook/*-vedlegg*.xml
 DBLATEX_OPTS = \
 	-T simple \
+	-b xetex \
 	-p docbook/pdf.xsl
 spesifikasjon: spesifikasjon.pdf
 spesifikasjon.pdf: docbook images

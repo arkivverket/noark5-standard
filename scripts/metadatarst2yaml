@@ -1,0 +1,185 @@
+#!/usr/bin/python3
+
+import docutils.nodes
+import docutils.parsers.rst
+import docutils.utils
+import docutils.frontend
+import yaml
+
+class MetadataRstVisitor(docutils.nodes.NodeVisitor):
+    entry = {}
+
+    def visit_title(self, node: docutils.nodes.reference) -> None:
+        """Called for "title" nodes to record metadata category."""
+        self.lasttitle = node.astext()
+
+    def visit_table(self, node: docutils.nodes.reference) -> None:
+        """Called for "table" nodes."""
+        self.entry = {
+            'Gruppe': self.lasttitle,
+        }
+
+    def visit_row(self, node: docutils.nodes.reference) -> None:
+        """Called for "table row" nodes."""
+        while node.children:
+            field = node.children.pop(0).astext()
+            if not field:
+                continue
+            # Skip <entry>
+            entry = node.children.pop(0)
+            if not entry.children:
+                # Make sure also empty keys show up in self.entry
+                self.entry[field] = None
+                continue
+            #print(entry)
+            value = str(entry) \
+                .replace('\n', 'xxx') \
+                .replace('<bullet_list bullet="-">', '\n') \
+                .replace('</bullet_list>', '\n') \
+                .replace('<list_item><paragraph>', '- ') \
+                .replace('</paragraph></list_item>', '\n') \
+                .replace('<entry>', '') \
+                .replace('</entry>', '') \
+                .replace('</paragraph><paragraph>', '\n\n') \
+                .replace('<paragraph>', '') \
+                .replace('</paragraph>', '\n') \
+                .replace('xxx', ' ')
+            nostars = (u'Nr', u'Navn', u'Arkivenhet')
+            if field in nostars:
+                value = value \
+                .replace('<strong>', '') \
+                .replace('</strong>', '') \
+                .replace('<emphasis>', '') \
+                .replace('</emphasis>', '')
+            else:
+                value = value \
+                .replace('<strong>', '**') \
+                .replace('</strong>', '**') \
+                .replace('<emphasis>', '*') \
+                .replace('</emphasis>', '*')
+            value = value.strip()
+            if u'Forekomster' == field:
+                if u'En' == value:
+                    value = 1
+                elif u'Mange' == value:
+                    value = '1-M'
+            self.entry[field] = value
+
+    def depart_table(self, node: docutils.nodes.Node) -> None:
+        """Called when leaving a table."""
+        #print(self.entry)
+
+        if self.entry['Nr'] in self.metadata:
+            for field in ('Avleveres', 'Datatype', 'Forekomster'):
+                self.entry[field] = self.metadata[self.entry['Nr']][field]
+        else:
+            for field in ('Avleveres', 'Datatype'):
+                self.entry[field] = '?'
+        filepath = 'metadata/%s.yaml' % self.entry['Nr']
+        import sys
+        sys.stdout.write('.')
+        #print(filepath)
+        def represent_str(self, data):
+            tag = None
+            style = None
+            if '\n- ' in data or '\n\n' in data:
+                style = '|'
+            tag = u'tag:yaml.org,2002:str'
+            return self.represent_scalar(tag, data, style=style)
+        def represent_none(self, _):
+            return self.represent_scalar('tag:yaml.org,2002:null', '')
+        yaml.add_representer(str, represent_str)
+        yaml.add_representer(type(None), represent_none)
+        with open(filepath, 'w') as file:
+            d = yaml.dump(self.entry, file,
+                          allow_unicode=True,
+                          default_flow_style=False)
+        pass
+
+    def unknown_visit(self, node: docutils.nodes.Node) -> None:
+        """Called for all other node types."""
+        pass
+
+    def unknown_departure(self, node: docutils.nodes.Node) -> None:
+        """Called for all other node types."""
+        pass
+
+class MetadataObjSortRstVisitor(docutils.nodes.NodeVisitor):
+    metadata = {}
+
+    def visit_title(self, node: docutils.nodes.reference) -> None:
+        """Called for "title" nodes to record metadata category."""
+        self.lasttitle = node.astext()
+
+    def visit_row(self, node: docutils.nodes.reference) -> None:
+        """Called for "table row" nodes."""
+        field = node.children[0].astext()
+        info = {
+            'Entitet': self.lasttitle.replace('Metadata for ', ''),
+            'Navn': node.children[1].astext().strip(),
+            'Forekomster': node.children[3].astext().strip(),
+            'Avleveres': node.children[4].astext().strip(),
+            'Datatype': node.children[5].astext().strip(),
+        }
+        for attribute in ('Avleveres', 'Datatype', 'Forekomster'):
+            if '' == info[attribute]:
+                info[attribute] = None
+        # Transform 'Tekststreng (filkatalogstruktur + filnavn)' to
+        # 'Tekststreng', but not 'Dato og klokkeslett' to 'Dato'
+        if ' (' in info['Datatype']:
+            info['Datatype'] = info['Datatype'].split(' ')[0]
+        # Transform 'arkivdel.systemID' to 'systemID'
+        if '.' in info['Datatype']:
+            info['Datatype'] = info['Datatype'].split('.')[1]
+
+        if field in self.metadata:
+            for attribute in ('Avleveres', 'Datatype', 'Forekomster'):
+                if self.metadata[field][attribute] != info[attribute]:
+                    print('error: field %s %s change %s from %s in %s to %s in %s' % (
+                        field,
+                        info['Navn'],
+                        attribute,
+                        self.metadata[field][attribute],
+                        self.metadata[field]['Entitet'],
+                        info[attribute],
+                        info['Entitet'],
+                    ))
+        self.metadata[field] = info
+
+    def unknown_visit(self, node: docutils.nodes.Node) -> None:
+        """Called for all other node types."""
+        pass
+
+    def unknown_departure(self, node: docutils.nodes.Node) -> None:
+        """Called for all other node types."""
+        pass
+
+def parse_rst(text: str) -> docutils.nodes.document:
+    parser = docutils.parsers.rst.Parser()
+    components = (docutils.parsers.rst.Parser,)
+    settings = docutils.frontend.OptionParser(components=components).get_default_values()
+    document = docutils.utils.new_document('<rst-doc>', settings=settings)
+    parser.parse(text, document)
+    return document
+
+def main():
+    metadata = None
+    filepath = 'kapitler/120-vedlegg_2_metadatakatalog_objektsortert.rst'
+    with open(filepath) as fh:
+        content = fh.read()
+        doc = parse_rst(content)
+        visitor = MetadataObjSortRstVisitor(doc)
+        doc.walkabout(visitor)
+        metadata = visitor.metadata
+
+    filepath = 'kapitler/110-vedlegg_1_metadatakatalog.rst'
+    with open(filepath) as fh:
+        content = fh.read()
+        doc = parse_rst(content)
+        visitor = MetadataRstVisitor(doc)
+        visitor.metadata = metadata
+        doc.walkabout(visitor)
+    return 0
+
+if __name__ == '__main__':
+    exit(main())

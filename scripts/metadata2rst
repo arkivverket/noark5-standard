@@ -1,0 +1,130 @@
+#!/usr/bin/python3
+
+import argparse
+import re
+import sys
+import tabulate
+import yaml
+
+
+def main():
+    retval = 0
+    required = ('Nr', 'Navn', 'Datatype', 'Avleveres', 'Obligatorisk/valgfri',
+                'Forekomster', 'Definisjon', 'Arkivenhet', 'Kilde')
+    optional = ('Noark 4', 'Arv', 'Betingelser', 'Kommentarer',)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("yamlfile", nargs='+',
+                        help="the metadata YAML file(s) to summarize")
+    parser.add_argument("--verbose", action="store_true",
+                        help="enable debug output")
+    parser.add_argument("--sortonobject", action="store_true",
+                        help="alternative output format, sorted on objects")
+    args = parser.parse_args()
+    metadata = {}
+    puids = {}
+    for filename in args.yamlfile:
+        with open(filename, 'r') as f:
+            info = yaml.load(f)
+            for field in required:
+                if not field in info:
+                    print("error: Missing field %s in %s" % (field, filename),
+                          file=sys.stderr)
+                    retval = 1
+            for field in optional:
+                if field not in info:
+                    info[field] = ""
+            info['filename'] = filename
+            if info['Nr'] in metadata:
+                print("error: duplicate number %s (%s and %s)" % (
+                    info['Nr'], filename, metadata[info['Nr']]['filename']
+                ),
+                      file=sys.stderr)
+            else:
+                number = info['Nr']
+                metadata[number] = info
+    if args.sortonobject:
+        byunit = {}
+        for number in sorted(metadata.keys()):
+            if 'Arkivenhet' in metadata[number] \
+               and '.xml' not in metadata[number]['Arkivenhet'] \
+               and 'Filen' not in metadata[number]['Arkivenhet'] \
+               and 'inngår ikke' not in metadata[number]['Arkivenhet']:
+                units = re.split(r'(, *| og )', metadata[number]['Arkivenhet'])
+                for unit in units:
+                    if not unit in byunit:
+                        byunit[unit] = {}
+                    byunit[unit][number] =metadata[number]
+
+        for unit in byunit:
+            print("By %s" % unit)
+            for number in byunit[unit]:
+                line = []
+                for f in ('Nr', 'Navn', 'Forekomster', 'Avleveres', 'Datatype'):
+                    line.append(byunit[unit][number][f])
+                print(line)
+            print()
+    else:
+        fields = (('Nr', 'Navn'),
+                  ('Obligatorisk/valgfri', 'Forekomster'),
+                  'Definisjon',
+                  'Arkivenhet',
+                  'Kilde',
+                  'Arv',
+                  'Betingelser',
+                  'Kommentarer')
+        # Alternative presentation, only two columns
+        xfields = ('Nr',
+                  'Navn',
+                  'Obligatorisk/valgfri',
+                  'Forekomster',
+                  'Definisjon',
+                  'Arkivenhet',
+                  'Kilde',
+                  'Arv',
+                  'Betingelser',
+                  'Kommentarer')
+        boldvalue = ('Nr', 'Navn')
+        print("""
+Katalogoppføringer
+------------------
+
+""")
+        def mapvalue(field, value):
+            if 'Forekomster' == field:
+                value = {
+                    1: 'En',
+                    '1': 'En',
+                    '0-1': 'En',
+                    '0-M': 'Mange',
+                    '1-M': 'Mange',
+                }[value]
+            if field in boldvalue:
+                value = '**%s**' % value
+            return value
+
+        lastgroup = None
+        for number in sorted(metadata.keys()):
+            table = []
+            for f in fields:
+                if tuple == type(f):
+                    line = []
+                    for field in f:
+                        value = mapvalue(field, metadata[number][field])
+                        line.extend(('**%s**' % field, value))
+                    table.extend([line])
+                else:
+                    value = mapvalue(f, metadata[number][f])
+                    table.extend((('**%s**' % f, value),))
+            if lastgroup != metadata[number]['Gruppe']:
+                g = metadata[number]['Gruppe']
+                print("")
+                print(g)
+                print("~" * len(g))
+                print("")
+                lastgroup = g
+            print(tabulate.tabulate(table, tablefmt='grid'))
+            print()
+    return retval
+
+if '__main__'== __name__:
+    exit(main())

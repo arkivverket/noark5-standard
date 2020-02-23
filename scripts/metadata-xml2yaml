@@ -1,0 +1,72 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+Convert metadata as XML to YAML.
+"""
+from __future__ import print_function
+
+__license__ = 'GNU General Public License v2 or later at users choice'
+__author__ = 'Petter Reinholdtsen'
+
+import sys
+import os
+sys.path.append(os.path.join(sys.path[0],'lib'))
+
+import argparse
+import yaml
+from lxml import etree
+
+class Converter(object):
+    def convert(self):
+        path = "arkiv/metadatakatalog.xml"
+        parser = etree.XMLParser(remove_blank_text=True, remove_comments=True)
+        fh = open(path)
+        tree = etree.parse(fh, parser)
+        fh.close()
+        element = tree.getroot()
+        for sub in element.iterchildren():
+            entry = {
+                'Datatype': '?',
+                'Avleveres': '?',
+            }
+            for line in sub.iterchildren():
+                field = line.tag
+                if 'Obligatorisk' == field:
+                    field = 'Obligatorisk/valgfri'
+                value = line.text
+                if 'Forekomster' == field and 'En' == value:
+                    value = 1
+                if 'Forekomster' == field and 'Mange' == value:
+                    value = '1-M'
+                entry[field] = value
+            def represent_str(self, data):
+                tag = None
+                style = None
+                if '\n- ' in data or '\n\n' in data:
+                    style = '|'
+                tag = u'tag:yaml.org,2002:str'
+                return self.represent_scalar(tag, data, style=style)
+            def represent_none(self, _):
+                return self.represent_scalar('tag:yaml.org,2002:null', '')
+            yaml.add_representer(str, represent_str)
+            yaml.add_representer(type(None), represent_none)
+            with open(r'metadata/%s.yaml' % entry['Nr'], 'w') as file:
+                d = yaml.dump(entry, file,
+                              allow_unicode=True,
+                              default_flow_style=False)
+
+    @staticmethod
+    def main():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--verbose", help="print more debug information",
+                            action="store_true")
+        args = parser.parse_args()
+
+        retval = 0
+        c = Converter()
+        c.convert()
+
+        return retval
+
+if __name__ == '__main__':
+    exit(Converter.main())

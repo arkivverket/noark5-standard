@@ -1,0 +1,129 @@
+#!/usr/bin/python3
+
+import argparse
+import re
+import sys
+import yaml
+import codecs
+from xml.sax.saxutils import escape
+
+class XMLTag(object):
+    def __init__(self, level, fh, tagname, attr=None):
+        self.fh = fh
+        self.tagname = tagname
+        self.attr = attr
+        self.level = level
+
+
+    def __enter__(self):
+        if self.attr:
+            self.fh.write('%s<%s %s>\n' % ('  ' * self.level[0], self.tagname, self.attr))
+        else:
+            self.fh.write('%s<%s>\n' % ('  ' * self.level[0], self.tagname))
+        self.level[0] +=1
+
+
+    def __exit__(self, tpe, value, traceback):
+        self.level[0] -=1
+        self.fh.write('%s</%s>\n' % ('  ' * self.level[0], self.tagname))
+
+
+class XMLFile(object):
+    def __init__(self, fh):
+        self.level = [0] # Using ref to allow XMLTag to update the value
+        self.fh = fh
+        fh.write('<?xml version="1.0" encoding="utf-8"?>\n')
+
+
+    def tag(self, name, attr=None):
+        return XMLTag(self.level, self.fh, name, attr=attr)
+
+
+    def write(self, s):
+        return self.fh.write(s)
+
+
+    def writetag(self, tagname, s="", attr=""):
+        if str == type(s) or unicode == type(s):
+            s = escape(s)
+        if "" != attr:
+            attr = " " + attr
+        if "" != s:
+            self.fh.write('%s<%s%s>%s</%s>\n' % ('  ' * self.level[0], tagname, attr, s, tagname))
+        else:
+            self.fh.write('%s<%s%s/>\n' % ('  ' * self.level[0], tagname, attr))
+
+def main():
+    retval = 0
+    required = ('Nr', 'Navn', 'Datatype', 'Avleveres', 'Obligatorisk/valgfri',
+                'Forekomster', 'Definisjon', 'Arkivenhet', 'Kilde')
+    optional = ('Noark 4', 'Arv', 'Betingelser', 'Kommentarer',)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("yamlfile", nargs='+',
+                        help="the metadata YAML file(s) to summarize")
+    parser.add_argument("--verbose", action="store_true",
+                        help="enable debug output")
+    args = parser.parse_args()
+    metadata = {}
+    puids = {}
+    for filename in args.yamlfile:
+        with open(filename, 'r') as f:
+            info = yaml.load(f)
+            for field in required:
+                if not field in info:
+                    print("error: Missing field %s in %s" % (field, filename),
+                          file=sys.stderr)
+                    retval = 1
+            for field in optional:
+                if field not in info:
+                    info[field] = ""
+            info['filename'] = filename
+            if info['Nr'] in metadata:
+                print("error: duplicate number %s (%s and %s)" % (
+                    info['Nr'], filename, metadata[info['Nr']]['filename']
+                ),
+                      file=sys.stderr)
+            else:
+                number = info['Nr']
+                metadata[number] = info
+    with codecs.open('metadatakatalog.xsd', 'w', encoding='UTF-8') as fh:
+        output = XMLFile(fh)
+        attr = 'xmlns="http://www.arkivverket.no/standarder/noark5/metadatakatalog" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.arkivverket.no/standarder/noark5/metadatakatalog" elementFormDefault="qualified" version="5.0"'
+        with output.tag('xs:schema', attr=attr):
+            output.write("\n")
+            for number in sorted(metadata.keys()):
+                #print(metadata[number])
+                if 'Tekststreng' == metadata[number]['Datatype']:
+                    with output.tag('xs:simpleType', attr='name="%s"' % metadata[number]['Navn']):
+                        with output.tag('xs:annotation'):
+                            output.writetag('xs:documentation', number)
+                        with output.tag('xs:restriction', attr='base="xs:string"'):
+                            if 'Regex' in metadata[number]:
+                                output.writetag('xs:pattern', '', attr='value="%s"' % metadata[number]['Regex'])
+                            else:
+                                output.writetag('xs:minLength', attr='value="1"')
+                if 'Heltall' == metadata[number]['Datatype']:
+                    with output.tag('xs:simpleType', attr='name="%s"' % metadata[number]['Navn']):
+                        with output.tag('xs:annotation'):
+                            output.writetag('xs:documentation', number)
+                        output.writetag('xs:restriction', attr='base="xs:integer"')
+                if 'Dato' == metadata[number]['Datatype']:
+                    with output.tag('xs:simpleType', attr='name="%s"' % metadata[number]['Navn']):
+                        with output.tag('xs:annotation'):
+                            output.writetag('xs:documentation', number)
+                        output.writetag('xs:restriction', attr='base="xs:date"')
+                if 'Dato og klokkeslett' == metadata[number]['Datatype']:
+                    with output.tag('xs:simpleType', attr='name="%s"' % metadata[number]['Navn']):
+                        with output.tag('xs:annotation'):
+                            output.writetag('xs:documentation', number)
+                        output.writetag('xs:restriction', attr='base="xs:dateTime"')
+                if 'systemID' == metadata[number]['Datatype']:
+                    with output.tag('xs:simpleType', attr='name="%s"' % metadata[number]['Navn']):
+                        with output.tag('xs:annotation'):
+                            output.writetag('xs:documentation', number)
+                        output.writetag('xs:restriction', attr='base="systemID"')
+                output.write("\n")
+    return retval
+
+if '__main__'== __name__:
+    exit(main())

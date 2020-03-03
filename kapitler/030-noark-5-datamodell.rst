@@ -31,7 +31,7 @@ Overordnet skisse av den konseptuelle modellen for Noark 5:
 
     *Arkivstruktur*
 
-Nivåene for *mappe* og *registrerin*\ g er bygd ut ved hjelp av spesialisering av klassene. Eksempler på slike spesialiseringer er *saksmappe* og *journalpost*. Den arkivstrukturen som er skissert gjennom den konseptuelle modellen i dette kapitlet, utgjør hovedstrukturen i Noark 5 og er obligatorisk for sakarkiver.
+Nivåene for *mappe* og *registrering* er bygd ut ved hjelp av spesialisering av klassene. Eksempler på slike spesialiseringer er *saksmappe* og *journalpost*. Den arkivstrukturen som er skissert gjennom den konseptuelle modellen i dette kapitlet, utgjør hovedstrukturen i Noark 5 og er obligatorisk for sakarkiver.
 
 I enkelte system kan det være behov for en forenklet struktur, og visse nivå i strukturen kan utgå dersom det ikke er behov for nivået.
 
@@ -425,7 +425,7 @@ Strukturelle krav til registrering
 |                                                 | gjennom *møteregistrering.*                     |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 6.                                              | Det bør være mulig å definere relevante         | V                                               |                                                 |
-|                                                 | tilleggsmetadata for m\ *øteregistrering* i     |                                                 |                                                 |
+|                                                 | tilleggsmetadata for *møteregistrering* i       |                                                 |                                                 |
 |                                                 | tillegg til de metadataene som er definert i    |                                                 |                                                 |
 |                                                 | standarden.                                     |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+

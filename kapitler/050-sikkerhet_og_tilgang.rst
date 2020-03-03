@@ -20,8 +20,9 @@ Sikkerhetskravene i Noark 5 er derfor delt inn i følgende hovedemner:
 
 Sikkerhetskonfigurasjonen er de valg som treffes om hvor strenge krav som stilles for tilgang innen hver arkivdel. Formålet er fleksibilitet, kravene til sikkerhet vil variere fra virksomhet til virksomhet. Rettighetsangivelser er konkret kobling mellom objekter i arkivet og de tjenester, eller alternativt personlige brukere, som har tilgangsrettigheter til dem.
 
-Krav til sikkerhet i kjernen  
-******************************
+Krav til sikkerhet i kjernen
+****************************
+
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | Krav nr. | Krav til sikkerhet i kjernen                                                                                                                                                | Type | Merknad |
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
@@ -44,8 +45,9 @@ Krav til sikkerhet i kjernen
 
 Sikkerhetskonfigurasjonen er unik for hver arkivdel. Hvert av valgene er en angivelse av hvor stor eller liten grad av tillit kjernen skal ha til de eksterne modulene. Det at kjernen har stor grad av tillit til eksterne moduler, betyr ikke nødvendigvis svekket informasjons­sikkerhet, dersom virksomheten har en generelt god sammenheng i sikkerhetstiltakene.
 
-Krav til sikkerhetskonfigurasjon 
-*********************************
+Krav til sikkerhetskonfigurasjon
+********************************
+
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Krav til sikkerhetskonfigurasjon                | Type                                            | Merknad                                         |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -93,8 +95,9 @@ Dersom tilgangsrettigheter arves nedover i hierarkiet som standard, vil man for 
 
 De samme prinsippene for rettighetsangivelser, og forholdet mellom konfigurasjonsvalg og rettighetsangivelser, gjelder også dersom identifisering av hver personlig bruker er valgt for en arkivdel.
 
-Krav til rettighetsangivelser  
-******************************
+Krav til rettighetsangivelser
+*****************************
+
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Krav til rettighetsangivelser                   | Type                                            | Merknad                                         |
 +=================================================+=================================================+=================================================+=================================================+
@@ -136,7 +139,8 @@ Administrativ oppbygging
 Noark 5 legger opp til at administrering av organisasjonsstrukturen skal kunne utføres i eksterne løsninger. For å sikre en forsvarlig arkivering stiller allikevel kjernen visse krav til disse løsningene, og hvordan kjernen skal kunne forholde seg til dem.
 
 Krav til administrativ oppbygging
-***********************************
+*********************************
+
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Kjernens krav til administrativ oppbygging      | Type                                            | Merknad                                         |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -160,7 +164,8 @@ Brukeradministrasjon
 Noark 5 legger opp til at administrasjon av brukerne av løsningen skal kunne utføres i eksterne system. For å sikre en forsvarlig arkivering stiller allikevel kjernen visse krav til disse systemene, og hvordan kjernen skal kunne forholde seg til dem.
 
 Krav til brukeradministrasjon
-***********************************
+*****************************
+
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Kjernens krav til *Brukeradministrasjon*        | Type                                            | Merknad                                         |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -188,7 +193,8 @@ Identifisering av brukere
 For alle eksterne løsninger som skal integreres med Noark 5 kjernen, må brukerne av den eksterne løsningen være individuelt og entydig identifisert og pålogget. Påloggingen kan enten være validert i den aktuelle eksterne løsningen, eller i en integrert, ekstern sikkerhetsløsning. For enkel integrasjon og helhetlig sikkerhetspolicy på tvers av virksomhetenes IT‑systemer anbefales generelt sikkerhetsfunksjoner som legger til rette for brukerkataloger utenfor Noark 5-løsningen.
 
 Krav til identifisering av brukere
-*************************************
+**********************************
+
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Krav til identifisering av brukere              | Type                                            | Merknad                                         |
 +=================================================+=================================================+=================================================+=================================================+
@@ -213,8 +219,9 @@ Krav til identifisering av brukere
 
 Passord har lang tradisjon som minstekrav til autentisering i IT-systemer. Strengere krav til autentisering er imidlertid i ferd med å bli utbredt, særlig for systemer i heterogene miljøer og systemer som slipper til eksterne brukere utenfor systemeiers instruksjonsmyndighet.
 
-Krav til autentiseringsstyrke   
-********************************
+Krav til autentiseringsstyrke
+*****************************
+
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Krav til autentiseringsstyrke                   | Type                                            | Merknad                                         |
 +=================================================+=================================================+=================================================+=================================================+
@@ -238,8 +245,9 @@ Krav til autentiseringsstyrke
 
 Dersom en bruker slutter i jobben, skal som hovedregel vedkommendes tilganger trekkes tilbake. Man kan likevel ha behov for å vite hvem som hadde en gitt tilgang på et gitt tidspunkt, derfor bør ikke identifikatoren fjernes for en person som har hatt tilgang tidligere.
 
-Krav til håndtering av historiske brukeridenter 
-************************************************
+Krav til håndtering av historiske brukeridenter
+***********************************************
+
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Krav til håndtering av historiske brukeridenter | Type                                            | Merknad                                         |
 +=================================================+=================================================+=================================================+=================================================+
@@ -277,8 +285,9 @@ Autorisasjon
 
 Selv om ”need to know” og ”need to protect” er forskjellige prinsipielle utgangspunkt er det formelt mulig å praktisere de samme tillatelser og begrensninger innenfor rammen av begge prinsipper. I praktisk bruk er det likevel viktig å være bevisst hvilken tenkemåte virksomheten har lagt til grunn. Offentleglova, og plikten til å gi innsyn i offentlig journal, er grunnlegende ”need to protect”-orientert. De fleste regelverk som mer spesifikt regulerer informasjons­sikkerhet er ”need to know”-orientert.
 
-Krav til grunnprinsipp for autorisering   
-*****************************************
+Krav til grunnprinsipp for autorisering
+***************************************
+
 +----------+-----------------------------------------------------------------------------------------------------------+------+---------------------------------------------------------+
 | Krav nr. | Krav til grunnprinsipp for autorisering                                                                   | Type | Merknad                                                 |
 +==========+===========================================================================================================+======+=========================================================+
@@ -291,8 +300,9 @@ Autorisasjoner er satt sammen av to hovedkomponenter: Den første komponenten er
 
 En *rolle* er et begrep innen tilgangskontroll som grupperer likeartede arbeidsoppgaver, slik at autorisasjonen kan tildeles flere personer med samme rolle istedenfor at autorisasjonene tildeles direkte til hver enkelt person. Det bør også kunne angis ulike former for sammenheng mellom roller. For eksempel vil det i en del virksomheter være slik at en person som har rollen ”leder” for en enhet trenger tilgang til samme informasjon som alle sine underordnede. En slik mulighet for å arve tilganger fra en rolle til en annen er imidlertid ikke universell for alle relasjoner mellom leder og underordnet i en hver virksomhet. Eventuelle sammenhenger som skal gjelde mellom ulike roller må forankres i arkivskapers egen sikkerhetspolicy.
 
-Krav til funksjonelle roller     
-*******************************
+Krav til funksjonelle roller
+****************************
+
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Krav til funksjonelle roller                    | Type                                            | Merknad                                         |
 +=================================================+=================================================+=================================================+=================================================+
@@ -316,8 +326,9 @@ Krav til funksjonelle roller
 
 Prosessrelaterte rettigheter er et verktøy for å angi ulike betingelser for autorisasjon til å utføre en bestemt handling. Et eksempel kan være at virksomhetens sikkerhetspolicy krever at man har en bestemt rolle (for eksempel ”leder”) for å endre status på en registrering eller en mappe til ”avsluttet”.
 
-Krav til prosessrelaterte funksjonelle rettigheter og begrensninger  
-********************************************************************
+Krav til prosessrelaterte funksjonelle rettigheter og begrensninger
+*******************************************************************
+
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Krav til prosessrelaterte funksjonelle          | Type                                            | Merknad                                         |
 |                                                 | rettigheter og begrensninger                    |                                                 |                                                 |
@@ -383,8 +394,9 @@ Krav til prosessrelaterte funksjonelle rettigheter og begrensninger
 
 I relativt store virksomheter vil en person, eller en person i en bestemt rolle, som hovedregel bare være autorisert for tilgang til en avgrenset del av opplysningene i løsningen. Slike avgrensninger kan betegnes som autorisasjonens ”nedslagsfelt”, og bør kunne angis på ulike måter avhengig av virksomhetens art.
 
-Krav til avgrensninger av autorisasjonenes nedslagsfelt, tilganger til data  
-********************************************************************************
+Krav til avgrensninger av autorisasjonenes nedslagsfelt, tilganger til data
+***************************************************************************
+
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Krav til avgrensninger av autorisasjonenes      | Type                                            | Merknad                                         |
 |                                                 | nedslagsfelt, tilganger til data                |                                                 |                                                 |
@@ -457,8 +469,9 @@ Krav til avgrensninger av autorisasjonenes nedslagsfelt, tilganger til data
 
 Den faktiske autorisasjonen, for den enkelte bruker, er uttrykt gjennom en kombinasjon av vedkommendes funksjonelle rettigheter og det nedslagsfeltet eller de nedslagsfeltene som den funksjonelle rettigheten skal gjelde for. En kombinasjon av funksjonell rolle og nedslagsfelt betegnes i dette kravsettet som en ”tilgangsprofil”.
 
-Krav til tilgangsprofiler      
-***************************
+Krav til tilgangsprofiler
+*************************
+
 +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | Krav nr. | Krav til tilgangsprofiler                                                                                                                                                          | Type | Merknad |
 +==========+====================================================================================================================================================================================+======+=========+
@@ -473,10 +486,9 @@ Krav til tilgangsprofiler
 | 28.      | Det bør være mulig å definere tilgangsprofiler som er slik at samme bruker kan ha definert forskjellige nedslagsfelter for en eller flere av sine roller                           | V    |         |
 +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 
-.. _section-1:
-
 Krav til tidsavgrensing og autorisasjonshistorie
-*************************************************
+************************************************
+
 +----------+-------------------------------------------------------------------------------------------------------------------------------------------+------+-------------------------------------------+
 | Krav nr. | Krav til tidsavgrensing og autorisasjonshistorie                                                                                          | Type | Merknad                                   |
 +==========+===========================================================================================================================================+======+===========================================+
@@ -487,8 +499,9 @@ Krav til tidsavgrensing og autorisasjonshistorie
 | 31.      | Tilgangsrettigheter bør kunne begrenses til en angitt tidssyklus, for eksempel tider på døgnet, dager i uka, kun arbeidsdager og lignende | V    |                                           |
 +----------+-------------------------------------------------------------------------------------------------------------------------------------------+------+-------------------------------------------+
 
-Krav til synliggjøring av brukeres autorisasjon 
-************************************************
+Krav til synliggjøring av brukeres autorisasjon
+***********************************************
+
 +----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | Krav nr. | Krav til synliggjøring av brukeres autorisasjon                                                                                                                            | Type | Merknad |
 +==========+============================================================================================================================================================================+======+=========+

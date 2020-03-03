@@ -30,7 +30,7 @@ Overordnet skisse av den konseptuelle modellen for Noark 5:
    :width: 5.672in
    :height: 6.31375in
 
-   Arkivstruktur
+   *Arkivstruktur*
 
 Nivåene for *mappe* og *registrerin*\ g er bygd ut ved hjelp av spesialisering av klassene. Eksempler på slike spesialiseringer er *saksmappe* og *journalpost*. Den arkivstrukturen som er skissert gjennom den konseptuelle modellen i dette kapitlet, utgjør hovedstrukturen i Noark 5 og er obligatorisk for sakarkiver.
 
@@ -42,7 +42,7 @@ I enkelte system kan det være behov for en forenklet struktur, og visse nivå i
    :width: 3.67058in
    :height: 5.032in
 
-   Forenklet arkivstruktur
+   *Forenklet arkivstruktur*
 
 I et elektronisk arkiv eksisterer ikke mappene som fysiske enheter. Arkivstrukturen i et elektronisk arkiv er bygd opp av forskjellige metadata. Hver enhet i strukturen har sine bestemte metadata, og de forskjellige nivåene er også koblet sammen med metadata. Metadata er altså aggregert på flere nivåer, slik at metadata på øverste nivå vil være knyttet til alle dokumenter i arkivet, mens metadata på laveste nivå bare er knyttet til et enkeltdokument.
 
@@ -92,6 +92,8 @@ En arkivkjerne som kun dekker obligatoriske objekt i datamodellen og de obligato
 .. |image3| image:: ./media/image4.jpg
    :width: 3.56983in
    :height: 8.472in
+   
+   *Arkivhjerne med obligatoriskekrav*
 
 Utgangspunktet for definisjonen av metadata har vært kravet til hva som skal inngå i et arkivuttrekk. Men det er også tatt hensyn til metadata som skal kunne utveksles elektronisk sammen med dokumenter, metadata som skal kunne deles ved integrasjon med fagsystemer, og metadata som skal kunne migreres til andre systemer sammen med tilhørende dokumenter.
 
@@ -134,15 +136,15 @@ Konseptuell modell for *arkiv* og *arkivdel*
    :width: 6.37708in
    :height: 6.18819in
 
-   arkiv og arkivdel
+   *arkiv og arkivdel*
 
-Arkiv
+**Arkiv**
 
 Et arkiv består normalt av dokumenter som blir til som ledd i én virksomhet, dvs. dokumenter som mottas eller produseres av en enkelt arkivskaper og samles som resultat av dennes virksomhet. Arkiv er det øverste nivået i arkivstrukturen. De fleste virksomheter vil kun ha behov for å opprette ett arkiv i sin Noark 5-løsning. Men det skal være mulig å opprette flere arkiver. Det kan være aktuelt dersom flere organ deler samme løsning. En Noark-løsning kan derfor omfatte ett eller flere arkiver.
 
 Arkiv er obligatorisk i et arkivuttrekk.
 
-Arkivskaper
+**Arkivskaper**
 
 Tradisjonelt har et arkiv blitt definert etter *organisasjon*. En arkivskaper er en organisatorisk enhet eller en person som danner arkiv som ledd i sin virksomhet. En arkivskaper kan være et offentlig organ, en bedrift, en organisasjon, en institusjon, en stiftelse osv., eller en del av en slik enhet. Et offentlig organ kan være én arkivskaper og dermed ha ett arkiv (sentralisert arkiv), eller det kan utgjøre flere arkivskapere (avdelinger, etater i en kommune) som skaper hvert sitt arkiv (desentralisert arkiv).
 
@@ -150,13 +152,13 @@ Digitaliseringen har ført til at det blir stadig vanligere at flere arkivskaper
 
 Informasjon om arkivskapere er obligatorisk i arkivuttrekk.
 
-Underarkiv
+**Underarkiv**
 
 Det er i enkelte tilfeller behov for et ekstra nivå mellom arkiv og arkivdel. Det er særlig for fysiske arkiver innenfor kommunesektoren at det kan være behov for å dele opp arkiver i flere (fysiske) deler. Dette er løst ved å innføre såkalte underarkiv i den konseptuelle modellen. Underarkiv er en hierarkisk struktur innenfor arkivet og kan således defineres i flere nivåer. I praksis vil det vanligvis være ett nivå.
 
 Underarkiv er ikke obligatorisk i arkivstrukturen.
 
-Arkivdel
+**Arkivdel**
 
 Et arkiv skal kunne deles opp i arkivdeler for å gruppere arkivet etter overordnede kriterier. De viktigste kriteriene for oppdeling i arkivdeler er:
 
@@ -201,7 +203,7 @@ Et arkiv skal kunne deles opp i arkivdeler for å gruppere arkivet etter overord
 Klassifikasjonssystem og klasse
 -------------------------------
 
-Klassifikasjonssystem
+**Klassifikasjonssystem**
 
 Alle offentlige organ skal lage en oversikt over sine saksområder, og ordne og beskrive disse i et klassifikasjonssystem. Et klassifikasjonssystem består med andre ord av klasser som først og fremst beskriver arkivskapers funksjoner, prosesser og aktiviteter. Men det kan også brukes til å beskrive emner eller objekter. I norsk arkivtradisjon har klassifikasjonssystem normalt vært omtalt som arkivnøkler, dvs. system for ordning av sakarkiv, og hovedsystemet har vært ordning etter emne.
 
@@ -227,7 +229,7 @@ Funksjonsbasert klassifikasjon og objektbasert klassifikasjon vil oftest tilhør
 
 Ved fysisk arkivering skal klassifikasjonssystemet gjenspeile dokumentenes fysiske ordning. Her fungerer klassifikasjonssystemet som et hjelpemiddel til å finne fram i papirdokumentene.
 
-Klasse
+**Klasse**
 
 Et klassifikasjonssystem er bygd opp av klasser. Ved funksjonsbasert (emnebasert) klassifikasjon vil klassene vanligvis inngå i et hierarki, hvor tre eller fire nivåer er det vanlige. I den konseptuelle modellen er undernivåene kalt underklasser, og fremkommer som en egenrelasjon i klasse.
 
@@ -239,7 +241,7 @@ Det skal være mulig å klassifisere en saksmappe med mer enn en klasse, dvs. me
 
 Klassene vil ofte legges inn før en Noark 5-løsning tas i bruk. Men det skal også være mulig for autoriserte brukere å opprette nye klasser. Det er særlig aktuelt ved objektbasert klassifikasjon. Klasser skal også kunne avsluttes, slik at det ikke lenger er mulig å knytte nye mapper til dem.
 
-Konseptuell modell for *klassifikasjonssystem*
+**Konseptuell modell for *klassifikasjonssystem***
 
 |image5|
 

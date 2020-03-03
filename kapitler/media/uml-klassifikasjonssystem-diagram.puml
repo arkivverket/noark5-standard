@@ -65,7 +65,6 @@ gradering "0..1" <--o "0..*" klasse
 kassasjon "0..1" <--o "0..*" klasse
 klasse "0..1" o--> "0..*" kryssreferanse
 skjerming "0..1" <-o "0..*" klasse
-arkiv "1" o-> "1..*" arkivdel
 arkivdel "1" o-> "0..*" klassifikasjonssystem
 klassifikasjonssystem "1" o--> "1..*" klasse
 

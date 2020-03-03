@@ -91,7 +91,7 @@ En arkivkjerne som kun dekker obligatoriske objekt i datamodellen og de obligato
 
 |image3|
 
-.. |image3| image:: ./media/image4.jpg
+.. |image3| figure:: ./media/image4.jpg
    :width: 3.56983in
    :height: 8.472in
    

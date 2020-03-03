@@ -281,8 +281,10 @@ Funksjonelle krav til klassifikasjonssystem
 |          |                                                                                                     |      |                                                |
 |          | -  Gårds- og bruksnummer                                                                            |      |                                                |
 +----------+-----------------------------------------------------------------------------------------------------+------+------------------------------------------------+
+
 Funksjonelle krav til klasse
 ******************************
+
 +----------+----------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------+
 | Krav nr. | Funksjonelle krav til *klasse*                                                                                                         | Type | Merknad                                              |
 +----------+----------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------+
@@ -632,8 +634,10 @@ Det bør være mulig å føye ett eller flere nøkkelord til en *klasse*, en *ma
 Nøkkelord består bare av ett metadataelement: *M022 noekkelord*, og er derfor ikke definert som et eget objekt men plassert direkte i tabellene for de aktuelle arkivenhetene.
 
 Nøkkelord er valgfritt, og kan forekomme en eller flere ganger i klasse, mappe eller registrering.
+
 Funksjonelle krav til Nøkkelord
 *********************************
+
 +----------+------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | Krav nr. | Funksjonelle krav til *Nøkkelord*                                                                                                        | Type | Merknad |
 +----------+------------------------------------------------------------------------------------------------------------------------------------------+------+---------+

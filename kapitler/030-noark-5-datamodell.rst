@@ -126,8 +126,8 @@ Overordnede krav til metadata
 |                                                 | arkivenheter har ulik systemID.                 |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
- Arkiv og arkivdel
-------------------
+Arkiv og arkivdel
+-----------------
 
 Forskjellige virksomheter vil ha forskjellig behov for definering av arkiv og arkivdeler. Både arkiv og arkivdel obligatoriske nivå i arkivstrukturen.
 

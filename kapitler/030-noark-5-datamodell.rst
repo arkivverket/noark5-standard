@@ -29,7 +29,7 @@ Overordnet skisse av den konseptuelle modellen for Noark 5:
 .. |umlarkivstruktur| figure:: ./media/uml-arkivstruktur-diagram.png
    :width: 100%
 
-    *Arkivstruktur*
+   *Arkivstruktur*
 
 Nivåene for *mappe* og *registrering* er bygd ut ved hjelp av spesialisering av klassene. Eksempler på slike spesialiseringer er *saksmappe* og *journalpost*. Den arkivstrukturen som er skissert gjennom den konseptuelle modellen i dette kapitlet, utgjør hovedstrukturen i Noark 5 og er obligatorisk for sakarkiver.
 
@@ -92,8 +92,8 @@ En arkivkjerne som kun dekker obligatoriske objekt i datamodellen og de obligato
 
 .. |umlarkivkjerne| figure:: ./media/uml-arkivkjerne-diagram.png
    :width: 100%
-   
-   *arkivhjerne med obligatoriskekrav*
+
+   *arkivkjerne med obligatoriskekrav*
 
 Utgangspunktet for definisjonen av metadata har vært kravet til hva som skal inngå i et arkivuttrekk. Men det er også tatt hensyn til metadata som skal kunne utveksles elektronisk sammen med dokumenter, metadata som skal kunne deles ved integrasjon med fagsystemer, og metadata som skal kunne migreres til andre systemer sammen med tilhørende dokumenter.
 
@@ -746,7 +746,7 @@ Konseptuell modell for Part
    :width: 70%
 
    *part*
-   
+
 Krav til Part
 *************
 

@@ -130,7 +130,7 @@ Administrativ oppbygging
 Noark 5 legger opp til at administrering av organisasjonsstrukturen skal kunne utføres i eksterne løsninger. For å sikre en forsvarlig arkivering stiller allikevel kjernen visse krav til disse løsningene, og hvordan kjernen skal kunne forholde seg til dem.
 
 Krav til administrativ oppbygging
-
+***********************************
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Kjernens krav til administrativ oppbygging      | Type                                            | Merknad                                         |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+

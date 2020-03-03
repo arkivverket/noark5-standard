@@ -30,7 +30,7 @@ Overordnet skisse av den konseptuelle modellen for Noark 5:
    :width: 5.672in
    :height: 6.31375in
 
-*Arkivstruktur*
+    *Arkivstruktur*
 
 Nivåene for *mappe* og *registrerin*\ g er bygd ut ved hjelp av spesialisering av klassene. Eksempler på slike spesialiseringer er *saksmappe* og *journalpost*. Den arkivstrukturen som er skissert gjennom den konseptuelle modellen i dette kapitlet, utgjør hovedstrukturen i Noark 5 og er obligatorisk for sakarkiver.
 

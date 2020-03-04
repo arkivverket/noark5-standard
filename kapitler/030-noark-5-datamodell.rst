@@ -58,13 +58,13 @@ I et elektronisk arkiv eksisterer ikke mappene som fysiske enheter. Arkivstruktu
 |                                                 | den gir, kunne implementeres i det aktuelle     |                                                 |                                                 |
 |                                                 | systemets (fysiske) datastrukturer.             |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| 2.1.2                                              | Arkivdokumenter skal inngå i en arkivstruktur   | O                                               |                                                 |
+| 2.1.2                                           | Arkivdokumenter skal inngå i en arkivstruktur   | O                                               |                                                 |
 |                                                 | som minst inneholder følgende arkivenheter:     |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | *arkiv*, *arkivdel*, *registrering,             |                                                 |                                                 |
 |                                                 | dokumentbeskrivelse* og *dokumentobjekt*.       |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| 2.1.3                                              | Journalføringspliktige saksdokumenter skal      | B                                               | Obligatorisk for sakarkiver.                    |
+| 2.1.3                                           | Journalføringspliktige saksdokumenter skal      | B                                               | Obligatorisk for sakarkiver.                    |
 |                                                 | inngå i et sakarkiv, med en arkivstruktur som   |                                                 |                                                 |
 |                                                 | minst skal inneholde følgende arkivenheter:     |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
@@ -72,7 +72,7 @@ I et elektronisk arkiv eksisterer ikke mappene som fysiske enheter. Arkivstruktu
 |                                                 | *klasse*, *mappe, registrering,                 |                                                 |                                                 |
 |                                                 | dokumentbeskrivelse* og *dokumentobjekt*.       |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| 2.1.4                                              | For fysiske arkiver kan *dokumentobjekt* utgå.  | V                                               |                                                 |
+| 2.1.4                                           | For fysiske arkiver kan *dokumentobjekt* utgå.  | V                                               |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
 Metadata
@@ -545,7 +545,7 @@ Alle arkivdokumenter som skal avleveres må være i arkivformat. Konvertering ti
 .. table:: Krav til konvertering til arkivformat
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| Krav nr.                                        | Krav til konvertering til *arkivformat*           | Type                                            | Merknad                                         |
+| Krav nr.                                        | Krav til konvertering til *arkivformat*         | Type                                            | Merknad                                         |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 9.                                              | Det skal finnes en tjeneste/funksjon som gjør   | O                                               |                                                 |
 |                                                 | det mulig for arkivadministrator å angi hvilke  |                                                 |                                                 |
@@ -888,10 +888,10 @@ Løsningen må dessuten legge til rette for at administratorer har kontroll på 
 .. table:: Krav til administrasjon av kjernen
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| Krav nr.                                        | Krav til administrasjon av *kjernen*              | Type                                            | Merknad                                         |
+| Krav nr.                                        | Krav til administrasjon av *kjernen*            | Type                                            | Merknad                                         |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 1.                                              | Det skal finnes en tjeneste/funksjon for å      | O                                               |                                                 |
-|                                                 | administrere *kjernen*                            |                                                 |                                                 |
+|                                                 | administrere *kjernen*                          |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 2.                                              | Det må kunne defineres minimum én bruker som er | O                                               |                                                 |
 |                                                 | arkivadministrator, som kan logge seg           |                                                 |                                                 |
@@ -928,7 +928,7 @@ Løsningen må dessuten legge til rette for at administratorer har kontroll på 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 8.                                              | Det bør være mulig å parameterstyre at status   | V                                               |                                                 |
 |                                                 | ”Dokumentet er ferdigstilt” skal settes         |                                                 |                                                 |
-|                                                 | automatisk på *dokumentbeskrivelse* ved andre   |                                                 |                                                 |
+|                                                 |utomatisk på *dokumentbeskrivelse* ved andre     |                                                 |                                                 |
 |                                                 | statuser på *mappe* eller *registrering*        |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 9.                                              | Kun autoriserte enheter, roller eller personer  | O                                               |                                                 |

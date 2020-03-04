@@ -163,17 +163,21 @@ Alle gjeldende krav framgår av kravtabellene. Kravtabellene er satt opp på den
 | Krav nr. | <hva det stilles krav til> | Type | Merknad |
 +----------+----------------------------+------+---------+
 
-**Krav. nr.:** Kravnummereringen er inndelt i <kapittelnr>. <underkapittelnr>, <løpenummer innen underkapittel> (5.7.6 betyr f. eks. kapittel 5, underkapittel 7, og krav nr. 6).
+**Krav. nr.:**
+    Kravnummereringen er inndelt i <kapittelnr>. <underkapittelnr>, <løpenummer innen underkapittel> (5.7.6 betyr f. eks. kapittel 5, underkapittel 7, og krav nr. 6).
 
-**<hva det stilles krav til>**: Dette angir området det stilles krav til i tabellen
+**<hva det stilles krav til>**:
+    Dette angir området det stilles krav til i tabellen
 
-**Type:** Angir type krav. Her brukes:
+**Type:**
+    Angir type krav. Her brukes:
 
-- O (Obligatorisk)
-- B (Betinget obligatorisk)
-- V (Valgfritt)
+    - O (Obligatorisk)
+    - B (Betinget obligatorisk)
+    - V (Valgfritt)
 
-**Merknad:** Merknader til kravet, f.eks. betingelser for når kravet er obligatorisk
+**Merknad:**
+    Merknader til kravet, f.eks. betingelser for når kravet er obligatorisk
 
 Obligatoriske og betinget obligatoriske krav er angitt med "skal" i kravteksten. Valgfrie krav er angitt med "bør" i kravteksten. Betinget obligatoriske krav er obligatoriske under bestemte betingelser. Disse betingelsene er nærmere beskrevet i merknadsfeltet.
 

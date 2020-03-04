@@ -30,7 +30,7 @@ Overordnet skisse av den konseptuelle modellen for Noark 5
 .. |umlarkivstruktur| figure:: ./media/uml-arkivstruktur-diagram.png
    :width: 100%
 
-   *arkivstruktur*
+   *Figur 2.1 arkivstruktur*
 
 Nivåene for *mappe* og *registrering* er bygd ut ved hjelp av spesialisering av klassene. Eksempler på slike spesialiseringer er *saksmappe* og *journalpost*. Den arkivstrukturen som er skissert gjennom den konseptuelle modellen i dette kapitlet, utgjør hovedstrukturen i Noark 5 og er obligatorisk for sakarkiver.
 
@@ -41,7 +41,7 @@ I enkelte system kan det være behov for en forenklet struktur, og visse nivå i
 .. |umlforenklet| figure:: ./media/uml-forenklet-arkivstruktur-diagram.png
    :width: 100%
 
-   *forenklet arkivstruktur*
+   *Figur 2.2 forenklet arkivstruktur*
 
 I et elektronisk arkiv eksisterer ikke mappene som fysiske enheter. Arkivstrukturen i et elektronisk arkiv er bygd opp av forskjellige metadata. Hver enhet i strukturen har sine bestemte metadata, og de forskjellige nivåene er også koblet sammen med metadata. Metadata er altså aggregert på flere nivåer, slik at metadata på øverste nivå vil være knyttet til alle dokumenter i arkivet, mens metadata på laveste nivå bare er knyttet til et enkeltdokument.
 
@@ -95,7 +95,7 @@ En arkivkjerne som kun dekker obligatoriske objekt i datamodellen og de obligato
 .. |umlarkivkjerne| figure:: ./media/uml-arkivkjerne-diagram.png
    :width: 100%
 
-   *arkivkjerne med obligatoriskekrav*
+   *Figur 2.3 arkivkjerne med obligatoriskekrav*
 
 Utgangspunktet for definisjonen av metadata har vært kravet til hva som skal inngå i et arkivuttrekk. Men det er også tatt hensyn til metadata som skal kunne utveksles elektronisk sammen med dokumenter, metadata som skal kunne deles ved integrasjon med fagsystemer, og metadata som skal kunne migreres til andre systemer sammen med tilhørende dokumenter.
 
@@ -142,7 +142,7 @@ Konseptuell modell for *arkiv* og *arkivdel*
 .. |umlarkiv| figure:: ./media/uml-arkiv-arkivdel-diagram.png
    :width: 100%
 
-   *arkiv og arkivdel*
+   *Figur 2.4 arkiv og arkivdel*
 
 Arkiv
 ~~~~~~
@@ -273,7 +273,7 @@ Konseptuell modell for klassifikasjonssystem
 .. |klassifikasjonssystem| figure:: ./media/uml-klassifikasjonssystem-diagram.png
    :width: 100%
 
-   *klassifikasjonssystem*
+   *Figur 2.5 klassifikasjonssystem*
 
 Klassifikasjonssystem
 ************************
@@ -336,7 +336,7 @@ Konseptuell modell for mappe
 .. |mappestrukturen| figure:: ./media/uml-mappestrukturen-diagram.png
    :width: 100%
 
-   *mappestrukturen*
+   *Figur 2.6 mappestrukturen*
 
 Mappe
 *****
@@ -408,7 +408,7 @@ Konseptuell modell for registrering
 .. |registrering| figure:: ./media/uml-registrering-diagram.png
    :width: 100%
 
-   *registrering*
+   *Figur 2.7 registrering*
 
 Registrering
 **************
@@ -491,7 +491,7 @@ Konseptuell modell for dokumentbeskrivelse og dokumentobjekt
 .. |dokumentbeskrivelse| figure:: ./media/uml-dokumentbeskrivelse-diagram.png
    :width: 100%
 
-   *dokumentbeskrivelse og dokumentobjekt*
+   *Figur 2.8 dokumentbeskrivelse og dokumentobjekt*
 
 Dokumentbeskrivelse
 *******************
@@ -656,7 +656,7 @@ Skjerming benyttes til å skjerme registrerte opplysninger eller enkeltdokumente
 
 Løsningens brukere skal være klarert for bestemte tilgangskoder og autorisert for en nærmere definert del av de saker og journalposter med tilhørende dokumenter som er skjermet.
 
-Konseptuell modell for Skjerming
+Konseptuell modell for skjerming
 *********************************
 
 |skjerming|
@@ -664,7 +664,7 @@ Konseptuell modell for Skjerming
 .. |skjerming| figure:: ./media/uml-skjerming-diagram.png
    :width: 80%
 
-   *skjerming*
+   *Figur 2.9 skjerming*
 
 **Funksjonelle krav til skjerming**
 
@@ -716,7 +716,7 @@ Konseptuell modell for *kryssreferanse*
 .. |kryssreferanse| figure:: ./media/uml-kryssreferanse-diagram.png
    :width: 50%
 
-   *kryssreferanse*
+   *Figur 2.10 kryssreferanse*
 
 **Funksjonelle krav til kryssreferanse**
 
@@ -750,7 +750,7 @@ Konseptuell modell for *merknad*
 .. |merknad| figure:: ./media/uml-merknad-diagram.png
    :width: 50%
 
-   *merknad*
+   *Figur 2.11 merknad*
 
 **Funksjonelle krav til merknad**
 
@@ -786,7 +786,7 @@ Konseptuell modell for *part*
 .. |part| figure:: ./media/uml-part-diagram.png
    :width: 70%
 
-   *part*
+   *Figur 2.12 part*
 
 **Krav til part**
 
@@ -817,7 +817,7 @@ Konseptuell modell for *presedens*
 .. |presedens| figure:: ./media/uml-presedens-diagram.png
    :width: 80%
 
-   *presedens*
+   *Figur 2.13 presedens*
 
 Noark 5 legger opp til at det skal kunne bygges opp et presedensregister med henvisninger til Saksmapper og Journalposter som danner presedens. Registeret bygges opp ved at presedensmetadata knyttes til de arkivenhetene (saker eller journalposter) som danner presedens.
 

@@ -69,3 +69,7 @@ docx-to-rst:
 		echo Converting "$$f"; \
 		pandoc --columns=200 --wrap=preserve "$$f" -o "$${f%.docx}.rst"; \
 	done
+
+XMLLINTOPTS = --nonet --noout  --xinclude --postvalid
+lint: docbook
+	xmllint $(XMLLINTOPTS) docbook/spesifikasjon.xml

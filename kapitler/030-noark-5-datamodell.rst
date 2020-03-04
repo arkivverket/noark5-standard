@@ -22,14 +22,15 @@ I et fysisk arkiv vil arkivstrukturen gjenspeiles i papirdokumentenes sortering 
 
 Modellene i Noark 5 er *konseptuelle modeller* som skal vise sammenhengen mellom forskjellige metadata, og mellom metadata og fysiske eller elektroniske dokumenter. De konseptuelle modellene i Noark 5 sier noe om hvordan informasjonen prinsipielt skal organiseres. De vil også være utgangspunktet for definisjonen av datastrukturer ved elektronisk kommunikasjon, integrasjon med andre systemer, migrering fra et system til et annet og for deponering/avlevering.
 
-Overordnet skisse av den konseptuelle modellen for Noark 5:
+Overordnet skisse av den konseptuelle modellen for Noark 5
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |umlarkivstruktur|
 
 .. |umlarkivstruktur| figure:: ./media/uml-arkivstruktur-diagram.png
    :width: 100%
 
-   *Arkivstruktur*
+   *arkivstruktur*
 
 Nivåene for *mappe* og *registrering* er bygd ut ved hjelp av spesialisering av klassene. Eksempler på slike spesialiseringer er *saksmappe* og *journalpost*. Den arkivstrukturen som er skissert gjennom den konseptuelle modellen i dette kapitlet, utgjør hovedstrukturen i Noark 5 og er obligatorisk for sakarkiver.
 
@@ -44,8 +45,9 @@ I enkelte system kan det være behov for en forenklet struktur, og visse nivå i
 
 I et elektronisk arkiv eksisterer ikke mappene som fysiske enheter. Arkivstrukturen i et elektronisk arkiv er bygd opp av forskjellige metadata. Hver enhet i strukturen har sine bestemte metadata, og de forskjellige nivåene er også koblet sammen med metadata. Metadata er altså aggregert på flere nivåer, slik at metadata på øverste nivå vil være knyttet til alle dokumenter i arkivet, mens metadata på laveste nivå bare er knyttet til et enkeltdokument.
 
-Overordnede krav til arkivstrukturen
-************************************
+**Overordnede krav til arkivstrukturen**
+
+.. table:: Overordnede krav til arkivstrukturen
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Overordnede krav til arkivstrukturen            | Type                                            | Merknad                                         |
@@ -101,8 +103,9 @@ Metadata blir navngitt på en entydig måte som er nærmere forklart i metadatak
 
 Det er ikke noe krav at alle metadata i katalogen nødvendigvis må lagres i kjernen. I en del løsninger er det mer hensiktsmessig å lagre deler av metadata i fagsystemet. Men det er et krav at ved eksport eller utveksling skal alle obligatoriske metadata inngå i en felles struktur. Slike strukturer vil bl.a. bli beskrevet i form av XML-skjema i Noark 5.
 
-Overordnede krav til metadata
-*****************************
+**Overordnede krav til metadata**
+
+.. table:: Overordnede krav til metadata
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Overordnede krav til metadata                   | Type                                            | Merknad                                         |
@@ -132,6 +135,7 @@ Arkiv og arkivdel
 Forskjellige virksomheter vil ha forskjellig behov for definering av arkiv og arkivdeler. Både arkiv og arkivdel obligatoriske nivå i arkivstrukturen.
 
 Konseptuell modell for *arkiv* og *arkivdel*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |umlarkiv|
 
@@ -140,13 +144,15 @@ Konseptuell modell for *arkiv* og *arkivdel*
 
    *arkiv og arkivdel*
 
-**Arkiv**
+Arkiv
+~~~~~~
 
 Et arkiv består normalt av dokumenter som blir til som ledd i én virksomhet, dvs. dokumenter som mottas eller produseres av en enkelt arkivskaper og samles som resultat av dennes virksomhet. Arkiv er det øverste nivået i arkivstrukturen. De fleste virksomheter vil kun ha behov for å opprette ett arkiv i sin Noark 5-løsning. Men det skal være mulig å opprette flere arkiver. Det kan være aktuelt dersom flere organ deler samme løsning. En Noark-løsning kan derfor omfatte ett eller flere arkiver.
 
 Arkiv er obligatorisk i et arkivuttrekk.
 
-**Arkivskaper**
+Arkivskaper
+~~~~~~~~~~~~
 
 Tradisjonelt har et arkiv blitt definert etter *organisasjon*. En arkivskaper er en organisatorisk enhet eller en person som danner arkiv som ledd i sin virksomhet. En arkivskaper kan være et offentlig organ, en bedrift, en organisasjon, en institusjon, en stiftelse osv., eller en del av en slik enhet. Et offentlig organ kan være én arkivskaper og dermed ha ett arkiv (sentralisert arkiv), eller det kan utgjøre flere arkivskapere (avdelinger, etater i en kommune) som skaper hvert sitt arkiv (desentralisert arkiv).
 
@@ -154,13 +160,15 @@ Digitaliseringen har ført til at det blir stadig vanligere at flere arkivskaper
 
 Informasjon om arkivskapere er obligatorisk i arkivuttrekk.
 
-**Underarkiv**
+Underarkiv
+~~~~~~~~~~
 
 Det er i enkelte tilfeller behov for et ekstra nivå mellom arkiv og arkivdel. Det er særlig for fysiske arkiver innenfor kommunesektoren at det kan være behov for å dele opp arkiver i flere (fysiske) deler. Dette er løst ved å innføre såkalte underarkiv i den konseptuelle modellen. Underarkiv er en hierarkisk struktur innenfor arkivet og kan således defineres i flere nivåer. I praksis vil det vanligvis være ett nivå.
 
 Underarkiv er ikke obligatorisk i arkivstrukturen.
 
-**Arkivdel**
+Arkivdel
+~~~~~~~~~
 
 Et arkiv skal kunne deles opp i arkivdeler for å gruppere arkivet etter overordnede kriterier. De viktigste kriteriene for oppdeling i arkivdeler er:
 
@@ -178,30 +186,33 @@ Et arkiv skal kunne deles opp i arkivdeler for å gruppere arkivet etter overord
 
 -  Skille mellom mapper, registreringer eller dokumenttyper som er offentlige eller som skal skjermes.
 
-Funksjonelle krav til arkiv
-***************************
+**Funksjonelle krav til arkiv**
+
+.. table:: Funksjonelle krav til arkiv
 
 +----------+----------------------------------------------------------------------------------------------------------------------+------+-----------------------------------------+
 | Krav nr. | Funksjonelle krav til *arkiv*                                                                                        | Type | Merknad                                 |
 +----------+----------------------------------------------------------------------------------------------------------------------+------+-----------------------------------------+
-| 1.       | Dersom *arkiv* er registrert som ”Avsluttet”, skal det ikke være mulig å legge til flere underliggende *arkivdeler*. | B    | Obligatorisk dersom arkivstatus brukes. |
+| 1.       | Dersom *arkiv* er registrert som ”avsluttet”, skal det ikke være mulig å legge til flere underliggende *arkivdeler*. | B    | Obligatorisk dersom arkivstatus brukes. |
 +----------+----------------------------------------------------------------------------------------------------------------------+------+-----------------------------------------+
 | 2.       | Når en tjeneste/funksjon sletter et helt *arkiv* med alle underliggende nivå, skal dette logges.                     | O    |                                         |
 +----------+----------------------------------------------------------------------------------------------------------------------+------+-----------------------------------------+
 
-Funksjonelle krav til Underarkiv
-********************************
+**Funksjonelle krav til underarkiv**
+
+.. table:: Funksjonelle krav til underarkiv
 
 +----------+---------------------------------------------------------------------------------------------+------+----------------------------------------+
-| Krav nr. | Funksjonelle krav til *Underarkiv*                                                          | Type | Merknad                                |
+| Krav nr. | Funksjonelle krav til *underarkiv*                                                          | Type | Merknad                                |
 +----------+---------------------------------------------------------------------------------------------+------+----------------------------------------+
-| 3.       | Systemet bør ha en tjeneste/funksjon for å angi et *arkiv* som *Underarkiv* til et *arkiv*. | V    |                                        |
+| 3.       | Systemet bør ha en tjeneste/funksjon for å angi et *arkiv* som *underarkiv* til et *arkiv*. | V    |                                        |
 +----------+---------------------------------------------------------------------------------------------+------+----------------------------------------+
-| 4.       | Et *Underarkiv* skal kun opprettes og endres gjennom Administrasjonssystemet for Noark 5.   | B    | Obligatorisk dersom underarkiv brukes. |
+| 4.       | Et *underarkiv* skal kun opprettes og endres gjennom Administrasjonssystemet for Noark 5.   | B    | Obligatorisk dersom underarkiv brukes. |
 +----------+---------------------------------------------------------------------------------------------+------+----------------------------------------+
 
-Funksjonelle krav til arkivdel
-******************************
+**Funksjonelle krav til arkivdel**
+
+.. table:: Funksjonelle krav til arkivdel
 
 +----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | Krav nr. | Funksjonelle krav til *arkivdel*                                                                                                                              | Type | Merknad |
@@ -214,7 +225,8 @@ Funksjonelle krav til arkivdel
 Klassifikasjonssystem og klasse
 -------------------------------
 
-**Klassifikasjonssystem**
+Klassifikasjonssystem
+~~~~~~~~~~~~~~~~~~~~~
 
 Alle offentlige organ skal lage en oversikt over sine saksområder, og ordne og beskrive disse i et klassifikasjonssystem. Et klassifikasjonssystem består med andre ord av klasser som først og fremst beskriver arkivskapers funksjoner, prosesser og aktiviteter. Men det kan også brukes til å beskrive emner eller objekter. I norsk arkivtradisjon har klassifikasjonssystem normalt vært omtalt som arkivnøkler, dvs. system for ordning av sakarkiv, og hovedsystemet har vært ordning etter emne.
 
@@ -240,7 +252,8 @@ Funksjonsbasert klassifikasjon og objektbasert klassifikasjon vil oftest tilhør
 
 Ved fysisk arkivering skal klassifikasjonssystemet gjenspeile dokumentenes fysiske ordning. Her fungerer klassifikasjonssystemet som et hjelpemiddel til å finne fram i papirdokumentene.
 
-**Klasse**
+Klasse
+~~~~~~
 
 Et klassifikasjonssystem er bygd opp av klasser. Ved funksjonsbasert (emnebasert) klassifikasjon vil klassene vanligvis inngå i et hierarki, hvor tre eller fire nivåer er det vanlige. I den konseptuelle modellen er undernivåene kalt underklasser, og fremkommer som en egenrelasjon i klasse.
 
@@ -253,7 +266,7 @@ Det skal være mulig å klassifisere en saksmappe med mer enn en klasse, dvs. me
 Klassene vil ofte legges inn før en Noark 5-løsning tas i bruk. Men det skal også være mulig for autoriserte brukere å opprette nye klasser. Det er særlig aktuelt ved objektbasert klassifikasjon. Klasser skal også kunne avsluttes, slik at det ikke lenger er mulig å knytte nye mapper til dem.
 
 Konseptuell modell for klassifikasjonssystem
-********************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |klassifikasjonssystem|
 
@@ -262,16 +275,19 @@ Konseptuell modell for klassifikasjonssystem
 
    *klassifikasjonssystem*
 
-**Klassifikasjonssystem**
+Klassifikasjonssystem
+************************
 
 Klassifikasjonssystemet beskriver den overordnede strukturen for mappene i én eller flere arkivdeler.
 
-**Klasse**
+Klasse
+*******
 
 Et klassifikasjonssystem er bygd opp av klasser. En klasse skal bestå av en *klasseID,* som angir tillatte verdier i klassifikasjonssystemet og en *klassetittel*, som er en tekstlig beskrivelse av funksjonen eller prosessen.
 
-Funksjonelle krav til klassifikasjonssystem
-*******************************************
+**Funksjonelle krav til klassifikasjonssystem**
+
+.. table:: Funksjonelle krav til klassifikasjonssystem
 
 +----------+-----------------------------------------------------------------------------------------------------+------+------------------------------------------------+
 | Krav nr. | Funksjonelle krav til *klassifikasjonssystem*                                                       | Type | Merknad                                        |
@@ -289,8 +305,9 @@ Funksjonelle krav til klassifikasjonssystem
 |          | -  Gårds- og bruksnummer                                                                            |      |                                                |
 +----------+-----------------------------------------------------------------------------------------------------+------+------------------------------------------------+
 
-Funksjonelle krav til klasse
-****************************
+**Funksjonelle krav til klasse**
+
+.. table:: Funksjonelle krav til klasse
 
 +----------+----------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------+
 | Krav nr. | Funksjonelle krav til *klasse*                                                                                                         | Type | Merknad                                              |
@@ -312,7 +329,7 @@ Noark 5 legger til rette for en fleksibel bruk av mapper. Grunnen til dette er a
 En *sak* i Noark-4 utgjør en bestemt mappetype i Noark 5, nemlig *saksmappe*. Dersom et system basert på Noark 5 bare skal brukes for sakarkiver, er det ikke noe i veien for å bruke begrepet "sak" i alle grensesnitt mot brukerne, på samme måte som i Noark-4. Men i denne standarden er mappe det generelle begrepet for arkivenheten på dette nivået.
 
 Konseptuell modell for mappe
-****************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |mappestrukturen|
 
@@ -321,28 +338,33 @@ Konseptuell modell for mappe
 
    *mappestrukturen*
 
-**Mappe**
+Mappe
+*****
 
 Utgangspunktet for alle mappetyper i Noark 5 er metadataene i en *mappe*. Denne inneholder noen grunnleggende metadata, men det er ikke alle metadata her som er obligatoriske. En del spesialiserte system vil trenge ekstra metadata i tillegg til dette. Dette kan løses enten ved bruk av *virksomhetsspesifikke metadata*, eller ved å lage andre spesialiserte av mappetyper med utgangspunkt i mappe eller Saksmappe.
 
-**Undermappe**
+Undermappe
+**********
 
 En mappe kan inneholde en eller flere undermapper (spesifisert som egenrelasjon i *mappe*). Arv fra en klasse vil alltid gå til mappen på det øverste nivået. Dersom mappenivået består av flere nivåer, skal registreringer bare kunne knyttes til det laveste nivået. En mappe kan altså ikke inneholde både andre mapper og registreringer.
 
-**Saksmappe**
+Saksmappe
+*********
 
 Journalføringspliktige dokument skal alltid legges i spesialiseringen *Saksmappe*, og saksmapper disse skal alltid være knyttet til en klasse. Mappene skal også ha referanse til hvilken arkivdel de tilhører, selv om dette også kan avledes av tilhørigheten til klasse og klassifikasjonssystem. Saksmappen inneholder metadata fra *mappe* i tillegg til egne metadata. En saksmappe er bakoverkompatibel med en sak i Noark-4, men har en del nye metadata.
 
 For sakarkiver er det obligatorisk å bruke en saksmappe.
 
-**Møtemappe**
+Møtemappe
+************
 
 Dokumenter som produseres i forbindelse med faste møter bør samles i *Møtemapper*. Dette er mest aktuelt brukt for kommunale utvalgsmøter, styremøter, ledermøter, mv., hvor det er flere møtesaker som tas opp på hvert møte. Enkeltstående møtereferat, mv., til møter som avholdes i forbindelse med saker i den løpende saksbehandlingen, kan vel så gjerne arkiveres i aktuell saksmappe.
 
 Metadata for møtedeltaker grupperes inn i metadata for møtemappe.
 
-Strukturelle krav til mappe
-***************************
+**Strukturelle krav til mappe**
+
+.. table:: Strukturelle krav til mappe
 
 +----------+-------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
 | Krav nr. | Strukturelle krav til *mappe*                                                                                                       | Type | Merknad                   |
@@ -360,8 +382,9 @@ Strukturelle krav til mappe
 | 5.       | Dersom en *mappe* er registrert som avsluttet (avsluttetDato) skal det ikke være mulig å legge flere *registreringer* til *mappen.* | O    |                           |
 +----------+-------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
 
-Funksjonelle krav til mappe
-***************************
+**Funksjonelle krav til mappe**
+
+.. table:: Funksjonelle krav til mappe
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Funksjonelle krav til *mappe*                   | Type                                            | Merknad                                         |
@@ -378,7 +401,7 @@ Registrering
 En *registrering* tilsvarer "record" eller "dokumentasjon" i ISO-standarder, og utgjør arkivenes primære byggeklosser. En aktivitet kan deles opp i flere trinn som vi kaller *transaksjoner*. En transaksjon innebærer normalt at minst to personer eller enheter må være involvert, men det behøver ikke alltid være tilfelle. Vi bruker likevel begrepet transaksjon generelt for alle trinn en aktivitet kan deles opp i. Det er transaksjoner som genererer *arkivdokumenter,* og arkivdokumentet er dokumentasjon på at transaksjonen er utført.
 
 Konseptuell modell for registrering
-***********************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |registrering|
 
@@ -387,32 +410,38 @@ Konseptuell modell for registrering
 
    *registrering*
 
-**Registrering**
+Registrering
+**************
 
 På samme måte som Noark 5 er fleksibel når det gjelder mappenivået, er standarden også fleksibel når det gjelder registreringsnivået. Det er ikke alle system som trenger like mye metadata på dette nivået. En registrering inneholder de metadata man anser nødvendig for å kunne arkivere dokumenter og metadata i alle typer systemer. En registrering danner utgangspunkt for alle andre registreringstyper. [3]_
 
-**Journalpost**
+Journalpost
+***********
 
 En *journalpost* representer en "innføring i journalen". Journalen er en kronologisk fortegnelse over inn- og utgående dokumenter (dvs. korrespondansedokumenter) brukt i saksbehandlingen, og eventuelt også organinterne dokumenter som journalføres.
 
 Registreringstypen *journalpost* er obligatorisk for sakarkiver, og journalposter skal alltid legges i saksmapper. Alle *journalføringspliktige* dokumenter i offentlig forvaltning skal registreres som journalposter og inngå i et sakarkiv.
 
-**Arkivnotat**
+Arkivnotat
+**********
 
 *Arkivnotat* er en registreringstype som brukes i sakarkiver for arkivering uten journalføring. [4]_ Arkivnotat har en del fellestrekk med journalpost ved at den har obligatorisk tilknytning til en saksmappe, og den kan tilknyttes dokumentflyt og andre interne behandlingsprosesser.
 
 Arkivnotat kan benyttes på samme måte som man tidligere har brukt organinterne journalposttyper, men uten at registreringen skal tas med på offentlig journal. Forutsetningen er selvsagt at virksomheten oppfyller bestemmelsenes øvrige krav om journalføring for visse typer interne dokumenter.
 
-**Møteregistrering**
+Møteregistrering
+****************
 
 En tredje type spesialisering er *møteregistrering,* som skal knyttes til en *møtemappe*. En møteregistrering vil inneholde dokumenter produsert i forbindelse med at det har blitt avholdt et møte.
 
-**Korrespondansepart**
+Korrespondansepart
+*******************
 
 Korrespondansepart er obligatorisk for journalpost, og kan forekomme en eller flere ganger, men kan også være aktuelt å registrere på andre typer registreringer. Ved inngående dokumenter registreres avsender(e), ved utgående dokumenter mottaker(e). Ved organinterne dokumenter som skal følges opp, registreres både avsender(e) og mottaker(e).
 
-Strukturelle krav til registrering
-**********************************
+**Strukturelle krav til registrering**
+
+.. table:: Strukturelle krav til registrering
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Strukturelle krav til *registrering*            | Type                                            | Merknad                                         |
@@ -455,7 +484,7 @@ En *registrering* er altså en arkivenhet som består av metadata som beskriver 
 I en relasjonsdatabase vil det typisk være et mange-til-mange-forhold mellom registrering og dokumentbeskrivelse. Ved deponering/avlevering skal imidlertid metadata både for dokumentbeskrivelse og dokumentobjekt dupliseres for hver gang det samme dokumentet er knyttet til forskjellige registreringer. I tillegg skal dokumentobjektet ha informasjon om når dokumentet ble knyttet til registreringen, hvilken "rolle" dokumentet har i forhold til registreringen (hoveddokument eller vedlegg), rekkefølgenummer osv. Dette vil være unik informasjon for hver tilknytning (i Noark-4 ble attributtene for dette beskrevet i en tabell kalt Dokumentlink). Hver dokumentbeskrivelse skal derfor ha en unik *systemID*.
 
 Konseptuell modell for dokumentbeskrivelse og dokumentobjekt
-************************************************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |dokumentbeskrivelse|
 
@@ -464,16 +493,19 @@ Konseptuell modell for dokumentbeskrivelse og dokumentobjekt
 
    *dokumentbeskrivelse og dokumentobjekt*
 
-**Dokumentbeskrivelse**
+Dokumentbeskrivelse
+*******************
 
 Den vanligste bruken av *dokumentbeskrivelse* er for å skille mellom hoveddokument og vedlegg, hvor hoveddokumentet og hvert av vedleggene utgjør hvert sitt enkeltdokument. [5]_ Ett dokument kan være knyttet til flere journalposter som hoveddokument.
 
-**Dokumentobjekt**
+Dokumentobjekt
+**************
 
 Dokumentobjekt er det laveste metadatanivået i arkivstrukturen. Et dokumentobjekt skal referere til én og kun en *dokumentfil.* Dokumentfila inneholder selve dokumentet. Dersom dokumentet er arkivert i flere *versjoner*, må vi ha et dokumentobjekt og en dokumentfil for hver versjon. Hver versjon av dokumentet kan dessuten arkiveres i flere forskjellige *formater*, og da må det i tillegg opprettes egne dokumentobjekter og dokumentfiler for hvert format. I noen tilfeller kan det også være aktuelt å lage *varianter* av enkelte dokumenter. Den mest vanlige varianten vil være et "sladdet" dokument hvor taushetsbelagt informasjon er fjernet slik at varianten kan være offentlig tilgjengelig. Dokumentobjektet inneholder mer tekniske metadata enn de andre arkivenhetene, bl.a. sjekksummen til bytesekvensen som representerer dokumentet.
 
-Strukturelle krav til dokumentbeskrivelse og dokumentobjekt
-***********************************************************
+**Strukturelle krav til dokumentbeskrivelse og dokumentobjekt**
+
+.. table:: Strukturelle krav til dokumentbeskrivelse og dokumentobjekt
 
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | Krav nr. | Strukturelle krav til *dokumentbeskrivelse og dokumentobjekt*                                                                           | Type | Merknad |
@@ -485,8 +517,9 @@ Strukturelle krav til dokumentbeskrivelse og dokumentobjekt
 | 3.       | Et *dokumentobjekt* som er tilknyttet samme *dokumentbeskrivelse* skal kunne referere til samme dokument lagret i forskjellig *format*. | O    |         |
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 
-Funksjonelle krav til dokumentbeskrivelse og dokumentobjekt
-***********************************************************
+**Funksjonelle krav til dokumentbeskrivelse og dokumentobjekt**
+
+.. table:: Funksjonelle krav til dokumentbeskrivelse og dokumentobjekt
 
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | Krav nr. | Funksjonelle krav til *dokumentbeskrivelse* og *dokumentobjekt*                                                                                     | Type | Merknad |
@@ -507,11 +540,12 @@ Konvertering til arkivformat
 
 Alle arkivdokumenter som skal avleveres må være i arkivformat. Konvertering til arkivformat skal foretas senest ved avslutning av mappe. Systemet skal logge alle konverteringer, og informasjon om dette skal tas med ved deponering/avlevering.
 
-Krav til konvertering til arkivformat
-*************************************
+**Krav til konvertering til arkivformat**
+
+.. table:: Krav til konvertering til arkivformat
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| Krav nr.                                        | Krav til konvertering til arkivformat           | Type                                            | Merknad                                         |
+| Krav nr.                                        | Krav til konvertering til *arkivformat*           | Type                                            | Merknad                                         |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 9.                                              | Det skal finnes en tjeneste/funksjon som gjør   | O                                               |                                                 |
 |                                                 | det mulig for arkivadministrator å angi hvilke  |                                                 |                                                 |
@@ -552,8 +586,9 @@ Dersom et dokument er arkivert i mer enn én versjon, skal det være mulig å sl
 
 Dersom tidligere versjoner er blitt arkivert unødvendig, skal det være mulig å rydde opp på en effektiv måte. Slik opprydding skal alltid skje før det produseres et arkivuttrekk.
 
-Krav til sletting av dokumentversjoner
-**************************************
+**Krav til sletting av dokumentversjoner**
+
+.. table:: Krav til sletting av dokumentversjoner
 
 +----------+----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | Krav nr. | Krav til sletting av dokumentversjoner                                                                                                             | Type | Merknad |
@@ -569,8 +604,9 @@ Krav til sletting av dokumentversjoner
 
 Dersom det opprinnelige dokumentet har innhold som skal skjermes, kan det lages en variant hvor opplysninger som skal skjermes, er fjernet. På den måten kan dokumentet likevel offentliggjøres. Slike varianter kan slettes dersom det ikke lenger er behov for dem. Det kan tenkes at det er aktuelt å avlevere dokumentvarianter, så sletting må vurderes i hvert enkelt tilfelle. Varianter som ikke er slettet når arkivuttrekket produseres, skal avleveres.
 
-Krav til sletting av dokumentvarianter
-**************************************
+**Krav til sletting av dokumentvarianter**
+
+.. table:: Krav til sletting av dokumentvarianter
 
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | Krav nr. | Krav til sletting av dokumentvarianter                                                                                                  | Type | Merknad |
@@ -586,8 +622,9 @@ Krav til sletting av dokumentvarianter
 
 Alle dokumenter som skal avleveres, må være konvertert til format godkjent av Riksarkivaren. [6]_ Det opprinnelige produksjonsformatet kan da rutinemessig slettes. En del brukere vil nok velge å beholde produksjonsformatet inntil videre, f.eks. fordi de har behov for å gjenbruke tekst i et kontorstøtteverktøy. Hvor lenge dette er aktuelt, er opp til hver enkelt bruker. Det er ikke noe krav at produksjonsformatene må være slettet før arkivuttrekket produseres, fordi dette bare vil ta med dokumenter i arkivformat. Men mange brukere vil likevel ha et behov for å gå gjennom og slette eldre produksjonsformater på en effektiv måte.
 
-Krav til sletting av dokumentformater
-*************************************
+**Krav til sletting av dokumentformater**
+
+.. table:: Krav til sletting av dokumentformater
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Krav til sletting av dokumentformater           | Type                                            | Merknad                                         |
@@ -619,7 +656,8 @@ Skjerming benyttes til å skjerme registrerte opplysninger eller enkeltdokumente
 
 Løsningens brukere skal være klarert for bestemte tilgangskoder og autorisert for en nærmere definert del av de saker og journalposter med tilhørende dokumenter som er skjermet.
 
-**Konseptuell modell for Skjerming**
+Konseptuell modell for Skjerming
+*********************************
 
 |skjerming|
 
@@ -628,11 +666,12 @@ Løsningens brukere skal være klarert for bestemte tilgangskoder og autorisert 
 
    *skjerming*
 
-Funksjonelle krav til Skjerming
-*******************************
+**Funksjonelle krav til skjerming**
+
+.. table:: Funksjonelle krav til skjerming
 
 +----------+---------------------------------------------------------------------------------------------------------+------+---------+
-| Krav nr. | Funksjonelle krav til *Skjerming*                                                                       | Type | Merknad |
+| Krav nr. | Funksjonelle krav til *skjerming*                                                                       | Type | Merknad |
 +----------+---------------------------------------------------------------------------------------------------------+------+---------+
 | 1.       | Skjerming bør kunne arves fra overordnet nivå til ett eller flere underliggende nivå i arkivstrukturen. | V    |         |
 |          |                                                                                                         |      |         |
@@ -652,11 +691,12 @@ Nøkkelord består bare av ett metadataelement: *M022 noekkelord*, og er derfor 
 
 Nøkkelord er valgfritt, og kan forekomme en eller flere ganger i klasse, mappe eller registrering.
 
-Funksjonelle krav til Nøkkelord
-*******************************
+**Funksjonelle krav til nøkkelord**
+
+.. table:: Funksjonelle krav til nøkkelord
 
 +----------+------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-| Krav nr. | Funksjonelle krav til *Nøkkelord*                                                                                                        | Type | Merknad |
+| Krav nr. | Funksjonelle krav til *nøkkelord*                                                                                                        | Type | Merknad |
 +----------+------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | 3.       | Det bør finnes en tjeneste/funksjon for å knytte ett eller flere nøkkelord til klasser, mapper og registreringer (unntatt registrering). | V    |         |
 +----------+------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
@@ -668,7 +708,7 @@ Dette er en referanse på tvers av hierarkiet i arkivstrukturen. Referansen kan 
 
 Kryssreferanse er valgfritt, og kan knyttes en eller flere ganger til klasse, mappe og registrering. Referansen går en vei, dvs. den kan kun være en referanse til en arkivenhet. I og med at kryssreferanser knyttes til mappe og registrering, vil det si at Referanser også knyttes til alle utvidelsene (spesialiseringer) under disse (Saksmappe, Møtemappe og Journalpost, Møteregistrering).
 
-Konseptuell modell for Kryssreferanse
+Konseptuell modell for *kryssreferanse*
 *************************************
 
 |kryssreferanse|
@@ -678,13 +718,14 @@ Konseptuell modell for Kryssreferanse
 
    *kryssreferanse*
 
-Funksjonelle krav til Kryssreferanse
-************************************
+**Funksjonelle krav til kryssreferanse**
+
+.. table:: Funksjonelle krav til kryssreferanse
 
 +----------+------------------------------------------------------------------------------------------------------------+------+-----------------------------------------------------------+
-| Krav nr. | Funksjonelle krav til *Kryssreferanse*                                                                     | Type | Merknad                                                   |
+| Krav nr. | Funksjonelle krav til *kryssreferanse*                                                                     | Type | Merknad                                                   |
 +----------+------------------------------------------------------------------------------------------------------------+------+-----------------------------------------------------------+
-| 4.       | Det skal finnes en tjeneste/funksjon som kan *lagre, gjenfinne, endre og slette* en Kryssreferanse mellom: | B    | Obligatorisk for sakarkiv, aktuelt for mange fagsystemer. |
+| 4.       | Det skal finnes en tjeneste/funksjon som kan *lagre, gjenfinne, endre og slette* en kryssreferanse mellom: | B    | Obligatorisk for sakarkiv, aktuelt for mange fagsystemer. |
 |          |                                                                                                            |      |                                                           |
 |          | -  Mapper                                                                                                  |      |                                                           |
 |          |                                                                                                            |      |                                                           |
@@ -692,7 +733,7 @@ Funksjonelle krav til Kryssreferanse
 |          |                                                                                                            |      |                                                           |
 |          | eller til referanser mellom disse.                                                                         |      |                                                           |
 +----------+------------------------------------------------------------------------------------------------------------+------+-----------------------------------------------------------+
-| 5.       | Det bør finnes en tjeneste/funksjon som kan *lagre, gjenfinne, endre og slette* en Kryssreferanse mellom:  | V    |                                                           |
+| 5.       | Det bør finnes en tjeneste/funksjon som kan *lagre, gjenfinne, endre og slette* en kryssreferanse mellom:  | V    |                                                           |
 |          |                                                                                                            |      |                                                           |
 |          | -  Klasser                                                                                                 |      |                                                           |
 +----------+------------------------------------------------------------------------------------------------------------+------+-----------------------------------------------------------+
@@ -702,24 +743,24 @@ Merknad
 
 En eller flere merknader skal kunne knyttes til en mappe, registrering eller en dokumentbeskrivelse. Merknader skal brukes for å dokumentere spesielle forhold rundt saksbehandlingen og arkivering av dokumenter, og denne informasjonen skal tas med i arkivuttrekket. Merknad kan for eksempel brukes til å dokumentere prosesstrinn knyttet til en (saks)mappe, registrering eller dokumentbeskrivelse som ikke nødvendigvis manifesterer seg som et dokument som skal bli en egen registrering.
 
-Konseptuell modell for Merknad
-******************************
-
+Konseptuell modell for *merknad*
+*********************************
 |merknad|
 
 .. |merknad| figure:: ./media/uml-merknad-diagram.png
    :width: 50%
 
-   *Merknad*
+   *merknad*
 
-Funksjonelle krav til Merknad
-*****************************
+**Funksjonelle krav til merknad**
+
+.. table:: Funksjonelle krav til merknad
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| Krav nr.                                        | Funksjonelle krav til *Merknad*                 | Type                                            | Merknad                                         |
+| Krav nr.                                        | Funksjonelle krav til *merknad*                 | Type                                            | Merknad                                         |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 6.                                              | Det skal finnes en tjeneste/funksjon som kan    | B                                               | Obligatorisk for sakarkiv, aktuelt for mange    |
-|                                                 | registrere en *Merknad* til *mappe* eller       |                                                 | fagsystemer.                                    |
+|                                                 | registrere en *merknad* til *mappe* eller       |                                                 | fagsystemer.                                    |
 |                                                 | *registrering*.                                 |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 7.                                              | Dersom mer enn én merknad er knyttet til en     | B                                               | Obligatorisk for sakarkiv, aktuelt for mange    |
@@ -737,8 +778,8 @@ Det skal være mulig å knytte parter til mapper, registreringer eller dokumentb
 
 Noark 5 legger opp til at det er virksomhetens behov som styrer bruken av *part*, og en part kan være «hvem som helst» som virksomheten har behov for å registrere som interessent på en mappe, registrering eller dokumentbeskrivelse. Forutsetningen er at man definerer ulike roller for partene, som kan brukes til å styre ulike funksjoner, (innsyns)rettigheter, mv.
 
-Konseptuell modell for Part
-***************************
+Konseptuell modell for *part*
+******************************
 
 |part|
 
@@ -747,11 +788,12 @@ Konseptuell modell for Part
 
    *part*
 
-Krav til Part
-*************
+**Krav til part**
+
+.. table:: Krav til part
 
 +----------+-----------------------------------------------------------------------------------------------------------------+------+-----------------------------------------------------+
-| Krav nr. | Krav til *Part*                                                                                                 | Type | Merknad                                             |
+| Krav nr. | Krav til *part*                                                                                                 | Type | Merknad                                             |
 +----------+-----------------------------------------------------------------------------------------------------------------+------+-----------------------------------------------------+
 | 9.       | Det skal være mulig å tilegne *mappe, registrering* eller *dokumentbeskrivelse* et fritt antall *part*          | B    | Obligatorisk for løsninger hvor det inngår *parter* |
 +----------+-----------------------------------------------------------------------------------------------------------------+------+-----------------------------------------------------+
@@ -767,8 +809,8 @@ Med presedens menes en (retts)avgjørelse som siden kan tjene som rettesnor i li
 
 Man snakker vanligvis om presedenssaker, men det er vanligvis ett eller noen få av dokumentene i saken som danner presedens. Foruten å registrere hele saken, må derfor det eller de dokumentene som inneholder presedensavgjørelser kunne identifiseres. Hvis opplysninger om presedens er registrert, er presedens obligatorisk for avlevering.
 
-Konseptuell modell for Presedens
-********************************
+Konseptuell modell for *presedens*
+***********************************
 
 |presedens|
 
@@ -779,11 +821,12 @@ Konseptuell modell for Presedens
 
 Noark 5 legger opp til at det skal kunne bygges opp et presedensregister med henvisninger til Saksmapper og Journalposter som danner presedens. Registeret bygges opp ved at presedensmetadata knyttes til de arkivenhetene (saker eller journalposter) som danner presedens.
 
-Krav til Presedens
-******************
+**Krav til presedens**
+
+.. table:: Krav til presedens
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| Krav nr.                                        | Krav til *Presedens*                            | Type                                            | Merknad                                         |
+| Krav nr.                                        | Krav til *presedens*                            | Type                                            | Merknad                                         |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 12.                                             | Det bør være mulig å opprette en presedens      | V                                               |                                                 |
 |                                                 | knyttet til en sak eller en journalpost         |                                                 |                                                 |
@@ -840,14 +883,15 @@ Det skal også gi muligheter for feilretting utover det som ellers er tillatt et
 
 Løsningen må dessuten legge til rette for at administratorer har kontroll på arkivdokumentene og hvilke formater disse er lagret i. Det vil også si å kunne implementere vedtatte regler for når konvertering skal skje.
 
-Krav til administrasjon av kjernen
-**********************************
+**Krav til administrasjon av kjernen**
+
+.. table:: Krav til administrasjon av kjernen
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| Krav nr.                                        | Krav til administrasjon av kjernen              | Type                                            | Merknad                                         |
+| Krav nr.                                        | Krav til administrasjon av *kjernen*              | Type                                            | Merknad                                         |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 1.                                              | Det skal finnes en tjeneste/funksjon for å      | O                                               |                                                 |
-|                                                 | administrere kjernen                            |                                                 |                                                 |
+|                                                 | administrere *kjernen*                            |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 2.                                              | Det må kunne defineres minimum én bruker som er | O                                               |                                                 |
 |                                                 | arkivadministrator, som kan logge seg           |                                                 |                                                 |
@@ -869,7 +913,7 @@ Krav til administrasjon av kjernen
 |                                                 | opprettes gjennom Administratorfunksjonen for   |                                                 |                                                 |
 |                                                 | Noark 5 kjerne.                                 |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| 5.                                              | Et *Underarkiv* skal kun defineres og endres    | B                                               | Obligatorisk dersom underarkiv brukes           |
+| 5.                                              | Et *underarkiv* skal kun defineres og endres    | B                                               | Obligatorisk dersom underarkiv brukes           |
 |                                                 | gjennom Administratorfunksjonen for Noark 5     |                                                 |                                                 |
 |                                                 | kjerne.                                         |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+

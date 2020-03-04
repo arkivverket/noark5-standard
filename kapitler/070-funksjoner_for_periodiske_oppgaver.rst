@@ -14,12 +14,13 @@ Kassasjon er like aktuelt i elektroniske arkiver som i fysiske arkiver. Langtids
 
 Kassasjon betyr ikke at en må gå inn og vurdere bevaringsverdien for hvert eneste dokument. For at kassasjon av elektroniske dokumenter skal være praktisk gjennomførbart, må en fastsette bevarings- og kassasjonskriterier på et overordnet plan - dvs. på et makronivå. Internasjonal arkivteori argumenterer for *funksjonsbasert makrokassasjon*. Det betyr at arkivdokumentenes bevaringsverdi avhenger av funksjonen eller aktiviteten som har skapt dokumentet - og ikke av selve innholdet i dokumentet. Også i Norge er det enighet om at funksjonsbasert kassasjon på makronivå kan være en viktig metode, selv om hensynet til dokumentenes innhold tradisjonelt er tillagt stor betydning. [13]_
 
-Konseptuell modell for *Kassasjon*
+Konseptuell modell for Kassasjon
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ./media/uml-kassasjon-diagram.png
    :width: 100%
 
-   Kassasjon
+  Figur 6.1 Kassasjon
 
 Overordnede kassasjonsbestemmelser kan settes på arkiv- og klassenivå, og skal da arves nedover i arkivstrukturen til mappe, registrering og dokumentbeskrivelse. Verdiene som arves skal kunne overstyres. Ved deponering/avlevering er det bare kassasjonsvedtak som innebærer kassasjon som skal være med. Det skal altså ikke knyttes opplysninger om kassasjon til arkivenheter hvor alle tilordnede dokumenter skal bevares. Kassasjon kan altså være knyttet en gang til arkivdel, klasse, mappe, registrering og dokumentbeskrivelse.
 
@@ -92,6 +93,7 @@ Arv skal kunne skje videre ned til registrerings- og dokumentbeskrivelsesnivå. 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
 Kassasjon av dokumenttyper
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Bevaring og kassasjon er altså i utgangpunktet knyttet til metadata som arves fra klassen, eller eventuelt arkivdelen, til alle underliggende mapper. I tillegg skal det også være mulig å foreta gjennomgående kassasjon av bestemte typer dokumenter. Derfor bør det også være mulig å knytte bevaring og kassasjon til registreringstyper, dokumenttyper eller andre egendefinerte typer. [15]_
 
@@ -111,6 +113,7 @@ Kassasjon av dokumenttyper kan implementeres ved at bestemte registreringstyper 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
 Oversikt over dokumenter som skal kasseres eller vurderes på ny
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Før kassasjonen gjennomføres, skal det være mulig å få presentert en oversikt over dokumenter som skal kasseres. En slik oversikt skal inneholde de viktigste metadataene, inkludert alle metadata for bevaring og kassasjon. Fra denne oversikten skal det også være mulig å åpne selve dokumentet, slik at en kan få kontrollert dokumentinnholdet. Dersom oversikten inneholder dokumenter som ikke skal kasseres i denne omgang, skal det være mulig å endre metadata direkte fra oversikten. Oversikten skal kunne begrenses til å omfatte et utvalg dokumenter, f.eks. knyttet til en bestemt klasse.
 
@@ -146,6 +149,7 @@ En slik funksjonalitet er bare nødvendig å ha i de tilfeller en arkivdeler inn
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
 Sletting av dokumenter og metadata
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Kriteriet for at et dokument skal kunne kasseres er at metadata for kassasjonsvedtak har verdien "Kasseres", og at dagens dato har passert bevaringsdatoen. Løsningen bør kontrollere at presedenssaker aldri tillates kassert.
 

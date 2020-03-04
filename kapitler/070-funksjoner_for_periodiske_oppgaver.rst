@@ -1089,7 +1089,7 @@ Overføringslisten skal utformes som en avleveringsliste til arkivdepot.Organet 
 |                                                 | - *saksstatus* i *Saksmappe*                    |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | - *avskrivningsdato* fra *Journalpost* (Her     |                                                 |                                                 |
-|                                                 |   skal også verdien ”tomt felt” kunne angis)    |                                                 |                                                 |
+|                                                 |   skal også verdien «tomt felt» kunne angis)    |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | - kassasjonsvedtak                              |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |

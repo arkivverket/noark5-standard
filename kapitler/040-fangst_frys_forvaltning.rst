@@ -175,7 +175,7 @@ Noark 5 må ha mulighet til å akseptere disse, og må inkludere løsninger for
 
 I en masseimport må kjernen fange samme informasjon som i en vanlig import, nemlig dokumentet og dets metadata.
 
-Masseimport må håndtere unntak og feil. Dette kan være aktuelt f. eks. ved elektroniske høringer via web-tjener på Internett, dokumentproduksjon i samhandlingsrom, ”saksbehandling” med e-postsystemet som utvekslingskanal eller i andre tilfeller hvor en relativt omfattende dokumentbehandling har foregått uten at det har skjedd en arkivdanning samtidig. Eksempelvis kan Noark 5-løsningen tilby funksjonalitet hvor brukeren kan velge/markere filer som er lokalisert på en eller flere filservere, ftp-server eller lignende, for å importere dem. Brukeren skal enkelt kunne knytte filene til en mappe eller en registrering i en bestemt mappe. Alternativt kan masseimport håndteres ved f. eks. en søkemotor, hvor dokumentene fanges, tilknyttes metadata og importeres til en definert arkivenhet i en automatisert prosess.
+Masseimport må håndtere unntak og feil. Dette kan være aktuelt f. eks. ved elektroniske høringer via web-tjener på Internett, dokumentproduksjon i samhandlingsrom, «saksbehandling» med e-postsystemet som utvekslingskanal eller i andre tilfeller hvor en relativt omfattende dokumentbehandling har foregått uten at det har skjedd en arkivdanning samtidig. Eksempelvis kan Noark 5-løsningen tilby funksjonalitet hvor brukeren kan velge/markere filer som er lokalisert på en eller flere filservere, ftp-server eller lignende, for å importere dem. Brukeren skal enkelt kunne knytte filene til en mappe eller en registrering i en bestemt mappe. Alternativt kan masseimport håndteres ved f. eks. en søkemotor, hvor dokumentene fanges, tilknyttes metadata og importeres til en definert arkivenhet i en automatisert prosess.
 
 Kravene til masseimport nedenfor er generelle, og de er uavhengige av verktøy og teknologi.
 
@@ -326,8 +326,8 @@ Krav til frysing av metadata for Journalpost
 |                                                 | «Utgår».                                        |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 20.                                             | Det bør ikke være mulig å slette en             | V                                               |                                                 |
-|                                                 | *Journalpost* med status ”Ferdigstilt fra       |                                                 |                                                 |
-|                                                 | saksbehandler” eller ”Godkjent av leder”.       |                                                 |                                                 |
+|                                                 | *Journalpost* med status «Ferdigstilt fra       |                                                 |                                                 |
+|                                                 | saksbehandler» eller «Godkjent av leder».       |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 21.                                             | Det bør være mulig å slette en *Journalpost*    | V                                               |                                                 |
 |                                                 | med status «Reservert dokument».                |                                                 |                                                 |
@@ -356,7 +356,7 @@ Krav til frysing av metadata for Journalpost
 |                                                 | dokumenter («utgående dokument», «organinternt  |                                                 |                                                 |
 |                                                 | dokument for oppfølging», «organinternt         |                                                 |                                                 |
 |                                                 | dokument uten oppfølging») med status           |                                                 |                                                 |
-|                                                 | ”Ekspedert”, ”Journalført” eller ”Arkivert”,    |                                                 |                                                 |
+|                                                 | «Ekspedert», «Journalført» eller «Arkivert»,    |                                                 |                                                 |
 |                                                 | skal det på *Journalpost* ikke være mulig å     |                                                 |                                                 |
 |                                                 | endre følgende metadata:                        |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
@@ -377,21 +377,21 @@ Krav til frysing av metadata for Journalpost
 |                                                 | -  korrespondansepart                           |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 25.                                             | For *Journalpost* av typen «inngående dokument» | V                                               |                                                 |
-|                                                 | med status ”midlertidig registrert” eller       |                                                 |                                                 |
-|                                                 | ”registrert av saksbehandler” bør alle metadata |                                                 |                                                 |
+|                                                 | med status «midlertidig registrert» eller       |                                                 |                                                 |
+|                                                 | «registrert av saksbehandler» bør alle metadata |                                                 |                                                 |
 |                                                 | kunne endres.                                   |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 26.                                             | For *Journalpost* av typer egenproduserte       | V                                               |                                                 |
-|                                                 | dokumenter (”utgående dokument”, ”Organinternt  |                                                 |                                                 |
-|                                                 | dokument for oppfølging”, ”Organinternt         |                                                 |                                                 |
-|                                                 | dokument uten oppfølging”) med status           |                                                 |                                                 |
-|                                                 | ”Registrert av saksbehandler” og ”Ferdigstilt   |                                                 |                                                 |
-|                                                 | fra saksbehandler” bør det for autorisert       |                                                 |                                                 |
+|                                                 | dokumenter («utgående dokument», «Organinternt  |                                                 |                                                 |
+|                                                 | dokument for oppfølging», «Organinternt         |                                                 |                                                 |
+|                                                 | dokument uten oppfølging») med status           |                                                 |                                                 |
+|                                                 | «Registrert av saksbehandler» og «Ferdigstilt   |                                                 |                                                 |
+|                                                 | fra saksbehandler» bør det for autorisert       |                                                 |                                                 |
 |                                                 | personale være mulig å endre alle metadata.     |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 27.                                             | Det bør være mulig å arkivere en ny variant av  | V                                               |                                                 |
 |                                                 | et dokument på en *Journalpost* med status      |                                                 |                                                 |
-|                                                 | ”Ekspedert”, ”Journalført” eller ”Arkivert”,    |                                                 |                                                 |
+|                                                 | «Ekspedert», «Journalført» eller «Arkivert»,    |                                                 |                                                 |
 |                                                 | uten å måtte reversere statusen. Denne          |                                                 |                                                 |
 |                                                 | varianten må ikke kunne forveksles med den      |                                                 |                                                 |
 |                                                 | ferdigstilte varianten som ble ekspedert        |                                                 |                                                 |
@@ -407,13 +407,13 @@ Krav til frysing av dokument og metadata for dokumentbeskrivelse
 +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
 | 29.      | Det skal være mulig å registrere at et dokument er i papirform og hvor det er lokalisert                                                                         | O    |                           |
 +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
-| 30.      | Det skal ikke være mulig å sette *journalstatus* ”Ekspedert”, ”Journalført” eller ”Arkivert” dersom ikke dokumentstatus er satt til ”Dokumentet er ferdigstilt”. | B    | Obligatorisk for sakarkiv |
+| 30.      | Det skal ikke være mulig å sette *journalstatus* «Ekspedert», «Journalført» eller «Arkivert» dersom ikke dokumentstatus er satt til «Dokumentet er ferdigstilt». | B    | Obligatorisk for sakarkiv |
 +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
-| 31.      | Det skal ikke være mulig å endre innholdet i et dokument når status på *dokumentbeskrivelse* er satt til ”Dokumentet er ferdigstilt”.                            | O    |                           |
+| 31.      | Det skal ikke være mulig å endre innholdet i et dokument når status på *dokumentbeskrivelse* er satt til «Dokumentet er ferdigstilt».                            | O    |                           |
 +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
-| 32.      | Det bør ikke være mulig å endre (reversere) status ”Dokumentet er ferdigstilt”.                                                                                  | V    |                           |
+| 32.      | Det bør ikke være mulig å endre (reversere) status «Dokumentet er ferdigstilt».                                                                                  | V    |                           |
 +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
-| 33.      | For *dokumentbeskrivelse* med status ”Dokumentet er ferdigstilt” skal det være tillatt å endre tittelen på hoveddokument og vedlegg.                             | O    |                           |
+| 33.      | For *dokumentbeskrivelse* med status «Dokumentet er ferdigstilt» skal det være tillatt å endre tittelen på hoveddokument og vedlegg.                             | O    |                           |
 +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
 
 Oppsplitting og sammenslåing av mapper, flytting av registreringer
@@ -461,9 +461,9 @@ Krav til oppsplitting og sammenslåing av mapper, flytting av registreringer
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 41.                                             | Det bør være mulig å parameterstyre at alle     | V                                               |                                                 |
 |                                                 | brukere kan flytte *registreringer* de selv er  |                                                 |                                                 |
-|                                                 | saksbehandler for, hvis status er ”midlertidig  |                                                 |                                                 |
-|                                                 | registrert” eller ”registrert av                |                                                 |                                                 |
-|                                                 | saksbehandler”.                                 |                                                 |                                                 |
+|                                                 | saksbehandler for, hvis status er «midlertidig  |                                                 |                                                 |
+|                                                 | registrert» eller «registrert av                |                                                 |                                                 |
+|                                                 | saksbehandler».                                 |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 42.                                             | Ved flytting og renummerering skal bruker få    | B                                               | Obligatorisk for fysiske arkiv                  |
 |                                                 | påminnelser om å endre nødvendige referanser på |                                                 |                                                 |
@@ -526,7 +526,7 @@ Krav til Dokumentflyt
 Avskrivning og saksoppfølging 
 ------------------------------
 
-En Journalpost av typen ”inngående dokument” eller ”organinternt dokument for oppfølging” står i restanse inntil de er markert som ferdigbehandlet, eller avskrives. Dette kapitlet angir krav til avskrivning. Det følger av arkivforskriften § 10 at avskrivningsmåte skal fremgå av journalen.
+En Journalpost av typen «inngående dokument» eller «organinternt dokument for oppfølging» står i restanse inntil de er markert som ferdigbehandlet, eller avskrives. Dette kapitlet angir krav til avskrivning. Det følger av arkivforskriften § 10 at avskrivningsmåte skal fremgå av journalen.
 
 Krav til Avskrivning
 ********************
@@ -550,8 +550,8 @@ Krav til Avskrivning
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 5.                                              | Når statusen til en mappe settes til avsluttet, | B                                               | Obligatorisk for sakarkiv                       |
 |                                                 | skal alle uavskrevne Journalposter av typen     |                                                 |                                                 |
-|                                                 | ”inngående dokument” eller ”organinternt        |                                                 |                                                 |
-|                                                 | dokument for oppfølging” som er knyttet til     |                                                 |                                                 |
+|                                                 | «inngående dokument» eller «organinternt        |                                                 |                                                 |
+|                                                 | dokument for oppfølging» som er knyttet til     |                                                 |                                                 |
 |                                                 | mappen, avskrives med sak avsluttet             |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 6.                                              | Det skal finnes funksjonalitet for at           | B                                               | Obligatorisk for sakarkiv                       |
@@ -627,7 +627,7 @@ Krav til rapporten Restanseliste
 |          |                                                                                                                                                  |      |         |
 |          | *journaldato*                                                                                                                                    |      |         |
 |          |                                                                                                                                                  |      |         |
-|          | *dokumentetsDato* (tekst ”Udatert” hvis dato mangler)                                                                                            |      |         |
+|          | *dokumentetsDato* (tekst «Udatert» hvis dato mangler)                                                                                            |      |         |
 |          |                                                                                                                                                  |      |         |
 |          | *tittel*                                                                                                                                         |      |         |
 |          |                                                                                                                                                  |      |         |
@@ -696,7 +696,7 @@ Krav til rapporten Forfallsliste
 |          |                                                                                             |      |         |
 |          | *journaldato*                                                                               |      |         |
 |          |                                                                                             |      |         |
-|          | *dokumentetsDato* (tekst ”Udatert” hvis dato mangler)                                       |      |         |
+|          | *dokumentetsDato* (tekst «Udatert» hvis dato mangler)                                       |      |         |
 |          |                                                                                             |      |         |
 |          | *tittel*                                                                                    |      |         |
 |          |                                                                                             |      |         |

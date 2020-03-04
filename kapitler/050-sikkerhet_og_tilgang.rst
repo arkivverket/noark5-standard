@@ -6,11 +6,11 @@ Sikkerhet og sikkerhetskonfigurasjon
 
 Den grunnleggende modellen for tilgangsstyring og sikkerhet mot endring i Noark 5 går ut på at kjernen angir hvilke betingelser som stilles for å få tilgang til objekter, mens modulene utenfor kjernen godtgjør at betingelsene er oppfylt.
 
-En utenforliggende modul skal være kjent for kjernen, kjernen skal altså ikke avgi opplysninger eller utføre handlinger på forespørsel fra en uidentifisert modul. For mange Noark 5 arkiver vil det være tilstrekkelig at den eksterne modulen er kjent. Kjernen har da ”tillit” til den eksterne modulen, og aksepterer dens godtgjøring for at opplysningene kan brukes.
+En utenforliggende modul skal være kjent for kjernen, kjernen skal altså ikke avgi opplysninger eller utføre handlinger på forespørsel fra en uidentifisert modul. For mange Noark 5 arkiver vil det være tilstrekkelig at den eksterne modulen er kjent. Kjernen har da «tillit» til den eksterne modulen, og aksepterer dens godtgjøring for at opplysningene kan brukes.
 
 Ulike arkiver kan imidlertid ha forskjellige krav til hvor presist rettighetene til objekter må angis, og forskjellige krav til hvor sikker kjernen må være på at den faktisk kommuniserer med en modul som det er grunn til å ha tillit til.
 
-I enkelte særskilte tilfeller kan det også være behov for at kjernen sitter med oversikt over hvilke konkrete, personlige brukere som skal ha tilgang til hvilke objekter. Det bør være anledning til også å konfigurere kjernen på en slik måte at den *ikke* ”har tillit til” de eksterne modulene. For enkel integrasjon og helhetlig sikkerhetspolicy på tvers av virksomhetenes IT‑systemer anbefales imidlertid sikkerhetsfunksjoner som legger til rette for brukerkataloger utenfor Noark 5 kjernen.
+I enkelte særskilte tilfeller kan det også være behov for at kjernen sitter med oversikt over hvilke konkrete, personlige brukere som skal ha tilgang til hvilke objekter. Det bør være anledning til også å konfigurere kjernen på en slik måte at den *ikke* «har tillit til» de eksterne modulene. For enkel integrasjon og helhetlig sikkerhetspolicy på tvers av virksomhetenes IT‑systemer anbefales imidlertid sikkerhetsfunksjoner som legger til rette for brukerkataloger utenfor Noark 5 kjernen.
 
 Sikkerhetskravene i Noark 5 er derfor delt inn i følgende hovedemner:
 
@@ -28,13 +28,13 @@ Krav til sikkerhet i kjernen
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | 1.       | Alle moduler eller systemer utenfor kjernen, som skal kommunisere med eller ha tilgang til objekter i Noark 5 kjerne, skal være identifisert og gjenkjennes av kjernen      | O    |         |
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-| 2.       | En ekstern modul som ikke lenger skal ha tilgang til tjenester skal fortsatt være identifisert i kjernen, men med en status som indikerer at den er ”passiv”                | O    |         |
+| 2.       | En ekstern modul som ikke lenger skal ha tilgang til tjenester skal fortsatt være identifisert i kjernen, men med en status som indikerer at den er «passiv»                | O    |         |
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | 3.       | Det skal finnes en oversikt over hvilket eller hvilke tidsrom hver ekstern modul har vært aktiv                                                                             | O    |         |
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | 4.       | Det må kunne defineres minimum én bruker som er arkivadministrator, som kan logge seg eksplisitt på Noark 5 kjernen for å endre konfigurasjon og globale parametere         | O    |         |
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-| 5.       | Påloggingsidentifikator for en arkivadministrator som ikke lenger skal ha tilgang til kjernen skal kunne settes til status ”passiv”, som ikke gir muligheter for å logge på | O    |         |
+| 5.       | Påloggingsidentifikator for en arkivadministrator som ikke lenger skal ha tilgang til kjernen skal kunne settes til status «passiv», som ikke gir muligheter for å logge på | O    |         |
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | 6.       | Det skal finnes en oversikt over hvilket eller hvilke tidsrom påloggingsidentifikatoren har vært aktiv                                                                      | O    |         |
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
@@ -89,7 +89,7 @@ Krav til sikkerhetskonfigurasjon
 
 Rettighetsangivelser kan knyttes til hvert av de fem nivåene arkivdel, klasse, mappe, registrering og dokumentbeskrivelse. Det er verdt å merke seg at det ikke inngår referanse til roller, profiler, eller andre autorisasjonsmekanismer i kjernen, fordi dette forutsettes håndtert i de eksterne modulene. Det grunnleggende prinsippet er en angivelse av hvilken eller hvilke moduler som har henholdsvis lese- og redigeringstilgang til hvert objekt i arkivet. Hvor fleksibelt eller rigid dette kan angis, vil variere med de konfigurasjonsvalgene som er gjort for arkivdelen.
 
-Dersom modulen som er angitt som ansvarlig for en mappe eller registrering skal ha automatisk tilgang, vil alle handlinger som er autorisert i den aktuelle eksterne modulen bli akseptert av kjernen. Andre moduler kan også få tilgang, men bare dersom de angis konkret (eller dersom det angis at ”alle moduler” har tilgang).
+Dersom modulen som er angitt som ansvarlig for en mappe eller registrering skal ha automatisk tilgang, vil alle handlinger som er autorisert i den aktuelle eksterne modulen bli akseptert av kjernen. Andre moduler kan også få tilgang, men bare dersom de angis konkret (eller dersom det angis at «alle moduler» har tilgang).
 
 Dersom tilgangsrettigheter arves nedover i hierarkiet som standard, vil man for eksempel kunne gi en bestemt ekstern modul tilgang til hele arkivdelen. Samme modul har da automatisk tilgang til alle underliggende mapper, bortsett fra i de mapper der det er angitt konkrete begrensninger av rettighetene. Man kan også velge å ikke gi noen rettigheter så høyt i hierarkiet som arkivdelen; i så fall vil rettighetene måtte angis konkret for hver mappe, og arves av hver underliggende registrering (med hver sine underliggende dokumenter) med unntak av eventuelle registreringer som det settes konkrete rettighetsangivelser for. Om man i stedet konfigurerer arkivdelen til å kreve eksplisitte tilganger, vil ingen tilganger arves fra høyere nivå i hierarkiet.
 
@@ -113,12 +113,12 @@ Krav til rettighetsangivelser
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 16.                                             | For hver arkivdel, klasse, mappe, registrering  | V                                               |                                                 |
 |                                                 | og dokumentbeskrivelse bør det være anledning   |                                                 |                                                 |
-|                                                 | til å angi lesetilgang for *”alle”* eksterne    |                                                 |                                                 |
+|                                                 | til å angi lesetilgang for *«alle»* eksterne    |                                                 |                                                 |
 |                                                 | moduler (både nåværende og fremtidige).         |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 17.                                             | For hver arkivdel, klasse, mappe, registrering  | B                                               | Obligatorisk hvis krav 4.1.13 oppfylles         |
 |                                                 | og dokumentbeskrivelse skal det være anledning  |                                                 |                                                 |
-|                                                 | til å angi oppdaterings­tilgang for *”alle”*    |                                                 |                                                 |
+|                                                 | til å angi oppdaterings­tilgang for *«alle»*    |                                                 |                                                 |
 |                                                 | eksterne moduler (både nåværende og             |                                                 |                                                 |
 |                                                 | fremtidige).                                    |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -151,7 +151,7 @@ Krav til administrativ oppbygging
 | 2.                                              | En administrativ enhet som ikke lenger skal ha  | B                                               | Obligatorisk for løsninger hvor administrative  |
 |                                                 | tilgang til objekter i kjernen, skal fortsatt   |                                                 | enheter skal ha tilgang til objekter i kjernen  |
 |                                                 | være identifisert i kjernen, men med en status  |                                                 |                                                 |
-|                                                 | som indikerer at den er ”passiv”.               |                                                 |                                                 |
+|                                                 | som indikerer at den er «passiv».               |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 3.                                              | Det skal finnes en oversikt over hvilket eller  | B                                               | Obligatorisk for løsninger hvor administrative  |
 |                                                 | hvilke tidsrom hver administrative enhet har    |                                                 | enheter skal ha tilgang til objekter i kjernen  |
@@ -180,7 +180,7 @@ Krav til brukeradministrasjon
 | 3.                                              | En bruker som ikke lenger skal ha tilgang til   | B                                               | Obligatorisk for løsninger hvor personlig       |
 |                                                 | enheter i kjernen skal fortsatt være            |                                                 | identifiserte brukere skal være identifisert i  |
 |                                                 | identifisert i kjernen, men med en status som   |                                                 | kjernen                                         |
-|                                                 | indikerer at den er ”passiv”                    |                                                 |                                                 |
+|                                                 | indikerer at den er «passiv»                    |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 4.                                              | Det skal finnes en oversikt over hvilket eller  | B                                               | Obligatorisk for løsninger hvor personlig       |
 |                                                 | hvilke tidsrom hver bruker har vært aktiv.      |                                                 | identifiserte brukere skal være identifisert i  |
@@ -214,7 +214,7 @@ Krav til identifisering av brukere
 |                                                 | driftsmiljø, og ha definert tilgangsrettigheter |                                                 |                                                 |
 |                                                 | i en ressurskatalog. Noark 5- løsningen kan da  |                                                 |                                                 |
 |                                                 | brukes så langt de eksternt definerte           |                                                 |                                                 |
-|                                                 | tilgangsrettighetene rekker (”single sign-on”)  |                                                 |                                                 |
+|                                                 | tilgangsrettighetene rekker («single sign-on»)  |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
 Passord har lang tradisjon som minstekrav til autentisering i IT-systemer. Strengere krav til autentisering er imidlertid i ferd med å bli utbredt, særlig for systemer i heterogene miljøer og systemer som slipper til eksterne brukere utenfor systemeiers instruksjonsmyndighet.
@@ -251,15 +251,15 @@ Krav til håndtering av historiske brukeridenter
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Krav til håndtering av historiske brukeridenter | Type                                            | Merknad                                         |
 +=================================================+=================================================+=================================================+=================================================+
-| 9.                                              | En påloggingsidentifikator (”brukerident”) som  | V                                               |                                                 |
+| 9.                                              | En påloggingsidentifikator («brukerident») som  | V                                               |                                                 |
 |                                                 | ikke lenger skal ha tilgang til løsningen bør   |                                                 |                                                 |
-|                                                 | kunne settes til status ”passiv”, som ikke gir  |                                                 |                                                 |
+|                                                 | kunne settes til status «passiv», som ikke gir  |                                                 |                                                 |
 |                                                 | muligheter for å logge på                       |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 10.                                             | Det skal finnes en oversikt over hvilket eller  | B                                               | Obligatorisk hvis kravet over oppfylles         |
 |                                                 | hvilke tidsrom brukeridenten har vært aktiv     |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| 11.                                             | Brukerens ”fulle navn”, og eventuelle initialer | V                                               |                                                 |
+| 11.                                             | Brukerens «fulle navn», og eventuelle initialer | V                                               |                                                 |
 |                                                 | som brukes til å identifisere brukeren som      |                                                 |                                                 |
 |                                                 | saksbehandler i dokumenter og skjermbilder, bør |                                                 |                                                 |
 |                                                 | kunne endres for en gitt brukerident. Endring   |                                                 |                                                 |
@@ -270,8 +270,8 @@ Krav til håndtering av historiske brukeridenter
 |                                                 | brukerID til andre brukere vanskeliggjør        |                                                 |                                                 |
 |                                                 | tolking av logg                                 |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| 12.                                             | Ved en eventuell adgang til å endre ”fullt      | B                                               | Obligatorisk hvis kravet over oppfylles         |
-|                                                 | navn” og/eller initialer for en gitt            |                                                 |                                                 |
+| 12.                                             | Ved en eventuell adgang til å endre «fullt      | B                                               | Obligatorisk hvis kravet over oppfylles         |
+|                                                 | navn» og/eller initialer for en gitt            |                                                 |                                                 |
 |                                                 | påloggingsidentifikator, må alle navn og        |                                                 |                                                 |
 |                                                 | initialer kunne bevares i løsningen sammen med  |                                                 |                                                 |
 |                                                 | opplysninger om hvilket eller hvilke tidsrom de |                                                 |                                                 |
@@ -281,9 +281,9 @@ Krav til håndtering av historiske brukeridenter
 Autorisasjon
 ------------
 
-*Autorisasjon* er silingen av hva en individuell pålogget bruker faktisk får lov til å gjøre i løsningen. Det er to prinsipielt forskjellige overordnede prinsipper for hvordan autorisasjon kan uttrykkes, som ofte betegnes ”need to know” og ”need to protect”. ”Need to know”, som overordnet prinsipp, innebærer at man tar som utgangspunkt at all tilgang er stengt, og at autorisasjoner skal være eksplisitt uttrykt. ”Need to protect” er autorisasjon med det motsatte utgangspunkt: Alt er åpent med mindre tilgangen sperres eller skjermes eksplisitt. ”Need to protect” er primært aktuelt for tilgang til å lese, søke i og skrive ut informasjon. Redigeringstilgangene i forvaltningen bør uansett baseres på ”need to know”-prinsippet.
+*Autorisasjon* er silingen av hva en individuell pålogget bruker faktisk får lov til å gjøre i løsningen. Det er to prinsipielt forskjellige overordnede prinsipper for hvordan autorisasjon kan uttrykkes, som ofte betegnes «need to know» og «need to protect». «Need to know», som overordnet prinsipp, innebærer at man tar som utgangspunkt at all tilgang er stengt, og at autorisasjoner skal være eksplisitt uttrykt. «Need to protect» er autorisasjon med det motsatte utgangspunkt: Alt er åpent med mindre tilgangen sperres eller skjermes eksplisitt. «Need to protect» er primært aktuelt for tilgang til å lese, søke i og skrive ut informasjon. Redigeringstilgangene i forvaltningen bør uansett baseres på «need to know»-prinsippet.
 
-Selv om ”need to know” og ”need to protect” er forskjellige prinsipielle utgangspunkt er det formelt mulig å praktisere de samme tillatelser og begrensninger innenfor rammen av begge prinsipper. I praktisk bruk er det likevel viktig å være bevisst hvilken tenkemåte virksomheten har lagt til grunn. Offentleglova, og plikten til å gi innsyn i offentlig journal, er grunnlegende ”need to protect”-orientert. De fleste regelverk som mer spesifikt regulerer informasjons­sikkerhet er ”need to know”-orientert.
+Selv om «need to know» og «need to protect» er forskjellige prinsipielle utgangspunkt er det formelt mulig å praktisere de samme tillatelser og begrensninger innenfor rammen av begge prinsipper. I praktisk bruk er det likevel viktig å være bevisst hvilken tenkemåte virksomheten har lagt til grunn. Offentleglova, og plikten til å gi innsyn i offentlig journal, er grunnlegende «need to protect»-orientert. De fleste regelverk som mer spesifikt regulerer informasjons­sikkerhet er «need to know»-orientert.
 
 Krav til grunnprinsipp for autorisering
 ***************************************
@@ -291,14 +291,14 @@ Krav til grunnprinsipp for autorisering
 +----------+-----------------------------------------------------------------------------------------------------------+------+---------------------------------------------------------+
 | Krav nr. | Krav til grunnprinsipp for autorisering                                                                   | Type | Merknad                                                 |
 +==========+===========================================================================================================+======+=========================================================+
-| 1.       | All redigerings- og skrivetilgang i Noark 5-løsningen skal være basert på et ”need to know” grunnprinsipp | O    | Obligatorisk der det gis slik tilgang fra ekstern modul |
+| 1.       | All redigerings- og skrivetilgang i Noark 5-løsningen skal være basert på et «need to know» grunnprinsipp | O    | Obligatorisk der det gis slik tilgang fra ekstern modul |
 +----------+-----------------------------------------------------------------------------------------------------------+------+---------------------------------------------------------+
-| 2.       | Et ”need to protect” grunnprinsipp kan velges for lesetilganger i en eller flere eksterne løsninger       | V    |                                                         |
+| 2.       | Et «need to protect» grunnprinsipp kan velges for lesetilganger i en eller flere eksterne løsninger       | V    |                                                         |
 +----------+-----------------------------------------------------------------------------------------------------------+------+---------------------------------------------------------+
 
 Autorisasjoner er satt sammen av to hovedkomponenter: Den første komponenten er *funksjonelle rettigheter*, tilgang til å utføre bestemte handlinger – opprette, endre, lese, søke osv. De funksjonelle rettighetene kan oftest knyttes til bestemte menyvalg, skjermbilder og kommandoer og lignende i et brukergrensesnitt. Tillatelse til å utføre et funksjonskall fra et eksternt fagsystem er også en funksjonell rettighet. Den andre komponenten er objekttilgang, eller rettighetens *nedslagsfelt*. Objekttilganger er avgrensninger av hvilke gjenstander og personer i verden, representert som dataobjekter, de funksjonelle rettighetene skal gjelde for.
 
-En *rolle* er et begrep innen tilgangskontroll som grupperer likeartede arbeidsoppgaver, slik at autorisasjonen kan tildeles flere personer med samme rolle istedenfor at autorisasjonene tildeles direkte til hver enkelt person. Det bør også kunne angis ulike former for sammenheng mellom roller. For eksempel vil det i en del virksomheter være slik at en person som har rollen ”leder” for en enhet trenger tilgang til samme informasjon som alle sine underordnede. En slik mulighet for å arve tilganger fra en rolle til en annen er imidlertid ikke universell for alle relasjoner mellom leder og underordnet i en hver virksomhet. Eventuelle sammenhenger som skal gjelde mellom ulike roller må forankres i arkivskapers egen sikkerhetspolicy.
+En *rolle* er et begrep innen tilgangskontroll som grupperer likeartede arbeidsoppgaver, slik at autorisasjonen kan tildeles flere personer med samme rolle istedenfor at autorisasjonene tildeles direkte til hver enkelt person. Det bør også kunne angis ulike former for sammenheng mellom roller. For eksempel vil det i en del virksomheter være slik at en person som har rollen «leder» for en enhet trenger tilgang til samme informasjon som alle sine underordnede. En slik mulighet for å arve tilganger fra en rolle til en annen er imidlertid ikke universell for alle relasjoner mellom leder og underordnet i en hver virksomhet. Eventuelle sammenhenger som skal gjelde mellom ulike roller må forankres i arkivskapers egen sikkerhetspolicy.
 
 Krav til funksjonelle roller
 ****************************
@@ -324,7 +324,7 @@ Krav til funksjonelle roller
 | 6.                                              | En bruker bør kunne ha flere ulike roller       | V                                               |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
-Prosessrelaterte rettigheter er et verktøy for å angi ulike betingelser for autorisasjon til å utføre en bestemt handling. Et eksempel kan være at virksomhetens sikkerhetspolicy krever at man har en bestemt rolle (for eksempel ”leder”) for å endre status på en registrering eller en mappe til ”avsluttet”.
+Prosessrelaterte rettigheter er et verktøy for å angi ulike betingelser for autorisasjon til å utføre en bestemt handling. Et eksempel kan være at virksomhetens sikkerhetspolicy krever at man har en bestemt rolle (for eksempel «leder») for å endre status på en registrering eller en mappe til «avsluttet».
 
 Krav til prosessrelaterte funksjonelle rettigheter og begrensninger
 *******************************************************************
@@ -348,8 +348,8 @@ Krav til prosessrelaterte funksjonelle rettigheter og begrensninger
 |                                                 | gjennom stringente, faste kodeverdier           |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 10.                                             | Regler i et regelsett bør kunne uttrykke et     | V                                               |                                                 |
-|                                                 | krav til oppgavedifferensiering (”separation of |                                                 |                                                 |
-|                                                 | duties”), slik at det kan stilles krav til at   |                                                 |                                                 |
+|                                                 | krav til oppgavedifferensiering («separation of |                                                 |                                                 |
+|                                                 | duties»), slik at det kan stilles krav til at   |                                                 |                                                 |
 |                                                 | flere enn én bruker godkjenner en bestemt       |                                                 |                                                 |
 |                                                 | handling                                        |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -363,7 +363,7 @@ Krav til prosessrelaterte funksjonelle rettigheter og begrensninger
 |                                                 | - Hvilken som helst annen autorisert bruker     |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | - En bruker med en konkret angitt rolle (for    |                                                 |                                                 |
-|                                                 |   eksempel ”leder” eller ”kontrollør”)          |                                                 |                                                 |
+|                                                 |   eksempel «leder» eller «kontrollør»)          |                                                 |                                                 |
 |                                                 | - Konkret angitt annen bruker, som er           |                                                 |                                                 |
 |                                                 |   registrert som kontrasignerende på mappe-     |                                                 |                                                 |
 |                                                 |   eller registreringsnivå                       |                                                 |                                                 |
@@ -378,10 +378,10 @@ Krav til prosessrelaterte funksjonelle rettigheter og begrensninger
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 13.                                             | Et innhentet samtykke kan registreres konkret   | V                                               |                                                 |
 |                                                 | for den enkelte hendelsen, eller gis som        |                                                 |                                                 |
-|                                                 | ”stående samtykke” (vedvarende) for alle        |                                                 |                                                 |
+|                                                 | «stående samtykke» (vedvarende) for alle        |                                                 |                                                 |
 |                                                 | opplysninger i en sak                           |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| 14.                                             | Dersom det er gitt et ”stående samtykke” skal   | B                                               | Obligatorisk hvis 4.5.13 oppfylles              |
+| 14.                                             | Dersom det er gitt et «stående samtykke» skal   | B                                               | Obligatorisk hvis 4.5.13 oppfylles              |
 |                                                 | det finnes funksjoner for å trekke samtykket    |                                                 |                                                 |
 |                                                 | tilbake igjen                                   |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -392,7 +392,7 @@ Krav til prosessrelaterte funksjonelle rettigheter og begrensninger
 |                                                 | tilbake samtykke                                |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
-I relativt store virksomheter vil en person, eller en person i en bestemt rolle, som hovedregel bare være autorisert for tilgang til en avgrenset del av opplysningene i løsningen. Slike avgrensninger kan betegnes som autorisasjonens ”nedslagsfelt”, og bør kunne angis på ulike måter avhengig av virksomhetens art.
+I relativt store virksomheter vil en person, eller en person i en bestemt rolle, som hovedregel bare være autorisert for tilgang til en avgrenset del av opplysningene i løsningen. Slike avgrensninger kan betegnes som autorisasjonens «nedslagsfelt», og bør kunne angis på ulike måter avhengig av virksomhetens art.
 
 Krav til avgrensninger av autorisasjonenes nedslagsfelt, tilganger til data
 ***************************************************************************
@@ -467,7 +467,7 @@ Krav til avgrensninger av autorisasjonenes nedslagsfelt, tilganger til data
 |                                                 | rettigheter)                                    |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
-Den faktiske autorisasjonen, for den enkelte bruker, er uttrykt gjennom en kombinasjon av vedkommendes funksjonelle rettigheter og det nedslagsfeltet eller de nedslagsfeltene som den funksjonelle rettigheten skal gjelde for. En kombinasjon av funksjonell rolle og nedslagsfelt betegnes i dette kravsettet som en ”tilgangsprofil”.
+Den faktiske autorisasjonen, for den enkelte bruker, er uttrykt gjennom en kombinasjon av vedkommendes funksjonelle rettigheter og det nedslagsfeltet eller de nedslagsfeltene som den funksjonelle rettigheten skal gjelde for. En kombinasjon av funksjonell rolle og nedslagsfelt betegnes i dette kravsettet som en «tilgangsprofil».
 
 Krav til tilgangsprofiler
 *************************

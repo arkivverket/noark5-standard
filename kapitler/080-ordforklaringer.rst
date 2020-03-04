@@ -122,7 +122,7 @@ Listen er begrenset til begreper som er benyttet i standarden.
 |                                                                                                   | distribusjon ved hjelp av en datamaskin.                                                          |
 +---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
 | Elektronisk signatur                                                                              | Generell betegnelse på teknologi, metoder, regelverk og forvaltnings/tilsynsoppgaver som til      |
-|                                                                                                   | sammen sikrer tilstrekkelig tillit til at elektronisk informasjon som er ”signert” stammer fra    |
+|                                                                                                   | sammen sikrer tilstrekkelig tillit til at elektronisk informasjon som er «signert» stammer fra    |
 |                                                                                                   | den avsender som er angitt, og at innholdet ikke er manipulert.                                   |
 +---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
 | Endringslogg                                                                                      | Fortløpende registrering av endringer i metadata som det er viktig å ha dokumentert.              |

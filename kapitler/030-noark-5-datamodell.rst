@@ -1,7 +1,7 @@
 Noark 5 datamodell
 ==================
 
-Et *arkivdokument* består av elementene innhold, struktur, kontekst og presentasjon. Innholdet finnes i ett eller flere elektroniske eller fysiske dokumenter som gjengir dokumentets ”budskap”. Dokumentene skal oppbevares på en måte som gjør at framtidige brukere kan forstå både budskapet og sammenhengen (konteksten) budskapet inngår i.
+Et *arkivdokument* består av elementene innhold, struktur, kontekst og presentasjon. Innholdet finnes i ett eller flere elektroniske eller fysiske dokumenter som gjengir dokumentets «budskap». Dokumentene skal oppbevares på en måte som gjør at framtidige brukere kan forstå både budskapet og sammenhengen (konteksten) budskapet inngår i.
 
 En arkivkjerne skal oppfylle grunnleggende krav til arkivering. Det betyr:
 
@@ -183,8 +183,8 @@ Et arkiv skal kunne deles opp i arkivdeler for å gruppere arkivet etter overord
   +----------+-----------------------------------------------------------------------------------------+------+----------------------------+
   | Krav nr. | Funksjonelle krav til *arkiv*                                                           | Type | Merknad                    |
   +----------+-----------------------------------------------------------------------------------------+------+----------------------------+
-  | 2.3.1    | Dersom *arkiv* er registrert som ”avsluttet”, skal detikke være mulig å legge til flere | B    | Obligatorisk dersom        |
-  |          | underliggende *arkivdeler*.                                                             |      |arkivstatus brukes.         |
+  | 2.3.1    | Dersom *arkiv* er registrert som «avsluttet», skal det ikke være mulig å legge til flere| B    | Obligatorisk dersom        |
+  |          | underliggende *arkivdeler*.                                                             |      | arkivstatus brukes.        |
   +----------+-----------------------------------------------------------------------------------------+------+----------------------------+
   | 2.3.2    | Når en tjeneste/funksjon sletter et helt *arkiv* med alle underliggende nivå, skal dette| O    |                            |
   |          | logges.                                                                                 |      |                            |
@@ -533,8 +533,8 @@ Alle arkivdokumenter som skal avleveres må være i arkivformat. Konvertering ti
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | 11.                                             | Det skal være konfigurerbart om dokumenter skal | O                                               |                                                 |
   |                                                 | konverteres til arkivformat når status på       |                                                 |                                                 |
-  |                                                 | dokumentbeskrivelse settes til ”Dokumentet er   |                                                 |                                                 |
-  |                                                 | ferdigstilt”.                                   |                                                 |                                                 |
+  |                                                 | dokumentbeskrivelse settes til «Dokumentet er   |                                                 |                                                 |
+  |                                                 | ferdigstilt».                                   |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | 12.                                             | Det skal være konfigurerbart om alle eller      | O                                               |                                                 |
   |                                                 | spesielt merkede versjoner skal konverteres til |                                                 |                                                 |
@@ -809,9 +809,9 @@ Noark 5 legger opp til at det skal kunne bygges opp et presedensregister med hen
   | 17.                                             | Følgende statuser for *Presedens* er            | B                                               | Obligatorisk for løsninger hvor presedenser     |
   |                                                 | obligatoriske:                                  |                                                 | inngår                                          |
   |                                                 |                                                 |                                                 |                                                 |
-  |                                                 | -  ”Gjeldende”                                  |                                                 |                                                 |
+  |                                                 | -  «Gjeldende»                                  |                                                 |                                                 |
   |                                                 |                                                 |                                                 |                                                 |
-  |                                                 | -  ”Foreldet”                                   |                                                 |                                                 |
+  |                                                 | -  «Foreldet»                                   |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | 18.                                             | Foreldede presedenser skal ikke kunne slettes.  | B                                               | Obligatorisk for løsninger hvor presedenser     |
   |                                                 |                                                 |                                                 | inngår                                          |
@@ -884,7 +884,7 @@ Løsningen må dessuten legge til rette for at administratorer har kontroll på 
   |                                                 | Administratorfunksjonen for Noark 5 kjerne.     |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | 8.                                              | Det bør være mulig å parameterstyre at status   | V                                               |                                                 |
-  |                                                 | ”Dokumentet er ferdigstilt” skal settes         |                                                 |                                                 |
+  |                                                 | «Dokumentet er ferdigstilt» skal settes         |                                                 |                                                 |
   |                                                 |utomatisk på *dokumentbeskrivelse* ved andre     |                                                 |                                                 |
   |                                                 | statuser på *mappe* eller *registrering*        |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+

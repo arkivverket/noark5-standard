@@ -108,7 +108,7 @@ Bestemmelsene om journaler finnes i arkivforskriften §§ 9 og 10.
 |          |                                                                                                                          |      |                           |
 |          | *journaldato*                                                                                                            |      |                           |
 |          |                                                                                                                          |      |                           |
-|          | *dokumentetsDato* (tekst ”Udatert” hvis dato mangler)                                                                    |      |                           |
+|          | *dokumentetsDato* (tekst «Udatert» hvis dato mangler)                                                                    |      |                           |
 |          |                                                                                                                          |      |                           |
 |          | *tittel*                                                                                                                 |      |                           |
 |          |                                                                                                                          |      |                           |
@@ -203,7 +203,7 @@ Kravene under er obligatoriske for sakarkivløsninger eller andre løsninger und
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | *journaldato*                                   |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
-|                                                 | *dokumentetsDato* (tekst ”Udatert” hvis dato    |                                                 |                                                 |
+|                                                 | *dokumentetsDato* (tekst «Udatert» hvis dato    |                                                 |                                                 |
 |                                                 | mangler)                                        |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | *offentligTittel*                               |                                                 |                                                 |
@@ -287,12 +287,12 @@ Noen ganger vil det likevel være helt klart på forhånd at det ikke blir aktue
 |                                                 | er angitt i offentleglovas hjemmelsbestemmelse  |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 18.                                             | Det bør finnes en dedikert tilgangskode for     | V                                               |                                                 |
-|                                                 | ”midlertidig unntatt”, som kan brukes inntil    |                                                 |                                                 |
+|                                                 | «midlertidig unntatt», som kan brukes inntil    |                                                 |                                                 |
 |                                                 | skjermingsbehov er vurdert                      |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | 19.                                             | I tilknytning til en tilgangskode, skal         | B                                               | Obligatorisk for løsninger hvor informasjon     |
 |                                                 | følgende opplysninger knyttet til *mappe* i     |                                                 | skal unntas fra offentlighet                    |
-|                                                 | kjernen kunne markeres som ”skjermet” slik at   |                                                 |                                                 |
+|                                                 | kjernen kunne markeres som «skjermet» slik at   |                                                 |                                                 |
 |                                                 | eksterne moduler som leser fra arkivet får      |                                                 |                                                 |
 |                                                 | følgende begrensninger når tilgangskoden        |                                                 |                                                 |
 |                                                 | benyttes:                                       |                                                 |                                                 |
@@ -313,7 +313,7 @@ Noen ganger vil det likevel være helt klart på forhånd at det ikke blir aktue
 | 20.                                             | I tilknytning til en tilgangskode, skal         | O                                               |                                                 |
 |                                                 | følgende opplysninger knyttet til               |                                                 |                                                 |
 |                                                 | *registreringer* i kjernen kunne markeres som   |                                                 |                                                 |
-|                                                 | ”skjermet” slik at eksterne moduler som leser   |                                                 |                                                 |
+|                                                 | «skjermet» slik at eksterne moduler som leser   |                                                 |                                                 |
 |                                                 | fra arkivet får følgende begrensninger når      |                                                 |                                                 |
 |                                                 | tilgangskoden benyttes:                         |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
@@ -343,7 +343,7 @@ Noen ganger vil det likevel være helt klart på forhånd at det ikke blir aktue
 | 23.                                             | Dersom tilgangskoden er merket med indikasjon   | V                                               |                                                 |
 |                                                 | på at det bare er anledning til å unnta visse   |                                                 |                                                 |
 |                                                 | opplysninger i dokumentet fra innsyn, kan det   |                                                 |                                                 |
-|                                                 | opprettes en ”offentlig variant” av dokumentet  |                                                 |                                                 |
+|                                                 | opprettes en «offentlig variant» av dokumentet  |                                                 |                                                 |
 |                                                 | der disse opplysningene ikke finnes, som derfor |                                                 |                                                 |
 |                                                 | kan unntas fra skjerming                        |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -360,7 +360,7 @@ Noen ganger vil det likevel være helt klart på forhånd at det ikke blir aktue
 | 25.                                             | Dersom tilgangskoden er merket med indikasjon   | V                                               |                                                 |
 |                                                 | på at det bare er anledning til å unnta visse   |                                                 |                                                 |
 |                                                 | opplysninger i dokumentet fra innsyn, kan det   |                                                 |                                                 |
-|                                                 | opprettes en ”offentlig variant” av dokumentet  |                                                 |                                                 |
+|                                                 | opprettes en «offentlig variant» av dokumentet  |                                                 |                                                 |
 |                                                 | der disse opplysningene ikke finnes, som derfor |                                                 |                                                 |
 |                                                 | kan unntas fra skjerming                        |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+

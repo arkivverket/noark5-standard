@@ -13,35 +13,47 @@ Forklaring på metadatatabellen i dette vedlegget:
 | **Nr.** | **Navn** | **Noark 4** | **Forek.** | **Avl.** | **Datatype** |
 +---------+----------+-------------+------------+----------+--------------+
 
-**Nr.:** Henvisning til det entydige nummeret i metadatakatalogen (eget vedlegg)
 
-**Navn:** Navn som skal brukes ved avlevering og ved eventuell annen eksport
+**Nr.:**
+    Henvisning til det entydige nummeret i metadatakatalogen (eget vedlegg)
 
-**Noark 4:** Kortnavnet på attributtet som inneholdt tilsvarende metadataelement i Noark 4
+**Navn:**
+    Navn som skal brukes ved avlevering og ved eventuell annen eksport
 
-**Forek.:** Forekomst, dvs. hvor mange ganger metadataelementet kan gjentas innenfor samme objekt. I tabellene nedenfor er det oppgitt forekomst ved avlevering. Følgende koder brukes:
+**Noark 4:**
+    Kortnavnet på attributtet som inneholdt tilsvarende metadataelement i Noark 4
 
-**1** Skal forekomme én gang (obligatorisk)
+**Forek.:**
+    Forekomst, dvs. hvor mange ganger metadataelementet kan gjentas
+    innenfor samme objekt. I tabellene nedenfor er det oppgitt
+    forekomst ved avlevering. Følgende koder brukes:
 
-**1-M** Skal forekomme én gang, kan forekomme mange ganger (obligatorisk)
+    **1** Skal forekomme én gang (obligatorisk)
 
-**0-1** Kan forekomme én gang (betinget obligatorisk eller valgfritt)
+    **1-M** Skal forekomme én gang, kan forekomme mange ganger (obligatorisk)
 
-**0-M** Kan forekomme mange ganger (betinget obligatorisk eller valgfritt)
+    **0-1** Kan forekomme én gang (betinget obligatorisk eller valgfritt)
 
-**Avl.:** Kode **A** angir at metadataelementet skal inngå i en avlevering dersom det inneholder en verdi. Blankt felt betyr at det ikke skal avleveres, men er likevel med fordi det kan være aktuelt å eksportere det i andre sammenhenger
+    **0-M** Kan forekomme mange ganger (betinget obligatorisk eller valgfritt)
 
-**Datatype:** I avleveringsuttrekk skilles det mellom følgende datatyper:
+**Avl.:**
+    Kode **A** angir at metadataelementet skal inngå i en avlevering
+    dersom det inneholder en verdi. Blankt felt betyr at det ikke skal
+    avleveres, men er likevel med fordi det kan være aktuelt å
+    eksportere det i andre sammenhenger
 
-**Tekststreng**
+**Datatype:**
+    I avleveringsuttrekk skilles det mellom følgende datatyper:
 
-**Heltall**
+    **Tekststreng**
 
-**Dato**
+    **Heltall**
 
-**Dato og klokkeslett
+    **Dato**
 
-Vilkårlig struktur** når det er snakk om virksomhetsspesifikke metadata.
+    **Dato og klokkeslett**
+
+    **Vilkårlig struktur** når det er snakk om virksomhetsspesifikke metadata.
 
 Dersom det dreier seg om en referanse til en ID, vil navnet på denne IDen oppgis i dette feltet.
 

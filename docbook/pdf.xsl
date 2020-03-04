@@ -21,4 +21,6 @@
 <!-- Make sure tables do not float away from their proper location. -->
 <xsl:param name="table.in.float">0</xsl:param>
 
+<xsl:param name="toc.section.depth">1</xsl:param>
+
 </xsl:stylesheet>

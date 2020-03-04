@@ -26,4 +26,7 @@
 
 <xsl:param name="toc.section.depth">1</xsl:param>
 
+<!-- Fiks manglende oversettelse av '(continued)' -->
+<xsl:param name="table.continue.caption">(fra forrige side)</xsl:param>
+
 </xsl:stylesheet>

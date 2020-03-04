@@ -25,9 +25,7 @@ Modellene i Noark 5 er *konseptuelle modeller* som skal vise sammenhengen mellom
 Overordnet skisse av den konseptuelle modellen for Noark 5
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|umlarkivstruktur|
-
-.. |umlarkivstruktur| figure:: ./media/uml-arkivstruktur-diagram.png
+.. figure:: ./media/uml-arkivstruktur-diagram.png
    :width: 100%
 
    *Figur 2.1 arkivstruktur*
@@ -36,9 +34,7 @@ Nivåene for *mappe* og *registrering* er bygd ut ved hjelp av spesialisering av
 
 I enkelte system kan det være behov for en forenklet struktur, og visse nivå i strukturen kan utgå dersom det ikke er behov for nivået.
 
-|umlforenklet|
-
-.. |umlforenklet| figure:: ./media/uml-forenklet-arkivstruktur-diagram.png
+.. figure:: ./media/uml-forenklet-arkivstruktur-diagram.png
    :width: 100%
 
    *Figur 2.2 forenklet arkivstruktur*
@@ -88,9 +84,7 @@ Vedlegg 2 *Metadata gruppert på objekter* spesifiserer hvilke metadata som bruk
 
 En arkivkjerne som kun dekker obligatoriske objekt i datamodellen og de obligatoriske metadata på disse objektene, kan dermed fremstilles slik:
 
-|umlarkivkjerne|
-
-.. |umlarkivkjerne| figure:: ./media/uml-arkivkjerne-diagram.png
+.. figure:: ./media/uml-arkivkjerne-diagram.png
    :width: 100%
 
    *Figur 2.3 arkivkjerne med obligatoriskekrav*
@@ -129,9 +123,7 @@ Forskjellige virksomheter vil ha forskjellig behov for definering av arkiv og ar
 Konseptuell modell for *arkiv* og *arkivdel*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|umlarkiv|
-
-.. |umlarkiv| figure:: ./media/uml-arkiv-arkivdel-diagram.png
+.. figure:: ./media/uml-arkiv-arkivdel-diagram.png
    :width: 100%
 
    *Figur 2.4 arkiv og arkivdel*
@@ -258,9 +250,7 @@ Klassene vil ofte legges inn før en Noark 5-løsning tas i bruk. Men det skal o
 Konseptuell modell for klassifikasjonssystem
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|klassifikasjonssystem|
-
-.. |klassifikasjonssystem| figure:: ./media/uml-klassifikasjonssystem-diagram.png
+.. figure:: ./media/uml-klassifikasjonssystem-diagram.png
    :width: 100%
 
    *Figur 2.5 klassifikasjonssystem*
@@ -317,9 +307,7 @@ En *sak* i Noark-4 utgjør en bestemt mappetype i Noark 5, nemlig *saksmappe*. D
 Konseptuell modell for mappe
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|mappestrukturen|
-
-.. |mappestrukturen| figure:: ./media/uml-mappestrukturen-diagram.png
+.. figure:: ./media/uml-mappestrukturen-diagram.png
    :width: 100%
 
    *Figur 2.6 mappestrukturen*
@@ -384,9 +372,7 @@ En *registrering* tilsvarer "record" eller "dokumentasjon" i ISO-standarder, og 
 Konseptuell modell for registrering
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|registrering|
-
-.. |registrering| figure:: ./media/uml-registrering-diagram.png
+.. figure:: ./media/uml-registrering-diagram.png
    :width: 100%
 
    *Figur 2.7 registrering*
@@ -465,9 +451,7 @@ I en relasjonsdatabase vil det typisk være et mange-til-mange-forhold mellom re
 Konseptuell modell for dokumentbeskrivelse og dokumentobjekt
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|dokumentbeskrivelse|
-
-.. |dokumentbeskrivelse| figure:: ./media/uml-dokumentbeskrivelse-diagram.png
+.. figure:: ./media/uml-dokumentbeskrivelse-diagram.png
    :width: 100%
 
    *Figur 2.8 dokumentbeskrivelse og dokumentobjekt*
@@ -627,9 +611,7 @@ Løsningens brukere skal være klarert for bestemte tilgangskoder og autorisert 
 Konseptuell modell for skjerming
 *********************************
 
-|skjerming|
-
-.. |skjerming| figure:: ./media/uml-skjerming-diagram.png
+.. figure:: ./media/uml-skjerming-diagram.png
    :width: 80%
 
    *Figur 2.9 skjerming*
@@ -674,11 +656,9 @@ Dette er en referanse på tvers av hierarkiet i arkivstrukturen. Referansen kan 
 Kryssreferanse er valgfritt, og kan knyttes en eller flere ganger til klasse, mappe og registrering. Referansen går en vei, dvs. den kan kun være en referanse til en arkivenhet. I og med at kryssreferanser knyttes til mappe og registrering, vil det si at Referanser også knyttes til alle utvidelsene (spesialiseringer) under disse (Saksmappe, Møtemappe og Journalpost, Møteregistrering).
 
 Konseptuell modell for *kryssreferanse*
-*************************************
+***************************************
 
-|kryssreferanse|
-
-.. |kryssreferanse| figure:: ./media/uml-kryssreferanse-diagram.png
+.. figure:: ./media/uml-kryssreferanse-diagram.png
    :width: 50%
 
    *Figur 2.10 kryssreferanse*
@@ -710,9 +690,8 @@ En eller flere merknader skal kunne knyttes til en mappe, registrering eller en 
 
 Konseptuell modell for *merknad*
 *********************************
-|merknad|
 
-.. |merknad| figure:: ./media/uml-merknad-diagram.png
+.. figure:: ./media/uml-merknad-diagram.png
    :width: 50%
 
    *Figur 2.11 merknad*
@@ -744,9 +723,7 @@ Noark 5 legger opp til at det er virksomhetens behov som styrer bruken av *part*
 Konseptuell modell for *part*
 ******************************
 
-|part|
-
-.. |part| figure:: ./media/uml-part-diagram.png
+.. figure:: ./media/uml-part-diagram.png
    :width: 70%
 
    *Figur 2.12 part*
@@ -773,9 +750,7 @@ Man snakker vanligvis om presedenssaker, men det er vanligvis ett eller noen få
 Konseptuell modell for *presedens*
 ***********************************
 
-|presedens|
-
-.. |presedens| figure:: ./media/uml-presedens-diagram.png
+.. figure:: ./media/uml-presedens-diagram.png
    :width: 80%
 
    *Figur 2.13 presedens*
@@ -885,7 +860,7 @@ Løsningen må dessuten legge til rette for at administratorer har kontroll på 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | 8.                                              | Det bør være mulig å parameterstyre at status   | V                                               |                                                 |
   |                                                 | «Dokumentet er ferdigstilt» skal settes         |                                                 |                                                 |
-  |                                                 |utomatisk på *dokumentbeskrivelse* ved andre     |                                                 |                                                 |
+  |                                                 | automatisk på *dokumentbeskrivelse* ved andre   |                                                 |                                                 |
   |                                                 | statuser på *mappe* eller *registrering*        |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | 9.                                              | Kun autoriserte enheter, roller eller personer  | O                                               |                                                 |

@@ -16,9 +16,7 @@ Kassasjon betyr ikke at en må gå inn og vurdere bevaringsverdien for hvert ene
 
 Konseptuell modell for *Kassasjon*
 
-|umlkassasjon|
-
-.. |umlkassasjon| figure:: ./media/uml-kassasjon-diagram.png
+.. figure:: ./media/uml-kassasjon-diagram.png
    :width: 100%
 
    Kassasjon

@@ -124,8 +124,8 @@ Dokumentasjons­forvaltning innebærer altså at virksomheten skal kunne dokumen
 Dokumentasjonsforvaltningen skiller seg dermed fra en noe enklere dokumenthåndtering slik:
 
 +---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
-| **Løsninger for dokumenthåndtering**                                                              | **Løsninger for dokumentasjonsforvaltning**                                                       |
-+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+| Løsninger for dokumenthåndtering                                                                  | Løsninger for dokumentasjonsforvaltning                                                           |
++===================================================================================================+===================================================================================================+
 | Kan tillate at dokumenter endres og/eller finnes i flere versjoner uten at det er kontroll på     | Hindrer at dokumentasjon endres, og har versjonskontroll.                                         |
 | hvilken versjon som er den endelige.                                                              |                                                                                                   |
 +---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+

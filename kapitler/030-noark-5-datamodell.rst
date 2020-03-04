@@ -52,19 +52,19 @@ I et elektronisk arkiv eksisterer ikke mappene som fysiske enheter. Arkivstruktu
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Overordnede krav til arkivstrukturen            | Type                                            | Merknad                                         |
 +=================================================+=================================================+=================================================+=================================================+
-| 1.                                              | For at en løsning skal kunne godkjennes etter   | O                                               | Innebærer at det må implementeres slik at data  |
+| 2.1.1                                              | For at en løsning skal kunne godkjennes etter   | O                                               | Innebærer at det må implementeres slik at data  |
 |                                                 | Noark 5 må den konseptuelle modellen av         |                                                 | skal kunne presenteres og hentes ut på den      |
 |                                                 | arkivstrukturen og de funksjonelle muligheter   |                                                 | måten.                                          |
 |                                                 | den gir, kunne implementeres i det aktuelle     |                                                 |                                                 |
 |                                                 | systemets (fysiske) datastrukturer.             |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| 2.                                              | Arkivdokumenter skal inngå i en arkivstruktur   | O                                               |                                                 |
+| 2.1.2                                              | Arkivdokumenter skal inngå i en arkivstruktur   | O                                               |                                                 |
 |                                                 | som minst inneholder følgende arkivenheter:     |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
 |                                                 | *arkiv*, *arkivdel*, *registrering,             |                                                 |                                                 |
 |                                                 | dokumentbeskrivelse* og *dokumentobjekt*.       |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| 3.                                              | Journalføringspliktige saksdokumenter skal      | B                                               | Obligatorisk for sakarkiver.                    |
+| 2.1.3                                              | Journalføringspliktige saksdokumenter skal      | B                                               | Obligatorisk for sakarkiver.                    |
 |                                                 | inngå i et sakarkiv, med en arkivstruktur som   |                                                 |                                                 |
 |                                                 | minst skal inneholde følgende arkivenheter:     |                                                 |                                                 |
 |                                                 |                                                 |                                                 |                                                 |
@@ -72,7 +72,7 @@ I et elektronisk arkiv eksisterer ikke mappene som fysiske enheter. Arkivstruktu
 |                                                 | *klasse*, *mappe, registrering,                 |                                                 |                                                 |
 |                                                 | dokumentbeskrivelse* og *dokumentobjekt*.       |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| 4.                                              | For fysiske arkiver kan *dokumentobjekt* utgå.  | V                                               |                                                 |
+| 2.1.4                                              | For fysiske arkiver kan *dokumentobjekt* utgå.  | V                                               |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
 Metadata
@@ -110,7 +110,7 @@ Det er ikke noe krav at alle metadata i katalogen nødvendigvis må lagres i kje
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Overordnede krav til metadata                   | Type                                            | Merknad                                         |
 +=================================================+=================================================+=================================================+=================================================+
-| 1.                                              | En Noark 5-løsning skal ha tjenester/funksjoner | O                                               | Funksjonelle enkeltkrav i de forskjellige       |
+| 2.2.1                                              | En Noark 5-løsning skal ha tjenester/funksjoner | O                                               | Funksjonelle enkeltkrav i de forskjellige       |
 |                                                 | for å *lagre, gjenfinne, endre og slette* data  |                                                 | kapitlene kan overstyre dette kravet.           |
 |                                                 | og utvalg av data i henhold til                 |                                                 |                                                 |
 |                                                 | metadatabeskrivelsene i alle *arkivenheter* og  |                                                 |                                                 |
@@ -118,7 +118,7 @@ Det er ikke noe krav at alle metadata i katalogen nødvendigvis må lagres i kje
 |                                                 | konseptuelle modellene og metadatatabellene i   |                                                 |                                                 |
 |                                                 | Noark 5.                                        |                                                 |                                                 |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-| 2.                                              | En arkivenhet skal kunne identifiseres entydig  | O                                               |                                                 |
+| 2.2.2                                              | En arkivenhet skal kunne identifiseres entydig  | O                                               |                                                 |
 |                                                 | innenfor det arkivskapende organet. I et        |                                                 |                                                 |
 |                                                 | arkivuttrekk skal denne identifikasjonen hete   |                                                 |                                                 |
 |                                                 | systemID, og være entydig på tvers av alle      |                                                 |                                                 |
@@ -193,9 +193,9 @@ Et arkiv skal kunne deles opp i arkivdeler for å gruppere arkivet etter overord
 +----------+----------------------------------------------------------------------------------------------------------------------+------+-----------------------------------------+
 | Krav nr. | Funksjonelle krav til *arkiv*                                                                                        | Type | Merknad                                 |
 +----------+----------------------------------------------------------------------------------------------------------------------+------+-----------------------------------------+
-| 1.       | Dersom *arkiv* er registrert som ”avsluttet”, skal det ikke være mulig å legge til flere underliggende *arkivdeler*. | B    | Obligatorisk dersom arkivstatus brukes. |
+| 2.3.1       | Dersom *arkiv* er registrert som ”avsluttet”, skal det ikke være mulig å legge til flere underliggende *arkivdeler*. | B    | Obligatorisk dersom arkivstatus brukes. |
 +----------+----------------------------------------------------------------------------------------------------------------------+------+-----------------------------------------+
-| 2.       | Når en tjeneste/funksjon sletter et helt *arkiv* med alle underliggende nivå, skal dette logges.                     | O    |                                         |
+| 2.3.2       | Når en tjeneste/funksjon sletter et helt *arkiv* med alle underliggende nivå, skal dette logges.                     | O    |                                         |
 +----------+----------------------------------------------------------------------------------------------------------------------+------+-----------------------------------------+
 
 **Funksjonelle krav til underarkiv**
@@ -205,9 +205,9 @@ Et arkiv skal kunne deles opp i arkivdeler for å gruppere arkivet etter overord
 +----------+---------------------------------------------------------------------------------------------+------+----------------------------------------+
 | Krav nr. | Funksjonelle krav til *underarkiv*                                                          | Type | Merknad                                |
 +----------+---------------------------------------------------------------------------------------------+------+----------------------------------------+
-| 3.       | Systemet bør ha en tjeneste/funksjon for å angi et *arkiv* som *underarkiv* til et *arkiv*. | V    |                                        |
+| 2.3.3       | Systemet bør ha en tjeneste/funksjon for å angi et *arkiv* som *underarkiv* til et *arkiv*. | V    |                                        |
 +----------+---------------------------------------------------------------------------------------------+------+----------------------------------------+
-| 4.       | Et *underarkiv* skal kun opprettes og endres gjennom Administrasjonssystemet for Noark 5.   | B    | Obligatorisk dersom underarkiv brukes. |
+| 2.3.4       | Et *underarkiv* skal kun opprettes og endres gjennom Administrasjonssystemet for Noark 5.   | B    | Obligatorisk dersom underarkiv brukes. |
 +----------+---------------------------------------------------------------------------------------------+------+----------------------------------------+
 
 **Funksjonelle krav til arkivdel**
@@ -217,9 +217,9 @@ Et arkiv skal kunne deles opp i arkivdeler for å gruppere arkivet etter overord
 +----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 | Krav nr. | Funksjonelle krav til *arkivdel*                                                                                                                              | Type | Merknad |
 +----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-| 5.       | Når en tjeneste/funksjon sletter en *arkivdel,* skal dette logges.                                                                                            | O    |         |
+| 2.3.5       | Når en tjeneste/funksjon sletter en *arkivdel,* skal dette logges.                                                                                            | O    |         |
 +----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-| 6.       | Dersom *arkivdel* er registrert som avsluttet (avsluttetDato er satt) skal det *ikke* være mulig å legge til flere tilhørende *mapper* eller *registreringer* | O    |         |
+| 2.3.6       | Dersom *arkivdel* er registrert som avsluttet (avsluttetDato er satt) skal det *ikke* være mulig å legge til flere tilhørende *mapper* eller *registreringer* | O    |         |
 +----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 
 Klassifikasjonssystem og klasse

@@ -18,6 +18,9 @@
 <!-- Place table titles at the top -->
 <xsl:param name="table.title.top">1</xsl:param>
 
+<!-- Place figure titles at the top -->
+<xsl:param name="figure.title.top">1</xsl:param>
+
 <!-- Make sure tables do not float away from their proper location. -->
 <xsl:param name="table.in.float">0</xsl:param>
 

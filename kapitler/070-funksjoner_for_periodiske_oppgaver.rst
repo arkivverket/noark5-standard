@@ -35,7 +35,6 @@ Arv skal kunne skje videre ned til registrerings- og dokumentbeskrivelsesnivå. 
 **Funksjonelle krav til bevaring og kassasjon**
 
 .. table:: Funksjonelle krav til bevaring og kassasjon
-
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Funksjonelle krav til bevaring og kassasjon     | Type                                             | Merknad                                         |
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -105,7 +104,7 @@ Kassasjon av dokumenttyper kan implementeres ved at bestemte registreringstyper 
 
 **Funksjonelle krav til bevaring og kassasjon**
 
-.. table:: Funksjonelle krav til bevaring og kassasjon
+.. table:: Funksjonelle krav til bevaring og kassasjon 2
 
 +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 | Krav nr.                                        | Funksjonelle krav til bevaring og kassasjon     | Type                                            | Merknad                                         |

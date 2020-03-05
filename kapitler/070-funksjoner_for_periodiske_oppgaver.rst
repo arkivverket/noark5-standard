@@ -37,19 +37,19 @@ Arv skal kunne skje videre ned til registrerings- og dokumentbeskrivelsesnivå. 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Funksjonelle krav til bevaring og kassasjon     | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 1.                                              | Metadata om bevaring og kassasjon på en         | B                                               | Obligatorisk hvis kassasjon er aktuelt          |
+  | 6.1.1                                           | Metadata om bevaring og kassasjon på en         | B                                               | Obligatorisk hvis kassasjon er aktuelt          |
   |                                                 | *klasse* skal kunne arves til *mappe,           |                                                 |                                                 |
   |                                                 | registrering og dokumentbeskrivelse*.           |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 2.                                              | Metadata om bevaring og kassasjon på en         | B                                               | Obligatorisk hvis kassasjon er aktuelt          |
+  | 6.1.2                                           | Metadata om bevaring og kassasjon på en         | B                                               | Obligatorisk hvis kassasjon er aktuelt          |
   |                                                 | *arkivdel* skal kunne arves til *mappe,         |                                                 |                                                 |
   |                                                 | registrering og* *dokumentbeskrivelse*.         |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 3.                                              | Dersom arv av metadata om bevaring og kassasjon | B                                               | Obligatorisk hvis kassasjon er aktuelt          |
+  | 6.1.3                                           | Dersom arv av metadata om bevaring og kassasjon | B                                               | Obligatorisk hvis kassasjon er aktuelt          |
   |                                                 | skal skje fra arkivdel, skal dette overstyre    |                                                 |                                                 |
   |                                                 | arv av metadata fra klassene.                   |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 4.                                              | Det skal finnes en tjeneste / funksjon for å    | B                                               | Obligatorisk for påføring av kassasjonsvedtak   |
+  | 6.1.4                                           | Det skal finnes en tjeneste / funksjon for å    | B                                               | Obligatorisk for påføring av kassasjonsvedtak   |
   |                                                 | registrere et kassasjonsvedtak for en *mappe*,  |                                                 | utover arkivdel og klasse.                      |
   |                                                 | *registrering* eller *dokumentbeskrivelse*.     |                                                 |                                                 |
   |                                                 |                                                 |                                                 |                                                 |
@@ -62,34 +62,34 @@ Arv skal kunne skje videre ned til registrerings- og dokumentbeskrivelsesnivå. 
   |                                                 |                                                 |                                                 |                                                 |
   |                                                 | Andre verdier kan legges til.                   |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 5.                                              | Det skal være mulig manuelt å registrere        | B                                               | Obligatorisk hvis 6.1.4 oppfylles               |
+  | 6.1.5                                           | Det skal være mulig manuelt å registrere        | B                                               | Obligatorisk hvis 6.1.4 oppfylles               |
   |                                                 | kassasjonsvedtak, kassasjonshjemmel og          |                                                 |                                                 |
   |                                                 | bevaringstid for en *mappe*, *registrering*     |                                                 |                                                 |
   |                                                 | eller *dokumentbeskrivelse*.                    |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 6.                                              | Bevaringsdatoen for en *mappe*, *registrering*  | B                                               | Obligatorisk hvis 6.1.4 oppfylles               |
+  | 6.1.6                                           | Bevaringsdatoen for en *mappe*, *registrering*  | B                                               | Obligatorisk hvis 6.1.4 oppfylles               |
   |                                                 | eller *dokumentbeskrivelse* skal kunne beregnes |                                                 |                                                 |
   |                                                 | automatisk på grunnlag av bevaringstid og       |                                                 |                                                 |
   |                                                 | datoen mappen ble avsluttet.                    |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 7.                                              | Andre regler for beregning av bevaringsdato bør | V                                               |                                                 |
+  | 6.1.7                                           | Andre regler for beregning av bevaringsdato bør | V                                               |                                                 |
   |                                                 | kunne være mulig.                               |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 8.                                              | Bevaringsdato for en *mappe, registrering*      | B                                               | Obligatorisk hvis 6.1.4 oppfylles               |
+  | 6.1.8                                           | Bevaringsdato for en *mappe, registrering*      | B                                               | Obligatorisk hvis 6.1.4 oppfylles               |
   |                                                 | eller *dokumentbeskrivelse* skal også kunne     |                                                 |                                                 |
   |                                                 | registreres manuelt. Bevaringstid er da ikke    |                                                 |                                                 |
   |                                                 | obligatorisk.                                   |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 9.                                              | Det skal være mulig å slå av funksjonen for arv | B                                               | Obligatorisk for funksjon for arv av            |
+  | 6.1.9                                           | Det skal være mulig å slå av funksjonen for arv | B                                               | Obligatorisk for funksjon for arv av            |
   |                                                 | fra klasser og arkivdeler, slik at metadata om  |                                                 | kassasjonskode                                  |
   |                                                 | bevaring og kassasjon ikke arves til            |                                                 |                                                 |
   |                                                 | underliggende mapper.                           |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 10.                                             | Det skal være mulig å angi at arv av metadata   | B                                               | Obligatorisk for funksjon for arv av            |
+  | 6.1.10                                           | Det skal være mulig å angi at arv av metadata   | B                                               | Obligatorisk for funksjon for arv av            |
   |                                                 | om bevaring og kassasjon også skal gå ned til   |                                                 | kassasjonskode                                  |
   |                                                 | registrering og dokumentbeskrivelse.            |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 11.                                             | Metadata om bevaring og kassasjon som arves fra | B                                               | Obligatorisk for funksjon for arv av            |
+  | 6.1.11                                          | Metadata om bevaring og kassasjon som arves fra | B                                               | Obligatorisk for funksjon for arv av            |
   |                                                 | et arkivobjekt til alle underliggende           |                                                 | kassasjonskode                                  |
   |                                                 | arkivobjekter, skal kunne overskrives.          |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -106,12 +106,12 @@ Kassasjon av dokumenttyper kan implementeres ved at bestemte registreringstyper 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Funksjonelle krav til bevaring og kassasjon     | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 12.                                             | Det bør finnes en tjeneste/funksjon som         | V                                               |                                                 |
+  | 6.1.12                                          | Det bør finnes en tjeneste/funksjon som         | V                                               |                                                 |
   |                                                 | automatisk knytter en bestemt type              |                                                 |                                                 |
   |                                                 | registreringer eller dokumentbeskrivelser til   |                                                 |                                                 |
   |                                                 | et bevarings- og kassasjonsvedtak.              |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 13.                                             | Metadata om bevaring og kassasjon skal da arves | B                                               | Obligatoriske hvis 6.1.12 oppfylles             |
+  | 6.1.13                                          | Metadata om bevaring og kassasjon skal da arves | B                                               | Obligatoriske hvis 6.1.12 oppfylles             |
   |                                                 | til alle opprettede registreringer eller        |                                                 |                                                 |
   |                                                 | dokumentbeskrivelser av samme type.             |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -130,26 +130,26 @@ En slik funksjonalitet er bare nødvendig å ha i de tilfeller en arkivdeler inn
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Funksjonelle krav til bevaring og kassasjon     | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 14.                                             | Det skal være mulig å få presentert en oversikt | O                                               |                                                 |
+  | 6.1.14                                          | Det skal være mulig å få presentert en oversikt | O                                               |                                                 |
   |                                                 | over dokumenter som skal kasseres etter et      |                                                 |                                                 |
   |                                                 | bestemt tidspunkt. En slik oversikt skal kunne  |                                                 |                                                 |
   |                                                 | begrenses til et mindre utvalg dokumenter.      |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 15.                                             | Det skal være mulig å få presentert en oversikt | O                                               |                                                 |
+  |  6.1.15                                         | Det skal være mulig å få presentert en oversikt | O                                               |                                                 |
   |                                                 | over dokumenter som skal vurderes på nytt for   |                                                 |                                                 |
   |                                                 | bevaring eller kassasjon etter et bestemt       |                                                 |                                                 |
   |                                                 | tidspunkt. En slik oversikt skal kunne          |                                                 |                                                 |
   |                                                 | begrenses til et mindre utvalg dokumenter.      |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 16.                                             | Oversikten skal inneholde de viktigste metadata | O                                               |                                                 |
+  | 6.1.16                                          | Oversikten skal inneholde de viktigste metadata | O                                               |                                                 |
   |                                                 | for dokumentene, inkludert metadata for         |                                                 |                                                 |
   |                                                 | bevaring og kassasjon.                          |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 17.                                             | Det bør være mulig å åpne et dokument for       | V                                               |                                                 |
+  | 6.1.17                                          | Det bør være mulig å åpne et dokument for       | V                                               |                                                 |
   |                                                 | presentasjon av innhold direkte fra denne       |                                                 |                                                 |
   |                                                 | oversikten.                                     |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 18.                                             | Autoriserte brukere bør kunne endre metadata    | V                                               |                                                 |
+  | 6.1.18                                          | Autoriserte brukere bør kunne endre metadata    | V                                               |                                                 |
   |                                                 | for bevaring og kassasjon for de enkelte        |                                                 |                                                 |
   |                                                 | dokumenter direkte fra oversikten.              |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -172,45 +172,45 @@ Kassasjon av dokumenter betyr ikke at metadata skal slettes. Arkivforskriften ha
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Funksjonelle krav til bevaring og kassasjon     | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 19.                                             | Det skal finnes en funksjon for å kassere alle  | B                                               | Obligatorisk i løsninger hvor kassasjon skal    |
+  | 6.1.19                                          | Det skal finnes en funksjon for å kassere alle  | B                                               | Obligatorisk i løsninger hvor kassasjon skal    |
   |                                                 | dokumenter som har verdien "Kasseres" som       |                                                 | skje og ved behov for skille mellom kassable og |
   |                                                 | kassasjonsvedtak, og hvor bevaringsdatoen er    |                                                 | ikke kassable dokumenter.                       |
   |                                                 | eldre enn dagens dato. En slik funksjon skal    |                                                 |                                                 |
   |                                                 | kunne begrenses til et mindre utvalg            |                                                 |                                                 |
   |                                                 | dokumenter.                                     |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 20.                                             | Det skal ikke være mulig å sette                | O                                               |                                                 |
+  | 6.1.20                                          | Det skal ikke være mulig å sette                | O                                               |                                                 |
   |                                                 | kassasjonsvedtak "Kasseres" på en mappe som er  |                                                 |                                                 |
   |                                                 | registrert som presedenssak.                    |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 21.                                             | Kassasjonen skal kunne utføres automatisk for   | B                                               | Obligatorisk når 6.1.19 oppfylles               |
+  | 6.1.21                                          | Kassasjonen skal kunne utføres automatisk for   | B                                               | Obligatorisk når 6.1.19 oppfylles               |
   |                                                 | hele utvalget dokumenter, men det skal også     |                                                 |                                                 |
   |                                                 | være mulig å be om spørsmål om kassasjon skal   |                                                 |                                                 |
   |                                                 | utføres for hvert enkelt dokument.              |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 22.                                             | Bare autoriserte brukere kan starte en funksjon | O                                               |                                                 |
+  | 6.1.22                                          | Bare autoriserte brukere kan starte en funksjon | O                                               |                                                 |
   |                                                 | for kassasjon av dokumenter.                    |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 23.                                             | Alle versjoner, varianter og formater av        | O                                               |                                                 |
+  | 6.1.23                                          | Alle versjoner, varianter og formater av        | O                                               |                                                 |
   |                                                 | dokumentet skal omfattes av kassasjonen.        |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 24.                                             | Kassasjon skal innebære at all metadata om      | O                                               |                                                 |
+  | 6.1.24                                          | Kassasjon skal innebære at all metadata om      | O                                               |                                                 |
   |                                                 | dokumentobjektet slettes. Selve dokumentet skal |                                                 |                                                 |
   |                                                 | slettes fra filsystemet dersom dokumentet       |                                                 |                                                 |
   |                                                 | (dokumentbeskrivelsen) ikke er knyttet til      |                                                 |                                                 |
   |                                                 | andre registreringer.                           |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 25.                                             | Funksjonen for kassasjon bør være i to trinn,   | V                                               |                                                 |
+  | 6.1.25                                          | Funksjonen for kassasjon bør være i to trinn,   | V                                               |                                                 |
   |                                                 | slik at det i første omgang er mulig å          |                                                 |                                                 |
   |                                                 | gjenopprette de kasserte dokumentene. Endelig   |                                                 |                                                 |
   |                                                 | sletting av dokumentobjekt og dokument skal     |                                                 |                                                 |
   |                                                 | kunne skje på et senere tidspunkt.              |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 26.                                             | Metadata om dokumentet ned til                  | O                                               |                                                 |
+  | 6.1.26                                          | Metadata om dokumentet ned til                  | O                                               |                                                 |
   |                                                 | dokumentbeskrivelse, skal i utgangspunktet ikke |                                                 |                                                 |
   |                                                 | slettes selv om dokumentet kasseres.            |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 27.                                             | For hvert dokument som blir kassert, skal det   | O                                               |                                                 |
+  | 6.1.27                                          | For hvert dokument som blir kassert, skal det   | O                                               |                                                 |
   |                                                 | på dokumentbeskrivelsesnivå logges dato for     |                                                 |                                                 |
   |                                                 | kassasjon og hvem som utførte kassasjonen.      |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -225,7 +225,7 @@ Hensikten med rapporten *Kassasjonsliste* er todelt, både å være en hjelp i s
   +----------+--------------------------------------------------------------------------------------------+------+-------------------------------------------------------------------+
   | Krav nr. | Krav til rapporten *Kassasjonsliste*                                                       | Type | Merknad                                                           |
   +==========+============================================================================================+======+===================================================================+
-  | 28.      | *Selektering:*                                                                             | B    | Obligatorisk for løsninger som skal legge til rette for kassasjon |
+  | 6.1.28   | *Selektering:*                                                                             | B    | Obligatorisk for løsninger som skal legge til rette for kassasjon |
   |          |                                                                                            |      |                                                                   |
   |          | Rapporten skal kunne selekteres på følgende metadataelementer i *Saksmappe*:               |      |                                                                   |
   |          |                                                                                            |      |                                                                   |
@@ -237,7 +237,7 @@ Hensikten med rapporten *Kassasjonsliste* er todelt, både å være en hjelp i s
   |          | - *referanseArkivdel*                                                                      |      |                                                                   |
   |          | - *arkivperiodeStartDato* og *arkivperiodeSluttDato* fra arkivdel                          |      |                                                                   |
   +----------+--------------------------------------------------------------------------------------------+------+-------------------------------------------------------------------+
-  | 29.      | Rapporten skal inneholde følgende opplysninger, så fremt de finnes i løsningen:            | B    | Obligatorisk for løsninger som skal legge til rette for kassasjon |
+  | 6.1.29   | Rapporten skal inneholde følgende opplysninger, så fremt de finnes i løsningen:            | B    | Obligatorisk for løsninger som skal legge til rette for kassasjon |
   |          |                                                                                            |      |                                                                   |
   |          | **Saksmappeinformasjon**                                                                   |      |                                                                   |
   |          |                                                                                            |      |                                                                   |
@@ -294,9 +294,9 @@ Dokumenter som skal periodiseres etter forskjellige prinsipper - f.eks. funksjon
   +----------+-------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Strukturelle krav til periodisering                                                                         | Type | Merknad |
   +==========+=============================================================================================================+======+=========+
-  | 1.       | En arkivdel skal kunne inneholde en tekstlig beskrivelse av hvilke prinsipper den skal periodiseres etter.  | O    |         |
+  | 6.2.1   | En arkivdel skal kunne inneholde en tekstlig beskrivelse av hvilke prinsipper den skal periodiseres etter.  | O    |         |
   +----------+-------------------------------------------------------------------------------------------------------------+------+---------+
-  | 2.       | En arkivdel skal inneholde referanser til eventuelle forløpere og arvtakere. (forgjengere og etterkommere?) | O    |         |
+  | 6.2.2   | En arkivdel skal inneholde referanser til eventuelle forløpere og arvtakere. (forgjengere og etterkommere?) | O    |         |
   +----------+-------------------------------------------------------------------------------------------------------------+------+---------+
 
 En arkivdel som inneholder en *aktiv periode*, er åpen for all registrering. Nye mapper skal kunne knyttes til arkivdelen etter hvert som de opprettes.
@@ -316,47 +316,47 @@ Bruk av periodisering og særlig med overlappingsperiode er ikke aktuelt for all
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Funksjonelle krav til periodisering             | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 3.                                              | Det skal være mulig å knytte nyopprettede       | O                                               |                                                 |
+  | 6.2.3                                           | Det skal være mulig å knytte nyopprettede       | O                                               |                                                 |
   |                                                 | mapper til en arkivdel som inneholder en aktiv  |                                                 |                                                 |
   |                                                 | arkivperiode.                                   |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 4.                                              | En arkivdel som inneholder en                   | O                                               |                                                 |
+  | 6.2.4                                           | En arkivdel som inneholder en                   | O                                               |                                                 |
   |                                                 | overlappingsperiode, skal være sperret for      |                                                 |                                                 |
   |                                                 | tilføyelse av nyopprettede mapper. Men          |                                                 |                                                 |
   |                                                 | eksisterende mapper i en overlappingsperiode    |                                                 |                                                 |
   |                                                 | skal være åpne for nye registreringer.          |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 5.                                              | Dersom en ny registrering føyes til en mappe    | O                                               |                                                 |
+  | 6.2.5                                           | Dersom en ny registrering føyes til en mappe    | O                                               |                                                 |
   |                                                 | som tilhører en arkivdel i overlappingsperiode, |                                                 |                                                 |
   |                                                 | skal mappen automatisk overføres til            |                                                 |                                                 |
   |                                                 | arkivdelens arvtaker.                           |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 6.                                              | En arkivdel som inneholder en avsluttet         | O                                               |                                                 |
+  | 6.2.6                                           | En arkivdel som inneholder en avsluttet         | O                                               |                                                 |
   |                                                 | arkivperiode, skal være sperret for tilføyelse  |                                                 |                                                 |
   |                                                 | av nye mapper. Alle mapper skal være lukket,    |                                                 |                                                 |
   |                                                 | slik at heller ingen registreringer og          |                                                 |                                                 |
   |                                                 | dokumenter kan føyes til.                       |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 7.                                              | Det skal være umulig å avslutte en arkivdel i   | O                                               |                                                 |
+  | 6.2.7                                           | Det skal være umulig å avslutte en arkivdel i   | O                                               |                                                 |
   |                                                 | overlappingsperiode dersom den fremdeles        |                                                 |                                                 |
   |                                                 | inneholder åpne mapper.                         |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 8.                                              | Det skal være mulig å få en oversikt over       | O                                               |                                                 |
+  | 6.2.8                                           | Det skal være mulig å få en oversikt over       | O                                               |                                                 |
   |                                                 | mapper som fremdeles er åpne i en               |                                                 |                                                 |
   |                                                 | overlappingsperiode.                            |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 9.                                              | Det skal være mulig å overføre åpne mapper fra  | O                                               |                                                 |
+  | 6.2.9                                           | Det skal være mulig å overføre åpne mapper fra  | O                                               |                                                 |
   |                                                 | en arkivdel i en overlappingsperiode til        |                                                 |                                                 |
   |                                                 | arkivdelens arvtaker.                           |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 10.                                             | Det bør være mulig å overføre åpne mapper fra   | V                                               |                                                 |
+  | 6.2.10                                          | Det bør være mulig å overføre åpne mapper fra   | V                                               |                                                 |
   |                                                 | en arkivdel i en samlet, automatisert prosess.  |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 11.                                             | Det skal være mulig å flytte avsluttede mapper  | B                                               | Obligatorisk for funksjon for periodisering     |
+  | 6.2.11                                          | Det skal være mulig å flytte avsluttede mapper  | B                                               | Obligatorisk for funksjon for periodisering     |
   |                                                 | til en arkivdel som inneholder en avsluttet     |                                                 |                                                 |
   |                                                 | periode.                                        |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 12.                                             | Dersom dokumentene i en arkivdel er             | O                                               |                                                 |
+  | 6.2.12                                          | Dersom dokumentene i en arkivdel er             | O                                               |                                                 |
   |                                                 | ikke-elektroniske (fysiske), skal det også være |                                                 |                                                 |
   |                                                 | mulig å registrere oppbevaringssted.            |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -379,30 +379,30 @@ Dersom en eller flere arkivdeler flyttes fra en løsning til en annen vil det v�
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr:                                        | Krav til migrering mellom Noark-løsninger       | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 1.                                              | Det skal være mulig å eksportere alle metadata  | O                                               |                                                 |
+  | 6.3.1                                           | Det skal være mulig å eksportere alle metadata  | O                                               |                                                 |
   |                                                 | som er definert i denne standarden med          |                                                 |                                                 |
   |                                                 | tilhørende dokumenter basert på                 |                                                 |                                                 |
   |                                                 | avleveringsformatet.                            |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 2.                                              | Det bør være mulig å importere alle metadata    | V                                               |                                                 |
+  | 6.3.2                                            | Det bør være mulig å importere alle metadata    | V                                               |                                                 |
   |                                                 | som er definert i denne standarden med          |                                                 |                                                 |
   |                                                 | tilhørende dokumenter basert på                 |                                                 |                                                 |
   |                                                 | avleveringsformatet.                            |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 3.                                              | Det bør være mulig å eksportere deler av        | V                                               |                                                 |
+  | 6.3.3                                           | Det bør være mulig å eksportere deler av        | V                                               |                                                 |
   |                                                 | arkivstrukturen, f.eks. en arkivdel eller en    |                                                 |                                                 |
   |                                                 | klasse.                                         |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 4.                                              | Det bør være mulig å importere deler av         | V                                               |                                                 |
+  | 6.3.4                                           | Det bør være mulig å importere deler av         | V                                               |                                                 |
   |                                                 | arkivstrukturen, f.eks. en arkivdel eller en    |                                                 |                                                 |
   |                                                 | klasse.                                         |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 5.                                              | Det skal produseres en logg over alle           | B                                               | Obligatorisk ved import                         |
+  | 6.3.5                                           | Det skal produseres en logg over alle           | B                                               | Obligatorisk ved import                         |
   |                                                 | metadataelementer og dokumenter som ikke kan    |                                                 |                                                 |
   |                                                 | importeres og over andre feil som eventuelt     |                                                 |                                                 |
   |                                                 | oppstår under importen.                         |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 6.                                              | Når det foretas en import skal det genereres en | B                                               | Obligatorisk ved import                         |
+  | 6.3.6                                           | Når det foretas en import skal det genereres en | B                                               | Obligatorisk ved import                         |
   |                                                 | loggfil med informasjon om hvordan importen har |                                                 |                                                 |
   |                                                 | gått, f.eks. antall metadataelementer og        |                                                 |                                                 |
   |                                                 | dokumenter. Loggfilen skal også inneholde en    |                                                 |                                                 |
@@ -461,45 +461,45 @@ OAIS grupperer den bevaringsbeskrivende informasjonen - dvs. metadataene - i fem
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Overordnede krav til arkivuttrekk               | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 1.                                              | Det skal være mulig å produsere arkivuttrekk    | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.1                                           | Det skal være mulig å produsere arkivuttrekk    | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | bestående av arkivdokumenter, journalrapporter, |                                                 |                                                 |
   |                                                 | metadata, endringslogg og XML-skjemaer.         |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 2.                                              | Arkivuttrekket skal utgjøre en avleveringspakke | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.2                                           | Arkivuttrekket skal utgjøre en avleveringspakke | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | (Submission Information Packages), slik dette   |                                                 |                                                 |
   |                                                 | er definert i ISO 14571 OAIS.                   |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 3.                                              | Formatet på metadata, endringslogg og           | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.3                                           | Formatet på metadata, endringslogg og           | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | journalrapporter i arkivuttrekket skal være XML |                                                 |                                                 |
   |                                                 | (XML 1.0).                                      |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 4.                                              | Tegnsettet til alle XML-filer skal være UTF-8.  | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.4                                           | Tegnsettet til alle XML-filer skal være UTF-8.  | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 5.                                              | Metadataelementer som ikke har verdi, skal      | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.5                                           | Metadataelementer som ikke har verdi, skal      | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | utelates fra arkivuttrekket. I uttrekket skal   |                                                 |                                                 |
   |                                                 | det med andre ord ikke forekomme tomme          |                                                 |                                                 |
   |                                                 | elementer med kun start- og slutt-tagg.         |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 6.                                              | Alfanumeriske verdier i arkivuttrekket skal     | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.6                                           | Alfanumeriske verdier i arkivuttrekket skal     | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | representeres vha. XML Schema 1.0 -datatypen    |                                                 |                                                 |
   |                                                 | string.                                         |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 7.                                              | Datoer uten klokkeslett i arkivuttrekket skal   | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.7                                           | Datoer uten klokkeslett i arkivuttrekket skal   | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | representeres vha. XML Schema 1.0 -datatypen    |                                                 |                                                 |
   |                                                 | date.                                           |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 8.                                              | Datoer med klokkeslett i arkivuttrekket skal    | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.8                                           | Datoer med klokkeslett i arkivuttrekket skal    | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | representeres vha. XML Schema 1.0 -datatypen    |                                                 |                                                 |
   |                                                 | dateTime.                                       |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 9.                                              | Heltall i arkivuttrekket skal representeres     | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.9                                           | Heltall i arkivuttrekket skal representeres     | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | vha. XML Schema 1.0-datatypen integer.          |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 10.                                             | Format på arkivdokumenter i arkivuttrekket skal | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.10                                          | Format på arkivdokumenter i arkivuttrekket skal | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | være et av arkivformatene definert i § 5-17 i   |                                                 |                                                 |
   |                                                 | *riksarkivarens forskrift.*                     |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 11.                                             | Organiseringen av filene i arkivuttrekket skal  | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.11                                          | Organiseringen av filene i arkivuttrekket skal  | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | følge *riksarkivarens forskrift kapittel 5,* så |                                                 |                                                 |
   |                                                 | langt disse er relevante.                       |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -524,22 +524,22 @@ Hele klassifikasjonsstrukturen skal tas med i uttrekket, også klasser som er "u
   +-----------------------+-------------------------------------------------+---------+-------------------------------------------------+
   | Krav nr.              | Krav til innholdet i en avleveringspakke        | Type    | Merknad                                         |
   +=======================+=================================================+=========+=================================================+
-  | 12.                   | Et arkivuttrekk skal omfatte en avsluttet       | B       | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.12                | Et arkivuttrekk skal omfatte en avsluttet       | B       | Obligatorisk ved avlevering til arkivdepot      |
   |                       | arkivperiode, og bestå av innholdet i en eller  |         |                                                 |
   |                       | flere avsluttede arkivdeler.                    |         |                                                 |
   +-----------------------+-------------------------------------------------+---------+-------------------------------------------------+
-  | 13.                   | Hele klassifikasjonsstrukturen, dvs. alle       | B       | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.13                | Hele klassifikasjonsstrukturen, dvs. alle       | B       | Obligatorisk ved avlevering til arkivdepot      |
   |                       | klasser i et klassifikasjonssystem, skal inngå  |         |                                                 |
   |                       | i hver enkelt avleveringspakke. Sekundære       |         |                                                 |
   |                       | klassifikasjonssystemer kan også være med, men  |         |                                                 |
   |                       | klassene her skal ikke inneholde mapper.        |         |                                                 |
   +-----------------------+-------------------------------------------------+---------+-------------------------------------------------+
-  | 14.                   | Det bør være mulig å produsere et arkivuttrekk  | V       | Kravet gjelder særlig ved migrering.            |
+  | 6.4.14                | Det bør være mulig å produsere et arkivuttrekk  | V       | Kravet gjelder særlig ved migrering.            |
   |                       | på grunnlag av en startdato og en sluttdato,    |         |                                                 |
   |                       | uavhengig av tilhørighet til arkivdel og om     |         |                                                 |
   |                       | mappene er avsluttet eller ikke.                |         |                                                 |
   +-----------------------+-------------------------------------------------+---------+-------------------------------------------------+
-  | 15.                   | Filene i en avleveringspakke skal ligge         | B       | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.15                | Filene i en avleveringspakke skal ligge         | B       | Obligatorisk ved avlevering til arkivdepot      |
   |                       | under en felles overordnet filkatalog kalt      |         |                                                 |
   |                       | **avleveringspakke.**                           |         |                                                 |
   |                       |                                                 |         |                                                 |
@@ -622,21 +622,21 @@ Merk at navnene slik de er brukt i tabellen, er obligatoriske, også når det gj
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til XML-skjemaene                          | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 16.                                             | Alle XML-filer som inngår i en                  | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.16                                          | Alle XML-filer som inngår i en                  | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | avleveringspakke, skal være definert vha.       |                                                 |                                                 |
   |                                                 | medfølgende XML-skjema.                         |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 17.                                             | XML-skjemaene skal følge XML skjema-standarden  | O                                               |                                                 |
+  | 6.4.17                                          | XML-skjemaene skal følge XML skjema-standarden  | O                                               |                                                 |
   |                                                 | XML Schema 1.0                                  |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 18.                                             | For arkivuttrekk.xml, arkivstruktur.xml,        | O                                               |                                                 |
+  | 6.4.18                                          | For arkivuttrekk.xml, arkivstruktur.xml,        | O                                               |                                                 |
   |                                                 | endringslogg.xml, loependeJournal.xml og        |                                                 |                                                 |
   |                                                 | offentligJournal.xml skal kun de tilhørende     |                                                 |                                                 |
   |                                                 | skjemaene som er tilgjengelige fra Arkivverket, |                                                 |                                                 |
   |                                                 | benyttes i avleveringspakken. Varianter av      |                                                 |                                                 |
   |                                                 | skjemaene skal ikke benyttes.                   |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 19.                                             | Navngivingen i skjemaene slik det er vist i     | O                                               |                                                 |
+  | 6.4.19                                          | Navngivingen i skjemaene slik det er vist i     | O                                               |                                                 |
   |                                                 | tabellen over XML-filer og tilhørende skjemaer, |                                                 |                                                 |
   |                                                 | er obligatorisk.                                |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -699,15 +699,15 @@ Datasettbeskrivelsen arkivuttrekk.xml skal inneholde følgende informasjon om et
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til opplysninger om avleveringen           | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 20.                                             | Filene arkivuttrekk.xml og addml.xsd skal være  | B                                               | Obligatorisk ved produksjon av arkivuttrekk     |
+  | 6.4.20                                          | Filene arkivuttrekk.xml og addml.xsd skal være  | B                                               | Obligatorisk ved produksjon av arkivuttrekk     |
   |                                                 | med som en del av arkivuttrekket.               |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 21.                                             | I arkivuttrekk fra Noark 5-løsninger skal       | B                                               | Obligatorisk ved produksjon av arkivuttrekk     |
+  | 6.4.21                                          | I arkivuttrekk fra Noark 5-løsninger skal       | B                                               | Obligatorisk ved produksjon av arkivuttrekk     |
   |                                                 | struktur og innhold i arkivuttrekk.xml være i   |                                                 |                                                 |
   |                                                 | henhold til Riksarkivarens Noark 5-mal for      |                                                 |                                                 |
   |                                                 | arkivuttrekk.xml.                               |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 22.                                             | Følgende typer informasjon skal med i           | B                                               | Obligatorisk ved produksjon av arkivuttrekk     |
+  | 6.4.22                                          | Følgende typer informasjon skal med i           | B                                               | Obligatorisk ved produksjon av arkivuttrekk     |
   |                                                 | arkivuttrekk.xml:                               |                                                 |                                                 |
   |                                                 |                                                 |                                                 |                                                 |
   |                                                 | -  Arkivskapernavn                              |                                                 |                                                 |
@@ -746,7 +746,7 @@ Datasettbeskrivelsen arkivuttrekk.xml skal inneholde følgende informasjon om et
   |                                                 |    XML-skjemaer i arkivuttrekket, unnttatt      |                                                 |                                                 |
   |                                                 |    arkivuttrekk.xml og addml.xsd                |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 23.                                             | For uttrekk hvor arkivstruktur.xml inneholder   | B                                               | Obligatorisk ved produksjon av arkivuttrekk     |
+  | 6.4.23                                          | For uttrekk hvor arkivstruktur.xml inneholder   | B                                               | Obligatorisk ved produksjon av arkivuttrekk     |
   |                                                 | virksomhetsspesifikke metadata, skal            |                                                 |                                                 |
   |                                                 | informasjon om de XML-skjemaene som definerer   |                                                 |                                                 |
   |                                                 | disse være med i arkivuttrekk.xml. Denne        |                                                 |                                                 |
@@ -851,24 +851,24 @@ Dersom arkivdokumenter i et sakarkiv er kassert, skal metadata for disse dokumen
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til metadata i arkivuttrekket              | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 24.                                             | En avleveringspakke skal inneholde en fil med   | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.24                                          | En avleveringspakke skal inneholde en fil med   | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | metadata for arkivdokumentene som inngår i      |                                                 |                                                 |
   |                                                 | pakken. Alle metadataelementene skal være       |                                                 |                                                 |
   |                                                 | nøstet inn i en sammenhengende, hierarkisk      |                                                 |                                                 |
   |                                                 | struktur.                                       |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 25.                                             | Alle metadataelementer som er merket med "A" i  | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.25                                          | Alle metadataelementer som er merket med "A" i  | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | kolonnen "Avl." i vedlegget "Metadata gruppert  |                                                 |                                                 |
   |                                                 | på objekter" skal være med i arkivuttrekket,    |                                                 |                                                 |
   |                                                 | såfremt de er tilordnet verdier.                |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 26.                                             | Alle forekomster av arkivenheter i              | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.26                                          | Alle forekomster av arkivenheter i              | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | arkivstrukturen skal være identifisert med en   |                                                 |                                                 |
   |                                                 | entydig identifikasjon. Denne identifikasjonen  |                                                 |                                                 |
   |                                                 | skal være entydig for alle arkivuttrekk som     |                                                 |                                                 |
   |                                                 | produseres av en arkivskaper.                   |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 27.                                             | Metadata for arkivdokumenter som er kassert før | B                                               | Obligatorisk for sakarkiver.                    |
+  | 6.4.27                                          | Metadata for arkivdokumenter som er kassert før | B                                               | Obligatorisk for sakarkiver.                    |
   |                                                 | arkivuttrekket produseres, skal være med i      |                                                 |                                                 |
   |                                                 | uttrekket. Disse metadataene skal omfatte alle  |                                                 |                                                 |
   |                                                 | arkivenheter ned til dokumentbeskrivelse, og    |                                                 |                                                 |
@@ -940,7 +940,7 @@ Endringsloggen skal bare vise til arkivenheter som befinner seg i samme avleveri
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til *Endringslogg*                         | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 28.                                             | En avleveringspakke skal inneholde en           | B                                               | Obligatorisk ved avlevering til arkivdepot      |
+  | 6.4.28                                          | En avleveringspakke skal inneholde en           | B                                               | Obligatorisk ved avlevering til arkivdepot      |
   |                                                 | endringslogg for metadata som har fått en ny    |                                                 |                                                 |
   |                                                 | verdi. Hvilke metadata dette gjelder, og når    |                                                 |                                                 |
   |                                                 | logging av disse endringene skal utføres, går   |                                                 |                                                 |
@@ -965,12 +965,12 @@ I en avleveringspakke skal journalen normalt dekke en *arkivperiode*, dvs. den p
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til journalrapportene                      | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 29.                                             | En avleveringspakke skal inneholde både en      | B                                               | Obligatorisk for arkiver med                    |
+  | 6.4.29                                          | En avleveringspakke skal inneholde både en      | B                                               | Obligatorisk for arkiver med                    |
   |                                                 | løpende journal og en offentlig journal.        |                                                 | korrespondanse-dokumenter som det kan være      |
   |                                                 | Journalene skal omfatte samme tidsrom som       |                                                 | aktuelt å avlevere til arkivdepot               |
   |                                                 | arkivperioden.                                  |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 30.                                             | Journalrapportene skal inneholde alle           | B                                               | Obligatorisk for arkiver med                    |
+  | 6.4.30                                          | Journalrapportene skal inneholde alle           | B                                               | Obligatorisk for arkiver med                    |
   |                                                 | registreringer av typen journalpost som er      |                                                 | korrespondanse­dokumenter som det kan være      |
   |                                                 | journalført i løpet av arkivperioden.           |                                                 | aktuelt å avlevere til arkivdepot               |
   |                                                 | Journalpostene skal være sortert kronologisk    |                                                 |                                                 |
@@ -995,26 +995,26 @@ Innholdet og betydningen av hvert virksomhetsspesifikt metadataelement skal doku
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til virksomhetsspesifikke metadata         | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 31.                                             | Hvis virksomhetsspesifikke metadata skal inngå  | B                                               | Obligatorisk ved bruk av virksomhets-spesifikke |
+  | 6.4.31                                          | Hvis virksomhetsspesifikke metadata skal inngå  | B                                               | Obligatorisk ved bruk av virksomhets-spesifikke |
   |                                                 | som en del av arkivuttrekket, skal de knyttes   |                                                 | metadata                                        |
   |                                                 | til mappe, registrering eller sakspart i        |                                                 |                                                 |
   |                                                 | arkivstruktur.xml gjennom elementet             |                                                 |                                                 |
   |                                                 | *virksomhetsspesifikkeMetadata*.                |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 32.                                             | Alle virksomhetsspesifikke metadataelementer    | B                                               | Obligatorisk ved bruk av virksomhets-spesifikke |
+  | 6.4.32                                          | Alle virksomhetsspesifikke metadataelementer    | B                                               | Obligatorisk ved bruk av virksomhets-spesifikke |
   |                                                 | skal være definert i ett eller flere            |                                                 | metadata                                        |
   |                                                 | medfølgende XML-skjemaer.                       |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 33.                                             | Når virksomhetsspesifikke metadata inngår som   | B                                               | Obligatorisk ved bruk av virksomhets-spesifikke |
+  | 6.4.33                                          | Når virksomhetsspesifikke metadata inngår som   | B                                               | Obligatorisk ved bruk av virksomhets-spesifikke |
   |                                                 | en del av arkivuttrekket, skal det finnes       |                                                 | metadata                                        |
   |                                                 | referanse til aktuelle skjemaer i               |                                                 |                                                 |
   |                                                 | arkivstruktur.xml.                              |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 34.                                             | Virksomhetsspesifikke metadataelementer skal    | B                                               | Obligatorisk ved bruk av virksomhets-spesifikke |
+  | 6.4.34                                          | Virksomhetsspesifikke metadataelementer skal    | B                                               | Obligatorisk ved bruk av virksomhets-spesifikke |
   |                                                 | være tilordnet et *namespace* gjennom           |                                                 | metadata                                        |
   |                                                 | tilhørende XML-skjema.                          |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 35.                                             | Innholdet og betydningen av hvert               | B                                               | Obligatorisk ved bruk av virksomhets-spesifikke |
+  | 6.4.35                                          | Innholdet og betydningen av hvert               | B                                               | Obligatorisk ved bruk av virksomhets-spesifikke |
   |                                                 | virksomhetsspesifikt metadataelement skal       |                                                 | metadata                                        |
   |                                                 | dokumenteres mer inngående i aktuelt XML skjema |                                                 |                                                 |
   |                                                 | dersom det ikke er innlysende hva elementet     |                                                 |                                                 |
@@ -1048,22 +1048,22 @@ Kravene nedenfor er obligatoriske for alle Noark-løsninger som inneholder elekt
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til arkivdokumentene                       | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 36.                                             | En avleveringspakke skal inneholde              | B                                               | Obligatorisk ved avlevering av elektroniske     |
+  | 6.4.36                                          | En avleveringspakke skal inneholde              | B                                               | Obligatorisk ved avlevering av elektroniske     |
   |                                                 | arkivdokumenter i arkivformat. Hvert dokument   |                                                 | arkivdokumenter til arkivdepot                  |
   |                                                 | skal eksporteres som én dokumentfil             |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 37.                                             | Hver arkivert versjon av et dokument skal       | B                                               | Obligatorisk ved avlevering av elektroniske     |
+  | 6.4.37                                          | Hver arkivert versjon av et dokument skal       | B                                               | Obligatorisk ved avlevering av elektroniske     |
   |                                                 | eksporteres som en egen dokumentfil.            |                                                 | arkivdokumenter til arkivdepot                  |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 38.                                             | Hver arkivert variant av et dokument skal       | B                                               | Obligatorisk ved avlevering av elektroniske     |
+  | 6.4.38                                          | Hver arkivert variant av et dokument skal       | B                                               | Obligatorisk ved avlevering av elektroniske     |
   |                                                 | eksporteres som en egen dokumentfil.            |                                                 | arkivdokumenter til arkivdepot                  |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 39.                                             | I et sakarkiv skal også dokumenter som er       | B                                               | Obligatorisk for sakarkiver hvor dokumenter er  |
+  | 6.4.39                                          | I et sakarkiv skal også dokumenter som er       | B                                               | Obligatorisk for sakarkiver hvor dokumenter er  |
   |                                                 | knyttet til registreringer av typen             |                                                 | arkivert uten journalføring.                    |
   |                                                 | *registrering* (dvs. dokumenter som er arkivert |                                                 |                                                 |
   |                                                 | uten journalføring) inngå i arkivuttrekket.     |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 40.                                             | Hvert dokumentobjekt i **arkivstruktur.xml**    | B                                               | Obligatorisk ved avlevering av elektroniske     |
+  | 6.4.40                                          | Hvert dokumentobjekt i **arkivstruktur.xml**    | B                                               | Obligatorisk ved avlevering av elektroniske     |
   |                                                 | skal ha en referanse til en dokumentfil i       |                                                 | arkivdokumenter til arkivdepot                  |
   |                                                 | avleveringspakken. Det skal ikke forekomme      |                                                 |                                                 |
   |                                                 | referanser til dokumenter som ikke finnes i     |                                                 |                                                 |
@@ -1073,14 +1073,14 @@ Kravene nedenfor er obligatoriske for alle Noark-løsninger som inneholder elekt
   |                                                 | dokumentfilene, dvs. inneholde hele "stien" til |                                                 |                                                 |
   |                                                 | dokumentet.                                     |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 41.                                             | Hvert dokumentobjekt i **arkivstruktur.xml**    | B                                               | Obligatorisk ved avlevering av elektroniske     |
+  | 6.4.41                                          | Hvert dokumentobjekt i **arkivstruktur.xml**    | B                                               | Obligatorisk ved avlevering av elektroniske     |
   |                                                 | skal inneholde informasjon om dokumentets       |                                                 | arkivdokumenter til arkivdepot                  |
   |                                                 | format og størrelse. Det skal også inneholde    |                                                 |                                                 |
   |                                                 | sjekksummen for hvert enkelt dokument, samt     |                                                 |                                                 |
   |                                                 | algoritmen som ble brukt for å generere         |                                                 |                                                 |
   |                                                 | sjekksummen.                                    |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 42.                                             | Dersom dokumentet er blitt konvertert fra et    | O                                               |                                                 |
+  | 6.4.42                                          | Dersom dokumentet er blitt konvertert fra et    | O                                               |                                                 |
   |                                                 | format til et annet (f.eks. fra                 |                                                 |                                                 |
   |                                                 | produksjonsformat til arkivformat) skal det     |                                                 |                                                 |
   |                                                 | tilhørende dokumentobjektet i                   |                                                 |                                                 |
@@ -1105,7 +1105,7 @@ Overføringslisten skal utformes som en avleveringsliste til arkivdepot.Organet 
   | Krav nr.         | Krav til rapporten *Liste for bortsetting,      | Type          | Merknad                                         |
   |                  | avlevering og overføring*                       |               |                                                 |
   +==================+=================================================+===============+=================================================+
-  | 1.               | *Selektering:*                                  | B             | Obligatorisk for løsninger som skal foreta      |
+  | 6.5.1            | *Selektering:*                                  | B             | Obligatorisk for løsninger som skal foreta      |
   |                  |                                                 |               | bortsetting, avlevering og overføring           |
   |                  | Rapporten skal valgfritt kunne selekteres på    |               |                                                 |
   |                  | følgende metadataelementer:                     |               |                                                 |
@@ -1132,7 +1132,7 @@ Overføringslisten skal utformes som en avleveringsliste til arkivdepot.Organet 
   |                  | - kassasjonsvedtak                              |               |                                                 |
   |                  |                                                 |               |                                                 |
   +------------------+-------------------------------------------------+---------------+-------------------------------------------------+
-  | 2.               | *Rapportens innhold:*                           | B             | Obligatorisk for løsninger som skal foreta      |
+  | 6.5.2             | *Rapportens innhold:*                           | B             | Obligatorisk for løsninger som skal foreta      |
   |                  |                                                 |               | bortsetting, avlevering og overføring           |
   |                  | Rapporten skal inneholde følgende opplysninger, |               |                                                 |
   |                  | så fremt de finnes i                            |               |                                                 |
@@ -1169,12 +1169,12 @@ Overføringslisten skal utformes som en avleveringsliste til arkivdepot.Organet 
   |                  |                                                 |               |                                                 |
   |                  | *arkivperiodeSluttDato*                         |               |                                                 |
   +------------------+-------------------------------------------------+---------------+-------------------------------------------------+
-  | 3.               | For hver ny klasseID skal                       | B             | Obligatorisk for løsninger som skal foreta      |
+  | 6.5.3            | For hver ny klasseID skal                       | B             | Obligatorisk for løsninger som skal foreta      |
   |                  | klassifikasjonssystemets tekst (det avledete    |               | bortsetting, avlevering og overføring           |
   |                  | metadataelementet *tittel)* tas med på en egen  |               |                                                 |
   |                  | linje som overskrift.                           |               |                                                 |
   +------------------+-------------------------------------------------+---------------+-------------------------------------------------+
-  | 4.               | Hvis rapporten inneholder dokumenter som er     | B             | Obligatorisk for løsninger som skal foreta      |
+  | 6.5.4            | Hvis rapporten inneholder dokumenter som er     | B             | Obligatorisk for løsninger som skal foreta      |
   |                  | gradert, skal antall graderte dokumenter        |               | bortsetting, avlevering og overføring           |
   |                  | markeres ved saken.                             |               |                                                 |
   +------------------+-------------------------------------------------+---------------+-------------------------------------------------+
@@ -1189,14 +1189,14 @@ Hensikten med rapporten *arkivoversikt* er å gi en oversikt over hvilke arkivde
   +----------+---------------------------------------------------------------------------------------+------+-----------------------------+
   | Krav nr. | Krav til rapporten *arkivoversikt*                                                    | Type | Merknad                     |
   +==========+=======================================================================================+======+=============================+
-  | 1.       | *Selektering:*                                                                        | B    | Obligatorisk for sakarkiver |
+  | 6.6.1    | *Selektering:*                                                                        | B    | Obligatorisk for sakarkiver |
   |          |                                                                                       |      |                             |
   |          | Rapporten skal valgfritt kunne selekteres etter metadataelementene:                   |      |                             |
   |          |                                                                                       |      |                             |
   |          | - *referanseForelder* i *arkivdel,* eller                                             |      |                             |
   |          | - *arkivperiodeStartDato og arkivperiodeSluttDato* i *arkivdel*                       |      |                             |
   +----------+---------------------------------------------------------------------------------------+------+-----------------------------+
-  | 2.       | *Rapportens innhold:*                                                                 | B    | Obligatorisk for sakarkiver |
+  | 6.6.2    | *Rapportens innhold:*                                                                 | B    | Obligatorisk for sakarkiver |
   |          |                                                                                       |      |                             |
   |          | Følgende metadataelementer skal være med i rapporten, så fremt de finnes i løsningen: |      |                             |
   |          |                                                                                       |      |                             |

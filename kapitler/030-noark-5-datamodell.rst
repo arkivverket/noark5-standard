@@ -41,7 +41,7 @@ I enkelte system kan det være behov for en forenklet struktur, og visse nivå i
 
 I et elektronisk arkiv eksisterer ikke mappene som fysiske enheter. Arkivstrukturen i et elektronisk arkiv er bygd opp av forskjellige metadata. Hver enhet i strukturen har sine bestemte metadata, og de forskjellige nivåene er også koblet sammen med metadata. Metadata er altså aggregert på flere nivåer, slik at metadata på øverste nivå vil være knyttet til alle dokumenter i arkivet, mens metadata på laveste nivå bare er knyttet til et enkeltdokument.
 
-.. table:: Overordnede krav til arkivstrukturen
+.. table:: **Overordnede krav til arkivstrukturen**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Overordnede krav til arkivstrukturen            | Type                                            | Merknad                                         |
@@ -95,7 +95,7 @@ Metadata blir navngitt på en entydig måte som er nærmere forklart i metadatak
 
 Det er ikke noe krav at alle metadata i katalogen nødvendigvis må lagres i kjernen. I en del løsninger er det mer hensiktsmessig å lagre deler av metadata i fagsystemet. Men det er et krav at ved eksport eller utveksling skal alle obligatoriske metadata inngå i en felles struktur. Slike strukturer vil bl.a. bli beskrevet i form av XML-skjema i Noark 5.
 
-.. table:: Overordnede krav til metadata
+.. table:: **Overordnede krav til metadata**
 
   +----------+----------------------------------------------------------------+------+-------------------------------------+
   | Krav nr. | Overordnede krav til metadata                                  | Type | Merknad                             |
@@ -170,7 +170,7 @@ Et arkiv skal kunne deles opp i arkivdeler for å gruppere arkivet etter overord
 
 -  Skille mellom mapper, registreringer eller dokumenttyper som er offentlige eller som skal skjermes.
 
-.. table:: Funksjonelle krav til arkiv
+.. table:: **Funksjonelle krav til arkiv**
 
   +----------+-----------------------------------------------------------------------------------------+------+----------------------------+
   | Krav nr. | Funksjonelle krav til *arkiv*                                                           | Type | Merknad                    |
@@ -182,7 +182,7 @@ Et arkiv skal kunne deles opp i arkivdeler for å gruppere arkivet etter overord
   |          | logges.                                                                                 |      |                            |
   +----------+-----------------------------------------------------------------------------------------+------+----------------------------+
 
-.. table:: Funksjonelle krav til underarkiv
+.. table:: **Funksjonelle krav til underarkiv**
 
   +----------+---------------------------------------------------------------------------------------------+------+------------------------+
   | Krav nr. | Funksjonelle krav til *underarkiv*                                                          | Type | Merknad                |
@@ -193,7 +193,7 @@ Et arkiv skal kunne deles opp i arkivdeler for å gruppere arkivet etter overord
   |          |                                                                                             |      | underarkiv brukes.     |
   +----------+---------------------------------------------------------------------------------------------+------+------------------------+
 
-.. table:: Funksjonelle krav til arkivdel
+.. table:: **Funksjonelle krav til arkivdel**
 
   +----------+------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Funksjonelle krav til *arkivdel*                                                                           | Type | Merknad |
@@ -265,34 +265,34 @@ Klasse
 
 Et klassifikasjonssystem er bygd opp av klasser. En klasse skal bestå av en *klasseID,* som angir tillatte verdier i klassifikasjonssystemet og en *klassetittel*, som er en tekstlig beskrivelse av funksjonen eller prosessen.
 
-.. table:: Funksjonelle krav til klassifikasjonssystem
+.. table:: **Funksjonelle krav til klassifikasjonssystem**
 
   +----------+-----------------------------------------------------------------------------------------------------+------+------------------------------------------------+
   | Krav nr. | Funksjonelle krav til *klassifikasjonssystem*                                                       | Type | Merknad                                        |
   +==========+=====================================================================================================+======+================================================+
-  | 1.       | Det skal være mulig å etablere hierarkiske klassifikasjonssystem.                                   | B    | Obligatorisk for sakarkiv                      |
+  | 2.4.1    | Det skal være mulig å etablere hierarkiske klassifikasjonssystem.                                   | B    | Obligatorisk for sakarkiv                      |
   +----------+-----------------------------------------------------------------------------------------------------+------+------------------------------------------------+
-  | 2.       | Det skal være mulig å etablere fasetterte, hierarkiske klassifikasjonssystem. Følgende er standard: | B    | Obligatorisk for sakarkiver i kommunesektoren. |
+  | 2.4.2    | Det skal være mulig å etablere fasetterte, hierarkiske klassifikasjonssystem. Følgende er standard: | B    | Obligatorisk for sakarkiver i kommunesektoren. |
   |          |                                                                                                     |      |                                                |
   |          | -  K-kodenøkkelen                                                                                   |      |                                                |
   +----------+-----------------------------------------------------------------------------------------------------+------+------------------------------------------------+
-  | 3.       | Det skal være mulig å etablere endimensjonale klassifikasjonssystem. Følgende er standard:          | B    | Obligatorisk for sakarkiv                      |
+  | 2.4.3    | Det skal være mulig å etablere endimensjonale klassifikasjonssystem. Følgende er standard:          | B    | Obligatorisk for sakarkiv                      |
   |          |                                                                                                     |      |                                                |
   |          | -  Juridisk person (privatperson eller næring)                                                      |      |                                                |
   |          |                                                                                                     |      |                                                |
   |          | -  Gårds- og bruksnummer                                                                            |      |                                                |
   +----------+-----------------------------------------------------------------------------------------------------+------+------------------------------------------------+
 
-.. table:: Funksjonelle krav til klasse
+.. table:: **Funksjonelle krav til klasse**
 
   +----------+----------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------+
   | Krav nr. | Funksjonelle krav til *klasse*                                                                                                         | Type | Merknad                                              |
   +==========+========================================================================================================================================+======+======================================================+
-  | 4.       | For at en *klasse* skal kunne tilordnes en *mappe*, må den ligge på nederste nivå i klassehierarkiet.                                  | B    | Obligatorisk for sakarkiv.                           |
+  | 2.4.4    | For at en *klasse* skal kunne tilordnes en *mappe*, må den ligge på nederste nivå i klassehierarkiet.                                  | B    | Obligatorisk for sakarkiv.                           |
   +----------+----------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------+
-  | 5.       | Dersom verdien i *klasse* er registrert som avsluttet (avsluttetDato), skal det ikke være mulig å tilordne nye *mapper* til *klassen.* | B    | Obligatorisk dersom det er mulig å avslutte klasser. |
+  | 2.4.5    | Dersom verdien i *klasse* er registrert som avsluttet (avsluttetDato), skal det ikke være mulig å tilordne nye *mapper* til *klassen.* | B    | Obligatorisk dersom det er mulig å avslutte klasser. |
   +----------+----------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------+
-  | 6.       | Bare autorisert personale kan opprette klasser. Andre brukere kan gis tillatelse til å opprette klasser.                               | B    | Obligatorisk for sakarkiv.                           |
+  | 2.4.6    | Bare autorisert personale kan opprette klasser. Andre brukere kan gis tillatelse til å opprette klasser.                               | B    | Obligatorisk for sakarkiv.                           |
   +----------+----------------------------------------------------------------------------------------------------------------------------------------+------+------------------------------------------------------+
 
 Mappe
@@ -341,25 +341,25 @@ Metadata for møtedeltaker grupperes inn i metadata for møtemappe.
   +----------+-------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
   | Krav nr. | Strukturelle krav til *mappe*                                                                                                       | Type | Merknad                   |
   +==========+=====================================================================================================================================+======+===========================+
-  | 1.       | En *mappe* skal kunne være av forskjellig type.                                                                                     | O    |                           |
+  | 2.5.1    | En *mappe* skal kunne være av forskjellig type.                                                                                     | O    |                           |
   |          |                                                                                                                                     |      |                           |
   |          | *Dette er i den konseptuelle modellen løst gjennom spesialisering.*                                                                 |      |                           |
   +----------+-------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
-  | 2.       | En *mappe* som inneholder *journalposter* skal være en *saksmappe.*                                                                 | B    | Obligatorisk for sakarkiv |
+  | 2.5.2     | En *mappe* som inneholder *journalposter* skal være en *saksmappe.*                                                                 | B    | Obligatorisk for sakarkiv |
   +----------+-------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
-  | 3.       | En *mappe* som inneholder møteregistreringer bør være en *møtemappe*                                                                | V    |                           |
+  | 2.5.3     | En *mappe* som inneholder møteregistreringer bør være en *møtemappe*                                                                | V    |                           |
   +----------+-------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
-  | 4.       | Det bør være mulig å definere relevante tilleggsmetadata for *møtemappe* i tillegg til de metadataene som er definert i standarden. | V    |                           |
+  | 2.5.4    | Det bør være mulig å definere relevante tilleggsmetadata for *møtemappe* i tillegg til de metadataene som er definert i standarden. | V    |                           |
   +----------+-------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
-  | 5.       | Dersom en *mappe* er registrert som avsluttet (avsluttetDato) skal det ikke være mulig å legge flere *registreringer* til *mappen.* | O    |                           |
+  | 2.5.5    | Dersom en *mappe* er registrert som avsluttet (avsluttetDato) skal det ikke være mulig å legge flere *registreringer* til *mappen.* | O    |                           |
   +----------+-------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
 
-.. table:: Funksjonelle krav til mappe
+.. table:: **Funksjonelle krav til mappe**
 
   +----------+---------------------------------------------------------------+------+-------------------------------------------------+
   | Krav nr. | Funksjonelle krav til *mappe*                                 | Type | Merknad                                         |
   +==========+===============================================================+======+=================================================+
-  | 6.       | Dersom det er angitt et primært klassifikasjonssystem for     | B    | Obligatorisk dersom primært                     |
+  | 2.5.6.   | Dersom det er angitt et primært klassifikasjonssystem for     | B    | Obligatorisk dersom primært                     |
   |          | *arkivdel*, skal alle *mapper* i arkivdelen ha verdier fra    |      | klassifika­sjonssystem er angitt for arkivedel. |
   |          | dette klassifikasjonssystemet som primær klasse.              |      |                                                 |
   +----------+---------------------------------------------------------------+------+-------------------------------------------------+
@@ -406,36 +406,36 @@ Korrespondansepart
 
 Korrespondansepart er obligatorisk for journalpost, og kan forekomme en eller flere ganger, men kan også være aktuelt å registrere på andre typer registreringer. Ved inngående dokumenter registreres avsender(e), ved utgående dokumenter mottaker(e). Ved organinterne dokumenter som skal følges opp, registreres både avsender(e) og mottaker(e).
 
-.. table:: Strukturelle krav til registrering
+.. table:: **Strukturelle krav til registrering**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Strukturelle krav til *registrering*            | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 1.                                              | En *registrering* skal kunne være av            | O                                               |                                                 |
+  | 2.6.1                                           | En *registrering* skal kunne være av            | O                                               |                                                 |
   |                                                 | forskjellig type.                               |                                                 |                                                 |
   |                                                 |                                                 |                                                 |                                                 |
   |                                                 | *Dette er i den konseptuelle modellen løst      |                                                 |                                                 |
   |                                                 | gjennom spesialisering.*                        |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 2.                                              | Registrering av journalføringspliktige          | B                                               | Obligatorisk for sakarkiver.                    |
+  | 2.6.2                                           | Registrering av journalføringspliktige          | B                                               | Obligatorisk for sakarkiver.                    |
   |                                                 | dokumenter skal løses gjennom *journalpost*.    |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 3.                                              | *Registrering* av typen *journalpost* skal ha   | B                                               | Obligatorisk for sakarkiver.                    |
+  | 2.6.3                                           | *Registrering* av typen *journalpost* skal ha   | B                                               | Obligatorisk for sakarkiver.                    |
   |                                                 | *korrespondansepart.*                           |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 4.                                              | Arkivering av saksdokumenter som ikke skal      | B                                               | Obligatorisk for arkivering uten journalføring  |
+  | 2.6.4                                           | Arkivering av saksdokumenter som ikke skal      | B                                               | Obligatorisk for arkivering uten journalføring  |
   |                                                 | journalføres skal løses gjennom *registrering*  |                                                 | i sakarkiver.                                   |
   |                                                 | av typen *arkivnotat.*                          |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 5.                                              | Registrering av møtedokumenter bør løses        | V                                               |                                                 |
+  | 2.6.5                                           | Registrering av møtedokumenter bør løses        | V                                               |                                                 |
   |                                                 | gjennom *møteregistrering.*                     |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 6.                                              | Det bør være mulig å definere relevante         | V                                               |                                                 |
+  | 2.6.6                                           | Det bør være mulig å definere relevante         | V                                               |                                                 |
   |                                                 | tilleggsmetadata for *møteregistrering* i       |                                                 |                                                 |
   |                                                 | tillegg til de metadataene som er definert i    |                                                 |                                                 |
   |                                                 | standarden.                                     |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 7.                                              | Dersom en *registrering* er registrert som      | O                                               |                                                 |
+  | 2.6.7                                           | Dersom en *registrering* er registrert som      | O                                               |                                                 |
   |                                                 | arkivert (avsluttetDato er satt) skal det ikke  |                                                 |                                                 |
   |                                                 | være mulig å legge flere *dokumentbeskrivelser* |                                                 |                                                 |
   |                                                 | til *registreringen.*                           |                                                 |                                                 |
@@ -467,32 +467,32 @@ Dokumentobjekt
 Dokumentobjekt er det laveste metadatanivået i arkivstrukturen. Et dokumentobjekt skal referere til én og kun en *dokumentfil.* Dokumentfila inneholder selve dokumentet. Dersom dokumentet er arkivert i flere *versjoner*, må vi ha et dokumentobjekt og en dokumentfil for hver versjon. Hver versjon av dokumentet kan dessuten arkiveres i flere forskjellige *formater*, og da må det i tillegg opprettes egne dokumentobjekter og dokumentfiler for hvert format. I noen tilfeller kan det også være aktuelt å lage *varianter* av enkelte dokumenter. Den mest vanlige varianten vil være et "sladdet" dokument hvor taushetsbelagt informasjon er fjernet slik at varianten kan være offentlig tilgjengelig. Dokumentobjektet inneholder mer tekniske metadata enn de andre arkivenhetene, bl.a. sjekksummen til bytesekvensen som representerer dokumentet.
 
 
-.. table:: Strukturelle krav til dokumentbeskrivelse og dokumentobjekt
+.. table:: **Strukturelle krav til dokumentbeskrivelse og dokumentobjekt**
 
   +----------+-----------------------------------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Strukturelle krav til *dokumentbeskrivelse og dokumentobjekt*                                                                           | Type | Merknad |
   +==========+=========================================================================================================================================+======+=========+
-  | 1.       | Et *dokumentobjekt* som er tilknyttet samme *dokumentbeskrivelse* skal kunne referere til forskjellige *versjoner* av dokumentet        | O    |         |
+  | 2.7.1    | Et *dokumentobjekt* som er tilknyttet samme *dokumentbeskrivelse* skal kunne referere til forskjellige *versjoner* av dokumentet        | O    |         |
   +----------+-----------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 2.       | Et *dokumentobjekt* som er tilknyttet samme *dokumentbeskrivelse* skal kunne referere til forskjellige *varianter* av et dokument.      | O    |         |
+  | 2.7.2    | Et *dokumentobjekt* som er tilknyttet samme *dokumentbeskrivelse* skal kunne referere til forskjellige *varianter* av et dokument.      | O    |         |
   +----------+-----------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 3.       | Et *dokumentobjekt* som er tilknyttet samme *dokumentbeskrivelse* skal kunne referere til samme dokument lagret i forskjellig *format*. | O    |         |
+  | 2.7.3    | Et *dokumentobjekt* som er tilknyttet samme *dokumentbeskrivelse* skal kunne referere til samme dokument lagret i forskjellig *format*. | O    |         |
   +----------+-----------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 
-.. table:: Funksjonelle krav til dokumentbeskrivelse og dokumentobjekt
+.. table:: **Funksjonelle krav til dokumentbeskrivelse og dokumentobjekt**
 
   +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Funksjonelle krav til *dokumentbeskrivelse* og *dokumentobjekt*                                                                                     | Type | Merknad |
   +==========+=====================================================================================================================================================+======+=========+
-  | 4.       | Det skal finnes funksjoner som ved opprettelse av nytt dokument skal knytte dette til en *dokumentbeskrivelse*.                                     | O    |         |
+  | 2.7.4    | Det skal finnes funksjoner som ved opprettelse av nytt dokument skal knytte dette til en *dokumentbeskrivelse*.                                     | O    |         |
   +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 5.       | Det skal være mulig å opprette en *dokumentbeskrivelse* uten elektronisk dokument.                                                                  | O    |         |
+  | 2.7.5    | Det skal være mulig å opprette en *dokumentbeskrivelse* uten elektronisk dokument.                                                                  | O    |         |
   +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 6.       | Det skal finnes en funksjon/tjeneste for å arkivere en eller flere versjoner/varianter/formater av et dokument.                                     | O    |         |
+  | 2.7.6    | Det skal finnes en funksjon/tjeneste for å arkivere en eller flere versjoner/varianter/formater av et dokument.                                     | O    |         |
   +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 7.       | Det skal ikke være mulig å slette et arkivert dokument. Eldre versjoner av dokumentet skal likevel kunne slettes.                                   | O    |         |
+  | 2.7.7    | Det skal ikke være mulig å slette et arkivert dokument. Eldre versjoner av dokumentet skal likevel kunne slettes.                                   | O    |         |
   +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 8.       | Ved tilknytning av et dokument til en *registrering,* skal det kunne angis om det er et hoveddokument eller et vedlegg (tilknyttetRegistreringSom). | O    |         |
+  | 2.7.8    | Ved tilknytning av et dokument til en *registrering,* skal det kunne angis om det er et hoveddokument eller et vedlegg (tilknyttetRegistreringSom). | O    |         |
   +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 
 Konvertering til arkivformat
@@ -500,31 +500,31 @@ Konvertering til arkivformat
 
 Alle arkivdokumenter som skal avleveres må være i arkivformat. Konvertering til arkivformat skal foretas senest ved avslutning av mappe. Systemet skal logge alle konverteringer, og informasjon om dette skal tas med ved deponering/avlevering.
 
-.. table:: Krav til konvertering til arkivformat
+.. table:: **Krav til konvertering til arkivformat**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til konvertering til *arkivformat*         | Type                                            | Merknad                                         |
   +=================================================+=================================================+=================================================+=================================================+
-  | 9.                                              | Det skal finnes en tjeneste/funksjon som gjør   | O                                               |                                                 |
+  | 2.7.9                                           | Det skal finnes en tjeneste/funksjon som gjør   | O                                               |                                                 |
   |                                                 | det mulig for arkivadministrator å angi hvilke  |                                                 |                                                 |
   |                                                 | dokumentformater som er definert som            |                                                 |                                                 |
   |                                                 | arkivformater.                                  |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 10.                                             | Det skal finnes en tjeneste/funksjon som gjør   | O                                               |                                                 |
+  | 2.7.10                                          | Det skal finnes en tjeneste/funksjon som gjør   | O                                               |                                                 |
   |                                                 | at arkivadministrator kan sette opp regler for  |                                                 |                                                 |
   |                                                 | når (hvilke statuser) arkivdokumenter skal      |                                                 |                                                 |
   |                                                 | konverteres til arkivformat.                    |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 11.                                             | Det skal være konfigurerbart om dokumenter skal | O                                               |                                                 |
+  | 2.7.11                                          | Det skal være konfigurerbart om dokumenter skal | O                                               |                                                 |
   |                                                 | konverteres til arkivformat når status på       |                                                 |                                                 |
   |                                                 | dokumentbeskrivelse settes til «Dokumentet er   |                                                 |                                                 |
   |                                                 | ferdigstilt».                                   |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 12.                                             | Det skal være konfigurerbart om alle eller      | O                                               |                                                 |
+  | 2.7.12                                          | Det skal være konfigurerbart om alle eller      | O                                               |                                                 |
   |                                                 | spesielt merkede versjoner skal konverteres til |                                                 |                                                 |
   |                                                 | arkivformat.                                    |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 13.                                             | Det skal finnes en tjeneste/funksjon og         | O                                               |                                                 |
+  | 2.7.13                                          | Det skal finnes en tjeneste/funksjon og         | O                                               |                                                 |
   |                                                 | rapportering for filformattesting av            |                                                 |                                                 |
   |                                                 | dokumentene som er lagret i kjernen. Rapporten  |                                                 |                                                 |
   |                                                 | skal gi oversikt over hvilke mapper,            |                                                 |                                                 |
@@ -549,13 +549,13 @@ Dersom tidligere versjoner er blitt arkivert unødvendig, skal det være mulig �
   +----------+----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Krav til sletting av dokumentversjoner                                                                                                             | Type | Merknad |
   +==========+====================================================================================================================================================+======+=========+
-  | 14.      | Autoriserte brukere skal kunne slette en arkivert inaktiv dokumentversjon. Den siste, endelige versjonen skal ikke kunne slettes.                  | O    |         |
+  | 2.7.14    | Autoriserte brukere skal kunne slette en arkivert inaktiv dokumentversjon. Den siste, endelige versjonen skal ikke kunne slettes.                  | O    |         |
   +----------+----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 15.      | Det skal være mulig å søke fram dokumenter som er arkivert i flere versjoner.                                                                      | O    |         |
+  | 2.7.15   | Det skal være mulig å søke fram dokumenter som er arkivert i flere versjoner.                                                                      | O    |         |
   +----------+----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 16.      | Det bør være mulig å utføre sletting av mange inaktive dokumentversjoner samtidig, f.eks. alle inaktive dokumentversjoner som funnet etter et søk. | V    |         |
+  | 2.7.16   | Det bør være mulig å utføre sletting av mange inaktive dokumentversjoner samtidig, f.eks. alle inaktive dokumentversjoner som funnet etter et søk. | V    |         |
   +----------+----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 17.      | Sletting av arkiverte inaktive dokumentversjoner skal logges.                                                                                      | O    |         |
+  | 2.7.17   | Sletting av arkiverte inaktive dokumentversjoner skal logges.                                                                                      | O    |         |
   +----------+----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 
 Dersom det opprinnelige dokumentet har innhold som skal skjermes, kan det lages en variant hvor opplysninger som skal skjermes, er fjernet. På den måten kan dokumentet likevel offentliggjøres. Slike varianter kan slettes dersom det ikke lenger er behov for dem. Det kan tenkes at det er aktuelt å avlevere dokumentvarianter, så sletting må vurderes i hvert enkelt tilfelle. Varianter som ikke er slettet når arkivuttrekket produseres, skal avleveres.

@@ -81,7 +81,7 @@ Bestemmelsene om journaler finnes i arkivforskriften §§ 9 og 10.
   |          | - *journalenhet* til saksbehandler                                                                                       |      |                           |
   |          | - *administrativEnhet* til saksbehandler                                                                                 |      |                           |
   +----------+--------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
-  | 5.2.2     | *Rapportens innhold:*                                                                                                    | B    | Obligatorisk for sakarkiv |
+  | 5.2.2    | *Rapportens innhold:*                                                                                                    | B    | Obligatorisk for sakarkiv |
   |          |                                                                                                                          |      |                           |
   |          | Følgende metadataelementer skal være med i rapporten, så fremt de finnes i løsningen:                                    |      |                           |
   |          | **Saksmappeinformasjon**                                                                                                 |      |                           |

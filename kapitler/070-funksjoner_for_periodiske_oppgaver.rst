@@ -85,7 +85,7 @@ Arv skal kunne skje videre ned til registrerings- og dokumentbeskrivelsesnivå. 
   |                                                 | bevaring og kassasjon ikke arves til            |                                                 |                                                 |
   |                                                 | underliggende mapper.                           |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 6.1.10                                           | Det skal være mulig å angi at arv av metadata   | B                                               | Obligatorisk for funksjon for arv av            |
+  | 6.1.10                                          | Det skal være mulig å angi at arv av metadata   | B                                               | Obligatorisk for funksjon for arv av            |
   |                                                 | om bevaring og kassasjon også skal gå ned til   |                                                 | kassasjonskode                                  |
   |                                                 | registrering og dokumentbeskrivelse.            |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
@@ -135,7 +135,7 @@ En slik funksjonalitet er bare nødvendig å ha i de tilfeller en arkivdeler inn
   |                                                 | bestemt tidspunkt. En slik oversikt skal kunne  |                                                 |                                                 |
   |                                                 | begrenses til et mindre utvalg dokumenter.      |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  |  6.1.15                                         | Det skal være mulig å få presentert en oversikt | O                                               |                                                 |
+  | 6.1.15                                          | Det skal være mulig å få presentert en oversikt | O                                               |                                                 |
   |                                                 | over dokumenter som skal vurderes på nytt for   |                                                 |                                                 |
   |                                                 | bevaring eller kassasjon etter et bestemt       |                                                 |                                                 |
   |                                                 | tidspunkt. En slik oversikt skal kunne          |                                                 |                                                 |
@@ -294,9 +294,9 @@ Dokumenter som skal periodiseres etter forskjellige prinsipper - f.eks. funksjon
   +----------+-------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Strukturelle krav til periodisering                                                                         | Type | Merknad |
   +==========+=============================================================================================================+======+=========+
-  | 6.2.1   | En arkivdel skal kunne inneholde en tekstlig beskrivelse av hvilke prinsipper den skal periodiseres etter.  | O    |         |
+  | 6.2.1    | En arkivdel skal kunne inneholde en tekstlig beskrivelse av hvilke prinsipper den skal periodiseres etter.  | O    |         |
   +----------+-------------------------------------------------------------------------------------------------------------+------+---------+
-  | 6.2.2   | En arkivdel skal inneholde referanser til eventuelle forløpere og arvtakere. (forgjengere og etterkommere?) | O    |         |
+  | 6.2.2    | En arkivdel skal inneholde referanser til eventuelle forløpere og arvtakere. (forgjengere og etterkommere?) | O    |         |
   +----------+-------------------------------------------------------------------------------------------------------------+------+---------+
 
 En arkivdel som inneholder en *aktiv periode*, er åpen for all registrering. Nye mapper skal kunne knyttes til arkivdelen etter hvert som de opprettes.
@@ -384,7 +384,7 @@ Dersom en eller flere arkivdeler flyttes fra en løsning til en annen vil det v�
   |                                                 | tilhørende dokumenter basert på                 |                                                 |                                                 |
   |                                                 | avleveringsformatet.                            |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 6.3.2                                            | Det bør være mulig å importere alle metadata    | V                                               |                                                 |
+  | 6.3.2                                           | Det bør være mulig å importere alle metadata    | V                                               |                                                 |
   |                                                 | som er definert i denne standarden med          |                                                 |                                                 |
   |                                                 | tilhørende dokumenter basert på                 |                                                 |                                                 |
   |                                                 | avleveringsformatet.                            |                                                 |                                                 |
@@ -1132,7 +1132,7 @@ Overføringslisten skal utformes som en avleveringsliste til arkivdepot.Organet 
   |                  | - kassasjonsvedtak                              |               |                                                 |
   |                  |                                                 |               |                                                 |
   +------------------+-------------------------------------------------+---------------+-------------------------------------------------+
-  | 6.5.2             | *Rapportens innhold:*                           | B             | Obligatorisk for løsninger som skal foreta      |
+  | 6.5.2            | *Rapportens innhold:*                           | B             | Obligatorisk for løsninger som skal foreta      |
   |                  |                                                 |               | bortsetting, avlevering og overføring           |
   |                  | Rapporten skal inneholde følgende opplysninger, |               |                                                 |
   |                  | så fremt de finnes i                            |               |                                                 |

@@ -54,7 +54,7 @@ Sikkerhetskonfigurasjonen er unik for hver arkivdel. Hvert av valgene er en angi
   |                                                 | for de eksterne moduler som skal gis tilgang    |                                                 |                                                 |
   |                                                 | til å bruke tjenester i kjernen                 |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
-  | 4.1.10                                           | For en arkivdel bør det kunne angis om bare den | V                                               |                                                 |
+  | 4.1.10                                          | For en arkivdel bør det kunne angis om bare den | V                                               |                                                 |
   |                                                 | enkelte eksterne modul skal identifiseres,      |                                                 |                                                 |
   |                                                 | eller om det også kreves at hver enkelt         |                                                 |                                                 |
   |                                                 | personlige bruker identifiseres i kjernen       |                                                 |                                                 |
@@ -282,9 +282,9 @@ Selv om «need to know» og «need to protect» er forskjellige prinsipielle utg
   +----------+-----------------------------------------------------------------------------------------------------------+------+---------------------------------------------------------+
   | Krav nr. | Krav til grunnprinsipp for autorisering                                                                   | Type | Merknad                                                 |
   +==========+===========================================================================================================+======+=========================================================+
-  | 4.5.1   | All redigerings- og skrivetilgang i Noark 5-løsningen skal være basert på et «need to know» grunnprinsipp | O    | Obligatorisk der det gis slik tilgang fra ekstern modul |
+  | 4.5.1    | All redigerings- og skrivetilgang i Noark 5-løsningen skal være basert på et «need to know» grunnprinsipp | O    | Obligatorisk der det gis slik tilgang fra ekstern modul |
   +----------+-----------------------------------------------------------------------------------------------------------+------+---------------------------------------------------------+
-  | 4.5.2   | Et «need to protect» grunnprinsipp kan velges for lesetilganger i en eller flere eksterne løsninger       | V    |                                                         |
+  | 4.5.2    | Et «need to protect» grunnprinsipp kan velges for lesetilganger i en eller flere eksterne løsninger       | V    |                                                         |
   +----------+-----------------------------------------------------------------------------------------------------------+------+---------------------------------------------------------+
 
 Autorisasjoner er satt sammen av to hovedkomponenter: Den første komponenten er *funksjonelle rettigheter*, tilgang til å utføre bestemte handlinger – opprette, endre, lese, søke osv. De funksjonelle rettighetene kan oftest knyttes til bestemte menyvalg, skjermbilder og kommandoer og lignende i et brukergrensesnitt. Tillatelse til å utføre et funksjonskall fra et eksternt fagsystem er også en funksjonell rettighet. Den andre komponenten er objekttilgang, eller rettighetens *nedslagsfelt*. Objekttilganger er avgrensninger av hvilke gjenstander og personer i verden, representert som dataobjekter, de funksjonelle rettighetene skal gjelde for.

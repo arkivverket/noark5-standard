@@ -21,35 +21,35 @@ Søkeresultat skal ta hensyn til tilgangen til dokumentene i kjernen og til skje
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Funksjonelle krav til gjenfinning                                                                                                          | Type | Merknad |
   +==========+============================================================================================================================================+======+=========+
-  | 1.       | Det skal finnes tjenester/funksjoner for å gjenfinne/søke fram metadata.                                                                   | O    |         |
+  | 5.1.1    | Det skal finnes tjenester/funksjoner for å gjenfinne/søke fram metadata.                                                                   | O    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 2.       | Ved søking skal det være mulig å lage logiske sammenstillinger av metadata.                                                                | O    |         |
+  | 5.1.2    | Ved søking skal det være mulig å lage logiske sammenstillinger av metadata.                                                                | O    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 3.       | Ved søk i metadata skal det være mulig å benytte venstre- og høyretrunkering samt markering av ett eller flere tegn i søkekriteriene.      | O    |         |
+  | 5.1.3    | Ved søk i metadata skal det være mulig å benytte venstre- og høyretrunkering samt markering av ett eller flere tegn i søkekriteriene.      | O    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 4.       | I metadataelementer som representerer datoer, skal det være mulig å søke på datointervaller.                                               | O    |         |
+  | 5.1.4    | I metadataelementer som representerer datoer, skal det være mulig å søke på datointervaller.                                               | O    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 5.       | I metadataelementer som representerer datoer, skal det være mulig å søke på perioder som ligger før eller etter en gitt dato.              | O    |         |
+  | 5.1.5    | I metadataelementer som representerer datoer, skal det være mulig å søke på perioder som ligger før eller etter en gitt dato.              | O    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 6.       | Det skal være mulig å utføre fritekstsøk i metadata.                                                                                       | O    |         |
+  | 5.1.6    | Det skal være mulig å utføre fritekstsøk i metadata.                                                                                       | O    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 7.       | Ved fritekstsøk i metadata, skal det være mulig å søke kombinert på flere søkeord ved hjelp av boolske operatorer.                         | O    |         |
+  | 5.1.7    | Ved fritekstsøk i metadata, skal det være mulig å søke kombinert på flere søkeord ved hjelp av boolske operatorer.                         | O    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 8.       | Det skal finnes tjenester/funksjoner for å gjenfinne/søke fram dokumenter.                                                                 | O    |         |
+  | 5.1.8    | Det skal finnes tjenester/funksjoner for å gjenfinne/søke fram dokumenter.                                                                 | O    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 9.       | Det skal være mulig å gjenfinne dokumenter ut fra dokumentmetadata.                                                                        | O    |         |
+  | 5.1.9    | Det skal være mulig å gjenfinne dokumenter ut fra dokumentmetadata.                                                                        | O    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 10.      | Det skal være mulig å utføre fritekstsøk i et dokument hvis formatet legger til rette for det.                                             | O    |         |
+  | 5.1.10   | Det skal være mulig å utføre fritekstsøk i et dokument hvis formatet legger til rette for det.                                             | O    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 11.      | Søkeresultat skal avspeile aktuell tilgang.                                                                                                | O    |         |
+  | 5.1.11   | Søkeresultat skal avspeile aktuell tilgang.                                                                                                | O    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 12.      | Søkeresultat skal være nødvendig skjermet.                                                                                                 | O    |         |
+  | 5.1.12   | Søkeresultat skal være nødvendig skjermet.                                                                                                 | O    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 13.      | Det skal være mulighet for at store og små bokstaver kan behandles som ekvivalente ved søk.                                                | O    |         |
+  | 5.1.13   | Det skal være mulighet for at store og små bokstaver kan behandles som ekvivalente ved søk.                                                | O    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 14.      | Det bør finnes en tjeneste/funksjon for å avbryte søk som er satt i gang.                                                                  | V    |         |
+  | 5.1.14   | Det bør finnes en tjeneste/funksjon for å avbryte søk som er satt i gang.                                                                  | V    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 15.      | Søkefunksjonene bør være innrettet slik at en ved søk på et ord i bokmålsform også får treff for de tilsvarende nynorskformene og omvendt. | V    |         |
+  | 5.1.15   | Søkefunksjonene bør være innrettet slik at en ved søk på et ord i bokmålsform også får treff for de tilsvarende nynorskformene og omvendt. | V    |         |
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 
 Journalrapporter og innsyn
@@ -71,7 +71,7 @@ Bestemmelsene om journaler finnes i arkivforskriften §§ 9 og 10.
   +----------+--------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
   | Krav nr. | Krav til rapporten *Løpende journal*                                                                                     | Type | Merknad                   |
   +==========+==========================================================================================================================+======+===========================+
-  | 1.       | *Selektering:*                                                                                                           | B    | Obligatorisk for sakarkiv |
+  | 5.2.1    | *Selektering:*                                                                                                           | B    | Obligatorisk for sakarkiv |
   |          |                                                                                                                          |      |                           |
   |          | Rapporten skal valgfritt kunne selekteres på følgende metadataelementer (fra *journalpost* dersom ikke annet er angitt): |      |                           |
   |          |                                                                                                                          |      |                           |
@@ -81,7 +81,7 @@ Bestemmelsene om journaler finnes i arkivforskriften §§ 9 og 10.
   |          | - *journalenhet* til saksbehandler                                                                                       |      |                           |
   |          | - *administrativEnhet* til saksbehandler                                                                                 |      |                           |
   +----------+--------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
-  | 2.       | *Rapportens innhold:*                                                                                                    | B    | Obligatorisk for sakarkiv |
+  | 5.2.2     | *Rapportens innhold:*                                                                                                    | B    | Obligatorisk for sakarkiv |
   |          |                                                                                                                          |      |                           |
   |          | Følgende metadataelementer skal være med i rapporten, så fremt de finnes i løsningen:                                    |      |                           |
   |          | **Saksmappeinformasjon**                                                                                                 |      |                           |
@@ -151,17 +151,17 @@ Kravene under er obligatoriske for sakarkivløsninger eller andre løsninger und
   +-----------+-------------------------------------------------+------+-------------------------------------------------+
   | Krav nr.  | Krav til rapporten *Offentlig journal*          | Type | Merknad                                         |
   +===========+=================================================+======+=================================================+
-  | 5.        | Rapporten skal inneholde alle journalposttyper. | B    | Obligatorisk for arkiv underlagt Offentleglova  |
+  | 5.2.5     | Rapporten skal inneholde alle journalposttyper. | B    | Obligatorisk for arkiv underlagt Offentleglova  |
   |           | Registrering skal ikke være med.                |      |                                                 |
   +-----------+-------------------------------------------------+------+-------------------------------------------------+
-  | 6.        | Metadataelementet *skjermingMetadata*           | B    | Obligatorisk for arkiv underlagt Offentleglova  |
+  | 5.2.6     | Metadataelementet *skjermingMetadata*           | B    | Obligatorisk for arkiv underlagt Offentleglova  |
   |           | inneholder informasjon om hvilke elementer som  |      |                                                 |
   |           | skal skjermes. Metadatafeltet *offentligTittel* |      |                                                 |
   |           | er en kopi av tittel, men alle ord som skal     |      |                                                 |
   |           | skjermes er her fjernet (for eksempel erstattet |      |                                                 |
   |           | av \*****)                                      |      |                                                 |
   +-----------+-------------------------------------------------+------+-------------------------------------------------+
-  | 7.        | *Selektering:*                                  | B    | Obligatorisk for arkiv underlagt Offentleglova  |
+  | 5.2.7     | *Selektering:*                                  | B    | Obligatorisk for arkiv underlagt Offentleglova  |
   |           |                                                 |      |                                                 |
   |           | Rapporten skal kunne selekteres på følgende     |      |                                                 |
   |           | metadataelementer (fra *Journalpost* hvis ikke  |      |                                                 |
@@ -171,7 +171,7 @@ Kravene under er obligatoriske for sakarkivløsninger eller andre løsninger und
   |           | - *journalenhet*                                |      |                                                 |
   |           | - *administrativEnhet* til saksbehandler        |      |                                                 |
   +-----------+-------------------------------------------------+------+-------------------------------------------------+
-  | 8.        | For virksomheter som har tatt i bruk            | B    | Obligatorisk for arkiv underlagt Offentleglova  |
+  | 5.2.8     | For virksomheter som har tatt i bruk            | B    | Obligatorisk for arkiv underlagt Offentleglova  |
   |           | funksjonalitet for midlertidig sperring, skal   |      |                                                 |
   |           | rapporten som et alternativ til selektering     |      |                                                 |
   |           | etter journaldato, kunne selekteres etter       |      |                                                 |
@@ -181,7 +181,7 @@ Kravene under er obligatoriske for sakarkivløsninger eller andre løsninger und
   |           |                                                 |      |                                                 |
   |           | Intervall skal kunne angis.                     |      |                                                 |
   +-----------+-------------------------------------------------+------+-------------------------------------------------+
-  | 9.        | *Rapportens innhold:*                           | B    | Obligatorisk for arkiv underlagt Offentleglova  |
+  | 5.2.9     | *Rapportens innhold:*                           | B    | Obligatorisk for arkiv underlagt Offentleglova  |
   |           |                                                 |      |                                                 |
   |           | Følgende metadataelementer skal være med i      |      |                                                 |
   |           | rapporten, så fremt de finnes i løsningen:      |      |                                                 |
@@ -228,7 +228,7 @@ Kravene under er obligatoriske for sakarkivløsninger eller andre løsninger und
   |           |                                                 |      |                                                 |
   |           | *referanseAvskriverJournalpost*                 |      |                                                 |
   +-----------+-------------------------------------------------+------+-------------------------------------------------+
-  | 10.       | Rapporten bør i tillegg valgfritt kunne         | V    |                                                 |
+  | 5.2.10    | Rapporten bør i tillegg valgfritt kunne         | V    |                                                 |
   |           | inneholde en eller flere av opplysningene       |      |                                                 |
   |           | nedenfor (så fremt de finnes i løsningen):      |      |                                                 |
   |           |                                                 |      |                                                 |
@@ -269,30 +269,30 @@ Noen ganger vil det likevel være helt klart på forhånd at det ikke blir aktue
   +-----------------------+---------------------------------------------------------------+------+-------------------------------------------------+
   | Krav nr.              | Krav til tilgangskoder for unntak fra offentlig journal       | Type | Merknad                                         |
   +=======================+===============================================================+======+=================================================+
-  | 14.                   | Det skal kunne registreres tilgangskode på mapper,            | B    | Obligatorisk for løsninger hvor informasjon     |
+  | 5.2.14                | Det skal kunne registreres tilgangskode på mapper,            | B    | Obligatorisk for løsninger hvor informasjon     |
   |                       | registreringer og dokumentbeskrivelser.  Den angir at         |      | skal unntas fra offentlighet                    |
   |                       | registrerte opplysninger eller arkiverte dokumenter skal      |      |                                                 |
   |                       | skjermes mot offentlighetens innsyn                           |      |                                                 |
   +-----------------------+---------------------------------------------------------------+------+-------------------------------------------------+
-  | 15.                   | Alle tilgangskoder som skal brukes må være forhåndsdefinert i | B    | Obligatorisk for løsninger hvor informasjon     |
+  | 5.2.15                | Alle tilgangskoder som skal brukes må være forhåndsdefinert i | B    | Obligatorisk for løsninger hvor informasjon     |
   |                       | kjernen. Tilgangskodene er globale, det vil si at de samme    |      | skal unntas fra offentlighet                    |
   |                       | kodene brukes for hele arkivet uavhengig av hvilke eksterne   |      |                                                 |
   |                       | moduler som gjør bruk av arkivet                              |      |                                                 |
   +-----------------------+---------------------------------------------------------------+------+-------------------------------------------------+
-  | 16.                   | Kjernen skal inneholde full historikk over alle tilgangskoder | B    | Obligatorisk for løsninger hvor informasjon     |
+  | 5.2.16                | Kjernen skal inneholde full historikk over alle tilgangskoder | B    | Obligatorisk for løsninger hvor informasjon     |
   |                       | som er eller har vært gyldige i arkivet                       |      | skal unntas fra offentlighet                    |
   +-----------------------+---------------------------------------------------------------+------+-------------------------------------------------+
-  | 17.                   | For hver tilgangskode skal det kunne registreres en indikasjon| B    | Obligatorisk for løsninger hvor informasjon     |
+  | 5.2.17                | For hver tilgangskode skal det kunne registreres en indikasjon| B    | Obligatorisk for løsninger hvor informasjon     |
   |                       | på hvorvidt et dokument som er merket med denne tilgangskoden |      | skal unntas fra offentlighet                    |
   |                       | kan unntas fra offentlighet i sin helhet, eller om det bare er|      |                                                 |
   |                       | anledning til å unnta bestemte opplysninger fra dokumentet i  |      |                                                 |
   |                       | tråd med det som er angitt i offentleglovas                   |      |                                                 |
   |                       | hjemmelsbestemmelse                                           |      |                                                 |
   +-----------------------+---------------------------------------------------------------+------+-------------------------------------------------+
-  | 18.                   | Det bør finnes en dedikert tilgangskode for «midlertidig      | V    |                                                 |
+  | 5.2.18                | Det bør finnes en dedikert tilgangskode for «midlertidig      | V    |                                                 |
   |                       | unntatt», som kan brukes inntil skjermingsbehov er vurdert    |      |                                                 |
   +-----------------------+---------------------------------------------------------------+------+-------------------------------------------------+
-  | 19.                   | I tilknytning til en tilgangskode, skal følgende opplysninger | B    | Obligatorisk for løsninger hvor informasjon     |
+  | 5.2.19                | I tilknytning til en tilgangskode, skal følgende opplysninger | B    | Obligatorisk for løsninger hvor informasjon     |
   |                       | knyttet til *mappe* i kjernen kunne markeres som «skjermet»   |      | skal unntas fra offentlighet                    |
   |                       | slik at eksterne moduler som leser fra arkivet får følgende   |      |                                                 |
   |                       | begrensninger når tilgangskoden benyttes:                     |      |                                                 |
@@ -307,7 +307,7 @@ Noen ganger vil det likevel være helt klart på forhånd at det ikke blir aktue
   |                       |                                                               |      |                                                 |
   |                       | - Opplysninger som identifiserer parter i saken               |      |                                                 |
   +-----------------------+---------------------------------------------------------------+------+-------------------------------------------------+
-  | 20.                   | I tilknytning til en tilgangskode, skal følgende opplysninger | O    |                                                 |
+  | 5.2.20                | I tilknytning til en tilgangskode, skal følgende opplysninger | O    |                                                 |
   |                       | knyttet til *registreringer* i kjernen kunne markeres som     |      |                                                 |
   |                       | «skjermet» slik at eksterne moduler som leser fra arkivet får |      |                                                 |
   |                       | følgende begrensninger når tilgangskoden benyttes:            |      |                                                 |
@@ -319,17 +319,17 @@ Noen ganger vil det likevel være helt klart på forhånd at det ikke blir aktue
   |                       |                                                               |      |                                                 |
   |                       | - Opplysninger som identifiserer avsender og/eller mottaker   |      |                                                 |
   +-----------------------+---------------------------------------------------------------+------+-------------------------------------------------+
-  | 21.                   | *Dokumentbeskrivelser* knyttet til en registrering* skal kunne| O    |                                                 |
+  | 5.2.21                | *Dokumentbeskrivelser* knyttet til en registrering* skal kunne| O    |                                                 |
   |                       | *skjermes. Det skal fremgå at *registreringen* inneholder     |      |                                                 |
   |                       | *dokumentbeskrivelser* som er skjermet i journalen            |      |                                                 |
   +-----------------------+---------------------------------------------------------------+------+-------------------------------------------------+
-  | 22.                   | Følgende opplysninger om elektroniske dokumenter skal kunne   | O    |                                                 |
+  | 5.2.22                | Følgende opplysninger om elektroniske dokumenter skal kunne   | O    |                                                 |
   |                       | skjermes ved hjelp av tilgangskode:                           |      |                                                 |
   |                       |                                                               |      |                                                 |
   |                       | - alle opplysninger om et dokument, innbefattet ulike formater|      |                                                 |
   |                       |   og versjoner av dokumentet                                  |      |                                                 |
   +-----------------------+---------------------------------------------------------------+------+-------------------------------------------------+
-  | 23.                   | Dersom tilgangskoden er merket med indikasjon på at det bare  | V    |                                                 |
+  | 5.2.23                | Dersom tilgangskoden er merket med indikasjon på at det bare  | V    |                                                 |
   |                       | er anledning til å unnta visse opplysninger i dokumentet fra  |      |                                                 |
   |                       | innsyn, kan det opprettes en «offentlig variant» av dokumentet|      |                                                 |
   |                       | der disse opplysningene ikke finnes, som derfor kan unntas fra|      |                                                 |
@@ -342,26 +342,26 @@ Noen ganger vil det likevel være helt klart på forhånd at det ikke blir aktue
   | Krav nr.| Krav til skjermingsfunksjoner og – metoder for  | Type | Merknad                                         |
   |         | unntak fra offentlig journal                    |      |                                                 |
   +=========+=================================================+======+=================================================+
-  | 24.     | Det bør synliggjøres i journalen om en          | V    |                                                 |
+  | 5.2.24  | Det bør synliggjøres i journalen om en          | V    |                                                 |
   |         | registrering med en tilgangskode inneholder ett |      |                                                 |
   |         | eller flere dokumenter som ikke er merket med   |      |                                                 |
   |         | tilgangskode                                    |      |                                                 |
   +---------+-------------------------------------------------+------+-------------------------------------------------+
-  | 25.     | Dersom tilgangskoden er merket med indikasjon   | V    |                                                 |
+  | 5.2.25  | Dersom tilgangskoden er merket med indikasjon   | V    |                                                 |
   |         | på at det bare er anledning til å unnta visse   |      |                                                 |
   |         | opplysninger i dokumentet fra innsyn, kan det   |      |                                                 |
   |         | opprettes en «offentlig variant» av dokumentet  |      |                                                 |
   |         | der disse opplysningene ikke finnes, som derfor |      |                                                 |
   |         | kan unntas fra skjerming                        |      |                                                 |
   +---------+-------------------------------------------------+------+-------------------------------------------------+
-  | 26.     | Løsningen bør vise hvilke opplysningstyper som  | V    |                                                 |
+  | 5.2.26  | Løsningen bør vise hvilke opplysningstyper som  | V    |                                                 |
   |         | er angitt at skal skjermes. Det at en gitt      |      |                                                 |
   |         | opplysning er avkrysset for skjerming bør vises |      |                                                 |
   |         | både for de som har tilgang til å se de         |      |                                                 |
   |         | skjermede opplysningene og for de som ikke har  |      |                                                 |
   |         | tilgang til å se dem                            |      |                                                 |
   +---------+-------------------------------------------------+------+-------------------------------------------------+
-  | 27.     | Dokumentbeskrivelsen bør arve registreringens   | V    |                                                 |
+  | 5.2.27  | Dokumentbeskrivelsen bør arve registreringens   | V    |                                                 |
   |         | tilgangskode som standardverdi, dersom ikke     |      |                                                 |
   |         | dokumentbeskrivelsen har tilgangskode fra før,  |      |                                                 |
   |         | og dersom den ikke fra før er tilknyttet en     |      |                                                 |
@@ -393,22 +393,22 @@ Det er også åpning for å tilgjengeliggjøre selve dokumentene på Internett, 
   | Krav nr.                    | Krav til tilgjengeliggjøring av offentlig       | Type | Merknad                                         |
   |                             | journal på Internett                            |      |                                                 |
   +=============================+=================================================+======+=================================================+
-  | 28.                         | Det bør være mulig å eksportere uttrekk for     | V    |                                                 |
+  | 5.2.28                      | Det bør være mulig å eksportere uttrekk for     | V    |                                                 |
   |                             | tilgjengeliggjøring av offentlig journal.       |      |                                                 |
   +-----------------------------+-------------------------------------------------+------+-------------------------------------------------+
-  | 29.                         | Innholdet i offentlig journal tilgjengeliggjort | B    | Obligatorisk hvis løsningen muliggjør           |
+  | 5.2.29                      | Innholdet i offentlig journal tilgjengeliggjort | B    | Obligatorisk hvis løsningen muliggjør           |
   |                             | på Internett skal samsvare med arkivforskriften |      | tilgjengeliggjøring på Internett                |
   |                             | § 10 første ledd annet punktum. I tillegg skal  |      |                                                 |
   |                             | det være med et kontakt­punkt som publikum kan  |      |                                                 |
   |                             | henvende seg til hos organet. Se for øvrig      |      |                                                 |
   |                             | offentlegforskrifta § 6                         |      |                                                 |
   +-----------------------------+-------------------------------------------------+------+-------------------------------------------------+
-  | 30.                         | Offentlig journal på Internett skal ikke        | B    | Obligatorisk hvis løsningen muliggjør           |
+  | 5.2.30                      | Offentlig journal på Internett skal ikke        | B    | Obligatorisk hvis løsningen muliggjør           |
   |                             | inneholde informasjon som er unntatt fra        |      | tilgjengeliggjøring på Internett                |
   |                             | offentlighet. Denne informasjonen skal allerede |      |                                                 |
   |                             | være skjermet i løsningen.                      |      |                                                 |
   +-----------------------------+-------------------------------------------------+------+-------------------------------------------------+
-  | 31.                         | Følgende informasjon skal aldri gjøres          | B    | Obligatorisk hvis løsningen muliggjør           |
+  | 5.2.31                      | Følgende informasjon skal aldri gjøres          | B    | Obligatorisk hvis løsningen muliggjør           |
   |                             | tilgjengelig på Internett, selv om              |      | tilgjengeliggjøring på Internett                |
   |                             | informasjonen ikke er unntatt offentlighet:     |      |                                                 |
   |                             |                                                 |      |                                                 |
@@ -429,35 +429,35 @@ Det er også åpning for å tilgjengeliggjøre selve dokumentene på Internett, 
   |                             |    lignende vanlig materiale sendt i            |      |                                                 |
   |                             |    forbindelse med en sak).                     |      |                                                 |
   +-----------------------------+-------------------------------------------------+------+-------------------------------------------------+
-  | 32.                         | Personnavn som tilgjengeliggjøres direkte på en | V    |                                                 |
+  | 5.2.32                      | Personnavn som tilgjengeliggjøres direkte på en | V    |                                                 |
   |                             | webside bør merkes for utelukking fra           |      |                                                 |
   |                             | indeksering av indekseringstjenester.           |      |                                                 |
   +-----------------------------+-------------------------------------------------+------+-------------------------------------------------+
-  | 33.                         | Personnavn som tilgjengeliggjøres bør ikke være | V    |                                                 |
+  | 5.2.33                      | Personnavn som tilgjengeliggjøres bør ikke være | V    |                                                 |
   |                             | søkbare etter ett år.                           |      |                                                 |
   +-----------------------------+-------------------------------------------------+------+-------------------------------------------------+
-  | 34.                         | Personnavn bør merkes med XML-taggene           | V    |                                                 |
+  | 5.2.34                      | Personnavn bør merkes med XML-taggene           | V    |                                                 |
   |                             | <personnavn> </personnavn> før de eksporteres.  |      |                                                 |
   +-----------------------------+-------------------------------------------------+------+-------------------------------------------------+
-  | 35.                         | Det bør være mulig å tilgjengeliggjøre          | V    |                                                 |
+  | 5.2.35                      | Det bør være mulig å tilgjengeliggjøre          | V    |                                                 |
   |                             | arkivdokumenter knyttet til de enkelte          |      |                                                 |
   |                             | journalpostene i offentlig journal på           |      |                                                 |
   |                             | Internett.                                      |      |                                                 |
   +-----------------------------+-------------------------------------------------+------+-------------------------------------------------+
-  | 36.                         | Arkivdokumenter som inneholder informasjon      | B    | Obligatorisk dersom løsningen muliggjør         |
+  | 5.2.36                      | Arkivdokumenter som inneholder informasjon      | B    | Obligatorisk dersom løsningen muliggjør         |
   |                             | nevnt i offentlegforskrifta § 7, skal ikke      |      | tilgjengeliggjøring av arkiv­dokumenter på      |
   |                             | tilgjengeliggjøres på Internett. (Dette betyr   |      | Internett                                       |
   |                             | normalt at tilgjengeliggjøring av dokumenter    |      |                                                 |
   |                             | ikke kan automatiseres, en må ta stilling til   |      |                                                 |
   |                             | tilgjengeliggjøring i hvert enkelt tilfelle.)   |      |                                                 |
   +-----------------------------+-------------------------------------------------+------+-------------------------------------------------+
-  | 37.                         | Dersom arkivdokumenter tilgjengeliggjøres på    | B    | Obligatorisk dersom løsningen muliggjør         |
+  | 5.2.37                      | Dersom arkivdokumenter tilgjengeliggjøres på    | B    | Obligatorisk dersom løsningen muliggjør         |
   |                             | Internett, skal det i Internettløsningen        |      | tilgjengeliggjøring av arkiv­dokumenter på      |
   |                             | opplyses om hvilket kriterium som ligger til    |      | Internett                                       |
   |                             | grunn for utvalget av dokumenter, jf.           |      |                                                 |
   |                             | Offentlegforskrifta § 7 siste ledd.             |      |                                                 |
   +-----------------------------+-------------------------------------------------+------+-------------------------------------------------+
-  | 38.                         | Tilgjengeliggjøring av offentlig journal og     | V    |                                                 |
+  | 5.2.38                      | Tilgjengeliggjøring av offentlig journal og     | V    |                                                 |
   |                             | eventuelle arkivdokumenter på Internett bør     |      |                                                 |
   |                             | etableres med hindre mot automatisert           |      |                                                 |
   |                             | indeksering fra eksterne aktører, f.eks.        |      |                                                 |
@@ -474,12 +474,12 @@ Forvaltningsloven og personopplysningsloven gir (med visse begrensninger) særsk
   +-----------+-----------------------------------------------------------+------+---------+
   | Krav nr.  | Krav til sikring av partsinnsyn                           | Type | Merknad |
   +===========+===========================================================+======+=========+
-  | 39.       | For en part som krever innsyn etter forvaltningsloven skal| O    |         |
+  | 5.2.39    | For en part som krever innsyn etter forvaltningsloven skal| O    |         |
   |           | det kunne gis utskrift av alle metadata og dokumenter i   |      |         |
   |           | den bestemte saken. Opplysninger skal vises selv om de er |      |         |
   |           | påført tilgangskoder                                      |      |         |
   +-----------+-----------------------------------------------------------+------+---------+
-  | 40.       | For en person som krever innsyn etter                     | O    |         |
+  | 5.2.40    | For en person som krever innsyn etter                     | O    |         |
   |           | personopplysningsloven skal det kunne gis utskrift av alle|      |         |
   |           | metadata om de saker hvor vedkommende er part i saken, og |      |         |
   |           | de registreringer med tilhørende dokumenter og merknader  |      |         |
@@ -487,7 +487,7 @@ Forvaltningsloven og personopplysningsloven gir (med visse begrensninger) særsk
   |           | mottaker. Eventuelle skjermede opplysninger om andre      |      |         |
   |           | parter i saken skal skjermes i utskriften                 |      |         |
   +-----------+-----------------------------------------------------------+------+---------+
-  | 41.       | Dersom en person er autentisert som ekstern bruker, bør   | V    |         |
+  | 5.2.41    | Dersom en person er autentisert som ekstern bruker, bør   | V    |         |
   |           | vedkommende selv kunne hente ut de opplysninger           |      |         |
   |           | vedkommende har rett til innsyn i som part eller som      |      |         |
   |           | registrert person gjennom tilrettelagt fagsystem eller    |      |         |

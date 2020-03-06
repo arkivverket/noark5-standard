@@ -96,7 +96,7 @@ def main():
             json.dump(requirements, f, ensure_ascii=False, indent=4)
     # Tab separate file output
     if True:
-        list = [('Krav nr.', 'Kravtype', 'Krav', 'Type', 'Merknad')]
+        list = [('Krav nr.', 'Kravgruppe', 'Beskrivelse', 'Type', 'Merknad')]
         for r in requirements:
             row = []
             for f, v in r.items():

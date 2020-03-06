@@ -345,9 +345,9 @@ Metadata for møtedeltaker grupperes inn i metadata for møtemappe.
   |          |                                                                                                                                     |      |                           |
   |          | *Dette er i den konseptuelle modellen løst gjennom spesialisering.*                                                                 |      |                           |
   +----------+-------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
-  | 2.5.2     | En *mappe* som inneholder *journalposter* skal være en *saksmappe.*                                                                 | B    | Obligatorisk for sakarkiv |
+  | 2.5.2    | En *mappe* som inneholder *journalposter* skal være en *saksmappe.*                                                                 | B    | Obligatorisk for sakarkiv |
   +----------+-------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
-  | 2.5.3     | En *mappe* som inneholder møteregistreringer bør være en *møtemappe*                                                                | V    |                           |
+  | 2.5.3    | En *mappe* som inneholder møteregistreringer bør være en *møtemappe*                                                                | V    |                           |
   +----------+-------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
   | 2.5.4    | Det bør være mulig å definere relevante tilleggsmetadata for *møtemappe* i tillegg til de metadataene som er definert i standarden. | V    |                           |
   +----------+-------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
@@ -549,7 +549,7 @@ Dersom tidligere versjoner er blitt arkivert unødvendig, skal det være mulig �
   +----------+----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Krav til sletting av dokumentversjoner                                                                                                             | Type | Merknad |
   +==========+====================================================================================================================================================+======+=========+
-  | 2.7.14    | Autoriserte brukere skal kunne slette en arkivert inaktiv dokumentversjon. Den siste, endelige versjonen skal ikke kunne slettes.                  | O    |         |
+  | 2.7.14   | Autoriserte brukere skal kunne slette en arkivert inaktiv dokumentversjon. Den siste, endelige versjonen skal ikke kunne slettes.                  | O    |         |
   +----------+----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
   | 2.7.15   | Det skal være mulig å søke fram dokumenter som er arkivert i flere versjoner.                                                                      | O    |         |
   +----------+----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+

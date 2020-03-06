@@ -2,6 +2,7 @@
 
 import glob
 import json
+import csv
 
 import docutils.nodes
 import docutils.parsers.rst
@@ -82,14 +83,32 @@ def main():
     requirements = []
     for filepath in sorted(glob.glob('kapitler/0*.rst')):
         #print("Processing %s" % filepath)
-        with open(filepath) as fh:
+        with open(filepath, 'r', encoding='utf-8') as fh:
             content = fh.read()
             doc = parse_rst(content)
             visitor = RstVisitor(doc)
             visitor.req = requirements
             doc.walkabout(visitor)
             requirements = visitor.req
-    print(json.dumps(requirements, indent=4))
+    # JSON output
+    if False:
+        with open('krav.json', 'w', encoding='utf-8') as f:
+            json.dump(requirements, f, ensure_ascii=False, indent=4)
+    # Tab separate file output
+    if True:
+        list = [('Krav nr.', 'Kravtype', 'Type', 'Merknad')]
+        for r in requirements:
+            row = []
+            for f, v in r.items():
+                if f in list[0]:
+                    row.append(v)
+                else:
+                    row.append(f)
+            list.append(row)
+
+        with open('krav.tsv', 'w', encoding='utf-8') as f:
+            writer = csv.writer(f, delimiter='\t')
+            writer.writerows(list)
     return 0
 
 if __name__ == '__main__':

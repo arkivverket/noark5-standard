@@ -96,7 +96,7 @@ def main():
             json.dump(requirements, f, ensure_ascii=False, indent=4)
     # Tab separate file output
     if True:
-        list = [('Krav nr.', 'Kravtype', 'Type', 'Merknad')]
+        list = [('Krav nr.', 'Kravtype', 'Krav', 'Type', 'Merknad')]
         for r in requirements:
             row = []
             for f, v in r.items():
@@ -104,6 +104,7 @@ def main():
                     row.append(v)
                 else:
                     row.append(f)
+                    row.append(v)
             list.append(row)
 
         with open('krav.tsv', 'w', encoding='utf-8') as f:

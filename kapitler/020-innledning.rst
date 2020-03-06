@@ -34,19 +34,19 @@ Følgende kriterier må alle være oppfylte for at et dokument skal være journa
 
 -  **Det er et saksdokument for organet, definert i offentleglova § 4.**
 
-Saksdokument er dokument som er kommet inn til eller lagt frem for organet, eller som organet selv har opprettet, og som gjelder organets ansvarsområde eller virksomhet. Dokumentet er å regne som opprettet når det er sendt ut av organet eller, dersom dette ikke skjer, når det er ferdigstilt.
+   Saksdokument er dokument som er kommet inn til eller lagt frem for organet, eller som organet selv har opprettet, og som gjelder organets ansvarsområde eller virksomhet. Dokumentet er å regne som opprettet når det er sendt ut av organet eller, dersom dette ikke skjer, når det er ferdigstilt.
 
 -  **Dokumentet inngår i en korrespondanse, dvs. at det har kommer inn til eller blitt sendt ut fra organet.**
 
-Dette gjelder i utgangspunktet enhver utveksling av informasjon mellom organet og eksterne, også informasjon som kun er tilgjengeliggjort for organet gjennom for eksempel en portalløsning. Organinterne dokument, dvs. informasjon som ikke er utvekslet med eksterne, velger organet selv om det vil journalføre, med unntak av visse typer organinterne dokument som allikevel er journalføringspliktige, som for eksempel dokument som inneholder den endelige avgjørelsen i en sak, generelle retningslinjer for organets saksbehandling, presedenskort, mv. Organinterne dokument kan allikevel være arkivpliktige, se under.
+   Dette gjelder i utgangspunktet enhver utveksling av informasjon mellom organet og eksterne, også informasjon som kun er tilgjengeliggjort for organet gjennom for eksempel en portalløsning. Organinterne dokument, dvs. informasjon som ikke er utvekslet med eksterne, velger organet selv om det vil journalføre, med unntak av visse typer organinterne dokument som allikevel er journalføringspliktige, som for eksempel dokument som inneholder den endelige avgjørelsen i en sak, generelle retningslinjer for organets saksbehandling, presedenskort, mv. Organinterne dokument kan allikevel være arkivpliktige, se under.
 
 -  **Dokumentet er eller blir saksbehandlet**
 
-Det finnes ikke forarbeider som nærmere drøfter hvordan saksbehandlingskriteriet i arkivforskriften skal forstås, men Riksarkivaren har generelt lagt til grunn at det skal lite til av overlegning før dette får karakter av saksbehandling. [1]_
+   Det finnes ikke forarbeider som nærmere drøfter hvordan saksbehandlingskriteriet i arkivforskriften skal forstås, men Riksarkivaren har generelt lagt til grunn at det skal lite til av overlegning før dette får karakter av saksbehandling. [1]_
 
 -  **Dokumentet må ha verdi som dokumentasjon for organet.**
 
-Et dokuments verdi som dokumentasjon handler om at dokumentet i ettertid skal kunne brukes til å framskaffe informasjon om og bevis for hva som er skjedd. Forskriften sier ingenting om varigheten av dokumentasjonsverdien – det er tilstrekkelig at det foreligger dokumentasjonsverdi i utgangspunktet.
+   Et dokuments verdi som dokumentasjon handler om at dokumentet i ettertid skal kunne brukes til å framskaffe informasjon om og bevis for hva som er skjedd. Forskriften sier ingenting om varigheten av dokumentasjonsverdien – det er tilstrekkelig at det foreligger dokumentasjonsverdi i utgangspunktet.
 
 Journalføring ble innført i den dansk-norske forvaltning ved kongelig resolusjon 1740, og formålet var å få bedre orden på statens arkiver, og derigjennom beskytte statens interesser. Hovedsystemet var kronologi, og i 1814 ble journalføring valgt som registrerings- og arkivsystem for den norske sentraladministrasjonen.
 

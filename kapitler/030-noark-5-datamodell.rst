@@ -22,13 +22,10 @@ I et fysisk arkiv vil arkivstrukturen gjenspeiles i papirdokumentenes sortering 
 
 Modellene i Noark 5 er *konseptuelle modeller* som skal vise sammenhengen mellom forskjellige metadata, og mellom metadata og fysiske eller elektroniske dokumenter. De konseptuelle modellene i Noark 5 sier noe om hvordan informasjonen prinsipielt skal organiseres. De vil også være utgangspunktet for definisjonen av datastrukturer ved elektronisk kommunikasjon, integrasjon med andre systemer, migrering fra et system til et annet og for deponering/avlevering.
 
-Overordnet skisse av den konseptuelle modellen for Noark 5
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 .. figure:: ./media/uml-arkivstruktur-diagram.png
    :width: 100%
 
-   *Figur 2.1 arkivstruktur*
+   **Overordnet skisse av den konseptuelle modellen for Noark 5**
 
 Nivåene for *mappe* og *registrering* er bygd ut ved hjelp av spesialisering av klassene. Eksempler på slike spesialiseringer er *saksmappe* og *journalpost*. Den arkivstrukturen som er skissert gjennom den konseptuelle modellen i dette kapitlet, utgjør hovedstrukturen i Noark 5 og er obligatorisk for sakarkiver.
 
@@ -37,7 +34,7 @@ I enkelte system kan det være behov for en forenklet struktur, og visse nivå i
 .. figure:: ./media/uml-forenklet-arkivstruktur-diagram.png
    :width: 100%
 
-   *Figur 2.2 forenklet arkivstruktur*
+   **Forenklet arkivstruktur**
 
 I et elektronisk arkiv eksisterer ikke mappene som fysiske enheter. Arkivstrukturen i et elektronisk arkiv er bygd opp av forskjellige metadata. Hver enhet i strukturen har sine bestemte metadata, og de forskjellige nivåene er også koblet sammen med metadata. Metadata er altså aggregert på flere nivåer, slik at metadata på øverste nivå vil være knyttet til alle dokumenter i arkivet, mens metadata på laveste nivå bare er knyttet til et enkeltdokument.
 
@@ -87,7 +84,7 @@ En arkivkjerne som kun dekker obligatoriske objekt i datamodellen og de obligato
 .. figure:: ./media/uml-arkivkjerne-diagram.png
    :width: 100%
 
-   *Figur 2.3 arkivkjerne med obligatoriskekrav*
+   **Arkivkjerne med obligatoriske krav**
 
 Utgangspunktet for definisjonen av metadata har vært kravet til hva som skal inngå i et arkivuttrekk. Men det er også tatt hensyn til metadata som skal kunne utveksles elektronisk sammen med dokumenter, metadata som skal kunne deles ved integrasjon med fagsystemer, og metadata som skal kunne migreres til andre systemer sammen med tilhørende dokumenter.
 
@@ -120,13 +117,10 @@ Arkiv og arkivdel
 
 Forskjellige virksomheter vil ha forskjellig behov for definering av arkiv og arkivdeler. Både arkiv og arkivdel obligatoriske nivå i arkivstrukturen.
 
-Konseptuell modell for *arkiv* og *arkivdel*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 .. figure:: ./media/uml-arkiv-arkivdel-diagram.png
    :width: 100%
 
-   *Figur 2.4 arkiv og arkivdel*
+   **Konseptuell modell for *arkiv* og *arkivdel* **
 
 Arkiv
 ~~~~~~
@@ -247,13 +241,10 @@ Det skal være mulig å klassifisere en saksmappe med mer enn en klasse, dvs. me
 
 Klassene vil ofte legges inn før en Noark 5-løsning tas i bruk. Men det skal også være mulig for autoriserte brukere å opprette nye klasser. Det er særlig aktuelt ved objektbasert klassifikasjon. Klasser skal også kunne avsluttes, slik at det ikke lenger er mulig å knytte nye mapper til dem.
 
-Konseptuell modell for klassifikasjonssystem
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 .. figure:: ./media/uml-klassifikasjonssystem-diagram.png
    :width: 100%
 
-   *Figur 2.5 klassifikasjonssystem*
+   **Konseptuell modell for *klassifikasjonssystem* **
 
 Klassifikasjonssystem
 ************************
@@ -304,33 +295,26 @@ Noark 5 legger til rette for en fleksibel bruk av mapper. Grunnen til dette er a
 
 En *sak* i Noark-4 utgjør en bestemt mappetype i Noark 5, nemlig *saksmappe*. Dersom et system basert på Noark 5 bare skal brukes for sakarkiver, er det ikke noe i veien for å bruke begrepet "sak" i alle grensesnitt mot brukerne, på samme måte som i Noark-4. Men i denne standarden er mappe det generelle begrepet for arkivenheten på dette nivået.
 
-Konseptuell modell for mappe
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 .. figure:: ./media/uml-mappestrukturen-diagram.png
    :width: 100%
 
-   *Figur 2.6 mappestrukturen*
+   **Konseptuell modell for *mappe* **
 
-Mappe
-*****
+**Mappe**
 
 Utgangspunktet for alle mappetyper i Noark 5 er metadataene i en *mappe*. Denne inneholder noen grunnleggende metadata, men det er ikke alle metadata her som er obligatoriske. En del spesialiserte system vil trenge ekstra metadata i tillegg til dette. Dette kan løses enten ved bruk av *virksomhetsspesifikke metadata*, eller ved å lage andre spesialiserte av mappetyper med utgangspunkt i mappe eller Saksmappe.
 
-Undermappe
-**********
+**Undermappe**
 
 En mappe kan inneholde en eller flere undermapper (spesifisert som egenrelasjon i *mappe*). Arv fra en klasse vil alltid gå til mappen på det øverste nivået. Dersom mappenivået består av flere nivåer, skal registreringer bare kunne knyttes til det laveste nivået. En mappe kan altså ikke inneholde både andre mapper og registreringer.
 
-Saksmappe
-*********
+**Saksmappe**
 
 Journalføringspliktige dokument skal alltid legges i spesialiseringen *Saksmappe*, og saksmapper disse skal alltid være knyttet til en klasse. Mappene skal også ha referanse til hvilken arkivdel de tilhører, selv om dette også kan avledes av tilhørigheten til klasse og klassifikasjonssystem. Saksmappen inneholder metadata fra *mappe* i tillegg til egne metadata. En saksmappe er bakoverkompatibel med en sak i Noark-4, men har en del nye metadata.
 
 For sakarkiver er det obligatorisk å bruke en saksmappe.
 
-Møtemappe
-************
+**Møtemappe**
 
 Dokumenter som produseres i forbindelse med faste møter bør samles i *Møtemapper*. Dette er mest aktuelt brukt for kommunale utvalgsmøter, styremøter, ledermøter, mv., hvor det er flere møtesaker som tas opp på hvert møte. Enkeltstående møtereferat, mv., til møter som avholdes i forbindelse med saker i den løpende saksbehandlingen, kan vel så gjerne arkiveres i aktuell saksmappe.
 
@@ -369,40 +353,32 @@ Registrering
 
 En *registrering* tilsvarer "record" eller "dokumentasjon" i ISO-standarder, og utgjør arkivenes primære byggeklosser. En aktivitet kan deles opp i flere trinn som vi kaller *transaksjoner*. En transaksjon innebærer normalt at minst to personer eller enheter må være involvert, men det behøver ikke alltid være tilfelle. Vi bruker likevel begrepet transaksjon generelt for alle trinn en aktivitet kan deles opp i. Det er transaksjoner som genererer *arkivdokumenter,* og arkivdokumentet er dokumentasjon på at transaksjonen er utført.
 
-Konseptuell modell for registrering
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 .. figure:: ./media/uml-registrering-diagram.png
    :width: 100%
 
-   *Figur 2.7 registrering*
+   **Konseptuell modell for *registrering* **
 
-Registrering
-**************
+**Registrering**
 
 På samme måte som Noark 5 er fleksibel når det gjelder mappenivået, er standarden også fleksibel når det gjelder registreringsnivået. Det er ikke alle system som trenger like mye metadata på dette nivået. En registrering inneholder de metadata man anser nødvendig for å kunne arkivere dokumenter og metadata i alle typer systemer. En registrering danner utgangspunkt for alle andre registreringstyper. [3]_
 
-Journalpost
-***********
+**Journalpost**
 
 En *journalpost* representer en "innføring i journalen". Journalen er en kronologisk fortegnelse over inn- og utgående dokumenter (dvs. korrespondansedokumenter) brukt i saksbehandlingen, og eventuelt også organinterne dokumenter som journalføres.
 
 Registreringstypen *journalpost* er obligatorisk for sakarkiver, og journalposter skal alltid legges i saksmapper. Alle *journalføringspliktige* dokumenter i offentlig forvaltning skal registreres som journalposter og inngå i et sakarkiv.
 
-Arkivnotat
-**********
+**Arkivnotat**
 
 *Arkivnotat* er en registreringstype som brukes i sakarkiver for arkivering uten journalføring. [4]_ Arkivnotat har en del fellestrekk med journalpost ved at den har obligatorisk tilknytning til en saksmappe, og den kan tilknyttes dokumentflyt og andre interne behandlingsprosesser.
 
 Arkivnotat kan benyttes på samme måte som man tidligere har brukt organinterne journalposttyper, men uten at registreringen skal tas med på offentlig journal. Forutsetningen er selvsagt at virksomheten oppfyller bestemmelsenes øvrige krav om journalføring for visse typer interne dokumenter.
 
-Møteregistrering
-****************
+**Møteregistrering**
 
 En tredje type spesialisering er *møteregistrering,* som skal knyttes til en *møtemappe*. En møteregistrering vil inneholde dokumenter produsert i forbindelse med at det har blitt avholdt et møte.
 
-Korrespondansepart
-*******************
+**Korrespondansepart**
 
 Korrespondansepart er obligatorisk for journalpost, og kan forekomme en eller flere ganger, men kan også være aktuelt å registrere på andre typer registreringer. Ved inngående dokumenter registreres avsender(e), ved utgående dokumenter mottaker(e). Ved organinterne dokumenter som skal følges opp, registreres både avsender(e) og mottaker(e).
 
@@ -448,21 +424,16 @@ En *registrering* er altså en arkivenhet som består av metadata som beskriver 
 
 I en relasjonsdatabase vil det typisk være et mange-til-mange-forhold mellom registrering og dokumentbeskrivelse. Ved deponering/avlevering skal imidlertid metadata både for dokumentbeskrivelse og dokumentobjekt dupliseres for hver gang det samme dokumentet er knyttet til forskjellige registreringer. I tillegg skal dokumentobjektet ha informasjon om når dokumentet ble knyttet til registreringen, hvilken "rolle" dokumentet har i forhold til registreringen (hoveddokument eller vedlegg), rekkefølgenummer osv. Dette vil være unik informasjon for hver tilknytning (i Noark-4 ble attributtene for dette beskrevet i en tabell kalt Dokumentlink). Hver dokumentbeskrivelse skal derfor ha en unik *systemID*.
 
-Konseptuell modell for dokumentbeskrivelse og dokumentobjekt
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 .. figure:: ./media/uml-dokumentbeskrivelse-diagram.png
    :width: 100%
 
-   *Figur 2.8 dokumentbeskrivelse og dokumentobjekt*
+   **Konseptuell modell for *dokumentbeskrivelse* og *dokumentobjekt* **
 
-Dokumentbeskrivelse
-*******************
+**Dokumentbeskrivelse**
 
 Den vanligste bruken av *dokumentbeskrivelse* er for å skille mellom hoveddokument og vedlegg, hvor hoveddokumentet og hvert av vedleggene utgjør hvert sitt enkeltdokument. [5]_ Ett dokument kan være knyttet til flere journalposter som hoveddokument.
 
-Dokumentobjekt
-**************
+**Dokumentobjekt**
 
 Dokumentobjekt er det laveste metadatanivået i arkivstrukturen. Et dokumentobjekt skal referere til én og kun en *dokumentfil.* Dokumentfila inneholder selve dokumentet. Dersom dokumentet er arkivert i flere *versjoner*, må vi ha et dokumentobjekt og en dokumentfil for hver versjon. Hver versjon av dokumentet kan dessuten arkiveres i flere forskjellige *formater*, og da må det i tillegg opprettes egne dokumentobjekter og dokumentfiler for hvert format. I noen tilfeller kan det også være aktuelt å lage *varianter* av enkelte dokumenter. Den mest vanlige varianten vil være et "sladdet" dokument hvor taushetsbelagt informasjon er fjernet slik at varianten kan være offentlig tilgjengelig. Dokumentobjektet inneholder mer tekniske metadata enn de andre arkivenhetene, bl.a. sjekksummen til bytesekvensen som representerer dokumentet.
 
@@ -608,13 +579,10 @@ Skjerming benyttes til å skjerme registrerte opplysninger eller enkeltdokumente
 
 Løsningens brukere skal være klarert for bestemte tilgangskoder og autorisert for en nærmere definert del av de saker og journalposter med tilhørende dokumenter som er skjermet.
 
-Konseptuell modell for skjerming
-*********************************
-
 .. figure:: ./media/uml-skjerming-diagram.png
    :width: 80%
 
-   *Figur 2.9 skjerming*
+   **Konseptuell modell for *skjerming* **
 
 .. table:: Funksjonelle krav til skjerming
 
@@ -655,13 +623,10 @@ Dette er en referanse på tvers av hierarkiet i arkivstrukturen. Referansen kan 
 
 Kryssreferanse er valgfritt, og kan knyttes en eller flere ganger til klasse, mappe og registrering. Referansen går en vei, dvs. den kan kun være en referanse til en arkivenhet. I og med at kryssreferanser knyttes til mappe og registrering, vil det si at Referanser også knyttes til alle utvidelsene (spesialiseringer) under disse (Saksmappe, Møtemappe og Journalpost, Møteregistrering).
 
-Konseptuell modell for *kryssreferanse*
-***************************************
-
 .. figure:: ./media/uml-kryssreferanse-diagram.png
    :width: 50%
 
-   *Figur 2.10 kryssreferanse*
+   **Konseptuell modell for *kryssreferanse* **
 
 .. table:: Funksjonelle krav til kryssreferanse
 
@@ -688,13 +653,10 @@ Merknad
 
 En eller flere merknader skal kunne knyttes til en mappe, registrering eller en dokumentbeskrivelse. Merknader skal brukes for å dokumentere spesielle forhold rundt saksbehandlingen og arkivering av dokumenter, og denne informasjonen skal tas med i arkivuttrekket. Merknad kan for eksempel brukes til å dokumentere prosesstrinn knyttet til en (saks)mappe, registrering eller dokumentbeskrivelse som ikke nødvendigvis manifesterer seg som et dokument som skal bli en egen registrering.
 
-Konseptuell modell for *merknad*
-*********************************
-
 .. figure:: ./media/uml-merknad-diagram.png
    :width: 50%
 
-   *Figur 2.11 merknad*
+   **Konseptuell modell for *merknad* **
 
 .. table:: Funksjonelle krav til merknad
 
@@ -720,13 +682,10 @@ Det skal være mulig å knytte parter til mapper, registreringer eller dokumentb
 
 Noark 5 legger opp til at det er virksomhetens behov som styrer bruken av *part*, og en part kan være «hvem som helst» som virksomheten har behov for å registrere som interessent på en mappe, registrering eller dokumentbeskrivelse. Forutsetningen er at man definerer ulike roller for partene, som kan brukes til å styre ulike funksjoner, (innsyns)rettigheter, mv.
 
-Konseptuell modell for *part*
-******************************
-
 .. figure:: ./media/uml-part-diagram.png
    :width: 70%
 
-   *Figur 2.12 part*
+   **Konseptuell modell for *part* **
 
 .. table:: Krav til part
 
@@ -747,13 +706,10 @@ Med presedens menes en (retts)avgjørelse som siden kan tjene som rettesnor i li
 
 Man snakker vanligvis om presedenssaker, men det er vanligvis ett eller noen få av dokumentene i saken som danner presedens. Foruten å registrere hele saken, må derfor det eller de dokumentene som inneholder presedensavgjørelser kunne identifiseres. Hvis opplysninger om presedens er registrert, er presedens obligatorisk for avlevering.
 
-Konseptuell modell for *presedens*
-***********************************
-
 .. figure:: ./media/uml-presedens-diagram.png
    :width: 80%
 
-   *Figur 2.13 presedens*
+   **Konseptuell modell for *presedens* **
 
 Noark 5 legger opp til at det skal kunne bygges opp et presedensregister med henvisninger til Saksmapper og Journalposter som danner presedens. Registeret bygges opp ved at presedensmetadata knyttes til de arkivenhetene (saker eller journalposter) som danner presedens.
 

@@ -14,13 +14,10 @@ Kassasjon er like aktuelt i elektroniske arkiver som i fysiske arkiver. Langtids
 
 Kassasjon betyr ikke at en må gå inn og vurdere bevaringsverdien for hvert eneste dokument. For at kassasjon av elektroniske dokumenter skal være praktisk gjennomførbart, må en fastsette bevarings- og kassasjonskriterier på et overordnet plan - dvs. på et makronivå. Internasjonal arkivteori argumenterer for *funksjonsbasert makrokassasjon*. Det betyr at arkivdokumentenes bevaringsverdi avhenger av funksjonen eller aktiviteten som har skapt dokumentet - og ikke av selve innholdet i dokumentet. Også i Norge er det enighet om at funksjonsbasert kassasjon på makronivå kan være en viktig metode, selv om hensynet til dokumentenes innhold tradisjonelt er tillagt stor betydning. [13]_
 
-Konseptuell modell for Kassasjon
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 .. figure:: ./media/uml-kassasjon-diagram.png
    :width: 100%
 
-   *Figur 6.1 Kassasjon*
+   **Konseptuell modell for *kassasjon* **
 
 Overordnede kassasjonsbestemmelser kan settes på arkiv- og klassenivå, og skal da arves nedover i arkivstrukturen til mappe, registrering og dokumentbeskrivelse. Verdiene som arves skal kunne overstyres. Ved deponering/avlevering er det bare kassasjonsvedtak som innebærer kassasjon som skal være med. Det skal altså ikke knyttes opplysninger om kassasjon til arkivenheter hvor alle tilordnede dokumenter skal bevares. Kassasjon kan altså være knyttet en gang til arkivdel, klasse, mappe, registrering og dokumentbeskrivelse.
 

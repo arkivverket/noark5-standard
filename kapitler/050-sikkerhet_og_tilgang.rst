@@ -492,7 +492,7 @@ Den faktiske autorisasjonen, for den enkelte bruker, er uttrykt gjennom en kombi
   +==========+============================================================================================================================================================================+======+=========+
   | 4.5.32   | For en gitt, aktiv påloggingsidentifikator bør det være mulig å vise eller skrive ut en oversikt over hvilke rettigheter og fullmakter vedkommende har i Noark 5-løsningen | V    |         |
   +----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
-  | 4.5.31   | Det bør være mulig å vise eller skrive ut oversikt over hvilke fullmakter en bestemt rolle eller tilgangsprofil har i løsningen                                            | V    |         |
+  | 4.5.33   | Det bør være mulig å vise eller skrive ut oversikt over hvilke fullmakter en bestemt rolle eller tilgangsprofil har i løsningen                                            | V    |         |
   +----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
   | 4.5.34   | For et gitt objekt i Noark 5-løsningen bør det være mulig å vise eller skrive ut hvilke brukere som har de ulike typene funksjonelle rettigheter til dette objektet        | V    |         |
   +----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+

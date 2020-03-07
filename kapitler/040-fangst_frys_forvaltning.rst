@@ -565,8 +565,8 @@ En Journalpost av typen «inngående dokument» eller «organinternt dokument fo
   |                                                 | kopimottakere.                                  |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
-Restanseliste og forfallsliste [12]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Restanseliste og forfallsliste [12]_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Målet med restansekontrollen er å sikre at alle mottatte henvendelser til organet blir besvart innen rimelig tid. Dette er hjemlet i forvaltningsloven § 11 a (dvs. bestemmelsen om saksbehandlingstid og foreløpig svar). Restanselisten gir også en oversikt over arbeidsbelastningen i organet.
 

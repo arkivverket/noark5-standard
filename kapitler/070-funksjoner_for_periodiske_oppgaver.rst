@@ -32,7 +32,7 @@ Det skal også være mulig å sette bevarings- og kassasjonsvedtak på en arkivd
 
 Arv skal kunne skje videre ned til registrerings- og dokumentbeskrivelsesnivå. Selv om kassasjon ofte omfatter hele mapper, skal det være mulig å bevare en eller flere av registreringene i mappen, og kassere resten. [14]_
 
-.. table:: Funksjonelle krav til bevaring og kassasjon
+.. table:: **Funksjonelle krav til bevaring og kassasjon**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Funksjonelle krav til bevaring og kassasjon     | Type                                            | Merknad                                         |
@@ -101,7 +101,7 @@ Bevaring og kassasjon er altså i utgangpunktet knyttet til metadata som arves f
 
 Kassasjon av dokumenttyper kan implementeres ved at bestemte registreringstyper eller dokumenttyper automatisk knyttes til en arkivdel som inneholder bevarings- og kassasjonsvedtaket for den bestemte typen. Dette vedtaket skal da arves til registreringen eller dokumentbeskrivelsen. Men det kan også være andre måter å implementere denne funksjonaliteten uten å bruke arkivdel.
 
-.. table:: Funksjonelle krav til bevaring og kassasjon
+.. table:: **Funksjonelle krav til bevaring og kassasjon**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Funksjonelle krav til bevaring og kassasjon     | Type                                            | Merknad                                         |
@@ -125,7 +125,7 @@ På samme måte skal det være mulig å få presentert en oversikt over dokument
 
 En slik funksjonalitet er bare nødvendig å ha i de tilfeller en arkivdeler inneholder både informasjon som skal kasseres og informasjon som skal bevares. Det er obligatorisk for alminnelig sakarkivsystem å ha slik funksjonalitet. Det kan tenkes løsninger der det ikke vil være nødvendig med en slik avansert funksjonalitet, der det ikke vil våre nødvendig med funksjon for å åpne dokumenter fra presentasjonen av kassable dokumenter eller det å kunne lage en særskilt oversikt over kassable dokumenter.
 
-.. table:: Funksjonelle krav til bevaring og kassasjon  
+.. table:: **Funksjonelle krav til bevaring og kassasjon**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Funksjonelle krav til bevaring og kassasjon     | Type                                            | Merknad                                         |
@@ -167,7 +167,7 @@ Selve funksjonen for å utføre kassasjon skal kunne begrenses til å omfatte ut
 
 Kassasjon av dokumenter betyr ikke at metadata skal slettes. Arkivforskriften har et bevaringspåbud for "journaldatabaser". Det betyr altså at metadata om kasserte dokumenter i utgangspunktet skal bevares, og avleveres til depot. Det skal likevel være mulig å angi at kassasjon også innebærer sletting av tilhørende metadata. Dette vil da være særlig aktuelt ved bestemte typer fagsystemer eller "enstypeserier". I slike tilfeller skal verken metadata eller dokumenter bevares.
 
-.. table:: Funksjonelle krav til bevaring og kassasjon
+.. table:: **Funksjonelle krav til bevaring og kassasjon**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Funksjonelle krav til bevaring og kassasjon     | Type                                            | Merknad                                         |
@@ -220,7 +220,7 @@ Kassasjonsliste
 
 Hensikten med rapporten *Kassasjonsliste* er todelt, både å være en hjelp i selve kassasjonsarbeidet og å gi en oversikt over hvilke saker som er kassert.
 
-.. table:: Krav til rapporten Kassasjonsliste
+.. table:: **Krav til rapporten Kassasjonsliste**
 
   +----------+--------------------------------------------------------------------------------------------+------+-------------------------------------------------------------------+
   | Krav nr. | Krav til rapporten *Kassasjonsliste*                                                       | Type | Merknad                                                           |
@@ -289,7 +289,7 @@ Ved periodisering spiller *arkivdel* en sentral rolle. Arkivdelene representerer
 
 Dokumenter som skal periodiseres etter forskjellige prinsipper - f.eks. funksjonsordnede saksmapper som periodiseres ved overlappingsperiode og personalmapper som fortløpende periodiseres når de er uaktuelle - må tilhøre hver sin arkivdel. Flere arkivdeler kan altså være aktive på én gang, og de uaktuelle periodene kan utgjøre flere "generasjoner" med arkivperioder.
 
-.. table:: Strukturelle krav til periodisering   
+.. table:: **Strukturelle krav til periodisering**
 
   +----------+-------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Strukturelle krav til periodisering                                                                         | Type | Merknad |
@@ -311,7 +311,7 @@ Flytting av mapper til en avsluttet arkivdel kan skje manuelt, dvs. at en endrer
 
 Bruk av periodisering og særlig med overlappingsperiode er ikke aktuelt for alle typer løsninger. For alminnelige sakarkivsystemer er det derimot obligatorisk å ha slik funksjonalitet. For noen vil det kun være aktuelt med skarpe periodeskiller. I slike tilfeller faller alle krav til overlappingsperiode bort.
 
-.. table:: Funksjonelle krav til periodisering
+.. table:: **Funksjonelle krav til periodisering**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Funksjonelle krav til periodisering             | Type                                            | Merknad                                         |
@@ -374,7 +374,7 @@ Migrering av data innebærer at en Noark-løsning både må kunne håndtere eksp
 
 Dersom en eller flere arkivdeler flyttes fra en løsning til en annen vil det være behov for en avtale som regulerer det faktiske innholdet i migreringsuttrekket. Dette med bakgrunn i eventuelle forskjeller mellom løsningene.
 
-.. table:: Krav til migrering mellom Noark-løsninger
+.. table:: **Krav til migrering mellom Noark-løsninger**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr:                                        | Krav til migrering mellom Noark-løsninger       | Type                                            | Merknad                                         |
@@ -456,7 +456,7 @@ OAIS grupperer den bevaringsbeskrivende informasjonen - dvs. metadataene - i fem
 
 5. *Tilgangsinformasjon* (Access Rights Information). Enkelte dokumenter skal være unntatt offentlighet eller klausulert for innsyn av andre grunner, også etter at de er overført til depotet.
 
-.. table:: Overordnede krav til arkivuttrekk
+.. table:: **Overordnede krav til arkivuttrekk**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Overordnede krav til arkivuttrekk               | Type                                            | Merknad                                         |
@@ -519,7 +519,7 @@ Det er ikke ønskelig at data "vaskes" før uttrekket produseres, f.eks. ved at 
 
 Hele klassifikasjonsstrukturen skal tas med i uttrekket, også klasser som er "ubrukte" fordi ingen mapper er tilknyttet klassen (arkivkoden). Klassifikasjonssystemet gir nyttig informasjon om arkivskaperens funksjoner og aktiviteter (arbeidsområder), og tilfører således viktig kontekstinformasjon til pakken. Unntak kan gjøres dersom klassifikasjonssystemet er svært omfattende, f.eks. ved objektbasert klassifikasjon. Dersom det er brukt sekundær klassifikasjon, skal også det sekundære klassifikasjonssystemet inngå. Men klassene i dette systemet skal ikke inneholde noen mapper. Alle mapper skal ligge under sin primære klassifikasjon, men kan samtidig ha referanse til en eller flere sekundære klasser.
 
-.. table:: Krav til innholdet i en avleveringspakke 
+.. table:: **Krav til innholdet i en avleveringspakke**
 
   +-----------------------+-------------------------------------------------+---------+-------------------------------------------------+
   | Krav nr.              | Krav til innholdet i en avleveringspakke        | Type    | Merknad                                         |
@@ -589,7 +589,7 @@ For de XML-filene som er en obligatorisk del av arkivuttrekket, vil de nødvendi
 
 Tabellen under angir hvilke XML-filer som hører sammen med hvilke XML-skjemaer.
 
-.. table:: Xml-filer og tilhørende xml-skjemaer
+.. table:: **Xml-filer og tilhørende xml-skjemaer**
 
   +----------------------+----------------------+
   | **XML-fil**          | **XML-skjema**       |
@@ -617,7 +617,7 @@ I tabellen angir skjemanavnet hvilket skjema som er hovedskjemaet til den enkelt
 
 Merk at navnene slik de er brukt i tabellen, er obligatoriske, også når det gjelder bruken av små bokstaver.
 
-.. table:: Krav til XML-skjemaene
+.. table:: **Krav til XML-skjemaene**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til XML-skjemaene                          | Type                                            | Merknad                                         |
@@ -694,7 +694,7 @@ Datasettbeskrivelsen arkivuttrekk.xml skal inneholde følgende informasjon om et
 
     Unntatt er arkivuttrekk.xml og addml.xsd
     
-.. table:: Krav til opplysninger om avleveringen
+.. table:: **Krav til opplysninger om avleveringen**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til opplysninger om avleveringen           | Type                                            | Merknad                                         |
@@ -791,7 +791,7 @@ Det Noark 5-spesifikke er organisert i en struktur av dataobjekter (*dataObjects
 
 Tabellen under viser påkrevde elementer i arkivuttrekk.xml og og hvilket navn de er gitt i malen.
 
-.. table:: Påkrevde elementer i arkivuttrekk.xml
+.. table:: **Påkrevde elementer i arkivuttrekk.xml**
 
   +-----------------------------------------------------------------+-----------------------------------------------------------------+-----------------------------------------------------------------+
   | **Navn i listen over påkrevde typer informasjon**               | **Navn i arkivstruktur.xml**                                    | **Kommentar/                                                    |
@@ -846,7 +846,7 @@ I denne hierarkiske strukturen vil ikke alle grenene gå ned til laveste nivå. 
 
 Dersom arkivdokumenter i et sakarkiv er kassert, skal metadata for disse dokumentene likevel være med. Dette gjelder alle metadata ned til dokumentbeskrivelse, men ikke dokumentobjekter. På dokumentbeskrivelsen skal det logges at kassasjon er utført (*M630 kassertDato* og *M631 kassertAv*).
 
-.. table:: Krav til metadata i arkivuttrekket   
+.. table:: **Krav til metadata i arkivuttrekket**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til metadata i arkivuttrekket              | Type                                            | Merknad                                         |
@@ -935,7 +935,7 @@ Metadata om endringer skal ikke grupperes inn i de tilhørende arkivenhetene, me
 
 Endringsloggen skal bare vise til arkivenheter som befinner seg i samme avleveringspakke, dvs. til identifikasjoner som er representert i filen arkivstruktur.xml i samme pakken. Hvilke metadata det skal logges endringer for, og når logging av disse endringene skal utføres, er beskrevet i et eget vedlegg 3: "Oversikt over metadata hvor det skal logges at det gjøres endringer i innholdet ".
 
-.. table:: Krav til Endringslogg
+.. table:: **Krav til Endringslogg**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til *Endringslogg*                         | Type                                            | Merknad                                         |
@@ -960,7 +960,7 @@ Journalrapportene skal være i XML-format, og skal inneholde et "journalhode" me
 
 I en avleveringspakke skal journalen normalt dekke en *arkivperiode*, dvs. den perioden innholdet i en avsluttet arkivdel omfatter. Men ved bruk av mykt periodeskille vil ikke journalpostene i journalen være identisk med journalpostene i fila **arkivstruktur.xml.** Denne fila skal bare inneholde journalposter som er knyttet til avsluttede saksmapper. I journalen vil det også forekomme journalposter som er knyttet til saker som ikke er avsluttet, og som derfor er overført til den avsluttede arkivdelens arvtaker.
 
-.. table:: Krav til journalrapportene 
+.. table:: **Krav til journalrapportene**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til journalrapportene                      | Type                                            | Merknad                                         |
@@ -990,7 +990,7 @@ Virksomhetsspesifikk informasjon kan også avleveres som frittstående fagsystem
 
 Innholdet og betydningen av hvert virksomhetsspesifikt metadataelement skal dokumenteres mer inngående dersom det ikke er innlysende hva elementene inneholder. En slik dokumentasjon skal inngå som en del av aktuelt XML-skjema.
 
-.. table:: Krav til virksomhetsspesifikke metadata
+.. table:: **Krav til virksomhetsspesifikke metadata**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til virksomhetsspesifikke metadata         | Type                                            | Merknad                                         |
@@ -1043,7 +1043,7 @@ Dersom arkivdokumentet har vært konvertert fra et format til et annet, skal dok
 
 Kravene nedenfor er obligatoriske for alle Noark-løsninger som inneholder elektroniske arkivdokumenter som skal avleveres til arkivdepot.
 
-.. table:: Krav til arkivdokumentene 
+.. table:: **Krav til arkivdokumentene**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til arkivdokumentene                       | Type                                            | Merknad                                         |
@@ -1099,7 +1099,7 @@ Avleveringslisten skal følge med ved avleveringen til arkivdepot.
 
 Overføringslisten skal utformes som en avleveringsliste til arkivdepot.Organet skal beholde en kopi selv både av overføringslister og avleveringslister. Disse bør inngå i organets arkivplan.
 
-.. table:: Krav til rapporten Liste for bortsetting, avlevering og overføring
+.. table:: **Krav til rapporten Liste for bortsetting, avlevering og overføring**
 
   +------------------+-------------------------------------------------+---------------+-------------------------------------------------+
   | Krav nr.         | Krav til rapporten *Liste for bortsetting,      | Type          | Merknad                                         |
@@ -1182,12 +1182,12 @@ Overføringslisten skal utformes som en avleveringsliste til arkivdepot.Organet 
 Arkivoversikt
 -------------
 
-Hensikten med rapporten *arkivoversikt* er å gi en oversikt over hvilke arkivdeler arkivet er delt opp i, med angivelse av hvilken arkivperiode den/de inngår i, klassifikasjonssystem, status og fysisk plassering. Dette er viktig for oversikten i arkivet.
+Hensikten med rapporten *Arkivoversikt* er å gi en oversikt over hvilke arkivdeler arkivet er delt opp i, med angivelse av hvilken arkivperiode den/de inngår i, klassifikasjonssystem, status og fysisk plassering. Dette er viktig for oversikten i arkivet.
 
-.. table:: Krav til rapporten *arkivoversikt*
+.. table:: **Krav til rapporten Arkivoversikt**
 
   +----------+---------------------------------------------------------------------------------------+------+-----------------------------+
-  | Krav nr. | Krav til rapporten *arkivoversikt*                                                    | Type | Merknad                     |
+  | Krav nr. | Krav til rapporten *Arkivoversikt*                                                    | Type | Merknad                     |
   +==========+=======================================================================================+======+=============================+
   | 6.6.1    | *Selektering:*                                                                        | B    | Obligatorisk for sakarkiver |
   |          |                                                                                       |      |                             |

@@ -336,7 +336,7 @@ Dokumenter som produseres i forbindelse med faste møter bør samles i *Møtemap
 
 Metadata for møtedeltaker grupperes inn i metadata for møtemappe.
 
-.. table:: Strukturelle krav til mappe
+.. table:: **Strukturelle krav til mappe**
 
   +----------+-------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
   | Krav nr. | Strukturelle krav til *mappe*                                                                                                       | Type | Merknad                   |
@@ -544,7 +544,7 @@ Dersom et dokument er arkivert i mer enn én versjon, skal det være mulig å sl
 
 Dersom tidligere versjoner er blitt arkivert unødvendig, skal det være mulig å rydde opp på en effektiv måte. Slik opprydding skal alltid skje før det produseres et arkivuttrekk.
 
-.. table:: Krav til sletting av dokumentversjoner
+.. table:: **Krav til sletting av dokumentversjoner**
 
   +----------+----------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Krav til sletting av dokumentversjoner                                                                                                             | Type | Merknad |
@@ -560,7 +560,7 @@ Dersom tidligere versjoner er blitt arkivert unødvendig, skal det være mulig �
 
 Dersom det opprinnelige dokumentet har innhold som skal skjermes, kan det lages en variant hvor opplysninger som skal skjermes, er fjernet. På den måten kan dokumentet likevel offentliggjøres. Slike varianter kan slettes dersom det ikke lenger er behov for dem. Det kan tenkes at det er aktuelt å avlevere dokumentvarianter, så sletting må vurderes i hvert enkelt tilfelle. Varianter som ikke er slettet når arkivuttrekket produseres, skal avleveres.
 
-.. table:: Krav til sletting av dokumentvarianter
+.. table:: **Krav til sletting av dokumentvarianter**
 
   +----------+-----------------------------------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Krav til sletting av dokumentvarianter                                                                                                  | Type | Merknad |
@@ -576,7 +576,7 @@ Dersom det opprinnelige dokumentet har innhold som skal skjermes, kan det lages 
 
 Alle dokumenter som skal avleveres, må være konvertert til format godkjent av Riksarkivaren. [6]_ Det opprinnelige produksjonsformatet kan da rutinemessig slettes. En del brukere vil nok velge å beholde produksjonsformatet inntil videre, f.eks. fordi de har behov for å gjenbruke tekst i et kontorstøtteverktøy. Hvor lenge dette er aktuelt, er opp til hver enkelt bruker. Det er ikke noe krav at produksjonsformatene må være slettet før arkivuttrekket produseres, fordi dette bare vil ta med dokumenter i arkivformat. Men mange brukere vil likevel ha et behov for å gå gjennom og slette eldre produksjonsformater på en effektiv måte.
 
-.. table:: Krav til sletting av dokumentformater
+.. table:: **Krav til sletting av dokumentformater**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til sletting av dokumentformater           | Type                                            | Merknad                                         |
@@ -616,7 +616,7 @@ Konseptuell modell for skjerming
 
    *Figur 2.9 skjerming*
 
-.. table:: Funksjonelle krav til skjerming
+.. table:: **Funksjonelle krav til skjerming**
 
   +----------+---------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Funksjonelle krav til *skjerming*                                                                       | Type | Merknad |
@@ -639,7 +639,7 @@ Nøkkelord består bare av ett metadataelement: *M022 noekkelord*, og er derfor 
 
 Nøkkelord er valgfritt, og kan forekomme en eller flere ganger i klasse, mappe eller registrering.
 
-.. table:: Funksjonelle krav til nøkkelord
+.. table:: **Funksjonelle krav til nøkkelord**
 
   +----------+-------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Funksjonelle krav til *nøkkelord*                                                               | Type | Merknad |
@@ -663,7 +663,7 @@ Konseptuell modell for *kryssreferanse*
 
    *Figur 2.10 kryssreferanse*
 
-.. table:: Funksjonelle krav til kryssreferanse
+.. table:: **Funksjonelle krav til kryssreferanse**
 
   +----------+------------------------------------------------------------------------------------+------+------------------------------------------+
   | Krav nr. | Funksjonelle krav til *kryssreferanse*                                             | Type | Merknad                                  |
@@ -696,7 +696,7 @@ Konseptuell modell for *merknad*
 
    *Figur 2.11 merknad*
 
-.. table:: Funksjonelle krav til merknad
+.. table:: **Funksjonelle krav til merknad**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Funksjonelle krav til *merknad*                 | Type                                            | Merknad                                         |
@@ -728,7 +728,7 @@ Konseptuell modell for *part*
 
    *Figur 2.12 part*
 
-.. table:: Krav til part
+.. table:: **Krav til part**
 
   +----------+-----------------------------------------------------------------------------------------------------------------+------+-----------------------------------------------------+
   | Krav nr. | Krav til *part*                                                                                                 | Type | Merknad                                             |
@@ -757,7 +757,7 @@ Konseptuell modell for *presedens*
 
 Noark 5 legger opp til at det skal kunne bygges opp et presedensregister med henvisninger til Saksmapper og Journalposter som danner presedens. Registeret bygges opp ved at presedensmetadata knyttes til de arkivenhetene (saker eller journalposter) som danner presedens.
 
-.. table:: Krav til presedens
+.. table:: **Krav til presedens**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til *presedens*                            | Type                                            | Merknad                                         |
@@ -817,7 +817,7 @@ Det skal også gi muligheter for feilretting utover det som ellers er tillatt et
 
 Løsningen må dessuten legge til rette for at administratorer har kontroll på arkivdokumentene og hvilke formater disse er lagret i. Det vil også si å kunne implementere vedtatte regler for når konvertering skal skje.
 
-.. table:: Krav til administrasjon av kjernen
+.. table:: **Krav til administrasjon av kjernen**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til administrasjon av *kjernen*            | Type                                            | Merknad                                         |

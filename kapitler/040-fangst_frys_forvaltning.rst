@@ -16,7 +16,7 @@ En løsning for fleksibel dokumentfangst er nødvendig for å håndtere dette. O
 
 I noen sammenhenger vil det også være aktuelt å fange andre typer dokumenter, så som blogger, komprimerte filer, elektroniske kalendere, data fra geografiske informasjonssystem, multimediedokumenter, dokumenter som inneholder lenker til andre dokumenter, øyeblikkelig meldingstjeneste (instant messaging), tekstmeldinger til mobiltelefon (sms), bilder til mobiltelefon (MMS) og wikis.
 
-.. table:: Overordnete krav til dokumentfangst
+.. table:: **Overordnete krav til dokumentfangst**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Overordnete krav til dokumentfangst             | Type                                            | Merknad                                         |
@@ -73,7 +73,7 @@ Kryptering og elektronisk signatur
 
 Ved elektronisk kommunikasjon er det nødvendig å kunne angi krav til sikkerhet. Dette innebærer krav til kryptering og elektronisk signatur, samt dokumentasjon av sikkerheten til dokumenter som er sendt eller mottatt i elektronisk form. Man må også kunne angi krav til sikkerhet på forskjellige nivå i arkivstrukturen.
 
-.. table:: Krav til metadata for dokumenter mottatt elle sendt med elektronisk signatur
+.. table:: **Krav til metadata for dokumenter mottatt elle sendt med elektronisk signatur**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til metadata for dokumenter mottatt eller  | Type                                            | Merknad                                         |
@@ -143,7 +143,7 @@ Tjenestegrensesnitt definerer hvilke tjenester Noark 5-systemet kan utføre, og 
 
 Tjenestegrensesnittstandardene spesifiserer tjenester som dekker krav og metadataelementer som er definert i Noark-standarden. Mange spesialiserte system har funksjoner og informasjonselementer som ikke er definert i Noark, men som allikevel er underlagt krav til eller behov for at informasjonen tas vare på i tilknytning til dokumentasjonen i Noark-kjernen. Fagspesifikk informasjon i slike spesialiserte løsninger kan være strukturert eller ustrukturert innhold eller strukturerte metadata som kan knyttes til objekt i datamodellen. Ved utvikling av integrasjonsløsninger er det derfor viktig at man kartlegger hva som dekkes av standarden og hva som ikke dekkes, og at man tar stiling til hvordan informasjonselementene fra fagsystemene skal tas vare på i tilknytning til arkivstrukturen. Metadata som ikke er definert i Noark, men kan knyttes til objekter i arkivstrukturen kan overføres som virksomhetsspesifikke metadata, jf. kapittel 6.4.8.
 
-.. table:: Krav til tjenestegrensesnitt
+.. table:: **Krav til tjenestegrensesnitt**
 
   +----------+---------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Krav til tjenestegrensesnitt                                                                                  | Type | Merknad |
@@ -178,7 +178,7 @@ Masseimport må håndtere unntak og feil. Dette kan være aktuelt f. eks. ved el
 
 Kravene til masseimport nedenfor er generelle, og de er uavhengige av verktøy og teknologi.
 
-.. table:: Krav til masseimport utløst fra Noark 5-kjerne
+.. table:: **Krav til masseimport utløst fra Noark 5-kjerne**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til masseimport utløst fra Noark 5-kjerne  | Type                                            | Merknad                                         |
@@ -242,7 +242,7 @@ Kravene i dette kapittelet fastsetter minimumskravene til hvilke metadata som m�
 
 Disse kravene alene kan allikevel ikke være styrende for hva alle brukere skal ha tillatelse til å gjøre i en Noark-løsning. De må ses i sammenheng med kravene til autorisasjoner og oppbygging av roller og rolleprofiler.
 
-.. table:: Krav til frysing av metadata for mappe
+.. table:: **Krav til frysing av metadata for mappe**
 
   +----------+--------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Krav til frysing av metadata for *mappe*                                                         | Type | Merknad |
@@ -259,7 +259,7 @@ Disse kravene alene kan allikevel ikke være styrende for hva alle brukere skal 
   | 3.2.4    | Det skal ikke være mulig å legge til flere *registreringer* i en *mappe* som er avsluttet        | O    |         |
   +----------+--------------------------------------------------------------------------------------------------+------+---------+
 
-.. table:: Krav til frysing av metadata for saksmappe
+.. table:: **Krav til frysing av metadata for saksmappe**
 
   +----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
   | Krav nr. | Krav til frysing av metadata for *saksmappe*                                                                                                                | Type | Merknad                   |
@@ -285,7 +285,7 @@ Disse kravene alene kan allikevel ikke være styrende for hva alle brukere skal 
   | 3.2.12   | Det skal ikke være mulig å slette en *saksmappe* som inneholder *journalposter* med status som er ferdigstilt (dvs. Ekspedert, Journalført eller Arkivert). | B    | Obligatorisk for sakarkiv |
   +----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
 
-.. table:: Krav til frysing av metadata for registrering
+.. table:: **Krav til frysing av metadata for registrering**
 
   +----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Krav til frysing av metadata for *registrering*                                                                                                               | Type | Merknad |
@@ -307,7 +307,7 @@ Disse kravene alene kan allikevel ikke være styrende for hva alle brukere skal 
   | 3.2.17   | Dersom en *registrering* er arkivert, skal det ikke være mulig å legge til flere *dokumentbeskrivelser*.                                                      | O    |         |
   +----------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
 
-.. table:: Krav til frysing av metadata for journalpost
+.. table:: **Krav til frysing av metadata for journalpost**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til frysing av metadata for *journalpost*  | Type                                            | Merknad                                         |
@@ -393,7 +393,7 @@ Disse kravene alene kan allikevel ikke være styrende for hva alle brukere skal 
   |                                                 | ferdigstilte varianten som ble ekspedert        |                                                 |                                                 |
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
 
-.. table:: Krav til frysing av dokument og metadata for dokumentbeskrivelse
+.. table:: **Krav til frysing av dokument og metadata for dokumentbeskrivelse**
 
   +----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
   | Krav nr. | Krav til frysing av dokument og metadata for *dokumentbeskrivelse*                                                                                               | Type | Merknad                   |
@@ -416,7 +416,7 @@ Oppsplitting og sammenslåing av mapper, flytting av registreringer
 
 Noark 5 legger opp til at det skal være mulig å splitte opp eller slå sammen mapper. I praksis vil dette innebære å flytte én eller flere registreringer i en mappe til en annen. Behovet kan oppstå som følge av feilregistreringer, et saksforløp som utvikler seg i flere retninger, eller ved at man etter en tid får et annet bilde av saksforløpet enn det som opprinnelig ble lagt til grunn. Dette er funksjonalitet som krever ressurser, nøyaktighet og kontroll. Det stilles derfor strenge krav til hvem som skal ha tillatelse til å utføre disse handlingene.
 
-.. table:: Krav til oppsplitting og sammenslåing av mapper, flytting av registreringer
+.. table:: **Krav til oppsplitting og sammenslåing av mapper, flytting av registreringer**
 
   +----------------------+-------------------------------------------------+------+-------------------------------------------------+
   | Krav nr.             | Krav til oppsplitting og sammenslåing av        | Type | Merknad                                         |
@@ -471,7 +471,7 @@ Et dokument som er under produksjon bør kunne gjennomgå ulike interne prosesst
 
 Kravene er valgfrie, siden det ikke er Riksarkivarens oppgave å gi pålegg om ansvar, fullmakter og saksbehandlingsrutiner i offentlige virksomheter. Funksjonaliteten kan også variere fra løsning til løsning, alt etter hvilke behov virksomheten har. Det vesentlige i standarden er at flyten dokumenteres med standardiserte metadata, og at disse metadata blir avlevert som en del av arkivuttrekket. Det betyr at dersom man har funksjonaliteten, i tråd med kravene eller noe tilsvarende, vil metadata om dokumentflyt være obligatoriske i arkivuttrekket.
 
-.. table:: Krav til dokumentflyt
+.. table:: **Krav til dokumentflyt**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til *dokumentflyt*                         | Type                                            | Merknad                                         |
@@ -521,7 +521,7 @@ Avskrivning og saksoppfølging
 
 En Journalpost av typen «inngående dokument» eller «organinternt dokument for oppfølging» står i restanse inntil de er markert som ferdigbehandlet, eller avskrives. Dette kapitlet angir krav til avskrivning. Det følger av arkivforskriften § 10 at avskrivningsmåte skal fremgå av journalen.
 
-.. table:: Krav til avskrivning
+.. table:: **Krav til avskrivning**
 
   +-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+-------------------------------------------------+
   | Krav nr.                                        | Krav til *avskrivning*                          | Type                                            | Merknad                                         |
@@ -572,7 +572,7 @@ Målet med restansekontrollen er å sikre at alle mottatte henvendelser til orga
 
 Restanselisten er ment å gi en leder informasjon om hvordan restansesituasjonen er i vedkommendes enhet og hvilke saksmapper det er knyttet restanser til. For en saksansvarlig kan restanselisten brukes som en påminnelse om at det finnes uavsluttede saker som vedkommende er ansvarlig for. Saksbehandler får tilsvarende en påminnelse om dokumenter vedkommende fortsatt har til behandling.
 
-.. table:: Krav til rapporten Restanseliste
+.. table:: **Krav til rapporten Restanseliste**
 
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Krav til rapporten *Restanseliste*                                                                                                               | Type | Merknad |
@@ -635,7 +635,7 @@ Restanselisten er ment å gi en leder informasjon om hvordan restansesituasjonen
 
 Hensikten med rapporten *Forfallsliste* er å kunne vise dokumenter med en frist for saksbehandlingen, for å kunne varsle saksbehandler. Hvis arkivet har ansvaret for forfallskontrollen, skal arkivtjenesten varsle saksbehandler om forfallsdatoen. Alternativt kan saksbehandler med registreringstilgang selv registrere og følge opp forfallsdatoer på sine dokumenter.
 
-.. table:: Krav til rapporten Forfallsliste
+.. table:: **Krav til rapporten Forfallsliste**
 
   +----------+---------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Krav til rapporten *Forfallsliste*                                                          | Type | Merknad |

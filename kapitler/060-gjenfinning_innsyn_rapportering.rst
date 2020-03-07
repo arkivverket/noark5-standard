@@ -16,7 +16,7 @@ Gjenfinning av dokumenter skjer typisk ved søking i dokumentenes metadata, f.ek
 
 Søkeresultat skal ta hensyn til tilgangen til dokumentene i kjernen og til skjerming av opplysninger.
 
-.. table:: Funksjonelle krav til gjenfinning
+.. table:: **Funksjonelle krav til gjenfinning**
 
   +----------+--------------------------------------------------------------------------------------------------------------------------------------------+------+---------+
   | Krav nr. | Funksjonelle krav til gjenfinning                                                                                                          | Type | Merknad |
@@ -66,7 +66,7 @@ Hensikten med rapporten Løpende *journal* er å gi en oversikt over alle journa
 
 Bestemmelsene om journaler finnes i arkivforskriften §§ 9 og 10.
 
-.. table:: Krav til rapporten løpende journal
+.. table:: **Krav til rapporten løpende journal**
 
   +----------+--------------------------------------------------------------------------------------------------------------------------+------+---------------------------+
   | Krav nr. | Krav til rapporten *Løpende journal*                                                                                     | Type | Merknad                   |
@@ -146,7 +146,7 @@ arkivforskriften § 10.
 
 Kravene under er obligatoriske for sakarkivløsninger eller andre løsninger underlagt Offentleglova sine bestemmelser om offentlig journal.
 
-.. table:: Krav til rapporten Offentlig journal
+.. table:: **Krav til rapporten Offentlig journal**
 
   +-----------+-------------------------------------------------+------+-------------------------------------------------+
   | Krav nr.  | Krav til rapporten *Offentlig journal*          | Type | Merknad                                         |
@@ -264,7 +264,7 @@ Utgangspunktet etter offentleglova er at postjournaler er offentlige. Allmennhet
 
 Noen ganger vil det likevel være helt klart på forhånd at det ikke blir aktuelt å gi fullt innsyn i dokumentet. Da kan det være behov for å markere dette i den offentlige journalen ved å vise til den aktuelle unntakshjemmelen i offentleglova. Slik forhåndsklassifisering av dokumentet kan være aktuell også i en del tilfeller der det ikke er hjemmel for å skjerme journalopplysninger, for eksempel når dokumentet, men ingen av journalopplysningene, inneholder taushetsbelagt informasjon. Derfor er det i Noark 5 lagt opp til at offentlig journal skal inneholde separate felter for henholdsvis skjermingshjemmel og forhåndsklassifisering.
 
-.. table:: Krav til tilgangskoder for unntak fra offentlig journal
+.. table:: **Krav til tilgangskoder for unntak fra offentlig journal**
 
   +-----------------------+---------------------------------------------------------------+------+-------------------------------------------------+
   | Krav nr.              | Krav til tilgangskoder for unntak fra offentlig journal       | Type | Merknad                                         |
@@ -336,7 +336,7 @@ Noen ganger vil det likevel være helt klart på forhånd at det ikke blir aktue
   |                       | skjerming                                                     |      |                                                 |
   +-----------------------+---------------------------------------------------------------+------+-------------------------------------------------+
 
-.. table:: Krav til skjermingsfunksjoner og – metoder for unntak fra offentlig journal
+.. table:: **Krav til skjermingsfunksjoner og – metoder for unntak fra offentlig journal**
 
   +---------+-------------------------------------------------+------+-------------------------------------------------+
   | Krav nr.| Krav til skjermingsfunksjoner og – metoder for  | Type | Merknad                                         |
@@ -387,7 +387,7 @@ Et annet aspekt er søking på navn gjennom søketjenester som Google, Bing, Yah
 
 Det er også åpning for å tilgjengeliggjøre selve dokumentene på Internett, jf. offentlegforskrifta § 7, hvor det også stilles krav om at man i så fall skal opplyse om hvilke kriterium som ligger til grunn for utvalget som tilgjengeliggjøres. Her er det ikke tilstrekkelig å si at alle dokumenter som ikke en unntatt fra offentlighet skal tilgjengeliggjøres, da det også her gjelder at visse opplysninger ikke skal gjøres tilgjengelig på Internett selv om de ikke skal eller kan unntas fra offentlighet. Det betyr at man som hovedregel aktiv bør ta stilling til hvilke dokumenter som tilgjengeliggjøres, og ikke legge inn dette som automatikk i tilgjengeliggjøringsløsningen.
 
-.. table:: Krav til tilgjengeliggjøring av offentlig journal på Internett
+.. table:: **Krav til tilgjengeliggjøring av offentlig journal på Internett**
 
   +-----------------------------+-------------------------------------------------+------+-------------------------------------------------+
   | Krav nr.                    | Krav til tilgjengeliggjøring av offentlig       | Type | Merknad                                         |
@@ -469,7 +469,7 @@ Sikring av innsyn og tilgjengelighet
 
 Forvaltningsloven og personopplysningsloven gir (med visse begrensninger) særskilte innsynsrettigheter til den som er part i en sak, og til den som er registrert i organets informasjonssystem. Det elektroniske arkivet må kunne realisere individuell innsynsrett for den enkelte part/registrerte uten at vedkommende trenger å ha detaljkunnskaper om organets organisering og autorisasjonsbeslutninger.
 
-.. table:: Krav til sikring av partsinnsyn
+.. table:: **Krav til sikring av partsinnsyn**
 
   +-----------+-----------------------------------------------------------+------+---------+
   | Krav nr.  | Krav til sikring av partsinnsyn                           | Type | Merknad |

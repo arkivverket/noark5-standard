@@ -3,7 +3,6 @@
 import argparse
 import re
 import sys
-import tabulate
 import yaml
 
 
@@ -64,16 +63,7 @@ def main():
                 print(line)
             print()
     else:
-        fields = (('Nr', 'Navn'),
-                  ('Obligatorisk/valgfri', 'Forekomster'),
-                  'Definisjon',
-                  'Arkivenhet',
-                  'Kilde',
-                  'Arv',
-                  'Betingelser',
-                  'Kommentarer')
-        # Alternative presentation, only two columns
-        xfields = ('Nr',
+        fields = ('Nr',
                   'Navn',
                   'Obligatorisk/valgfri',
                   'Forekomster',
@@ -104,6 +94,7 @@ Katalogoppføringer
 
         lastgroup = None
         for number in sorted(metadata.keys()):
+            name = metadata[number]['Navn']
             table = []
             for f in fields:
                 if tuple == type(f):
@@ -122,7 +113,17 @@ Katalogoppføringer
                 print("~" * len(g))
                 print("")
                 lastgroup = g
-            print(tabulate.tabulate(table, tablefmt='grid'))
+            print(".. list-table:: **%s %s**" % (number, name))
+            print("   :widths: 2 6")
+            print("   :header-rows: 0")
+            print()
+            for f, v in table:
+                print(" * - %s" % f)
+                if v:
+                    v = v.replace("\n", "\n     ")
+                else:
+                    v = ""
+                print("   - %s" % v)
             print()
     return retval
 

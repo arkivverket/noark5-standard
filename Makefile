@@ -62,8 +62,10 @@ spesifikasjon.epub: docbook images
 	pandoc -f $(PANDOC_TYPE) -t latex $^ -o $@
 
 # Rule useful for comparing official XSD with content of spesification
-metadatakatalog.xsd:  metadata/*.yaml
+avledet/metadatakatalog.xsd:  metadata/*.yaml
 	scripts/metadata2xsd metadata/*.yaml
+avledet/krav.tsv: kapitler/*.rst
+	./scripts/krav-rst2csv
 
 .PHONY: docbook
 .SUFFIXES: .rst .pdf .docx .puml .png .svg .epub

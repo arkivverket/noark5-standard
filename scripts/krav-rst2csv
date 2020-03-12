@@ -107,7 +107,7 @@ def main():
                     row.append(v)
             list.append(row)
 
-        with open('krav.tsv', 'w', encoding='utf-8') as f:
+        with open('avledet/krav.tsv', 'w', encoding='utf-8') as f:
             writer = csv.writer(f, delimiter='\t')
             writer.writerows(list)
     return 0

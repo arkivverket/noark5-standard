@@ -86,7 +86,7 @@ def main():
             else:
                 number = info['Nr']
                 metadata[number] = info
-    with codecs.open('metadatakatalog.xsd', 'w', encoding='UTF-8') as fh:
+    with codecs.open('avledet/metadatakatalog.xsd', 'w', encoding='UTF-8') as fh:
         output = XMLFile(fh)
         attr = 'xmlns="http://www.arkivverket.no/standarder/noark5/metadatakatalog" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.arkivverket.no/standarder/noark5/metadatakatalog" elementFormDefault="qualified" version="5.0"'
         with output.tag('xs:schema', attr=attr):

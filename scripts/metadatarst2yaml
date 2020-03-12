@@ -8,16 +8,19 @@ import yaml
 
 class MetadataRstVisitor(docutils.nodes.NodeVisitor):
     entry = {}
+    intable = False
 
     def visit_title(self, node: docutils.nodes.reference) -> None:
         """Called for "title" nodes to record metadata category."""
-        self.lasttitle = node.astext()
+        if not self.intable:
+            self.lasttitle = node.astext()
 
     def visit_table(self, node: docutils.nodes.reference) -> None:
         """Called for "table" nodes."""
         self.entry = {
             'Gruppe': self.lasttitle,
         }
+        self.intable = True
 
     def visit_row(self, node: docutils.nodes.reference) -> None:
         """Called for "table row" nodes."""
@@ -94,7 +97,7 @@ class MetadataRstVisitor(docutils.nodes.NodeVisitor):
             d = yaml.dump(self.entry, file,
                           allow_unicode=True,
                           default_flow_style=False)
-        pass
+        self.intable = False
 
     def unknown_visit(self, node: docutils.nodes.Node) -> None:
         """Called for all other node types."""

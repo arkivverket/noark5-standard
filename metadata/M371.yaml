@@ -1,0 +1,13 @@
+Arkivenhet: moetemappe
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Sted hvor møtet ble avholdt
+Forekomster: 0-1
+Gruppe: Møtebehandling
+Kilde: Registreres manuelt ved opprettelsen av møtemappen
+Kommentarer:
+Navn: moetested
+Nr: M371
+Obligatorisk/valgfri: Valgfri

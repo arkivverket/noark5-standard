@@ -1,0 +1,18 @@
+Arkivenhet: moeteregistrering
+Arv: Nei
+Avleveres: A
+Betingelser: |-
+  Valgfrie verdier, eksempler:
+
+  - "Ferdig behandlet av utvalget"
+  - "Utsatt til nytt møte i samme utvalg"
+  - "Sendt tilbake til foregående utvalg"
+Datatype: Tekststreng
+Definisjon: Status til møteregistreringen
+Forekomster: 0-1
+Gruppe: Status
+Kilde:
+Kommentarer:
+Navn: moeteregistreringsstatus
+Nr: M055
+Obligatorisk/valgfri: Valgfri

@@ -1,0 +1,15 @@
+Arkivenhet: journalpost
+Arv: Nei
+Avleveres:
+Betingelser:
+Datatype: Dato
+Definisjon: Datoen da offentlighetsvurdering ble foretatt
+Forekomster: 0-1
+Gruppe: Datoer
+Kilde: Registreres automatisk knyttet til funksjonalitet for skjerming
+Kommentarer: Dato for offentlighetsvurdering kan brukes dersom inngående dokumenter
+  automatisk blir midlertidig skjermet ved mottak, og offentlighets­vurderingen skjer
+  på et litt senere tidspunkt.
+Navn: offentlighetsvurdertDato
+Nr: M110
+Obligatorisk/valgfri: Valgfri

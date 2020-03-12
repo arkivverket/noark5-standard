@@ -1,0 +1,13 @@
+Arkivenhet: arkiv, arkivdel, klassifikasjonssystem, klasse og mappe
+Arv: Nei
+Avleveres:
+Betingelser: Skal ikke kunne endres. Obligatorisk dersom arkivdelen er avsluttet.
+Datatype: Dato og klokkeslett
+Definisjon: Dato og klokkeslett når arkivenheten ble avsluttet/lukket
+Forekomster: 0-1
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk av systemet når enheten avsluttes
+Kommentarer:
+Navn: avsluttetDato
+Nr: M602
+Obligatorisk/valgfri: Betinget obligatorisk

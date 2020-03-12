@@ -1,0 +1,14 @@
+Arkivenhet: dokumentbeskrivelse
+Arv: Nei
+Avleveres: A
+Betingelser: Skal ikke kunne endres
+Datatype: Heltall
+Definisjon: Identifikasjon av dokumentene innenfor en registrering
+Forekomster: '1'
+Gruppe: Identifikasjon
+Kilde: Registreres automatisk av systemet
+Kommentarer: Dokumentnummeret avgjør i hvilken rekkefølge dokumentene vises i brukergrensesnittet.
+  Normalt skal hoveddokument vises før vedleggene.
+Navn: dokumentnummer
+Nr: M007
+Obligatorisk/valgfri: Obligatorisk

@@ -1,0 +1,20 @@
+Arkivenhet: journalpost
+Arv: Nei
+Avleveres: A
+Betingelser: |-
+  Obligatoriske verdier:
+
+  - "Besvart med brev"
+  - "Besvart med e-post"
+  - "Besvart på telefon"
+  - "Tatt til etterretning"
+  - "Tatt til orientering"
+Datatype: Tekststreng
+Definisjon: Måten en journalpost har blitt avskrevet på
+Forekomster: 0-1
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk når konvertering utføres.
+Kommentarer:
+Navn: avskrivningsmaate
+Nr: M619
+Obligatorisk/valgfri: Betinget obligatorisk

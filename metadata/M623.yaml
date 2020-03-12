@@ -1,0 +1,13 @@
+Arkivenhet: journalpost, dokumentbeskrivelse, dokumentobjekt
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Tekststreng
+Definisjon: Navn på person som har verifisert en elektronisk signatur
+Forekomster: '1'
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk når verifisering utføres
+Kommentarer:
+Navn: verifisertAv
+Nr: M623
+Obligatorisk/valgfri: Betinget obligatorisk

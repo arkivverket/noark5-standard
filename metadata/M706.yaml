@@ -1,0 +1,13 @@
+Arkivenhet: dokumentobjekt
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres. Algoritmen som skal brukes inntil videre er SHA256.
+Datatype: Tekststreng
+Definisjon: Algoritmen som er brukt for å beregne sjekksummen
+Forekomster: '1'
+Gruppe: Tekniske metadata
+Kilde: Registreres automatisk i forbindelse med eksport for avlevering
+Kommentarer:
+Navn: sjekksumAlgoritme
+Nr: M706
+Obligatorisk/valgfri: Obligatorisk

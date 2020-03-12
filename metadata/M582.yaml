@@ -1,0 +1,17 @@
+Arkivenhet: Brukeradministrasjon inngår ikke i arkivstrukturen
+Arv: Nei
+Avleveres:
+Betingelser: |-
+  Ingen obligatoriske verdier. Aktuelle verdier kan være:
+
+  - "Ansatt"
+  - "Sluttet"
+Datatype: Tekststreng
+Definisjon: Status til en bruker av en Noark 5-løsning.
+Forekomster: 0-1
+Gruppe: Brukeradministrasjon og administrasjonsstruktur
+Kilde: Registreres manuelt av administrator
+Kommentarer:
+Navn: brukerstatus
+Nr: M582
+Obligatorisk/valgfri: Valgfri

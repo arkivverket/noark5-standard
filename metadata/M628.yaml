@@ -1,0 +1,13 @@
+Arkivenhet: saksmappe eller journalpost
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Dato og klokkeslett
+Definisjon: Dato og klokkeslett for når presedensen er godkjent
+Forekomster: 0-1
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk dersom det finnes funksjonalitet for å godkjenne presedenser
+Kommentarer:
+Navn: presedensGodkjentDato
+Nr: M628
+Obligatorisk/valgfri: Valgfri

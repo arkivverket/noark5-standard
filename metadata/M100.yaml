@@ -1,0 +1,13 @@
+Arkivenhet: saksmappe
+Arv: Nei
+Avleveres: A
+Betingelser: Skal kunne endres manuelt inntil saksmappen avsluttes
+Datatype: Dato
+Definisjon: Datoen saken er opprettet
+Forekomster: '1'
+Gruppe: Datoer
+Kilde: Settes automatisk til samme dato som *M600 opprettetDato*
+Kommentarer:
+Navn: saksdato
+Nr: M100
+Obligatorisk/valgfri: Obligatorisk

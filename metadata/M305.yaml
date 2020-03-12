@@ -1,0 +1,17 @@
+Arkivenhet: saksmappe, journalpost, moeteregistrering
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Navn på avdeling, kontor eller annen administrativ enhet som har ansvaret
+  for saksbehandlingen.
+Forekomster: '1'
+Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
+Kilde: Registreres automatisk f.eks. på grunnlag av innlogget bruker, kan overstyres
+Kommentarer: Merk at på journalpostnivå grupperes *administrativEnhet* sammen med
+  *M307 saksbehandler* inn i korrespondansepart. Dette muliggjør individuell behandling
+  når det er flere mottakere, noe som er særlig aktuelt ved organinterne dokumenter
+  som skal følges opp.
+Navn: administrativEnhet
+Nr: M305
+Obligatorisk/valgfri: Obligatorisk

@@ -1,0 +1,14 @@
+Arkivenhet: journalpost
+Arv: Nei
+Avleveres: A
+Betingelser: Skal ikke kunne endres ved automatisk registrering, dato for mottak av
+  fysiske dokumenter skal kunne endres inntil arkivering
+Datatype: Dato
+Definisjon: Dato et eksternt dokument ble mottatt
+Forekomster: 0-1
+Gruppe: Datoer
+Kilde: Registreres manuelt eller automatisk av systemet ved elektronisk kommunikasjon
+Kommentarer: Merk at mottattDato ikke behøver å være identisk med *M600 opprettetDato*
+Navn: mottattDato
+Nr: M104
+Obligatorisk/valgfri: Valgfri

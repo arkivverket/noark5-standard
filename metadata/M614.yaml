@@ -1,0 +1,14 @@
+Arkivenhet: arkivdel, dokumentbeskrivelse
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Tekststreng
+Definisjon: Navn på person som har utført en kontrollert kassasjon av dokumenter,
+  eller sletting av versjoner, formater og varianter.
+Forekomster: '1'
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk når et dokument blir slettet
+Kommentarer: Sletting må ikke blandes sammen med kassasjon.
+Navn: slettetAv
+Nr: M614
+Obligatorisk/valgfri: Betinget obligatorisk

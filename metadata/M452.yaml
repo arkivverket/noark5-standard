@@ -1,0 +1,15 @@
+Arkivenhet: mappe, registrering, dokumentbeskrivelse
+Arv: Ja
+Avleveres: A
+Betingelser:
+Datatype: Dato
+Definisjon: Dato for når dokumentene som tilhører denne arkivenheten skal kunne kasseres,
+  eller vurderes for bevaring og kassasjon på ny
+Forekomster: '1'
+Gruppe: Bevaring og kassasjon
+Kilde: Datoen beregnes automatisk på grunnlag av *M451 Bevaringstid*, eller registreres
+  manuelt
+Kommentarer:
+Navn: kassasjonsdato
+Nr: M452
+Obligatorisk/valgfri: Betinget obligatorisk

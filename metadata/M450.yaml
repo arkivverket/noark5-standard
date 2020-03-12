@@ -1,0 +1,19 @@
+Arkivenhet: arkivdel, klasse, mappe, registrering, dokument­beskrivelse
+Arv: Ja
+Avleveres: A
+Betingelser: |-
+  Obligatoriske verdier:
+
+  - "Bevares"
+  - "Kasseres" ,
+  - "Vurderes senere"
+Datatype: Tekststreng
+Definisjon: Handling som skal utføres ved bevaringstidens slutt.
+Forekomster: '1'
+Gruppe: Bevaring og kassasjon
+Kilde: Registreres manuelt ved opprettelse av *arkivdel* eller *klasse*. Arves til
+  underliggende enheter, men kan endres manuelt.
+Kommentarer:
+Navn: kassasjonsvedtak
+Nr: M450
+Obligatorisk/valgfri: Betinget obligatorisk

@@ -1,0 +1,23 @@
+Arkivenhet: klassifikasjonssystem
+Arv: Nei
+Avleveres: A
+Betingelser: |-
+  Ingen obligatoriske typer. Aktuelle verdier kan f.eks. være:
+
+  - "Funksjonsbasert, hierarkisk"
+  - "Emnebasert, hierarkisk arkivnøkkel"
+  - "Emnebasert, ett nivå"
+  - "K-koder"
+  - "Mangefasettert, ikke hierarki"
+  - "Objektbasert"
+  - "Fødselsnummer"
+  - "Gårds- og bruksnummer"
+Datatype: Tekststreng
+Definisjon: Type klassifikasjonssystem
+Forekomster: 0-1
+Gruppe: Typer
+Kilde: Registreres manuelt ved opprettelse av *klassifikasjonssystem*
+Kommentarer:
+Navn: klassifikasjonstype
+Nr: M086
+Obligatorisk/valgfri: Valgfri

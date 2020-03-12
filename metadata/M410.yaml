@@ -1,0 +1,13 @@
+Arkivenhet: korrespondansepart, part
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: E-postadressen til en avsender/mottaker eller part
+Forekomster: 0-1
+Gruppe: Korrespondanse
+Kilde: Registreres manuelt eller automatisk fra dokumentet
+Kommentarer:
+Navn: epostadresse
+Nr: M410
+Obligatorisk/valgfri: Valgfri

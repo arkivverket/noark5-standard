@@ -1,0 +1,19 @@
+Arkivenhet: arkivdel, mappe, registrering, dokumentbeskrivelse
+Arv: Ja
+Avleveres: A
+Betingelser: |-
+  Obligatoriske verdier:
+
+  - "Skjerming av hele dokumentet"
+  - "Skjerming av deler av dokumentet"
+Datatype: Tekststreng
+Definisjon: Angivelse av at hele dokumentet eller deler av det må skjermes.
+Forekomster: 0-1
+Gruppe: Skjerming og gradering
+Kilde: Registreres manuelt ved valg fra liste eller annen funksjonalitet, kan også
+  registreres automatisk
+Kommentarer: Dersom deler av dokumentet skal skjermes, må dokumentet også finnes i
+  en variant. Her må all informasjon som skal skjermes, være "sladdet".
+Navn: skjermingDokument
+Nr: M503
+Obligatorisk/valgfri: Betinget obligatorisk

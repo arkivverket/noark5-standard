@@ -1,0 +1,34 @@
+Arkivenhet: arkivdel, klasse, mappe, registrering, dokumentbeskrivelse
+Arv: Ja
+Avleveres: A
+Betingelser: |-
+  Obligatoriske verdier:
+
+  - "Skjerming klasseID"
+  - "Skjerming tittel klasse"
+  - "Skjerming tittel mappe - unntatt første linje"
+  - "Skjerming tittel mappe - utvalgte ord"
+  - "Skjerming navn part i sak"
+  - "Skjerming tittel registrering - unntatt første linje"
+  - "Skjerming tittel registrering - utvalgte ord"
+  - "Skjerming navn avsender"
+  - "Skjerming navn mottaker"
+  - "Skjerming tittel dokumentbeskrivelse"
+  - "Skjerming merknadstekst"
+  - "Midlertidig skjerming"
+Datatype: Tekststreng
+Definisjon: Angivelse av hvilke metadataelementer som skal skjermes.
+Forekomster: 0-1
+Gruppe: Skjerming og gradering
+Kilde: Registreres manuelt ved valg fra liste eller annen funksjonalitet, kan også
+  registreres automatisk
+Kommentarer: Skjerming av klasseID (arkivnøkkel, arkivkode) er f.eks. aktuelt når
+  identifikasjonen er et fødselsnummer. Dersom utvalgte ord fra tittel skjermes, er
+  metadataelementet *M025 offentligTittel* obligatorisk. Skjerming av navn på part
+  i sak angis for *saksmappe*, skjerming av navn på avsender og mottaker angis for
+  *journalpost*, skjerming av merknader angis for *saksmappe* og *journalpost*. Ved
+  midlertidig skjerming skal alle metadata ovenfor skjermes, må bare brukes inntil
+  skjermingsbehovet er vurdert.
+Navn: skjermingMetadata
+Nr: M502
+Obligatorisk/valgfri: Betinget obligatorisk

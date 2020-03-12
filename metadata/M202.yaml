@@ -1,0 +1,14 @@
+Arkivenhet: arkivdel
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: systemID
+Definisjon: Referanse til den arkivdelen som er forløper for denne arkivdelen, dvs.
+  inneholder forrige arkivperiode.
+Forekomster: 0-1
+Gruppe: Referanser
+Kilde: Registreres automatisk når arkivdelen som er arvtaker opprettes
+Kommentarer:
+Navn: referanseForloeper
+Nr: M202
+Obligatorisk/valgfri: Betinget obligatorisk

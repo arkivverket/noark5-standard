@@ -1,0 +1,13 @@
+Arkivenhet: Filen endringslogg.xml
+Arv:
+Avleveres: A
+Betingelser:
+Datatype: Dato og klokkeslett
+Definisjon: Dato og klokkeslett når et metadataelement ble endret
+Forekomster: '1'
+Gruppe: Logging av endringer
+Kilde: Registreres automatisk ved endring av metadata
+Kommentarer:
+Navn: endretDato
+Nr: M682
+Obligatorisk/valgfri: Betinget obligatorisk

@@ -1,0 +1,14 @@
+Arkivenhet: mappe, registrering og dokumentbeskrivelse
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Merknad fra saksbehandler, leder eller arkivpersonale.
+Forekomster: '1'
+Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
+Kilde: Registreres manuelt
+Kommentarer: Merknaden bør gjelde selve saksbehandlingen eller forhold rundt arkiveringen
+  av dokumentene som tilhører arkivenheten.
+Navn: merknadstekst
+Nr: M310
+Obligatorisk/valgfri: Betinget obligatorisk

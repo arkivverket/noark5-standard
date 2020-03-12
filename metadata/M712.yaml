@@ -1,0 +1,14 @@
+Arkivenhet: dokumentobjekt
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Tekststreng
+Definisjon: Formatet dokumentet hadde før det ble konvertert
+Forekomster: '1'
+Gruppe: Tekniske metadata
+Kilde: Registreres automatisk ved konvertering
+Kommentarer: Dette vil vanligvis være produksjonsformatet, men kan også være et annet
+  arkivformat. Faste verdier bestemmes senere.
+Navn: konvertertFraFormat
+Nr: M712
+Obligatorisk/valgfri: Betinget obligatorisk

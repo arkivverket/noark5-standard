@@ -1,0 +1,14 @@
+Arkivenhet: 'Egne filer med journalutskrift for løpende og offentlig journal: loependeJournal.xml
+  og offentligJournal.xml.'
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Tekststreng
+Definisjon: Antall journalposter i rapporten
+Forekomster: '1'
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk ved produksjon av avleveringsuttrekk
+Kommentarer:
+Navn: antallJournalposter
+Nr: M609
+Obligatorisk/valgfri: Betinget obligatorisk

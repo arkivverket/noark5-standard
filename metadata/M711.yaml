@@ -1,0 +1,14 @@
+Arkivenhet: mappe, registrering, dokumentbeskrivelse, part
+Arv:
+Avleveres: A
+Betingelser:
+Datatype: Vilkårlig struktur
+Definisjon: Et overordnet metadataelement som kan inneholde egendefinerte metadata.
+  Disse metadataene må da være spesifisert i et eller flere XML-skjema.
+Forekomster: 0-1
+Gruppe: Tekniske metadata
+Kilde:
+Kommentarer:
+Navn: virksomhetsspesifikkeMetadata
+Nr: M711
+Obligatorisk/valgfri: Valgfri

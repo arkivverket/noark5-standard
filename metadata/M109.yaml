@@ -1,0 +1,13 @@
+Arkivenhet: journalpost
+Arv: Nei
+Avleveres:
+Betingelser:
+Datatype: Dato
+Definisjon: Dato som angir fristen for når et inngående dokument må være besvart
+Forekomster: 0-1
+Gruppe: Datoer
+Kilde: Registreres manuelt
+Kommentarer: Forfallsdato kan være angitt som en betingelse i det inngående dokumentet
+Navn: forfallsdato
+Nr: M109
+Obligatorisk/valgfri: Valgfri

@@ -1,0 +1,21 @@
+Arkivenhet: arkivdel
+Arv: Nei
+Avleveres: A
+Betingelser: |-
+  Obligatoriske verdier:
+
+  - "Aktiv periode"
+  - "Overlappingsperiode"
+  - "Avsluttet periode"
+  - "Uaktuelle mapper"
+
+  Skifte av status kan bare utføres av autoriserte personer.
+Datatype: Tekststreng
+Definisjon: Status til den arkivperioden som arkivdelen omfatter
+Forekomster: '1'
+Gruppe: Status
+Kilde: Registreres manuelt når arkivdelen opprettes eller ved skifte av status.
+Kommentarer: Arkivdeler som avleveres skal ha status "Avsluttet periode"
+Navn: arkivdelstatus
+Nr: M051
+Obligatorisk/valgfri: Obligatorisk

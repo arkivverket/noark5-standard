@@ -1,0 +1,16 @@
+Arkivenhet: saksmappe, journalpost
+Arv: Nei
+Avleveres:
+Betingelser: Utlån skal også kunne registreres etter at en saksmappe er avsluttet,
+  eller etter at dokumentene i en journalpost ble arkivert.
+Datatype: Dato
+Definisjon: Dato når en fysisk saksmappe eller journalpost ble utlånt
+Forekomster: 0-1
+Gruppe: Datoer
+Kilde: Registreres manuelt ved utlån
+Kommentarer: Det er ikke spesifisert noen dato for tilbakelevering. Tilbakelevering
+  kan markeres ved at *M106* *utlaantDato* slettes. Det er ingen krav om obligatorisk
+  logging av utlån av fysiske dokumenter.
+Navn: utlaantDato
+Nr: M106
+Obligatorisk/valgfri: Valgfri

@@ -1,0 +1,13 @@
+Arkivenhet: dokumentbeskrivelse
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Tekststreng
+Definisjon: Navn på person som knyttet et dokument til en registrering
+Forekomster: '1'
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk når tilknytning foretas
+Kommentarer:
+Navn: tilknyttetAv
+Nr: M621
+Obligatorisk/valgfri: Obligatorisk

@@ -1,0 +1,13 @@
+Arkivenhet: dokumentobjekt
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Tekststreng
+Definisjon: Formatet dokumentet fikk etter konvertering
+Forekomster: '1'
+Gruppe: Tekniske metadata
+Kilde: Registreres automatisk ved konvertering
+Kommentarer: Faste verdier bestemmes senere
+Navn: konvertertTilFormat
+Nr: M713
+Obligatorisk/valgfri: Betinget obligatorisk

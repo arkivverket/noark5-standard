@@ -1,0 +1,14 @@
+Arkivenhet: journalpost
+Arv: Nei
+Avleveres: A
+Betingelser: Skal ikke kunne endres ved automatisk registrering, dato for forsendelse
+  av fysiske dokumenter skal kunne endres inntil arkivering
+Datatype: Dato
+Definisjon: Dato et internt produsert dokument ble sendt/ekspedert
+Forekomster: 0-1
+Gruppe: Datoer
+Kilde: Registreres manuelt eller automatisk av systemet ved elektronisk kommunikasjon
+Kommentarer:
+Navn: sendtDato
+Nr: M105
+Obligatorisk/valgfri: Valgfri

@@ -1,0 +1,14 @@
+Arkivenhet: saksmappe
+Arv: Ja til journalpost, jf. *M307 saksbehandler*
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Navn på person som er saksansvarlig
+Forekomster: '1'
+Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
+Kilde: Registreres automatisk på grunnlag av innlogget bruker eller annen saksbehandlingsfunksjonalitet
+  (f.eks. saksfordeling), kan overstyres manuelt
+Kommentarer:
+Navn: saksansvarlig
+Nr: M306
+Obligatorisk/valgfri: Obligatorisk

@@ -1,0 +1,14 @@
+Arkivenhet: arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse,
+  dokumentobjekt
+Arv: Nei
+Avleveres:
+Betingelser: Skal ikke kunne endres
+Datatype: Tekststreng
+Definisjon: Navn på person som opprettet/registrerte arkivenheten
+Forekomster: 0-1
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk av systemet ved opprettelse av enheten
+Kommentarer:
+Navn: opprettetAv
+Nr: M601
+Obligatorisk/valgfri: Obligatorisk

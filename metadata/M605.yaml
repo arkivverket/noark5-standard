@@ -1,0 +1,14 @@
+Arkivenhet: registrering
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Tekststreng
+Definisjon: Navn på person som arkiverte dokumentet og frøs det for all videre redigering
+Forekomster: '1'
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk ved utførelse av en funksjon som markerer at dokumentene
+  er arkivert. For journalposter kan dette knyttes til endring av journalstatus.
+Kommentarer:
+Navn: arkivertAv
+Nr: M605
+Obligatorisk/valgfri: Obligatorisk

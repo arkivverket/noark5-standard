@@ -1,0 +1,13 @@
+Arkivenhet: Administrasjonsstrukturen inngår ikke i arkivstrukturen
+Arv: Nei
+Avleveres:
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Referanse til enhet som er direkte overordnet denne enheten
+Forekomster: 0-1
+Gruppe: Brukeradministrasjon og administrasjonsstruktur
+Kilde: Registreres manuelt av administrator
+Kommentarer:
+Navn: referanseOverordnetEnhet
+Nr: M585
+Obligatorisk/valgfri: Betinget obligatorisk

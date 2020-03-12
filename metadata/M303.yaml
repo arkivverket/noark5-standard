@@ -1,0 +1,19 @@
+Arkivenhet: mappe, registrering, dokumentbeskrivelse
+Arv: Nei
+Avleveres: A
+Betingelser: |-
+  Her er det mange tenkelige roller, f.eks.
+
+  - Klient
+  - Pårørende
+  - Formynder
+  - Advokat
+Datatype: Tekststreng
+Definisjon: Angivelse av rollen til parten
+Forekomster: '1'
+Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
+Kilde: Registreres manuelt eller automatisk fra fagsystem
+Kommentarer:
+Navn: partRolle
+Nr: M303
+Obligatorisk/valgfri: Betinget obligatorisk

@@ -1,0 +1,14 @@
+Arkivenhet: moetemappe
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Navn på person som var til stedet på møtet
+Forekomster: '1'
+Gruppe: Møtebehandling
+Kilde: Registreres manuelt ved opprettelsen av møtemappen, kan eventuelt også hentes
+  automatisk fra f.eks. møteinnkalling
+Kommentarer:
+Navn: moetedeltakerNavn
+Nr: M372
+Obligatorisk/valgfri: Betinget obligatorisk

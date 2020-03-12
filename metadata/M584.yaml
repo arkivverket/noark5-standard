@@ -1,0 +1,17 @@
+Arkivenhet: Administrasjonsstrukturen inngår ikke i arkivstrukturen
+Arv: Nei
+Avleveres:
+Betingelser: |-
+  Ingen obligatoriske verdier. Aktuelle verdier kan være:
+
+  - "Aktiv enhet"
+  - "Passiv enhet"
+Datatype: Tekststreng
+Definisjon: Status til den administrative enheten
+Forekomster: 0-1
+Gruppe: Brukeradministrasjon og administrasjonsstruktur
+Kilde: Registreres manuelt av administrator
+Kommentarer:
+Navn: administrativEnhetsstatus
+Nr: M584
+Obligatorisk/valgfri: Valgfri

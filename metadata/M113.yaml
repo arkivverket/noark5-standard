@@ -1,0 +1,14 @@
+Arkivenhet: 'Egne filer med journalutskrift for løpende og offentlig journal: loependeJournal.xml
+  og offentligJournal.xml.'
+Arv:
+Avleveres: A
+Betingelser: Sluttdato skal selekteres på *M101 journaldato*
+Datatype: Dato
+Definisjon: Sluttdato for journalutskriftene som inngår i avleveringspakken.
+Forekomster: '1'
+Gruppe: Datoer
+Kilde: Registreres når avleveringspakken produseres
+Kommentarer: Sluttdatoen vil vanligvis være identisk med *M108 arkivperiodeSluttdato*
+Navn: journalSluttDato
+Nr: M113
+Obligatorisk/valgfri: Obligatorisk

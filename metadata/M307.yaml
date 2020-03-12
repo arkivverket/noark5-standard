@@ -1,0 +1,16 @@
+Arkivenhet: journalpost, moeteregistrering
+Arv: Ja fra saksmappe til journalpost, jf. *M306* *saksansvarlig.* Saksansvarlig og
+  saksbehandler vil i mange tilfeller være samme person.
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Navn på person som er saksbehandler
+Forekomster: '1'
+Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
+Kilde: Registreres automatisk på grunnlag av innlogget bruker eller annen saksbehandlingsfunksjonalitet
+  (f.eks. saksfordeling), kan overstyres manuelt.
+Kommentarer: Merk at *saksbehandler* grupperes inn i korrespondansepart på journalpostnivå.
+  Se kommentar til *M305 administrativEnhet*.
+Navn: saksbehandler
+Nr: M307
+Obligatorisk/valgfri: Obligatorisk

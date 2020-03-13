@@ -113,7 +113,7 @@ Katalogoppføringer
                 print("~" * len(g))
                 print("")
                 lastgroup = g
-            print(".. list-table:: **%s %s**" % (number, name))
+            print(".. list-table::")
             print("   :widths: 2 6")
             print("   :header-rows: 0")
             print()

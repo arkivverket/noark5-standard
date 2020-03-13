@@ -15,4 +15,4 @@ Ressurser
 Prosjektet vedlikeholdes på https://github.com/arkivverket/noark5-standard
 
 XML-skjema (XSD)
-https://github.com/arkivverket/schema/
+https://github.com/arkivverket/schemas/

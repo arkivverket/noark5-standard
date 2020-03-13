@@ -9,10 +9,16 @@ Mange av metadataelementene i Noark 5 vil være identiske med attributter i Noar
 
 Forklaring på metadatatabellen i dette vedlegget:
 
-+---------+----------+-------------+------------+----------+--------------+
-| **Nr.** | **Navn** | **Noark 4** | **Forek.** | **Avl.** | **Datatype** |
-+---------+----------+-------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 0
 
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
 
 **Nr.:**
     Henvisning til det entydige nummeret i metadatakatalogen (eget vedlegg)
@@ -77,44 +83,110 @@ Metadata for *arkiv*
 
 Merk: En og bare en av objekttypene *arkiv* eller *arkivdel* grupperes inn i *arkiv*.
 
-+---------+------------------+--------------+------------+----------+---------------------+
-| **Nr.** | **Navn**         | **Noark 4**  | **Forek.** | **Avl.** | **Datatype**        |
-+---------+------------------+--------------+------------+----------+---------------------+
-| M001    | systemID         | AR.ARKIV     | 1          | A        | Tekststreng         |
-+---------+------------------+--------------+------------+----------+---------------------+
-| M020    | tittel           | AR.BETEGN    | 1          | A        | Tekststreng         |
-+---------+------------------+--------------+------------+----------+---------------------+
-| M021    | beskrivelse      | (AR.MERKNAD) | 0-1        | A        | Tekststreng         |
-+---------+------------------+--------------+------------+----------+---------------------+
-| M050    | arkivstatus      |              | 0-1        | A        | Tekststreng         |
-+---------+------------------+--------------+------------+----------+---------------------+
-| M300    | dokumentmedium   |              | 0-1        | A        | Tekststreng         |
-+---------+------------------+--------------+------------+----------+---------------------+
-| M301    | oppbevaringssted |              | 0-M        |          | Tekststreng         |
-+---------+------------------+--------------+------------+----------+---------------------+
-| M600    | opprettetDato    | AR.FRADATO   | 1          | A        | Dato og klokkeslett |
-+---------+------------------+--------------+------------+----------+---------------------+
-| M601    | opprettetAv      |              | 1          | A        | Tekststreng         |
-+---------+------------------+--------------+------------+----------+---------------------+
-| M602    | avsluttetDato    | AR.TILDATO   | 1          | A        | Dato og klokkeslett |
-+---------+------------------+--------------+------------+----------+---------------------+
-| M603    | avsluttetAv      |              | 1          | A        | Tekststreng         |
-+---------+------------------+--------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M001
+   - systemID
+   - AR.ARKIV
+   - 1
+   - A
+   - Tekststreng
+ * - M020
+   - tittel
+   - AR.BETEGN
+   - 1
+   - A
+   - Tekststreng
+ * - M021
+   - beskrivelse
+   - (AR.MERKNAD)
+   - 0-1
+   - A
+   - Tekststreng
+ * - M050
+   - arkivstatus
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M300
+   - dokumentmedium
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M301
+   - oppbevaringssted
+   - 
+   - 0-M
+   - 
+   - Tekststreng
+ * - M600
+   - opprettetDato
+   - AR.FRADATO
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M601
+   - opprettetAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M602
+   - avsluttetDato
+   - AR.TILDATO
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M603
+   - avsluttetAv
+   - 
+   - 1
+   - A
+   - Tekststreng
 
 Metadata for *arkivskaper*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1-M forekomster av *arkivskaper* grupperes inn i 1-M forekomster av *arkiv*.
 
-+---------+-----------------+--------------+------------+----------+--------------+
-| **Nr.** | **Navn**        | **Noark 4**  | **Forek.** | **Avl.** | **Datatype** |
-+---------+-----------------+--------------+------------+----------+--------------+
-| M006    | arkivskaperID   | (AR.ABASEID) | 1          | A        | Tekststreng  |
-+---------+-----------------+--------------+------------+----------+--------------+
-| M023    | arkivskaperNavn | AR.SKAPER    | 1          | A        | Tekststreng  |
-+---------+-----------------+--------------+------------+----------+--------------+
-| M021    | beskrivelse     |              | 0-1        | A        | Tekststreng  |
-+---------+-----------------+--------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M006
+   - arkivskaperID
+   - (AR.ABASEID)
+   - 1
+   - A
+   - Tekststreng
+ * - M023
+   - arkivskaperNavn
+   - AR.SKAPER
+   - 1
+   - A
+   - Tekststreng
+ * - M021
+   - beskrivelse
+   - 
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *arkivdel*
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -123,37 +195,100 @@ Metadata for *arkivdel*
 
 Merk: En og bare en av objekttypene *arkiv* eller *arkivdel* grupperes inn i *arkiv*.
 
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| **Nr.** | **Navn**              | **Noark 4** | **Forek.** | **Avl.** | **Datatype**        |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M001    | systemID              | AD.ARKDEL   | 1          | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M020    | tittel                | AD.BETEGN   | 1          | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M021    | beskrivelse           |             | 0-1        | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M051    | arkivdelstatus        | AD.ASTATUS  | 1          | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M300    | dokumentmedium        | AD.PAPIR    | 0-1        | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M301    | oppbevaringssted      | AD.LOK      | 0-M        |          | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M600    | opprettetDato         | AD.FRADATO  | 1          | A        | Dato og klokkeslett |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M601    | opprettetAv           |             | 1          | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M602    | avsluttetDato         | AD.TILDATO  | 1          | A        | Dato og klokkeslett |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M603    | avsluttetAv           |             | 1          | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M107    | arkivperiodeStartDato | AP.FRADATO  | 0-1        | A        | Dato                |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M108    | arkivperiodeSluttDato | AP.TILDATO  | 0-1        | A        | Dato                |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M202    | referanseForloeper    |             | 0-1        | A        | arkivdel.systemID   |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M203    | referanseArvtaker     | AD.FORTS    | 0-1        | A        | arkivdel.systemID   |
-+---------+-----------------------+-------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M001
+   - systemID
+   - AD.ARKDEL
+   - 1
+   - A
+   - Tekststreng
+ * - M020
+   - tittel
+   - AD.BETEGN
+   - 1
+   - A
+   - Tekststreng
+ * - M021
+   - beskrivelse
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M051
+   - arkivdelstatus
+   - AD.ASTATUS
+   - 1
+   - A
+   - Tekststreng
+ * - M300
+   - dokumentmedium
+   - AD.PAPIR
+   - 0-1
+   - A
+   - Tekststreng
+ * - M301
+   - oppbevaringssted
+   - AD.LOK
+   - 0-M
+   - 
+   - Tekststreng
+ * - M600
+   - opprettetDato
+   - AD.FRADATO
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M601
+   - opprettetAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M602
+   - avsluttetDato
+   - AD.TILDATO
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M603
+   - avsluttetAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M107
+   - arkivperiodeStartDato
+   - AP.FRADATO
+   - 0-1
+   - A
+   - Dato
+ * - M108
+   - arkivperiodeSluttDato
+   - AP.TILDATO
+   - 0-1
+   - A
+   - Dato
+ * - M202
+   - referanseForloeper
+   - 
+   - 0-1
+   - A
+   - arkivdel.systemID
+ * - M203
+   - referanseArvtaker
+   - AD.FORTS
+   - 0-1
+   - A
+   - arkivdel.systemID
 
 Metadata for *klassifikasjonssystem*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -162,25 +297,64 @@ Metadata for *klassifikasjonssystem*
 
 Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registrering* kan grupperes inn i *arkivdel*.
 
-+---------+---------------------+-------------+------------+----------+---------------------+
-| **Nr.** | **Navn**            | **Noark 4** | **Forek.** | **Avl.** | **Datatype**        |
-+---------+---------------------+-------------+------------+----------+---------------------+
-| M001    | systemID            | OP.ORDNPRI  | 1          | A        | Tekststreng         |
-+---------+---------------------+-------------+------------+----------+---------------------+
-| M086    | klassifikasjonstype | OP.TYPE     | 0-1        | A        | Tekststreng         |
-+---------+---------------------+-------------+------------+----------+---------------------+
-| M020    | tittel              | OP.BETEGN   | 1          | A        | Tekststreng         |
-+---------+---------------------+-------------+------------+----------+---------------------+
-| M021    | beskrivelse         |             | 0-1        | A        | Tekststreng         |
-+---------+---------------------+-------------+------------+----------+---------------------+
-| M600    | opprettetDato       | OP.FRADATO  | 1          | A        | Dato og klokkeslett |
-+---------+---------------------+-------------+------------+----------+---------------------+
-| M601    | opprettetAv         |             | 1          | A        | Tekststreng         |
-+---------+---------------------+-------------+------------+----------+---------------------+
-| M602    | avsluttetDato       | OP.TILDATO  | 0-1        | A        | Dato og klokkeslett |
-+---------+---------------------+-------------+------------+----------+---------------------+
-| M603    | avsluttetAv         |             | 0-1        | A        | Tekststreng         |
-+---------+---------------------+-------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M001
+   - systemID
+   - OP.ORDNPRI
+   - 1
+   - A
+   - Tekststreng
+ * - M086
+   - klassifikasjonstype
+   - OP.TYPE
+   - 0-1
+   - A
+   - Tekststreng
+ * - M020
+   - tittel
+   - OP.BETEGN
+   - 1
+   - A
+   - Tekststreng
+ * - M021
+   - beskrivelse
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M600
+   - opprettetDato
+   - OP.FRADATO
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M601
+   - opprettetAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M602
+   - avsluttetDato
+   - OP.TILDATO
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M603
+   - avsluttetAv
+   - 
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *klasse*
 ~~~~~~~~~~~~~~~~~~~~~
@@ -191,27 +365,70 @@ Metadata for *klasse*
 
 Merk: Bare en av objekttypene *klasse*, *mappe* eller *registrering* kan grupperes inn i *klasse*.
 
-+---------+---------------+-------------+------------+----------+---------------------+
-| **Nr.** | **Navn**      | **Noark 4** | **Forek.** | **Avl.** | **Datatype**        |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M001    | systemID      |             | 1          | A        | Tekststreng         |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M002    | klasseID      | OV.ORDNVER  | 1          | A        | Tekststreng         |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M020    | tittel        | OV.BESKR    | 1          | A        | Tekststreng         |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M021    | beskrivelse   |             | 0-1        | A        | Tekststreng         |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M022    | noekkelord    | EA.ORD      | 0-M        | A        | Tekststreng         |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M600    | opprettetDato |             | 1          | A        | Dato og klokkeslett |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M601    | opprettetAv   |             | 1          | A        | Tekststreng         |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M602    | avsluttetDato |             | 0-1        | A        | Dato og klokkeslett |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M603    | avsluttetAv   |             | 0-1        | A        | Tekststreng         |
-+---------+---------------+-------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M001
+   - systemID
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M002
+   - klasseID
+   - OV.ORDNVER
+   - 1
+   - A
+   - Tekststreng
+ * - M020
+   - tittel
+   - OV.BESKR
+   - 1
+   - A
+   - Tekststreng
+ * - M021
+   - beskrivelse
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M022
+   - noekkelord
+   - EA.ORD
+   - 0-M
+   - A
+   - Tekststreng
+ * - M600
+   - opprettetDato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M601
+   - opprettetAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M602
+   - avsluttetDato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M603
+   - avsluttetAv
+   - 
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *mappe*
 ~~~~~~~~~~~~~~~~~~~~
@@ -228,100 +445,256 @@ Merk: Bare en av objekttypene *mappe* eller *registrering* kan grupperes inn i *
 
 Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registrering* kan grupperes inn i *arkivdel*.
 
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| **Nr.** | **Navn**                       | **Noark 4**         | **Forek.** | **Avl.** | **Datatype**        |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| M001    | systemID                       | SA.ID               | 1          | A        | Tekststreng         |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| M003    | mappeID                        | (SA.SAAR+SA. SEKNR) | 1          | A        | Tekststreng         |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| M020    | tittel                         | SA.TITTEL           | 1          | A        | Tekststreng         |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| M025    | offentligTittel                | SA.OFFTITTEL        | 0-1        | A        | Tekststreng         |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| M021    | beskrivelse                    |                     | 0-1        | A        | Tekststreng         |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| M022    | noekkelord                     |                     | 0-M        | A        | Tekststreng         |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| M300    | dokumentmedium                 | SA.PAPIR            | 0-1        | A        | Tekststreng         |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| M301    | oppbevaringssted               |                     | 0-M        |          | Tekststreng         |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| M600    | opprettetDato                  |                     | 1          | A        | Dato og klokkeslett |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| M601    | opprettetAv                    |                     | 1          | A        | Tekststreng         |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| M602    | avsluttetDato                  |                     | 1          | A        | Dato og klokkeslett |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| M603    | avsluttetAv                    |                     | 1          | A        | Tekststreng         |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| M208    | referanseArkivdel              | SA.ARKDEL           | 0-M        | A        | arkivdel.systemID   |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
-| M711    | virksomhetsspesifikke Metadata |                     | 0-1        | A        | Vilkårlig struktur  |
-+---------+--------------------------------+---------------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M001
+   - systemID
+   - SA.ID
+   - 1
+   - A
+   - Tekststreng
+ * - M003
+   - mappeID
+   - (SA.SAAR+SA. SEKNR)
+   - 1
+   - A
+   - Tekststreng
+ * - M020
+   - tittel
+   - SA.TITTEL
+   - 1
+   - A
+   - Tekststreng
+ * - M025
+   - offentligTittel
+   - SA.OFFTITTEL
+   - 0-1
+   - A
+   - Tekststreng
+ * - M021
+   - beskrivelse
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M022
+   - noekkelord
+   - 
+   - 0-M
+   - A
+   - Tekststreng
+ * - M300
+   - dokumentmedium
+   - SA.PAPIR
+   - 0-1
+   - A
+   - Tekststreng
+ * - M301
+   - oppbevaringssted
+   - 
+   - 0-M
+   - 
+   - Tekststreng
+ * - M600
+   - opprettetDato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M601
+   - opprettetAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M602
+   - avsluttetDato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M603
+   - avsluttetAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M208
+   - referanseArkivdel
+   - SA.ARKDEL
+   - 0-M
+   - A
+   - arkivdel.systemID
+ * - M711
+   - virksomhetsspesifikke Metadata
+   - 
+   - 0-1
+   - A
+   - Vilkårlig struktur
 
 Metadata for *saksmappe*
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spesialisering av: *mappe*
 
-+---------+-----------------------------------+--------------+------------+----------+-----------------+
-| **Nr.** | **Navn**                          | **Noark 4**  | **Forek.** | **Avl.** | **Datatype**    |
-+---------+-----------------------------------+--------------+------------+----------+-----------------+
-| M011    | saksaar                           | SA.SAAR      | 1          | A        | Heltall         |
-+---------+-----------------------------------+--------------+------------+----------+-----------------+
-| M012    | sakssekvensnummer                 | SA.SEKNR     | 1          | A        | Heltall         |
-+---------+-----------------------------------+--------------+------------+----------+-----------------+
-| M100    | saksdato                          | SA.DATO      | 1          | A        | Dato            |
-+---------+-----------------------------------+--------------+------------+----------+-----------------+
-| M305    | administrativEnhet                | (SA.ADMID)   | 1          | A        | Tekststreng     |
-+---------+-----------------------------------+--------------+------------+----------+-----------------+
-| M306    | saksansvarlig                     | (SA.ANSVID)  | 1          | A        | Tekststreng     |
-+---------+-----------------------------------+--------------+------------+----------+-----------------+
-| M308    | journalenhet                      | (SA.JENHET)  | 0-1        | A        | Tekststreng     |
-+---------+-----------------------------------+--------------+------------+----------+-----------------+
-| M052    | saksstatus                        | SA.STATUS    | 1          | A        | Tekststreng     |
-+---------+-----------------------------------+--------------+------------+----------+-----------------+
-| M106    | utlaantDato                       | SA.UTLDATO   | 0-1        |          | Dato            |
-+---------+-----------------------------------+--------------+------------+----------+-----------------+
-| M309    | utlaantTil                        | (SA.UTLTIL)  | 0-1        |          | Tekststreng     |
-+---------+-----------------------------------+--------------+------------+----------+-----------------+
-| M209    | referanseSekundaer Klassifikasjon | (KL.ORDNVER) | 0-M        | A        | klasse.systemID |
-+---------+-----------------------------------+--------------+------------+----------+-----------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M011
+   - saksaar
+   - SA.SAAR
+   - 1
+   - A
+   - Heltall
+ * - M012
+   - sakssekvensnummer
+   - SA.SEKNR
+   - 1
+   - A
+   - Heltall
+ * - M100
+   - saksdato
+   - SA.DATO
+   - 1
+   - A
+   - Dato
+ * - M305
+   - administrativEnhet
+   - (SA.ADMID)
+   - 1
+   - A
+   - Tekststreng
+ * - M306
+   - saksansvarlig
+   - (SA.ANSVID)
+   - 1
+   - A
+   - Tekststreng
+ * - M308
+   - journalenhet
+   - (SA.JENHET)
+   - 0-1
+   - A
+   - Tekststreng
+ * - M052
+   - saksstatus
+   - SA.STATUS
+   - 1
+   - A
+   - Tekststreng
+ * - M106
+   - utlaantDato
+   - SA.UTLDATO
+   - 0-1
+   - 
+   - Dato
+ * - M309
+   - utlaantTil
+   - (SA.UTLTIL)
+   - 0-1
+   - 
+   - Tekststreng
+ * - M209
+   - referanseSekundaer Klassifikasjon
+   - (KL.ORDNVER)
+   - 0-M
+   - A
+   - klasse.systemID
 
 Metadata for *moetemappe*
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spesialisering av: *mappe*
 
-+---------+-----------------------+-------------+------------+----------+----------------+
-| **Nr.** | **Navn**              | **Noark 4** | **Forek.** | **Avl.** | **Datatype**   |
-+---------+-----------------------+-------------+------------+----------+----------------+
-| M008    | moetenummer           | MO.NR       | 1          | A        | Tekststreng    |
-+---------+-----------------------+-------------+------------+----------+----------------+
-| M370    | utvalg                | (MO.UTVID)  | 1          | A        | Tekststreng    |
-+---------+-----------------------+-------------+------------+----------+----------------+
-| M102    | moetedato             | MO.DATO     | 1          | A        | Dato           |
-+---------+-----------------------+-------------+------------+----------+----------------+
-| M371    | moetested             | MO.STED     | 0-1        | A        | Tekststreng    |
-+---------+-----------------------+-------------+------------+----------+----------------+
-| M221    | referanseForrigeMoete | MO.FORTS    | 0-1        | A        | mappe.systemID |
-+---------+-----------------------+-------------+------------+----------+----------------+
-| M222    | referanseNesteMoete   |             | 0-1        | A        | mappe.systemID |
-+---------+-----------------------+-------------+------------+----------+----------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M008
+   - moetenummer
+   - MO.NR
+   - 1
+   - A
+   - Tekststreng
+ * - M370
+   - utvalg
+   - (MO.UTVID)
+   - 1
+   - A
+   - Tekststreng
+ * - M102
+   - moetedato
+   - MO.DATO
+   - 1
+   - A
+   - Dato
+ * - M371
+   - moetested
+   - MO.STED
+   - 0-1
+   - A
+   - Tekststreng
+ * - M221
+   - referanseForrigeMoete
+   - MO.FORTS
+   - 0-1
+   - A
+   - mappe.systemID
+ * - M222
+   - referanseNesteMoete
+   - 
+   - 0-1
+   - A
+   - mappe.systemID
 
 Metadata for *moetedeltaker*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *moetedeltaker* grupperes inn i 1-M forekomst av *moetemappe*.
 
-+---------+-----------------------+-------------+------------+----------+--------------+
-| **Nr.** | **Navn**              | **Noark 4** | **Forek.** | **Avl.** | **Datatype** |
-+---------+-----------------------+-------------+------------+----------+--------------+
-| M372    | moetedeltakerNavn     | (UM.PNID)   | 1          | A        | Tekststreng  |
-+---------+-----------------------+-------------+------------+----------+--------------+
-| M373    | moetedeltakerFunksjon | (UM.FUNK)   | 0-1        | A        | Tekststreng  |
-+---------+-----------------------+-------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M372
+   - moetedeltakerNavn
+   - (UM.PNID)
+   - 1
+   - A
+   - Tekststreng
+ * - M373
+   - moetedeltakerFunksjon
+   - (UM.FUNK)
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *registrering*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -338,109 +711,294 @@ Merk: Bare en av objekttypene *klasse*, *mappe* eller *registrering* kan grupper
 
 Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registrering* kan grupperes inn i *arkivdel*.
 
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| **Nr.** | **Navn**                       | **Noark 4**                    | **Forek.** | **Avl.** | **Datatype**        |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M001    | systemID                       | JP.ID                          | 1          | A        | Tekststreng         |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M600    | opprettetDato                  |                                | 1          | A        | Dato og klokkeslett |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M601    | opprettetAv                    |                                | 1          | A        | Tekststreng         |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M604    | arkivertDato                   |                                | 1          | A        | Dato og klokkeslett |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M605    | arkivertAv                     |                                | 1          | A        | Tekststreng         |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M208    | referanseArkivdel              | JP.ARKDEL                      | 0-M        | A        | arkivdel.systemID   |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M004    | registreringsID                | (SA.SAAR+ SA.SEKNR+ JP.POSTNR) | 0-1        | A        | Tekststreng         |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M020    | tittel                         | JP.INNHOLD                     | 1          | A        | Tekststreng         |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M025    | offentligTittel                | JP.OFFINNHOLD                  | 0-1        | A        | Tekststreng         |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M021    | beskrivelse                    |                                | 0-1        | A        | Tekststreng         |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M022    | noekkelord                     |                                | 0-M        | A        | Tekststreng         |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M024    | forfatter                      |                                | 0-M        | A        | Tekststreng         |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M300    | dokumentmedium                 | JP.PAPIR                       | 0-1        | A        | Tekststreng         |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M301    | oppbevaringssted               |                                | 0-M        |          | Tekststreng         |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
-| M711    | virksomhetsspesifikke Metadata |                                | 0-1        | A        | Vilkårlig struktur  |
-+---------+--------------------------------+--------------------------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M001
+   - systemID
+   - JP.ID
+   - 1
+   - A
+   - Tekststreng
+ * - M600
+   - opprettetDato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M601
+   - opprettetAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M604
+   - arkivertDato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M605
+   - arkivertAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M208
+   - referanseArkivdel
+   - JP.ARKDEL
+   - 0-M
+   - A
+   - arkivdel.systemID
+ * - M004
+   - registreringsID
+   - (SA.SAAR+ SA.SEKNR+ JP.POSTNR)
+   - 0-1
+   - A
+   - Tekststreng
+ * - M020
+   - tittel
+   - JP.INNHOLD
+   - 1
+   - A
+   - Tekststreng
+ * - M025
+   - offentligTittel
+   - JP.OFFINNHOLD
+   - 0-1
+   - A
+   - Tekststreng
+ * - M021
+   - beskrivelse
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M022
+   - noekkelord
+   - 
+   - 0-M
+   - A
+   - Tekststreng
+ * - M024
+   - forfatter
+   - 
+   - 0-M
+   - A
+   - Tekststreng
+ * - M300
+   - dokumentmedium
+   - JP.PAPIR
+   - 0-1
+   - A
+   - Tekststreng
+ * - M301
+   - oppbevaringssted
+   - 
+   - 0-M
+   - 
+   - Tekststreng
+ * - M711
+   - virksomhetsspesifikke Metadata
+   - 
+   - 0-1
+   - A
+   - Vilkårlig struktur
 
 Metadata for *korrespondansepart*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *korrespondansepart* grupperes inn i 0-M forekomster av *registrering*.
 
-+---------+------------------------+----------------------------------------+------------+----------+--------------+
-| **Nr.** | **Navn**               | **Noark 4**                            | **Forek.** | **Avl.** | **Datatype** |
-+---------+------------------------+----------------------------------------+------------+----------+--------------+
-| M087    | korrespondanseparttype | (AM.IHTYPE, AM.KOPIMOT, AM.GRUPPE MOT) | 1          | A        | Tekststreng  |
-+---------+------------------------+----------------------------------------+------------+----------+--------------+
-| M400    | korrespondansepartNavn | AM.NAVN                                | 1          | A        | Tekststreng  |
-+---------+------------------------+----------------------------------------+------------+----------+--------------+
-| M406    | postadresse            | AM.ADRESSE                             | 0-M        | A        | Tekststreng  |
-+---------+------------------------+----------------------------------------+------------+----------+--------------+
-| M407    | postnummer             | AM.POSTNR                              | 0-1        | A        | Tekststreng  |
-+---------+------------------------+----------------------------------------+------------+----------+--------------+
-| M408    | poststed               | AM.POSTSTED                            | 0-1        | A        | Tekststreng  |
-+---------+------------------------+----------------------------------------+------------+----------+--------------+
-| M409    | land                   |                                        | 0-1        | A        | Tekststreng  |
-+---------+------------------------+----------------------------------------+------------+----------+--------------+
-| M410    | epostadresse           | AM.EPOSTADR                            | 0-1        | A        | Tekststreng  |
-+---------+------------------------+----------------------------------------+------------+----------+--------------+
-| M411    | telefonnummer          |                                        | 0-M        | A        | Tekststreng  |
-+---------+------------------------+----------------------------------------+------------+----------+--------------+
-| M412    | kontaktperson          |                                        | 0-1        | A        | Tekststreng  |
-+---------+------------------------+----------------------------------------+------------+----------+--------------+
-| M305    | administrativEnhet     | (AM.ADMID)                             | 0-1        | A        | Tekststreng  |
-+---------+------------------------+----------------------------------------+------------+----------+--------------+
-| M307    | saksbehandler          | (AM.SBHID)                             | 0-1        | A        | Tekststreng  |
-+---------+------------------------+----------------------------------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M087
+   - korrespondanseparttype
+   - (AM.IHTYPE, AM.KOPIMOT, AM.GRUPPE MOT)
+   - 1
+   - A
+   - Tekststreng
+ * - M400
+   - korrespondansepartNavn
+   - AM.NAVN
+   - 1
+   - A
+   - Tekststreng
+ * - M406
+   - postadresse
+   - AM.ADRESSE
+   - 0-M
+   - A
+   - Tekststreng
+ * - M407
+   - postnummer
+   - AM.POSTNR
+   - 0-1
+   - A
+   - Tekststreng
+ * - M408
+   - poststed
+   - AM.POSTSTED
+   - 0-1
+   - A
+   - Tekststreng
+ * - M409
+   - land
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M410
+   - epostadresse
+   - AM.EPOSTADR
+   - 0-1
+   - A
+   - Tekststreng
+ * - M411
+   - telefonnummer
+   - 
+   - 0-M
+   - A
+   - Tekststreng
+ * - M412
+   - kontaktperson
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M305
+   - administrativEnhet
+   - (AM.ADMID)
+   - 0-1
+   - A
+   - Tekststreng
+ * - M307
+   - saksbehandler
+   - (AM.SBHID)
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *journalpost*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spesialisering av: *registrering*
 
-+---------+--------------------------+-------------+------------+----------+--------------+
-| **Nr.** | **Navn**                 | **Noark 4** | **Forek.** | **Avl.** | **Datatype** |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M013    | journalaar               | JP.JAAR     | 1          | A        | Heltall      |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M014    | journalsekvensnummer     | JP.SEKNR    | 1          | A        | Heltall      |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M015    | journalpostnummer        | JP.JPOSTNR  | 1          | A        | Heltall      |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M082    | journalposttype          | JP.NDOKTYPE | 1          | A        | Tekststreng  |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M053    | journalstatus            | JP.STATUS   | 1          | A        | Tekststreng  |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M101    | journaldato              | JP.JDATO    | 1          | A        | Dato         |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M103    | dokumentetsDato          | JP.DOKDATO  | 0-1        | A        | Dato         |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M104    | mottattDato              |             | 0-1        | A        | Dato         |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M105    | sendtDato                | JP.EKSPDATO | 0-1        | A        | Dato         |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M109    | forfallsdato             | JP.FORFDATO | 0-1        |          | Dato         |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M110    | offentlighetsvurdertDato | JP.OVDATO   | 0-1        |          | Dato         |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M304    | antallVedlegg            | JP.ANTVED   | 0-1        | A        | Heltall      |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M106    | utlaantDato              | JP.UTLDATO  | 0-1        |          | Dato         |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M309    | utlaantTil               | (JP.UTLTIL) | 0-1        |          | Tekststreng  |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M308    | journalenhet             | (AM.JENHET) | 0-1        | A        | Tekststreng  |
-+---------+--------------------------+-------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M013
+   - journalaar
+   - JP.JAAR
+   - 1
+   - A
+   - Heltall
+ * - M014
+   - journalsekvensnummer
+   - JP.SEKNR
+   - 1
+   - A
+   - Heltall
+ * - M015
+   - journalpostnummer
+   - JP.JPOSTNR
+   - 1
+   - A
+   - Heltall
+ * - M082
+   - journalposttype
+   - JP.NDOKTYPE
+   - 1
+   - A
+   - Tekststreng
+ * - M053
+   - journalstatus
+   - JP.STATUS
+   - 1
+   - A
+   - Tekststreng
+ * - M101
+   - journaldato
+   - JP.JDATO
+   - 1
+   - A
+   - Dato
+ * - M103
+   - dokumentetsDato
+   - JP.DOKDATO
+   - 0-1
+   - A
+   - Dato
+ * - M104
+   - mottattDato
+   - 
+   - 0-1
+   - A
+   - Dato
+ * - M105
+   - sendtDato
+   - JP.EKSPDATO
+   - 0-1
+   - A
+   - Dato
+ * - M109
+   - forfallsdato
+   - JP.FORFDATO
+   - 0-1
+   - 
+   - Dato
+ * - M110
+   - offentlighetsvurdertDato
+   - JP.OVDATO
+   - 0-1
+   - 
+   - Dato
+ * - M304
+   - antallVedlegg
+   - JP.ANTVED
+   - 0-1
+   - A
+   - Heltall
+ * - M106
+   - utlaantDato
+   - JP.UTLDATO
+   - 0-1
+   - 
+   - Dato
+ * - M309
+   - utlaantTil
+   - (JP.UTLTIL)
+   - 0-1
+   - 
+   - Tekststreng
+ * - M308
+   - journalenhet
+   - (AM.JENHET)
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *avskrivning*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -449,42 +1007,104 @@ Metadata for *avskrivning*
 
 Merk: Grupperes inn in den journalposten som avskrives.
 
-+---------+----------------------------------+-------------+------------+----------+------------------------+
-| **Nr.** | **Navn**                         | **Noark 4** | **Forek.** | **Avl.** | **Datatype**           |
-+---------+----------------------------------+-------------+------------+----------+------------------------+
-| M617    | avskrivningsdato                 | AM.AVSKDATO | 1          | A        | Dato og klokkeslett    |
-+---------+----------------------------------+-------------+------------+----------+------------------------+
-| M618    | avskrevetAv                      |             | 1          | A        | Tekststreng            |
-+---------+----------------------------------+-------------+------------+----------+------------------------+
-| M619    | avskrivningsmaate                | AM.AVSKM    | 1          | A        | Tekststreng            |
-+---------+----------------------------------+-------------+------------+----------+------------------------+
-| M215    | referanseAvskrivesAv Journalpost | AM.AVSKAV   | 0-1        | A        | registrering.systemID  |
-+---------+----------------------------------+-------------+------------+----------+------------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M617
+   - avskrivningsdato
+   - AM.AVSKDATO
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M618
+   - avskrevetAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M619
+   - avskrivningsmaate
+   - AM.AVSKM
+   - 1
+   - A
+   - Tekststreng
+ * - M215
+   - referanseAvskrivesAv Journalpost
+   - AM.AVSKAV
+   - 0-1
+   - A
+   - registrering.systemID
 
 Metadata for *arkivnotat*
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spesialisering av: *registrering*
 
-+---------+--------------------------+-------------+------------+----------+--------------+
-| **Nr.** | **Navn**                 | **Noark 4** | **Forek.** | **Avl.** | **Datatype** |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M103    | dokumentetsDato          | JP.DOKDATO  | 0-1        | A        | Dato         |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M104    | mottattDato              |             | 0-1        | A        | Dato         |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M105    | sendtDato                | JP.EKSPDATO | 0-1        | A        | Dato         |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M109    | forfallsdato             | JP.FORFDATO | 0-1        |          | Dato         |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M110    | offentlighetsvurdertDato | JP.OVDATO   | 0-1        |          | Dato         |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M304    | antallVedlegg            | JP.ANTVED   | 0-1        | A        | Heltall      |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M106    | utlaantDato              | JP.UTLDATO  | 0-1        |          | Dato         |
-+---------+--------------------------+-------------+------------+----------+--------------+
-| M309    | utlaantTil               | (JP.UTLTIL) | 0-1        |          | Tekststreng  |
-+---------+--------------------------+-------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M103
+   - dokumentetsDato
+   - JP.DOKDATO
+   - 0-1
+   - A
+   - Dato
+ * - M104
+   - mottattDato
+   - 
+   - 0-1
+   - A
+   - Dato
+ * - M105
+   - sendtDato
+   - JP.EKSPDATO
+   - 0-1
+   - A
+   - Dato
+ * - M109
+   - forfallsdato
+   - JP.FORFDATO
+   - 0-1
+   - 
+   - Dato
+ * - M110
+   - offentlighetsvurdertDato
+   - JP.OVDATO
+   - 0-1
+   - 
+   - Dato
+ * - M304
+   - antallVedlegg
+   - JP.ANTVED
+   - 0-1
+   - A
+   - Heltall
+ * - M106
+   - utlaantDato
+   - JP.UTLDATO
+   - 0-1
+   - 
+   - Dato
+ * - M309
+   - utlaantTil
+   - (JP.UTLTIL)
+   - 0-1
+   - 
+   - Tekststreng
 
 Metadata for *dokumentflyt*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -493,44 +1113,110 @@ Metadata for *dokumentflyt*
 
 0-M forekomster av *dokumentflyt* grupperes inn i 1 forekomst av *arkivnotat*.
 
-+---------+-----------------+-------------+------------+----------+---------------------+
-| **Nr.** | **Navn**        | **Noark 4** | **Forek.** | **Avl.** | **Datatype**        |
-+---------+-----------------+-------------+------------+----------+---------------------+
-| M660    | flytTil         |             | 1          | A        | Tekststreng         |
-+---------+-----------------+-------------+------------+----------+---------------------+
-| M665    | flytFra         |             | 1          | A        | Tekststreng         |
-+---------+-----------------+-------------+------------+----------+---------------------+
-| M661    | flytMottattDato |             | 1          | A        | Dato og klokkeslett |
-+---------+-----------------+-------------+------------+----------+---------------------+
-| M662    | flytSendtDato   |             | 1          | A        | Dato og klokkeslett |
-+---------+-----------------+-------------+------------+----------+---------------------+
-| M663    | flytStatus      |             | 1          | A        | Tekststreng         |
-+---------+-----------------+-------------+------------+----------+---------------------+
-| M664    | flytMerknad     |             | 0-1        | A        | Tekststreng         |
-+---------+-----------------+-------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M660
+   - flytTil
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M665
+   - flytFra
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M661
+   - flytMottattDato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M662
+   - flytSendtDato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M663
+   - flytStatus
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M664
+   - flytMerknad
+   - 
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *moeteregistrering*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spesialisering av: *registrering*
 
-+---------+--------------------------------+-------------+------------+----------+-------------------------+
-| **Nr.** | **Navn**                       | **Noark 4** | **Forek.** | **Avl.** | **Datatype**            |
-+---------+--------------------------------+-------------+------------+----------+-------------------------+
-| M085    | moeteregistreringstype         | MD.DOKTYPE  | 1          | A        | Tekststreng             |
-+---------+--------------------------------+-------------+------------+----------+-------------------------+
-| M088    | moetesakstype                  |             | 0-1        | A        | Tekststreng             |
-+---------+--------------------------------+-------------+------------+----------+-------------------------+
-| M055    | moeteregistreringsstatus       | MD.STATUS   | 0-1        | A        | Tekststreng             |
-+---------+--------------------------------+-------------+------------+----------+-------------------------+
-| M305    | administrativEnhet             | (MD.ADMID)  | 1          | A        | Tekststreng             |
-+---------+--------------------------------+-------------+------------+----------+-------------------------+
-| M307    | saksbehandler                  | (MD.SBHID)  | 1          | A        | Tekststreng             |
-+---------+--------------------------------+-------------+------------+----------+-------------------------+
-| M223    | referanseTil Moeteregistrering |             | 0-M        | A        | registrering.systemID   |
-+---------+--------------------------------+-------------+------------+----------+-------------------------+
-| M224    | referanseFraMoeteregistrering  |             | 0-M        | A        | registrering.systemID   |
-+---------+--------------------------------+-------------+------------+----------+-------------------------+
+.. list-table::
+   :widths: 2 11 5 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M085
+   - moeteregistreringstype
+   - MD.DOKTYPE
+   - 1
+   - A
+   - Tekststreng
+ * - M088
+   - moetesakstype
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M055
+   - moeteregistreringsstatus
+   - MD.STATUS
+   - 0-1
+   - A
+   - Tekststreng
+ * - M305
+   - administrativEnhet
+   - (MD.ADMID)
+   - 1
+   - A
+   - Tekststreng
+ * - M307
+   - saksbehandler
+   - (MD.SBHID)
+   - 1
+   - A
+   - Tekststreng
+ * - M223
+   - referanseTil Moeteregistrering
+   - 
+   - 0-M
+   - A
+   - registrering.systemID
+ * - M224
+   - referanseFraMoeteregistrering
+   - 
+   - 0-M
+   - A
+   - registrering.systemID
 
 Metadata for *dokumentbeskrivelse*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -539,39 +1225,106 @@ Metadata for *dokumentbeskrivelse*
 
 Merk: En *dokumentbeskrivelse* kan være knyttet til mer enn én enkelt *registrering*. Det kan blant annet bety at et dokument er hoveddokument i en journalpost og vedlegg i en annen.
 
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| **Nr.** | **Navn**                   | **Noark 4**  | **Forek.** | **Avl.** | **Datatype**        |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M001    | systemID                   | DB.DOKID     | 1          | A        | Tekststreng         |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M083    | dokumenttype               | DB.KATEGORI  | 1          | A        | Tekststreng         |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M054    | dokumentstatus             | DB.STATUS    | 1          | A        | Tekststreng         |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M020    | tittel                     | DB.TITTEL    | 1          | A        | Tekststreng         |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M021    | beskrivelse                |              | 0-1        | A        | Tekststreng         |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M024    | forfatter                  | (DB.UTARBAV) | 0-M        | A        | Tekststreng         |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M600    | opprettetDato              |              | 1          | A        | Dato og klokkeslett |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M601    | opprettetAv                |              | 1          | A        | Tekststreng         |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M300    | dokumentmedium             | DB.PAPIR     | 0-1        | A        | Tekststreng         |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M301    | oppbevaringssted           | DB.LOKPAPIR  | 0-1        |          | Tekststreng         |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M208    | referanseArkivdel          | JP.ARKDEL    | 0-M        | A        | arkivdel.systemID   |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M217    | tilknyttetRegistrering Som | DL.TYPE      | 1          | A        | Tekststreng         |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M007    | dokumentnummer             | DL.RNR       | 1          | A        | Heltall             |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M620    | tilknyttetDato             | DL.TKDATO    | 1          | A        | Dato og klokkeslett |
-+---------+----------------------------+--------------+------------+----------+---------------------+
-| M621    | tilknyttetAv               | (DL.TKAV)    | 1          | A        | Tekststreng         |
-+---------+----------------------------+--------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M001
+   - systemID
+   - DB.DOKID
+   - 1
+   - A
+   - Tekststreng
+ * - M083
+   - dokumenttype
+   - DB.KATEGORI
+   - 1
+   - A
+   - Tekststreng
+ * - M054
+   - dokumentstatus
+   - DB.STATUS
+   - 1
+   - A
+   - Tekststreng
+ * - M020
+   - tittel
+   - DB.TITTEL
+   - 1
+   - A
+   - Tekststreng
+ * - M021
+   - beskrivelse
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M024
+   - forfatter
+   - (DB.UTARBAV)
+   - 0-M
+   - A
+   - Tekststreng
+ * - M600
+   - opprettetDato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M601
+   - opprettetAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M300
+   - dokumentmedium
+   - DB.PAPIR
+   - 0-1
+   - A
+   - Tekststreng
+ * - M301
+   - oppbevaringssted
+   - DB.LOKPAPIR
+   - 0-1
+   - 
+   - Tekststreng
+ * - M208
+   - referanseArkivdel
+   - JP.ARKDEL
+   - 0-M
+   - A
+   - arkivdel.systemID
+ * - M217
+   - tilknyttetRegistrering Som
+   - DL.TYPE
+   - 1
+   - A
+   - Tekststreng
+ * - M007
+   - dokumentnummer
+   - DL.RNR
+   - 1
+   - A
+   - Heltall
+ * - M620
+   - tilknyttetDato
+   - DL.TKDATO
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M621
+   - tilknyttetAv
+   - (DL.TKAV)
+   - 1
+   - A
+   - Tekststreng
 
 Metadata for *sletting*
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -580,67 +1333,168 @@ Metadata for *sletting*
 
 Merk: Angir at dokumentobjektet som refererer til en eldre versjon av et opprinnelig arkivert dokument, eller en arkivert variant av dokumentet, er blitt slettet. Sletting av produksjonsformater skal ikke tas med i en avlevering.
 
-+---------+---------------+-------------+------------+----------+---------------------+
-| **Nr.** | **Navn**      | **Noark 4** | **Forek.** | **Avl.** | **Datatype**        |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M089    | slettingstype |             | 1          | A        | Tekststreng         |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M613    | slettetDato   |             | 1          | A        | Dato og klokkeslett |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M614    | slettetAv     |             | 1          | A        | Tekststreng         |
-+---------+---------------+-------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M089
+   - slettingstype
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M613
+   - slettetDato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M614
+   - slettetAv
+   - 
+   - 1
+   - A
+   - Tekststreng
 
 Metadata for *dokumentobjekt*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *dokumentobjekt* grupperes inn i 1 forekomst av *dokumentbeskrivelse*.
 
-+---------+----------------------+-----------------+------------+----------+--------------------------------------------+
-| **Nr.** | **Navn**             | **Noark 4**     | **Forek.** | **Avl.** | **Datatype**                               |
-+---------+----------------------+-----------------+------------+----------+--------------------------------------------+
-| M001    | systemID             |                 | 1          | A        | Tekststreng                                |
-+---------+----------------------+-----------------+------------+----------+--------------------------------------------+
-| M005    | versjonsnummer       | VE.VERSJON      | 1          | A        | Heltall                                    |
-+---------+----------------------+-----------------+------------+----------+--------------------------------------------+
-| M700    | variantformat        | (VE.VARIANT)    | 1          | A        | Tekststreng                                |
-+---------+----------------------+-----------------+------------+----------+--------------------------------------------+
-| M701    | format               | (VE.DOK FORMAT) | 1          | A        | Tekststreng                                |
-+---------+----------------------+-----------------+------------+----------+--------------------------------------------+
-| M702    | formatDetaljer       | LF.BESKRIV      | 0-1        | A        | Tekststreng                                |
-+---------+----------------------+-----------------+------------+----------+--------------------------------------------+
-| M600    | opprettetDato        |                 | 1          | A        | Dato og klokkeslett                        |
-+---------+----------------------+-----------------+------------+----------+--------------------------------------------+
-| M601    | opprettetAv          |                 | 1          | A        | Tekststreng                                |
-+---------+----------------------+-----------------+------------+----------+--------------------------------------------+
-| M218    | referanseDokumentfil | VE.FILREF       | 1          | A        | Tekststreng (filkatalogstruktur + filnavn) |
-+---------+----------------------+-----------------+------------+----------+--------------------------------------------+
-| M705    | sjekksum             |                 | 1          | A        | Tekststreng                                |
-+---------+----------------------+-----------------+------------+----------+--------------------------------------------+
-| M706    | sjekksumAlgoritme    |                 | 1          | A        | Tekststreng                                |
-+---------+----------------------+-----------------+------------+----------+--------------------------------------------+
-| M707    | filstoerrelse        |                 | 1          | A        | Tekststreng                                |
-+---------+----------------------+-----------------+------------+----------+--------------------------------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M001
+   - systemID
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M005
+   - versjonsnummer
+   - VE.VERSJON
+   - 1
+   - A
+   - Heltall
+ * - M700
+   - variantformat
+   - (VE.VARIANT)
+   - 1
+   - A
+   - Tekststreng
+ * - M701
+   - format
+   - (VE.DOK FORMAT)
+   - 1
+   - A
+   - Tekststreng
+ * - M702
+   - formatDetaljer
+   - LF.BESKRIV
+   - 0-1
+   - A
+   - Tekststreng
+ * - M600
+   - opprettetDato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M601
+   - opprettetAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M218
+   - referanseDokumentfil
+   - VE.FILREF
+   - 1
+   - A
+   - Tekststreng (filkatalogstruktur + filnavn)
+ * - M705
+   - sjekksum
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M706
+   - sjekksumAlgoritme
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M707
+   - filstoerrelse
+   - 
+   - 1
+   - A
+   - Tekststreng
 
 Metadata for *konvertering*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *konvertering* grupperes inn i 1 forekomst av *dokumentobjekt*.
 
-+---------+-------------------------+-------------+------------+----------+---------------------+
-| **Nr.** | **Navn**                | **Noark 4** | **Forek.** | **Avl.** | **Datatype**        |
-+---------+-------------------------+-------------+------------+----------+---------------------+
-| M615    | konvertertDato          |             | 1          | A        | Dato og klokkeslett |
-+---------+-------------------------+-------------+------------+----------+---------------------+
-| M616    | konvertertAv            |             | 1          | A        | Tekststreng         |
-+---------+-------------------------+-------------+------------+----------+---------------------+
-| M712    | konvertertFraFormat     |             | 1          | A        | Tekststreng         |
-+---------+-------------------------+-------------+------------+----------+---------------------+
-| M713    | konvertertTilFormat     |             | 1          | A        | Tekststreng         |
-+---------+-------------------------+-------------+------------+----------+---------------------+
-| M714    | konverteringsverktoey   |             | 0-1        | A        | Tekststreng         |
-+---------+-------------------------+-------------+------------+----------+---------------------+
-| M715    | konverterings­kommentar |             | 0-1        | A        | Tekststreng         |
-+---------+-------------------------+-------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M615
+   - konvertertDato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M616
+   - konvertertAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M712
+   - konvertertFraFormat
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M713
+   - konvertertTilFormat
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M714
+   - konverteringsverktoey
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M715
+   - konverterings­kommentar
+   - 
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata som kan grupperes inn i flere arkivenheter
 ---------------------------------------------------
@@ -658,15 +1512,34 @@ Merk: En forekomst av *kryssreferanse* grupperes inn i en og bare en forekomst a
 
 Merk: Referansen kan gå fra en *klasse* til en annen *klasse*, fra en *mappe* til en annen *mappe*, fra en *registrering* til en annen *registrering*, fra en *mappe* til en *registrering* og fra en *registrering* til en *mappe*. Kryssreferansen vil også omfatte spesialiseringer av mapper. En kryssreferanse kan derfor gå fra en *moetemappe* til en *saksmappe*. Kryssreferanser grupperes inn i de arkivenhetene det refereres **fra**.
 
-+---------+--------------------------+-------------+------------+----------+-----------------------+
-| **Nr.** | **Navn**                 | **Noark 4** | **Forek.** | **Avl.** | **Datatype**          |
-+---------+--------------------------+-------------+------------+----------+-----------------------+
-| M219    | referanseTilKlasse       | JO.ORDNPRI2 | 0-1        | A        | klasse.systemID       |
-+---------+--------------------------+-------------+------------+----------+-----------------------+
-| M210    | referanseTilMappe        | JF.TSAID    | 0-1        | A        | mappe.systemID        |
-+---------+--------------------------+-------------+------------+----------+-----------------------+
-| M212    | referanseTilRegistrering | JF.TJPID    | 0-1        | A        | registrering.systemID |
-+---------+--------------------------+-------------+------------+----------+-----------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M219
+   - referanseTilKlasse
+   - JO.ORDNPRI2
+   - 0-1
+   - A
+   - klasse.systemID
+ * - M210
+   - referanseTilMappe
+   - JF.TSAID
+   - 0-1
+   - A
+   - mappe.systemID
+ * - M212
+   - referanseTilRegistrering
+   - JF.TJPID
+   - 0-1
+   - A
+   - registrering.systemID
 
 Metadata for *merknad*
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -677,17 +1550,40 @@ Metadata for *merknad*
 
 0-M forekomster av *merknad* grupperes inn i 0-M forekomst av *dokumentbeskrivelse*.
 
-+---------+---------------------+-------------+------------+----------+---------------------+
-| **Nr.** | **Navn**            | **Noark 4** | **Forek.** | **Avl.** | **Datatype**        |
-+---------+---------------------+-------------+------------+----------+---------------------+
-| M310    | merknadstekst       | ME.TEKST    | 1          | A        | Tekststreng         |
-+---------+---------------------+-------------+------------+----------+---------------------+
-| M084    | merknadstype        | ME.ITYPE    | 0-1        | A        | Tekststreng         |
-+---------+---------------------+-------------+------------+----------+---------------------+
-| M611    | merknadsdato        | ME.REGDATO  | 1          | A        | Dato og klokkeslett |
-+---------+---------------------+-------------+------------+----------+---------------------+
-| M612    | merknadRegistrertAv | PN.NAVN     | 1          | A        | Tekststreng         |
-+---------+---------------------+-------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M310
+   - merknadstekst
+   - ME.TEKST
+   - 1
+   - A
+   - Tekststreng
+ * - M084
+   - merknadstype
+   - ME.ITYPE
+   - 0-1
+   - A
+   - Tekststreng
+ * - M611
+   - merknadsdato
+   - ME.REGDATO
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M612
+   - merknadRegistrertAv
+   - PN.NAVN
+   - 1
+   - A
+   - Tekststreng
 
 Metadata for *part*
 ~~~~~~~~~~~~~~~~~~~
@@ -698,31 +1594,82 @@ Metadata for *part*
 
 0-M forekomster av *part* grupperes inn i 0-M forekomster av *dokumentbeskrivelse*.
 
-+---------+--------------------------------+-------------+------------+----------+--------------------+
-| **Nr.** | **Navn**                       | **Noark 4** | **Forek.** | **Avl.** | **Datatype**       |
-+---------+--------------------------------+-------------+------------+----------+--------------------+
-| M010    | partID                         |             | 0-1        | A        | Tekststreng        |
-+---------+--------------------------------+-------------+------------+----------+--------------------+
-| M302    | partNavn                       | SP.NAVN     | 1          | A        | Tekststreng        |
-+---------+--------------------------------+-------------+------------+----------+--------------------+
-| M303    | partRolle                      | SP.ROLLE    | 1          | A        | Tekststreng        |
-+---------+--------------------------------+-------------+------------+----------+--------------------+
-| M406    | postadresse                    | SP.ADRESSE  | 0-M        | A        | Tekststreng        |
-+---------+--------------------------------+-------------+------------+----------+--------------------+
-| M407    | postnummer                     | SP.POSTNR   | 0-1        | A        | Tekststreng        |
-+---------+--------------------------------+-------------+------------+----------+--------------------+
-| M408    | poststed                       | SP.POSTSTED | 0-1        | A        | Tekststreng        |
-+---------+--------------------------------+-------------+------------+----------+--------------------+
-| M409    | land                           |             | 0-1        | A        | Tekststreng        |
-+---------+--------------------------------+-------------+------------+----------+--------------------+
-| M410    | epostadresse                   | SP.EPOSTADR | 0-1        | A        | Tekststreng        |
-+---------+--------------------------------+-------------+------------+----------+--------------------+
-| M411    | telefonnummer                  | SP.TLF      | 0-M        | A        | Tekststreng        |
-+---------+--------------------------------+-------------+------------+----------+--------------------+
-| M412    | kontaktperson                  | SP.KONTAKT  | 0-1        | A        | Tekststreng        |
-+---------+--------------------------------+-------------+------------+----------+--------------------+
-| M711    | virksomhetsspesifikke Metadata |             | 0-1        | A        | Vilkårlig struktur |
-+---------+--------------------------------+-------------+------------+----------+--------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M010
+   - partID
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M302
+   - partNavn
+   - SP.NAVN
+   - 1
+   - A
+   - Tekststreng
+ * - M303
+   - partRolle
+   - SP.ROLLE
+   - 1
+   - A
+   - Tekststreng
+ * - M406
+   - postadresse
+   - SP.ADRESSE
+   - 0-M
+   - A
+   - Tekststreng
+ * - M407
+   - postnummer
+   - SP.POSTNR
+   - 0-1
+   - A
+   - Tekststreng
+ * - M408
+   - poststed
+   - SP.POSTSTED
+   - 0-1
+   - A
+   - Tekststreng
+ * - M409
+   - land
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M410
+   - epostadresse
+   - SP.EPOSTADR
+   - 0-1
+   - A
+   - Tekststreng
+ * - M411
+   - telefonnummer
+   - SP.TLF
+   - 0-M
+   - A
+   - Tekststreng
+ * - M412
+   - kontaktperson
+   - SP.KONTAKT
+   - 0-1
+   - A
+   - Tekststreng
+ * - M711
+   - virksomhetsspesifikke Metadata
+   - 
+   - 0-1
+   - A
+   - Vilkårlig struktur
 
 Metadata for *kassasjon*
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -743,17 +1690,40 @@ Metadata om kassasjon skal bare følge med i de arkivenhetene som har et kassasj
 
 Ved avlevering skal metadata om kassasjon arves til (kopieres inn i) alle underliggende nivåer i arkivstrukturen. Dersom en underliggende arkivenhet skal bevares, skal den ikke ha metadata om kassasjon, og ikke heller de underliggende arkivenhetene.
 
-+---------+-------------------+-------------+------------+----------+--------------+
-| **Nr.** | **Navn**          | **Noark 4** | **Forek.** | **Avl.** | **Datatype** |
-+---------+-------------------+-------------+------------+----------+--------------+
-| M450    | kassasjonsvedtak  | SA.KASSKODE | 1          | A        | Tekststreng  |
-+---------+-------------------+-------------+------------+----------+--------------+
-| M453    | kassasjonshjemmel |             | 0-1        | A        | Tekststreng  |
-+---------+-------------------+-------------+------------+----------+--------------+
-| M451    | bevaringstid      | SA.BEVTID   | 1          | A        | Heltall      |
-+---------+-------------------+-------------+------------+----------+--------------+
-| M452    | kassasjonsdato    | SA.KASSDATO | 1          | A        | Dato         |
-+---------+-------------------+-------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M450
+   - kassasjonsvedtak
+   - SA.KASSKODE
+   - 1
+   - A
+   - Tekststreng
+ * - M453
+   - kassasjonshjemmel
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M451
+   - bevaringstid
+   - SA.BEVTID
+   - 1
+   - A
+   - Heltall
+ * - M452
+   - kassasjonsdato
+   - SA.KASSDATO
+   - 1
+   - A
+   - Dato
 
 Metadata for *utfoertKassasjon*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -764,13 +1734,28 @@ Metadata for *utfoertKassasjon*
 
 Merk: Ved kassasjon av dokumenter blir dokumentobjektet slettet. Sletting som ikke er et resultat av kassasjon, skal registreres som *sletting* over.
 
-+---------+-------------+-------------+------------+----------+---------------------+
-| **Nr.** | **Navn**    | **Noark 4** | **Forek.** | **Avl.** | **Datatype**        |
-+---------+-------------+-------------+------------+----------+---------------------+
-| M630    | kassertDato |             | 1          | A        | Dato og klokkeslett |
-+---------+-------------+-------------+------------+----------+---------------------+
-| M631    | kassertAv   |             | 1          | A        | Tekststreng         |
-+---------+-------------+-------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M630
+   - kassertDato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M631
+   - kassertAv
+   - 
+   - 1
+   - A
+   - Tekststreng
 
 Metadata for *skjerming*
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -791,21 +1776,52 @@ Metadata om skjerming skal bare følge med i de arkivenhetene som inneholder inf
 
 Ved avlevering skal metadata om skjerming være gruppert inn i alle nivåer i arkivstrukturen hvor informasjonen skal være skjermet.
 
-+---------+------------------------+-------------+------------+----------+--------------+
-| **Nr.** | **Navn**               | **Noark 4** | **Forek.** | **Avl.** | **Datatype** |
-+---------+------------------------+-------------+------------+----------+--------------+
-| M500    | tilgangsrestriksjon    | JP.TGKODE   | 1          | A        | Tekststreng  |
-+---------+------------------------+-------------+------------+----------+--------------+
-| M501    | skjermingshjemmel      | JP.UOFF     | 1          | A        | Tekststreng  |
-+---------+------------------------+-------------+------------+----------+--------------+
-| M502    | skjermingMetadata      |             | 1-M        | A        | Tekststreng  |
-+---------+------------------------+-------------+------------+----------+--------------+
-| M503    | skjermingDokument      |             | 0-1        | A        | Tekststreng  |
-+---------+------------------------+-------------+------------+----------+--------------+
-| M504    | skjermingsvarighet     |             | 0-1        | A        | Heltall      |
-+---------+------------------------+-------------+------------+----------+--------------+
-| M505    | skjermingOpphoererDato | JP.AGDATO   | 0-1        | A        | Dato         |
-+---------+------------------------+-------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M500
+   - tilgangsrestriksjon
+   - JP.TGKODE
+   - 1
+   - A
+   - Tekststreng
+ * - M501
+   - skjermingshjemmel
+   - JP.UOFF
+   - 1
+   - A
+   - Tekststreng
+ * - M502
+   - skjermingMetadata
+   - 
+   - 1-M
+   - A
+   - Tekststreng
+ * - M503
+   - skjermingDokument
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M504
+   - skjermingsvarighet
+   - 
+   - 0-1
+   - A
+   - Heltall
+ * - M505
+   - skjermingOpphoererDato
+   - JP.AGDATO
+   - 0-1
+   - A
+   - Dato
 
 Metadata for *gradering*
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -822,19 +1838,46 @@ Metadata for *gradering*
 
 Ved avlevering skal metadata om gradering være gruppert inn i alle nivåer i arkivstrukturen hvor informasjonen er gradert.
 
-+---------+-------------------+-------------+------------+----------+---------------------+
-| **Nr.** | **Navn**          | **Noark 4** | **Forek.** | **Avl.** | **Datatype**        |
-+---------+-------------------+-------------+------------+----------+---------------------+
-| M506    | gradering         |             | 1          | A        | Tekststreng         |
-+---------+-------------------+-------------+------------+----------+---------------------+
-| M624    | graderingsdato    |             | 1          | A        | Dato og klokkeslett |
-+---------+-------------------+-------------+------------+----------+---------------------+
-| M625    | gradertAv         |             | 1          | A        | Tekststreng         |
-+---------+-------------------+-------------+------------+----------+---------------------+
-| M626    | nedgraderingsdato |             | 0-1        | A        | Dato og klokkeslett |
-+---------+-------------------+-------------+------------+----------+---------------------+
-| M627    | nedgradertAv      |             | 0-1        | A        | Tekststreng         |
-+---------+-------------------+-------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M506
+   - gradering
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M624
+   - graderingsdato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M625
+   - gradertAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M626
+   - nedgraderingsdato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M627
+   - nedgradertAv
+   - 
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *presedens*
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -843,33 +1886,88 @@ Metadata for *presedens*
 
 0-M forekomster av *presedens* grupperes inn i 0-M forekomster av *journalpost*.
 
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| **Nr.** | **Navn**              | **Noark 4** | **Forek.** | **Avl.** | **Datatype**        |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M111    | presedensDato         | PS.DATO     | 1          | A        | Dato                |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M600    | opprettetDato         |             | 1          | A        | Dato og klokkeslett |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M601    | opprettetAv           |             | 1          | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M020    | tittel                | PS.TITTEL   | 1          | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M021    | beskrivelse           |             | 0-1        | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M311    | presedensHjemmel      | PS.HJEMMEL  | 0-1        | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M312    | rettskildefaktor      |             | 1          | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M628    | presedensGodkjentDato |             | 0-1        | A        | Dato og klokkeslett |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M629    | presedensGodkjentAv   |             | 0-1        | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M602    | avsluttetDato         |             | 0-1        | A        | Dato og klokkeslett |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M603    | avsluttetAv           |             | 0-1        | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
-| M056    | presedensStatus       |             | 0-1        | A        | Tekststreng         |
-+---------+-----------------------+-------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M111
+   - presedensDato
+   - PS.DATO
+   - 1
+   - A
+   - Dato
+ * - M600
+   - opprettetDato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M601
+   - opprettetAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M020
+   - tittel
+   - PS.TITTEL
+   - 1
+   - A
+   - Tekststreng
+ * - M021
+   - beskrivelse
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M311
+   - presedensHjemmel
+   - PS.HJEMMEL
+   - 0-1
+   - A
+   - Tekststreng
+ * - M312
+   - rettskildefaktor
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M628
+   - presedensGodkjentDato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M629
+   - presedensGodkjentAv
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M602
+   - avsluttetDato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M603
+   - avsluttetAv
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M056
+   - presedensStatus
+   - 
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *elektroniskSignatur*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -882,17 +1980,40 @@ Metadata for *elektroniskSignatur*
 
 Merk: Elektronisk signatur knyttes til dokumentobjektet i tillegg til dokumentbeskrivelsen i de tilfeller der det er nødvendig i presisere hvilken av dokumentfilene som er signert. Elektronisk signatur knyttes til journalpost hvis en samlet forsendelse er påført en signatur.
 
-+---------+-------------------------------------+----------------+------------+----------+---------------------+
-| **Nr.** | **Navn**                            | **Noark 4**    | **Forek.** | **Avl.** | **Datatype**        |
-+---------+-------------------------------------+----------------+------------+----------+---------------------+
-| M507    | elektroniskSignatur Sikkerhetsnivaa |                | 1          | A        | Tekststreng         |
-+---------+-------------------------------------+----------------+------------+----------+---------------------+
-| M508    | elektroniskSignatur Verifisert      |                | 1          | A        | Tekststreng         |
-+---------+-------------------------------------+----------------+------------+----------+---------------------+
-| M622    | verifisertDato                      | DI.SIGVER DATO | 1          | A        | Dato og klokkeslett |
-+---------+-------------------------------------+----------------+------------+----------+---------------------+
-| M623    | verifisertAv                        | DI.SIGVERAV    | 1          | A        | Tekststreng         |
-+---------+-------------------------------------+----------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M507
+   - elektroniskSignatur Sikkerhetsnivaa
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M508
+   - elektroniskSignatur Verifisert
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M622
+   - verifisertDato
+   - DI.SIGVER DATO
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M623
+   - verifisertAv
+   - DI.SIGVERAV
+   - 1
+   - A
+   - Tekststreng
 
 Metadata som avleveres som egne filer
 -------------------------------------
@@ -911,21 +2032,52 @@ Metadata for *endring*
 
 Nærmere spesifikasjon av hvilke endringer som skal logges, følger som et eget vedlegg.
 
-+---------+---------------------+-------------+------------+----------+----------------------------------------+
-| **Nr.** | **Navn**            | **Noark 4** | **Forek.** | **Avl.** | **Datatype**                           |
-+---------+---------------------+-------------+------------+----------+----------------------------------------+
-| M680    | referanseArkivenhet |             | 1          | A        | Tekststreng (arkivenhetens systemID)   |
-+---------+---------------------+-------------+------------+----------+----------------------------------------+
-| M681    | referanseMetadata   |             | 1          | A        | Tekststreng (metadata-elementets navn) |
-+---------+---------------------+-------------+------------+----------+----------------------------------------+
-| M682    | endretDato          |             | 1          | A        | Dato og klokkeslett                    |
-+---------+---------------------+-------------+------------+----------+----------------------------------------+
-| M683    | endretAv            |             | 1          | A        | Tekststreng                            |
-+---------+---------------------+-------------+------------+----------+----------------------------------------+
-| M684    | tidligereVerdi      |             | 1          | A        | Tekststreng                            |
-+---------+---------------------+-------------+------------+----------+----------------------------------------+
-| M685    | nyVerdi             |             | 1          | A        | Tekststreng                            |
-+---------+---------------------+-------------+------------+----------+----------------------------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M680
+   - referanseArkivenhet
+   - 
+   - 1
+   - A
+   - Tekststreng (arkivenhetens systemID)
+ * - M681
+   - referanseMetadata
+   - 
+   - 1
+   - A
+   - Tekststreng (metadata-elementets navn)
+ * - M682
+   - endretDato
+   - 
+   - 1
+   - A
+   - Dato og klokkeslett
+ * - M683
+   - endretAv
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M684
+   - tidligereVerdi
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M685
+   - nyVerdi
+   - 
+   - 1
+   - A
+   - Tekststreng
 
 Metadata for loependeJournal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -939,32 +2091,74 @@ Metadata for *journalhode*
 
 1 forekomst av *journalhode* grupperes inn i 1 forekomst av *loependeJournal*.
 
-+---------+---------------------+-------------+------------+----------+--------------+
-| **Nr.** | **Navn**            | **Noark 4** | **Forek.** | **Avl.** | **Datatype** |
-+---------+---------------------+-------------+------------+----------+--------------+
-| M112    | journalStartDato    |             | 1          | A        | Dato         |
-+---------+---------------------+-------------+------------+----------+--------------+
-| M113    | journalSluttDato    |             | 1          | A        | Dato         |
-+---------+---------------------+-------------+------------+----------+--------------+
-| M313    | seleksjon           |             | 0-1        | A        | Tekststreng  |
-+---------+---------------------+-------------+------------+----------+--------------+
-| M609    | antallJournalposter |             | 1          | A        | Heltall      |
-+---------+---------------------+-------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M112
+   - journalStartDato
+   - 
+   - 1
+   - A
+   - Dato
+ * - M113
+   - journalSluttDato
+   - 
+   - 1
+   - A
+   - Dato
+ * - M313
+   - seleksjon
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M609
+   - antallJournalposter
+   - 
+   - 1
+   - A
+   - Heltall
 
 Metadata for *arkivskaper*
 **************************
 
 1-M forekomster av *arkivskaper* grupperes inn i 1 forekomster av *journalhode*.
 
-+---------+-----------------+--------------+------------+----------+--------------+
-| **Nr.** | **Navn**        | **Noark 4**  | **Forek.** | **Avl.** | **Datatype** |
-+---------+-----------------+--------------+------------+----------+--------------+
-| M006    | arkivskaperID   | (AR.ABASEID) | 1          | A        | Tekststreng  |
-+---------+-----------------+--------------+------------+----------+--------------+
-| M023    | arkivskaperNavn | AR.SKAPER    | 1          | A        | Tekststreng  |
-+---------+-----------------+--------------+------------+----------+--------------+
-| M021    | beskrivelse     |              | 0-1        | A        | Tekststreng  |
-+---------+-----------------+--------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M006
+   - arkivskaperID
+   - (AR.ABASEID)
+   - 1
+   - A
+   - Tekststreng
+ * - M023
+   - arkivskaperNavn
+   - AR.SKAPER
+   - 1
+   - A
+   - Tekststreng
+ * - M021
+   - beskrivelse
+   - 
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *journalregistrering*
 **********************************
@@ -976,88 +2170,220 @@ Metadata for *klasse*
 
 0-1 forekomster av *klasse* grupperes inn i 1 forekomst av *journalregistrering*.
 
-+---------+-------------------+-------------+------------+----------+--------------+
-| **Nr.** | **Navn**          | **Noark 4** | **Forek.** | **Avl.** | **Datatype** |
-+---------+-------------------+-------------+------------+----------+--------------+
-| M002    | klasseID          | OV.ORDNVER  | 1          | A        | Tekststreng  |
-+---------+-------------------+-------------+------------+----------+--------------+
-| M020    | tittel            | OV.BESKR    | 1          | A        | Tekststreng  |
-+---------+-------------------+-------------+------------+----------+--------------+
-| M502    | skjermingMetadata |             | 0-M        | A        | Tekststreng  |
-+---------+-------------------+-------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M002
+   - klasseID
+   - OV.ORDNVER
+   - 1
+   - A
+   - Tekststreng
+ * - M020
+   - tittel
+   - OV.BESKR
+   - 1
+   - A
+   - Tekststreng
+ * - M502
+   - skjermingMetadata
+   - 
+   - 0-M
+   - A
+   - Tekststreng
 
 Metadata for *saksmappe*
 ************************
 
 1 forekomst av *saksmappe* grupperes inn i 1 forekomst av *journalregistrering*.
 
-+---------+-------------------+--------------+------------+----------+--------------+
-| **Nr.** | **Navn**          | **Noark 4**  | **Forek.** | **Avl.** | **Datatype** |
-+---------+-------------------+--------------+------------+----------+--------------+
-| M011    | saksaar           | SA.AAR       | 1          | A        | Heltall      |
-+---------+-------------------+--------------+------------+----------+--------------+
-| M012    | sakssekvensnummer | SA.SEKNR.    | 1          | A        | Heltall      |
-+---------+-------------------+--------------+------------+----------+--------------+
-| M020    | tittel            | SA.TITTEL    | 1          | A        | Tekststreng  |
-+---------+-------------------+--------------+------------+----------+--------------+
-| M025    | offentligTittel   | SA.OFFTITTEL | 0-1        | A        | Tekststreng  |
-+---------+-------------------+--------------+------------+----------+--------------+
-| M502    | skjermingMetadata |              | 0-1        | A        | Tekststreng  |
-+---------+-------------------+--------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M011
+   - saksaar
+   - SA.AAR
+   - 1
+   - A
+   - Heltall
+ * - M012
+   - sakssekvensnummer
+   - SA.SEKNR.
+   - 1
+   - A
+   - Heltall
+ * - M020
+   - tittel
+   - SA.TITTEL
+   - 1
+   - A
+   - Tekststreng
+ * - M025
+   - offentligTittel
+   - SA.OFFTITTEL
+   - 0-1
+   - A
+   - Tekststreng
+ * - M502
+   - skjermingMetadata
+   - 
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *journalpost*
 **************************
 
 1 forekomst av *journalpost* grupperes inn i 1 forekomst av *journalregistrering*.
 
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| **Nr.** | **Navn**                         | **Noark 4**   | **Forek.** | **Avl.** | **Datatype** |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M001    | systemID                         |               | 1          | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M013    | journalaar                       | JP.JAAR       | 1          | A        | Heltall      |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M014    | journalsekvensnummer             | JP.SEKNR      | 1          | A        | Heltall      |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M015    | journalpostnummer                | JP.SEKNR      | 1          | A        | Heltall      |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M020    | tittel                           | JP.INNHOLD    | 1          | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M025    | offentligTittel                  | JP.OFFINNHOLD | 0-1        | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M502    | skjermingMetadata                |               | 0-1        | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M101    | journaldato                      | JP.JDATO      | 1          | A        | Dato         |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M103    | dokumentetsDato                  | JP.DOKDATO    | 0-1        | A        | Dato         |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M617    | avskrivningsdato                 | AM.AVSKDATO   | 0-1        | A        | Dato         |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M619    | avskrivningsmaate                | AM.AVSKM      | 0-1        | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M215    | referanseAvskrives AvJournalpost | AM.AVSAV      | 0-1        | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M500    | tilgangsrestriksjon              | JP.TGKODE     | 0-1        | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M506    | gradering                        |               | 0-1        | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M501    | skjermingshjemmel                | JP.UOFF       | 0-1        | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M001
+   - systemID
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M013
+   - journalaar
+   - JP.JAAR
+   - 1
+   - A
+   - Heltall
+ * - M014
+   - journalsekvensnummer
+   - JP.SEKNR
+   - 1
+   - A
+   - Heltall
+ * - M015
+   - journalpostnummer
+   - JP.SEKNR
+   - 1
+   - A
+   - Heltall
+ * - M020
+   - tittel
+   - JP.INNHOLD
+   - 1
+   - A
+   - Tekststreng
+ * - M025
+   - offentligTittel
+   - JP.OFFINNHOLD
+   - 0-1
+   - A
+   - Tekststreng
+ * - M502
+   - skjermingMetadata
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M101
+   - journaldato
+   - JP.JDATO
+   - 1
+   - A
+   - Dato
+ * - M103
+   - dokumentetsDato
+   - JP.DOKDATO
+   - 0-1
+   - A
+   - Dato
+ * - M617
+   - avskrivningsdato
+   - AM.AVSKDATO
+   - 0-1
+   - A
+   - Dato
+ * - M619
+   - avskrivningsmaate
+   - AM.AVSKM
+   - 0-1
+   - A
+   - Tekststreng
+ * - M215
+   - referanseAvskrives AvJournalpost
+   - AM.AVSAV
+   - 0-1
+   - A
+   - Tekststreng
+ * - M500
+   - tilgangsrestriksjon
+   - JP.TGKODE
+   - 0-1
+   - A
+   - Tekststreng
+ * - M506
+   - gradering
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M501
+   - skjermingshjemmel
+   - JP.UOFF
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *korrespondansepart*
 *********************************
 
 1-M forekomster av *korrespondansepart* grupperes inn i 1 forekomst av *registrering*.
 
-+---------+------------------------+---------------------------------------+------------+----------+--------------+
-| **Nr.** | **Navn**               | **Noark 4**                           | **Forek.** | **Avl.** | **Datatype** |
-+---------+------------------------+---------------------------------------+------------+----------+--------------+
-| M087    | korrespondanseparttype | (AM.IHTYPE, AM.KOPIMOT, AM.GRUPPEMOT) | 1          | A        | Tekststreng  |
-+---------+------------------------+---------------------------------------+------------+----------+--------------+
-| M400    | korrespondansepartNavn | AM.NAVN                               | 1          | A        | Tekststreng  |
-+---------+------------------------+---------------------------------------+------------+----------+--------------+
-| M502    | skjermingMetadata      |                                       | 0-1        | A        | Tekststreng  |
-+---------+------------------------+---------------------------------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M087
+   - korrespondanseparttype
+   - (AM.IHTYPE, AM.KOPIMOT, AM.GRUPPEMOT)
+   - 1
+   - A
+   - Tekststreng
+ * - M400
+   - korrespondansepartNavn
+   - AM.NAVN
+   - 1
+   - A
+   - Tekststreng
+ * - M502
+   - skjermingMetadata
+   - 
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for offentligJournal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1071,32 +2397,74 @@ Metadata for *journalhode*
 
 1 forekomst av *journalhode* grupperes inn i 1 forekomst av *offentligJournal*.
 
-+---------+---------------------+-------------+------------+----------+--------------+
-| **Nr.** | **Navn**            | **Noark 4** | **Forek.** | **Avl.** | **Datatype** |
-+---------+---------------------+-------------+------------+----------+--------------+
-| M112    | journalStartDato    |             | 1          | A        | Dato         |
-+---------+---------------------+-------------+------------+----------+--------------+
-| M113    | journalSluttDato    |             | 1          | A        | Dato         |
-+---------+---------------------+-------------+------------+----------+--------------+
-| M313    | seleksjon           |             | 0-1        | A        | Tekststreng  |
-+---------+---------------------+-------------+------------+----------+--------------+
-| M609    | antallJournalposter |             | 1          | A        | Tekststreng  |
-+---------+---------------------+-------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M112
+   - journalStartDato
+   - 
+   - 1
+   - A
+   - Dato
+ * - M113
+   - journalSluttDato
+   - 
+   - 1
+   - A
+   - Dato
+ * - M313
+   - seleksjon
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M609
+   - antallJournalposter
+   - 
+   - 1
+   - A
+   - Tekststreng
 
 Metadata for *arkivskaper*
 **************************
 
 1-M forekomster av *arkivskaper* grupperes inn i 1 forekomster av *journalhode*.
 
-+---------+-----------------+--------------+------------+----------+--------------+
-| **Nr.** | **Navn**        | **Noark 4**  | **Forek.** | **Avl.** | **Datatype** |
-+---------+-----------------+--------------+------------+----------+--------------+
-| M006    | arkivskaperID   | (AR.ABASEID) | 1          | A        | Tekststreng  |
-+---------+-----------------+--------------+------------+----------+--------------+
-| M023    | arkivskaperNavn | AR.SKAPER    | 1          | A        | Tekststreng  |
-+---------+-----------------+--------------+------------+----------+--------------+
-| M021    | beskrivelse     |              | 0-1        | A        | Tekststreng  |
-+---------+-----------------+--------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M006
+   - arkivskaperID
+   - (AR.ABASEID)
+   - 1
+   - A
+   - Tekststreng
+ * - M023
+   - arkivskaperNavn
+   - AR.SKAPER
+   - 1
+   - A
+   - Tekststreng
+ * - M021
+   - beskrivelse
+   - 
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *journalregistrering*
 **********************************
@@ -1108,78 +2476,190 @@ Metadata for *klasse*
 
 0-1 forekomster av *klasse* grupperes inn i 1 forekomst av *journalregistrering*.
 
-+---------+----------+-------------+------------+----------+--------------+
-| **Nr.** | **Navn** | **Noark 4** | **Forek.** | **Avl.** | **Datatype** |
-+---------+----------+-------------+------------+----------+--------------+
-| M002    | klasseID | OV.ORDNVER  | 1          | A        | Tekststreng  |
-+---------+----------+-------------+------------+----------+--------------+
-| M020    | tittel   | OV.BESKR    | 1          | A        | Tekststreng  |
-+---------+----------+-------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M002
+   - klasseID
+   - OV.ORDNVER
+   - 1
+   - A
+   - Tekststreng
+ * - M020
+   - tittel
+   - OV.BESKR
+   - 1
+   - A
+   - Tekststreng
 
 Metadata for *saksmappe*
 ************************
 
 1 forekomst av *saksmappe* grupperes inn i 1 forekomst av *journalregistrering*.
 
-+---------+-------------------+--------------+------------+----------+--------------+
-| **Nr.** | **Navn**          | **Noark 4**  | **Forek.** | **Avl.** | **Datatype** |
-+---------+-------------------+--------------+------------+----------+--------------+
-| M011    | saksaar           | SA.AAR       | 1          | A        | Heltall      |
-+---------+-------------------+--------------+------------+----------+--------------+
-| M012    | sakssekvensnummer | SA.SEKNR.    | 1          | A        | Heltall      |
-+---------+-------------------+--------------+------------+----------+--------------+
-| M025    | offentligTittel   | SA.OFFTITTEL | 0-1        | A        | Tekststreng  |
-+---------+-------------------+--------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M011
+   - saksaar
+   - SA.AAR
+   - 1
+   - A
+   - Heltall
+ * - M012
+   - sakssekvensnummer
+   - SA.SEKNR.
+   - 1
+   - A
+   - Heltall
+ * - M025
+   - offentligTittel
+   - SA.OFFTITTEL
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *journalpost*
 **************************
 
 1 forekomst av *journalpost* grupperes inn i 1 forekomst av *journalregistrering*.
 
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| **Nr.** | **Navn**                         | **Noark 4**   | **Forek.** | **Avl.** | **Datatype** |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M001    | systemID                         |               | 1          | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M013    | journalaar                       | JP.JAAR       | 1          | A        | Heltall      |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M014    | journalsekvensnummer             | JP.SEKNR      | 1          | A        | Heltall      |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M015    | journalpostnummer                | JP.SEKNR      | 1          | A        | Heltall      |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M025    | offentligTittel                  | JP.OFFINNHOLD | 0-1        | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M502    | skjermingMetadata                |               | 0-1        | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M101    | journaldato                      | JP.JDATO      | 1          | A        | Dato         |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M103    | dokumentetsDato                  | JP.DOKDATO    | 0-1        | A        | Dato         |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M617    | avskrivningsdato                 | AM.AVSKDATO   | 0-1        | A        | Dato         |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M619    | avskrivningsmaate                | AM.AVSKM      | 0-1        | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M215    | referanseAvskrives AvJournalpost | AM.AVSAV      | 0-1        | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M500    | tilgangsrestriksjon              | JP.TGKODE     | 0-1        | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M506    | gradering                        |               | 0-1        | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
-| M501    | skjermingshjemmel                | JP.UOFF       | 0-1        | A        | Tekststreng  |
-+---------+----------------------------------+---------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M001
+   - systemID
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M013
+   - journalaar
+   - JP.JAAR
+   - 1
+   - A
+   - Heltall
+ * - M014
+   - journalsekvensnummer
+   - JP.SEKNR
+   - 1
+   - A
+   - Heltall
+ * - M015
+   - journalpostnummer
+   - JP.SEKNR
+   - 1
+   - A
+   - Heltall
+ * - M025
+   - offentligTittel
+   - JP.OFFINNHOLD
+   - 0-1
+   - A
+   - Tekststreng
+ * - M502
+   - skjermingMetadata
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M101
+   - journaldato
+   - JP.JDATO
+   - 1
+   - A
+   - Dato
+ * - M103
+   - dokumentetsDato
+   - JP.DOKDATO
+   - 0-1
+   - A
+   - Dato
+ * - M617
+   - avskrivningsdato
+   - AM.AVSKDATO
+   - 0-1
+   - A
+   - Dato
+ * - M619
+   - avskrivningsmaate
+   - AM.AVSKM
+   - 0-1
+   - A
+   - Tekststreng
+ * - M215
+   - referanseAvskrives AvJournalpost
+   - AM.AVSAV
+   - 0-1
+   - A
+   - Tekststreng
+ * - M500
+   - tilgangsrestriksjon
+   - JP.TGKODE
+   - 0-1
+   - A
+   - Tekststreng
+ * - M506
+   - gradering
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M501
+   - skjermingshjemmel
+   - JP.UOFF
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *korrespondansepart*
 *********************************
 
 1-M forekomster av *korrespondansepart* grupperes inn i 1 forekomst av *registrering*.
 
-+---------+------------------------+---------------------------------------+------------+----------+--------------+
-| **Nr.** | **Navn**               | **Noark 4**                           | **Forek.** | **Avl.** | **Datatype** |
-+---------+------------------------+---------------------------------------+------------+----------+--------------+
-| M087    | korrespondanseparttype | (AM.IHTYPE, AM.KOPIMOT, AM.GRUPPEMOT) | 1          | A        | Tekststreng  |
-+---------+------------------------+---------------------------------------+------------+----------+--------------+
-| M400    | korrespondansepartNavn | AM.NAVN                               | 1          | A        | Tekststreng  |
-+---------+------------------------+---------------------------------------+------------+----------+--------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M087
+   - korrespondanseparttype
+   - (AM.IHTYPE, AM.KOPIMOT, AM.GRUPPEMOT)
+   - 1
+   - A
+   - Tekststreng
+ * - M400
+   - korrespondansepartNavn
+   - AM.NAVN
+   - 1
+   - A
+   - Tekststreng
 
 Metadata som ikke inngår i arkivstrukturen
 ------------------------------------------
@@ -1189,39 +2669,101 @@ Disse metadataene inngår ikke i arkivstrukturen, og skal ikke avleveres. Metada
 Metadata for *brukeradministrasjon*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-+---------+---------------+-------------+------------+----------+---------------------+
-| **Nr.** | **Navn**      | **Noark 4** | **Forek.** | **Avl.** | **Datatype**        |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M580    | brukerNavn    | PN.NAVN     | 1          |          | Tekststreng         |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M581    | brukerRolle   | RO.NAVN     | 1          |          | Tekststreng         |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M600    | opprettetDato | PE.FRADATO  | 1          |          | Dato og klokkeslett |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M601    | opprettetAv   |             | 0-1        |          | Tekststreng         |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M602    | avsluttetDato | PE.TILDATO  | 0-1        |          | Dato og klokkeslett |
-+---------+---------------+-------------+------------+----------+---------------------+
-| M582    | brukerstatus  |             | 0-1        |          | Tekststreng         |
-+---------+---------------+-------------+------------+----------+---------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M580
+   - brukerNavn
+   - PN.NAVN
+   - 1
+   - 
+   - Tekststreng
+ * - M581
+   - brukerRolle
+   - RO.NAVN
+   - 1
+   - 
+   - Tekststreng
+ * - M600
+   - opprettetDato
+   - PE.FRADATO
+   - 1
+   - 
+   - Dato og klokkeslett
+ * - M601
+   - opprettetAv
+   - 
+   - 0-1
+   - 
+   - Tekststreng
+ * - M602
+   - avsluttetDato
+   - PE.TILDATO
+   - 0-1
+   - 
+   - Dato og klokkeslett
+ * - M582
+   - brukerstatus
+   - 
+   - 0-1
+   - 
+   - Tekststreng
 
 Metadata for *administrativEnhet*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Metadata for administrasjonsstruktur skal ikke avleveres, men skal kunne migreres mellom systemer. Slik migrering kan omfatte flere metadata enn det som er listet opp her.
 
-+---------+---------------------------+-------------+------------+----------+--------------------------------------+
-| **Nr.** | **Navn**                  | **Noark 4** | **Forek.** | **Avl.** | **Datatype**                         |
-+---------+---------------------------+-------------+------------+----------+--------------------------------------+
-| M583    | administrativEnhetNavn    | AI.ADMBET   | 1          |          | Tekststreng                          |
-+---------+---------------------------+-------------+------------+----------+--------------------------------------+
-| M600    | opprettetDato             | AI.FRADATO  | 1          |          | Dato og klokkeslett                  |
-+---------+---------------------------+-------------+------------+----------+--------------------------------------+
-| M601    | opprettetAv               |             | 0-1        |          | Tekststreng                          |
-+---------+---------------------------+-------------+------------+----------+--------------------------------------+
-| M602    | avsluttetDato             | AI.TILDATO  | 0-1        |          | Dato og klokkeslett                  |
-+---------+---------------------------+-------------+------------+----------+--------------------------------------+
-| M584    | administrativEnhetsstatus |             | 0-1        |          | Tekststreng                          |
-+---------+---------------------------+-------------+------------+----------+--------------------------------------+
-| M585    | referanseOverordnet Enhet | (AI.IDFAR)  | 0-1        |          | Tekststreng (administrativEnhetNavn) |
-+---------+---------------------------+-------------+------------+----------+--------------------------------------+
+.. list-table::
+   :widths: 2 10 6 2 1 8
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M583
+   - administrativEnhetNavn
+   - AI.ADMBET
+   - 1
+   - 
+   - Tekststreng
+ * - M600
+   - opprettetDato
+   - AI.FRADATO
+   - 1
+   - 
+   - Dato og klokkeslett
+ * - M601
+   - opprettetAv
+   - 
+   - 0-1
+   - 
+   - Tekststreng
+ * - M602
+   - avsluttetDato
+   - AI.TILDATO
+   - 0-1
+   - 
+   - Dato og klokkeslett
+ * - M584
+   - administrativEnhetsstatus
+   - 
+   - 0-1
+   - 
+   - Tekststreng
+ * - M585
+   - referanseOverordnet Enhet
+   - (AI.IDFAR)
+   - 0-1
+   - 
+   - Tekststreng (administrativEnhetNavn)

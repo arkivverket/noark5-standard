@@ -103,7 +103,7 @@ def main():
                 if f in list[0]:
                     row.append(v)
                 else:
-                    row.append(f)
+                    row.append(f.replace("\n", " "))
                     row.append(v)
             list.append(row)
 

@@ -34,7 +34,6 @@ docbook: kapitler/*.rst
 		--id-prefix id-$$basename- \
 		-t docbook4 $$m \
 		-o docbook/$$basename.xml; \
-		sed -i 's/ colwidth="[0-9]*\*"//' docbook/$$basename.xml ; \
 	done
 	sed -i -e 's%<chapter%<preface%' -e 's%</chapter%</preface%' docbook/*-forord*.xml
 	sed -i -e 's%<chapter%<appendix%' -e 's%</chapter%</appendix%' docbook/*-vedlegg*.xml

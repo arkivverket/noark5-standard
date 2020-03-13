@@ -7,7 +7,7 @@ Katalogoppføringer
 Identifikasjon
 ~~~~~~~~~~~~~~
 
-.. list-table:: **M001 systemID**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -32,7 +32,7 @@ Identifikasjon
  * - **Kommentarer**
    - Alle referanser fra en arkivenhet til en annen skal peke til arkivenhetens systemidentifikasjon. Dette gjelder også referanser fra en arkivdel til en annen, f.eks. mellom to arkivperioder som avleveres på forskjellig tidspunkt.
 
-.. list-table:: **M002 klasseID**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -57,7 +57,7 @@ Identifikasjon
  * - **Kommentarer**
    - Ulike klassifikasjonssystemer innenfor samme arkivsystem kan inneholde en eller flere av de samme identifikasjonene. Identifikasjonen kan være rent nummerisk, men kan også være alfanumerisk og ha et logisk meningsinnhold. Merk at *klasseID* er identisk med begrepene ordningsverdi og arkivkode i Noark 4.
 
-.. list-table:: **M003 mappeID**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -84,7 +84,7 @@ Identifikasjon
      
      Er en videreføring av kombinasjonen saksår og sakssekvensnummer (oftest bare kalt "saksnummer") i Noark 4, som fortsatt er obligatorisk identifikasjon på saksmappe. I slike tilfeller skal verdien i mappeID også kopieres til de to metadataelementene *M011 saksaar* og *M012 sakssekvensnummer* i saksmappen.
 
-.. list-table:: **M004 registreringsID**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -111,7 +111,7 @@ Identifikasjon
      
      Er en videreføring av saksår og sakssekvensnummer (oftest bare kalt "saksnummer") i kombinasjon med "dokumentnummer" i Noark 4 (f.eks. 2011/3869-8, dvs. dokument nummer 8 i saksnummer 2011/3869), men trenger ikke ha denne formen for andre deler av arkivet.
 
-.. list-table:: **M005 versjonsnummer**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -136,7 +136,7 @@ Identifikasjon
  * - **Kommentarer**
    - Versjonsnummer gjelder bare arkiverte versjoner. Annen versjons­håndtering ligger i komplett Noark, og genererer ikke metadata skal følge med i et arkivuttrekk.
 
-.. list-table:: **M006 arkivskaperID**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -161,7 +161,7 @@ Identifikasjon
  * - **Kommentarer**
    - Kan være organisasjonsnummer (Brønnøysundregistrene) eller annen identifikasjon avtalt med arkivdepotet
 
-.. list-table:: **M007 dokumentnummer**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -186,7 +186,7 @@ Identifikasjon
  * - **Kommentarer**
    - Dokumentnummeret avgjør i hvilken rekkefølge dokumentene vises i brukergrensesnittet. Normalt skal hoveddokument vises før vedleggene.
 
-.. list-table:: **M008 moetenummer**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -211,7 +211,7 @@ Identifikasjon
  * - **Kommentarer**
    - 
 
-.. list-table:: **M010 partID**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -236,7 +236,7 @@ Identifikasjon
  * - **Kommentarer**
    - Kan være fødselsnummer eller annen personidentifikasjon
 
-.. list-table:: **M011 saksaar**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -261,7 +261,7 @@ Identifikasjon
  * - **Kommentarer**
    - Se kommentar under *M012 sakssekvensnummer*
 
-.. list-table:: **M012 sakssekvensnummer**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -286,7 +286,7 @@ Identifikasjon
  * - **Kommentarer**
    - Kombinasjonen saksår og sakssekvensnummer er ikke obligatorisk, men anbefales brukt i sakarkiver.
 
-.. list-table:: **M013 journalaar**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -311,7 +311,7 @@ Identifikasjon
  * - **Kommentarer**
    - Kombineres med *M014 journalsekvensnummer*, se kommentar under denne
 
-.. list-table:: **M014 journalsekvensnummer**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -338,7 +338,7 @@ Identifikasjon
      
      Kombinasjonen journalår og sekvensnummer er ikke obligatorisk, men anbefales brukt i sakarkiver. Noen rapporter er sortert på denne kombinasjonen, f.eks. løpende- og offentlig journal. Dersom journalår og sekvensnummer ikke brukes, må kronologiske utskrifter sorteres etter andre kriterier (f.eks. journalpostens *opprettetDato*). I Noark 4 skulle sekvensnummeret vises før journalåret (f.eks. 25367/2011) for at det ikke skulle blandes sammen med saksnummeret som har året først.
 
-.. list-table:: **M015 journalpostnummer**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -367,7 +367,7 @@ Identifikasjon
 Kjernemetadata (jf. Dublin Core)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. list-table:: **M020 tittel**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -392,7 +392,7 @@ Kjernemetadata (jf. Dublin Core)
  * - **Kommentarer**
    - For saksmappe og journalpost vil dette tilsvare "Sakstittel" og "Dokumentbeskrivelse". Disse navnene kan beholdes i grensesnittet.
 
-.. list-table:: **M021 beskrivelse**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -417,7 +417,7 @@ Kjernemetadata (jf. Dublin Core)
  * - **Kommentarer**
    - Tilsvarende attributt finnes ikke i Noark 4 (men noen tabeller hadde egne attributter for merknad som kunne brukes som et beskrivelsesfelt)
 
-.. list-table:: **M022 noekkelord**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -442,7 +442,7 @@ Kjernemetadata (jf. Dublin Core)
  * - **Kommentarer**
    - Nøkkelord kan brukes for å forbedre mulighetene for søking og gjenfinning. Nøkkelord skal ikke erstatte klassifikasjon.
 
-.. list-table:: **M023 arkivskaperNavn**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -467,7 +467,7 @@ Kjernemetadata (jf. Dublin Core)
  * - **Kommentarer**
    - 
 
-.. list-table:: **M024 forfatter**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -492,7 +492,7 @@ Kjernemetadata (jf. Dublin Core)
  * - **Kommentarer**
    - Sakarkiver har tradisjonelt ikke noen forfatter på journalposten, men kan eventuelt ha det på dokumentbeskrivelsen. I en journalpost vil derfor forfatter vanligvis være forstått som *M307 saksbehandler* (utgående og organinterne dokumenter) eller eventuelt *M400 korrespondansepartNavn* (ved inngående dokumenter). Fagsystemer uten korrespondansedokumenter bør normal ha en forfatter. Her kan personnavn eventuelt erstattes med en kilde (f.eks. et system).
 
-.. list-table:: **M025 offentligTittel**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -521,7 +521,7 @@ Kjernemetadata (jf. Dublin Core)
 Status
 ~~~~~~
 
-.. list-table:: **M050 arkivstatus**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -551,7 +551,7 @@ Status
  * - **Kommentarer**
    - 
 
-.. list-table:: **M051 arkivdelstatus**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -583,7 +583,7 @@ Status
  * - **Kommentarer**
    - Arkivdeler som avleveres skal ha status "Avsluttet periode"
 
-.. list-table:: **M052 saksstatus**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -614,7 +614,7 @@ Status
  * - **Kommentarer**
    - Saksmapper som avleveres skal ha status "Avsluttet" eller "Utgår".
 
-.. list-table:: **M053 journalstatus**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -646,7 +646,7 @@ Status
  * - **Kommentarer**
    - Journalposter som avleveres skal ha status "Arkivert" eller "Utgår".
 
-.. list-table:: **M054 dokumentstatus**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -674,7 +674,7 @@ Status
  * - **Kommentarer**
    - Dokumentbeskrivelser som avlevers skal ha status "Dokumentet er ferdigstilt".
 
-.. list-table:: **M055 moeteregistreringsstatus**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -703,7 +703,7 @@ Status
  * - **Kommentarer**
    - 
 
-.. list-table:: **M056 presedensstatus**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -735,7 +735,7 @@ Status
 Typer
 ~~~~~
 
-.. list-table:: **M082 journalposttype**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -766,7 +766,7 @@ Typer
  * - **Kommentarer**
    - Tilsvarer "Noark dokumenttype" i Noark 4
 
-.. list-table:: **M083 dokumenttype**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -796,7 +796,7 @@ Typer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M084 merknadstype**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -825,7 +825,7 @@ Typer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M085 moeteregistreringstype**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -855,7 +855,7 @@ Typer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M086 klassifikasjonstype**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -889,7 +889,7 @@ Typer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M087 korrespondanseparttype**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -921,7 +921,7 @@ Typer
  * - **Kommentarer**
    - Korrespondansetype forekommer én gang innenfor objektet korrespondansepart, men denne kan forekomme flere ganger innenfor en journalpost.
 
-.. list-table:: **M088 moetesakstype**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -951,7 +951,7 @@ Typer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M089 slettingstype**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -984,7 +984,7 @@ Typer
 Datoer
 ~~~~~~
 
-.. list-table:: **M100 saksdato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1009,7 +1009,7 @@ Datoer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M101 journaldato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1034,7 +1034,7 @@ Datoer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M102 moetedato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1059,7 +1059,7 @@ Datoer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M103 dokumentetsDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1084,7 +1084,7 @@ Datoer
  * - **Kommentarer**
    - Kan brukes både for inngående, utgående og organinterne dokumenter
 
-.. list-table:: **M104 mottattDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1109,7 +1109,7 @@ Datoer
  * - **Kommentarer**
    - Merk at mottattDato ikke behøver å være identisk med *M600 opprettetDato*
 
-.. list-table:: **M105 sendtDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1134,7 +1134,7 @@ Datoer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M106 utlaantDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1159,7 +1159,7 @@ Datoer
  * - **Kommentarer**
    - Det er ikke spesifisert noen dato for tilbakelevering. Tilbakelevering kan markeres ved at *M106* *utlaantDato* slettes. Det er ingen krav om obligatorisk logging av utlån av fysiske dokumenter.
 
-.. list-table:: **M107 arkivperiodeStartDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1184,7 +1184,7 @@ Datoer
  * - **Kommentarer**
    - Det kan tenkes tilfeller hvor startdatoen ikke er identisk med datoen arkivdelen ble opprettet
 
-.. list-table:: **M108 arkivperiodeSluttDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1209,7 +1209,7 @@ Datoer
  * - **Kommentarer**
    - Det kan forekomme tilfeller hvor sluttdatoen ikke er identisk med datoen arkivdelen ble avsluttet.
 
-.. list-table:: **M109 forfallsdato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1234,7 +1234,7 @@ Datoer
  * - **Kommentarer**
    - Forfallsdato kan være angitt som en betingelse i det inngående dokumentet
 
-.. list-table:: **M110 offentlighetsvurdertDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1259,7 +1259,7 @@ Datoer
  * - **Kommentarer**
    - Dato for offentlighetsvurdering kan brukes dersom inngående dokumenter automatisk blir midlertidig skjermet ved mottak, og offentlighets­vurderingen skjer på et litt senere tidspunkt.
 
-.. list-table:: **M111 presedensDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1284,7 +1284,7 @@ Datoer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M112 journalStartDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1309,7 +1309,7 @@ Datoer
  * - **Kommentarer**
    - Startdatoen vil vanligvis være identisk med *M107 arkivperiodeStartdato*
 
-.. list-table:: **M113 journalSluttDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1338,7 +1338,7 @@ Datoer
 Referanser
 ~~~~~~~~~~
 
-.. list-table:: **M202 referanseForloeper**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1363,7 +1363,7 @@ Referanser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M203 referanseArvtaker**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1388,7 +1388,7 @@ Referanser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M208 referanseArkivdel**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1413,7 +1413,7 @@ Referanser
  * - **Kommentarer**
    - Alle mapper skal ha referanse til arkivdel (selv om tilhørigheten til arkivdel også kan finnes via klasse og klassifikasjonssystem). En mappe, registrering eller en dokumentbeskrivelse som har en annen skjerming, kassasjonsbestemmelse eller dokumentmedium (fysisk/elektronisk) enn resten av dokumentene som tilhører arkivdelen, kan ha referanse til en annen arkivdel som inneholder informasjon om disse "unntakene". Slike arkivdeler vil ikke ha egne barn (dvs. underordnede arkivenheter). Merk at selv om disse arkivenhetene har referanse til en "tom" arkivdel, tilhører de indirekte også den arkivdelen som er utgangspunktet for den hierarkiske arkivstrukturen. Opplysninger om skjerming, kassasjonsbestemmelse og dokumentmedium skal arves fra arkivenheten det refereres til. Slik arv skal da overstyre arven gjennom selve arkivstrukturen. Et eksempel: Alle saksmapper som tilhører en bestemt klasse skal kasseres etter 10 år, unntatt de organinterne dokumentene som skal bevares. Disse dokumentene kan da automatisk tilordnes en annen arkivdel når journalposter med organinterne dokumenter opprettes.
 
-.. list-table:: **M209 referanseSekundaerKlassifikasjon**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1438,7 +1438,7 @@ Referanser
  * - **Kommentarer**
    - Kan også brukes for å bygge opp mangefasettert klassifikasjon og kommunenes klassifikasjonssystem "K-kodene".
 
-.. list-table:: **M210 referanseTilMappe**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1463,7 +1463,7 @@ Referanser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M212 referanseTilRegistrering**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1488,7 +1488,7 @@ Referanser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M215 referanseAvskrivesAvJournalpost**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1513,7 +1513,7 @@ Referanser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M217 tilknyttetRegistreringSom**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1541,7 +1541,7 @@ Referanser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M218 referanseDokumentfil**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1566,7 +1566,7 @@ Referanser
  * - **Kommentarer**
    - Referansen skal være en "sti" (dvs. også inneholde katalogstrukturen) til filnavnet som gjør det mulig å identifisere riktig fil i et arkivuttrekk. Stien skal angis relativt i forhold til filen *arkivstruktur.xml*.
 
-.. list-table:: **M219 referanseTilKlasse**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1591,7 +1591,7 @@ Referanser
  * - **Kommentarer**
    - Kryssreferansen kan gå til en eller flere klasser innenfor samme klassifikasjonssystem, og til en eller flere klasser i andre klassifika­sjonssystem. Kan brukes for å knytte sammen beslektede klasser som ikke kan utledes fra det hierarkiske klassifikasjonssystemet.
 
-.. list-table:: **M221 referanseForrigeMoete**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1616,7 +1616,7 @@ Referanser
  * - **Kommentarer**
    - Kan brukes dersom et møte går over flere dager
 
-.. list-table:: **M222 referanseNesteMoete**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1641,7 +1641,7 @@ Referanser
  * - **Kommentarer**
    - Kan brukes dersom et møte går over flere dager
 
-.. list-table:: **M223 referanseTilMoeteregistrering**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1666,7 +1666,7 @@ Referanser
  * - **Kommentarer**
    - Kan brukes for å knytte sammen dokumenter som tilhører samme "møtesak" (Møtemappen har ikke noe eget nivå for møtesaker.)
 
-.. list-table:: **M224 referanseFraMoeteregistrering**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1695,7 +1695,7 @@ Referanser
 Arkiv- og saksbehandlingsfunksjonalitet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. list-table:: **M300 dokumentmedium**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1724,7 +1724,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
  * - **Kommentarer**
    - Obligatorisk ved blanding av fysisk og elektronisk arkiv. Er hele arkivet enten fysisk eller elektronisk, er det tilstrekkelig med verdi på arkivnivå. Er en hel arkivdel enten fysisk eller elektronisk, er det tilstrekkelig å angi det på arkivdelnivå. Dersom underordnede arkivdeler inneholder både fysiske og elektroniske dokumenter, må informasjon om dette arves nedover i hierarkiet. Se også kommentar til *M208 referanseArkivdel.*
 
-.. list-table:: **M301 oppbevaringssted**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1749,7 +1749,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
  * - **Kommentarer**
    - Fysiske dokumenters plassering skal ellers gå fram av arkivstrukturen. Fysiske dokumenter i et sakarkiv skal i utgangspunktet være ordnet i overordnede omslag (f.eks. hengemapper) etter stigende klasseID. Innenfor hver av disse skal omslagene skal dokumentene ligge i fysiske saksmapper som er ordnet etter stigende mappeID. Innenfor saksmappene skal dokumentene være ordnet etter stigende journalpostnummer ("dokumentnummer"). Vedlegg skal legges sammen med tilhørende hoveddokument.
 
-.. list-table:: **M302 partNavn**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1774,7 +1774,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
  * - **Kommentarer**
    - 
 
-.. list-table:: **M303 partRolle**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1804,7 +1804,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
  * - **Kommentarer**
    - 
 
-.. list-table:: **M304 antallVedlegg**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1829,7 +1829,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
  * - **Kommentarer**
    - 
 
-.. list-table:: **M305 administrativEnhet**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1854,7 +1854,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
  * - **Kommentarer**
    - Merk at på journalpostnivå grupperes *administrativEnhet* sammen med *M307 saksbehandler* inn i korrespondansepart. Dette muliggjør individuell behandling når det er flere mottakere, noe som er særlig aktuelt ved organinterne dokumenter som skal følges opp.
 
-.. list-table:: **M306 saksansvarlig**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1879,7 +1879,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
  * - **Kommentarer**
    - 
 
-.. list-table:: **M307 saksbehandler**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1904,7 +1904,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
  * - **Kommentarer**
    - Merk at *saksbehandler* grupperes inn i korrespondansepart på journalpostnivå. Se kommentar til *M305 administrativEnhet*.
 
-.. list-table:: **M308 journalenhet**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1929,7 +1929,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
  * - **Kommentarer**
    - 
 
-.. list-table:: **M309 utlaantTil**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1954,7 +1954,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
  * - **Kommentarer**
    - 
 
-.. list-table:: **M310 merknadstekst**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -1979,7 +1979,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
  * - **Kommentarer**
    - Merknaden bør gjelde selve saksbehandlingen eller forhold rundt arkiveringen av dokumentene som tilhører arkivenheten.
 
-.. list-table:: **M311 presedensHjemmel**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2004,7 +2004,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
  * - **Kommentarer**
    - 
 
-.. list-table:: **M312 rettskildefaktor**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2029,7 +2029,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
  * - **Kommentarer**
    - En rettskildefaktor kan være en lov- eller forskriftstekst, lovforarbeider, domstolspraksis, andre myndigheters praksis, privates praksis (kontraktspraksis), rettsoppfatninger, reelle hensyn, folkerett, EU-/ EØS-rett mv.
 
-.. list-table:: **M313 seleksjon**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2058,7 +2058,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
 Møtebehandling
 ~~~~~~~~~~~~~~
 
-.. list-table:: **M370 utvalg**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2083,7 +2083,7 @@ Møtebehandling
  * - **Kommentarer**
    - 
 
-.. list-table:: **M371 moetested**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2108,7 +2108,7 @@ Møtebehandling
  * - **Kommentarer**
    - 
 
-.. list-table:: **M372 moetedeltakerNavn**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2133,7 +2133,7 @@ Møtebehandling
  * - **Kommentarer**
    - 
 
-.. list-table:: **M373 moetedeltakerFunksjon**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2165,7 +2165,7 @@ Møtebehandling
 Korrespondanse
 ~~~~~~~~~~~~~~
 
-.. list-table:: **M400 korrespondansepartNavn**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2190,7 +2190,7 @@ Korrespondanse
  * - **Kommentarer**
    - Navn på korrespondansepart forekommer én gang innenfor objektet korrespondansepart, men denne kan forekomme flere ganger innenfor en journalpost. De samme gjelder alle elementene nedenfor.
 
-.. list-table:: **M406 postadresse**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2215,7 +2215,7 @@ Korrespondanse
  * - **Kommentarer**
    - En postadresse kan angis som flere elementer ("adresselinjer"), noe som kan være aktuelt ved bestemte utenlandske adresser
 
-.. list-table:: **M407 postnummer**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2240,7 +2240,7 @@ Korrespondanse
  * - **Kommentarer**
    - 
 
-.. list-table:: **M408 poststed**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2265,7 +2265,7 @@ Korrespondanse
  * - **Kommentarer**
    - 
 
-.. list-table:: **M409 land**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2290,7 +2290,7 @@ Korrespondanse
  * - **Kommentarer**
    - 
 
-.. list-table:: **M410 epostadresse**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2315,7 +2315,7 @@ Korrespondanse
  * - **Kommentarer**
    - 
 
-.. list-table:: **M411 telefonnummer**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2340,7 +2340,7 @@ Korrespondanse
  * - **Kommentarer**
    - 
 
-.. list-table:: **M412 kontaktperson**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2369,7 +2369,7 @@ Korrespondanse
 Bevaring og kassasjon
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. list-table:: **M450 kassasjonsvedtak**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2398,7 +2398,7 @@ Bevaring og kassasjon
  * - **Kommentarer**
    - 
 
-.. list-table:: **M451 bevaringstid**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2423,7 +2423,7 @@ Bevaring og kassasjon
  * - **Kommentarer**
    - Tidspunktet for når bevaringstiden starter å løpe, vil vanligvis være når en mappe avsluttes. Men andre regler kan være aktuelle.
 
-.. list-table:: **M452 kassasjonsdato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2448,7 +2448,7 @@ Bevaring og kassasjon
  * - **Kommentarer**
    - 
 
-.. list-table:: **M453 kassasjonshjemmel**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2477,7 +2477,7 @@ Bevaring og kassasjon
 Skjerming og gradering
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. list-table:: **M500 tilgangsrestriksjon**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2509,7 +2509,7 @@ Skjerming og gradering
  * - **Kommentarer**
    - 
 
-.. list-table:: **M501 skjermingshjemmel**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2534,7 +2534,7 @@ Skjerming og gradering
  * - **Kommentarer**
    - 
 
-.. list-table:: **M502 skjermingMetadata**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2572,7 +2572,7 @@ Skjerming og gradering
  * - **Kommentarer**
    - Skjerming av klasseID (arkivnøkkel, arkivkode) er f.eks. aktuelt når identifikasjonen er et fødselsnummer. Dersom utvalgte ord fra tittel skjermes, er metadataelementet *M025 offentligTittel* obligatorisk. Skjerming av navn på part i sak angis for *saksmappe*, skjerming av navn på avsender og mottaker angis for *journalpost*, skjerming av merknader angis for *saksmappe* og *journalpost*. Ved midlertidig skjerming skal alle metadata ovenfor skjermes, må bare brukes inntil skjermingsbehovet er vurdert.
 
-.. list-table:: **M503 skjermingDokument**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2600,7 +2600,7 @@ Skjerming og gradering
  * - **Kommentarer**
    - Dersom deler av dokumentet skal skjermes, må dokumentet også finnes i en variant. Her må all informasjon som skal skjermes, være "sladdet".
 
-.. list-table:: **M504 skjermingsvarighet**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2625,7 +2625,7 @@ Skjerming og gradering
  * - **Kommentarer**
    - Tidspunktet for når skjermingsvarigheten starter å løpe, vil vanligvis være når journalposten ble registrert, men det skal være mulig med andre regler.
 
-.. list-table:: **M505 skjermingOpphoererDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2650,7 +2650,7 @@ Skjerming og gradering
  * - **Kommentarer**
    - 
 
-.. list-table:: **M506 gradering**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2684,7 +2684,7 @@ Skjerming og gradering
  * - **Kommentarer**
    - Dokumenter gradert "Strengt hemmelig", "Hemmelig", "Konfidensielt" og "Strengt fortrolig" skal føres i en egen journal som i sin helhet er unntatt fra innsyn.
 
-.. list-table:: **M507 elektroniskSignaturSikkerhetsnivaa**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2714,7 +2714,7 @@ Skjerming og gradering
  * - **Kommentarer**
    - 
 
-.. list-table:: **M508 elektroniskSignaturVerifisert**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2746,7 +2746,7 @@ Skjerming og gradering
 Brukeradministrasjon og administrasjonsstruktur
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. list-table:: **M580 brukerNavn**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2771,7 +2771,7 @@ Brukeradministrasjon og administrasjonsstruktur
  * - **Kommentarer**
    - Navn på bruker vil registreres mange steder i arkivstrukturen, f.eks. som saksansvarlig eller saksbehandler, og ved forskjellige typer logging.
 
-.. list-table:: **M581 brukerRolle**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2801,7 +2801,7 @@ Brukeradministrasjon og administrasjonsstruktur
  * - **Kommentarer**
    - 
 
-.. list-table:: **M582 brukerstatus**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2829,7 +2829,7 @@ Brukeradministrasjon og administrasjonsstruktur
  * - **Kommentarer**
    - 
 
-.. list-table:: **M583 administrativEnhetNavn**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2854,7 +2854,7 @@ Brukeradministrasjon og administrasjonsstruktur
  * - **Kommentarer**
    - Navn på administrativ enhet vil registreres flere steder i arkivstrukturen, f.eks. sammen med saksansvarlig eller saksbehandler på saksmappe eller journalpost.
 
-.. list-table:: **M584 administrativEnhetsstatus**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2882,7 +2882,7 @@ Brukeradministrasjon og administrasjonsstruktur
  * - **Kommentarer**
    - 
 
-.. list-table:: **M585 referanseOverordnetEnhet**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2911,7 +2911,7 @@ Brukeradministrasjon og administrasjonsstruktur
 Logging av hendelser
 ~~~~~~~~~~~~~~~~~~~~
 
-.. list-table:: **M600 opprettetDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2936,7 +2936,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M601 opprettetAv**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2961,7 +2961,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M602 avsluttetDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -2986,7 +2986,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M603 avsluttetAv**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3011,7 +3011,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M604 arkivertDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3036,7 +3036,7 @@ Logging av hendelser
  * - **Kommentarer**
    - Arkivering innebærer at dokumentene blir "frosset", dvs. sperret for all videre redigering/endring
 
-.. list-table:: **M605 arkivertAv**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3061,7 +3061,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M609 antallJournalposter**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3086,7 +3086,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M611 merknadsdato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3111,7 +3111,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M612 merknadRegistrertAv**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3136,7 +3136,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M613 slettetDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3161,7 +3161,7 @@ Logging av hendelser
  * - **Kommentarer**
    - Informasjon om sletting av dokumenter i produksjonsformat skal ikke avleveres. Sletting må ikke blandes sammen med kassasjon.
 
-.. list-table:: **M614 slettetAv**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3186,7 +3186,7 @@ Logging av hendelser
  * - **Kommentarer**
    - Sletting må ikke blandes sammen med kassasjon.
 
-.. list-table:: **M615 konvertertDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3211,7 +3211,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M616 konvertertAv**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3236,7 +3236,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M617 avskrivningsdato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3261,7 +3261,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M618 avskrevetAv**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3286,7 +3286,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M619 avskrivningsmaate**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3317,7 +3317,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M620 tilknyttetDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3342,7 +3342,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M621 tilknyttetAv**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3367,7 +3367,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M622 verifisertDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3392,7 +3392,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M623 verifisertAv**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3417,7 +3417,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M624 graderingsdato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3442,7 +3442,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M625 gradertAv**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3467,7 +3467,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M626 nedgraderingsdato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3492,7 +3492,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M627 nedgradertAv**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3517,7 +3517,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M628 presedensGodkjentDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3542,7 +3542,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M629 presedensGodkjentAv**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3567,7 +3567,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M630 kassertDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3592,7 +3592,7 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
-.. list-table:: **M631 kassertAv**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3621,7 +3621,7 @@ Logging av hendelser
 Logging av arbeidsflyt og saksfordeling
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. list-table:: **M660 flytTil**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3646,7 +3646,7 @@ Logging av arbeidsflyt og saksfordeling
  * - **Kommentarer**
    - 
 
-.. list-table:: **M661 flytMottattDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3671,7 +3671,7 @@ Logging av arbeidsflyt og saksfordeling
  * - **Kommentarer**
    - 
 
-.. list-table:: **M662 flytSendtDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3696,7 +3696,7 @@ Logging av arbeidsflyt og saksfordeling
  * - **Kommentarer**
    - 
 
-.. list-table:: **M663 flytStatus**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3725,7 +3725,7 @@ Logging av arbeidsflyt og saksfordeling
  * - **Kommentarer**
    - 
 
-.. list-table:: **M664 flytMerknad**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3750,7 +3750,7 @@ Logging av arbeidsflyt og saksfordeling
  * - **Kommentarer**
    - 
 
-.. list-table:: **M665 flytFra**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3779,7 +3779,7 @@ Logging av arbeidsflyt og saksfordeling
 Logging av endringer
 ~~~~~~~~~~~~~~~~~~~~
 
-.. list-table:: **M680 referanseArkivenhet**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3804,7 +3804,7 @@ Logging av endringer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M681 referanseMetadata**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3829,7 +3829,7 @@ Logging av endringer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M682 endretDato**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3854,7 +3854,7 @@ Logging av endringer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M683 endretAv**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3879,7 +3879,7 @@ Logging av endringer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M684 tidligereVerdi**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3904,7 +3904,7 @@ Logging av endringer
  * - **Kommentarer**
    - 
 
-.. list-table:: **M685 nyVerdi**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3933,7 +3933,7 @@ Logging av endringer
 Tekniske metadata
 ~~~~~~~~~~~~~~~~~
 
-.. list-table:: **M700 variantformat**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3964,7 +3964,7 @@ Tekniske metadata
  * - **Kommentarer**
    - 
 
-.. list-table:: **M701 format**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -3989,7 +3989,7 @@ Tekniske metadata
  * - **Kommentarer**
    - Faste verdier bestemmes senere
 
-.. list-table:: **M702 formatDetaljer**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -4014,7 +4014,7 @@ Tekniske metadata
  * - **Kommentarer**
    - 
 
-.. list-table:: **M705 sjekksum**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -4039,7 +4039,7 @@ Tekniske metadata
  * - **Kommentarer**
    - 
 
-.. list-table:: **M706 sjekksumAlgoritme**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -4064,7 +4064,7 @@ Tekniske metadata
  * - **Kommentarer**
    - 
 
-.. list-table:: **M707 filstoerrelse**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -4089,7 +4089,7 @@ Tekniske metadata
  * - **Kommentarer**
    - 
 
-.. list-table:: **M711 virksomhetsspesifikkeMetadata**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -4114,7 +4114,7 @@ Tekniske metadata
  * - **Kommentarer**
    - 
 
-.. list-table:: **M712 konvertertFraFormat**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -4139,7 +4139,7 @@ Tekniske metadata
  * - **Kommentarer**
    - Dette vil vanligvis være produksjonsformatet, men kan også være et annet arkivformat. Faste verdier bestemmes senere.
 
-.. list-table:: **M713 konvertertTilFormat**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -4164,7 +4164,7 @@ Tekniske metadata
  * - **Kommentarer**
    - Faste verdier bestemmes senere
 
-.. list-table:: **M714 konverteringsverktoey**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 
@@ -4189,7 +4189,7 @@ Tekniske metadata
  * - **Kommentarer**
    - 
 
-.. list-table:: **M715 konverteringskommentar**
+.. list-table::
    :widths: 2 6
    :header-rows: 0
 

@@ -123,23 +123,22 @@ Dokumentasjons­forvaltning innebærer altså at virksomheten skal kunne dokumen
 
 Dokumentasjonsforvaltningen skiller seg dermed fra en noe enklere dokumenthåndtering slik:
 
-+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
-| Løsninger for dokumenthåndtering                                                                  | Løsninger for dokumentasjonsforvaltning                                                           |
-+===================================================================================================+===================================================================================================+
-| Kan tillate at dokumenter endres og/eller finnes i flere versjoner uten at det er kontroll på     | Hindrer at dokumentasjon endres, og har versjonskontroll.                                         |
-| hvilken versjon som er den endelige.                                                              |                                                                                                   |
-+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
-| Kan tillate at dokumenter slettes av dokumenteier                                                 | Hindrer at dokumentasjon slettes uten at det er skjer gjennom kontrollert, autorisert kassasjon.  |
-+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
-| Kan inneholde noe kontroll over hvor lenge et dokument skal oppbevares og om det kan slettes.     | Rigorøs «retention control», det vil si løsningene skal ha funksjoner for å styre bevaring,       |
-|                                                                                                   | migrasjon og kassasjon av dokumentasjon iht. fastsatte planer.                                    |
-+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
-| Kan inneholde strukturert dokumentlagring, som kan være brukerstyrt.                              | Arkivstruktur med et klassifikasjonssystem som knytter dokumentasjon til kontekst (sammenhengen   |
-|                                                                                                   | den ble skapt i), og som vedlikeholdes av autorisert administrator.                               |
-+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
-| Har som primær funksjon å støtte den daglige produksjonen og bruken av dokumenter i løpende       | Støtter den daglige bruken av dokumenter i løpende saksbehandling, men skal også være et sikkert  |
-| saksbehandling.                                                                                   | og troverdig arkiv for dokumentasjon.                                                             |
-+---------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
+.. list-table:: **Løsninger for dokumenthåndtering versus dokumentasjonsforvaltning**
+   :widths: 1 1
+   :header-rows: 1
+
+ * - Løsninger for dokumenthåndtering
+   - Løsninger for dokumentasjonsforvaltning
+ * - Kan tillate at dokumenter endres og/eller finnes i flere versjoner uten at det er kontroll på hvilken versjon som er den endelige
+   - Hindrer at dokumentasjon endres, og har versjonskontroll
+ * - Kan tillate at dokumenter slettes av dokumenteier
+   - Hindrer at dokumentasjon slettes uten at det er skjer gjennom kontrollert, autorisert kassasjon
+ * - Kan inneholde noe kontroll over hvor lenge et dokument skal oppbevares og om det kan slettes
+   - Rigorøs «retention control», det vil si løsningene skal ha funksjoner for å styre bevaring, migrasjon og kassasjon av dokumentasjon  iht. fastsatte planer
+ * - Kan inneholde strukturert dokumentlagring, som kan være brukerstyrt
+   - Arkivstruktur med et klassifikasjonssystem som knytter dokumentasjon til kontekst (sammenhengen den ble skapt i), og som  vedlikeholdes av autorisert administrator
+ * - Har som primær funksjon å støtte den daglige produksjonen og bruken av dokumenter i løpende saksbehandling
+   - Støtter den daglige bruken av dokumenter i løpende saksbehandling, men skal også være et sikkert og troverdig arkiv for dokumentasjon.
 
 Det er altså ikke gitt at løsninger for dokumenthåndtering i ettertid kan garantere at dokumentet fortsatt kan gjenfinnes, at det er lesbart eller at det dokumentet man faktisk finner er uendret. Løsninger som er utviklet spesielt for dokumentasjonsforvaltning, slik Noark-standarden legger til rette for, skal både sikre at dokumentet kan gjenfinnes, at det er lesbart og at det er autentisk med opprettholdt integritet.
 
@@ -159,26 +158,19 @@ Kravtyper i Noark 5
 
 Alle gjeldende krav framgår av kravtabellene. Kravtabellene er satt opp på denne måten:
 
-+----------+----------------------------+------+---------+
-| Krav nr. | <hva det stilles krav til> | Type | Merknad |
-+----------+----------------------------+------+---------+
+.. list-table:: **Kravtabellen**
+   :widths: 1 1 1 1
+   :header-rows: 1
 
-**Krav. nr.:**
-    Kravnummereringen er inndelt i <kapittelnr>. <underkapittelnr>, <løpenummer innen underkapittel> (5.7.6 betyr f. eks. kapittel 5, underkapittel 7, og krav nr. 6).
-
-**<hva det stilles krav til>**:
-    Dette angir området det stilles krav til i tabellen
-
-**Type:**
-    Angir type krav. Her brukes:
-
-    - O (Obligatorisk)
-    - B (Betinget obligatorisk)
-    - V (Valgfritt)
-
-**Merknad:**
-    Merknader til kravet, f.eks. betingelser for når kravet er obligatorisk
-
+ * - Krav nr
+   - hva det stilles krav til
+   - Type
+   - Merknad
+ * - Kravnummereringen er inndelt i <kapittelnr>. <underkapittelnr>, <løpenummer innen underkapittel> (5.7.6 betyr f. eks. kapittel 5, underkapittel 7, og krav nr. 6) 
+   - Dette angir området det stilles krav til i tabellen
+   - Angir type krav. Her brukes: O (Obligatorisk), B (Betinget obligatorisk), V (Valgfritt) 
+   - Merknader til kravet, f.eks. betingelser for når kravet er obligatorisk
+  
 Obligatoriske og betinget obligatoriske krav er angitt med "skal" i kravteksten. Valgfrie krav er angitt med "bør" i kravteksten. Betinget obligatoriske krav er obligatoriske under bestemte betingelser. Disse betingelsene er nærmere beskrevet i merknadsfeltet.
 
 De obligatoriske kravene er obligatoriske for alle typer systemer som skal godkjennes etter standarden. Noen betinget obligatoriske krav vil være obligatoriske kun for system med sakarkiv. Andre betinget obligatoriske krav kan være obligatoriske for systemer som inneholder dokumenter som skal bevares i mer enn 10 år. I andre tilfeller igjen kan betingelsen for et slikt krav være at et gitt valgfritt krav oppfylles.

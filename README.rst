@@ -16,3 +16,9 @@ Prosjektet vedlikeholdes på https://github.com/arkivverket/noark5-standard
 
 XML-skjema (XSD)
 https://github.com/arkivverket/schemas/
+
+Oversettelser
+-------------
+
+Teksten oversettes ved hjelp av
+https://hosted.weblate.org/projects/noark/noark5/

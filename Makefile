@@ -34,7 +34,7 @@ docbook: kapitler/*.rst
 		-t docbook4 $$m \
 		-o docbook/$$basename.xml; \
 	done
-	sed -i -e 's%<chapter%<preface%' -e 's%</chapter%</preface%' docbook/*-forord*.xml
+	sed -i -e 's%<chapter%<dedication%' -e 's%</chapter%</dedication%' docbook/*-forord*.xml
 	sed -i -e 's%<chapter%<appendix%' -e 's%</chapter%</appendix%' docbook/*-vedlegg*.xml
 DBLATEX_OPTS = \
 	-T simple \

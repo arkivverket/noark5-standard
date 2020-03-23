@@ -26,6 +26,10 @@
 
 <xsl:param name="toc.section.depth">2</xsl:param>
 
+<!-- Drop aligned right text border to be visually similar to other
+     documents from the Norwegian National Archive. -->
+<xsl:param name="doc.alignment">left</xsl:param>
+
 <!-- Fiks manglende oversettelse av '(continued)' -->
 <xsl:param name="table.continue.caption">(fra forrige side)</xsl:param>
 

@@ -86,7 +86,3 @@
 % line of the paragraph.
 \setlength{\parindent}{0cm} \hangindent=\parindent
 \setlength{\parskip}{2ex}
-
-% Drop aligned right text border to be visually similar to other
-% documents from the Norwegian National Archive.
-\raggedright

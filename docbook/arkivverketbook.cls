@@ -51,7 +51,7 @@
 
 \def\titleverso{%
   \def\titlepagefile{titlepg.input.tex}
-  \IfFileExists{\titlepagefile}{\input{\titlepagefile}}{}
+  \IfFileExists{\titlepagefile}{\input{\titlepagefile}}{\DBKlegalblock}
 }%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

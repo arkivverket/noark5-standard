@@ -284,7 +284,7 @@ Det skal være mulig å klassifisere en saksmappe med mer enn en klasse, dvs. me
 Klassene vil ofte legges inn før en Noark 5-løsning tas i bruk. Men det skal også være mulig for autoriserte brukere å opprette nye klasser. Det er særlig aktuelt ved objektbasert klassifikasjon. Klasser skal også kunne avsluttes, slik at det ikke lenger er mulig å knytte nye mapper til dem.
 
 .. figure:: ./media/uml-klassifikasjonssystem-diagram.png
-   :width: 100%
+   :width: 60%
 
    **Konseptuell modell for *klassifikasjonssystem* **
 

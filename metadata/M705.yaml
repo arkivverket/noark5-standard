@@ -6,7 +6,8 @@ Datatype: Tekststreng
 Definisjon: En verdi som beregnes ut fra innholdet i dokumentet, og som dermed gir
   integritetssikring til dokumentets innhold
 Gruppe: Tekniske metadata
-Kilde: Påføres automatisk i forbindelse med eksport for avlevering
+Kilde: Påføres automatisk ved mottak eller i forbindelse med eksport
+  for avlevering.
 Kommentarer:
 Navn: sjekksum
 Nr: M705

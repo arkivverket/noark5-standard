@@ -4422,7 +4422,7 @@ Tekniske metadata
  * - **Arkivenhet**
    - dokumentobjekt
  * - **Kilde**
-   - Påføres automatisk i forbindelse med eksport for avlevering
+   - Påføres automatisk ved mottak eller i forbindelse med eksport for avlevering.
  * - **Arv**
    - Nei
  * - **Betingelser**
@@ -4443,7 +4443,7 @@ Tekniske metadata
  * - **Arkivenhet**
    - dokumentobjekt
  * - **Kilde**
-   - Registreres automatisk i forbindelse med eksport for avlevering
+   - Registreres automatisk mottak eller i forbindelse med eksport for avlevering.
  * - **Arv**
    - Nei
  * - **Betingelser**
@@ -4639,4 +4639,88 @@ Tekniske metadata
    - Kan ikke endres
  * - **Kommentarer**
    - MIME-type for bruk når fil overføres via for eksempel HTTP og SMTP.  MIME-typer er definert i IETF RFC 2046 og en katalog over offisielle verdier vedlikeholdes av Internet Assigned Numbers Authority (IANA).  Merk at en PRONOM-kode kan ha flere kjente MIME-typer og en MIME-type kan være koblet til flere PRONOM-koder.
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M717**
+ * - **Navn**
+   - **konvertertFraSjekksum**
+ * - **Definisjon**
+   - En verdi som beregnes ut fra innholdet i dokumentet, og som dermed gir integritetssikring til dokumentets innhold
+ * - **Arkivenhet**
+   - konvertering
+ * - **Kilde**
+   - Påføres automatisk ved konvertering.
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Kan ikke endres. Sjekksummen skal være heksadesimal uten noen formatteringstegn.
+ * - **Kommentarer**
+   - Bruker samme verdier som M705 sjekksum.
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M718**
+ * - **Navn**
+   - **konvertertFraSjekksumAlgoritme**
+ * - **Definisjon**
+   - Algoritmen som er brukt for å beregne konvertertFraSjekksum
+ * - **Arkivenhet**
+   - konvertering
+ * - **Kilde**
+   - Registreres automatisk i forbindelse ved konvertering
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Kan ikke endres.  Kopi av algoritmen til dokumentobjekt for kildefil ved konvertering.
+ * - **Kommentarer**
+   - Bruker samme verdier som M706 sjekksumAlgoritme.
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M719**
+ * - **Navn**
+   - **konvertertTilSjekksum**
+ * - **Definisjon**
+   - En verdi som beregnes ut fra innholdet i dokumentet, og som dermed gir integritetssikring til dokumentets innhold
+ * - **Arkivenhet**
+   - konvertering
+ * - **Kilde**
+   - Påføres automatisk ved konvertering.
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Kan ikke endres. Sjekksummen skal være heksadesimal uten noen formatteringstegn.
+ * - **Kommentarer**
+   - Bruker samme verdier som M705 sjekksum.
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M720**
+ * - **Navn**
+   - **konvertertFraSjekksumAlgoritme**
+ * - **Definisjon**
+   - Algoritmen som er brukt for å beregne konvertertTilSjekksum
+ * - **Arkivenhet**
+   - konvertering
+ * - **Kilde**
+   - Registreres automatisk i forbindelse med konvertering.
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Kan ikke endres.  Kopi av algoritmen til dokumentobjekt for målfil ved konvertering.
+ * - **Kommentarer**
+   - Bruker samme verdier som M706 sjekksumAlgoritme.
 

@@ -1,0 +1,13 @@
+Arkivenhet: konvertering
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres.  Kopi av algoritmen til dokumentobjekt
+  for kildefil ved konvertering.
+Datatype: Tekststreng
+Definisjon: Algoritmen som er brukt for å beregne konvertertFraSjekksum
+Gruppe: Tekniske metadata
+Kilde: Registreres automatisk i forbindelse ved konvertering
+Kommentarer: Bruker samme verdier som M706 sjekksumAlgoritme.
+Navn: konvertertFraSjekksumAlgoritme
+Nr: M718
+X: true

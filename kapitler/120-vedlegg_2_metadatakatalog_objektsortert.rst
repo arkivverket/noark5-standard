@@ -98,7 +98,7 @@ Merk: En og bare en av objekttypene *arkiv* eller *arkivdel* grupperes inn i *ar
    - AR.ARKIV
    - 1
    - A
-   - Tekststreng
+   - ID
  * - M020
    - tittel
    - AR.BETEGN
@@ -210,7 +210,7 @@ Merk: En og bare en av objekttypene *arkiv* eller *arkivdel* grupperes inn i *ar
    - AD.ARKDEL
    - 1
    - A
-   - Tekststreng
+   - ID
  * - M020
    - tittel
    - AD.BETEGN
@@ -282,13 +282,13 @@ Merk: En og bare en av objekttypene *arkiv* eller *arkivdel* grupperes inn i *ar
    - 
    - 0-1
    - A
-   - arkivdel.systemID
+   - arkivdel.ID
  * - M203
    - referanseArvtaker
    - AD.FORTS
    - 0-1
    - A
-   - arkivdel.systemID
+   - arkivdel.ID
 
 Metadata for *klassifikasjonssystem*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -312,7 +312,7 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
    - OP.ORDNPRI
    - 1
    - A
-   - Tekststreng
+   - ID
  * - M086
    - klassifikasjonstype
    - OP.TYPE
@@ -380,7 +380,7 @@ Merk: Bare en av objekttypene *klasse*, *mappe* eller *registrering* kan grupper
    - 
    - 1
    - A
-   - Tekststreng
+   - ID
  * - M002
    - klasseID
    - OV.ORDNVER
@@ -460,7 +460,7 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
    - SA.ID
    - 1
    - A
-   - Tekststreng
+   - ID
  * - M003
    - mappeID
    - (SA.SAAR+SA. SEKNR)
@@ -532,7 +532,7 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
    - SA.ARKDEL
    - 0-M
    - A
-   - arkivdel.systemID
+   - arkivdel.ID
  * - M711
    - virksomhetsspesifikkeMetadata
    - 
@@ -614,7 +614,7 @@ Spesialisering av: *mappe*
    - (KL.ORDNVER)
    - 0-M
    - A
-   - klasse.systemID
+   - klasse.ID
 
 Metadata for *moetemappe*
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -660,13 +660,13 @@ Spesialisering av: *mappe*
    - MO.FORTS
    - 0-1
    - A
-   - mappe.systemID
+   - mappe.ID
  * - M222
    - referanseNesteMoete
    - 
    - 0-1
    - A
-   - mappe.systemID
+   - mappe.ID
 
 Metadata for *moetedeltaker*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -726,7 +726,7 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
    - JP.ID
    - 1
    - A
-   - Tekststreng
+   - ID
  * - M600
    - opprettetDato
    - 
@@ -756,7 +756,7 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
    - JP.ARKDEL
    - 0-M
    - A
-   - arkivdel.systemID
+   - arkivdel.ID
  * - M004
    - registreringsID
    - (SA.SAAR+ SA.SEKNR+ JP.POSTNR)
@@ -1052,7 +1052,7 @@ Merk: Grupperes inn in den journalposten som avskrives.
    - AM.AVSKAV
    - 0-1
    - A
-   - registrering.systemID
+   - registrering.ID
 
 Metadata for *arkivnotat*
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1222,13 +1222,13 @@ Spesialisering av: *registrering*
    - 
    - 0-M
    - A
-   - registrering.systemID
+   - registrering.ID
  * - M224
    - referanseFraMoeteregistrering
    - 
    - 0-M
    - A
-   - registrering.systemID
+   - registrering.ID
 
 Metadata for *dokumentbeskrivelse*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1252,7 +1252,7 @@ Merk: En *dokumentbeskrivelse* kan være knyttet til mer enn én enkelt *registr
    - DB.DOKID
    - 1
    - A
-   - Tekststreng
+   - ID
  * - M083
    - dokumenttype
    - DB.KATEGORI
@@ -1312,7 +1312,7 @@ Merk: En *dokumentbeskrivelse* kan være knyttet til mer enn én enkelt *registr
    - JP.ARKDEL
    - 0-M
    - A
-   - arkivdel.systemID
+   - arkivdel.ID
  * - M217
    - tilknyttetRegistreringSom
    - DL.TYPE
@@ -1394,7 +1394,7 @@ Metadata for *dokumentobjekt*
    - 
    - 1
    - A
-   - Tekststreng
+   - ID
  * - M005
    - versjonsnummer
    - VE.VERSJON
@@ -1545,19 +1545,19 @@ Merk: Referansen kan gå fra en *klasse* til en annen *klasse*, fra en *mappe* t
    - JO.ORDNPRI2
    - 0-1
    - A
-   - klasse.systemID
+   - klasse.ID
  * - M210
    - referanseTilMappe
    - JF.TSAID
    - 0-1
    - A
-   - mappe.systemID
+   - mappe.ID
  * - M212
    - referanseTilRegistrering
    - JF.TJPID
    - 0-1
    - A
-   - registrering.systemID
+   - registrering.ID
 
 Metadata for *merknad*
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -2235,7 +2235,7 @@ Nærmere spesifikasjon av hvilke endringer som skal logges, følger som et eget 
    - 
    - 1
    - A
-   - Tekststreng (arkivenhetens systemID)
+   - arkivenhet.ID
  * - M681
    - referanseMetadata
    - 
@@ -2453,7 +2453,7 @@ Metadata for *journalpost*
    - 
    - 1
    - A
-   - Tekststreng
+   - ID
  * - M013
    - journalaar
    - JP.JAAR
@@ -2519,7 +2519,7 @@ Metadata for *journalpost*
    - AM.AVSAV
    - 0-1
    - A
-   - registrering.systemID
+   - registrering.ID
  * - M500
    - tilgangsrestriksjon
    - JP.TGKODE
@@ -2741,7 +2741,7 @@ Metadata for *journalpost*
    - 
    - 1
    - A
-   - Tekststreng
+   - ID
  * - M013
    - journalaar
    - JP.JAAR
@@ -2801,7 +2801,7 @@ Metadata for *journalpost*
    - AM.AVSAV
    - 0-1
    - A
-   - registrering.systemID
+   - registrering.ID
  * - M500
    - tilgangsrestriksjon
    - JP.TGKODE

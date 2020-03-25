@@ -2,7 +2,7 @@ Arkivenhet: mappe, registrering
 Arv: Nei
 Avleveres: A
 Betingelser:
-Datatype: systemID
+Datatype: ID
 Definisjon: Kryssreferanse til en *mappe* fra en annen *mappe* eller *registrering*
 Gjeldende: true
 Gruppe: Referanser

@@ -2,7 +2,7 @@ Arkivenhet: moetemappe
 Arv: Nei
 Avleveres: A
 Betingelser:
-Datatype: systemID
+Datatype: ID
 Definisjon: Referanse til forrige utvalgsmøte
 Gjeldende: true
 Gruppe: Referanser

@@ -2,7 +2,7 @@ Arkivenhet: moeteregistrering
 Arv: Nei
 Avleveres: A
 Betingelser:
-Datatype: systemID
+Datatype: ID
 Definisjon: Referanse fra en annen møteregistrering
 Gjeldende: true
 Gruppe: Referanser

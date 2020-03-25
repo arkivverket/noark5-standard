@@ -896,7 +896,7 @@ Hensikten med rapporten *Forfallsliste* er å kunne vise dokumenter med en frist
    eller lignende.
 
 .. [10]
-   http://geointegrasjon.no/
+   https://geointegrasjon.no/
 
 .. [11]
    https://www.arkivverket.no/forvaltning-og-utvikling/noark-standarden/noark-5/tjenestegrensesnitt-noark5

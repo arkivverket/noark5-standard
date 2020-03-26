@@ -534,7 +534,7 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
    - A
    - arkivdel.systemID
  * - M711
-   - virksomhetsspesifikke Metadata
+   - virksomhetsspesifikkeMetadata
    - 
    - 0-1
    - A
@@ -610,7 +610,7 @@ Spesialisering av: *mappe*
    - 
    - Tekststreng
  * - M209
-   - referanseSekundaer Klassifikasjon
+   - referanseSekundaerKlassifikasjon
    - (KL.ORDNVER)
    - 0-M
    - A
@@ -806,7 +806,7 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
    - 
    - Tekststreng
  * - M711
-   - virksomhetsspesifikke Metadata
+   - virksomhetsspesifikkeMetadata
    - 
    - 0-1
    - A
@@ -1665,7 +1665,7 @@ Metadata for *part*
    - A
    - Tekststreng
  * - M711
-   - virksomhetsspesifikke Metadata
+   - virksomhetsspesifikkeMetadata
    - 
    - 0-1
    - A

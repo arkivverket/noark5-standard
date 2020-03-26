@@ -646,18 +646,14 @@ Hele klassifikasjonsstrukturen skal tas med i uttrekket, også klasser som er "u
        arkivuttrekket)
      - **arkivstruktur.xml** (metadata om dokumentene)
      - **endringslogg.xml** (logging av endrede metadata)
-
-     ..
-
+     
      Dersom avleveringspakken inneholder arkivuttrekk med
      journalføringspliktig informasjon, skal den i tillegg inneholde
      følgende filer:
      
      - **loependeJournal.xml**
      - **offentligJournal.xml**
-
-     ..
-     
+          
      XML-skjemaene til alle XML-filer i avleveringspakken skal også
      være inkludert.  For virksomhetsspesifikke metadata skal det
      medfølge egne XML-skjemaer.

@@ -1454,7 +1454,7 @@ Metadata for *dokumentobjekt*
    - 
    - 1
    - A
-   - Tekststreng
+   - Heltall
  * - M716
    - mimeType
    -

@@ -7,7 +7,7 @@ Definisjon: Formatet dokumentet fikk etter konvertering
 Forekomster: '1'
 Gruppe: Tekniske metadata
 Kilde: Registreres automatisk ved konvertering
-Kommentarer: Faste verdier bestemmes senere
+Kommentarer: Bruker samme verdier som M701 format.
 Navn: konvertertTilFormat
 Nr: M713
 Obligatorisk/valgfri: Betinget obligatorisk

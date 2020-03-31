@@ -3987,7 +3987,7 @@ Tekniske metadata
  * - **Betingelser**
    - Kan ikke endres
  * - **Kommentarer**
-   - Faste verdier bestemmes senere
+   - Verdier hentes fra PRONOM og Arkivverket, nærmere beskrevet i del 2.7, Dokumentbeskrivelse og dokumentobjekt.
 
 .. list-table::
    :widths: 2 6
@@ -4137,7 +4137,7 @@ Tekniske metadata
  * - **Betingelser**
    - Kan ikke endres
  * - **Kommentarer**
-   - Dette vil vanligvis være produksjonsformatet, men kan også være et annet arkivformat. Faste verdier bestemmes senere.
+   - Dette vil vanligvis være produksjonsformatet, men kan også være et annet arkivformat. Bruker samme verdier som M701 format.
 
 .. list-table::
    :widths: 2 6
@@ -4162,7 +4162,7 @@ Tekniske metadata
  * - **Betingelser**
    - Kan ikke endres
  * - **Kommentarer**
-   - Faste verdier bestemmes senere
+   - Bruker samme verdier som M701 format.
 
 .. list-table::
    :widths: 2 6

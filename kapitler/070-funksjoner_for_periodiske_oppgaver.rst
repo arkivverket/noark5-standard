@@ -1153,7 +1153,16 @@ Dersom ett dokument er arkivert i flere versjoner - og dersom de foregående ver
 
 Dokumenter i et sakarkiv som er arkivert uten journalføring, skal være med i avleveringen/deponeringen dersom de ikke har blitt kassert før uttrekket blir produsert. I arkivstrukturen vil disse dokumentene være knyttet til registreringer av type *registrering*.
 
-Arkivdokumentene skal lagres i en egen underkatalog i avleveringspakken, og denne underkatalogen kan struktureres i nye underkataloger etter behov. Referansen fra arkivstrukturen til dokumentfilene vil ligge i dokumentobjektet, dvs. på laveste nivå i strukturen. Alle dokumentfiler som det blir referert til i **arkivstruktur.xml**, skal være med i uttrekket. Dessuten må ikke uttrekket inneholde noen dokumentfiler som mangler referanse fra dokumentobjektet. Referansen fra arkivstrukturen skal være relativ til dokumentfilene, dvs. inneholde hele "stien" til dokumentet - f.eks. slik: *dokumenter/2010/januar/123456789.pdf.*
+Arkivdokumentene skal lagres i en egen underkatalog i
+avleveringspakken, og denne underkatalogen kan struktureres i nye
+underkataloger etter behov. Referansen fra arkivstrukturen til
+dokumentfilene vil ligge i dokumentobjektet, dvs. på laveste nivå i
+strukturen. Alle dokumentfiler som det blir referert til i
+**arkivstruktur.xml**, skal være med i uttrekket. Dessuten må ikke
+uttrekket inneholde noen dokumentfiler som mangler referanse fra
+dokumentobjektet. Referansen fra arkivstrukturen skal være relativ til
+dokumentfilene, dvs. inneholde hele "stien" til dokumentet - for
+eksempel slik: *DOKUMENT/2010/januar/123456789.pdf*.
 
 Dokumentobjektet skal også inneholde informasjon om hvilket format arkivdokument blir avlevert på, og størrelsen i antall bytes på dokumentfilen. I tillegg skal dokumentobjektet inneholde sjekksummen til dokumentet det refererer til. Det siste er viktig for å kunne opprettholde dokumentets autentisitet og integritet, også etter at det er eksportert fra sitt opprinnelige produksjonssystem. Algoritmen som er brukt for å generere sjekksummen skal også dokumenteres.
 

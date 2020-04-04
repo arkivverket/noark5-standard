@@ -109,10 +109,20 @@ class MetadataRstVisitor(docutils.nodes.NodeVisitor):
 
 class MetadataObjSortRstVisitor(docutils.nodes.NodeVisitor):
     metadata = {}
+    intable = False
+
+    def visit_table(self, node: docutils.nodes.reference) -> None:
+        """Called for "table" nodes."""
+        self.intable = True
+
+    def depart_table(self, node: docutils.nodes.reference) -> None:
+        """Called for "table" nodes."""
+        self.intable = False
 
     def visit_title(self, node: docutils.nodes.reference) -> None:
         """Called for "title" nodes to record metadata category."""
-        self.lasttitle = node.astext()
+        if not self.intable:
+            self.lasttitle = node.astext()
 
     def visit_row(self, node: docutils.nodes.reference) -> None:
         """Called for "table row" nodes."""

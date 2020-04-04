@@ -69,7 +69,10 @@ avledet/krav.tsv: kapitler/*.rst
 .SUFFIXES: .rst .pdf .docx .puml .png .svg .epub
 
 clean:
-	$(RM) $(IMG_PNG) docbook/[012]*.xml
+	$(RM) docbook/[012]*.xml
+
+distclean: clean
+	$(RM) $(IMG_PNG)
 
 docx-to-rst:
 	cd arkiv; for f in *.docx; do \

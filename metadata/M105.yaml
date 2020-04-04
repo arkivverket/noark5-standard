@@ -3,7 +3,7 @@ Arv: Nei
 Avleveres: A
 Betingelser: Skal ikke kunne endres ved automatisk registrering, dato for forsendelse
   av fysiske dokumenter skal kunne endres inntil arkivering
-Datatype: Dato
+Datatype: Dato og klokkeslett
 Definisjon: Dato et internt produsert dokument ble sendt/ekspedert
 Forekomster: 0-1
 Gruppe: Datoer

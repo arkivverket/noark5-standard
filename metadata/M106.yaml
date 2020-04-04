@@ -3,7 +3,7 @@ Arv: Nei
 Avleveres:
 Betingelser: Utlån skal også kunne registreres etter at en saksmappe er avsluttet,
   eller etter at dokumentene i en journalpost ble arkivert.
-Datatype: Dato
+Datatype: Dato og klokkeslett
 Definisjon: Dato når en fysisk saksmappe eller journalpost ble utlånt
 Forekomster: 0-1
 Gruppe: Datoer

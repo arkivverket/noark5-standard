@@ -3,7 +3,7 @@ Arkivenhet: 'Egne filer med journalutskrift for løpende og offentlig journal: l
 Arv:
 Avleveres: A
 Betingelser: Startdato skal selekteres på *M101 journaldato*
-Datatype: Dato
+Datatype: Dato og klokkeslett
 Definisjon: Startdato for journalutskriftene som inngår i avleveringspakken.
 Forekomster: '1'
 Gruppe: Datoer

@@ -19,7 +19,7 @@ class presedens {
   <b>rettskildefaktor</b>
   presedensGodkjentDato
   presedensGodkjentAv
-  presedensStatus
+  presedensstatus
 }
 
 mappe "1" o--> "0..*" registrering

@@ -110,7 +110,7 @@ class presedens {
   <b>rettskildefaktor</b>
   presedensGodkjentDato
   presedensGodkjentAv
-  presedensStatus
+  presedensstatus
 }
 
 class arkivdel

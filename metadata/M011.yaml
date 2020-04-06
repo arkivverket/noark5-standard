@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser: Skal ikke kunne endres
 Datatype: Heltall
 Definisjon: Inngår i *M003 mappeID*. Viser året saksmappen ble opprettet.
-Forekomster: '1'
 Gruppe: Identifikasjon
 Kilde: Registreres automatisk når saksmappen opprettes
 Kommentarer: Se kommentar under *M012 sakssekvensnummer*

@@ -6,7 +6,6 @@ Betingelser: Skal ikke endres. Den eldste versjonen skal ha det laveste nummeret
   "huller" i nummerrekkefølgen.
 Datatype: Heltall
 Definisjon: Identifikasjon av versjoner innenfor ett og samme dokument.
-Forekomster: '1'
 Gruppe: Identifikasjon
 Kilde: Registreres automatisk når en ny versjon arkiveres
 Kommentarer: Versjonsnummer gjelder bare arkiverte versjoner. Annen versjons­håndtering

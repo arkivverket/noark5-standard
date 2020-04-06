@@ -12,7 +12,6 @@ Betingelser: |-
   - "Intern mottaker"
 Datatype: Tekststreng
 Definisjon: Type korrespondansepart
-Forekomster: '1'
 Gruppe: Typer
 Kilde: Registreres automatisk knyttet til funksjonalitet i forbindelse med opprettelse
   av journalpost, kan også registreres manuelt

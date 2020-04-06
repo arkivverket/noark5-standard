@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Nøkkeord eller stikkord som beskriver innholdet i enheten
-Forekomster: 0-M
 Gruppe: Kjernemetadata (jf. Dublin Core)
 Kilde: Registreres vanligvis ved oppslag fra liste (f.eks. en tesaurus). Kan også
   registreres automatisk på grunnlag av dokumentinnhold eller integrering med fagsystem.

@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser: Skal ikke kunne endres
 Datatype: Tekststreng
 Definisjon: Navn på person som har utført kassasjonen
-Forekomster: '1'
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk når kassasjon utføres
 Kommentarer:

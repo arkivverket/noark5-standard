@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på person som har godkjent presedensen
-Forekomster: 0-1
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk dersom det finnes funksjonalitet for å godkjenne presedenser
 Kommentarer:

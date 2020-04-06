@@ -8,7 +8,6 @@ Betingelser: |-
   - "Vedlegg"
 Datatype: Tekststreng
 Definisjon: Angivelse av hvilken "rolle" dokumentet har i forhold til registreringen
-Forekomster: '1'
 Gruppe: Referanser
 Kilde: Registreres automatisk eller manuelt når et dokument blir tilknyttet en registrering
 Kommentarer:

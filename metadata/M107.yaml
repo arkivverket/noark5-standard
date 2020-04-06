@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser: Skal kunne endres manuelt
 Datatype: Dato
 Definisjon: Dato for starten av en arkivperiode
-Forekomster: 0-1
 Gruppe: Datoer
 Kilde: Settes automatisk til samme dato som *M600 opprettetDato*
 Kommentarer: Det kan tenkes tilfeller hvor startdatoen ikke er identisk med datoen

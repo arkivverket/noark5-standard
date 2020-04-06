@@ -8,7 +8,6 @@ Betingelser: |-
   - "Foreldet"
 Datatype: Tekststreng
 Definisjon: Informasjon om presedensen er gjeldende eller foreldet
-Forekomster: 0-1
 Gruppe: Status
 Kilde: Registreres manuelt ved foreldelse
 Kommentarer:

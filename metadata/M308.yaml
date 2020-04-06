@@ -8,7 +8,6 @@ Datatype: Tekststreng
 Definisjon: Navn på enhet som har det arkivmessige ansvaret for kvalitetssikring av
   arkivdanningen, og eventuelt registrering (journalføring) og arkivering av fysiske
   dokumenter
-Forekomster: 0-1
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde: Registreres automatisk på grunnlag av innlogget bruker, kan overstyres manuelt
 Kommentarer:

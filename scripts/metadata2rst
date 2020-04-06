@@ -9,7 +9,7 @@ import yaml
 def main():
     retval = 0
     required = ('Nr', 'Navn', 'Datatype', 'Avleveres', 'Obligatorisk/valgfri',
-                'Forekomster', 'Definisjon', 'Arkivenhet', 'Kilde')
+                'Definisjon', 'Arkivenhet', 'Kilde')
     optional = ('Noark 4', 'Arv', 'Betingelser', 'Kommentarer',)
     parser = argparse.ArgumentParser()
     parser.add_argument("yamlfile", nargs='+',
@@ -58,7 +58,7 @@ def main():
             print("By %s" % unit)
             for number in byunit[unit]:
                 line = []
-                for f in ('Nr', 'Navn', 'Forekomster', 'Avleveres', 'Datatype'):
+                for f in ('Nr', 'Navn', 'Avleveres', 'Datatype'):
                     line.append(byunit[unit][number][f])
                 print(line)
             print()
@@ -66,7 +66,6 @@ def main():
         fields = ('Nr',
                   'Navn',
                   'Obligatorisk/valgfri',
-                  'Forekomster',
                   'Definisjon',
                   'Arkivenhet',
                   'Kilde',
@@ -80,14 +79,6 @@ Katalogoppføringer
 
 """)
         def mapvalue(field, value):
-            if 'Forekomster' == field:
-                value = {
-                    1: 'En',
-                    '1': 'En',
-                    '0-1': 'En',
-                    '0-M': 'Mange',
-                    '1-M': 'Mange',
-                }[value]
             if field in boldvalue:
                 value = '**%s**' % value
             return value

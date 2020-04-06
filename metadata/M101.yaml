@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser: Skal kunne endres manuelt inntil arkivering
 Datatype: Dato
 Definisjon: Datoen journalposten er journalført
-Forekomster: '1'
 Gruppe: Datoer
 Kilde: Settes automatisk når journalstatus settes til journalført.
 Kommentarer:

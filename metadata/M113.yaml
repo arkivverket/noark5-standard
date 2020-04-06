@@ -5,7 +5,6 @@ Avleveres: A
 Betingelser: Sluttdato skal selekteres på *M101 journaldato*
 Datatype: Dato
 Definisjon: Sluttdato for journalutskriftene som inngår i avleveringspakken.
-Forekomster: '1'
 Gruppe: Datoer
 Kilde: Registreres når avleveringspakken produseres
 Kommentarer: Sluttdatoen vil vanligvis være identisk med *M108 arkivperiodeSluttdato*

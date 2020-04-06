@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser: Kan ikke endres
 Datatype: Tekststreng
 Definisjon: Navn på person som har verifisert en elektronisk signatur
-Forekomster: '1'
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk når verifisering utføres
 Kommentarer:

@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser: Skal kunne endres manuelt inntil arkivering
 Datatype: Dato
 Definisjon: Dato som er påført selve dokumentet
-Forekomster: 0-1
 Gruppe: Datoer
 Kilde: Datoen hentes automatisk fra dokumentet, eller registreres manuelt
 Kommentarer: Kan brukes både for inngående, utgående og organinterne dokumenter

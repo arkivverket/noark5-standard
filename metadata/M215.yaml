@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Referanse til en eller flere journalposter som avskriver denne journalposten
-Forekomster: 0-1
 Gruppe: Referanser
 Kilde: Registreres manuelt eller automatisk ved avskrivning
 Kommentarer:

@@ -6,7 +6,6 @@ Datatype: Tekststreng
 Definisjon: Stedet hvor de fysiske dokumentene oppbevares. Kan være angivelse av rom,
   hylle, skap osv. Overordnede arkivdeler (f.eks. en arkivdel) kan oppbevares på flere
   steder.
-Forekomster: 0-1
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde: Arves fra overordnet nivå, kan overstyres manuelt
 Kommentarer: Fysiske dokumenters plassering skal ellers gå fram av arkivstrukturen.

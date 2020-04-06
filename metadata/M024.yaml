@@ -5,7 +5,6 @@ Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på person (eller eventuelt organisasjon) som har forfattet eller
   skapt dokumentet.
-Forekomster: 0-M
 Gruppe: Kjernemetadata (jf. Dublin Core)
 Kilde: Registreres automatisk av systemet, automatisk fra innholdet i dokumentet eller
   manuelt

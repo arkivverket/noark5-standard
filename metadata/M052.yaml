@@ -11,7 +11,6 @@ Betingelser: |-
   Skifte av status kan bare utføres av autoriserte personer.
 Datatype: Tekststreng
 Definisjon: Status til saksmappen, dvs. hvor langt saksbehandlingen har kommet.
-Forekomster: '1'
 Gruppe: Status
 Kilde: Registreres automatisk gjennom forskjellig saksbehandlings­funksjonalitet,
   eller overstyres manuelt.

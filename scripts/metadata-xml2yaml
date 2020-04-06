@@ -34,10 +34,6 @@ class Converter(object):
                 if 'Obligatorisk' == field:
                     field = 'Obligatorisk/valgfri'
                 value = line.text
-                if 'Forekomster' == field and 'En' == value:
-                    value = 1
-                if 'Forekomster' == field and 'Mange' == value:
-                    value = '1-M'
                 entry[field] = value
             def represent_str(self, data):
                 tag = None

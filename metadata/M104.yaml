@@ -11,4 +11,3 @@ Kilde: Registreres manuelt eller automatisk av systemet ved elektronisk kommunik
 Kommentarer: Merk at mottattDato ikke behøver å være identisk med *M600 opprettetDato*
 Navn: mottattDato
 Nr: M104
-Obligatorisk/valgfri: Valgfri

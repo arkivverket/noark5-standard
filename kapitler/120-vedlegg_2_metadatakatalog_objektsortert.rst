@@ -827,6 +827,12 @@ Metadata for *korrespondansepart*
    - **Forek.**
    - **Avl.**
    - **Datatype**
+ * - M001
+   - systemID
+   -
+   - 1
+   - A
+   - Tekststreng
  * - M087
    - korrespondanseparttype
    - (AM.IHTYPE, AM.KOPIMOT, AM.GRUPPE MOT)
@@ -1604,6 +1610,12 @@ Metadata for *part*
    - **Forek.**
    - **Avl.**
    - **Datatype**
+ * - M001
+   - systemID
+   -
+   - 1
+   - A
+   - Tekststreng
  * - M010
    - partID
    - 

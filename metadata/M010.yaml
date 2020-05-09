@@ -7,7 +7,8 @@ Definisjon: Unik ID for en part
 Forekomster: 0-1
 Gruppe: Identifikasjon
 Kilde: Registreres manuelt når part opprettes
-Kommentarer: Kan være fødselsnummer eller annen personidentifikasjon
+Kommentarer: Kan være fødselsnummer eller annen eksternt
+  definert personidentifikasjon.
 Navn: partID
 Nr: M010
 Obligatorisk/valgfri: Valgfri

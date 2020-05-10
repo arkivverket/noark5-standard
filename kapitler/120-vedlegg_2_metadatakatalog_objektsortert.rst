@@ -1443,6 +1443,12 @@ Metadata for *dokumentobjekt*
    - 1
    - A
    - Tekststreng
+ * - M716
+   - mimeType
+   -
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *konvertering*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

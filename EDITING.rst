@@ -3,6 +3,14 @@ Tips til oppdatering av teksten
 
 Dokumentet vedlikeholdes i RST-format.
 
+Spesifikasjonsteksten ligger i kapitler/-katalogen.  Oppføringene i
+metadatakatalogen vedlikeholdes som YAML-filer i metadata/-katalogen,
+og RST-filen kapitler/110-vedlegg_1_metadatakatalog-auto.rst utledes
+fra YAML-filene.  Figurer og bilder ligger i
+kapilter/media/-katalogen.  UML-diagrammer der beskrives i
+PlantUML-formatet som omformes til PNG-filer for bruk i HTML og
+PDF-utgave.
+
 For å bygge PDF fra RST-filene trengs det GNU make, python versjon 3,
 pandoc, dblatex og java (for PlantUML).  Med disse verktøyene
 installert sjekker en ut kildekoden fra git og kjører 'make' for å

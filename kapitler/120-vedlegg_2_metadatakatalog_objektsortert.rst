@@ -2430,7 +2430,7 @@ Metadata for *journalhode*
    - 
    - 1
    - A
-   - Tekststreng
+   - Heltall
 
 Metadata for *arkivskaper*
 **************************

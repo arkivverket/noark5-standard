@@ -3,7 +3,7 @@ Arv: Nei
 Avleveres: A
 Betingelser: Skal ikke kunne endres. Obligatorisk dersom arkivenheten er avsluttet. Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt.
 Datatype: systemID
-Definisjon: systemID til person (bruker) som avsluttet/lukket arkivenheten (bruker)
+Definisjon: Referanse til bruker som avsluttet/lukket arkivenheten (bruker)
 Forekomster: 0-1
 Gruppe: Referanser
 Kilde: Registreres automatisk av systemet ved opprettelse av enheten

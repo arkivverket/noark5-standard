@@ -3,7 +3,7 @@ Arv: Nei
 Avleveres: A
 Betingelser: Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt
 Datatype: systemID
-Definisjon: Referanse til person som opprettet/registrerte arkivenheten (bruker)
+Definisjon: Referanse til bruker som opprettet/registrerte arkivenheten
 Forekomster: 0-1
 Gruppe: Referanser
 Kilde: Registreres automatisk av systemet ved opprettelse av enheten

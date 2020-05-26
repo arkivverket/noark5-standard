@@ -1,7 +1,7 @@
 Arkivenhet: arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse, dokumentobjekt
 Arv: Nei
 Avleveres: A
-Betingelser:
+Betingelser: Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt
 Datatype: systemID
 Definisjon: SystemID til person som opprettet/registrerte arkivenheten (bruker)
 Forekomster: 0-1
@@ -10,4 +10,4 @@ Kilde: Registreres automatisk av systemet ved opprettelse av enheten
 Kommentarer:
 Navn: referanseOpprettetAv
 Nr: M200
-Obligatorisk/valgfri: Betinget obligatorisk (obligatorisk ved bruk av Noark 5 tjenestegrensesnitt)
+Obligatorisk/valgfri: Betinget obligatorisk

@@ -1,10 +1,10 @@
 
 Arkivenhet: Filen endringslogg.xml
-Arv:
+Arv: Nei
 Avleveres: A
 Betingelser: Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt
 Datatype: systemID
-Definisjon: systemID til person som foretok en endring av metadata (bruker)
+Definisjon: Referanse til bruker som foretok en endring av metadata
 Forekomster: 0-1
 Gruppe: Logging av endringer
 Kilde: Registreres automatisk ved endring av metadata

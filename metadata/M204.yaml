@@ -1,0 +1,14 @@
+
+Arkivenhet: Filen endringslogg.xml
+Arv:
+Avleveres: A
+Betingelser: Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt
+Datatype: systemID
+Definisjon: systemID til person som foretok en endring av metadata (bruker)
+Forekomster: 0-1
+Gruppe: Logging av endringer
+Kilde: Registreres automatisk ved endring av metadata
+Kommentarer:
+Navn: referanseEndretAv
+Nr: M204
+Obligatorisk/valgfri: Betinget obligatorisk

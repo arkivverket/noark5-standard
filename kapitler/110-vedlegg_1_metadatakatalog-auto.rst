@@ -1343,6 +1343,56 @@ Referanser
    :header-rows: 0
 
  * - **Nr**
+   - **M200**
+ * - **Navn**
+   - **referanseOpprettetAv**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Referanse til bruker som opprettet/registrerte arkivenheten
+ * - **Arkivenhet**
+   - arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse, dokumentobjekt
+ * - **Kilde**
+   - Registreres automatisk av systemet ved opprettelse av enheten
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt
+ * - **Kommentarer**
+   - 
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M201**
+ * - **Navn**
+   - **referanseAvsluttetAv**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Referanse til bruker som avsluttet/lukket arkivenheten
+ * - **Arkivenhet**
+   - arkiv, arkivdel, klassifikasjonssystem, klasse og mappe
+ * - **Kilde**
+   - Registreres automatisk av systemet ved opprettelse av enheten
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Skal ikke kunne endres. Obligatorisk dersom arkivenheten er avsluttet. Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt.
+ * - **Kommentarer**
+   - 
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
    - **M202**
  * - **Navn**
    - **referanseForloeper**
@@ -1387,6 +1437,39 @@ Referanser
    - 
  * - **Kommentarer**
    - 
+
+
+Logging av endringer
+~~~~~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M204**
+ * - **Navn**
+   - **referanseEndretAv**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Referanse til bruker som foretok en endring av metadata
+ * - **Arkivenhet**
+   - Filen endringslogg.xml
+ * - **Kilde**
+   - Registreres automatisk ved endring av metadata
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt
+ * - **Kommentarer**
+   - 
+
+
+Referanser
+~~~~~~~~~~
 
 .. list-table::
    :widths: 2 6

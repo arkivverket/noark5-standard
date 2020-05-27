@@ -4,10 +4,10 @@ Avleveres: A
 Betingelser: NB! Ikke tatt i bruk
 Datatype: Heltall
 Definisjon: Undernummer under en matrikkelgård, som har blitt delt opp i mindre enheter.
-Forekomster: 0-*
+Forekomster: 0-M
 Gruppe: Identifikasjon
 Kilde:
 Kommentarer:
 Navn: bruksnummer
 Nr: M032
-Obligatorisk/valgfri:
+Obligatorisk/valgfri: Valgfri

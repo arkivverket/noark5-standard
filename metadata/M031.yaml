@@ -1,0 +1,13 @@
+Arkivenhet: mappe, registrering
+Arv: Nei
+Avleveres: A
+Betingelser: NB! Ikke tatt i bruk
+Datatype: Heltall
+Definisjon: Nummeret på en gårdsenhet i matrikkelen, er unikt innenfor hver kommune.
+Forekomster: 0-*
+Gruppe: Identifikasjon
+Kilde:
+Kommentarer:
+Navn: gaardsnummer
+Nr: M031
+Obligatorisk/valgfri:

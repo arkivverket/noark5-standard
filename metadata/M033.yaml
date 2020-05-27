@@ -1,0 +1,13 @@
+Arkivenhet: mappe, registrering
+Arv: Nei
+Avleveres: A
+Betingelser: NB! Ikke tatt i bruk
+Datatype: Heltall
+Definisjon: Underoppdeling under bruksnummer, angir enheter som kan omsettes og pantsettes.
+Forekomster: 0-*
+Gruppe: Identifikasjon
+Kilde:
+Kommentarer:
+Navn: festenummer
+Nr: M033
+Obligatorisk/valgfri:

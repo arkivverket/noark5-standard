@@ -2,7 +2,7 @@
 Arkivenhet: arkivdel
 Arv: Nei
 Avleveres: A
-Betingelser: Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt
+Betingelser:
 Datatype: systemID
 Definisjon: Referanse til det klassifikasjonssystemet som mappene i denne arkivdelen er klassifisert etter
 Forekomster: 1

@@ -1,0 +1,13 @@
+Arkivenhet: journalpost
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: systemID
+Definisjon: Referanse til en eller flere journalposter som blir avskrevet av denne journalposten
+Forekomster: 0-M
+Gruppe: Referanser
+Kilde: Registreres manuelt eller automatisk ved avskrivning
+Kommentarer: NB! Gyldig t.o.m. versjon 2.1
+Navn: referanseAvskriverJournalpost
+Nr: M214
+Obligatorisk/valgfri: Valgfri 

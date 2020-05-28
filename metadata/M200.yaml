@@ -1,7 +1,7 @@
 Arkivenhet: arkiv, arkivdel, klasse, mappe, registrering
 Arv: Nei
 Avleveres: A
-Betingelser: Skal ikke kunne endres. Gyldig t.o.m. versjon 2.1
+Betingelser: NB! Gyldig t.o.m. versjon 2.1. Skal ikke kunne endres. 
 Datatype: systemID
 Definisjon: Referanse til den arkivenheten i hierarkiet som er direkte overordnet denne arkivenheten
 Forekomster: 1

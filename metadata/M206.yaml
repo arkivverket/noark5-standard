@@ -1,7 +1,7 @@
 Arkivenhet: arkivdel, dokumentbeskrivelse, dokumentobjekt
 Arv: Nei
 Avleveres: A
-Betingelser: Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt
+Betingelser:
 Datatype: systemID
 Definisjon: Referanse til registreringer som er knyttet til denne enheten
 Forekomster: 0-M

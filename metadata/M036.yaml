@@ -1,13 +1,13 @@
 Arkivenhet: mappe, registrering
 Arv: Nei
 Avleveres: A
-Betingelser: NB! Ikke tatt i bruk
+Betingelser:
 Datatype: Heltall
 Definisjon: Et midlertidig ellevesiffret registreringsnummer som tildeles utenlandske statsborgere som ennå ikke har fått fødselsnummer
 Forekomster: 0-M
 Gruppe: Identifikasjon
 Kilde:
-Kommentarer:
+Kommentarer: NB! Ikke tatt i bruk
 Navn: dNummer
 Nr: M036
 Obligatorisk/valgfri: Valgfri

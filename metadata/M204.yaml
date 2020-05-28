@@ -1,14 +1,14 @@
 
-Arkivenhet: Filen endringslogg.xml
+Arkivenhet: arkivdel
 Arv: Nei
 Avleveres: A
 Betingelser: Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt
 Datatype: systemID
-Definisjon: Referanse til bruker som foretok en endring av metadata
-Forekomster: 0-1
+Definisjon: Referanse til det klassifikasjonssystemet som mappene i denne arkivdelen er klassifisert etter
+Forekomster: 1
 Gruppe: Logging av endringer
-Kilde: Registreres automatisk ved endring av metadata
-Kommentarer:
-Navn: referanseEndretAv
+Kilde: Registreres manuelt når arkivdelen opprettes
+Kommentarer: NB! Gyldig t.o.m. versjon 2.1
+Navn: referanseKlassifikasjonssystem
 Nr: M204
 Obligatorisk/valgfri: Betinget obligatorisk

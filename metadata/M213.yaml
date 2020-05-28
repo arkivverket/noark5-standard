@@ -1,0 +1,13 @@
+Arkivenhet: mappe, registrering
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: systemID
+Definisjon: Kryssreferanse fra en registrering til en annen registrering eller saksmappe
+Forekomster: 0-M
+Gruppe: Referanser
+Kilde: Registreres automatisk når kryssreferanse opprettes
+Kommentarer: NB! Gyldig t.o.m. versjon 2.1
+Navn: referanseFraRegistrering
+Nr: M213
+Obligatorisk/valgfri: Valgfri 

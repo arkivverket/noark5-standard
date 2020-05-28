@@ -1,0 +1,13 @@
+Arkivenhet: arkivdel
+Arv: Nei
+Avleveres: A
+Betingelser: Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt
+Datatype: systemID
+Definisjon: Referanse til  mapper som tilhører en arkivdel
+Forekomster: 1-M
+Gruppe: Logging av endringer
+Kilde: Registreres automatisk når mapper opprettes
+Kommentarer: NB! Gyldig t.o.m. Versjon 2.1
+Navn: referanseMappe
+Nr: M205  
+Obligatorisk/valgfri: Obligatorisk

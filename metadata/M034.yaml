@@ -1,13 +1,13 @@
 Arkivenhet: mappe, registrering
 Arv: Nei
 Avleveres: A
-Betingelser: NB! Ikke tatt i bruk
+Betingelser:
 Datatype: Heltall
 Definisjon: Underoppdeling under bruksnummer, angir enheter som kan omsettes og selges. Typisk i leilighetesbygg i flere etasjer, forretningsgårder eller en blanding av forretninger og leiligheter.
 Forekomster: 0-M
 Gruppe: Identifikasjon
 Kilde:
-Kommentarer:
+Kommentarer: NB! Ikke tatt i bruk
 Navn: seksjonsnummer
 Nr: M034
 Obligatorisk/valgfri: Valgfri

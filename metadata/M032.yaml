@@ -1,13 +1,13 @@
 Arkivenhet: mappe, registrering
 Arv: Nei
 Avleveres: A
-Betingelser: NB! Ikke tatt i bruk
+Betingelser:
 Datatype: Heltall
 Definisjon: Undernummer under en matrikkelgård, som har blitt delt opp i mindre enheter.
 Forekomster: 0-M
 Gruppe: Identifikasjon
 Kilde:
-Kommentarer:
+Kommentarer: NB! Ikke tatt i bruk
 Navn: bruksnummer
 Nr: M032
 Obligatorisk/valgfri: Valgfri

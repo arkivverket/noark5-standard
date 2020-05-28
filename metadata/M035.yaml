@@ -1,13 +1,13 @@
 Arkivenhet: mappe, registrering
 Arv: Nei
 Avleveres: A
-Betingelser: NB! Ikke tatt i bruk
+Betingelser:
 Datatype: Heltall
 Definisjon: Et ellevesiffret registreringsnummer som tildeles alle som er bosatt i Norge og innført i folkeregistret.
 Forekomster: 0-M
 Gruppe: Identifikasjon
 Kilde:
-Kommentarer:
+Kommentarer: NB! Ikke tatt i bruk
 Navn: foedselsnummer
 Nr: M035
 Obligatorisk/valgfri: Valgfri

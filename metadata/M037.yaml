@@ -1,13 +1,13 @@
 Arkivenhet: mappe, registrering
 Arv: Nei
 Avleveres: A
-Betingelser: NB! Ikke tatt i bruk
+Betingelser:
 Datatype: Heltall
 Definisjon: Et nisifferet registreringsnummer som tildeles av Enhetsregistret ved Brønnøysundregistrene til organisasjoner som opptrer som offentlige aktører.
 Forekomster: 0-M
 Gruppe: Identifikasjon
 Kilde:
-Kommentarer:
+Kommentarer: NB! Ikke tatt i bruk
 Navn: organisasjonsnummer
 Nr: M037
 Obligatorisk/valgfri: Valgfri

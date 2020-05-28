@@ -1,7 +1,7 @@
 Arkivenhet: arkivdel
 Arv: Nei
 Avleveres: A
-Betingelser: Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt
+Betingelser:
 Datatype: systemID
 Definisjon: Referanse til  mapper som tilhører en arkivdel
 Forekomster: 1-M

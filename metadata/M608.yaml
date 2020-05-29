@@ -1,0 +1,13 @@
+Arkivenhet: Egen fil
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Dato og klokkeslett
+Definisjon: Antall mapper som inngikk i eksporten
+Forekomster: 0-1
+Gruppe: Logging av hendelser
+Kilde: Registreres automatisk ved produksjon av avleveringsuttrekk
+Kommentarer: NB! Gyldig t.o.m. versjon 2.1. Informasjonen skal både inngå i uttrekket og lagres i systemet.
+Navn: antallMapperEksportert
+Nr: M608
+Obligatorisk/valgfri: Betinget obligatorisk

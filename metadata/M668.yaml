@@ -1,0 +1,13 @@
+Arkivenhet: saksmappe, journalpost
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Dato da en saksmappe eller journalpost ble fordelt til saksbehandling
+Forekomster: '1'
+Gruppe: Logging av arbeidsflyt og saksfordeling
+Kilde: Registreres automatisk av funksjonalitet knyttet til fordeling
+Kommentarer: NB! Gyldig t.o.m. versjon 2.1
+Navn: fordeltDato
+Nr: M668
+Obligatorisk/valgfri: Obligatorisk

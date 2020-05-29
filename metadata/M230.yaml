@@ -1,0 +1,13 @@
+Arkivenhet: arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse samt filen endringslogg.xml
+Arv: Nei
+Avleveres: A
+Betingelser: Skal ikke kunne endres
+Datatype: systemID
+Definisjon: Referanse til bruker som oppdaterte arkivenheten eller endret metadata
+Forekomster: 0-1
+Gruppe: Referanser
+Kilde: Registreres automatisk ved oppdatering av en arkivenhet eller endring av metadata
+Kommentarer: Erstatter M226 referanseOppdatertAv
+Navn: referanseEndretAv
+Nr: M230
+Obligatorisk/valgfri: Valgfri

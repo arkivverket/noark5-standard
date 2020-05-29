@@ -1,0 +1,13 @@
+Arkivenhet: mappe
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: systemID
+Definisjon: Referanse til overordnet mappe
+Forekomster: 0-1
+Gruppe: Referanser
+Kilde: Registreres automatisk av systemet ved arkivering av enheten
+Kommentarer:
+Navn: referanseForelderMappe
+Nr: M229
+Obligatorisk/valgfri: Valgfri

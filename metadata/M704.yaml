@@ -1,0 +1,13 @@
+Arkivenhet: dokumentobjekt
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Tekststreng
+Definisjon: Nærmere spesifikasjon av dokuments format før det ble konvertert, f.eks. informasjon om komprimering
+Forekomster: 0-1
+Gruppe: Tekniske metadata
+Kilde: Registreres automatisk ved konvertering
+Kommentarer: NB! Gyldig t.o.m. versjon 2.1
+Navn: tidligereFormatDetaljer 
+Nr: M704
+Obligatorisk/valgfri: Valgfri

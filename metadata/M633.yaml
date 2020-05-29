@@ -7,7 +7,7 @@ Definisjon: Dato og klokkeslett når arkivenheten sist ble oppdatert
 Forekomster: 0-1
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk av systemet når oppdatering gjøres
-Kommentarer: NB! Ikke i bruk, slått sammen med M682 endretAv
+Kommentarer: NB! Ikke i bruk, slått sammen med M683 endretAv
 Navn: oppdatertAv
 Nr: M633
 Obligatorisk/valgfri: Betinget obligatorisk

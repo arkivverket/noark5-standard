@@ -1,0 +1,13 @@
+Arkivenhet: Egen fil
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres
+Datatype: Tekststreng
+Definisjon: En verdi som beregnes ut fra innholdet i metadataobjektene i avleveringspakken, og som dermed gir integritessikring til metadataenes innhold
+Forekomster: '1'
+Gruppe: Tekniske metadata
+Kilde: Påføres automatisk i forbindelse med eksport for avlevering  
+Kommentarer: NB! Gyldig t.o.m. versjon 2.1
+Navn: sjekksumMetadata
+Nr: M708
+Obligatorisk/valgfri: Betinget obligatorisk

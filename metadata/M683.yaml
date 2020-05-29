@@ -1,13 +1,13 @@
-Arkivenhet: Filen endringslogg.xml
-Arv:
+Arkivenhet: arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse samt filen endringslogg.xml
+Arv: Nei
 Avleveres: A
-Betingelser:
+Betingelser: Skal ikke kunne endres
 Datatype: Tekststreng
-Definisjon: Navn på person som foretok en endring av metadata
-Forekomster: '1'
+Definisjon: Navn på person som oppdaterte en arkivenhet eller endret metadata
+Forekomster: 0-1
 Gruppe: Logging av endringer
-Kilde: Registreres automatisk ved endring av metadata
-Kommentarer:
+Kilde: Registreres automatisk ved oppdatering av en arkivenhet eller endring av metadata
+Kommentarer: Erstatter M633 oppdatertAv
 Navn: endretAv
 Nr: M683
 Obligatorisk/valgfri: Betinget obligatorisk

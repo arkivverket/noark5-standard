@@ -216,6 +216,31 @@ Identifikasjon
    :header-rows: 0
 
  * - **Nr**
+   - **M009**
+ * - **Navn**
+   - **loepenummer**
+ * - **Obligatorisk/valgfri**
+   - Obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Rekkefølgenummer for  journalposter
+ * - **Arkivenhet**
+   - journalpost
+ * - **Kilde**
+   - Registreres automatisk av systemet når nye journalposter opprettes
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1. Det anbefales at løpenummer bygges opp av "journalår" og "sekvens-nummer" som i Noark 4. Metadataelementet styrer bl.a. sorteringsrekke-følgen i rapportene "Offentlig journal" og "Løpende journal".
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
    - **M010**
  * - **Navn**
    - **partID**
@@ -516,6 +541,210 @@ Kjernemetadata (jf. Dublin Core)
    - Obligatorisk i arkivuttrekk dersom tittelen inneholder ord som skal skjermes, jf. *M504 skjermingMetadata.*
  * - **Kommentarer**
    - I løpende og offentlig journaler skal også offentligTittel være med dersom ord i tittelfeltet skal skjermes.
+
+
+Identifikasjon
+~~~~~~~~~~~~~~
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M030**
+ * - **Navn**
+   - **kommunenummer**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Et firesifferet nummer som er unikt for hver kommune i Norge. De to første siffrene angir fylke, de to siste er løpende innenfor hvert fylke.
+ * - **Arkivenhet**
+   - mappe, registrering
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Ikke tatt i bruk
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M031**
+ * - **Navn**
+   - **gaardsnummer**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Nummeret på en gårdsenhet i matrikkelen, er unikt innenfor hver kommune.
+ * - **Arkivenhet**
+   - mappe, registrering
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Ikke tatt i bruk
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M032**
+ * - **Navn**
+   - **bruksnummer**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Undernummer under en matrikkelgård, som har blitt delt opp i mindre enheter.
+ * - **Arkivenhet**
+   - mappe, registrering
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Ikke tatt i bruk
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M033**
+ * - **Navn**
+   - **festenummer**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Underoppdeling under bruksnummer, angir enheter som kan omsettes og pantsettes.
+ * - **Arkivenhet**
+   - mappe, registrering
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Ikke tatt i bruk
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M034**
+ * - **Navn**
+   - **seksjonsnummer**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Underoppdeling under bruksnummer, angir enheter som kan omsettes og selges. Typisk i leilighetesbygg i flere etasjer, forretningsgårder eller en blanding av forretninger og leiligheter.
+ * - **Arkivenhet**
+   - mappe, registrering
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Ikke tatt i bruk
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M035**
+ * - **Navn**
+   - **foedselsnummer**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Et ellevesiffret registreringsnummer som tildeles alle som er bosatt i Norge og innført i folkeregistret.
+ * - **Arkivenhet**
+   - mappe, registrering
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Ikke tatt i bruk
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M036**
+ * - **Navn**
+   - **dNummer**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Et midlertidig ellevesiffret registreringsnummer som tildeles utenlandske statsborgere som ennå ikke har fått fødselsnummer
+ * - **Arkivenhet**
+   - mappe, registrering
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Ikke tatt i bruk
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M037**
+ * - **Navn**
+   - **organisasjonsnummer**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Et nisifferet registreringsnummer som tildeles av Enhetsregistret ved Brønnøysundregistrene til organisasjoner som opptrer som offentlige aktører.
+ * - **Arkivenhet**
+   - mappe, registrering
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Ikke tatt i bruk
 
 
 Status
@@ -1334,6 +1563,56 @@ Datoer
  * - **Kommentarer**
    - Sluttdatoen vil vanligvis være identisk med *M108 arkivperiodeSluttdato*
 
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M114**
+ * - **Navn**
+   - **avleveringspakkeStartDato**
+ * - **Obligatorisk/valgfri**
+   - Obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Startdato avleveringspakken.
+ * - **Arkivenhet**
+   - Overordnet informasjon om innholdet i avleverinspakken.
+ * - **Kilde**
+   - Registreres når avleveringspakken produseres
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Startdatoen kan selekteres på M602 avsluttetDato for mappen. Andre seleksjonskriterier kan være aktuelle.
+ * - **Kommentarer**
+   - Startdatoen vil være identisk med M107 arkivperiodeStartdato dersom uttrekket bare omfatter en avleveringspakke.
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M115**
+ * - **Navn**
+   - **avleveringspakkeSluttDato**
+ * - **Obligatorisk/valgfri**
+   - Obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Sluttdato for avleveringspakken.
+ * - **Arkivenhet**
+   - Overordnet informasjon om innholdet i avleverinspakken.
+ * - **Kilde**
+   - Registreres når avleveringspakken produseres
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Sluttdatoen kan selekteres på M602 avsluttetDato for mappen. Andre seleksjonskriterier kan være aktuelle.
+ * - **Kommentarer**
+   - Sluttdatoen vil være identisk med M108 arkivperiodeSluttdato dersom uttrekket bare omfatter en avleveringspakke.
+
 
 Referanser
 ~~~~~~~~~~
@@ -1345,23 +1624,23 @@ Referanser
  * - **Nr**
    - **M200**
  * - **Navn**
-   - **referanseOpprettetAv**
+   - **referanseForelder**
  * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
+   - Obligatorisk
  * - **Forekomster**
    - En
  * - **Definisjon**
-   - Referanse til bruker som opprettet/registrerte arkivenheten
+   - Referanse til den arkivenheten i hierarkiet som er direkte overordnet denne arkivenheten
  * - **Arkivenhet**
-   - arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse, dokumentobjekt
+   - arkiv, arkivdel, klasse, mappe, registrering
  * - **Kilde**
-   - Registreres automatisk av systemet ved opprettelse av enheten
+   - Registreres automatisk av systemet
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt
+   - Skal ikke kunne endres.
  * - **Kommentarer**
-   - 
+   - NB! Gyldig t.o.m. versjon 2.1. Er obligatorisk for arkiv bare dersom denne enheten er et underarkiv (delarkiv). Ved klasse kan forelder både være en annen klasse eller et klassifikasjonssystem. Ved mappe kan forelder være på en annen overordnet mappe eller en klasse. Dersom mappenivået utelates, kan forelder til en registrering være en klasse.
 
 .. list-table::
    :widths: 2 6
@@ -1370,23 +1649,23 @@ Referanser
  * - **Nr**
    - **M201**
  * - **Navn**
-   - **referanseAvsluttetAv**
+   - **referanseBarn**
  * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
+   - Obligatorisk
  * - **Forekomster**
-   - En
+   - Mange
  * - **Definisjon**
-   - Referanse til bruker som avsluttet/lukket arkivenheten
+   - Referanse til den eller de arkivenhetene i hierarkiet som er direkte underordnet denne arkivenheten
  * - **Arkivenhet**
-   - arkiv, arkivdel, klassifikasjonssystem, klasse og mappe
+   - arkiv, arkivdel, klasse, mappe, registrering
  * - **Kilde**
-   - Registreres automatisk av systemet ved opprettelse av enheten
+   - Registreres automatisk av systemet
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - Skal ikke kunne endres. Obligatorisk dersom arkivenheten er avsluttet. Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt.
+   - Skal ikke kunne endres.
  * - **Kommentarer**
-   - 
+   - NB! Gyldig t.o.m. versjon 2.1. Ved klasse kan barn være en/flere klasse(r) eller en/flere mappe(r). Dersom mappenivået utelates, kan det også være en/flere registrering(er). Ved mappe kan barn være en en/flere undermappe(r) eller en/flere registrering(er).
 
 .. list-table::
    :widths: 2 6
@@ -1449,23 +1728,73 @@ Logging av endringer
  * - **Nr**
    - **M204**
  * - **Navn**
-   - **referanseEndretAv**
+   - **referanseKlassifikasjonssystem**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
  * - **Forekomster**
    - En
  * - **Definisjon**
-   - Referanse til bruker som foretok en endring av metadata
+   - Referanse til det klassifikasjonssystemet som mappene i denne arkivdelen er klassifisert etter
  * - **Arkivenhet**
-   - Filen endringslogg.xml
+   - arkivdel
  * - **Kilde**
-   - Registreres automatisk ved endring av metadata
+   - Registreres manuelt når arkivdelen opprettes
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt
- * - **Kommentarer**
    - 
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M205**
+ * - **Navn**
+   - **referanseMappe**
+ * - **Obligatorisk/valgfri**
+   - Obligatorisk
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Referanse til  mapper som tilhører en arkivdel
+ * - **Arkivenhet**
+   - arkivdel
+ * - **Kilde**
+   - Registreres automatisk når mapper opprettes
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. Versjon 2.1
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M206**
+ * - **Navn**
+   - **referanseRegistrering**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Referanse til registreringer som er knyttet til denne enheten
+ * - **Arkivenhet**
+   - arkivdel, dokumentbeskrivelse, dokumentobjekt
+ * - **Kilde**
+   - Registreres automatisk når registreringer opprettes
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. Versjon 2.1. En og samme dokumentbeskrivelse kan være knyttet til flere registreringer (det er et M:M forhold mellom registrering og dokumentbeskrivelse). En arkivdel kan være direkte knyttet til en eller flere registreringer (f.eks. aktuelt ved kassasjon av bestemte typer  dokumenter).  Referansen er også aktuell i fagsystemer som verken inneholder mapper eller et klassifikasjonssystem.
 
 
 Referanser
@@ -1551,6 +1880,31 @@ Referanser
    :header-rows: 0
 
  * - **Nr**
+   - **M211**
+ * - **Navn**
+   - **referanseFraMappe**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Kryssreferanse fra en mappe til en annen mappe eller registrering
+ * - **Arkivenhet**
+   - mappe, registrering
+ * - **Kilde**
+   - Registreres automatisk når kryssreferanse opprettes
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
    - **M212**
  * - **Navn**
    - **referanseTilRegistrering**
@@ -1576,6 +1930,56 @@ Referanser
    :header-rows: 0
 
  * - **Nr**
+   - **M213**
+ * - **Navn**
+   - **referanseFraRegistrering**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Kryssreferanse fra en registrering til en annen registrering eller saksmappe
+ * - **Arkivenhet**
+   - mappe, registrering
+ * - **Kilde**
+   - Registreres automatisk når kryssreferanse opprettes
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M214**
+ * - **Navn**
+   - **referanseAvskriverJournalpost**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Referanse til en eller flere journalposter som blir avskrevet av denne journalposten
+ * - **Arkivenhet**
+   - journalpost
+ * - **Kilde**
+   - Registreres manuelt eller automatisk ved avskrivning
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
    - **M215**
  * - **Navn**
    - **referanseAvskrivesAvJournalpost**
@@ -1595,6 +1999,31 @@ Referanser
    - 
  * - **Kommentarer**
    - 
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M216**
+ * - **Navn**
+   - **referanseDokumentobjekt**
+ * - **Obligatorisk/valgfri**
+   - Obligatorisk
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Referanse til dokumentobjektet
+ * - **Arkivenhet**
+   - registrering, dokumentbeskrivelse
+ * - **Kilde**
+   - Registreres automatisk når et eller flere dokumenter knyttes til en registrering
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1. Dersom registreringen bare består av ett dokument, kan referansen gå direkte fra registrering til dokumentobjekt
 
 .. list-table::
    :widths: 2 6
@@ -1673,6 +2102,31 @@ Referanser
    - 
  * - **Kommentarer**
    - Kryssreferansen kan gå til en eller flere klasser innenfor samme klassifikasjonssystem, og til en eller flere klasser i andre klassifika­sjonssystem. Kan brukes for å knytte sammen beslektede klasser som ikke kan utledes fra det hierarkiske klassifikasjonssystemet.
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M220**
+ * - **Navn**
+   - **referanseFraKlasse**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Kryssreferanse fra en annen klasse
+ * - **Arkivenhet**
+   - klasse
+ * - **Kilde**
+   - Registreres manuelt
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1. Kryssreferansen kan gå til en eller flere klasser innenfor samme klassifikasjonssystem, og til en eller flere klasser i andre klassifikasjonssystem
 
 .. list-table::
    :widths: 2 6
@@ -1773,6 +2227,156 @@ Referanser
    - 
  * - **Kommentarer**
    - Kan brukes for å knytte sammen dokumenter som tilhører samme "møtesak"
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M225**
+ * - **Navn**
+   - **referanseOpprettetAv**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Referanse til bruker som opprettet/registrerte arkivenheten
+ * - **Arkivenhet**
+   - arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse, dokumentobjekt
+ * - **Kilde**
+   - Registreres automatisk av systemet ved opprettelse av enheten
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt
+ * - **Kommentarer**
+   - 
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M226**
+ * - **Navn**
+   - **referanseOppdatertAv**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Referanse til bruker som oppdaterte arkivenheten
+ * - **Arkivenhet**
+   - arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse
+ * - **Kilde**
+   - Registreres automatisk av systemet ved opprettelse av enheten
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - 
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M227**
+ * - **Navn**
+   - **referanseAvsluttetAv**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Referanse til bruker som avsluttet/lukket arkivenheten
+ * - **Arkivenhet**
+   - arkiv, arkivdel, klassifikasjonssystem, klasse og mappe
+ * - **Kilde**
+   - Registreres automatisk av systemet ved opprettelse av enheten
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Skal ikke kunne endres. Obligatorisk dersom arkivenheten er avsluttet. Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt.
+ * - **Kommentarer**
+   - 
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M228**
+ * - **Navn**
+   - **referanseArkivertAv**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Referanse til bruker som arkiverte arkivenheten
+ * - **Arkivenhet**
+   - registrering
+ * - **Kilde**
+   - Registreres automatisk av systemet ved arkivering av enheten
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - 
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M229**
+ * - **Navn**
+   - **referanseForelderMappe**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Referanse til overordnet mappe
+ * - **Arkivenhet**
+   - mappe
+ * - **Kilde**
+   - Registreres automatisk av systemet ved arkivering av enheten
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - 
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M230**
+ * - **Navn**
+   - **referanseEndretAv**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Referanse til bruker som oppdaterte arkivenheten eller endret metadata
+ * - **Arkivenhet**
+   - arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse samt filen endringslogg.xml
+ * - **Kilde**
+   - Registreres automatisk ved oppdatering av en arkivenhet eller endring av metadata
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Skal ikke kunne endres
+ * - **Kommentarer**
+   - Erstatter M226 referanseOppdatertAv
 
 
 Arkiv- og saksbehandlingsfunksjonalitet
@@ -3149,6 +3753,81 @@ Logging av hendelser
    :header-rows: 0
 
  * - **Nr**
+   - **M606**
+ * - **Navn**
+   - **ansvarligEksport**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Navn på person som har foretatt (eller er ansvarlig for) eksport av metadata og dokumenter
+ * - **Arkivenhet**
+   - Egen fil
+ * - **Kilde**
+   - Registreres manuelt eller automatisk ved produksjon av avleveringsuttrekk
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Kan ikke endres
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1. Informasjonen skal både inngå i uttrekket og lagres i systemet
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M607**
+ * - **Navn**
+   - **eksportertDato**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Dato og klokkeslett når eksporten skjedde
+ * - **Arkivenhet**
+   - Egen fil
+ * - **Kilde**
+   - Registreres automatisk ved produksjon av avleveringsuttrekk
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Kan ikke endres
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1. Informasjonen skal både inngå i uttrekket og lagres i systemet.
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M608**
+ * - **Navn**
+   - **antallMapperEksportert**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Antall mapper som inngikk i eksporten
+ * - **Arkivenhet**
+   - Egen fil
+ * - **Kilde**
+   - Registreres automatisk ved produksjon av avleveringsuttrekk
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Kan ikke endres
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1. Informasjonen skal både inngå i uttrekket og lagres i systemet.
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
    - **M609**
  * - **Navn**
    - **antallJournalposter**
@@ -3168,6 +3847,31 @@ Logging av hendelser
    - Kan ikke endres
  * - **Kommentarer**
    - 
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M610**
+ * - **Navn**
+   - **antallDokumenterEksportert**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Antall elektroniske dokumenter (dokumentfiler) som inngikk i eksporten
+ * - **Arkivenhet**
+   - Egen fil
+ * - **Kilde**
+   - Registreres automatisk ved produksjon av avleveringsuttrekk
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Obligatorisk ved avlevering dersom eksporten omfatter elektroniske dokumenter. Kan ikke endres
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1
 
 .. list-table::
    :widths: 2 6
@@ -3700,6 +4404,56 @@ Logging av hendelser
  * - **Kommentarer**
    - 
 
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M632**
+ * - **Navn**
+   - **oppdatertDato**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Dato og klokkeslett når arkivenheten sist ble oppdatert
+ * - **Arkivenhet**
+   - arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse
+ * - **Kilde**
+   - Registreres automatisk av systemet når oppdatering gjøres
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Skal ikke kunne endres.
+ * - **Kommentarer**
+   - NB! Ikke i bruk, slått sammen med M682 endretDato
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M633**
+ * - **Navn**
+   - **oppdatertAv**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Dato og klokkeslett når arkivenheten sist ble oppdatert
+ * - **Arkivenhet**
+   - arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse
+ * - **Kilde**
+   - Registreres automatisk av systemet når oppdatering gjøres
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Skal ikke kunne endres.
+ * - **Kommentarer**
+   - NB! Ikke i bruk, slått sammen med M683 endretAv
+
 
 Logging av arbeidsflyt og saksfordeling
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3858,6 +4612,81 @@ Logging av arbeidsflyt og saksfordeling
  * - **Kommentarer**
    - 
 
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M666**
+ * - **Navn**
+   - **fordeltTil**
+ * - **Obligatorisk/valgfri**
+   - Obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Person som har fått fordelt en saksmappe eller journalpost til saksbehandling
+ * - **Arkivenhet**
+   - saksmappe, journalpost
+ * - **Kilde**
+   - Registreres automatisk av funksjonalitet knyttet til fordeling
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M667**
+ * - **Navn**
+   - **fordeltAv**
+ * - **Obligatorisk/valgfri**
+   - Obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Person som har fordelt en saksmappe eller journalpost til saksbehandling
+ * - **Arkivenhet**
+   - saksmappe, journalpost
+ * - **Kilde**
+   - Registreres automatisk av funksjonalitet knyttet til fordeling
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M668**
+ * - **Navn**
+   - **fordeltDato**
+ * - **Obligatorisk/valgfri**
+   - Obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Dato da en saksmappe eller journalpost ble fordelt til saksbehandling
+ * - **Arkivenhet**
+   - saksmappe, journalpost
+ * - **Kilde**
+   - Registreres automatisk av funksjonalitet knyttet til fordeling
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1
+
 
 Logging av endringer
 ~~~~~~~~~~~~~~~~~~~~
@@ -3925,17 +4754,17 @@ Logging av endringer
  * - **Forekomster**
    - En
  * - **Definisjon**
-   - Dato og klokkeslett når et metadataelement ble endret
+   - Dato og klokkeslett når arkivenheten ble oppdatert eller et metadataelement sist ble endret
  * - **Arkivenhet**
-   - Filen endringslogg.xml
+   - arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse samt filen endringslogg.xml
  * - **Kilde**
-   - Registreres automatisk ved endring av metadata
+   - Registreres automatisk ved oppdatering av en arkivenhet eller endring av metadata
  * - **Arv**
-   - 
+   - Nei
  * - **Betingelser**
-   - 
+   - Skal ikke kunne endres
  * - **Kommentarer**
-   - 
+   - Erstatter M632 oppdatertDato
 
 .. list-table::
    :widths: 2 6
@@ -3950,17 +4779,17 @@ Logging av endringer
  * - **Forekomster**
    - En
  * - **Definisjon**
-   - Navn på person som foretok en endring av metadata
+   - Navn på person som oppdaterte en arkivenhet eller endret metadata
  * - **Arkivenhet**
-   - Filen endringslogg.xml
+   - arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse samt filen endringslogg.xml
  * - **Kilde**
-   - Registreres automatisk ved endring av metadata
+   - Registreres automatisk ved oppdatering av en arkivenhet eller endring av metadata
  * - **Arv**
-   - 
+   - Nei
  * - **Betingelser**
-   - 
+   - Skal ikke kunne endres
  * - **Kommentarer**
-   - 
+   - Erstatter M633 oppdatertAv
 
 .. list-table::
    :widths: 2 6
@@ -4102,6 +4931,56 @@ Tekniske metadata
    :header-rows: 0
 
  * - **Nr**
+   - **M703**
+ * - **Navn**
+   - **tidligereFormat**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Dokumentets format før det ble konvertert
+ * - **Arkivenhet**
+   - dokumentobjekt
+ * - **Kilde**
+   - Registreres automatisk ved konvertering
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Kan ikke endres
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1. Dette vil vanligvis være produksjonsformatet
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M704**
+ * - **Navn**
+   - **tidligereFormatDetaljer**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Nærmere spesifikasjon av dokuments format før det ble konvertert, f.eks. informasjon om komprimering
+ * - **Arkivenhet**
+   - dokumentobjekt
+ * - **Kilde**
+   - Registreres automatisk ved konvertering
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Kan ikke endres
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
    - **M705**
  * - **Navn**
    - **sjekksum**
@@ -4171,6 +5050,56 @@ Tekniske metadata
    - Kan ikke endres
  * - **Kommentarer**
    - 
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M708**
+ * - **Navn**
+   - **sjekksumMetadata**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - En verdi som beregnes ut fra innholdet i metadataobjektene i avleveringspakken, og som dermed gir integritessikring til metadataenes innhold
+ * - **Arkivenhet**
+   - Egen fil
+ * - **Kilde**
+   - Påføres automatisk i forbindelse med eksport for avlevering
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Kan ikke endres
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M709**
+ * - **Navn**
+   - **sjekksumAvlevering**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - En verdi som beregnes ut fra innholdet i hele avleveringspakken (både metadata- og dokumentobjekter), og som dermed gir integritetssikring til hele  avleveringspakken
+ * - **Arkivenhet**
+   - Egen fil
+ * - **Kilde**
+   - Påføres automatisk i forbindelse med eksport for avlevering
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Kan ikke endres
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. versjon 2.1
 
 .. list-table::
    :widths: 2 6

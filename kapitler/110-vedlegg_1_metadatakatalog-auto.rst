@@ -1796,6 +1796,31 @@ Logging av endringer
  * - **Kommentarer**
    - NB! Gyldig t.o.m. Versjon 2.1. En og samme dokumentbeskrivelse kan være knyttet til flere registreringer (det er et M:M forhold mellom registrering og dokumentbeskrivelse). En arkivdel kan være direkte knyttet til en eller flere registreringer (f.eks. aktuelt ved kassasjon av bestemte typer  dokumenter).  Referansen er også aktuell i fagsystemer som verken inneholder mapper eller et klassifikasjonssystem.
 
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M207**
+ * - **Navn**
+   - **referanseDokumentbeskrivelse**
+ * - **Obligatorisk/valgfri**
+   - Betinget obligatorisk
+ * - **Forekomster**
+   - Mange
+ * - **Definisjon**
+   - Referanse til dokumentbeskrivelser som tilknyttet denne arkivenheten
+ * - **Arkivenhet**
+   - registrering, dokumentobjekt
+ * - **Kilde**
+   - Registreres automatisk når dokumentbeskrivelser opprettes
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - NB! Gyldig t.o.m. Versjon 2.1
+
 
 Referanser
 ~~~~~~~~~~

@@ -1302,7 +1302,7 @@ Merk: En *dokumentbeskrivelse* kan være knyttet til mer enn én enkelt *registr
    - A
    - arkivdel.systemID
  * - M217
-   - tilknyttetRegistrering Som
+   - tilknyttetRegistreringSom
    - DL.TYPE
    - 1
    - A

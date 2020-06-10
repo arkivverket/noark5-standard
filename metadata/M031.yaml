@@ -5,7 +5,7 @@ Betingelser:
 Datatype: Heltall
 Definisjon: Nummeret på en gårdsenhet i matrikkelen, er unikt innenfor hver kommune.
 Forekomster: 0-M
-Gruppe: Identifikasjon
+Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer: NB! Ikke tatt i bruk
 Navn: gaardsnummer

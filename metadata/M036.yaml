@@ -5,7 +5,7 @@ Betingelser:
 Datatype: Heltall
 Definisjon: Et midlertidig ellevesiffret registreringsnummer som tildeles utenlandske statsborgere som ennå ikke har fått fødselsnummer
 Forekomster: 0-M
-Gruppe: Identifikasjon
+Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer: NB! Ikke tatt i bruk
 Navn: dNummer

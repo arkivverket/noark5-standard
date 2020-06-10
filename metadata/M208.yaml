@@ -24,3 +24,4 @@ Kommentarer: 'Alle mapper skal ha referanse til arkivdel (selv om tilhørigheten
 Navn: referanseArkivdel
 Nr: M208
 Obligatorisk/valgfri: Obligatorisk
+X: true

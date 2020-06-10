@@ -11,3 +11,4 @@ Kommentarer: Forfallsdato kan være angitt som en betingelse i det inngående do
 Navn: forfallsdato
 Nr: M109
 Obligatorisk/valgfri: Valgfri
+X: true

@@ -24,6 +24,8 @@ def main():
     for filename in args.yamlfile:
         with open(filename, 'r') as f:
             info = yaml.load(f)
+            if 'X' in info and not info['X']:
+                continue
             for field in required:
                 if not field in info:
                     print("error: Missing field %s in %s" % (field, filename),

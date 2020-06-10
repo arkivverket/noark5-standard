@@ -17,3 +17,4 @@ Kommentarer: Dersom signaturen er verifisert, skal det logges hvem som verifiser
 Navn: elektroniskSignaturVerifisert
 Nr: M508
 Obligatorisk/valgfri: Betinget obligatorisk
+X: true

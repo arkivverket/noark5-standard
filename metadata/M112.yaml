@@ -12,3 +12,4 @@ Kommentarer: Startdatoen vil vanligvis være identisk med *M107 arkivperiodeStar
 Navn: journalStartDato
 Nr: M112
 Obligatorisk/valgfri: Obligatorisk
+X: true

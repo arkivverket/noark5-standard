@@ -12,3 +12,4 @@ Kommentarer: Merk at mottattDato ikke behøver å være identisk med *M600 oppre
 Navn: mottattDato
 Nr: M104
 Obligatorisk/valgfri: Valgfri
+X: true

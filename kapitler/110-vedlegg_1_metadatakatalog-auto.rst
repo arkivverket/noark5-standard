@@ -543,8 +543,8 @@ Kjernemetadata (jf. Dublin Core)
    - I løpende og offentlig journaler skal også offentligTittel være med dersom ord i tittelfeltet skal skjermes.
 
 
-Identifikasjon
-~~~~~~~~~~~~~~
+Nasjonale identifikatorer
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
    :widths: 2 6

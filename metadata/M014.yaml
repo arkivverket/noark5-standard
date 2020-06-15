@@ -12,5 +12,4 @@ Kommentarer: |-
   Kombinasjonen journalår og sekvensnummer er ikke obligatorisk, men anbefales brukt i sakarkiver. Noen rapporter er sortert på denne kombinasjonen, f.eks. løpende- og offentlig journal. Dersom journalår og sekvensnummer ikke brukes, må kronologiske utskrifter sorteres etter andre kriterier (f.eks. journalpostens *opprettetDato*). I Noark 4 skulle sekvensnummeret vises før journalåret (f.eks. 25367/2011) for at det ikke skulle blandes sammen med saksnummeret som har året først.
 Navn: journalsekvensnummer
 Nr: M014
-Obligatorisk/valgfri: Valgfri
 X: true

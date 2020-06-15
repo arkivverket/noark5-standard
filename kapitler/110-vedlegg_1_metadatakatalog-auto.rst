@@ -15,8 +15,6 @@ Identifikasjon
    - **M001**
  * - **Navn**
    - **systemID**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Globalt unik identifikasjon av arkivenheten (UID).
  * - **Arkivenhet**
@@ -38,8 +36,6 @@ Identifikasjon
    - **M002**
  * - **Navn**
    - **klasseID**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Entydig identifikasjon av klassen innenfor klassifikasjonssystemet.
  * - **Arkivenhet**
@@ -61,8 +57,6 @@ Identifikasjon
    - **M003**
  * - **Navn**
    - **mappeID**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Entydig identifikasjon av mappen innenfor det arkivet mappen tilhører.
  * - **Arkivenhet**
@@ -86,8 +80,6 @@ Identifikasjon
    - **M004**
  * - **Navn**
    - **registreringsID**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Entydig identifikasjon av registreringen innenfor arkivet.
  * - **Arkivenhet**
@@ -111,8 +103,6 @@ Identifikasjon
    - **M005**
  * - **Navn**
    - **versjonsnummer**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Identifikasjon av versjoner innenfor ett og samme dokument.
  * - **Arkivenhet**
@@ -134,8 +124,6 @@ Identifikasjon
    - **M006**
  * - **Navn**
    - **arkivskaperID**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Unik ID for arkivskaperen
  * - **Arkivenhet**
@@ -157,8 +145,6 @@ Identifikasjon
    - **M007**
  * - **Navn**
    - **dokumentnummer**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Identifikasjon av dokumentene innenfor en registrering
  * - **Arkivenhet**
@@ -180,8 +166,6 @@ Identifikasjon
    - **M008**
  * - **Navn**
    - **moetenummer**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Identifikasjon av møter som et utvalg har avholdt, viser rekkefølgene på møtene
  * - **Arkivenhet**
@@ -203,8 +187,6 @@ Identifikasjon
    - **M009**
  * - **Navn**
    - **loepenummer**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Rekkefølgenummer for  journalposter
  * - **Arkivenhet**
@@ -226,8 +208,6 @@ Identifikasjon
    - **M010**
  * - **Navn**
    - **partID**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Unik ID for en part
  * - **Arkivenhet**
@@ -249,8 +229,6 @@ Identifikasjon
    - **M011**
  * - **Navn**
    - **saksaar**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Inngår i *M003 mappeID*. Viser året saksmappen ble opprettet.
  * - **Arkivenhet**
@@ -272,8 +250,6 @@ Identifikasjon
    - **M012**
  * - **Navn**
    - **sakssekvensnummer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Inngår i *M003 mappeID*. Viser rekkefølgen når saksmappen ble opprettet innenfor året.
  * - **Arkivenhet**
@@ -295,8 +271,6 @@ Identifikasjon
    - **M013**
  * - **Navn**
    - **journalaar**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Viser året journalposten ble opprettet
  * - **Arkivenhet**
@@ -318,8 +292,6 @@ Identifikasjon
    - **M014**
  * - **Navn**
    - **journalsekvensnummer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Viser rekkefølgen når journalposten ble opprettet under året
  * - **Arkivenhet**
@@ -343,8 +315,6 @@ Identifikasjon
    - **M015**
  * - **Navn**
    - **journalpostnummer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Viser rekkefølgen på journalpostene innenfor saksmappen,.
  * - **Arkivenhet**
@@ -370,8 +340,6 @@ Kjernemetadata (jf. Dublin Core)
    - **M020**
  * - **Navn**
    - **tittel**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Tittel eller navn på arkivenheten
  * - **Arkivenhet**
@@ -393,8 +361,6 @@ Kjernemetadata (jf. Dublin Core)
    - **M021**
  * - **Navn**
    - **beskrivelse**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Tekstlig beskrivelse av arkivenheten
  * - **Arkivenhet**
@@ -416,8 +382,6 @@ Kjernemetadata (jf. Dublin Core)
    - **M022**
  * - **Navn**
    - **noekkelord**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Nøkkeord eller stikkord som beskriver innholdet i enheten
  * - **Arkivenhet**
@@ -439,8 +403,6 @@ Kjernemetadata (jf. Dublin Core)
    - **M023**
  * - **Navn**
    - **arkivskaperNavn**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Navn på organisasjonen som har skapt arkivet
  * - **Arkivenhet**
@@ -462,8 +424,6 @@ Kjernemetadata (jf. Dublin Core)
    - **M024**
  * - **Navn**
    - **forfatter**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Navn på person (eller eventuelt organisasjon) som har forfattet eller skapt dokumentet.
  * - **Arkivenhet**
@@ -485,8 +445,6 @@ Kjernemetadata (jf. Dublin Core)
    - **M025**
  * - **Navn**
    - **offentligTittel**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Offentlig tittel på arkivenheten, ord som skal skjermes er fjernet fra innholdet i tittelen (erstattet med ******)
  * - **Arkivenhet**
@@ -512,8 +470,6 @@ Nasjonale identifikatorer
    - **M030**
  * - **Navn**
    - **kommunenummer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Et firesifferet nummer som er unikt for hver kommune i Norge. De to første siffrene angir fylke, de to siste er løpende innenfor hvert fylke.
  * - **Arkivenhet**
@@ -535,8 +491,6 @@ Nasjonale identifikatorer
    - **M031**
  * - **Navn**
    - **gaardsnummer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Nummeret på en gårdsenhet i matrikkelen, er unikt innenfor hver kommune.
  * - **Arkivenhet**
@@ -558,8 +512,6 @@ Nasjonale identifikatorer
    - **M032**
  * - **Navn**
    - **bruksnummer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Undernummer under en matrikkelgård, som har blitt delt opp i mindre enheter.
  * - **Arkivenhet**
@@ -581,8 +533,6 @@ Nasjonale identifikatorer
    - **M033**
  * - **Navn**
    - **festenummer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Underoppdeling under bruksnummer, angir enheter som kan omsettes og pantsettes.
  * - **Arkivenhet**
@@ -604,8 +554,6 @@ Nasjonale identifikatorer
    - **M034**
  * - **Navn**
    - **seksjonsnummer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Underoppdeling under bruksnummer, angir enheter som kan omsettes og selges. Typisk i leilighetesbygg i flere etasjer, forretningsgårder eller en blanding av forretninger og leiligheter.
  * - **Arkivenhet**
@@ -627,8 +575,6 @@ Nasjonale identifikatorer
    - **M035**
  * - **Navn**
    - **foedselsnummer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Et ellevesiffret registreringsnummer som tildeles alle som er bosatt i Norge og innført i folkeregistret.
  * - **Arkivenhet**
@@ -650,8 +596,6 @@ Nasjonale identifikatorer
    - **M036**
  * - **Navn**
    - **dNummer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Et midlertidig ellevesiffret registreringsnummer som tildeles utenlandske statsborgere som ennå ikke har fått fødselsnummer
  * - **Arkivenhet**
@@ -673,8 +617,6 @@ Nasjonale identifikatorer
    - **M037**
  * - **Navn**
    - **organisasjonsnummer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Et nisifferet registreringsnummer som tildeles av Enhetsregistret ved Brønnøysundregistrene til organisasjoner som opptrer som offentlige aktører.
  * - **Arkivenhet**
@@ -700,8 +642,6 @@ Status
    - **M050**
  * - **Navn**
    - **arkivstatus**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Status til arkivet
  * - **Arkivenhet**
@@ -728,8 +668,6 @@ Status
    - **M051**
  * - **Navn**
    - **arkivdelstatus**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Status til den arkivperioden som arkivdelen omfatter
  * - **Arkivenhet**
@@ -758,8 +696,6 @@ Status
    - **M052**
  * - **Navn**
    - **saksstatus**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Status til saksmappen, dvs. hvor langt saksbehandlingen har kommet.
  * - **Arkivenhet**
@@ -787,8 +723,6 @@ Status
    - **M053**
  * - **Navn**
    - **journalstatus**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Status til journalposten, dvs. om dokumentet er registrert, under behandling eller endelig arkivert.
  * - **Arkivenhet**
@@ -817,8 +751,6 @@ Status
    - **M054**
  * - **Navn**
    - **dokumentstatus**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Status til dokumentet
  * - **Arkivenhet**
@@ -843,8 +775,6 @@ Status
    - **M055**
  * - **Navn**
    - **moeteregistreringsstatus**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Status til møteregistreringen
  * - **Arkivenhet**
@@ -870,8 +800,6 @@ Status
    - **M056**
  * - **Navn**
    - **presedensstatus**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Informasjon om presedensen er gjeldende eller foreldet
  * - **Arkivenhet**
@@ -900,8 +828,6 @@ Typer
    - **M082**
  * - **Navn**
    - **journalposttype**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Navn på type journalpost
  * - **Arkivenhet**
@@ -929,8 +855,6 @@ Typer
    - **M083**
  * - **Navn**
    - **dokumenttype**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Navn på type dokument
  * - **Arkivenhet**
@@ -957,8 +881,6 @@ Typer
    - **M084**
  * - **Navn**
    - **merknadstype**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Navn på type merknad
  * - **Arkivenhet**
@@ -984,8 +906,6 @@ Typer
    - **M085**
  * - **Navn**
    - **moeteregistreringstype**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Navn på type møteregistrering
  * - **Arkivenhet**
@@ -1012,8 +932,6 @@ Typer
    - **M086**
  * - **Navn**
    - **klassifikasjonstype**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Type klassifikasjonssystem
  * - **Arkivenhet**
@@ -1044,8 +962,6 @@ Typer
    - **M087**
  * - **Navn**
    - **korrespondanseparttype**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Type korrespondansepart
  * - **Arkivenhet**
@@ -1074,8 +990,6 @@ Typer
    - **M088**
  * - **Navn**
    - **moetesakstype**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Navn på type møtesak
  * - **Arkivenhet**
@@ -1102,8 +1016,6 @@ Typer
    - **M089**
  * - **Navn**
    - **slettingstype**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navn på hvilket objekt som er slettet
  * - **Arkivenhet**
@@ -1133,8 +1045,6 @@ Datoer
    - **M100**
  * - **Navn**
    - **saksdato**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Datoen saken er opprettet
  * - **Arkivenhet**
@@ -1156,8 +1066,6 @@ Datoer
    - **M101**
  * - **Navn**
    - **journaldato**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Datoen journalposten er journalført
  * - **Arkivenhet**
@@ -1179,8 +1087,6 @@ Datoer
    - **M102**
  * - **Navn**
    - **moetedato**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Datoen når et utvalgsmøte blir avholdt
  * - **Arkivenhet**
@@ -1202,8 +1108,6 @@ Datoer
    - **M103**
  * - **Navn**
    - **dokumentetsDato**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Dato som er påført selve dokumentet
  * - **Arkivenhet**
@@ -1225,8 +1129,6 @@ Datoer
    - **M104**
  * - **Navn**
    - **mottattDato**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Dato et eksternt dokument ble mottatt
  * - **Arkivenhet**
@@ -1248,8 +1150,6 @@ Datoer
    - **M105**
  * - **Navn**
    - **sendtDato**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Dato et internt produsert dokument ble sendt/ekspedert
  * - **Arkivenhet**
@@ -1271,8 +1171,6 @@ Datoer
    - **M106**
  * - **Navn**
    - **utlaantDato**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Dato når en fysisk saksmappe eller journalpost ble utlånt
  * - **Arkivenhet**
@@ -1294,8 +1192,6 @@ Datoer
    - **M107**
  * - **Navn**
    - **arkivperiodeStartDato**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Dato for starten av en arkivperiode
  * - **Arkivenhet**
@@ -1317,8 +1213,6 @@ Datoer
    - **M108**
  * - **Navn**
    - **arkivperiodeSluttDato**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Dato for slutten av en arkivperiode
  * - **Arkivenhet**
@@ -1340,8 +1234,6 @@ Datoer
    - **M109**
  * - **Navn**
    - **forfallsdato**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Dato som angir fristen for når et inngående dokument må være besvart
  * - **Arkivenhet**
@@ -1363,8 +1255,6 @@ Datoer
    - **M110**
  * - **Navn**
    - **offentlighetsvurdertDato**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Datoen da offentlighetsvurdering ble foretatt
  * - **Arkivenhet**
@@ -1386,8 +1276,6 @@ Datoer
    - **M111**
  * - **Navn**
    - **presedensDato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Datoen på presedensen
  * - **Arkivenhet**
@@ -1409,8 +1297,6 @@ Datoer
    - **M112**
  * - **Navn**
    - **journalStartDato**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Startdato for journalutskriftene som inngår i avleveringspakken.
  * - **Arkivenhet**
@@ -1432,8 +1318,6 @@ Datoer
    - **M113**
  * - **Navn**
    - **journalSluttDato**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Sluttdato for journalutskriftene som inngår i avleveringspakken.
  * - **Arkivenhet**
@@ -1455,8 +1339,6 @@ Datoer
    - **M114**
  * - **Navn**
    - **avleveringspakkeStartDato**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Startdato avleveringspakken.
  * - **Arkivenhet**
@@ -1478,8 +1360,6 @@ Datoer
    - **M115**
  * - **Navn**
    - **avleveringspakkeSluttDato**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Sluttdato for avleveringspakken.
  * - **Arkivenhet**
@@ -1505,8 +1385,6 @@ Referanser
    - **M200**
  * - **Navn**
    - **referanseForelder**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Referanse til den arkivenheten i hierarkiet som er direkte overordnet denne arkivenheten
  * - **Arkivenhet**
@@ -1528,8 +1406,6 @@ Referanser
    - **M201**
  * - **Navn**
    - **referanseBarn**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Referanse til den eller de arkivenhetene i hierarkiet som er direkte underordnet denne arkivenheten
  * - **Arkivenhet**
@@ -1551,8 +1427,6 @@ Referanser
    - **M202**
  * - **Navn**
    - **referanseForloeper**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Referanse til den arkivdelen som er forløper for denne arkivdelen, dvs. inneholder forrige arkivperiode.
  * - **Arkivenhet**
@@ -1574,8 +1448,6 @@ Referanser
    - **M203**
  * - **Navn**
    - **referanseArvtaker**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Referanse til den arkivdelen som er arvtaker for denne arkivdelen, dvs. inneholder neste arkivperiode.
  * - **Arkivenhet**
@@ -1601,8 +1473,6 @@ Logging av endringer
    - **M204**
  * - **Navn**
    - **referanseKlassifikasjonssystem**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Referanse til det klassifikasjonssystemet som mappene i denne arkivdelen er klassifisert etter
  * - **Arkivenhet**
@@ -1624,8 +1494,6 @@ Logging av endringer
    - **M205**
  * - **Navn**
    - **referanseMappe**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Referanse til  mapper som tilhører en arkivdel
  * - **Arkivenhet**
@@ -1647,8 +1515,6 @@ Logging av endringer
    - **M206**
  * - **Navn**
    - **referanseRegistrering**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Referanse til registreringer som er knyttet til denne enheten
  * - **Arkivenhet**
@@ -1670,8 +1536,6 @@ Logging av endringer
    - **M207**
  * - **Navn**
    - **referanseDokumentbeskrivelse**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Referanse til dokumentbeskrivelser som tilknyttet denne arkivenheten
  * - **Arkivenhet**
@@ -1697,8 +1561,6 @@ Referanser
    - **M208**
  * - **Navn**
    - **referanseArkivdel**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Referanse til arkivdelen som denne arkivenheten er tilknyttet
  * - **Arkivenhet**
@@ -1720,8 +1582,6 @@ Referanser
    - **M209**
  * - **Navn**
    - **referanseSekundaerKlassifikasjon**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Referanse til sekundærklassifikasjon. Kan også referere til flere enn én sekundær klassifikasjon (tertiærklassifikasjon osv.)
  * - **Arkivenhet**
@@ -1743,8 +1603,6 @@ Referanser
    - **M210**
  * - **Navn**
    - **referanseTilMappe**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Kryssreferanse til en *mappe* fra en annen *mappe* eller *registrering*
  * - **Arkivenhet**
@@ -1766,8 +1624,6 @@ Referanser
    - **M211**
  * - **Navn**
    - **referanseFraMappe**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Kryssreferanse fra en mappe til en annen mappe eller registrering
  * - **Arkivenhet**
@@ -1789,8 +1645,6 @@ Referanser
    - **M212**
  * - **Navn**
    - **referanseTilRegistrering**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Kryssreferanse til en *registrering* fra en annen *registrering* eller *mappe*
  * - **Arkivenhet**
@@ -1812,8 +1666,6 @@ Referanser
    - **M213**
  * - **Navn**
    - **referanseFraRegistrering**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Kryssreferanse fra en registrering til en annen registrering eller saksmappe
  * - **Arkivenhet**
@@ -1835,8 +1687,6 @@ Referanser
    - **M214**
  * - **Navn**
    - **referanseAvskriverJournalpost**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Referanse til en eller flere journalposter som blir avskrevet av denne journalposten
  * - **Arkivenhet**
@@ -1858,8 +1708,6 @@ Referanser
    - **M215**
  * - **Navn**
    - **referanseAvskrivesAvJournalpost**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Referanse til en eller flere journalposter som avskriver denne journalposten
  * - **Arkivenhet**
@@ -1881,8 +1729,6 @@ Referanser
    - **M216**
  * - **Navn**
    - **referanseDokumentobjekt**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Referanse til dokumentobjektet
  * - **Arkivenhet**
@@ -1904,8 +1750,6 @@ Referanser
    - **M217**
  * - **Navn**
    - **tilknyttetRegistreringSom**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Angivelse av hvilken "rolle" dokumentet har i forhold til registreringen
  * - **Arkivenhet**
@@ -1930,8 +1774,6 @@ Referanser
    - **M218**
  * - **Navn**
    - **referanseDokumentfil**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Referanse til filen som inneholder det elektroniske dokumentet som dokumentobjektet beskriver
  * - **Arkivenhet**
@@ -1953,8 +1795,6 @@ Referanser
    - **M219**
  * - **Navn**
    - **referanseTilKlasse**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Referanse til en annen klasse
  * - **Arkivenhet**
@@ -1976,8 +1816,6 @@ Referanser
    - **M220**
  * - **Navn**
    - **referanseFraKlasse**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Kryssreferanse fra en annen klasse
  * - **Arkivenhet**
@@ -1999,8 +1837,6 @@ Referanser
    - **M221**
  * - **Navn**
    - **referanseForrigeMoete**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Referanse til forrige utvalgsmøte
  * - **Arkivenhet**
@@ -2022,8 +1858,6 @@ Referanser
    - **M222**
  * - **Navn**
    - **referanseNesteMoete**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Referanse til neste utvalgsmøte
  * - **Arkivenhet**
@@ -2045,8 +1879,6 @@ Referanser
    - **M223**
  * - **Navn**
    - **referanseTilMoeteregistrering**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Referanse til en annen møteregistrering
  * - **Arkivenhet**
@@ -2068,8 +1900,6 @@ Referanser
    - **M224**
  * - **Navn**
    - **referanseFraMoeteregistrering**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Referanse fra en annen møteregistrering
  * - **Arkivenhet**
@@ -2091,8 +1921,6 @@ Referanser
    - **M225**
  * - **Navn**
    - **referanseOpprettetAv**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Referanse til bruker som opprettet/registrerte arkivenheten
  * - **Arkivenhet**
@@ -2114,8 +1942,6 @@ Referanser
    - **M226**
  * - **Navn**
    - **referanseOppdatertAv**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Referanse til bruker som oppdaterte arkivenheten
  * - **Arkivenhet**
@@ -2137,8 +1963,6 @@ Referanser
    - **M227**
  * - **Navn**
    - **referanseAvsluttetAv**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Referanse til bruker som avsluttet/lukket arkivenheten
  * - **Arkivenhet**
@@ -2160,8 +1984,6 @@ Referanser
    - **M228**
  * - **Navn**
    - **referanseArkivertAv**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Referanse til bruker som arkiverte arkivenheten
  * - **Arkivenhet**
@@ -2183,8 +2005,6 @@ Referanser
    - **M229**
  * - **Navn**
    - **referanseForelderMappe**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Referanse til overordnet mappe
  * - **Arkivenhet**
@@ -2206,8 +2026,6 @@ Referanser
    - **M230**
  * - **Navn**
    - **referanseEndretAv**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Referanse til bruker som oppdaterte arkivenheten eller endret metadata
  * - **Arkivenhet**
@@ -2233,8 +2051,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M300**
  * - **Navn**
    - **dokumentmedium**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Angivelse av om arkivenheten inneholder fysiske dokumenter, elektroniske dokumenter eller en blanding av fysiske og elektroniske dokumenter
  * - **Arkivenhet**
@@ -2260,8 +2076,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M301**
  * - **Navn**
    - **oppbevaringssted**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Stedet hvor de fysiske dokumentene oppbevares. Kan være angivelse av rom, hylle, skap osv. Overordnede arkivdeler (f.eks. en arkivdel) kan oppbevares på flere steder.
  * - **Arkivenhet**
@@ -2283,8 +2097,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M302**
  * - **Navn**
    - **partNavn**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navn på virksomhet eller person som er part
  * - **Arkivenhet**
@@ -2306,8 +2118,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M303**
  * - **Navn**
    - **partRolle**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Angivelse av rollen til parten
  * - **Arkivenhet**
@@ -2334,8 +2144,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M304**
  * - **Navn**
    - **antallVedlegg**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Antall fysiske vedlegg til et fysisk hoveddokument
  * - **Arkivenhet**
@@ -2357,8 +2165,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M305**
  * - **Navn**
    - **administrativEnhet**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Navn på avdeling, kontor eller annen administrativ enhet som har ansvaret for saksbehandlingen.
  * - **Arkivenhet**
@@ -2380,8 +2186,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M306**
  * - **Navn**
    - **saksansvarlig**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Navn på person som er saksansvarlig
  * - **Arkivenhet**
@@ -2403,8 +2207,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M307**
  * - **Navn**
    - **saksbehandler**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Navn på person som er saksbehandler
  * - **Arkivenhet**
@@ -2426,8 +2228,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M308**
  * - **Navn**
    - **journalenhet**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Navn på enhet som har det arkivmessige ansvaret for kvalitetssikring av arkivdanningen, og eventuelt registrering (journalføring) og arkivering av fysiske dokumenter
  * - **Arkivenhet**
@@ -2449,8 +2249,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M309**
  * - **Navn**
    - **utlaantTil**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Navnet på person som har lånt en fysisk saksmappe
  * - **Arkivenhet**
@@ -2472,8 +2270,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M310**
  * - **Navn**
    - **merknadstekst**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Merknad fra saksbehandler, leder eller arkivpersonale.
  * - **Arkivenhet**
@@ -2495,8 +2291,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M311**
  * - **Navn**
    - **presedensHjemmel**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Lovparagrafen som saken eller journalposten danner presedens for
  * - **Arkivenhet**
@@ -2518,8 +2312,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M312**
  * - **Navn**
    - **rettskildefaktor**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - En argumentkilde som brukes til å løse rettslige problemer. En retts­anvender som skal ta stilling til et juridisk spørsmål, vil ta utgangspunkt i en rettskildefaktor.
  * - **Arkivenhet**
@@ -2541,8 +2333,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M313**
  * - **Navn**
    - **seleksjon**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Beskrivelse av kriteriene som er brukt ved seleksjon av journalrapportenes innhold.
  * - **Arkivenhet**
@@ -2568,8 +2358,6 @@ Møtebehandling
    - **M370**
  * - **Navn**
    - **utvalg**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navn på utvalget som avholdt møte
  * - **Arkivenhet**
@@ -2591,8 +2379,6 @@ Møtebehandling
    - **M371**
  * - **Navn**
    - **moetested**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Sted hvor møtet ble avholdt
  * - **Arkivenhet**
@@ -2614,8 +2400,6 @@ Møtebehandling
    - **M372**
  * - **Navn**
    - **moetedeltakerNavn**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navn på person som var til stedet på møtet
  * - **Arkivenhet**
@@ -2637,8 +2421,6 @@ Møtebehandling
    - **M373**
  * - **Navn**
    - **moetedeltakerFunksjon**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Funksjon eller rolle til personen som deltok på møtet
  * - **Arkivenhet**
@@ -2667,8 +2449,6 @@ Korrespondanse
    - **M400**
  * - **Navn**
    - **korrespondansepartNavn**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Navn på person eller organisasjon som er avsender eller mottaker av dokumentet
  * - **Arkivenhet**
@@ -2690,8 +2470,6 @@ Korrespondanse
    - **M406**
  * - **Navn**
    - **postadresse**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Postadressen til en avsender /mottaker eller part
  * - **Arkivenhet**
@@ -2713,8 +2491,6 @@ Korrespondanse
    - **M407**
  * - **Navn**
    - **postnummer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Postnummeret til en avsender /mottaker eller part
  * - **Arkivenhet**
@@ -2736,8 +2512,6 @@ Korrespondanse
    - **M408**
  * - **Navn**
    - **poststed**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Poststedet til en avsender/mottaker eller part
  * - **Arkivenhet**
@@ -2759,8 +2533,6 @@ Korrespondanse
    - **M409**
  * - **Navn**
    - **land**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Land dersom adressen er i utlandet
  * - **Arkivenhet**
@@ -2782,8 +2554,6 @@ Korrespondanse
    - **M410**
  * - **Navn**
    - **epostadresse**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - E-postadressen til en avsender/mottaker eller part
  * - **Arkivenhet**
@@ -2805,8 +2575,6 @@ Korrespondanse
    - **M411**
  * - **Navn**
    - **telefonnummer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Telefonnummeret til en avsender/mottaker eller part
  * - **Arkivenhet**
@@ -2828,8 +2596,6 @@ Korrespondanse
    - **M412**
  * - **Navn**
    - **kontaktperson**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Kontaktperson hos en organisasjon som er avsender eller mottaker, eller part
  * - **Arkivenhet**
@@ -2855,8 +2621,6 @@ Bevaring og kassasjon
    - **M450**
  * - **Navn**
    - **kassasjonsvedtak**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Handling som skal utføres ved bevaringstidens slutt.
  * - **Arkivenhet**
@@ -2882,8 +2646,6 @@ Bevaring og kassasjon
    - **M451**
  * - **Navn**
    - **bevaringstid**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Antall år dokumentene som tilhører denne arkivdelen skal bevares.
  * - **Arkivenhet**
@@ -2905,8 +2667,6 @@ Bevaring og kassasjon
    - **M452**
  * - **Navn**
    - **kassasjonsdato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato for når dokumentene som tilhører denne arkivenheten skal kunne kasseres, eller vurderes for bevaring og kassasjon på ny
  * - **Arkivenhet**
@@ -2928,8 +2688,6 @@ Bevaring og kassasjon
    - **M453**
  * - **Navn**
    - **kassasjonshjemmel**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Angivelse av hjemmel for kassasjon
  * - **Arkivenhet**
@@ -2955,8 +2713,6 @@ Skjerming og gradering
    - **M500**
  * - **Navn**
    - **tilgangsrestriksjon**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Angivelse av at dokumentene som tilhører arkivenheten ikke er offentlig tilgjengelig i henhold til offentlighetsloven eller av en annen grunn
  * - **Arkivenhet**
@@ -2985,8 +2741,6 @@ Skjerming og gradering
    - **M501**
  * - **Navn**
    - **skjermingshjemmel**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Henvisning til hjemmel (paragraf) i offentlighetsloven, sikkerhetsloven eller beskyttelsesinstruksen
  * - **Arkivenhet**
@@ -3008,8 +2762,6 @@ Skjerming og gradering
    - **M502**
  * - **Navn**
    - **skjermingMetadata**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Angivelse av hvilke metadataelementer som skal skjermes.
  * - **Arkivenhet**
@@ -3044,8 +2796,6 @@ Skjerming og gradering
    - **M503**
  * - **Navn**
    - **skjermingDokument**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Angivelse av at hele dokumentet eller deler av det må skjermes.
  * - **Arkivenhet**
@@ -3070,8 +2820,6 @@ Skjerming og gradering
    - **M504**
  * - **Navn**
    - **skjermingsvarighet**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Antall år skjermingen skal opprettholdes.
  * - **Arkivenhet**
@@ -3093,8 +2841,6 @@ Skjerming og gradering
    - **M505**
  * - **Navn**
    - **skjermingOpphoererDato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Datoen skjermingen skal oppheves.
  * - **Arkivenhet**
@@ -3116,8 +2862,6 @@ Skjerming og gradering
    - **M506**
  * - **Navn**
    - **graderingskode**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Angivelse av at dokumentene er gradert i henhold til sikkerhetsloven eller beskyttelsesinstruksen.
  * - **Arkivenhet**
@@ -3148,8 +2892,6 @@ Skjerming og gradering
    - **M507**
  * - **Navn**
    - **elektroniskSignaturSikkerhetsnivaa**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Angivelse av hvilket sikkerhetsnivå som ble brukt ved forsendelse og mottak av elektroniske dokumenter
  * - **Arkivenhet**
@@ -3176,8 +2918,6 @@ Skjerming og gradering
    - **M508**
  * - **Navn**
    - **elektroniskSignaturVerifisert**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Angivelse av om et dokument er mottatt med elektronisk signatur, og om signaturen er verifisert.
  * - **Arkivenhet**
@@ -3206,8 +2946,6 @@ Brukeradministrasjon og administrasjonsstruktur
    - **M580**
  * - **Navn**
    - **brukerNavn**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Navn på bruker av en Noark 5-løsning
  * - **Arkivenhet**
@@ -3229,8 +2967,6 @@ Brukeradministrasjon og administrasjonsstruktur
    - **M581**
  * - **Navn**
    - **brukerRolle**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Rollen til en bruker av en Noark 5-løsning.
  * - **Arkivenhet**
@@ -3257,8 +2993,6 @@ Brukeradministrasjon og administrasjonsstruktur
    - **M582**
  * - **Navn**
    - **brukerstatus**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Status til en bruker av en Noark 5-løsning.
  * - **Arkivenhet**
@@ -3283,8 +3017,6 @@ Brukeradministrasjon og administrasjonsstruktur
    - **M583**
  * - **Navn**
    - **administrativEnhetNavn**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Navn på administrativ enhet
  * - **Arkivenhet**
@@ -3306,8 +3038,6 @@ Brukeradministrasjon og administrasjonsstruktur
    - **M584**
  * - **Navn**
    - **administrativEnhetsstatus**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Status til den administrative enheten
  * - **Arkivenhet**
@@ -3332,8 +3062,6 @@ Brukeradministrasjon og administrasjonsstruktur
    - **M585**
  * - **Navn**
    - **referanseOverordnetEnhet**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Referanse til enhet som er direkte overordnet denne enheten
  * - **Arkivenhet**
@@ -3359,8 +3087,6 @@ Logging av hendelser
    - **M600**
  * - **Navn**
    - **opprettetDato**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten ble opprettet/registrert
  * - **Arkivenhet**
@@ -3382,8 +3108,6 @@ Logging av hendelser
    - **M601**
  * - **Navn**
    - **opprettetAv**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Navn på person som opprettet/registrerte arkivenheten
  * - **Arkivenhet**
@@ -3405,8 +3129,6 @@ Logging av hendelser
    - **M602**
  * - **Navn**
    - **avsluttetDato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten ble avsluttet/lukket
  * - **Arkivenhet**
@@ -3428,8 +3150,6 @@ Logging av hendelser
    - **M603**
  * - **Navn**
    - **avsluttetAv**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navn på person som avsluttet/lukket arkivenheten
  * - **Arkivenhet**
@@ -3451,8 +3171,6 @@ Logging av hendelser
    - **M604**
  * - **Navn**
    - **arkivertDato**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett når alle dokumentene som er tilknyttet registreringen ble arkivert
  * - **Arkivenhet**
@@ -3474,8 +3192,6 @@ Logging av hendelser
    - **M605**
  * - **Navn**
    - **arkivertAv**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Navn på person som arkiverte dokumentet og frøs det for all videre redigering
  * - **Arkivenhet**
@@ -3497,8 +3213,6 @@ Logging av hendelser
    - **M606**
  * - **Navn**
    - **ansvarligEksport**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navn på person som har foretatt (eller er ansvarlig for) eksport av metadata og dokumenter
  * - **Arkivenhet**
@@ -3520,8 +3234,6 @@ Logging av hendelser
    - **M607**
  * - **Navn**
    - **eksportertDato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett når eksporten skjedde
  * - **Arkivenhet**
@@ -3543,8 +3255,6 @@ Logging av hendelser
    - **M608**
  * - **Navn**
    - **antallMapperEksportert**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Antall mapper som inngikk i eksporten
  * - **Arkivenhet**
@@ -3566,8 +3276,6 @@ Logging av hendelser
    - **M609**
  * - **Navn**
    - **antallJournalposter**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Antall journalposter i rapporten
  * - **Arkivenhet**
@@ -3589,8 +3297,6 @@ Logging av hendelser
    - **M610**
  * - **Navn**
    - **antallDokumenterEksportert**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Antall elektroniske dokumenter (dokumentfiler) som inngikk i eksporten
  * - **Arkivenhet**
@@ -3612,8 +3318,6 @@ Logging av hendelser
    - **M611**
  * - **Navn**
    - **merknadsdato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett når merknaden ble registrert
  * - **Arkivenhet**
@@ -3635,8 +3339,6 @@ Logging av hendelser
    - **M612**
  * - **Navn**
    - **merknadRegistrertAv**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navn på person som har registrert merknaden
  * - **Arkivenhet**
@@ -3658,8 +3360,6 @@ Logging av hendelser
    - **M613**
  * - **Navn**
    - **slettetDato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett når et dokument ble slettet
  * - **Arkivenhet**
@@ -3681,8 +3381,6 @@ Logging av hendelser
    - **M614**
  * - **Navn**
    - **slettetAv**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navn på person som har utført en kontrollert kassasjon av dokumenter, eller sletting av versjoner, formater og varianter.
  * - **Arkivenhet**
@@ -3704,8 +3402,6 @@ Logging av hendelser
    - **M615**
  * - **Navn**
    - **konvertertDato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett for når et dokument ble konvertert fra et format til et annet
  * - **Arkivenhet**
@@ -3727,8 +3423,6 @@ Logging av hendelser
    - **M616**
  * - **Navn**
    - **konvertertAv**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Person eller system som har foretatt konverteringen
  * - **Arkivenhet**
@@ -3750,8 +3444,6 @@ Logging av hendelser
    - **M617**
  * - **Navn**
    - **avskrivningsdato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato et dokument ble avskrevet
  * - **Arkivenhet**
@@ -3773,8 +3465,6 @@ Logging av hendelser
    - **M618**
  * - **Navn**
    - **avskrevetAv**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navn på person som har foretatt avskrivning
  * - **Arkivenhet**
@@ -3796,8 +3486,6 @@ Logging av hendelser
    - **M619**
  * - **Navn**
    - **avskrivningsmaate**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Måten en journalpost har blitt avskrevet på
  * - **Arkivenhet**
@@ -3825,8 +3513,6 @@ Logging av hendelser
    - **M620**
  * - **Navn**
    - **tilknyttetDato**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Datoen et dokument ble knyttet til en registrering
  * - **Arkivenhet**
@@ -3848,8 +3534,6 @@ Logging av hendelser
    - **M621**
  * - **Navn**
    - **tilknyttetAv**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Navn på person som knyttet et dokument til en registrering
  * - **Arkivenhet**
@@ -3871,8 +3555,6 @@ Logging av hendelser
    - **M622**
  * - **Navn**
    - **verifisertDato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato en elektronisk signatur ble verifisert
  * - **Arkivenhet**
@@ -3894,8 +3576,6 @@ Logging av hendelser
    - **M623**
  * - **Navn**
    - **verifisertAv**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navn på person som har verifisert en elektronisk signatur
  * - **Arkivenhet**
@@ -3917,8 +3597,6 @@ Logging av hendelser
    - **M624**
  * - **Navn**
    - **graderingsdato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett når et dokument ble gradert
  * - **Arkivenhet**
@@ -3940,8 +3618,6 @@ Logging av hendelser
    - **M625**
  * - **Navn**
    - **gradertAv**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navn på person som foretok graderingen
  * - **Arkivenhet**
@@ -3963,8 +3639,6 @@ Logging av hendelser
    - **M626**
  * - **Navn**
    - **nedgraderingsdato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett når et dokument ble nedgradert
  * - **Arkivenhet**
@@ -3986,8 +3660,6 @@ Logging av hendelser
    - **M627**
  * - **Navn**
    - **nedgradertAv**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navn på person som foretok nedgraderingen
  * - **Arkivenhet**
@@ -4009,8 +3681,6 @@ Logging av hendelser
    - **M628**
  * - **Navn**
    - **presedensGodkjentDato**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Dato og klokkeslett for når presedensen er godkjent
  * - **Arkivenhet**
@@ -4032,8 +3702,6 @@ Logging av hendelser
    - **M629**
  * - **Navn**
    - **presedensGodkjentAv**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Navn på person som har godkjent presedensen
  * - **Arkivenhet**
@@ -4055,8 +3723,6 @@ Logging av hendelser
    - **M630**
  * - **Navn**
    - **kassertDato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett når kassasjonen ble utført
  * - **Arkivenhet**
@@ -4078,8 +3744,6 @@ Logging av hendelser
    - **M631**
  * - **Navn**
    - **kassertAv**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navn på person som har utført kassasjonen
  * - **Arkivenhet**
@@ -4101,8 +3765,6 @@ Logging av hendelser
    - **M632**
  * - **Navn**
    - **oppdatertDato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten sist ble oppdatert
  * - **Arkivenhet**
@@ -4124,8 +3786,6 @@ Logging av hendelser
    - **M633**
  * - **Navn**
    - **oppdatertAv**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten sist ble oppdatert
  * - **Arkivenhet**
@@ -4151,8 +3811,6 @@ Logging av arbeidsflyt og saksfordeling
    - **M660**
  * - **Navn**
    - **flytTil**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Person som har mottatt for godkjennelse et dokument som har vært sendt på flyt
  * - **Arkivenhet**
@@ -4174,8 +3832,6 @@ Logging av arbeidsflyt og saksfordeling
    - **M661**
  * - **Navn**
    - **flytMottattDato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett et dokument på flyt ble mottatt
  * - **Arkivenhet**
@@ -4197,8 +3853,6 @@ Logging av arbeidsflyt og saksfordeling
    - **M662**
  * - **Navn**
    - **flytSendtDato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett et dokument på flyt ble sendt videre
  * - **Arkivenhet**
@@ -4220,8 +3874,6 @@ Logging av arbeidsflyt og saksfordeling
    - **M663**
  * - **Navn**
    - **flytStatus**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Godkjennelse/ikke godkjennelse av dokumentet som er sendt på flyt
  * - **Arkivenhet**
@@ -4247,8 +3899,6 @@ Logging av arbeidsflyt og saksfordeling
    - **M664**
  * - **Navn**
    - **flytMerknad**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Merknad eller kommentar til et dokument som er sendt på flyt
  * - **Arkivenhet**
@@ -4270,8 +3920,6 @@ Logging av arbeidsflyt og saksfordeling
    - **M665**
  * - **Navn**
    - **flytFra**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Person som har sendt et dokument på flyt
  * - **Arkivenhet**
@@ -4293,8 +3941,6 @@ Logging av arbeidsflyt og saksfordeling
    - **M666**
  * - **Navn**
    - **fordeltTil**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Person som har fått fordelt en saksmappe eller journalpost til saksbehandling
  * - **Arkivenhet**
@@ -4316,8 +3962,6 @@ Logging av arbeidsflyt og saksfordeling
    - **M667**
  * - **Navn**
    - **fordeltAv**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Person som har fordelt en saksmappe eller journalpost til saksbehandling
  * - **Arkivenhet**
@@ -4339,8 +3983,6 @@ Logging av arbeidsflyt og saksfordeling
    - **M668**
  * - **Navn**
    - **fordeltDato**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Dato da en saksmappe eller journalpost ble fordelt til saksbehandling
  * - **Arkivenhet**
@@ -4366,8 +4008,6 @@ Logging av endringer
    - **M680**
  * - **Navn**
    - **referanseArkivenhet**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Referanse til arkivenheten (systemID) som inneholder metadata­elementet som ble endret
  * - **Arkivenhet**
@@ -4389,8 +4029,6 @@ Logging av endringer
    - **M681**
  * - **Navn**
    - **referanseMetadata**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navnet på metadataelementet som ble endret
  * - **Arkivenhet**
@@ -4412,8 +4050,6 @@ Logging av endringer
    - **M682**
  * - **Navn**
    - **endretDato**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten ble oppdatert eller et metadataelement sist ble endret
  * - **Arkivenhet**
@@ -4435,8 +4071,6 @@ Logging av endringer
    - **M683**
  * - **Navn**
    - **endretAv**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Navn på person som oppdaterte en arkivenhet eller endret metadata
  * - **Arkivenhet**
@@ -4458,8 +4092,6 @@ Logging av endringer
    - **M684**
  * - **Navn**
    - **tidligereVerdi**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Innholdet i metadataelementet før det ble endret
  * - **Arkivenhet**
@@ -4481,8 +4113,6 @@ Logging av endringer
    - **M685**
  * - **Navn**
    - **nyVerdi**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Det nye innholdet i metadataelementet
  * - **Arkivenhet**
@@ -4508,8 +4138,6 @@ Tekniske metadata
    - **M700**
  * - **Navn**
    - **variantformat**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Angivelse av hvilken variant et dokument forekommer i
  * - **Arkivenhet**
@@ -4537,8 +4165,6 @@ Tekniske metadata
    - **M701**
  * - **Navn**
    - **format**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Dokumentets format
  * - **Arkivenhet**
@@ -4560,8 +4186,6 @@ Tekniske metadata
    - **M702**
  * - **Navn**
    - **formatDetaljer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Nærmere spesifikasjon av dokuments format, f.eks. informasjon om komprimering
  * - **Arkivenhet**
@@ -4583,8 +4207,6 @@ Tekniske metadata
    - **M703**
  * - **Navn**
    - **tidligereFormat**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Dokumentets format før det ble konvertert
  * - **Arkivenhet**
@@ -4606,8 +4228,6 @@ Tekniske metadata
    - **M704**
  * - **Navn**
    - **tidligereFormatDetaljer**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Nærmere spesifikasjon av dokuments format før det ble konvertert, f.eks. informasjon om komprimering
  * - **Arkivenhet**
@@ -4629,8 +4249,6 @@ Tekniske metadata
    - **M705**
  * - **Navn**
    - **sjekksum**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - En verdi som beregnes ut fra innholdet i dokumentet, og som dermed gir integritetssikring til dokumentets innhold
  * - **Arkivenhet**
@@ -4652,8 +4270,6 @@ Tekniske metadata
    - **M706**
  * - **Navn**
    - **sjekksumAlgoritme**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Algoritmen som er brukt for å beregne sjekksummen
  * - **Arkivenhet**
@@ -4675,8 +4291,6 @@ Tekniske metadata
    - **M707**
  * - **Navn**
    - **filstoerrelse**
- * - **Obligatorisk/valgfri**
-   - Obligatorisk
  * - **Definisjon**
    - Størrelsen på fila i antall bytes oppgitt med desimaltall
  * - **Arkivenhet**
@@ -4698,8 +4312,6 @@ Tekniske metadata
    - **M708**
  * - **Navn**
    - **sjekksumMetadata**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - En verdi som beregnes ut fra innholdet i metadataobjektene i avleveringspakken, og som dermed gir integritessikring til metadataenes innhold
  * - **Arkivenhet**
@@ -4721,8 +4333,6 @@ Tekniske metadata
    - **M709**
  * - **Navn**
    - **sjekksumAvlevering**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - En verdi som beregnes ut fra innholdet i hele avleveringspakken (både metadata- og dokumentobjekter), og som dermed gir integritetssikring til hele  avleveringspakken
  * - **Arkivenhet**
@@ -4744,8 +4354,6 @@ Tekniske metadata
    - **M711**
  * - **Navn**
    - **virksomhetsspesifikkeMetadata**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Et overordnet metadataelement som kan inneholde egendefinerte metadata. Disse metadataene må da være spesifisert i et eller flere XML-skjema.
  * - **Arkivenhet**
@@ -4767,8 +4375,6 @@ Tekniske metadata
    - **M712**
  * - **Navn**
    - **konvertertFraFormat**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Formatet dokumentet hadde før det ble konvertert
  * - **Arkivenhet**
@@ -4790,8 +4396,6 @@ Tekniske metadata
    - **M713**
  * - **Navn**
    - **konvertertTilFormat**
- * - **Obligatorisk/valgfri**
-   - Betinget obligatorisk
  * - **Definisjon**
    - Formatet dokumentet fikk etter konvertering
  * - **Arkivenhet**
@@ -4813,8 +4417,6 @@ Tekniske metadata
    - **M714**
  * - **Navn**
    - **konverteringsverktoey**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Navn på det IT-verktøyet som ble brukt til å foreta konverteringen
  * - **Arkivenhet**
@@ -4836,8 +4438,6 @@ Tekniske metadata
    - **M715**
  * - **Navn**
    - **konverteringskommentar**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Kommentarer til konverteringen
  * - **Arkivenhet**
@@ -4859,8 +4459,6 @@ Tekniske metadata
    - **M716**
  * - **Navn**
    - **mimeType**
- * - **Obligatorisk/valgfri**
-   - Valgfri
  * - **Definisjon**
    - Dokumentets MIME-type
  * - **Arkivenhet**

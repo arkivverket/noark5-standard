@@ -31,8 +31,6 @@ class Converter(object):
             }
             for line in sub.iterchildren():
                 field = line.tag
-                if 'Obligatorisk' == field:
-                    field = 'Obligatorisk/valgfri'
                 value = line.text
                 entry[field] = value
             def represent_str(self, data):

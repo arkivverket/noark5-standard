@@ -9,5 +9,4 @@ Kilde: Registreres når avleveringspakken produseres
 Kommentarer: Startdatoen vil være identisk med M107 arkivperiodeStartdato dersom uttrekket bare omfatter en avleveringspakke.
 Navn: avleveringspakkeStartDato
 Nr: M114
-Obligatorisk/valgfri: Obligatorisk
 X: true

@@ -8,7 +8,7 @@ import yaml
 
 def main():
     retval = 0
-    required = ('Nr', 'Navn', 'Datatype', 'Avleveres', 'Obligatorisk/valgfri',
+    required = ('Nr', 'Navn', 'Datatype', 'Avleveres',
                 'Definisjon', 'Arkivenhet', 'Kilde')
     optional = ('Noark 4', 'Arv', 'Betingelser', 'Kommentarer',)
     parser = argparse.ArgumentParser()
@@ -67,7 +67,6 @@ def main():
     else:
         fields = ('Nr',
                   'Navn',
-                  'Obligatorisk/valgfri',
                   'Definisjon',
                   'Arkivenhet',
                   'Kilde',

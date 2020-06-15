@@ -2,7 +2,7 @@ Arkivenhet: saksmappe eller journalpost
 Arv: Nei
 Avleveres: A
 Betingelser:
-Datatype: Dato
+Datatype: Dato og klokkeslett
 Definisjon: Datoen på presedensen
 Forekomster: '1'
 Gruppe: Datoer

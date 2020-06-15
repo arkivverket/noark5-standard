@@ -2,7 +2,7 @@ Arkivenhet: saksmappe
 Arv: Nei
 Avleveres: A
 Betingelser: Skal kunne endres manuelt inntil saksmappen avsluttes
-Datatype: Dato
+Datatype: Dato og klokkeslett
 Definisjon: Datoen saken er opprettet
 Forekomster: '1'
 Gruppe: Datoer

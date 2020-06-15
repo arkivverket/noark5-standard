@@ -2,7 +2,7 @@ Arkivenhet: journalpost
 Arv: Nei
 Avleveres: A
 Betingelser: Kan ikke endres
-Datatype: Dato
+Datatype: Dato og klokkeslett
 Definisjon: Dato et dokument ble avskrevet
 Forekomster: 0-1
 Gruppe: Logging av hendelser

@@ -2,7 +2,7 @@ Arkivenhet: Journalpost
 Arv: Nei
 Avleveres: A
 Betingelser: Skal kunne endres manuelt inntil arkivering
-Datatype: Dato
+Datatype: Dato og klokkeslett
 Definisjon: Datoen journalposten er journalført
 Forekomster: '1'
 Gruppe: Datoer

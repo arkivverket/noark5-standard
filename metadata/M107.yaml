@@ -2,7 +2,7 @@ Arkivenhet: arkivdel
 Arv: Nei
 Avleveres: A
 Betingelser: Skal kunne endres manuelt
-Datatype: Dato
+Datatype: Dato og klokkeslett
 Definisjon: Dato for starten av en arkivperiode
 Forekomster: 0-1
 Gruppe: Datoer

@@ -270,13 +270,13 @@ Merk: En og bare en av objekttypene *arkiv* eller *arkivdel* grupperes inn i *ar
    - AP.FRADATO
    - 0-1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M108
    - arkivperiodeSluttDato
    - AP.TILDATO
    - 0-1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M202
    - referanseForloeper
    - 
@@ -572,7 +572,7 @@ Spesialisering av: *mappe*
    - SA.DATO
    - 1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M305
    - administrativEnhet
    - (SA.ADMID)
@@ -602,7 +602,7 @@ Spesialisering av: *mappe*
    - SA.UTLDATO
    - 0-1
    - 
-   - Dato
+   - Dato og klokkeslett
  * - M309
    - utlaantTil
    - (SA.UTLTIL)
@@ -648,7 +648,7 @@ Spesialisering av: *mappe*
    - MO.DATO
    - 1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M371
    - moetested
    - MO.STED
@@ -944,37 +944,37 @@ Spesialisering av: *registrering*
    - JP.JDATO
    - 1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M103
    - dokumentetsDato
    - JP.DOKDATO
    - 0-1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M104
    - mottattDato
    - 
    - 0-1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M105
    - sendtDato
    - JP.EKSPDATO
    - 0-1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M109
    - forfallsdato
    - JP.FORFDATO
    - 0-1
    - 
-   - Dato
+   - Dato og klokkeslett
  * - M110
    - offentlighetsvurdertDato
    - JP.OVDATO
    - 0-1
    - 
-   - Dato
+   - Dato og klokkeslett
  * - M304
    - antallVedlegg
    - JP.ANTVED
@@ -986,7 +986,7 @@ Spesialisering av: *registrering*
    - JP.UTLDATO
    - 0-1
    - 
-   - Dato
+   - Dato og klokkeslett
  * - M309
    - utlaantTil
    - (JP.UTLTIL)
@@ -1062,31 +1062,31 @@ Spesialisering av: *registrering*
    - JP.DOKDATO
    - 0-1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M104
    - mottattDato
    - 
    - 0-1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M105
    - sendtDato
    - JP.EKSPDATO
    - 0-1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M109
    - forfallsdato
    - JP.FORFDATO
    - 0-1
    - 
-   - Dato
+   - Dato og klokkeslett
  * - M110
    - offentlighetsvurdertDato
    - JP.OVDATO
    - 0-1
    - 
-   - Dato
+   - Dato og klokkeslett
  * - M304
    - antallVedlegg
    - JP.ANTVED
@@ -1098,7 +1098,7 @@ Spesialisering av: *registrering*
    - JP.UTLDATO
    - 0-1
    - 
-   - Dato
+   - Dato og klokkeslett
  * - M309
    - utlaantTil
    - (JP.UTLTIL)
@@ -1729,7 +1729,7 @@ Ved avlevering skal metadata om kassasjon arves til (kopieres inn i) alle underl
    - SA.KASSDATO
    - 1
    - A
-   - Dato
+   - Dato og klokkeslett
 
 Metadata for *utfoertKassasjon*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1827,7 +1827,7 @@ Ved avlevering skal metadata om skjerming være gruppert inn i alle nivåer i ar
    - JP.AGDATO
    - 0-1
    - A
-   - Dato
+   - Dato og klokkeslett
 
 Metadata for *gradering*
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1907,7 +1907,7 @@ Metadata for *presedens*
    - PS.DATO
    - 1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M600
    - opprettetDato
    - 
@@ -2112,13 +2112,13 @@ Metadata for *journalhode*
    - 
    - 1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M113
    - journalSluttDato
    - 
    - 1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M313
    - seleksjon
    - 
@@ -2313,19 +2313,19 @@ Metadata for *journalpost*
    - JP.JDATO
    - 1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M103
    - dokumentetsDato
    - JP.DOKDATO
    - 0-1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M617
    - avskrivningsdato
    - AM.AVSKDATO
    - 0-1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M619
    - avskrivningsmaate
    - AM.AVSKM
@@ -2418,13 +2418,13 @@ Metadata for *journalhode*
    - 
    - 1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M113
    - journalSluttDato
    - 
    - 1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M313
    - seleksjon
    - 
@@ -2595,19 +2595,19 @@ Metadata for *journalpost*
    - JP.JDATO
    - 1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M103
    - dokumentetsDato
    - JP.DOKDATO
    - 0-1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M617
    - avskrivningsdato
    - AM.AVSKDATO
    - 0-1
    - A
-   - Dato
+   - Dato og klokkeslett
  * - M619
    - avskrivningsmaate
    - AM.AVSKM

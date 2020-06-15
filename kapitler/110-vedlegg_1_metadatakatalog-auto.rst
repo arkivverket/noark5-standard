@@ -3369,7 +3369,7 @@ Skjerming og gradering
  * - **Nr**
    - **M506**
  * - **Navn**
-   - **gradering**
+   - **graderingskode**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
  * - **Forekomster**

@@ -1855,7 +1855,7 @@ Ved avlevering skal metadata om gradering være gruppert inn i alle nivåer i ar
    - **Avl.**
    - **Datatype**
  * - M506
-   - gradering
+   - graderingskode
    - 
    - 1
    - A

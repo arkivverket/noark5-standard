@@ -1036,7 +1036,7 @@ Merk: Grupperes inn in den journalposten som avskrives.
    - A
    - Tekststreng
  * - M215
-   - referanseAvskrivesAv Journalpost
+   - referanseAvskrivesAvJournalpost
    - AM.AVSKAV
    - 0-1
    - A
@@ -2333,7 +2333,7 @@ Metadata for *journalpost*
    - A
    - Tekststreng
  * - M215
-   - referanseAvskrives AvJournalpost
+   - referanseAvskrivesAvJournalpost
    - AM.AVSAV
    - 0-1
    - A
@@ -2615,7 +2615,7 @@ Metadata for *journalpost*
    - A
    - Tekststreng
  * - M215
-   - referanseAvskrives AvJournalpost
+   - referanseAvskrivesAvJournalpost
    - AM.AVSAV
    - 0-1
    - A

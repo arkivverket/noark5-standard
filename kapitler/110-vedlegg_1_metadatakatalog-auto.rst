@@ -5251,3 +5251,28 @@ Tekniske metadata
  * - **Kommentarer**
    - 
 
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M716**
+ * - **Navn**
+   - **mimeType**
+ * - **Obligatorisk/valgfri**
+   - Valgfri
+ * - **Forekomster**
+   - En
+ * - **Definisjon**
+   - Dokumentets MIME-type
+ * - **Arkivenhet**
+   - dokumentobjekt
+ * - **Kilde**
+   - Registreres automatisk når et dokument overføres til arkivet eller settes av arkivklient.
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Kan ikke endres
+ * - **Kommentarer**
+   - MIME-type for bruk når fil overføres via for eksempel HTTP og SMTP.  MIME-typer er definert i IETF RFC 2046 og en katalog over offisielle verdier vedlikeholdes av Internet Assigned Numbers Authority (IANA).  Merk at en PRONOM-kode kan ha flere kjente MIME-typer og en MIME-type kan være koblet til flere PRONOM-koder.
+

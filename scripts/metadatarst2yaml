@@ -61,11 +61,6 @@ class MetadataRstVisitor(docutils.nodes.NodeVisitor):
                 .replace('<emphasis>', '*') \
                 .replace('</emphasis>', '*')
             value = value.strip()
-            if u'Forekomster' == field:
-                if u'En' == value:
-                    value = 1
-                elif u'Mange' == value:
-                    value = '1-M'
             self.entry[field] = value
 
     def depart_table(self, node: docutils.nodes.Node) -> None:
@@ -73,7 +68,7 @@ class MetadataRstVisitor(docutils.nodes.NodeVisitor):
         #print(self.entry)
 
         if self.entry['Nr'] in self.metadata:
-            for field in ('Avleveres', 'Datatype', 'Forekomster'):
+            for field in ('Avleveres', 'Datatype'):
                 self.entry[field] = self.metadata[self.entry['Nr']][field]
         else:
             for field in ('Avleveres', 'Datatype'):
@@ -130,11 +125,10 @@ class MetadataObjSortRstVisitor(docutils.nodes.NodeVisitor):
         info = {
             'Entitet': self.lasttitle.replace('Metadata for ', ''),
             'Navn': node.children[1].astext().strip(),
-            'Forekomster': node.children[3].astext().strip(),
             'Avleveres': node.children[4].astext().strip(),
             'Datatype': node.children[5].astext().strip(),
         }
-        for attribute in ('Avleveres', 'Datatype', 'Forekomster'):
+        for attribute in ('Avleveres', 'Datatype'):
             if '' == info[attribute]:
                 info[attribute] = None
         # Transform 'Tekststreng (filkatalogstruktur + filnavn)' to
@@ -146,7 +140,7 @@ class MetadataObjSortRstVisitor(docutils.nodes.NodeVisitor):
             info['Datatype'] = info['Datatype'].split('.')[1]
 
         if field in self.metadata:
-            for attribute in ('Avleveres', 'Datatype', 'Forekomster'):
+            for attribute in ('Avleveres', 'Datatype'):
                 if self.metadata[field][attribute] != info[attribute]:
                     print('error: field %s %s change %s from %s in %s to %s in %s' % (
                         field,

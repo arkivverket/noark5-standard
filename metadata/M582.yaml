@@ -8,7 +8,6 @@ Betingelser: |-
   - "Sluttet"
 Datatype: Tekststreng
 Definisjon: Status til en bruker av en Noark 5-løsning.
-Forekomster: 0-1
 Gruppe: Brukeradministrasjon og administrasjonsstruktur
 Kilde: Registreres manuelt av administrator
 Kommentarer:

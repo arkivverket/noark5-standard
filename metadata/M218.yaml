@@ -5,7 +5,6 @@ Betingelser:
 Datatype: Tekststreng
 Definisjon: Referanse til filen som inneholder det elektroniske dokumentet som dokumentobjektet
   beskriver
-Forekomster: '1'
 Gruppe: Referanser
 Kilde: Registreres automatisk når et dokument tilknyttes en registrering, når det
   arkiveres flere versjoner av et dokument, når det lages en egen variant av dokumentet

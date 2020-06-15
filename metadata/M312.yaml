@@ -5,7 +5,6 @@ Betingelser:
 Datatype: Tekststreng
 Definisjon: En argumentkilde som brukes til å løse rettslige problemer. En retts­anvender
   som skal ta stilling til et juridisk spørsmål, vil ta utgangspunkt i en rettskildefaktor.
-Forekomster: '1'
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde: Registreres manuelt ved opprettelse av presedens
 Kommentarer: En rettskildefaktor kan være en lov- eller forskriftstekst, lovforarbeider,

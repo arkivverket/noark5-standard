@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Referanse til arkivdelen som denne arkivenheten er tilknyttet
-Forekomster: 0-M
 Gruppe: Referanser
 Kilde: Registreres automatisk, kan overstyres manuelt
 Kommentarer: 'Alle mapper skal ha referanse til arkivdel (selv om tilhørigheten til

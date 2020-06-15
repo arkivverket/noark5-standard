@@ -10,7 +10,6 @@ Betingelser: |-
 Datatype: Tekststreng
 Definisjon: Angivelse av om arkivenheten inneholder fysiske dokumenter, elektroniske
   dokumenter eller en blanding av fysiske og elektroniske dokumenter
-Forekomster: 0-1
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde: Arves fra overordnet nivå, kan overstyres manuelt
 Kommentarer: Obligatorisk ved blanding av fysisk og elektronisk arkiv. Er hele arkivet

@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser: 
 Datatype: Tekststreng
 Definisjon: Rekkefølgenummer for  journalposter
-Forekomster: '1'
 Gruppe: Identifikasjon
 Kilde: Registreres automatisk av systemet når nye journalposter opprettes
 Kommentarer: NB! Gyldig t.o.m. versjon 2.1. Det anbefales at løpenummer bygges opp av "journalår" og "sekvens-nummer" som i Noark 4. Metadataelementet styrer bl.a. sorteringsrekke-følgen i rapportene "Offentlig journal" og "Løpende journal".

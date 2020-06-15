@@ -15,7 +15,6 @@ Betingelser: |-
 Datatype: Tekststreng
 Definisjon: Angivelse av at dokumentene er gradert i henhold til sikkerhetsloven eller
   beskyttelsesinstruksen.
-Forekomster: 0-1
 Gruppe: Skjerming og gradering
 Kilde: Registreres manuelt ved valg fra liste, kan også registres automatisk
 Kommentarer: Dokumenter gradert "Strengt hemmelig", "Hemmelig", "Konfidensielt" og

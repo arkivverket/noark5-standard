@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser:
 Datatype: Heltall
 Definisjon: Antall år skjermingen skal opprettholdes.
-Forekomster: 0-1
 Gruppe: Skjerming og gradering
 Kilde: Registreres automatisk knyttet til valg av tilgangskode, kan registreres manuelt.
 Kommentarer: Tidspunktet for når skjermingsvarigheten starter å løpe, vil vanligvis

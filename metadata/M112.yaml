@@ -5,7 +5,6 @@ Avleveres: A
 Betingelser: Startdato skal selekteres på *M101 journaldato*
 Datatype: Dato og klokkeslett
 Definisjon: Startdato for journalutskriftene som inngår i avleveringspakken.
-Forekomster: '1'
 Gruppe: Datoer
 Kilde: Registreres når avleveringspakken produseres
 Kommentarer: Startdatoen vil vanligvis være identisk med *M107 arkivperiodeStartdato*

@@ -5,7 +5,6 @@ Betingelser:
 Datatype: systemID
 Definisjon: Kryssreferanse til en *registrering* fra en annen *registrering* eller
   *mappe*
-Forekomster: 0-1
 Gruppe: Referanser
 Kilde: Registreres automatisk når en kryssreferanse opprettes
 Kommentarer:

@@ -5,7 +5,6 @@ Betingelser:
 Datatype: systemID
 Definisjon: Referanse til den arkivdelen som er arvtaker for denne arkivdelen, dvs.
   inneholder neste arkivperiode.
-Forekomster: 0-1
 Gruppe: Referanser
 Kilde: Registreres automatisk når det opprettes en arkivdel som defineres som arvtaker
   til en eksisterende arkivdel

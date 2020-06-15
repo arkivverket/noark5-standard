@@ -8,7 +8,6 @@ Betingelser: |-
   - "Passiv enhet"
 Datatype: Tekststreng
 Definisjon: Status til den administrative enheten
-Forekomster: 0-1
 Gruppe: Brukeradministrasjon og administrasjonsstruktur
 Kilde: Registreres manuelt av administrator
 Kommentarer:

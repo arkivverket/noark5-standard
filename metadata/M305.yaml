@@ -5,7 +5,6 @@ Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på avdeling, kontor eller annen administrativ enhet som har ansvaret
   for saksbehandlingen.
-Forekomster: '1'
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde: Registreres automatisk f.eks. på grunnlag av innlogget bruker, kan overstyres
 Kommentarer: Merk at på journalpostnivå grupperes *administrativEnhet* sammen med

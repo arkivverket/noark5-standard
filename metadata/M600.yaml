@@ -5,7 +5,6 @@ Avleveres:
 Betingelser: Skal ikke kunne endres
 Datatype: Dato og klokkeslett
 Definisjon: Dato og klokkeslett når arkivenheten ble opprettet/registrert
-Forekomster: '1'
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk av systemet ved opprettelse av enheten
 Kommentarer:

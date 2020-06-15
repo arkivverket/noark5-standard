@@ -5,7 +5,6 @@ Betingelser: Utlån skal også kunne registreres etter at en saksmappe er avslut
   eller etter at dokumentene i en journalpost ble arkivert.
 Datatype: Dato og klokkeslett
 Definisjon: Dato når en fysisk saksmappe eller journalpost ble utlånt
-Forekomster: 0-1
 Gruppe: Datoer
 Kilde: Registreres manuelt ved utlån
 Kommentarer: Det er ikke spesifisert noen dato for tilbakelevering. Tilbakelevering

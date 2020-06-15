@@ -6,7 +6,6 @@ Avleveres: A
 Betingelser: Skal ikke kunne endres
 Datatype: Tekststreng
 Definisjon: Entydig identifikasjon av klassen innenfor klassifikasjonssystemet.
-Forekomster: '1'
 Gruppe: Identifikasjon
 Kilde: Alle klasser i et klassifikasjonssystem opprettes vanligvis når et arkivsystem
   tas i bruk. Men enkelte løsninger kan tillate at det opprettes nye klasser ved behov

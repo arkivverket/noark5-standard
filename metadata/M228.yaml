@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Referanse til bruker som arkiverte arkivenheten
-Forekomster: 0-1
 Gruppe: Referanser
 Kilde: Registreres automatisk av systemet ved arkivering av enheten
 Kommentarer:

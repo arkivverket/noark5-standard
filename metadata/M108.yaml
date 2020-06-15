@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser: Skal kunne endres manuelt.
 Datatype: Dato og klokkeslett
 Definisjon: Dato for slutten av en arkivperiode
-Forekomster: 0-1
 Gruppe: Datoer
 Kilde: Settes automatisk til samme dato som *M602 avsluttetDato*
 Kommentarer: Det kan forekomme tilfeller hvor sluttdatoen ikke er identisk med datoen

@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Kryssreferanse fra en annen klasse
-Forekomster: 0-M
 Gruppe: Referanser
 Kilde: Registreres manuelt
 Kommentarer: NB! Gyldig t.o.m. versjon 2.1. Kryssreferansen kan gå til en eller flere klasser innenfor samme klassifikasjonssystem, og til en eller flere klasser i andre klassifikasjonssystem

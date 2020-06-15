@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Referanse til  mapper som tilhører en arkivdel
-Forekomster: 1-M
 Gruppe: Logging av endringer
 Kilde: Registreres automatisk når mapper opprettes
 Kommentarer: NB! Gyldig t.o.m. Versjon 2.1

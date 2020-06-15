@@ -17,8 +17,6 @@ Identifikasjon
    - **systemID**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Globalt unik identifikasjon av arkivenheten (UID).
  * - **Arkivenhet**
@@ -42,8 +40,6 @@ Identifikasjon
    - **klasseID**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Entydig identifikasjon av klassen innenfor klassifikasjonssystemet.
  * - **Arkivenhet**
@@ -67,8 +63,6 @@ Identifikasjon
    - **mappeID**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Entydig identifikasjon av mappen innenfor det arkivet mappen tilhører.
  * - **Arkivenhet**
@@ -94,8 +88,6 @@ Identifikasjon
    - **registreringsID**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Entydig identifikasjon av registreringen innenfor arkivet.
  * - **Arkivenhet**
@@ -121,8 +113,6 @@ Identifikasjon
    - **versjonsnummer**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Identifikasjon av versjoner innenfor ett og samme dokument.
  * - **Arkivenhet**
@@ -146,8 +136,6 @@ Identifikasjon
    - **arkivskaperID**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Unik ID for arkivskaperen
  * - **Arkivenhet**
@@ -171,8 +159,6 @@ Identifikasjon
    - **dokumentnummer**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Identifikasjon av dokumentene innenfor en registrering
  * - **Arkivenhet**
@@ -196,8 +182,6 @@ Identifikasjon
    - **moetenummer**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Identifikasjon av møter som et utvalg har avholdt, viser rekkefølgene på møtene
  * - **Arkivenhet**
@@ -221,8 +205,6 @@ Identifikasjon
    - **loepenummer**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Rekkefølgenummer for  journalposter
  * - **Arkivenhet**
@@ -246,8 +228,6 @@ Identifikasjon
    - **partID**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Unik ID for en part
  * - **Arkivenhet**
@@ -271,8 +251,6 @@ Identifikasjon
    - **saksaar**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Inngår i *M003 mappeID*. Viser året saksmappen ble opprettet.
  * - **Arkivenhet**
@@ -296,8 +274,6 @@ Identifikasjon
    - **sakssekvensnummer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Inngår i *M003 mappeID*. Viser rekkefølgen når saksmappen ble opprettet innenfor året.
  * - **Arkivenhet**
@@ -321,8 +297,6 @@ Identifikasjon
    - **journalaar**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Viser året journalposten ble opprettet
  * - **Arkivenhet**
@@ -346,8 +320,6 @@ Identifikasjon
    - **journalsekvensnummer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Viser rekkefølgen når journalposten ble opprettet under året
  * - **Arkivenhet**
@@ -373,8 +345,6 @@ Identifikasjon
    - **journalpostnummer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Viser rekkefølgen på journalpostene innenfor saksmappen,.
  * - **Arkivenhet**
@@ -402,8 +372,6 @@ Kjernemetadata (jf. Dublin Core)
    - **tittel**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Tittel eller navn på arkivenheten
  * - **Arkivenhet**
@@ -427,8 +395,6 @@ Kjernemetadata (jf. Dublin Core)
    - **beskrivelse**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Tekstlig beskrivelse av arkivenheten
  * - **Arkivenhet**
@@ -452,8 +418,6 @@ Kjernemetadata (jf. Dublin Core)
    - **noekkelord**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Nøkkeord eller stikkord som beskriver innholdet i enheten
  * - **Arkivenhet**
@@ -477,8 +441,6 @@ Kjernemetadata (jf. Dublin Core)
    - **arkivskaperNavn**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på organisasjonen som har skapt arkivet
  * - **Arkivenhet**
@@ -502,8 +464,6 @@ Kjernemetadata (jf. Dublin Core)
    - **forfatter**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Navn på person (eller eventuelt organisasjon) som har forfattet eller skapt dokumentet.
  * - **Arkivenhet**
@@ -527,8 +487,6 @@ Kjernemetadata (jf. Dublin Core)
    - **offentligTittel**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Offentlig tittel på arkivenheten, ord som skal skjermes er fjernet fra innholdet i tittelen (erstattet med ******)
  * - **Arkivenhet**
@@ -556,8 +514,6 @@ Nasjonale identifikatorer
    - **kommunenummer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Et firesifferet nummer som er unikt for hver kommune i Norge. De to første siffrene angir fylke, de to siste er løpende innenfor hvert fylke.
  * - **Arkivenhet**
@@ -581,8 +537,6 @@ Nasjonale identifikatorer
    - **gaardsnummer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Nummeret på en gårdsenhet i matrikkelen, er unikt innenfor hver kommune.
  * - **Arkivenhet**
@@ -606,8 +560,6 @@ Nasjonale identifikatorer
    - **bruksnummer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Undernummer under en matrikkelgård, som har blitt delt opp i mindre enheter.
  * - **Arkivenhet**
@@ -631,8 +583,6 @@ Nasjonale identifikatorer
    - **festenummer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Underoppdeling under bruksnummer, angir enheter som kan omsettes og pantsettes.
  * - **Arkivenhet**
@@ -656,8 +606,6 @@ Nasjonale identifikatorer
    - **seksjonsnummer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Underoppdeling under bruksnummer, angir enheter som kan omsettes og selges. Typisk i leilighetesbygg i flere etasjer, forretningsgårder eller en blanding av forretninger og leiligheter.
  * - **Arkivenhet**
@@ -681,8 +629,6 @@ Nasjonale identifikatorer
    - **foedselsnummer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Et ellevesiffret registreringsnummer som tildeles alle som er bosatt i Norge og innført i folkeregistret.
  * - **Arkivenhet**
@@ -706,8 +652,6 @@ Nasjonale identifikatorer
    - **dNummer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Et midlertidig ellevesiffret registreringsnummer som tildeles utenlandske statsborgere som ennå ikke har fått fødselsnummer
  * - **Arkivenhet**
@@ -731,8 +675,6 @@ Nasjonale identifikatorer
    - **organisasjonsnummer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Et nisifferet registreringsnummer som tildeles av Enhetsregistret ved Brønnøysundregistrene til organisasjoner som opptrer som offentlige aktører.
  * - **Arkivenhet**
@@ -760,8 +702,6 @@ Status
    - **arkivstatus**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Status til arkivet
  * - **Arkivenhet**
@@ -790,8 +730,6 @@ Status
    - **arkivdelstatus**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Status til den arkivperioden som arkivdelen omfatter
  * - **Arkivenhet**
@@ -822,8 +760,6 @@ Status
    - **saksstatus**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Status til saksmappen, dvs. hvor langt saksbehandlingen har kommet.
  * - **Arkivenhet**
@@ -853,8 +789,6 @@ Status
    - **journalstatus**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Status til journalposten, dvs. om dokumentet er registrert, under behandling eller endelig arkivert.
  * - **Arkivenhet**
@@ -885,8 +819,6 @@ Status
    - **dokumentstatus**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Status til dokumentet
  * - **Arkivenhet**
@@ -913,8 +845,6 @@ Status
    - **moeteregistreringsstatus**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Status til møteregistreringen
  * - **Arkivenhet**
@@ -942,8 +872,6 @@ Status
    - **presedensstatus**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Informasjon om presedensen er gjeldende eller foreldet
  * - **Arkivenhet**
@@ -974,8 +902,6 @@ Typer
    - **journalposttype**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på type journalpost
  * - **Arkivenhet**
@@ -1005,8 +931,6 @@ Typer
    - **dokumenttype**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på type dokument
  * - **Arkivenhet**
@@ -1035,8 +959,6 @@ Typer
    - **merknadstype**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på type merknad
  * - **Arkivenhet**
@@ -1064,8 +986,6 @@ Typer
    - **moeteregistreringstype**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på type møteregistrering
  * - **Arkivenhet**
@@ -1094,8 +1014,6 @@ Typer
    - **klassifikasjonstype**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Type klassifikasjonssystem
  * - **Arkivenhet**
@@ -1128,8 +1046,6 @@ Typer
    - **korrespondanseparttype**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Type korrespondansepart
  * - **Arkivenhet**
@@ -1160,8 +1076,6 @@ Typer
    - **moetesakstype**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på type møtesak
  * - **Arkivenhet**
@@ -1190,8 +1104,6 @@ Typer
    - **slettingstype**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på hvilket objekt som er slettet
  * - **Arkivenhet**
@@ -1223,8 +1135,6 @@ Datoer
    - **saksdato**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Datoen saken er opprettet
  * - **Arkivenhet**
@@ -1248,8 +1158,6 @@ Datoer
    - **journaldato**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Datoen journalposten er journalført
  * - **Arkivenhet**
@@ -1273,8 +1181,6 @@ Datoer
    - **moetedato**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Datoen når et utvalgsmøte blir avholdt
  * - **Arkivenhet**
@@ -1298,8 +1204,6 @@ Datoer
    - **dokumentetsDato**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato som er påført selve dokumentet
  * - **Arkivenhet**
@@ -1323,8 +1227,6 @@ Datoer
    - **mottattDato**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato et eksternt dokument ble mottatt
  * - **Arkivenhet**
@@ -1348,8 +1250,6 @@ Datoer
    - **sendtDato**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato et internt produsert dokument ble sendt/ekspedert
  * - **Arkivenhet**
@@ -1373,8 +1273,6 @@ Datoer
    - **utlaantDato**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato når en fysisk saksmappe eller journalpost ble utlånt
  * - **Arkivenhet**
@@ -1398,8 +1296,6 @@ Datoer
    - **arkivperiodeStartDato**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato for starten av en arkivperiode
  * - **Arkivenhet**
@@ -1423,8 +1319,6 @@ Datoer
    - **arkivperiodeSluttDato**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato for slutten av en arkivperiode
  * - **Arkivenhet**
@@ -1448,8 +1342,6 @@ Datoer
    - **forfallsdato**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato som angir fristen for når et inngående dokument må være besvart
  * - **Arkivenhet**
@@ -1473,8 +1365,6 @@ Datoer
    - **offentlighetsvurdertDato**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Datoen da offentlighetsvurdering ble foretatt
  * - **Arkivenhet**
@@ -1498,8 +1388,6 @@ Datoer
    - **presedensDato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Datoen på presedensen
  * - **Arkivenhet**
@@ -1523,8 +1411,6 @@ Datoer
    - **journalStartDato**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Startdato for journalutskriftene som inngår i avleveringspakken.
  * - **Arkivenhet**
@@ -1548,8 +1434,6 @@ Datoer
    - **journalSluttDato**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Sluttdato for journalutskriftene som inngår i avleveringspakken.
  * - **Arkivenhet**
@@ -1573,8 +1457,6 @@ Datoer
    - **avleveringspakkeStartDato**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Startdato avleveringspakken.
  * - **Arkivenhet**
@@ -1598,8 +1480,6 @@ Datoer
    - **avleveringspakkeSluttDato**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Sluttdato for avleveringspakken.
  * - **Arkivenhet**
@@ -1627,8 +1507,6 @@ Referanser
    - **referanseForelder**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til den arkivenheten i hierarkiet som er direkte overordnet denne arkivenheten
  * - **Arkivenhet**
@@ -1652,8 +1530,6 @@ Referanser
    - **referanseBarn**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Referanse til den eller de arkivenhetene i hierarkiet som er direkte underordnet denne arkivenheten
  * - **Arkivenhet**
@@ -1677,8 +1553,6 @@ Referanser
    - **referanseForloeper**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til den arkivdelen som er forløper for denne arkivdelen, dvs. inneholder forrige arkivperiode.
  * - **Arkivenhet**
@@ -1702,8 +1576,6 @@ Referanser
    - **referanseArvtaker**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til den arkivdelen som er arvtaker for denne arkivdelen, dvs. inneholder neste arkivperiode.
  * - **Arkivenhet**
@@ -1731,8 +1603,6 @@ Logging av endringer
    - **referanseKlassifikasjonssystem**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til det klassifikasjonssystemet som mappene i denne arkivdelen er klassifisert etter
  * - **Arkivenhet**
@@ -1756,8 +1626,6 @@ Logging av endringer
    - **referanseMappe**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Referanse til  mapper som tilhører en arkivdel
  * - **Arkivenhet**
@@ -1781,8 +1649,6 @@ Logging av endringer
    - **referanseRegistrering**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Referanse til registreringer som er knyttet til denne enheten
  * - **Arkivenhet**
@@ -1806,8 +1672,6 @@ Logging av endringer
    - **referanseDokumentbeskrivelse**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Referanse til dokumentbeskrivelser som tilknyttet denne arkivenheten
  * - **Arkivenhet**
@@ -1835,8 +1699,6 @@ Referanser
    - **referanseArkivdel**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Referanse til arkivdelen som denne arkivenheten er tilknyttet
  * - **Arkivenhet**
@@ -1860,8 +1722,6 @@ Referanser
    - **referanseSekundaerKlassifikasjon**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Referanse til sekundærklassifikasjon. Kan også referere til flere enn én sekundær klassifikasjon (tertiærklassifikasjon osv.)
  * - **Arkivenhet**
@@ -1885,8 +1745,6 @@ Referanser
    - **referanseTilMappe**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Kryssreferanse til en *mappe* fra en annen *mappe* eller *registrering*
  * - **Arkivenhet**
@@ -1910,8 +1768,6 @@ Referanser
    - **referanseFraMappe**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Kryssreferanse fra en mappe til en annen mappe eller registrering
  * - **Arkivenhet**
@@ -1935,8 +1791,6 @@ Referanser
    - **referanseTilRegistrering**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Kryssreferanse til en *registrering* fra en annen *registrering* eller *mappe*
  * - **Arkivenhet**
@@ -1960,8 +1814,6 @@ Referanser
    - **referanseFraRegistrering**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Kryssreferanse fra en registrering til en annen registrering eller saksmappe
  * - **Arkivenhet**
@@ -1985,8 +1837,6 @@ Referanser
    - **referanseAvskriverJournalpost**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Referanse til en eller flere journalposter som blir avskrevet av denne journalposten
  * - **Arkivenhet**
@@ -2010,8 +1860,6 @@ Referanser
    - **referanseAvskrivesAvJournalpost**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til en eller flere journalposter som avskriver denne journalposten
  * - **Arkivenhet**
@@ -2035,8 +1883,6 @@ Referanser
    - **referanseDokumentobjekt**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Referanse til dokumentobjektet
  * - **Arkivenhet**
@@ -2060,8 +1906,6 @@ Referanser
    - **tilknyttetRegistreringSom**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Angivelse av hvilken "rolle" dokumentet har i forhold til registreringen
  * - **Arkivenhet**
@@ -2088,8 +1932,6 @@ Referanser
    - **referanseDokumentfil**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til filen som inneholder det elektroniske dokumentet som dokumentobjektet beskriver
  * - **Arkivenhet**
@@ -2113,8 +1955,6 @@ Referanser
    - **referanseTilKlasse**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til en annen klasse
  * - **Arkivenhet**
@@ -2138,8 +1978,6 @@ Referanser
    - **referanseFraKlasse**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Kryssreferanse fra en annen klasse
  * - **Arkivenhet**
@@ -2163,8 +2001,6 @@ Referanser
    - **referanseForrigeMoete**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til forrige utvalgsmøte
  * - **Arkivenhet**
@@ -2188,8 +2024,6 @@ Referanser
    - **referanseNesteMoete**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til neste utvalgsmøte
  * - **Arkivenhet**
@@ -2213,8 +2047,6 @@ Referanser
    - **referanseTilMoeteregistrering**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Referanse til en annen møteregistrering
  * - **Arkivenhet**
@@ -2238,8 +2070,6 @@ Referanser
    - **referanseFraMoeteregistrering**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Referanse fra en annen møteregistrering
  * - **Arkivenhet**
@@ -2263,8 +2093,6 @@ Referanser
    - **referanseOpprettetAv**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til bruker som opprettet/registrerte arkivenheten
  * - **Arkivenhet**
@@ -2288,8 +2116,6 @@ Referanser
    - **referanseOppdatertAv**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til bruker som oppdaterte arkivenheten
  * - **Arkivenhet**
@@ -2313,8 +2139,6 @@ Referanser
    - **referanseAvsluttetAv**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til bruker som avsluttet/lukket arkivenheten
  * - **Arkivenhet**
@@ -2338,8 +2162,6 @@ Referanser
    - **referanseArkivertAv**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til bruker som arkiverte arkivenheten
  * - **Arkivenhet**
@@ -2363,8 +2185,6 @@ Referanser
    - **referanseForelderMappe**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til overordnet mappe
  * - **Arkivenhet**
@@ -2388,8 +2208,6 @@ Referanser
    - **referanseEndretAv**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til bruker som oppdaterte arkivenheten eller endret metadata
  * - **Arkivenhet**
@@ -2417,8 +2235,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **dokumentmedium**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Angivelse av om arkivenheten inneholder fysiske dokumenter, elektroniske dokumenter eller en blanding av fysiske og elektroniske dokumenter
  * - **Arkivenhet**
@@ -2446,8 +2262,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **oppbevaringssted**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Stedet hvor de fysiske dokumentene oppbevares. Kan være angivelse av rom, hylle, skap osv. Overordnede arkivdeler (f.eks. en arkivdel) kan oppbevares på flere steder.
  * - **Arkivenhet**
@@ -2471,8 +2285,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **partNavn**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på virksomhet eller person som er part
  * - **Arkivenhet**
@@ -2496,8 +2308,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **partRolle**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Angivelse av rollen til parten
  * - **Arkivenhet**
@@ -2526,8 +2336,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **antallVedlegg**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Antall fysiske vedlegg til et fysisk hoveddokument
  * - **Arkivenhet**
@@ -2551,8 +2359,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **administrativEnhet**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på avdeling, kontor eller annen administrativ enhet som har ansvaret for saksbehandlingen.
  * - **Arkivenhet**
@@ -2576,8 +2382,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **saksansvarlig**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som er saksansvarlig
  * - **Arkivenhet**
@@ -2601,8 +2405,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **saksbehandler**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som er saksbehandler
  * - **Arkivenhet**
@@ -2626,8 +2428,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **journalenhet**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på enhet som har det arkivmessige ansvaret for kvalitetssikring av arkivdanningen, og eventuelt registrering (journalføring) og arkivering av fysiske dokumenter
  * - **Arkivenhet**
@@ -2651,8 +2451,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **utlaantTil**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navnet på person som har lånt en fysisk saksmappe
  * - **Arkivenhet**
@@ -2676,8 +2474,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **merknadstekst**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Merknad fra saksbehandler, leder eller arkivpersonale.
  * - **Arkivenhet**
@@ -2701,8 +2497,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **presedensHjemmel**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Lovparagrafen som saken eller journalposten danner presedens for
  * - **Arkivenhet**
@@ -2726,8 +2520,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **rettskildefaktor**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - En argumentkilde som brukes til å løse rettslige problemer. En retts­anvender som skal ta stilling til et juridisk spørsmål, vil ta utgangspunkt i en rettskildefaktor.
  * - **Arkivenhet**
@@ -2751,8 +2543,6 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **seleksjon**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Beskrivelse av kriteriene som er brukt ved seleksjon av journalrapportenes innhold.
  * - **Arkivenhet**
@@ -2780,8 +2570,6 @@ Møtebehandling
    - **utvalg**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på utvalget som avholdt møte
  * - **Arkivenhet**
@@ -2805,8 +2593,6 @@ Møtebehandling
    - **moetested**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Sted hvor møtet ble avholdt
  * - **Arkivenhet**
@@ -2830,8 +2616,6 @@ Møtebehandling
    - **moetedeltakerNavn**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som var til stedet på møtet
  * - **Arkivenhet**
@@ -2855,8 +2639,6 @@ Møtebehandling
    - **moetedeltakerFunksjon**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Funksjon eller rolle til personen som deltok på møtet
  * - **Arkivenhet**
@@ -2887,8 +2669,6 @@ Korrespondanse
    - **korrespondansepartNavn**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person eller organisasjon som er avsender eller mottaker av dokumentet
  * - **Arkivenhet**
@@ -2912,8 +2692,6 @@ Korrespondanse
    - **postadresse**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Postadressen til en avsender /mottaker eller part
  * - **Arkivenhet**
@@ -2937,8 +2715,6 @@ Korrespondanse
    - **postnummer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Postnummeret til en avsender /mottaker eller part
  * - **Arkivenhet**
@@ -2962,8 +2738,6 @@ Korrespondanse
    - **poststed**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Poststedet til en avsender/mottaker eller part
  * - **Arkivenhet**
@@ -2987,8 +2761,6 @@ Korrespondanse
    - **land**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Land dersom adressen er i utlandet
  * - **Arkivenhet**
@@ -3012,8 +2784,6 @@ Korrespondanse
    - **epostadresse**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - E-postadressen til en avsender/mottaker eller part
  * - **Arkivenhet**
@@ -3037,8 +2807,6 @@ Korrespondanse
    - **telefonnummer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - Mange
  * - **Definisjon**
    - Telefonnummeret til en avsender/mottaker eller part
  * - **Arkivenhet**
@@ -3062,8 +2830,6 @@ Korrespondanse
    - **kontaktperson**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Kontaktperson hos en organisasjon som er avsender eller mottaker, eller part
  * - **Arkivenhet**
@@ -3091,8 +2857,6 @@ Bevaring og kassasjon
    - **kassasjonsvedtak**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Handling som skal utføres ved bevaringstidens slutt.
  * - **Arkivenhet**
@@ -3120,8 +2884,6 @@ Bevaring og kassasjon
    - **bevaringstid**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Antall år dokumentene som tilhører denne arkivdelen skal bevares.
  * - **Arkivenhet**
@@ -3145,8 +2907,6 @@ Bevaring og kassasjon
    - **kassasjonsdato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato for når dokumentene som tilhører denne arkivenheten skal kunne kasseres, eller vurderes for bevaring og kassasjon på ny
  * - **Arkivenhet**
@@ -3170,8 +2930,6 @@ Bevaring og kassasjon
    - **kassasjonshjemmel**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Angivelse av hjemmel for kassasjon
  * - **Arkivenhet**
@@ -3199,8 +2957,6 @@ Skjerming og gradering
    - **tilgangsrestriksjon**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Angivelse av at dokumentene som tilhører arkivenheten ikke er offentlig tilgjengelig i henhold til offentlighetsloven eller av en annen grunn
  * - **Arkivenhet**
@@ -3231,8 +2987,6 @@ Skjerming og gradering
    - **skjermingshjemmel**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Henvisning til hjemmel (paragraf) i offentlighetsloven, sikkerhetsloven eller beskyttelsesinstruksen
  * - **Arkivenhet**
@@ -3256,8 +3010,6 @@ Skjerming og gradering
    - **skjermingMetadata**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Angivelse av hvilke metadataelementer som skal skjermes.
  * - **Arkivenhet**
@@ -3294,8 +3046,6 @@ Skjerming og gradering
    - **skjermingDokument**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Angivelse av at hele dokumentet eller deler av det må skjermes.
  * - **Arkivenhet**
@@ -3322,8 +3072,6 @@ Skjerming og gradering
    - **skjermingsvarighet**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Antall år skjermingen skal opprettholdes.
  * - **Arkivenhet**
@@ -3347,8 +3095,6 @@ Skjerming og gradering
    - **skjermingOpphoererDato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Datoen skjermingen skal oppheves.
  * - **Arkivenhet**
@@ -3372,8 +3118,6 @@ Skjerming og gradering
    - **graderingskode**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Angivelse av at dokumentene er gradert i henhold til sikkerhetsloven eller beskyttelsesinstruksen.
  * - **Arkivenhet**
@@ -3406,8 +3150,6 @@ Skjerming og gradering
    - **elektroniskSignaturSikkerhetsnivaa**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Angivelse av hvilket sikkerhetsnivå som ble brukt ved forsendelse og mottak av elektroniske dokumenter
  * - **Arkivenhet**
@@ -3436,8 +3178,6 @@ Skjerming og gradering
    - **elektroniskSignaturVerifisert**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Angivelse av om et dokument er mottatt med elektronisk signatur, og om signaturen er verifisert.
  * - **Arkivenhet**
@@ -3468,8 +3208,6 @@ Brukeradministrasjon og administrasjonsstruktur
    - **brukerNavn**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på bruker av en Noark 5-løsning
  * - **Arkivenhet**
@@ -3493,8 +3231,6 @@ Brukeradministrasjon og administrasjonsstruktur
    - **brukerRolle**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Rollen til en bruker av en Noark 5-løsning.
  * - **Arkivenhet**
@@ -3523,8 +3259,6 @@ Brukeradministrasjon og administrasjonsstruktur
    - **brukerstatus**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Status til en bruker av en Noark 5-løsning.
  * - **Arkivenhet**
@@ -3551,8 +3285,6 @@ Brukeradministrasjon og administrasjonsstruktur
    - **administrativEnhetNavn**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på administrativ enhet
  * - **Arkivenhet**
@@ -3576,8 +3308,6 @@ Brukeradministrasjon og administrasjonsstruktur
    - **administrativEnhetsstatus**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Status til den administrative enheten
  * - **Arkivenhet**
@@ -3604,8 +3334,6 @@ Brukeradministrasjon og administrasjonsstruktur
    - **referanseOverordnetEnhet**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til enhet som er direkte overordnet denne enheten
  * - **Arkivenhet**
@@ -3633,8 +3361,6 @@ Logging av hendelser
    - **opprettetDato**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten ble opprettet/registrert
  * - **Arkivenhet**
@@ -3658,8 +3384,6 @@ Logging av hendelser
    - **opprettetAv**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som opprettet/registrerte arkivenheten
  * - **Arkivenhet**
@@ -3683,8 +3407,6 @@ Logging av hendelser
    - **avsluttetDato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten ble avsluttet/lukket
  * - **Arkivenhet**
@@ -3708,8 +3430,6 @@ Logging av hendelser
    - **avsluttetAv**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som avsluttet/lukket arkivenheten
  * - **Arkivenhet**
@@ -3733,8 +3453,6 @@ Logging av hendelser
    - **arkivertDato**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett når alle dokumentene som er tilknyttet registreringen ble arkivert
  * - **Arkivenhet**
@@ -3758,8 +3476,6 @@ Logging av hendelser
    - **arkivertAv**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som arkiverte dokumentet og frøs det for all videre redigering
  * - **Arkivenhet**
@@ -3783,8 +3499,6 @@ Logging av hendelser
    - **ansvarligEksport**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som har foretatt (eller er ansvarlig for) eksport av metadata og dokumenter
  * - **Arkivenhet**
@@ -3808,8 +3522,6 @@ Logging av hendelser
    - **eksportertDato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett når eksporten skjedde
  * - **Arkivenhet**
@@ -3833,8 +3545,6 @@ Logging av hendelser
    - **antallMapperEksportert**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Antall mapper som inngikk i eksporten
  * - **Arkivenhet**
@@ -3858,8 +3568,6 @@ Logging av hendelser
    - **antallJournalposter**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Antall journalposter i rapporten
  * - **Arkivenhet**
@@ -3883,8 +3591,6 @@ Logging av hendelser
    - **antallDokumenterEksportert**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Antall elektroniske dokumenter (dokumentfiler) som inngikk i eksporten
  * - **Arkivenhet**
@@ -3908,8 +3614,6 @@ Logging av hendelser
    - **merknadsdato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett når merknaden ble registrert
  * - **Arkivenhet**
@@ -3933,8 +3637,6 @@ Logging av hendelser
    - **merknadRegistrertAv**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som har registrert merknaden
  * - **Arkivenhet**
@@ -3958,8 +3660,6 @@ Logging av hendelser
    - **slettetDato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett når et dokument ble slettet
  * - **Arkivenhet**
@@ -3983,8 +3683,6 @@ Logging av hendelser
    - **slettetAv**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som har utført en kontrollert kassasjon av dokumenter, eller sletting av versjoner, formater og varianter.
  * - **Arkivenhet**
@@ -4008,8 +3706,6 @@ Logging av hendelser
    - **konvertertDato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett for når et dokument ble konvertert fra et format til et annet
  * - **Arkivenhet**
@@ -4033,8 +3729,6 @@ Logging av hendelser
    - **konvertertAv**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Person eller system som har foretatt konverteringen
  * - **Arkivenhet**
@@ -4058,8 +3752,6 @@ Logging av hendelser
    - **avskrivningsdato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato et dokument ble avskrevet
  * - **Arkivenhet**
@@ -4083,8 +3775,6 @@ Logging av hendelser
    - **avskrevetAv**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som har foretatt avskrivning
  * - **Arkivenhet**
@@ -4108,8 +3798,6 @@ Logging av hendelser
    - **avskrivningsmaate**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Måten en journalpost har blitt avskrevet på
  * - **Arkivenhet**
@@ -4139,8 +3827,6 @@ Logging av hendelser
    - **tilknyttetDato**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Datoen et dokument ble knyttet til en registrering
  * - **Arkivenhet**
@@ -4164,8 +3850,6 @@ Logging av hendelser
    - **tilknyttetAv**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som knyttet et dokument til en registrering
  * - **Arkivenhet**
@@ -4189,8 +3873,6 @@ Logging av hendelser
    - **verifisertDato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato en elektronisk signatur ble verifisert
  * - **Arkivenhet**
@@ -4214,8 +3896,6 @@ Logging av hendelser
    - **verifisertAv**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som har verifisert en elektronisk signatur
  * - **Arkivenhet**
@@ -4239,8 +3919,6 @@ Logging av hendelser
    - **graderingsdato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett når et dokument ble gradert
  * - **Arkivenhet**
@@ -4264,8 +3942,6 @@ Logging av hendelser
    - **gradertAv**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som foretok graderingen
  * - **Arkivenhet**
@@ -4289,8 +3965,6 @@ Logging av hendelser
    - **nedgraderingsdato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett når et dokument ble nedgradert
  * - **Arkivenhet**
@@ -4314,8 +3988,6 @@ Logging av hendelser
    - **nedgradertAv**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som foretok nedgraderingen
  * - **Arkivenhet**
@@ -4339,8 +4011,6 @@ Logging av hendelser
    - **presedensGodkjentDato**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett for når presedensen er godkjent
  * - **Arkivenhet**
@@ -4364,8 +4034,6 @@ Logging av hendelser
    - **presedensGodkjentAv**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som har godkjent presedensen
  * - **Arkivenhet**
@@ -4389,8 +4057,6 @@ Logging av hendelser
    - **kassertDato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett når kassasjonen ble utført
  * - **Arkivenhet**
@@ -4414,8 +4080,6 @@ Logging av hendelser
    - **kassertAv**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som har utført kassasjonen
  * - **Arkivenhet**
@@ -4439,8 +4103,6 @@ Logging av hendelser
    - **oppdatertDato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten sist ble oppdatert
  * - **Arkivenhet**
@@ -4464,8 +4126,6 @@ Logging av hendelser
    - **oppdatertAv**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten sist ble oppdatert
  * - **Arkivenhet**
@@ -4493,8 +4153,6 @@ Logging av arbeidsflyt og saksfordeling
    - **flytTil**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Person som har mottatt for godkjennelse et dokument som har vært sendt på flyt
  * - **Arkivenhet**
@@ -4518,8 +4176,6 @@ Logging av arbeidsflyt og saksfordeling
    - **flytMottattDato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett et dokument på flyt ble mottatt
  * - **Arkivenhet**
@@ -4543,8 +4199,6 @@ Logging av arbeidsflyt og saksfordeling
    - **flytSendtDato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett et dokument på flyt ble sendt videre
  * - **Arkivenhet**
@@ -4568,8 +4222,6 @@ Logging av arbeidsflyt og saksfordeling
    - **flytStatus**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Godkjennelse/ikke godkjennelse av dokumentet som er sendt på flyt
  * - **Arkivenhet**
@@ -4597,8 +4249,6 @@ Logging av arbeidsflyt og saksfordeling
    - **flytMerknad**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Merknad eller kommentar til et dokument som er sendt på flyt
  * - **Arkivenhet**
@@ -4622,8 +4272,6 @@ Logging av arbeidsflyt og saksfordeling
    - **flytFra**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Person som har sendt et dokument på flyt
  * - **Arkivenhet**
@@ -4647,8 +4295,6 @@ Logging av arbeidsflyt og saksfordeling
    - **fordeltTil**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Person som har fått fordelt en saksmappe eller journalpost til saksbehandling
  * - **Arkivenhet**
@@ -4672,8 +4318,6 @@ Logging av arbeidsflyt og saksfordeling
    - **fordeltAv**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Person som har fordelt en saksmappe eller journalpost til saksbehandling
  * - **Arkivenhet**
@@ -4697,8 +4341,6 @@ Logging av arbeidsflyt og saksfordeling
    - **fordeltDato**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato da en saksmappe eller journalpost ble fordelt til saksbehandling
  * - **Arkivenhet**
@@ -4726,8 +4368,6 @@ Logging av endringer
    - **referanseArkivenhet**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Referanse til arkivenheten (systemID) som inneholder metadata­elementet som ble endret
  * - **Arkivenhet**
@@ -4751,8 +4391,6 @@ Logging av endringer
    - **referanseMetadata**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navnet på metadataelementet som ble endret
  * - **Arkivenhet**
@@ -4776,8 +4414,6 @@ Logging av endringer
    - **endretDato**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten ble oppdatert eller et metadataelement sist ble endret
  * - **Arkivenhet**
@@ -4801,8 +4437,6 @@ Logging av endringer
    - **endretAv**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på person som oppdaterte en arkivenhet eller endret metadata
  * - **Arkivenhet**
@@ -4826,8 +4460,6 @@ Logging av endringer
    - **tidligereVerdi**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Innholdet i metadataelementet før det ble endret
  * - **Arkivenhet**
@@ -4851,8 +4483,6 @@ Logging av endringer
    - **nyVerdi**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Det nye innholdet i metadataelementet
  * - **Arkivenhet**
@@ -4880,8 +4510,6 @@ Tekniske metadata
    - **variantformat**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Angivelse av hvilken variant et dokument forekommer i
  * - **Arkivenhet**
@@ -4911,8 +4539,6 @@ Tekniske metadata
    - **format**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dokumentets format
  * - **Arkivenhet**
@@ -4936,8 +4562,6 @@ Tekniske metadata
    - **formatDetaljer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Nærmere spesifikasjon av dokuments format, f.eks. informasjon om komprimering
  * - **Arkivenhet**
@@ -4961,8 +4585,6 @@ Tekniske metadata
    - **tidligereFormat**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dokumentets format før det ble konvertert
  * - **Arkivenhet**
@@ -4986,8 +4608,6 @@ Tekniske metadata
    - **tidligereFormatDetaljer**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Nærmere spesifikasjon av dokuments format før det ble konvertert, f.eks. informasjon om komprimering
  * - **Arkivenhet**
@@ -5011,8 +4631,6 @@ Tekniske metadata
    - **sjekksum**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - En verdi som beregnes ut fra innholdet i dokumentet, og som dermed gir integritetssikring til dokumentets innhold
  * - **Arkivenhet**
@@ -5036,8 +4654,6 @@ Tekniske metadata
    - **sjekksumAlgoritme**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Algoritmen som er brukt for å beregne sjekksummen
  * - **Arkivenhet**
@@ -5061,8 +4677,6 @@ Tekniske metadata
    - **filstoerrelse**
  * - **Obligatorisk/valgfri**
    - Obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Størrelsen på fila i antall bytes oppgitt med desimaltall
  * - **Arkivenhet**
@@ -5086,8 +4700,6 @@ Tekniske metadata
    - **sjekksumMetadata**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - En verdi som beregnes ut fra innholdet i metadataobjektene i avleveringspakken, og som dermed gir integritessikring til metadataenes innhold
  * - **Arkivenhet**
@@ -5111,8 +4723,6 @@ Tekniske metadata
    - **sjekksumAvlevering**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - En verdi som beregnes ut fra innholdet i hele avleveringspakken (både metadata- og dokumentobjekter), og som dermed gir integritetssikring til hele  avleveringspakken
  * - **Arkivenhet**
@@ -5136,8 +4746,6 @@ Tekniske metadata
    - **virksomhetsspesifikkeMetadata**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Et overordnet metadataelement som kan inneholde egendefinerte metadata. Disse metadataene må da være spesifisert i et eller flere XML-skjema.
  * - **Arkivenhet**
@@ -5161,8 +4769,6 @@ Tekniske metadata
    - **konvertertFraFormat**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Formatet dokumentet hadde før det ble konvertert
  * - **Arkivenhet**
@@ -5186,8 +4792,6 @@ Tekniske metadata
    - **konvertertTilFormat**
  * - **Obligatorisk/valgfri**
    - Betinget obligatorisk
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Formatet dokumentet fikk etter konvertering
  * - **Arkivenhet**
@@ -5211,8 +4815,6 @@ Tekniske metadata
    - **konverteringsverktoey**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Navn på det IT-verktøyet som ble brukt til å foreta konverteringen
  * - **Arkivenhet**
@@ -5236,8 +4838,6 @@ Tekniske metadata
    - **konverteringskommentar**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Kommentarer til konverteringen
  * - **Arkivenhet**
@@ -5261,8 +4861,6 @@ Tekniske metadata
    - **mimeType**
  * - **Obligatorisk/valgfri**
    - Valgfri
- * - **Forekomster**
-   - En
  * - **Definisjon**
    - Dokumentets MIME-type
  * - **Arkivenhet**

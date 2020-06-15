@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser: Startdatoen kan selekteres på M602 avsluttetDato for mappen. Andre seleksjonskriterier kan være aktuelle.
 Datatype: Dato
 Definisjon: Startdato avleveringspakken.
-Forekomster: '1'
 Gruppe: Datoer
 Kilde: Registreres når avleveringspakken produseres
 Kommentarer: Startdatoen vil være identisk med M107 arkivperiodeStartdato dersom uttrekket bare omfatter en avleveringspakke.

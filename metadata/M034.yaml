@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser:
 Datatype: Heltall
 Definisjon: Underoppdeling under bruksnummer, angir enheter som kan omsettes og selges. Typisk i leilighetesbygg i flere etasjer, forretningsgårder eller en blanding av forretninger og leiligheter.
-Forekomster: 0-M
 Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer: NB! Ikke tatt i bruk

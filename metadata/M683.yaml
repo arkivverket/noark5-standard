@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser: Skal ikke kunne endres
 Datatype: Tekststreng
 Definisjon: Navn på person som oppdaterte en arkivenhet eller endret metadata
-Forekomster: 0-1
 Gruppe: Logging av endringer
 Kilde: Registreres automatisk ved oppdatering av en arkivenhet eller endring av metadata
 Kommentarer: Erstatter M633 oppdatertAv

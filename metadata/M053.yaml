@@ -13,7 +13,6 @@ Betingelser: |-
 Datatype: Tekststreng
 Definisjon: Status til journalposten, dvs. om dokumentet er registrert, under behandling
   eller endelig arkivert.
-Forekomster: '1'
 Gruppe: Status
 Kilde: Registreres automatisk gjennom forskjellig saksbehandlings­funksjonalitet,
   eller overstyres manuelt.

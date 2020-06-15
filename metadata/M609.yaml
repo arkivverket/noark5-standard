@@ -5,7 +5,6 @@ Avleveres: A
 Betingelser: Kan ikke endres
 Datatype: Heltall
 Definisjon: Antall journalposter i rapporten
-Forekomster: '1'
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk ved produksjon av avleveringsuttrekk
 Kommentarer:

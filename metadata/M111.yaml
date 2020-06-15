@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser:
 Datatype: Dato og klokkeslett
 Definisjon: Datoen på presedensen
-Forekomster: '1'
 Gruppe: Datoer
 Kilde: Registreres manuelt ved opprettelse av presedens, men bør også kunne hentes
   automatisk fra *M103 dokumentetsDato* på journalposten presedensen opprettes på.

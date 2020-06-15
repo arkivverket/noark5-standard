@@ -5,7 +5,6 @@ Betingelser: Skal normalt ikke kunne endres. Ved flytting til en annen mappe, ka
   endring av *registreringsID* forekomme.
 Datatype: Tekststreng
 Definisjon: Entydig identifikasjon av registreringen innenfor arkivet.
-Forekomster: 0-1
 Gruppe: Identifikasjon
 Kilde: Registreres automatisk av systemet etter interne regler
 Kommentarer: |-

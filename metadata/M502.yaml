@@ -18,7 +18,6 @@ Betingelser: |-
   - "Midlertidig skjerming"
 Datatype: Tekststreng
 Definisjon: Angivelse av hvilke metadataelementer som skal skjermes.
-Forekomster: 0-1
 Gruppe: Skjerming og gradering
 Kilde: Registreres manuelt ved valg fra liste eller annen funksjonalitet, kan også
   registreres automatisk

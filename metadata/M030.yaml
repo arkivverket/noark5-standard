@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser:
 Datatype: Heltall
 Definisjon: Et firesifferet nummer som er unikt for hver kommune i Norge. De to første siffrene angir fylke, de to siste er løpende innenfor hvert fylke.
-Forekomster: 0-M
 Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer: NB! Ikke tatt i bruk

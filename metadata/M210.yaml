@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Kryssreferanse til en *mappe* fra en annen *mappe* eller *registrering*
-Forekomster: 0-1
 Gruppe: Referanser
 Kilde: Registreres automatisk når kryssreferanse opprettes
 Kommentarer:

@@ -4,7 +4,6 @@ Avleveres: A
 Betingelser:
 Datatype: Dato og klokkeslett
 Definisjon: Datoen skjermingen skal oppheves.
-Forekomster: 0-1
 Gruppe: Skjerming og gradering
 Kilde: Datoen beregnes automatisk på grunnlag av *M504 skjermingsvarighet*
 Kommentarer:

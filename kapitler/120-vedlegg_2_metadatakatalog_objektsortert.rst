@@ -1969,7 +1969,7 @@ Metadata for *presedens*
    - A
    - Tekststreng
  * - M056
-   - presedensStatus
+   - presedensstatus
    - 
    - 0-1
    - A

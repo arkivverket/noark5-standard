@@ -6,7 +6,7 @@ Datatype: Tekststreng
 Definisjon: Formatet dokumentet fikk etter konvertering
 Gruppe: Tekniske metadata
 Kilde: Registreres automatisk ved konvertering
-Kommentarer: Faste verdier bestemmes senere
+Kommentarer: Bruker samme verdier som M701 format.
 Navn: konvertertTilFormat
 Nr: M713
 X: true

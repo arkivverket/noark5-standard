@@ -6,8 +6,8 @@ Datatype: Tekststreng
 Definisjon: Formatet dokumentet hadde før det ble konvertert
 Gruppe: Tekniske metadata
 Kilde: Registreres automatisk ved konvertering
-Kommentarer: Dette vil vanligvis være produksjonsformatet, men kan også være et annet
-  arkivformat. Faste verdier bestemmes senere.
+Kommentarer: Dette vil vanligvis være produksjonsformatet, men kan
+  også være et annet arkivformat. Bruker samme verdier som M701 format.
 Navn: konvertertFraFormat
 Nr: M712
 X: true

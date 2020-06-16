@@ -541,6 +541,33 @@ Den vanligste bruken av *dokumentbeskrivelse* er for å skille mellom hoveddokum
 
 Dokumentobjekt er det laveste metadatanivået i arkivstrukturen. Et dokumentobjekt skal referere til én og kun en *dokumentfil.* Dokumentfila inneholder selve dokumentet. Dersom dokumentet er arkivert i flere *versjoner*, må vi ha et dokumentobjekt og en dokumentfil for hver versjon. Hver versjon av dokumentet kan dessuten arkiveres i flere forskjellige *formater*, og da må det i tillegg opprettes egne dokumentobjekter og dokumentfiler for hvert format. I noen tilfeller kan det også være aktuelt å lage *varianter* av enkelte dokumenter. Den mest vanlige varianten vil være et "sladdet" dokument hvor taushetsbelagt informasjon er fjernet slik at varianten kan være offentlig tilgjengelig. Dokumentobjektet inneholder mer tekniske metadata enn de andre arkivenhetene, bl.a. sjekksummen til bytesekvensen som representerer dokumentet.
 
+Verdier i formatfeltene (M701, M712, M713) hentes fra
+PRONOM-registeret over formater fra det britiske nasjonalarkivet.
+Informasjon om PRONOM er tilgjengelig fra deres nettsider,
+``https://www.nationalarchives.gov.uk/PRONOM/``.  Slike formatverdier
+består at et prefiks "fmt" eller "x-fmt", en skråstrek og et heltall,
+for eksempel "fmt/13" (PNG) og "x-fmt/18" (CSV).
+
+Ved bruk av formater som ikke har fått PRONOM-verdi, bør det brukes en
+midlertidig formatverdi. Det er definert to slike sett med
+midlertidige formatverdier. Offisielle midlertidige formatverdier
+registrert i regi av Arkivverket har prefiks "av/", mens midlertidige
+formatverdier fastsatt av arkivskaper gis prefiks "vnd/". For å
+identifisere ukjente formater som arkivsystemet ikke kjenner igjen
+skal verdi "av/0" brukes.  Formatet til filer med formatkode "av/0" må
+identifiseres og få spesifikke formatkoder før deponering og
+avlevering.  For mer informasjon om formatverdier og autorativ liste
+over både permanente og midlertidige, se tillegg D i spesifikasjonen
+for Noark 5 Tjenestegrensesnitt.
+
+Før en tar i bruk en lokalt definert verdi (med prefix "vnd/"), så bør
+en sjekke om formatet allerede er registrert i formatkatalogen, og
+bruke formatverdi derfra hvis mulig. Når et format med midlertidig
+formatverdi får en offisiell formatverdi fra PRONOM, så skal
+verdiliste og oppføringer i arkivsystemet oppdateres ved første
+praktiske anledning, maksimalt et år etter at slik verdi er tildelt av
+PRONOM, dog aldri senere enn i forkant av eventuell deponering og
+avlevering av arkivmaterialet der slike verdier blir brukt.
 
 .. list-table:: **Strukturelle krav til dokumentbeskrivelse og dokumentobjekt**
    :widths: 1 8 1 4

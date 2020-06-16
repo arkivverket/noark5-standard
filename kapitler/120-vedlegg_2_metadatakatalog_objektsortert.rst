@@ -2337,7 +2337,7 @@ Metadata for *journalpost*
    - AM.AVSAV
    - 0-1
    - A
-   - Tekststreng
+   - registrering.systemID
  * - M500
    - tilgangsrestriksjon
    - JP.TGKODE
@@ -2619,7 +2619,7 @@ Metadata for *journalpost*
    - AM.AVSAV
    - 0-1
    - A
-   - Tekststreng
+   - registrering.systemID
  * - M500
    - tilgangsrestriksjon
    - JP.TGKODE

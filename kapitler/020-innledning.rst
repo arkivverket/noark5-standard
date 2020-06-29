@@ -201,4 +201,4 @@ Noark 5 brukes som grunnlag for å realisere disse dokumentasjonskravene i en sy
    innebærer ingen endring av kravet.
 
 .. [2]
-   https://www.arkivverket.no/forvaltning-og-utvikling/noark-standarden/noark-5/godkjenningsordning-noark5
+   https://www.arkivverket.no/forvaltning-og-utvikling/noark-standarden/godkjenningsordning-noark

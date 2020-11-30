@@ -1,5 +1,5 @@
 ---
-name: Metadatforslag
+name: Metadataforslag
 about: Foreslå nye metadataelementer eller endringer i eksisterende elementer i metadatakatalogen
 
 ---

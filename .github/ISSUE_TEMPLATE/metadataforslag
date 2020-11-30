@@ -14,15 +14,15 @@ about: Foreslå nye metadataelementer eller endringer i eksisterende elementer i
 
 Følgende egenskaper ved metadataelementene fylles ut så langt det er mulig og kjent. Eksempler på metadatabeskrivelser finnes i metadatakatalogen https://github.com/arkivverket/noark5-standard/blob/master/kapitler/110-vedlegg_1_metadatakatalog-auto.rst
 
-Nr: Mxxx (dersom det er forslag til endring av eksisterende metadataelement)
-Navn: Navn på elementet i henhold til skriveregler nedenfor
-Definisjon: Presis definisjon av metadataelementet
-Datatype: F.eks. Heltall, Dato, Tekststreng m.m. NB! dersom elementet er en referanse til en arkivenhet, må datatypen være SystemID
-Regex: Regulært uttrykk for tekststrenger omsluttet av anførselstegn
-Arkivenhet: Hvilke arkivenheter elementet skal tilhøre (arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse, dokumentobjekt, spesialiseringer av disse)
-Kilde: Hvor metadataelementet hentes fra, f.eks. om det registreres av bruker eller genereres automatisk av systemet
-Betingelser: Krav til metadataelementet, f.eks. liste av gyldige verdier
-Kommentarer: Utfyllende eller forklarende kommentarer
+Nr: Mxxx (dersom det er forslag til endring av eksisterende metadataelement)  
+Navn: Navn på elementet i henhold til skriveregler nedenfor  
+Definisjon: Presis definisjon av metadataelementet  
+Datatype: F.eks. Heltall, Dato, Tekststreng m.m. NB! dersom elementet er en referanse til en arkivenhet, må datatypen være SystemID  
+Regex: Regulært uttrykk for tekststrenger omsluttet av anførselstegn  
+Arkivenhet: Hvilke arkivenheter elementet skal tilhøre (arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse, dokumentobjekt, spesialiseringer av disse)  
+Kilde: Hvor metadataelementet hentes fra, f.eks. om det registreres av bruker eller genereres automatisk av systemet  
+Betingelser: Krav til metadataelementet, f.eks. liste av gyldige verdier  
+Kommentarer: Utfyllende eller forklarende kommentarer  
 Avleveres: "Ja" hvis metadataelementet foreslås avlevert til arkivdepot
 
 ### Navn på metadataelementer

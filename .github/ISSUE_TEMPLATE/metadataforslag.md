@@ -12,7 +12,7 @@ about: Foreslå nye metadataelementer eller endringer i eksisterende elementer i
 
 ### Forslag til metadataelement
 
-Følgende egenskaper ved metadataelementene fylles ut så langt det er mulig og kjent. Eksempler på metadatabeskrivelser finnes i metadatakatalogen https://github.com/arkivverket/noark5-standard/blob/master/kapitler/110-vedlegg_1_metadatakatalog-auto.rst
+Følgende egenskaper ved metadataelementene fylles ut så langt det er mulig og kjent. Eksempler på metadatabeskrivelser finnes i metadatakatalogen https://github.com/arkivverket/noark5-standard/blob/master/kapitler/110-vedlegg_1_metadatakatalog-auto.rst.
 
 Nr: Mxxx (dersom det er forslag til endring av eksisterende metadataelement)
 Navn: Navn på elementet i henhold til skriveregler nedenfor

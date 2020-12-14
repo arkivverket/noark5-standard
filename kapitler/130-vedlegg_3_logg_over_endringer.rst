@@ -175,15 +175,15 @@ Når verdiene for noen sentrale metadataelementer blir endret, skal dette logges
    - M020
    - tittel
    - Ved endring etter status E
- * - bevaring og kassasjon
+ * - kassasjon
    - M453
    - kassasjonshjemmel
    - Ved endring
- * - bevaring og kassasjon
+ * - kassasjon
    - M451
    - bevaringstid
    - Ved endring
- * - bevaring og kassasjon
+ * - kassasjon
    - M452
    - kassasjonsdato
    - Ved endring

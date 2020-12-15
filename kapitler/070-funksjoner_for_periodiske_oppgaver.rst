@@ -345,7 +345,7 @@ Dokumenter som skal periodiseres etter forskjellige prinsipper - f.eks. funksjon
    - 
  * - 6.2.2
    - En arkivdel skal inneholde referanser til eventuelle forløpere og
-     arvtakere. (forgjengere og etterkommere?)
+     arvtakere.
    - O
    - 
 

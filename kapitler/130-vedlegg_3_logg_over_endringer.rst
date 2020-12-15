@@ -18,7 +18,7 @@ Når verdiene for noen sentrale metadataelementer blir endret, skal dette logges
  * - arkiv
    - M050
    - arkivstatus
-   - Ved endring                                  |
+   - Ved endring
  * - arkiv/arkivskaper
    - M023
    - arkivskaperNavn
@@ -99,15 +99,15 @@ Når verdiene for noen sentrale metadataelementer blir endret, skal dette logges
    - M372
    - møtedeltakerNavn
    - Ved endring
- * - forenklet registrering
+ * - registrering
    - M208
    - referanseArkivdel
    - Ved endring
- * - basisregistrering
+ * - registrering
    - M020
    - tittel
    - Ved endring etter status Ekspedert/Avsluttet
- * - basisregistrering
+ * - registrering
    - M024
    - forfatter
    - Ved endring
@@ -175,15 +175,15 @@ Når verdiene for noen sentrale metadataelementer blir endret, skal dette logges
    - M020
    - tittel
    - Ved endring etter status E
- * - bevaring og kassasjon
+ * - kassasjon
    - M453
    - kassasjonshjemmel
    - Ved endring
- * - bevaring og kassasjon
+ * - kassasjon
    - M451
    - bevaringstid
    - Ved endring
- * - bevaring og kassasjon
+ * - kassasjon
    - M452
    - kassasjonsdato
    - Ved endring

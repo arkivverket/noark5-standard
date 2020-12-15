@@ -835,8 +835,7 @@ Nøkkelord er valgfritt, og kan forekomme en eller flere ganger i klasse, mappe 
    - Merknad
  * - 2.8.3
    - Det bør finnes en tjeneste/funksjon for å knytte ett eller flere
-     nøkkelord til klasser, mapper og registreringer (unntatt
-     registrering).
+     nøkkelord til klasser, mapper og registreringer.
    - V
    - 
 

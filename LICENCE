@@ -1,0 +1,22 @@
+Copyright license
+=================
+
+The copyright license for this work is simple, and a bit complex.
+
+The specification and the files used to produce it is not copyrighted,
+as the specification is created by the Norwegian government and fall
+under the exceptions in the Norwegian copyright law (§ 9) for works
+not covered by copyright.  The status is expressed in
+docbook/spesifikasjon.xml with the following Norwegian section:
+
+  Denne spesifikasjonen faller inn under unntakene i åndsverkslovens
+  §9, og er ikke opphavsrettslig vernet.
+
+  Videredistribusjon og bruk i kildeformat (RST) og kompilert form
+  (XML, HTML, PDF, PostScript, RTF og så videre) er tillatt både med
+  og uten endringer.
+
+So there is no copyright, thus no need for a copyright license.
+
+In copyright terms, this is equivalent to Creative Commons Zero,
+<URL: https://creativecommons.org/publicdomain/zero/1.0/legalcode >.

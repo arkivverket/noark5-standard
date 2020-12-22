@@ -10,11 +10,11 @@ Noark 5 angir regler for fangst og frys av dokument og metadata, og den definere
 Historikk
 ---------
 
-Noark (Norsk arkivsystem) ble opprinnelig utarbeidet som en kravspesifikasjon for elektroniske journalsystemer i statsforvaltningen i 1984, og den etablerte seg raskt som de facto standard. Den ble videreutviklet med nye rapporter i 1987 (Noark-2) og 1994 (Noark-3). Videreutviklingen omfattet dels modernisering i tråd med den teknologiske utviklingen, dels utvidelser i systemenes informasjonsinnhold og funksjonalitet.
+Noark (Norsk arkivsystem) ble opprinnelig utarbeidet som en kravspesifikasjon for elektroniske journalsystemer i statsforvaltningen i 1984, og den etablerte seg raskt som de facto standard. Den ble videreutviklet med nye rapporter i 1987 (Noark 2) og 1994 (Noark 3). Videreutviklingen omfattet dels modernisering i tråd med den teknologiske utviklingen, dels utvidelser i systemenes informasjonsinnhold og funksjonalitet.
 
-I 1995 ble det utarbeidet en tilsvarende kravspesifikasjon for kommunal sektor. Koark bygde på samme prinsipper som Noark, men hadde en del tillegg spesielt tilpasset kommunens behov, som f. eks. politisk saksbehandling i en egen møte- og utvalgsmodul.
+I 1995 ble det utarbeidet en tilsvarende kravspesifikasjon for kommunal sektor. Koark bygde på samme prinsipper som Noark, men hadde en del tillegg spesielt tilpasset kommunens behov, som f.eks. politisk saksbehandling i en egen møte- og utvalgsmodul.
 
-Noark-4, som kom i 1999, inkluderte spesifikasjonene i Koark og ble en felles standard for offentlig forvaltning. Noark-4 førte standarden et langt skritt videre ved å spesifisere et fullstendig elektronisk arkivsystem, integrert med e-post og generelle saksbehandlingssystemer.
+Noark 4, som kom i 1999, inkluderte spesifikasjonene i Koark og ble en felles standard for offentlig forvaltning. Noark 4 førte standarden et langt skritt videre ved å spesifisere et fullstendig elektronisk arkivsystem, integrert med e-post og generelle saksbehandlingssystemer.
 
 Første versjon av Noark 5 kom i 2008, og forkortelsen ble endret til å bety Norsk arkivstandard. Denne versjonen av standarden er blitt kontinuerlig oppdatert og vedlikeholdt, og nye versjoner er fortløpende blitt publisert på Arkivverkets sider på Internett. Standarden spesifiserer krav til en arkivkjerne som er ment å skulle inngå som arkivdanningskomponent i andre løsninger, ofte kalt fagsystemer.
 
@@ -127,17 +127,17 @@ Dokumentasjonsforvaltningen skiller seg dermed fra en noe enklere dokumenthåndt
    :widths: 1 1
    :header-rows: 1
 
- * - Løsninger for dokumenthåndtering
-   - Løsninger for dokumentasjonsforvaltning
- * - Kan tillate at dokumenter endres og/eller finnes i flere versjoner uten at det er kontroll på hvilken versjon som er den endelige
-   - Hindrer at dokumentasjon endres, og har versjonskontroll
- * - Kan tillate at dokumenter slettes av dokumenteier
-   - Hindrer at dokumentasjon slettes uten at det er skjer gjennom kontrollert, autorisert kassasjon
- * - Kan inneholde noe kontroll over hvor lenge et dokument skal oppbevares og om det kan slettes
-   - Rigorøs «retention control», det vil si løsningene skal ha funksjoner for å styre bevaring, migrasjon og kassasjon av dokumentasjon  iht. fastsatte planer
+ * - Løsninger for dokumenthåndtering.
+   - Løsninger for dokumentasjonsforvaltning.
+ * - Kan tillate at dokumenter endres og/eller finnes i flere versjoner uten at det er kontroll på hvilken versjon som er den endelige.
+   - Hindrer at dokumentasjon endres, og har versjonskontroll.
+ * - Kan tillate at dokumenter slettes av dokumenteier.
+   - Hindrer at dokumentasjon slettes uten at det er skjer gjennom kontrollert, autorisert kassasjon.
+ * - Kan inneholde noe kontroll over hvor lenge et dokument skal oppbevares og om det kan slettes.
+   - Rigorøs «retention control», det vil si løsningene skal ha funksjoner for å styre bevaring, migrasjon og kassasjon av dokumentasjon iht. fastsatte planer.
  * - Kan inneholde strukturert dokumentlagring, som kan være brukerstyrt
-   - Arkivstruktur med et klassifikasjonssystem som knytter dokumentasjon til kontekst (sammenhengen den ble skapt i), og som  vedlikeholdes av autorisert administrator
- * - Har som primær funksjon å støtte den daglige produksjonen og bruken av dokumenter i løpende saksbehandling
+   - Arkivstruktur med et klassifikasjonssystem som knytter dokumentasjon til kontekst (sammenhengen den ble skapt i), og som vedlikeholdes av autorisert administrator
+ * - Har som primær funksjon å støtte den daglige produksjonen og bruken av dokumenter i løpende saksbehandling.
    - Støtter den daglige bruken av dokumenter i løpende saksbehandling, men skal også være et sikkert og troverdig arkiv for dokumentasjon.
 
 Det er altså ikke gitt at løsninger for dokumenthåndtering i ettertid kan garantere at dokumentet fortsatt kan gjenfinnes, at det er lesbart eller at det dokumentet man faktisk finner er uendret. Løsninger som er utviklet spesielt for dokumentasjonsforvaltning, slik Noark-standarden legger til rette for, skal både sikre at dokumentet kan gjenfinnes, at det er lesbart og at det er autentisk med opprettholdt integritet.
@@ -166,7 +166,7 @@ Alle gjeldende krav framgår av kravtabellene. Kravtabellene er satt opp på den
    - hva det stilles krav til
    - Type
    - Merknad
- * - Kravnummereringen er inndelt i <kapittelnr>. <underkapittelnr>, <løpenummer innen underkapittel> (5.7.6 betyr f. eks. kapittel 5, underkapittel 7, og krav nr. 6) 
+ * - Kravnummereringen er inndelt i <kapittelnr>. <underkapittelnr>, <løpenummer innen underkapittel> (5.7.6 betyr f.eks. kapittel 5, underkapittel 7, og krav nr. 6) 
    - Dette angir området det stilles krav til i tabellen
    - Angir type krav. Her brukes: O (Obligatorisk), B (Betinget obligatorisk), V (Valgfritt) 
    - Merknader til kravet, f.eks. betingelser for når kravet er obligatorisk
@@ -184,7 +184,7 @@ Det er heller ingen direkte sammenheng mellom obligatoriske krav i standarden og
 Anskaffelse og utvikling av en Noark-løsning
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En anskaffelse eller utvikling av en løsning som skal oppfylle kravene om godkjenning etter Noark-standarden må ta utgangspunkt i brukernes behov. Noark 5 definerer ikke et komplett system for saksbehandling og arkiv, slik Noark-4 gjorde. Kravene i Noark 5 må operasjonaliseres av virksomheten selv, gjennom de kravene virksomheten gjennom en behovsanalyse finner ut at de må stille til det nye systemet.
+En anskaffelse eller utvikling av en løsning som skal oppfylle kravene om godkjenning etter Noark-standarden må ta utgangspunkt i brukernes behov. Noark 5 definerer ikke et komplett system for saksbehandling og arkiv, slik Noark 4 gjorde. Kravene i Noark 5 må operasjonaliseres av virksomheten selv, gjennom de kravene virksomheten gjennom en behovsanalyse finner ut at de må stille til det nye systemet.
 
 Ulike prosesser har behov for ulike system for arbeidsstøtte. Sakarkivsystemer er laget for generelle arbeidsprosesser, men mange prosesser har behov for en mer tilpasset arbeidsstøtte. Mange erfarer at prosjekter passer dårlig i systemer tilpasset generell saksbehandling. Hvilket system som skal anskaffes eller utvikles bør avhenge av hvilke prosesser som skal støttes av systemet.
 

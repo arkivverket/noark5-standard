@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
-"PO-Revision-Date: 2020-12-21 10:38+0000\n"
-"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
+"PO-Revision-Date: 2020-12-23 11:29+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
 "Language: en\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4-dev\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #. type: Attribute 'lang' of: <book>
 #: docbook/spesifikasjon-complete.xml:4
@@ -41,7 +41,7 @@ msgstr "<pubdate>2018-12-06</pubdate> <edition>1</edition>"
 #. type: Content of: <book><bookinfo><releaseinfo>
 #: docbook/spesifikasjon-complete.xml:10
 msgid "git-utgaven"
-msgstr "git edition"
+msgstr "The Git edition"
 
 #. type: Content of: <book><bookinfo><authorgroup><author><surname>
 #: docbook/spesifikasjon-complete.xml:13
@@ -77,7 +77,7 @@ msgid ""
 "PDF, PostScript, RTF og så videre) er tillatt både med og uten endringer."
 msgstr ""
 "Redistribution and use in both source (RST) and compiled form (XML, HTML, "
-"PDF, PostScript, RTF and so on) is allowed both with and without changes."
+"PDF, PostScript, RTF and so on) is permitted both with and without changes."
 
 #. type: Content of: <book><preface><title>
 #: docbook/spesifikasjon-complete.xml:31
@@ -98,17 +98,16 @@ msgid ""
 "«Noark 5 kjerne» som et konseptuelt begrep, uavhengig av hvordan kravene "
 "blir implementert i en løsning eller systemarkitektur."
 msgstr ""
-"This version of Noark 5 entails the biggest change in the standard since it "
-"was launched in 2008. The chapters are restructured, large parts of the text "
-"are rewritten, and several of the chapters from earlier versions have been "
-"taken out. Mainly there are chapters in what used to be called \"Complete\" "
-"that have not been continued, as these contained only optional requirements "
-"that were never part of the authentication of the system and which have "
-"largely not been maintained since the standard first came. This means that "
-"we also move away from the terms \"inner core\", \"outer core\" and "
-"\"complete\", and instead renworship \"Noark 5 core\" as a conceptual "
-"concept, regardless of how the requirements are implemented in a solution or "
-"system architecture."
+"This version of Noark 5 comprises the biggest change to the standard since "
+"its launch in 2008. The chapters are restructured, large parts of the text "
+"rewritten, and several of the chapters from earlier versions have been taken "
+"out. Mainly, chapters in what used to be called \"Complete\" have been "
+"discontinued, as these contained only optional requirements (that were never "
+"part of the authentication of the system)  and had largely gone unmaintained "
+"since the inception of the standard. This also means moving away from the "
+"terms \"inner core\", \"outer core\" and \"complete\", and instead "
+"cultivating at its core \"Noark 5 core\" as a conceptual concept, regardless "
+"of how requirements are implemented in a solution, or system architecture."
 
 #. type: Content of: <book><preface><para>
 #: docbook/spesifikasjon-complete.xml:47
@@ -118,10 +117,10 @@ msgid ""
 "(metadata, datamodell/arkivstruktur, obligatoriske krav) videreføres stort "
 "sett uendret. Dette er altså ikke en ny Noark, men en omskrivning av Noark 5."
 msgstr ""
-"The changes are so large that the standard appears in a new suit. It is "
-"therefore important to clarify that the standardization itself, i.e. as "
-"standardized (metadata, data model/archive structure, mandatory "
-"requirements) is continued largely unchanged. This is not a new Noark, but a "
+"The changes are so wast the standard appears to have changed. It is "
+"therefore important to emphasise the standardisation itself, i.e. as "
+"standardised (metadata, data model/archive structure, mandatory requirements)"
+" is continued largely unchanged form. This is not a new Noark, but rather a "
 "rewrite of Noark 5."
 
 #. type: Content of: <book><preface><para>
@@ -134,12 +133,12 @@ msgid ""
 "(og har vært) å unngå at standarden resulterer i universalløsninger som "
 "brukes på alle typer prosesser."
 msgstr ""
-"The purpose of the rewrite has been to simplify the standard, and clarify "
-"how it is intended to be used. Noark 5 does not define a system, or a type "
-"of system. The standard cannot be used as a requirement specification, but "
-"should be able to facilitate different types of archival creation solutions. "
-"The goal is (and has been) to avoid the standard resulting in universal "
-"solutions used on all types of processes."
+"Simplifying the standard has been the purpose of its rewrite, in clarifying "
+"its intended use. Noark 5 does not define a system, or a type of system. The "
+"standard cannot be used as a requirement specification, but should "
+"facilitate solutions for different types of archival creation. The goal is ("
+"and has been) to avoid the standard resulting in universal solutions applied "
+"to all types of processes."
 
 #. type: Content of: <book><preface><para>
 #: docbook/spesifikasjon-complete.xml:63
@@ -149,7 +148,7 @@ msgstr "Oslo, 2018"
 #. type: Content of: <book><chapter><title>
 #: docbook/spesifikasjon-complete.xml:67
 msgid "Innledning"
-msgstr "Introduction"
+msgstr "Synopsis"
 
 #. type: Content of: <book><chapter><para>
 #: docbook/spesifikasjon-complete.xml:69
@@ -161,10 +160,10 @@ msgid ""
 "arkivdokumenter."
 msgstr ""
 "Noark is a Norwegian standard for archiving and documentation management, "
-"which is developed and maintained by the National Archives. The purpose is "
-"to contribute to simpler and more secure control of the processing of "
-"archival documents, and therefore contains requirements for the capture, "
-"management, use and disposal of archival documents."
+"developed and maintained by the National Archives. Its purpose is to "
+"facilitate simpler and enhanced control of archival document processing, and "
+"therefore contains requirements for capture, management, use and disposal of "
+"archival documents."
 
 #. type: Content of: <book><chapter><para>
 #: docbook/spesifikasjon-complete.xml:76
@@ -179,15 +178,16 @@ msgid ""
 "tilknyttet metadata som gir opplysninger om den sammenhengen dokumentet er "
 "oppstått i, og hva slags aktivitet det dokumenterer eller er en del av."
 msgstr ""
-"Archive documents in a broad sense are derived from a compilation of the "
-"archival concept and document concept, ie any logically limited amount of "
-"information created as part of a public body's activities, and stored on a "
-"medium for later reading, listening, presentation or transmission. This can "
-"be anything from paper documents and digitized paper documents to data field "
-"content. The key thing about archive documents is that the information is "
-"<emphasis> logical </emphasis> bounded, and that it has associated metadata "
-"that gives information about the context in which the document originated "
-"and what kind of activity it documents or is part of."
+"Archive documents in the broad sense are derived from a compilation of the "
+"nomenclature used for archives and documents in the law regarding archives, "
+"i.e. any logically limited amount of information created as part of a public "
+"body's activities, and stored on a medium for later reading, listening, "
+"presentation or transmission. This can be anything from paper documents and "
+"digitised paper documents—to data field content. The key thing about archive "
+"documents is that the information is <emphasis> logically</emphasis> "
+"delimited, and that it has associated metadata giving information about the "
+"context in which the document originated, and what kind of activity it "
+"documents or is part of."
 
 #. type: Content of: <book><chapter><para>
 #: docbook/spesifikasjon-complete.xml:89
@@ -198,10 +198,10 @@ msgid ""
 "og anvendbare arkivdokumenter, og beskytte dokumentenes integritet så lenge "
 "det er behov for det."
 msgstr ""
-"Note 5 sets out rules for capturing and freezing documents and metadata, and "
-"defines and standardizes metadata and extract format to support businesses' "
-"need to create and maintain authentic, reliable, and usable archival "
-"documents and protect the integrity of documents as long as needed the."
+"Noark 5 sets rules for capture and freezing of documents and metadata, and "
+"defines and standardises metadata and extractive format to support "
+"businesses' need to create and maintain authentic, reliable, and usable "
+"archival documents and protect the integrity of documents as long as need be."
 
 #. type: Content of: <book><chapter><sect1><title>
 #: docbook/spesifikasjon-complete.xml:96
@@ -219,12 +219,13 @@ msgid ""
 "utviklingen, dels utvidelser i systemenes informasjonsinnhold og "
 "funksjonalitet."
 msgstr ""
-"Noark (Norwegian archive system) was originally prepared as a requirement "
+"Noark (Norwegian archival system) was originally prepared as a requirement "
 "specification for electronic journal systems in central government in 1984, "
-"and it quickly established itself as a de facto standard. It was further "
+"and quickly established itself as a de-facto standard. It was further "
 "developed with new reports in 1987 (Noark-2) and 1994 (Noark-3). Further "
-"developments included modernization in line with technological developments, "
-"partly extensions in the systems' information content and functionality."
+"development including modernisation in line with technological development "
+"followed, partly that of extending the informative content and functionality "
+"of the systems."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:107
@@ -235,8 +236,8 @@ msgid ""
 "en egen møte- og utvalgsmodul."
 msgstr ""
 "In 1995, a corresponding requirement specification was prepared for the "
-"municipal sector. Koark built on the same principles as Noark, but had some "
-"additions specifically adapted to the municipality's needs, as f.  Items. "
+"municipal sector. Koark built on the same principles as Noark, but with some "
+"additions specifically adapted to the needs of the municipality, like "
 "political proceedings in a separate meeting and selection module."
 
 #. type: Content of: <book><chapter><sect1><para>

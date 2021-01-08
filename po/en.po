@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
 "PO-Revision-Date: 2021-01-09 20:32+0000\n"
-"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
+"Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
 "Language: en\n"
@@ -31,7 +31,7 @@ msgstr "Noark 5 version 5.0"
 #. type: Content of: <book><bookinfo><subtitle>
 #: docbook/spesifikasjon-complete.xml:7
 msgid "Norsk arkivstandard"
-msgstr "Norwegian Archive Standard"
+msgstr "Norwegian record keeping and preservation standard"
 
 #. type: Content of: <book><bookinfo>
 #: docbook/spesifikasjon-complete.xml:8
@@ -161,8 +161,8 @@ msgid ""
 "den inneholder derfor krav til fangst, forvaltning, bruk og avhending av "
 "arkivdokumenter."
 msgstr ""
-"Noark is a Norwegian standard for archiving and documentation management, "
-"developed and maintained by the National Archives. Its purpose is to "
+"Noark is a Norwegian standard for record keeping and preservation, developed "
+"and maintained by the National Archives of Norway. Its purpose is to "
 "facilitate simpler and enhanced control of archival document processing, and "
 "therefore contains requirements for capture, management, use and disposal of "
 "archival documents."
@@ -265,6 +265,14 @@ msgid ""
 "arkivkjerne som er ment å skulle inngå som arkivdanningskomponent i andre "
 "løsninger, ofte kalt fagsystemer."
 msgstr ""
+"Noark 5 was first published in 2008, and the abbreviation was changed to "
+"mean \"Norwegian archive standard\". The term archiving in Norwegian should "
+"be interpreted to include aspects relating to both record keeping and "
+"preservation. This version of the standard has been continuously updated, "
+"with new versions published on the Internet pages belonging to the National "
+"Archives of Norway. The standard specifies the core software requirements "
+"that should be included when developing a record keeping systems for "
+"entities subject to Norwegian record keeping and preservation laws."
 
 #. type: Content of: <book><chapter><sect1><title>
 #: docbook/spesifikasjon-complete.xml:130

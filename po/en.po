@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
-"PO-Revision-Date: 2021-01-01 09:26+0000\n"
+"PO-Revision-Date: 2021-01-09 20:32+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
@@ -560,6 +560,8 @@ msgid ""
 "ISO 15489:2016 Information and documentation - Records Management. Dette er "
 "en internasjonal standard for dokumentasjonsforvaltning."
 msgstr ""
+"ISO 15489:2016 Information and documentation - Records Management. This is "
+"an international standard on records management."
 
 #. type: Content of: <book><chapter><sect1><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:377
@@ -769,6 +771,8 @@ msgid ""
 "Kan tillate at dokumenter endres og/eller finnes i flere versjoner uten at "
 "det er kontroll på hvilken versjon som er den endelige"
 msgstr ""
+"Might allow changes to documents or the existence of multiple versions "
+"without control over which version is the final one."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:564

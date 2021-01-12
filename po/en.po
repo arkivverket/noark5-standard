@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
 "PO-Revision-Date: 2021-01-12 11:18+0000\n"
-"Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
+"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
 "Language: en\n"
@@ -27129,7 +27129,7 @@ msgstr ""
 #. type: Content of: <book><appendix><title>
 #: docbook/spesifikasjon-complete.xml:39733
 msgid "Eksempel på arkivuttrekk.xml"
-msgstr ""
+msgstr "arkivuttrekk.xml example"
 
 #. type: Content of: <book><appendix><programlisting>
 #: docbook/spesifikasjon-complete.xml:39735

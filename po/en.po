@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
-"PO-Revision-Date: 2021-01-09 20:32+0000\n"
+"PO-Revision-Date: 2021-01-12 11:18+0000\n"
 "Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
@@ -294,6 +294,18 @@ msgid ""
 "tradisjonell saksbehandling, hvor mange år de skal oppbevares, eller om de "
 "skal avleveres til arkivdepot."
 msgstr ""
+"The basis for the standard is record keeping, where chronology is the main "
+"principle for «organisation». However, it should also be possible to use the "
+"standard for other types of record keeping where it is possible to preserve "
+"documents in a logical folder structure. The standard is a continuation of "
+"the record keeping traditions of Norwegian public administration, but has "
+"been generalised to include the documentation of other types of transactions "
+"as well. In principle, all activities that create documentation that have a "
+"requirement to be stored and retrieved in an authentic form for shorter or "
+"longer periods, should be included in a solution for record keeping. This is "
+"completely independent of whether the documents are part of traditional case "
+"handling, how many years they are to be kept, or whether they are to be "
+"handed in to an archive depot."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:146
@@ -303,6 +315,10 @@ msgid ""
 "tiden vært å etablere et kravsett som kan sikre at de løsningene som "
 "utvikles, fører til en forsvarlig håndtering av elektronisk arkiv."
 msgstr ""
+"The standard is developed from a holistic perspective, based on the record "
+"keeping in an electronic environment. The main focus is to establish a set "
+"of requirements that can ensure that any solution developed in compliance "
+"with the standard leads to an appropriate handling of electronic records."
 
 #. type: Content of: <book><chapter><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:153
@@ -317,6 +333,11 @@ msgid ""
 "følger kravene i Noark-standarden for elektronisk journalføring og "
 "arkivering av journalføringspliktige dokumenter."
 msgstr ""
+"The formal scope of the standard is related to document subject to record "
+"keeping regulations. Section 11 of the Archives Regulations states that "
+"public bodies shall use systems that follow the requirements of the Noark "
+"standard for correspondence-based electronic record keeping and the "
+"archiving of documents subject to record keeping regulations."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:162
@@ -324,6 +345,9 @@ msgid ""
 "Følgende kriterier må alle være oppfylte for at et dokument skal være "
 "journalføringspliktig, jf. arkivforskriften § 9."
 msgstr ""
+"According to the Archives Regulations § 9 the following criteria must be met "
+"if a document is to be deemed to be subjected to regulation for "
+"correspondence-based registration."
 
 #. type: Content of: <book><chapter><sect1><sect2><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:168
@@ -331,6 +355,8 @@ msgid ""
 "<emphasis role=\"strong\">Det er et saksdokument for organet, definert i "
 "offentleglova § 4.</emphasis>"
 msgstr ""
+"<emphasis role=\"strong\">It is a case document belonging to the public "
+"body, as defined in the Public Administration Act § 4.</emphasis>"
 
 #. type: Content of: <book><chapter><sect1><sect2><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:172
@@ -340,6 +366,11 @@ msgid ""
 "eller virksomhet.  Dokumentet er å regne som opprettet når det er sendt ut "
 "av organet eller, dersom dette ikke skjer, når det er ferdigstilt."
 msgstr ""
+"A case document is a document that has been received by or submitted to the "
+"public body, or that the public body itself has created, and which applies "
+"to the public body's area of responsibility or activity. The document is to "
+"be regarded as created when it has been sent out by the body or, if this "
+"does not happen, when it has been finalised."
 
 #. type: Content of: <book><chapter><sect1><sect2><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:182
@@ -347,6 +378,8 @@ msgid ""
 "<emphasis role=\"strong\">Dokumentet inngår i en korrespondanse, dvs. at det "
 "har kommer inn til eller blitt sendt ut fra organet.</emphasis>"
 msgstr ""
+"<emphasis role = \"strong\"> The document is part of a correspondence, i.e. "
+"it has been received by or sent out from the body. </emphasis>"
 
 #. type: Content of: <book><chapter><sect1><sect2><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:187
@@ -361,12 +394,23 @@ msgid ""
 "organets saksbehandling, presedenskort, mv. Organinterne dokument kan "
 "allikevel være arkivpliktige, se under."
 msgstr ""
+"This applies to any exchange of information between the public body and "
+"external parties, including information that is only made available to the "
+"public body through, for example, a portal solution. The public body can "
+"choose to register in-house documents as records, i.e. information that has "
+"not been exchanged with external parties. However certain types of in-house "
+"documents are still required to be registered as records. Examples include "
+"documents containing the final decision in a case, precedent cards (short "
+"reports), etc. In-house documents may still be subject to archiving "
+"regulation, see below."
 
 #. type: Content of: <book><chapter><sect1><sect2><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:202
 msgid ""
 "<emphasis role=\"strong\">Dokumentet er eller blir saksbehandlet</emphasis>"
 msgstr ""
+"<emphasis role=\"strong\">The document is or will be subject to a case "
+"handling process</emphasis>"
 
 #. type: Content of: <book><chapter><sect1><sect2><itemizedlist><listitem><para><footnote><para>
 #: docbook/spesifikasjon-complete.xml:212
@@ -376,6 +420,11 @@ msgid ""
 "eller blir saksbehandla.» Denne endringen er kun språklig, og innebærer "
 "ingen endring av kravet."
 msgstr ""
+"The earlier archive regulations from 1998 stated that the criterion was that "
+"the document should be \"the subject of case handling\", while the archive "
+"regulations from 2017 state \"is or will be subject to a case handling "
+"process\". This change is purely linguistic, and does not imply any change "
+"to the requirement."
 
 #. type: Content of: <book><chapter><sect1><sect2><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:206
@@ -385,6 +434,11 @@ msgid ""
 "har generelt lagt til grunn at det skal lite til av overlegning før dette "
 "får karakter av saksbehandling.<placeholder type=\"footnote\" id=\"0\"/>"
 msgstr ""
+"There exists no preparatory work that discusses the description of how the "
+"case processing criterion in the archive regulations is to be understood, "
+"but the National Archivist has generally assumed that if the is even a "
+"little deliberation within document then the document acquires the character "
+"of case handling <placeholder type=\"footnote\" id=\"0\"/>."
 
 #. type: Content of: <book><chapter><sect1><sect2><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:223
@@ -392,6 +446,8 @@ msgid ""
 "<emphasis role=\"strong\">Dokumentet må ha verdi som dokumentasjon for "
 "organet.</emphasis>"
 msgstr ""
+"<emphasis role = \"strong\"> The document must have value as documentation "
+"for the body. </emphasis>"
 
 #. type: Content of: <book><chapter><sect1><sect2><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:227
@@ -401,6 +457,11 @@ msgid ""
 "skjedd. Forskriften sier ingenting om varigheten av dokumentasjonsverdien – "
 "det er tilstrekkelig at det foreligger dokumentasjonsverdi i utgangspunktet."
 msgstr ""
+"For a document to have value as documentation it must be possible to use "
+"subsequently use the document obtain information about and evidence of what "
+"has happened. The regulations say nothing about the duration of "
+"documentation value - it is sufficient that there is documentation value in "
+"the first place."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:237
@@ -411,6 +472,12 @@ msgid ""
 "1814 ble journalføring valgt som registrerings- og arkivsystem for den "
 "norske sentraladministrasjonen."
 msgstr ""
+"Correspondence based record keeping was introduced in the Danish-Norwegian "
+"administration by royal resolution 1740, and the purpose was to obtain "
+"better control of the state's archives, and thereby protect the state's "
+"interests. The main system was chronology, and in 1814 correspondence based "
+"record keeping was chosen as the registration and archive system for the "
+"Norwegian central administration."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:245
@@ -427,6 +494,17 @@ msgid ""
 "forretningsprosess dokumentet tilhører) og behandlingsoppfølgingen av "
 "dokumentet."
 msgstr ""
+"Correspondence-based record keeping requires that a public body maintain a "
+"journal that systematically and continuously registers, or logs, information "
+"about incoming and outgoing documents that are subject to case handling. "
+"Registration in the journal chronicles, among other things, when a document "
+"was registered (record keeping date), which case it belongs to (case number)"
+", the location of the document within the case (document number in the case)"
+", who sent and / or received the document, information about the case and "
+"the content of the document, as well as the documents date. This information "
+"documents the transaction (receipt or shipment). In addition, the journal "
+"contains information about classification (which business process the "
+"document belongs to) and the processing flow of the document."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:259
@@ -440,6 +518,14 @@ msgid ""
 "virksomheten formidlet eller gjorde tilgjengelig informasjon, synspunkter "
 "eller beslutninger."
 msgstr ""
+"Such correspondence-based record keeping functions as an instrument for "
+"controlling and managing the processing and archiving of documents that are "
+"part of a case handling process. The journal provides a chronological "
+"overview of what was processed in the public body, it documents the order in "
+"the processing, and can both be an important source for investigative "
+"commissions and be used as evidence in court cases. The journal documents "
+"when the company received information, and when the company disseminated or "
+"made available information, views or decisions."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:270

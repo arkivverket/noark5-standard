@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
-"PO-Revision-Date: 2021-01-14 09:32+0000\n"
-"Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
+"PO-Revision-Date: 2021-01-24 13:16+0000\n"
+"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
 "Language: en\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.1-dev\n"
+"X-Generator: Weblate 4.5-dev\n"
 
 #. type: Attribute 'lang' of: <book>
 #: docbook/spesifikasjon-complete.xml:4
@@ -1607,7 +1607,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:975
 msgid "2.1.1"
-msgstr ""
+msgstr "2.1.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:978
@@ -1750,7 +1750,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:993
 msgid "2.1.2"
-msgstr ""
+msgstr "2.1.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:997
@@ -1766,11 +1766,14 @@ msgid ""
 "<emphasis>registrering</emphasis>, <emphasis>dokumentbeskrivelse</emphasis> "
 "og <emphasis>dokumentobjekt</emphasis>."
 msgstr ""
+"<emphasis>fonds</emphasis>, <emphasis>series</emphasis>, <emphasis>record</"
+"emphasis>, <emphasis>document description</emphasis> and <emphasis>document "
+"object</emphasis>."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1016
 msgid "2.1.3"
-msgstr ""
+msgstr "2.1.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:1020
@@ -1788,6 +1791,10 @@ msgid ""
 "<emphasis>dokumentbeskrivelse</emphasis> og <emphasis>dokumentobjekt</"
 "emphasis>."
 msgstr ""
+"<emphasis>fonds</emphasis>, <emphasis>series</emphasis>, "
+"<emphasis>classification system</emphasis>, <emphasis>class</emphasis>, "
+"<emphasis>file</emphasis>, <emphasis>record</emphasis>, <emphasis>document "
+"description</emphasis> and <emphasis>document object</emphasis>."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1035
@@ -1944,7 +1951,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:14191
 #: docbook/spesifikasjon-complete.xml:14289
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1038
@@ -1957,7 +1964,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1043
 msgid "2.1.4"
-msgstr ""
+msgstr "2.1.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1046
@@ -2094,13 +2101,13 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:11560
 #: docbook/spesifikasjon-complete.xml:12134
 msgid "V"
-msgstr ""
+msgstr "V"
 
 #. type: Content of: <book><chapter><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1060
 #: docbook/spesifikasjon-complete.xml:14999
 msgid "Metadata"
-msgstr ""
+msgstr "Metadata"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1062
@@ -2225,7 +2232,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1178
 msgid "2.2.1"
-msgstr ""
+msgstr "2.2.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1181
@@ -2247,7 +2254,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1198
 msgid "2.2.2"
-msgstr ""
+msgstr "2.2.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1201
@@ -2441,7 +2448,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1376
 msgid "2.3.1"
-msgstr ""
+msgstr "2.3.1"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1379
@@ -2459,7 +2466,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1392
 msgid "2.3.2"
-msgstr ""
+msgstr "2.3.2"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1395
@@ -2481,7 +2488,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1437
 msgid "2.3.3"
-msgstr ""
+msgstr "2.3.3"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1440
@@ -2494,7 +2501,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1453
 msgid "2.3.4"
-msgstr ""
+msgstr "2.3.4"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1456
@@ -2522,7 +2529,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1498
 msgid "2.3.5"
-msgstr ""
+msgstr "2.3.5"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1501
@@ -2534,7 +2541,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1512
 msgid "2.3.6"
-msgstr ""
+msgstr "2.3.6"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1515
@@ -2770,7 +2777,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1731
 msgid "2.4.1"
-msgstr ""
+msgstr "2.4.1"
 
 #. type: Content of: <book><chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1734
@@ -2789,7 +2796,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1746
 msgid "2.4.2"
-msgstr ""
+msgstr "2.4.2"
 
 #. type: Content of: <book><chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1749
@@ -2811,7 +2818,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1768
 msgid "2.4.3"
-msgstr ""
+msgstr "2.4.3"
 
 #. type: Content of: <book><chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1771
@@ -2843,7 +2850,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1825
 msgid "2.4.4"
-msgstr ""
+msgstr "2.4.4"
 
 #. type: Content of: <book><chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1828
@@ -2883,7 +2890,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1841
 msgid "2.4.5"
-msgstr ""
+msgstr "2.4.5"
 
 #. type: Content of: <book><chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1844
@@ -2901,7 +2908,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1859
 msgid "2.4.6"
-msgstr ""
+msgstr "2.4.6"
 
 #. type: Content of: <book><chapter><sect1><sect2><sect3><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1862
@@ -3046,7 +3053,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1991
 msgid "2.5.1"
-msgstr ""
+msgstr "2.5.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:1995
@@ -3063,7 +3070,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2011
 msgid "2.5.2"
-msgstr ""
+msgstr "2.5.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2014
@@ -3075,7 +3082,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2027
 msgid "2.5.3"
-msgstr ""
+msgstr "2.5.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2030
@@ -3087,7 +3094,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2042
 msgid "2.5.4"
-msgstr ""
+msgstr "2.5.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2045
@@ -3100,7 +3107,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2057
 msgid "2.5.5"
-msgstr ""
+msgstr "2.5.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2060
@@ -3123,7 +3130,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2102
 msgid "2.5.6."
-msgstr ""
+msgstr "2.5.6."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2105
@@ -3300,7 +3307,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2260
 msgid "2.6.1"
-msgstr ""
+msgstr "2.6.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:2264
@@ -3318,7 +3325,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2280
 msgid "2.6.2"
-msgstr ""
+msgstr "2.6.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2283
@@ -3330,7 +3337,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2295
 msgid "2.6.3"
-msgstr ""
+msgstr "2.6.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2298
@@ -3342,7 +3349,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2311
 msgid "2.6.4"
-msgstr ""
+msgstr "2.6.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2314
@@ -3359,7 +3366,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2328
 msgid "2.6.5"
-msgstr ""
+msgstr "2.6.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2331
@@ -3371,7 +3378,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2342
 msgid "2.6.6"
-msgstr ""
+msgstr "2.6.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2345
@@ -3384,7 +3391,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2357
 msgid "2.6.7"
-msgstr ""
+msgstr "2.6.7"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2360
@@ -3506,7 +3513,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2485
 msgid "2.7.1"
-msgstr ""
+msgstr "2.7.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2488
@@ -3519,7 +3526,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2501
 msgid "2.7.2"
-msgstr ""
+msgstr "2.7.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2504
@@ -3532,7 +3539,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2517
 msgid "2.7.3"
-msgstr ""
+msgstr "2.7.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2520
@@ -3559,7 +3566,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2565
 msgid "2.7.4"
-msgstr ""
+msgstr "2.7.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2568
@@ -3571,7 +3578,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2580
 msgid "2.7.5"
-msgstr ""
+msgstr "2.7.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2583
@@ -3583,7 +3590,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2595
 msgid "2.7.6"
-msgstr ""
+msgstr "2.7.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2598
@@ -3595,7 +3602,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2609
 msgid "2.7.7"
-msgstr ""
+msgstr "2.7.7"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2612
@@ -3607,7 +3614,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2623
 msgid "2.7.8"
-msgstr ""
+msgstr "2.7.8"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2626
@@ -3645,7 +3652,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2678
 msgid "2.7.9"
-msgstr ""
+msgstr "2.7.9"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2681
@@ -3658,7 +3665,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2693
 msgid "2.7.10"
-msgstr ""
+msgstr "2.7.10"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2696
@@ -3671,7 +3678,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2709
 msgid "2.7.11"
-msgstr ""
+msgstr "2.7.11"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2712
@@ -3683,7 +3690,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2725
 msgid "2.7.12"
-msgstr ""
+msgstr "2.7.12"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2728
@@ -3695,7 +3702,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2739
 msgid "2.7.13"
-msgstr ""
+msgstr "2.7.13"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2742
@@ -3762,7 +3769,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2816
 msgid "2.7.14"
-msgstr ""
+msgstr "2.7.14"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2819
@@ -3774,7 +3781,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2831
 msgid "2.7.15"
-msgstr ""
+msgstr "2.7.15"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2834
@@ -3785,7 +3792,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2845
 msgid "2.7.16"
-msgstr ""
+msgstr "2.7.16"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2848
@@ -3797,7 +3804,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2860
 msgid "2.7.17"
-msgstr ""
+msgstr "2.7.17"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2863
@@ -3829,7 +3836,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2914
 msgid "2.7.18"
-msgstr ""
+msgstr "2.7.18"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2917
@@ -3841,7 +3848,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2929
 msgid "2.7.19"
-msgstr ""
+msgstr "2.7.19"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2932
@@ -3851,7 +3858,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2943
 msgid "2.7.20"
-msgstr ""
+msgstr "2.7.20"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2946
@@ -3863,7 +3870,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2958
 msgid "2.7.21"
-msgstr ""
+msgstr "2.7.21"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2961
@@ -3907,7 +3914,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3021
 msgid "2.7.22"
-msgstr ""
+msgstr "2.7.22"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3024
@@ -3920,7 +3927,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3037
 msgid "2.7.23"
-msgstr ""
+msgstr "2.7.23"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3040
@@ -3931,7 +3938,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3051
 msgid "2.7.24"
-msgstr ""
+msgstr "2.7.24"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3054
@@ -3943,7 +3950,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3066
 msgid "2.7.25"
-msgstr ""
+msgstr "2.7.25"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3069
@@ -4005,7 +4012,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3138
 msgid "2.8.1"
-msgstr ""
+msgstr "2.8.1"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:3142
@@ -4022,7 +4029,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3157
 msgid "2.8.2"
-msgstr ""
+msgstr "2.8.2"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3160
@@ -4035,7 +4042,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:3172
 #: docbook/spesifikasjon-complete.xml:3245
 msgid "2.8.3"
-msgstr ""
+msgstr "2.8.3"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3175
@@ -4150,7 +4157,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3322
 msgid "2.8.4"
-msgstr ""
+msgstr "2.8.4"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:3326
@@ -4184,7 +4191,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3356
 msgid "2.8.5"
-msgstr ""
+msgstr "2.8.5"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3359
@@ -4238,7 +4245,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3434
 msgid "2.8.6"
-msgstr ""
+msgstr "2.8.6"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3437
@@ -4251,7 +4258,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3452
 msgid "2.8.7"
-msgstr ""
+msgstr "2.8.7"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3455
@@ -4264,7 +4271,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3470
 msgid "2.8.8"
-msgstr ""
+msgstr "2.8.8"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3473
@@ -4336,7 +4343,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3552
 msgid "2.8.9"
-msgstr ""
+msgstr "2.8.9"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3555
@@ -4356,7 +4363,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3570
 msgid "2.8.10"
-msgstr ""
+msgstr "2.8.10"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3573
@@ -4369,7 +4376,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3589
 msgid "2.8.11"
-msgstr ""
+msgstr "2.8.11"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3592
@@ -4442,7 +4449,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3676
 msgid "2.8.12"
-msgstr ""
+msgstr "2.8.12"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3679
@@ -4454,7 +4461,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3690
 msgid "2.8.13"
-msgstr ""
+msgstr "2.8.13"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3693
@@ -4466,7 +4473,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3704
 msgid "2.8.14"
-msgstr ""
+msgstr "2.8.14"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3707
@@ -4492,7 +4499,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3720
 msgid "2.8.15"
-msgstr ""
+msgstr "2.8.15"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3723
@@ -4504,7 +4511,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3736
 msgid "2.8.16"
-msgstr ""
+msgstr "2.8.16"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3739
@@ -4516,7 +4523,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3751
 msgid "2.8.17"
-msgstr ""
+msgstr "2.8.17"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3754
@@ -4536,7 +4543,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3778
 msgid "2.8.18"
-msgstr ""
+msgstr "2.8.18"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3781
@@ -4546,7 +4553,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3792
 msgid "2.8.19"
-msgstr ""
+msgstr "2.8.19"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3795
@@ -4558,7 +4565,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3807
 msgid "2.8.20"
-msgstr ""
+msgstr "2.8.20"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3810
@@ -4570,7 +4577,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3822
 msgid "2.8.21"
-msgstr ""
+msgstr "2.8.21"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3825
@@ -4582,7 +4589,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3837
 msgid "2.8.22"
-msgstr ""
+msgstr "2.8.22"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3840
@@ -4635,7 +4642,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3906
 msgid "2.9.1"
-msgstr ""
+msgstr "2.9.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3909
@@ -4647,7 +4654,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3920
 msgid "2.9.2"
-msgstr ""
+msgstr "2.9.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3923
@@ -4661,7 +4668,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3935
 msgid "2.9.3"
-msgstr ""
+msgstr "2.9.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:3939
@@ -4681,7 +4688,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3958
 msgid "2.9.4"
-msgstr ""
+msgstr "2.9.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3961
@@ -4693,7 +4700,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3972
 msgid "2.9.5"
-msgstr ""
+msgstr "2.9.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3975
@@ -4705,7 +4712,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3987
 msgid "2.9.6"
-msgstr ""
+msgstr "2.9.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:3990
@@ -4717,7 +4724,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4002
 msgid "2.9.7"
-msgstr ""
+msgstr "2.9.7"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4005
@@ -4730,7 +4737,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4017
 msgid "2.9.8"
-msgstr ""
+msgstr "2.9.8"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4020
@@ -4744,7 +4751,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4034
 msgid "2.9.9"
-msgstr ""
+msgstr "2.9.9"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4037
@@ -4757,7 +4764,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4050
 msgid "2.9.10"
-msgstr ""
+msgstr "2.9.10"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4053
@@ -4846,7 +4853,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4145
 msgid "3.1.1"
-msgstr ""
+msgstr "3.1.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4148
@@ -4859,7 +4866,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4160
 msgid "3.1.2"
-msgstr ""
+msgstr "3.1.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4163
@@ -4871,7 +4878,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4174
 msgid "3.1.3"
-msgstr ""
+msgstr "3.1.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4177
@@ -4885,7 +4892,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4191
 msgid "3.1.4"
-msgstr ""
+msgstr "3.1.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4194
@@ -4897,7 +4904,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4205
 msgid "3.1.5"
-msgstr ""
+msgstr "3.1.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><footnote><para>
 #: docbook/spesifikasjon-complete.xml:4211
@@ -4918,7 +4925,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4228
 msgid "3.1.6"
-msgstr ""
+msgstr "3.1.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4231
@@ -4936,7 +4943,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4243
 msgid "3.1.7"
-msgstr ""
+msgstr "3.1.7"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4246
@@ -4948,7 +4955,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4258
 msgid "3.1.8"
-msgstr ""
+msgstr "3.1.8"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4261
@@ -4960,7 +4967,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4272
 msgid "3.1.9"
-msgstr ""
+msgstr "3.1.9"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4275
@@ -4972,7 +4979,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4286
 msgid "3.1.10"
-msgstr ""
+msgstr "3.1.10"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4289
@@ -4984,7 +4991,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4300
 msgid "3.1.11"
-msgstr ""
+msgstr "3.1.11"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4303
@@ -5030,7 +5037,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4359
 msgid "3.1.12"
-msgstr ""
+msgstr "3.1.12"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4362
@@ -5049,7 +5056,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4378
 msgid "3.1.13"
-msgstr ""
+msgstr "3.1.13"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4381
@@ -5067,7 +5074,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4395
 msgid "3.1.14"
-msgstr ""
+msgstr "3.1.14"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4398
@@ -5080,7 +5087,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4433
 msgid "3.1.15"
-msgstr ""
+msgstr "3.1.15"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4436
@@ -5093,7 +5100,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4471
 msgid "3.1.16"
-msgstr ""
+msgstr "3.1.16"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4474
@@ -5110,7 +5117,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4488
 msgid "3.1.17"
-msgstr ""
+msgstr "3.1.17"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4491
@@ -5122,7 +5129,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4503
 msgid "3.1.18"
-msgstr ""
+msgstr "3.1.18"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4506
@@ -5239,7 +5246,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4619
 msgid "3.1.19"
-msgstr ""
+msgstr "3.1.19"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4622
@@ -5252,7 +5259,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4634
 msgid "3.1.20"
-msgstr ""
+msgstr "3.1.20"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4637
@@ -5355,7 +5362,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4746
 msgid "3.1.21"
-msgstr ""
+msgstr "3.1.21"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4749
@@ -5368,7 +5375,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4762
 msgid "3.1.22"
-msgstr ""
+msgstr "3.1.22"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4765
@@ -5382,7 +5389,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4779
 msgid "3.1.23"
-msgstr ""
+msgstr "3.1.23"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4782
@@ -5394,7 +5401,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4794
 msgid "3.1.24"
-msgstr ""
+msgstr "3.1.24"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4797
@@ -5406,7 +5413,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4809
 msgid "3.1.25"
-msgstr ""
+msgstr "3.1.25"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4812
@@ -5418,7 +5425,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4823
 msgid "3.1.26"
-msgstr ""
+msgstr "3.1.26"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:4827
@@ -5437,7 +5444,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4845
 msgid "3.1.27"
-msgstr ""
+msgstr "3.1.27"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4848
@@ -5450,7 +5457,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4861
 msgid "3.1.28"
-msgstr ""
+msgstr "3.1.28"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4864
@@ -5469,7 +5476,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4878
 msgid "3.1.29"
-msgstr ""
+msgstr "3.1.29"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4881
@@ -5527,7 +5534,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4953
 msgid "3.2.1"
-msgstr ""
+msgstr "3.2.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4956
@@ -5539,7 +5546,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4968
 msgid "3.2.2"
-msgstr ""
+msgstr "3.2.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4971
@@ -5589,7 +5596,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4994
 msgid "3.2.3"
-msgstr ""
+msgstr "3.2.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:4997
@@ -5601,7 +5608,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5008
 msgid "3.2.4"
-msgstr ""
+msgstr "3.2.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5011
@@ -5625,7 +5632,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5054
 msgid "3.2.5"
-msgstr ""
+msgstr "3.2.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5057
@@ -5637,7 +5644,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5069
 msgid "3.2.6"
-msgstr ""
+msgstr "3.2.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5072
@@ -5649,7 +5656,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5085
 msgid "3.2.7"
-msgstr ""
+msgstr "3.2.7"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5088
@@ -5662,7 +5669,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5102
 msgid "3.2.8"
-msgstr ""
+msgstr "3.2.8"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5105
@@ -5675,7 +5682,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5118
 msgid "3.2.9"
-msgstr ""
+msgstr "3.2.9"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5121
@@ -5688,7 +5695,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5135
 msgid "3.2.10"
-msgstr ""
+msgstr "3.2.10"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5138
@@ -5725,7 +5732,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5168
 msgid "3.2.11"
-msgstr ""
+msgstr "3.2.11"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5171
@@ -5737,7 +5744,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5183
 msgid "3.2.12"
-msgstr ""
+msgstr "3.2.12"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5186
@@ -5762,7 +5769,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5231
 msgid "3.2.13"
-msgstr ""
+msgstr "3.2.13"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5234
@@ -5775,7 +5782,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5246
 msgid "3.2.14"
-msgstr ""
+msgstr "3.2.14"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5249
@@ -5797,7 +5804,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5277
 msgid "3.2.15"
-msgstr ""
+msgstr "3.2.15"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5280
@@ -5810,7 +5817,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5293
 msgid "3.2.16"
-msgstr ""
+msgstr "3.2.16"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5296
@@ -5822,7 +5829,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5307
 msgid "3.2.17"
-msgstr ""
+msgstr "3.2.17"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5310
@@ -5846,7 +5853,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5353
 msgid "3.2.18"
-msgstr ""
+msgstr "3.2.18"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5356
@@ -5858,7 +5865,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5368
 msgid "3.2.19"
-msgstr ""
+msgstr "3.2.19"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5371
@@ -5871,7 +5878,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5385
 msgid "3.2.20"
-msgstr ""
+msgstr "3.2.20"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5388
@@ -5883,7 +5890,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5400
 msgid "3.2.21"
-msgstr ""
+msgstr "3.2.21"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5403
@@ -5895,7 +5902,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5415
 msgid "3.2.22"
-msgstr ""
+msgstr "3.2.22"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5418
@@ -5918,7 +5925,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5443
 msgid "3.2.23"
-msgstr ""
+msgstr "3.2.23"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5446
@@ -5965,7 +5972,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5482
 msgid "3.2.24"
-msgstr ""
+msgstr "3.2.24"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5485
@@ -5996,7 +6003,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5544
 msgid "3.2.25"
-msgstr ""
+msgstr "3.2.25"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5547
@@ -6009,7 +6016,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5560
 msgid "3.2.26"
-msgstr ""
+msgstr "3.2.26"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5563
@@ -6024,7 +6031,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5578
 msgid "3.2.27"
-msgstr ""
+msgstr "3.2.27"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5581
@@ -6052,7 +6059,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5627
 msgid "3.2.28"
-msgstr ""
+msgstr "3.2.28"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5630
@@ -6065,7 +6072,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5643
 msgid "3.2.29"
-msgstr ""
+msgstr "3.2.29"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5646
@@ -6077,7 +6084,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5657
 msgid "3.2.30"
-msgstr ""
+msgstr "3.2.30"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5660
@@ -6090,7 +6097,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5674
 msgid "3.2.31"
-msgstr ""
+msgstr "3.2.31"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5677
@@ -6103,7 +6110,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5689
 msgid "3.2.32"
-msgstr ""
+msgstr "3.2.32"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5692
@@ -6115,7 +6122,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5703
 msgid "3.2.33"
-msgstr ""
+msgstr "3.2.33"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5706
@@ -6159,7 +6166,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5763
 msgid "3.2.35"
-msgstr ""
+msgstr "3.2.35"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5766
@@ -6172,7 +6179,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5779
 msgid "3.2.36"
-msgstr ""
+msgstr "3.2.36"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5782
@@ -6188,7 +6195,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5800
 msgid "3.2.37"
-msgstr ""
+msgstr "3.2.37"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5803
@@ -6201,7 +6208,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5816
 msgid "3.2.38"
-msgstr ""
+msgstr "3.2.38"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5819
@@ -6213,7 +6220,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5831
 msgid "3.2.39"
-msgstr ""
+msgstr "3.2.39"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5834
@@ -6227,7 +6234,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5850
 msgid "3.2.40"
-msgstr ""
+msgstr "3.2.40"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5853
@@ -6238,7 +6245,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5864
 msgid "3.2.41"
-msgstr ""
+msgstr "3.2.41"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5867
@@ -6251,7 +6258,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5880
 msgid "3.2.42"
-msgstr ""
+msgstr "3.2.42"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5883
@@ -6315,7 +6322,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5957
 msgid "3.3.1"
-msgstr ""
+msgstr "3.3.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5960
@@ -6327,7 +6334,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5971
 msgid "3.3.2"
-msgstr ""
+msgstr "3.3.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5974
@@ -6339,7 +6346,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5985
 msgid "3.3.3"
-msgstr ""
+msgstr "3.3.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:5988
@@ -6351,7 +6358,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6000
 msgid "3.3.4"
-msgstr ""
+msgstr "3.3.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6003
@@ -6361,7 +6368,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6014
 msgid "3.3.5"
-msgstr ""
+msgstr "3.3.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6017
@@ -6373,7 +6380,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6028
 msgid "3.3.6"
-msgstr ""
+msgstr "3.3.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6031
@@ -6383,7 +6390,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6042
 msgid "3.3.7"
-msgstr ""
+msgstr "3.3.7"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6045
@@ -6395,7 +6402,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6056
 msgid "3.3.8"
-msgstr ""
+msgstr "3.3.8"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6059
@@ -6407,7 +6414,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6070
 msgid "3.3.9"
-msgstr ""
+msgstr "3.3.9"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6073
@@ -6420,7 +6427,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6086
 msgid "3.3.10"
-msgstr ""
+msgstr "3.3.10"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6089
@@ -6457,7 +6464,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6141
 msgid "3.4.1"
-msgstr ""
+msgstr "3.4.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6144
@@ -6467,7 +6474,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6156
 msgid "3.4.2"
-msgstr ""
+msgstr "3.4.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6159
@@ -6479,7 +6486,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6171
 msgid "3.4.3"
-msgstr ""
+msgstr "3.4.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6174
@@ -6491,7 +6498,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6186
 msgid "3.4.4"
-msgstr ""
+msgstr "3.4.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6189
@@ -6503,7 +6510,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6201
 msgid "3.4.5"
-msgstr ""
+msgstr "3.4.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6204
@@ -6516,7 +6523,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6218
 msgid "3.4.6"
-msgstr ""
+msgstr "3.4.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6221
@@ -6530,7 +6537,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6236
 msgid "3.4.7"
-msgstr ""
+msgstr "3.4.7"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6239
@@ -6542,7 +6549,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6252
 msgid "3.4.8"
-msgstr ""
+msgstr "3.4.8"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6255
@@ -6554,7 +6561,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6267
 msgid "3.4.9"
-msgstr ""
+msgstr "3.4.9"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6270
@@ -6607,7 +6614,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6335
 msgid "3.4.10"
-msgstr ""
+msgstr "3.4.10"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:6339
@@ -6672,7 +6679,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6397
 msgid "3.4.11"
-msgstr ""
+msgstr "3.4.11"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:6401
@@ -6860,7 +6867,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6517
 msgid "3.4.14"
-msgstr ""
+msgstr "3.4.14"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:6524
@@ -6903,7 +6910,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6576
 msgid "3.4.15"
-msgstr ""
+msgstr "3.4.15"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:6583
@@ -7019,7 +7026,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6747
 msgid "4.1.1"
-msgstr ""
+msgstr "4.1.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6750
@@ -7032,7 +7039,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6762
 msgid "4.1.2"
-msgstr ""
+msgstr "4.1.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6765
@@ -7045,7 +7052,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6777
 msgid "4.1.3"
-msgstr ""
+msgstr "4.1.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6780
@@ -7057,12 +7064,12 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6791
 msgid "4.1.4"
-msgstr ""
+msgstr "4.1.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6806
 msgid "4.1.5"
-msgstr ""
+msgstr "4.1.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6809
@@ -7075,7 +7082,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6821
 msgid "4.1.6"
-msgstr ""
+msgstr "4.1.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6824
@@ -7087,7 +7094,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6835
 msgid "4.1.7"
-msgstr ""
+msgstr "4.1.7"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6838
@@ -7100,7 +7107,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6850
 msgid "4.1.8"
-msgstr ""
+msgstr "4.1.8"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6853
@@ -7133,7 +7140,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6902
 msgid "4.1.9"
-msgstr ""
+msgstr "4.1.9"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6905
@@ -7146,7 +7153,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6917
 msgid "4.1.10"
-msgstr ""
+msgstr "4.1.10"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6920
@@ -7159,7 +7166,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6933
 msgid "4.1.11"
-msgstr ""
+msgstr "4.1.11"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6936
@@ -7175,7 +7182,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6952
 msgid "4.1.12"
-msgstr ""
+msgstr "4.1.12"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6955
@@ -7188,7 +7195,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:6967
 msgid "4.1.13"
-msgstr ""
+msgstr "4.1.13"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:6971
@@ -7266,7 +7273,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7058
 msgid "4.1.14"
-msgstr ""
+msgstr "4.1.14"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7061
@@ -7278,7 +7285,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7073
 msgid "4.1.15"
-msgstr ""
+msgstr "4.1.15"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7076
@@ -7290,7 +7297,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7088
 msgid "4.1.16"
-msgstr ""
+msgstr "4.1.16"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7091
@@ -7303,7 +7310,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7104
 msgid "4.1.17"
-msgstr ""
+msgstr "4.1.17"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7107
@@ -7321,7 +7328,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7121
 msgid "4.1.18"
-msgstr ""
+msgstr "4.1.18"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7124
@@ -7334,7 +7341,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7136
 msgid "4.1.19"
-msgstr ""
+msgstr "4.1.19"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7139
@@ -7373,7 +7380,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7192
 msgid "4.2.1"
-msgstr ""
+msgstr "4.2.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7195
@@ -7394,7 +7401,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7209
 msgid "4.2.2"
-msgstr ""
+msgstr "4.2.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7212
@@ -7407,7 +7414,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7227
 msgid "4.2.3"
-msgstr ""
+msgstr "4.2.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7230
@@ -7444,7 +7451,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7283
 msgid "4.3.1"
-msgstr ""
+msgstr "4.3.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7286
@@ -7466,7 +7473,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7299
 msgid "4.3.2"
-msgstr ""
+msgstr "4.3.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7302
@@ -7478,7 +7485,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7315
 msgid "4.3.3"
-msgstr ""
+msgstr "4.3.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7318
@@ -7491,7 +7498,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7332
 msgid "4.3.4"
-msgstr ""
+msgstr "4.3.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7335
@@ -7530,7 +7537,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7391
 msgid "4.4.1"
-msgstr ""
+msgstr "4.4.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7394
@@ -7542,7 +7549,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7406
 msgid "4.4.2"
-msgstr ""
+msgstr "4.4.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7409
@@ -7554,7 +7561,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7420
 msgid "4.4.3"
-msgstr ""
+msgstr "4.4.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7423
@@ -7566,7 +7573,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7435
 msgid "4.4.4"
-msgstr ""
+msgstr "4.4.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7438
@@ -7598,7 +7605,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7487
 msgid "4.4.5"
-msgstr ""
+msgstr "4.4.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7490
@@ -7610,7 +7617,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7502
 msgid "4.4.6"
-msgstr ""
+msgstr "4.4.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7505
@@ -7622,12 +7629,12 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7517
 msgid "4.4.7"
-msgstr ""
+msgstr "4.4.7"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7531
 msgid "4.4.8"
-msgstr ""
+msgstr "4.4.8"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7534
@@ -7668,7 +7675,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7585
 msgid "4.4.9"
-msgstr ""
+msgstr "4.4.9"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7588
@@ -7681,7 +7688,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7600
 msgid "4.4.10"
-msgstr ""
+msgstr "4.4.10"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7603
@@ -7693,7 +7700,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7615
 msgid "4.4.11"
-msgstr ""
+msgstr "4.4.11"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7618
@@ -7709,7 +7716,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7635
 msgid "4.4.12"
-msgstr ""
+msgstr "4.4.12"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7638
@@ -7768,7 +7775,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7711
 msgid "4.5.1"
-msgstr ""
+msgstr "4.5.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7714
@@ -7785,7 +7792,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7726
 msgid "4.5.2"
-msgstr ""
+msgstr "4.5.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7729
@@ -7838,7 +7845,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7797
 msgid "4.5.3"
-msgstr ""
+msgstr "4.5.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7800
@@ -7850,7 +7857,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7811
 msgid "4.5.4"
-msgstr ""
+msgstr "4.5.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7814
@@ -7864,7 +7871,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7828
 msgid "4.5.5"
-msgstr ""
+msgstr "4.5.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7831
@@ -7876,7 +7883,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7843
 msgid "4.5.6"
-msgstr ""
+msgstr "4.5.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7846
@@ -7908,7 +7915,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7894
 msgid "4.5.7"
-msgstr ""
+msgstr "4.5.7"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7897
@@ -7921,7 +7928,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7910
 msgid "4.5.8"
-msgstr ""
+msgstr "4.5.8"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7913
@@ -7934,7 +7941,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7925
 msgid "4.5.9"
-msgstr ""
+msgstr "4.5.9"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7928
@@ -7946,7 +7953,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7940
 msgid "4.5.10"
-msgstr ""
+msgstr "4.5.10"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7943
@@ -7959,7 +7966,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7956
 msgid "4.5.11"
-msgstr ""
+msgstr "4.5.11"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7959
@@ -7992,7 +7999,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7992
 msgid "4.5.12"
-msgstr ""
+msgstr "4.5.12"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7995
@@ -8006,7 +8013,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8010
 msgid "4.5.13"
-msgstr ""
+msgstr "4.5.13"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8013
@@ -8018,7 +8025,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8025
 msgid "4.5.14"
-msgstr ""
+msgstr "4.5.14"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8028
@@ -8035,7 +8042,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8040
 msgid "4.5.15"
-msgstr ""
+msgstr "4.5.15"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8043
@@ -8071,7 +8078,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8094
 msgid "4.5.16"
-msgstr ""
+msgstr "4.5.16"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8097
@@ -8093,7 +8100,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8135
 msgid "4.5.17"
-msgstr ""
+msgstr "4.5.17"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8138
@@ -8125,7 +8132,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8171
 msgid "4.5.18"
-msgstr ""
+msgstr "4.5.18"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8174
@@ -8137,7 +8144,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8186
 msgid "4.5.19"
-msgstr ""
+msgstr "4.5.19"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8189
@@ -8150,7 +8157,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8201
 msgid "4.5.20"
-msgstr ""
+msgstr "4.5.20"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8204
@@ -8184,7 +8191,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8240
 msgid "4.5.21"
-msgstr ""
+msgstr "4.5.21"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8243
@@ -8197,7 +8204,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8256
 msgid "4.5.22"
-msgstr ""
+msgstr "4.5.22"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8259
@@ -8215,7 +8222,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8272
 msgid "4.5.23"
-msgstr ""
+msgstr "4.5.23"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8275
@@ -8248,7 +8255,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8325
 msgid "4.5.24"
-msgstr ""
+msgstr "4.5.24"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8328
@@ -8261,7 +8268,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8341
 msgid "4.5.25"
-msgstr ""
+msgstr "4.5.25"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8344
@@ -8274,7 +8281,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8356
 msgid "4.5.26"
-msgstr ""
+msgstr "4.5.26"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8359
@@ -8286,7 +8293,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8370
 msgid "4.5.27"
-msgstr ""
+msgstr "4.5.27"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8373
@@ -8298,7 +8305,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8385
 msgid "4.5.28"
-msgstr ""
+msgstr "4.5.28"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8388
@@ -8323,7 +8330,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8430
 msgid "4.5.29"
-msgstr ""
+msgstr "4.5.29"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8433
@@ -8341,7 +8348,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8445
 msgid "4.5.30"
-msgstr ""
+msgstr "4.5.30"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8448
@@ -8353,7 +8360,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8461
 msgid "4.5.31"
-msgstr ""
+msgstr "4.5.31"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8464
@@ -8377,7 +8384,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8506
 msgid "4.5.32"
-msgstr ""
+msgstr "4.5.32"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8509
@@ -8390,7 +8397,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8522
 msgid "4.5.33"
-msgstr ""
+msgstr "4.5.33"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8525
@@ -8402,7 +8409,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8537
 msgid "4.5.34"
-msgstr ""
+msgstr "4.5.34"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8540
@@ -8480,7 +8487,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8620
 msgid "5.1.1"
-msgstr ""
+msgstr "5.1.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8623
@@ -8491,7 +8498,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8634
 msgid "5.1.2"
-msgstr ""
+msgstr "5.1.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8637
@@ -8502,7 +8509,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8648
 msgid "5.1.3"
-msgstr ""
+msgstr "5.1.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8651
@@ -8514,7 +8521,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8663
 msgid "5.1.4"
-msgstr ""
+msgstr "5.1.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8666
@@ -8526,7 +8533,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8677
 msgid "5.1.5"
-msgstr ""
+msgstr "5.1.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8680
@@ -8538,7 +8545,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8692
 msgid "5.1.6"
-msgstr ""
+msgstr "5.1.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8695
@@ -8548,7 +8555,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8705
 msgid "5.1.7"
-msgstr ""
+msgstr "5.1.7"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8708
@@ -8560,7 +8567,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8720
 msgid "5.1.8"
-msgstr ""
+msgstr "5.1.8"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8723
@@ -8571,7 +8578,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8734
 msgid "5.1.9"
-msgstr ""
+msgstr "5.1.9"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8737
@@ -8581,7 +8588,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8748
 msgid "5.1.10"
-msgstr ""
+msgstr "5.1.10"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8751
@@ -8593,7 +8600,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8762
 msgid "5.1.11"
-msgstr ""
+msgstr "5.1.11"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8765
@@ -8603,7 +8610,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8775
 msgid "5.1.12x"
-msgstr ""
+msgstr "5.1.12x"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8778
@@ -8613,7 +8620,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8788
 msgid "5.1.13"
-msgstr ""
+msgstr "5.1.13"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8791
@@ -8625,7 +8632,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8802
 msgid "5.1.14"
-msgstr ""
+msgstr "5.1.14"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8805
@@ -8636,7 +8643,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8816
 msgid "5.1.15"
-msgstr ""
+msgstr "5.1.15"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8819
@@ -8699,7 +8706,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8889
 msgid "5.2.1"
-msgstr ""
+msgstr "5.2.1"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:8896
@@ -8737,7 +8744,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8943
 msgid "5.2.2"
-msgstr ""
+msgstr "5.2.2"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:8950
@@ -8842,7 +8849,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9090
 msgid "5.2.5"
-msgstr ""
+msgstr "5.2.5"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9093
@@ -8863,7 +8870,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9105
 msgid "5.2.6"
-msgstr ""
+msgstr "5.2.6"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9108
@@ -8877,7 +8884,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9124
 msgid "5.2.7"
-msgstr ""
+msgstr "5.2.7"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:9131
@@ -8894,7 +8901,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9165
 msgid "5.2.8"
-msgstr ""
+msgstr "5.2.8"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:9169
@@ -8919,7 +8926,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9195
 msgid "5.2.9"
-msgstr ""
+msgstr "5.2.9"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:9213
@@ -8970,7 +8977,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9275
 msgid "5.2.10"
-msgstr ""
+msgstr "5.2.10"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:9279
@@ -9053,7 +9060,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9398
 msgid "5.2.14"
-msgstr ""
+msgstr "5.2.14"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9401
@@ -9076,7 +9083,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9416
 msgid "5.2.15"
-msgstr ""
+msgstr "5.2.15"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9419
@@ -9089,7 +9096,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9435
 msgid "5.2.16"
-msgstr ""
+msgstr "5.2.16"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9438
@@ -9101,7 +9108,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9451
 msgid "5.2.17"
-msgstr ""
+msgstr "5.2.17"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9454
@@ -9116,7 +9123,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9471
 msgid "5.2.18"
-msgstr ""
+msgstr "5.2.18"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9474
@@ -9128,7 +9135,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9486
 msgid "5.2.19"
-msgstr ""
+msgstr "5.2.19"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9489
@@ -9162,7 +9169,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9528
 msgid "5.2.20"
-msgstr ""
+msgstr "5.2.20"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9531
@@ -9189,7 +9196,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9563
 msgid "5.2.21"
-msgstr ""
+msgstr "5.2.21"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9566
@@ -9203,7 +9210,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9580
 msgid "5.2.22"
-msgstr ""
+msgstr "5.2.22"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9583
@@ -9222,7 +9229,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9602
 msgid "5.2.23"
-msgstr ""
+msgstr "5.2.23"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9605
@@ -9250,7 +9257,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9650
 msgid "5.2.24"
-msgstr ""
+msgstr "5.2.24"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9653
@@ -9262,12 +9269,12 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9665
 msgid "5.2.25"
-msgstr ""
+msgstr "5.2.25"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9682
 msgid "5.2.26"
-msgstr ""
+msgstr "5.2.26"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9685
@@ -9281,7 +9288,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9699
 msgid "5.2.27"
-msgstr ""
+msgstr "5.2.27"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9702
@@ -9412,7 +9419,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9836
 msgid "5.2.28"
-msgstr ""
+msgstr "5.2.28"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9839
@@ -9424,7 +9431,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9850
 msgid "5.2.29"
-msgstr ""
+msgstr "5.2.29"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9853
@@ -9445,7 +9452,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9869
 msgid "5.2.30"
-msgstr ""
+msgstr "5.2.30"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9872
@@ -9458,7 +9465,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9886
 msgid "5.2.31"
-msgstr ""
+msgstr "5.2.31"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9889
@@ -9495,7 +9502,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9932
 msgid "5.2.32"
-msgstr ""
+msgstr "5.2.32"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9935
@@ -9507,7 +9514,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9947
 msgid "5.2.33"
-msgstr ""
+msgstr "5.2.33"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9950
@@ -9517,7 +9524,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9961
 msgid "5.2.34"
-msgstr ""
+msgstr "5.2.34"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9964
@@ -9529,7 +9536,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9975
 msgid "5.2.35"
-msgstr ""
+msgstr "5.2.35"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9978
@@ -9541,7 +9548,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9990
 msgid "5.2.36"
-msgstr ""
+msgstr "5.2.36"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:9993
@@ -9563,7 +9570,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10009
 msgid "5.2.37"
-msgstr ""
+msgstr "5.2.37"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10012
@@ -9576,7 +9583,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10027
 msgid "5.2.38"
-msgstr ""
+msgstr "5.2.38"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10030
@@ -9615,7 +9622,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10085
 msgid "5.2.39"
-msgstr ""
+msgstr "5.2.39"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10088
@@ -9628,7 +9635,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10101
 msgid "5.2.40"
-msgstr ""
+msgstr "5.2.40"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10104
@@ -9643,7 +9650,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10120
 msgid "5.2.41"
-msgstr ""
+msgstr "5.2.41"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10123
@@ -9744,6 +9751,8 @@ msgid ""
 "<imageobject> <imagedata fileref=\"./media/uml-kassasjon-diagram.png\" width="
 "\"100.0%\"/> </imageobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"./media/uml-kassasjon-diagram.png\" width="
+"\"100.0%\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:10213
@@ -9826,7 +9835,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10291
 msgid "6.1.1"
-msgstr ""
+msgstr "6.1.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10294
@@ -9846,7 +9855,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10309
 msgid "6.1.2"
-msgstr ""
+msgstr "6.1.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10312
@@ -9859,7 +9868,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10327
 msgid "6.1.3"
-msgstr ""
+msgstr "6.1.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10330
@@ -9871,7 +9880,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10343
 msgid "6.1.4"
-msgstr ""
+msgstr "6.1.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:10347
@@ -9915,7 +9924,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10387
 msgid "6.1.5"
-msgstr ""
+msgstr "6.1.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10390
@@ -9933,7 +9942,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10405
 msgid "6.1.6"
-msgstr ""
+msgstr "6.1.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10408
@@ -9952,7 +9961,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10423
 msgid "6.1.7"
-msgstr ""
+msgstr "6.1.7"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10426
@@ -9962,7 +9971,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10437
 msgid "6.1.8"
-msgstr ""
+msgstr "6.1.8"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10440
@@ -9975,7 +9984,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10454
 msgid "6.1.9"
-msgstr ""
+msgstr "6.1.9"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10457
@@ -9995,7 +10004,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10470
 msgid "6.1.10"
-msgstr ""
+msgstr "6.1.10"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10473
@@ -10007,7 +10016,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10486
 msgid "6.1.11"
-msgstr ""
+msgstr "6.1.11"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10489
@@ -10052,7 +10061,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:10540
 msgid "6.1.12"
-msgstr ""
+msgstr "6.1.12"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:10543
@@ -10065,7 +10074,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10558
 msgid "6.1.13"
-msgstr ""
+msgstr "6.1.13"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10561
@@ -10125,7 +10134,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:10626
 msgid "6.1.14"
-msgstr ""
+msgstr "6.1.14"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:10629
@@ -10138,7 +10147,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10644
 msgid "6.1.15"
-msgstr ""
+msgstr "6.1.15"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10647
@@ -10151,7 +10160,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10660
 msgid "6.1.16"
-msgstr ""
+msgstr "6.1.16"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10663
@@ -10163,7 +10172,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10675
 msgid "6.1.17"
-msgstr ""
+msgstr "6.1.17"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10678
@@ -10175,7 +10184,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10689
 msgid "6.1.18"
-msgstr ""
+msgstr "6.1.18"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10692
@@ -10245,7 +10254,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:10765
 msgid "6.1.19"
-msgstr ""
+msgstr "6.1.19"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:10768
@@ -10266,7 +10275,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10787
 msgid "6.1.20"
-msgstr ""
+msgstr "6.1.20"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10790
@@ -10278,7 +10287,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10802
 msgid "6.1.21"
-msgstr ""
+msgstr "6.1.21"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10805
@@ -10296,7 +10305,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10819
 msgid "6.1.22"
-msgstr ""
+msgstr "6.1.22"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10822
@@ -10307,7 +10316,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10833
 msgid "6.1.23"
-msgstr ""
+msgstr "6.1.23"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10836
@@ -10319,7 +10328,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10847
 msgid "6.1.24"
-msgstr ""
+msgstr "6.1.24"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10850
@@ -10332,7 +10341,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10863
 msgid "6.1.25"
-msgstr ""
+msgstr "6.1.25"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10866
@@ -10345,7 +10354,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10879
 msgid "6.1.26"
-msgstr ""
+msgstr "6.1.26"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10882
@@ -10357,7 +10366,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10894
 msgid "6.1.27"
-msgstr ""
+msgstr "6.1.27"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10897
@@ -10392,7 +10401,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10947
 msgid "6.1.28"
-msgstr ""
+msgstr "6.1.28"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:10954
@@ -10441,7 +10450,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11005
 msgid "6.1.29"
-msgstr ""
+msgstr "6.1.29"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:11025
@@ -10594,7 +10603,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11180
 msgid "6.2.1"
-msgstr ""
+msgstr "6.2.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11183
@@ -10606,7 +10615,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11194
 msgid "6.2.2"
-msgstr ""
+msgstr "6.2.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11197
@@ -10694,7 +10703,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11289
 msgid "6.2.3"
-msgstr ""
+msgstr "6.2.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11292
@@ -10706,7 +10715,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11303
 msgid "6.2.4"
-msgstr ""
+msgstr "6.2.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11306
@@ -10719,7 +10728,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11319
 msgid "6.2.5"
-msgstr ""
+msgstr "6.2.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11322
@@ -10732,7 +10741,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11334
 msgid "6.2.6"
-msgstr ""
+msgstr "6.2.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11337
@@ -10745,7 +10754,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11350
 msgid "6.2.7"
-msgstr ""
+msgstr "6.2.7"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11353
@@ -10757,7 +10766,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11365
 msgid "6.2.8"
-msgstr ""
+msgstr "6.2.8"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11368
@@ -10769,7 +10778,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11379
 msgid "6.2.9"
-msgstr ""
+msgstr "6.2.9"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11382
@@ -10781,7 +10790,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11393
 msgid "6.2.10"
-msgstr ""
+msgstr "6.2.10"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11396
@@ -10793,7 +10802,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11407
 msgid "6.2.11"
-msgstr ""
+msgstr "6.2.11"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11410
@@ -10810,7 +10819,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11422
 msgid "6.2.12"
-msgstr ""
+msgstr "6.2.12"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11425
@@ -10890,7 +10899,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11509
 msgid "6.3.1"
-msgstr ""
+msgstr "6.3.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11512
@@ -10902,7 +10911,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11524
 msgid "6.3.2"
-msgstr ""
+msgstr "6.3.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11527
@@ -10914,7 +10923,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11539
 msgid "6.3.3"
-msgstr ""
+msgstr "6.3.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11542
@@ -10926,7 +10935,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11553
 msgid "6.3.4"
-msgstr ""
+msgstr "6.3.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11556
@@ -10938,7 +10947,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11567
 msgid "6.3.5"
-msgstr ""
+msgstr "6.3.5"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11570
@@ -10956,7 +10965,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11583
 msgid "6.3.6"
-msgstr ""
+msgstr "6.3.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11586
@@ -11214,7 +11223,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11832
 msgid "6.4.1"
-msgstr ""
+msgstr "6.4.1"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11835
@@ -11246,7 +11255,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11848
 msgid "6.4.2"
-msgstr ""
+msgstr "6.4.2"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11851
@@ -11258,7 +11267,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11864
 msgid "6.4.3"
-msgstr ""
+msgstr "6.4.3"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11867
@@ -11270,7 +11279,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11879
 msgid "6.4.4"
-msgstr ""
+msgstr "6.4.4"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11882
@@ -11280,7 +11289,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11893
 msgid "6.4.5"
-msgstr ""
+msgstr "6.4.5"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11896
@@ -11293,7 +11302,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11909
 msgid "6.4.6"
-msgstr ""
+msgstr "6.4.6"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11912
@@ -11305,7 +11314,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11924
 msgid "6.4.7"
-msgstr ""
+msgstr "6.4.7"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11927
@@ -11317,7 +11326,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11939
 msgid "6.4.8"
-msgstr ""
+msgstr "6.4.8"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11942
@@ -11329,7 +11338,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11954
 msgid "6.4.9"
-msgstr ""
+msgstr "6.4.9"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11957
@@ -11341,7 +11350,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11969
 msgid "6.4.10"
-msgstr ""
+msgstr "6.4.10"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11972
@@ -11353,7 +11362,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11985
 msgid "6.4.11"
-msgstr ""
+msgstr "6.4.11"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:11988
@@ -11451,7 +11460,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12091
 msgid "6.4.12"
-msgstr ""
+msgstr "6.4.12"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12094
@@ -11463,7 +11472,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12107
 msgid "6.4.13"
-msgstr ""
+msgstr "6.4.13"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12110
@@ -11477,7 +11486,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12125
 msgid "6.4.14"
-msgstr ""
+msgstr "6.4.14"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12128
@@ -11495,7 +11504,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12142
 msgid "6.4.15"
-msgstr ""
+msgstr "6.4.15"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:12146
@@ -11706,7 +11715,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12361
 msgid "6.4.16"
-msgstr ""
+msgstr "6.4.16"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12364
@@ -11725,7 +11734,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12376
 msgid "6.4.17"
-msgstr ""
+msgstr "6.4.17"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12379
@@ -11735,7 +11744,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12390
 msgid "6.4.18"
-msgstr ""
+msgstr "6.4.18"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12393
@@ -11749,7 +11758,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12408
 msgid "6.4.19"
-msgstr ""
+msgstr "6.4.19"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12411
@@ -11966,7 +11975,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12621
 msgid "6.4.20"
-msgstr ""
+msgstr "6.4.20"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12624
@@ -11986,7 +11995,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12636
 msgid "6.4.21"
-msgstr ""
+msgstr "6.4.21"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12639
@@ -11998,7 +12007,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12652
 msgid "6.4.22"
-msgstr ""
+msgstr "6.4.22"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12655
@@ -12081,7 +12090,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12741
 msgid "6.4.23"
-msgstr ""
+msgstr "6.4.23"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12744
@@ -12458,7 +12467,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13099
 msgid "6.4.24"
-msgstr ""
+msgstr "6.4.24"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13102
@@ -12471,7 +12480,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13116
 msgid "6.4.25"
-msgstr ""
+msgstr "6.4.25"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13119
@@ -12484,7 +12493,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13133
 msgid "6.4.26"
-msgstr ""
+msgstr "6.4.26"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13136
@@ -12497,7 +12506,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13150
 msgid "6.4.27"
-msgstr ""
+msgstr "6.4.27"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13153
@@ -12702,7 +12711,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13370
 msgid "6.4.28"
-msgstr ""
+msgstr "6.4.28"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13373
@@ -12790,7 +12799,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13475
 msgid "6.4.29"
-msgstr ""
+msgstr "6.4.29"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13478
@@ -12809,7 +12818,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13492
 msgid "6.4.30"
-msgstr ""
+msgstr "6.4.30"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13495
@@ -12893,7 +12902,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13579
 msgid "6.4.31"
-msgstr ""
+msgstr "6.4.31"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13582
@@ -12915,7 +12924,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13598
 msgid "6.4.32"
-msgstr ""
+msgstr "6.4.32"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13601
@@ -12927,7 +12936,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13614
 msgid "6.4.33"
-msgstr ""
+msgstr "6.4.33"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13617
@@ -12939,7 +12948,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13631
 msgid "6.4.34"
-msgstr ""
+msgstr "6.4.34"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13634
@@ -12951,7 +12960,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13648
 msgid "6.4.35"
-msgstr ""
+msgstr "6.4.35"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13651
@@ -13069,7 +13078,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13774
 msgid "6.4.36"
-msgstr ""
+msgstr "6.4.36"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13777
@@ -13091,7 +13100,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13791
 msgid "6.4.37"
-msgstr ""
+msgstr "6.4.37"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13794
@@ -13103,7 +13112,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13807
 msgid "6.4.38"
-msgstr ""
+msgstr "6.4.38"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13810
@@ -13115,7 +13124,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13823
 msgid "6.4.39"
-msgstr ""
+msgstr "6.4.39"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13826
@@ -13134,7 +13143,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13841
 msgid "6.4.40"
-msgstr ""
+msgstr "6.4.40"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13844
@@ -13150,7 +13159,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13864
 msgid "6.4.41"
-msgstr ""
+msgstr "6.4.41"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13867
@@ -13164,7 +13173,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13884
 msgid "6.4.42"
-msgstr ""
+msgstr "6.4.42"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13887
@@ -13220,7 +13229,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:13956
 msgid "6.5.1"
-msgstr ""
+msgstr "6.5.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:13963
@@ -13286,7 +13295,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:14024
 msgid "6.5.2"
-msgstr ""
+msgstr "6.5.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:14044
@@ -13306,7 +13315,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:14090
 msgid "6.5.3"
-msgstr ""
+msgstr "6.5.3"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:14093
@@ -13319,7 +13328,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:14108
 msgid "6.5.4"
-msgstr ""
+msgstr "6.5.4"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:14111
@@ -13355,7 +13364,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:14164
 msgid "6.6.1"
-msgstr ""
+msgstr "6.6.1"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:14171
@@ -13384,7 +13393,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:14199
 msgid "6.6.2"
-msgstr ""
+msgstr "6.6.2"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:14206
@@ -25645,7 +25654,7 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:35315
 msgid "JO.ORDNPRI2"
-msgstr ""
+msgstr "JO.ORDNPRI2"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:35329

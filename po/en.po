@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
 "PO-Revision-Date: 2021-01-26 13:32+0000\n"
-"Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
+"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
 "Language: en\n"
@@ -1527,6 +1527,8 @@ msgid ""
 "<imageobject> <imagedata fileref=\"./media/uml-arkivstruktur-diagram.png\" "
 "width=\"100.0%\"/> </imageobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"./media/uml-arkivstruktur-diagram.png\" "
+"width=\"100.0%\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><sect1><figure>
 #: docbook/spesifikasjon-complete.xml:901
@@ -1576,6 +1578,8 @@ msgid ""
 "<imageobject> <imagedata fileref=\"./media/uml-forenklet-arkivstruktur-"
 "diagram.png\" width=\"100.0%\"/> </imageobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"./media/uml-forenklet-arkivstruktur-"
+"diagram.png\" width=\"100.0%\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:937
@@ -2264,6 +2268,8 @@ msgid ""
 "<imageobject> <imagedata fileref=\"./media/uml-arkivkjerne-diagram.png\" "
 "width=\"100.0%\"/> </imageobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"./media/uml-arkivkjerne-diagram.png\" "
+"width=\"100.0%\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1128
@@ -2368,6 +2374,8 @@ msgid ""
 "<imageobject> <imagedata fileref=\"./media/uml-arkiv-arkivdel-diagram.png\" "
 "width=\"100.0%\"/> </imageobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"./media/uml-arkiv-arkivdel-diagram.png\" "
+"width=\"100.0%\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:1240
@@ -2820,6 +2828,8 @@ msgid ""
 "<imageobject> <imagedata fileref=\"./media/uml-klassifikasjonssystem-diagram."
 "png\" width=\"100.0%\"/> </imageobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"./media/uml-klassifikasjonssystem-diagram."
+"png\" width=\"100.0%\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><sect1><sect2><sect3><para>
 #: docbook/spesifikasjon-complete.xml:1688
@@ -3039,11 +3049,13 @@ msgid ""
 "<imageobject> <imagedata fileref=\"./media/uml-mappestrukturen-diagram.png\" "
 "width=\"100.0%\"/> </imageobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"./media/uml-mappestrukturen-diagram.png\" "
+"width=\"100.0%\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1909
 msgid "<emphasis role=\"strong\">Mappe</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">File</emphasis>"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1912
@@ -3256,6 +3268,8 @@ msgid ""
 "<imageobject> <imagedata fileref=\"./media/uml-registrering-diagram.png\" "
 "width=\"100.0%\"/> </imageobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"./media/uml-registrering-diagram.png\" "
+"width=\"100.0%\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:2149
@@ -3523,6 +3537,8 @@ msgid ""
 "<imageobject> <imagedata fileref=\"./media/uml-dokumentbeskrivelse-diagram."
 "png\" width=\"100.0%\"/> </imageobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"./media/uml-dokumentbeskrivelse-diagram."
+"png\" width=\"100.0%\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:2416
@@ -4073,6 +4089,8 @@ msgid ""
 "<imageobject> <imagedata fileref=\"./media/uml-skjerming-diagram.png\" width="
 "\"80.0%\"/> </imageobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"./media/uml-skjerming-diagram.png\" width="
+"\"80.0%\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><title>
 #: docbook/spesifikasjon-complete.xml:3111
@@ -4217,6 +4235,8 @@ msgid ""
 "<imageobject> <imagedata fileref=\"./media/uml-kryssreferanse-diagram.png\" "
 "width=\"50.0%\"/> </imageobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"./media/uml-kryssreferanse-diagram.png\" "
+"width=\"50.0%\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><title>
 #: docbook/spesifikasjon-complete.xml:3294
@@ -4306,6 +4326,8 @@ msgid ""
 "<imageobject> <imagedata fileref=\"./media/uml-merknad-diagram.png\" width="
 "\"50.0%\"/> </imageobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"./media/uml-merknad-diagram.png\" width="
+"\"50.0%\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><title>
 #: docbook/spesifikasjon-complete.xml:3407
@@ -4404,6 +4426,8 @@ msgid ""
 "<imageobject> <imagedata fileref=\"./media/uml-part-diagram.png\" width="
 "\"70.0%\"/> </imageobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"./media/uml-part-diagram.png\" width=\"70."
+"0%\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><title>
 #: docbook/spesifikasjon-complete.xml:3526
@@ -4501,6 +4525,8 @@ msgid ""
 "<imageobject> <imagedata fileref=\"./media/uml-presedens-diagram.png\" width="
 "\"80.0%\"/> </imageobject>"
 msgstr ""
+"<imageobject> <imagedata fileref=\"./media/uml-presedens-diagram.png\" width="
+"\"80.0%\"/> </imageobject>"
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:3642

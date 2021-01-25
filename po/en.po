@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
-"PO-Revision-Date: 2021-01-24 13:16+0000\n"
-"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
+"PO-Revision-Date: 2021-01-26 13:32+0000\n"
+"Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
 "Language: en\n"
@@ -585,7 +585,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:305
 msgid "Noark og annen arkivpliktig informasjon"
-msgstr ""
+msgstr "Noark and other information subject to archival regulation"
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:307
@@ -596,6 +596,12 @@ msgid ""
 "arkivdefinisjonen i arkivloven § 2 og organets arkivansvar i § 6. "
 "Arkiveringsplikten er dermed mer omfattende enn journalføringsplikten."
 msgstr ""
+"All documentation registered in the journal must also be archived. Public "
+"bodies have an explicit duty to archive all documentation that was created "
+"as part of the activities of the body. This follows from the general "
+"definition of an archive in the Archives Act § 2 and the body's archive "
+"responsibility in § 6. As such, the obligation to archive documentation is "
+"more extensive than the obligation to keep records."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:315
@@ -612,6 +618,19 @@ msgid ""
 "arkivinformasjon skal den avhendes, enten ved at den overføres til et "
 "arkivdepot eller ved at den kasseres."
 msgstr ""
+"Documentation subject to archiving regulations shall be secured as sources "
+"of information for the present as well as for the future. This means that "
+"the organisation has to understand what type of documentation makes up "
+"archive information for that particular organisation. In addition, the "
+"organisation must have control over the creation, reception, exchange, "
+"maintenance and use of archive documentation. This includes control over "
+"what  users can do what with archive documentation (i.e. using "
+"authentication and authorisation), and logging that shows who has done what "
+"in the archive. In addition, the information content must be protected "
+"against unauthorised changes and deletions, and the archive must be "
+"available for use. When there is no longer a basis or need to take care of "
+"archive documentation, it must be disposed of, either by transferring it to "
+"an archive depot or by discarding it (in accordance with regulations)."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:330
@@ -623,6 +642,12 @@ msgid ""
 "fjernet fra arkivet. Det enkelte organet skal gjennomføre arkivbegrensning "
 "løpende."
 msgstr ""
+"Exempted from the archive regulation obligations is documentation that comes "
+"in under the provisions on <emphasis> archive restriction </emphasis>. By "
+"archive limitation is meant that documents that neither are, nor will be "
+"subject to case handling, and which also has no value as documentation, are "
+"kept out or removed from the archive. Public organisations carry out archive "
+"restrictions on an ongoing basis."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:338
@@ -635,6 +660,12 @@ msgid ""
 "måte at det skal være mulig å finne hensiktsmessige løsninger også for slik "
 "type arkivering."
 msgstr ""
+"The use of a Noark-approved system for documents that are only subject to "
+"archive obligations, but not record keeping obligations, is not mandatory. "
+"It may not be beneficial to use a system built on previous Noark versions to "
+"archive non-record-keeping documents. However, Noark 5 is specified in such "
+"a way that it should be possible to find appropriate solutions that are also "
+"applicable for this type of archiving."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:348
@@ -645,11 +676,18 @@ msgid ""
 "registerløsninger, hvor sporing av transaksjoner og bevaring av "
 "informasjonsobjekt i en kontekst ikke er en vesentlig del av løsningen."
 msgstr ""
+"Noark 5 can therefore be used for the archival and management of all types "
+"of documents (information objects) that can fit in a logical folder "
+"structure. If managing transaction type documentation and the need to "
+"preserve information objects within a context is not a significant part of a "
+"software solution then Noark is not necessarily a good a starting point for "
+"such a solution. An example of this is a system consisting of simple "
+"registrations."
 
 #. type: Content of: <book><chapter><sect1><title>
 #: docbook/spesifikasjon-complete.xml:358
 msgid "Forholdet til internasjonale standarder"
-msgstr ""
+msgstr "Relationship to international standards"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:360
@@ -658,11 +696,13 @@ msgid ""
 "som er relevante, først da standarden opprinnelig ble utarbeidet, og senere "
 "i videre bearbeidinger av den."
 msgstr ""
+"Noark 5 is based on relevant international standards. This includes both "
+"when drafting the initial standard as well as subsequent updates."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:365
 msgid "Disse har vært og er de mest relevante:"
-msgstr ""
+msgstr "These have been and are the most relevant:"
 
 #. type: Content of: <book><chapter><sect1><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:370
@@ -680,6 +720,9 @@ msgid ""
 "Dette er en EU-standard for dokumentasjonsforvaltning basert på ISO 15489. "
 "MoReq2010 kom i 2011."
 msgstr ""
+"MoReq - Modular Requirements for Records Systems (EU Commission 2002). This "
+"is an EU standard for documentation management based on ISO 15489. MoReq2010 "
+"came in 2011."
 
 #. type: Content of: <book><chapter><sect1><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:385
@@ -690,6 +733,11 @@ msgid ""
 "dokumentasjonsforvaltningssystemer og fagsystemer som skal forvalte "
 "dokumentasjon."
 msgstr ""
+"ISO 16175 Information and documentation - Principles and functional "
+"requirements for records in electronic office environments. This standard is "
+"available in three different parts and describes functional requirements for "
+"documentation management systems and professional systems that manage "
+"documentation."
 
 #. type: Content of: <book><chapter><sect1><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:395
@@ -699,6 +747,10 @@ msgid ""
 "Krav). Dette er ledelsessystemstandarder i samme «familie» som ISO 27000-, "
 "14000- og 9000- seriene."
 msgstr ""
+"NS / ISO 30300 series (30300: 2011 and 30301: 2011 Information and "
+"documentation - Management systems for records - Fundamentals and vocabulary "
+"and 30301 Requirements). These are management system standards in the same "
+"\"family\" as the ISO 27000, 14000 and 9000 series."
 
 #. type: Content of: <book><chapter><sect1><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:404
@@ -707,6 +759,9 @@ msgid ""
 "Processes - Metadata for Records. Dette er en internasjonal standard for "
 "metadata."
 msgstr ""
+"ISO 23081-1: 2004 Information and Documentation - Records Management "
+"Processes - Metadata for Records. This is an international standard for "
+"metadata."
 
 #. type: Content of: <book><chapter><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:411
@@ -715,6 +770,8 @@ msgid ""
 "ISO 14721: 2002 Reference Model for an Open Archival Information System "
 "(OAIS). Dette er en ISO-standard for bevaring av arkiv."
 msgstr ""
+"ISO 14721: 2002 Reference Model for an Open Archival Information System "
+"(OAIS). This is an ISO standard relevant for archiving."
 
 #. type: Content of: <book><chapter><sect1><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:418
@@ -725,6 +782,11 @@ msgid ""
 "kjerne av metadata – som kan brukes til all digital bevaring, uavhengig av "
 "type dokumenter eller bevaringsstrategier."
 msgstr ""
+"Data Dictionary for Preservation Metadata: Final Report of the PREMIS "
+"Working Group (OCLC and RLG 2005). PREMIS stands for Preservation Metadata: "
+"Implementation Strategies. PREMIS Working Group describes a model - a core "
+"of metadata - that can be used for all digital preservation, regardless of "
+"the type of documents or preservation strategies."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:428
@@ -737,11 +799,19 @@ msgid ""
 "vært mulig, gitt spesielle hensyn knyttet til norsk forvaltningspraksis og "
 "rett."
 msgstr ""
+"In some instances the international standards concerning documentation "
+"management and archives have influence on Noark 5. As far as possible, where "
+"requirements in the international standards have strong relevance to "
+"Norwegian traditions and regulations, the requirements are directly "
+"translated. Where the relevance is weaker, the wording of requirements in "
+"Noark 5 takes the international requirements into account as far as "
+"possible, given appropriate consideration to Norwegian administrative "
+"practice and law."
 
 #. type: Content of: <book><chapter><sect1><title>
 #: docbook/spesifikasjon-complete.xml:438
 msgid "Noark 5 brukt i dokumentasjonsforvaltningen"
-msgstr ""
+msgstr "Noark 5 used in documentation management"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:440
@@ -751,6 +821,11 @@ msgid ""
 "15489, ISO 30300-serien og MoReq2010, og tilsvarer det vi i norsk tradisjon "
 "tidligere har kalt arkivdanning."
 msgstr ""
+"\"Documentation management\" (Dokumentasjonsforvaltning) has been chosen as "
+"the Norwegian translation of <emphasis> records management </emphasis> in "
+"international standards such as ISO 15489, ISO 30300 series and MoReq2010, "
+"and corresponds to what, in Norwegian tradition, has previously called been "
+"archive formation (arkivdanning)."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:447

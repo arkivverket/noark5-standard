@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
-"PO-Revision-Date: 2021-01-26 13:32+0000\n"
-"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
+"PO-Revision-Date: 2021-01-28 13:32+0000\n"
+"Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
 "Language: en\n"
@@ -2198,6 +2198,13 @@ msgid ""
 "dokumentene er endelig arkivert skal de fleste metadata bare kunne endres av "
 "spesielt autoriserte brukere."
 msgstr ""
+"Metadata is information that can describes documents, both physical and "
+"electronic, that are stored as records. Metadata is associated with "
+"documents during document capture process. Some metadata is assigned "
+"manually, while other metadata is automatically. Some metadata is frozen as "
+"soon as a document is registered. Once a document is formally archived, most "
+"metadata can only be changed by authorized users with applicable "
+"authorisation."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1071
@@ -2210,6 +2217,13 @@ msgid ""
 "skjerming, i tillegg til å styre bevaring og kassasjon, dvs. en kontrollert "
 "sletting av alle dokumenter som har en begrenset oppbevaringstid."
 msgstr ""
+"Metadata has several important functions. Metadata associates documents with "
+"the context in which they were created. Metadata also ensures the "
+"authenticity of electronic documents and thus their evidential value. "
+"Without metadata, documents have little value as <emphasis> archive "
+"documents </emphasis>. Metadata is also important for retrieval, access "
+"control and screening, in addition to managing retention and disposal, i.e., "
+"a controlled deletion of all documents that have a limited retention time."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1081
@@ -2226,6 +2240,19 @@ msgid ""
 "eventuelt skal inngå i uttrekket, om de lar seg passe inn i strukturen som "
 "virksomhetsspesifikke metadata."
 msgstr ""
+"It is important that the metadata used reflect the case handling process and "
+"the actual documentation requirements. Noark 5 allows for a great deal of "
+"flexibility when it comes to specifying the metadata needed to document the "
+"work flow/tasks so that the metadata reflects the actual task at hand. The "
+"standard defines a minimum set of metadata applicable for an extraction ("
+"migration for preservation or interoperability), but also supports "
+"additional metadata where necessary. The Noark metadata catalog should not "
+"be seen as a hinder with regards to how an organisation should define its "
+"own documentation needs and requirements, but rather the standard should be "
+"seen as a foundation for further development. If additional metadata, that "
+"are not part of the Noark standard, are to be included in a Noark extraction "
+"then an analysis must be carried out to see how they can be used and whether "
+"or not the additional metadata can be defined as business -specific metadata."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1095
@@ -2236,6 +2263,11 @@ msgid ""
 "opptre på forskjellige nivåer i arkivstrukturen, men de vil bare bli "
 "spesifisert én gang i katalogen."
 msgstr ""
+"In Noark 5, metadata is defined for all levels in the record keeping "
+"structure. These metadata are further specified in Appendix 1, <emphasis> "
+"Metadata Catalog</emphasis>. Many instances of the same metadata will appear "
+"at different levels in the record keeping structure, but they will only be "
+"specified once in the catalog."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1102
@@ -2248,6 +2280,13 @@ msgid ""
 "valgfrie er skrevet med tynn skrift. Dersom det er konflikt mellom dette "
 "dokumentet og vedlegg 2, er det vedlegg 2 som er «fasiten.»"
 msgstr ""
+"Appendix 2 <emphasis> Metadata grouped by objects </emphasis> specifies "
+"which attributes are used at the various levels and objects in the record "
+"keeping structure, whether they are mandatory or optional, and the "
+"multiplicity (whether they can occur 0, 1 or many times) within the object. "
+"In the visual presentation in this document, mandatory metadata uses a bold "
+"font, while optional metadata uses a narrow font. If there is a conflict "
+"between this document and Appendix 2, Appendix 2 is the \"decider.\""
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1112
@@ -2255,12 +2294,17 @@ msgid ""
 "En arkivkjerne som kun dekker obligatoriske objekt i datamodellen og de "
 "obligatoriske metadata på disse objektene, kan dermed fremstilles slik:"
 msgstr ""
+"A record keeping core that only uses mandatory objects in the data model, "
+"and that only includes the mandatory attributes within these objects can be "
+"described as follows:"
 
 #. type: Content of: <book><chapter><sect1><figure><mediaobject><textobject><phrase>
 #: docbook/spesifikasjon-complete.xml:1117
 #: docbook/spesifikasjon-complete.xml:1123
 msgid "<emphasis role=\"strong\">Arkivkjerne med obligatoriske krav</emphasis>"
 msgstr ""
+"<emphasis role = \"strong\"> Record keeping core with mandatory requirements "
+"</emphasis>"
 
 #. type: Content of: <book><chapter><sect1><figure><mediaobject>
 #: docbook/spesifikasjon-complete.xml:1120

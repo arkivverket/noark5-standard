@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
-"PO-Revision-Date: 2021-01-28 13:32+0000\n"
-"Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
+"PO-Revision-Date: 2021-02-03 12:49+0000\n"
+"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
 "Language: en\n"
@@ -7468,7 +7468,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7116
 msgid "Obligatorisk hvis krav 4.1.13 oppfylles."
-msgstr ""
+msgstr "Mandatory if requirement 4.1.13 is met."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:7121
@@ -7794,7 +7794,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:7610
 #: docbook/spesifikasjon-complete.xml:7648
 msgid "Obligatorisk hvis kravet over oppfylles."
-msgstr ""
+msgstr "Mandatory if the above requirement is met."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:7550
@@ -8182,7 +8182,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8035
 msgid "Obligatorisk hvis 4.5.13 oppfylles."
-msgstr ""
+msgstr "Mandatory if 4.5.13 is met."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8040
@@ -8362,7 +8362,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8267
 msgid "Obligatorisk hvis 4.5.21 oppfylles."
-msgstr ""
+msgstr "Mandatory if 4.5.21 is met."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8272
@@ -10082,7 +10082,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10400
 msgid "Obligatorisk hvis 6.1.4 oppfylles"
-msgstr ""
+msgstr "Mandatory if 6.1.4 is met"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10405
@@ -10101,7 +10101,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:10418
 #: docbook/spesifikasjon-complete.xml:10449
 msgid "Obligatorisk hvis 6.1.4 oppfylles."
-msgstr ""
+msgstr "Mandatory if 6.1.4 is met."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10423
@@ -10231,7 +10231,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:10569
 msgid "Obligatoriske hvis 6.1.12 oppfylles."
-msgstr ""
+msgstr "Mandatory if 6.1.12 is met."
 
 #. type: Content of: <book><chapter><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:10577

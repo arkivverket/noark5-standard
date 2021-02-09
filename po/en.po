@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
-"PO-Revision-Date: 2021-02-03 12:49+0000\n"
+"PO-Revision-Date: 2021-02-10 19:50+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
@@ -26251,21 +26251,21 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:37690
 #: docbook/spesifikasjon-complete.xml:38528
 msgid "M500"
-msgstr ""
+msgstr "M500"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36081
 #: docbook/spesifikasjon-complete.xml:37693
 #: docbook/spesifikasjon-complete.xml:38531
 msgid "tilgangsrestriksjon"
-msgstr ""
+msgstr "tilgangsrestriksjon"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36084
 #: docbook/spesifikasjon-complete.xml:37696
 #: docbook/spesifikasjon-complete.xml:38534
 msgid "JP.TGKODE"
-msgstr ""
+msgstr "JP.TGKODE"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36098
@@ -26273,7 +26273,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:38567
 #: docbook/spesifikasjon-complete.xml:39642
 msgid "M501"
-msgstr ""
+msgstr "M501"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36101
@@ -26281,14 +26281,14 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:38570
 #: docbook/spesifikasjon-complete.xml:39645
 msgid "skjermingshjemmel"
-msgstr ""
+msgstr "skjermingshjemmel"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36104
 #: docbook/spesifikasjon-complete.xml:37735
 #: docbook/spesifikasjon-complete.xml:38573
 msgid "JP.UOFF"
-msgstr ""
+msgstr "JP.UOFF"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36118
@@ -26299,7 +26299,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:38409
 #: docbook/spesifikasjon-complete.xml:39656
 msgid "M502"
-msgstr ""
+msgstr "M502"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36121
@@ -26310,52 +26310,52 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:38412
 #: docbook/spesifikasjon-complete.xml:39659
 msgid "skjermingMetadata"
-msgstr ""
+msgstr "skjermingMetadata"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36126
 msgid "1-M"
-msgstr ""
+msgstr "1-M"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36137
 #: docbook/spesifikasjon-complete.xml:39670
 msgid "M503"
-msgstr ""
+msgstr "M503"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36140
 #: docbook/spesifikasjon-complete.xml:39673
 msgid "skjermingDokument"
-msgstr ""
+msgstr "skjermingDokument"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36156
 #: docbook/spesifikasjon-complete.xml:39684
 msgid "M504"
-msgstr ""
+msgstr "M504"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36159
 #: docbook/spesifikasjon-complete.xml:39687
 msgid "skjermingsvarighet"
-msgstr ""
+msgstr "skjermingsvarighet"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36175
 #: docbook/spesifikasjon-complete.xml:39698
 msgid "M505"
-msgstr ""
+msgstr "M505"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36178
 msgid "skjermingOpphoererDato"
-msgstr ""
+msgstr "skjermingOpphoererDato"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36181
 msgid "JP.AGDATO"
-msgstr ""
+msgstr "JP.AGDATO"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:36198
@@ -26409,54 +26409,54 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:37710
 #: docbook/spesifikasjon-complete.xml:38548
 msgid "M506"
-msgstr ""
+msgstr "M506"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36259
 #: docbook/spesifikasjon-complete.xml:37713
 #: docbook/spesifikasjon-complete.xml:38551
 msgid "gradering"
-msgstr ""
+msgstr "gradering"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36275
 msgid "M624"
-msgstr ""
+msgstr "M624"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36278
 msgid "graderingsdato"
-msgstr ""
+msgstr "graderingsdato"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36294
 msgid "M625"
-msgstr ""
+msgstr "M625"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36297
 msgid "gradertAv"
-msgstr ""
+msgstr "gradertAv"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36313
 msgid "M626"
-msgstr ""
+msgstr "M626"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36316
 msgid "nedgraderingsdato"
-msgstr ""
+msgstr "nedgraderingsdato"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36332
 msgid "M627"
-msgstr ""
+msgstr "M627"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36335
 msgid "nedgradertAv"
-msgstr ""
+msgstr "nedgradertAv"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:36354
@@ -26480,77 +26480,77 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36396
 msgid "M111"
-msgstr ""
+msgstr "M111"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36399
 msgid "presedensDato"
-msgstr ""
+msgstr "presedensDato"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36402
 msgid "PS.DATO"
-msgstr ""
+msgstr "PS.DATO"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36460
 msgid "PS.TITTEL"
-msgstr ""
+msgstr "PS.TITTEL"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36493
 msgid "M311"
-msgstr ""
+msgstr "M311"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36496
 msgid "presedensHjemmel"
-msgstr ""
+msgstr "presedensHjemmel"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36499
 msgid "PS.HJEMMEL"
-msgstr ""
+msgstr "PS.HJEMMEL"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36513
 msgid "M312"
-msgstr ""
+msgstr "M312"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36516
 msgid "rettskildefaktor"
-msgstr ""
+msgstr "rettskildefaktor"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36532
 msgid "M628"
-msgstr ""
+msgstr "M628"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36535
 msgid "presedensGodkjentDato"
-msgstr ""
+msgstr "presedensGodkjentDato"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36551
 msgid "M629"
-msgstr ""
+msgstr "M629"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36554
 msgid "presedensGodkjentAv"
-msgstr ""
+msgstr "presedensGodkjentAv"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36608
 msgid "M056"
-msgstr ""
+msgstr "M056"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36611
 msgid "presedensStatus"
-msgstr ""
+msgstr "presedensStatus"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:36630
@@ -26590,52 +26590,52 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36686
 msgid "M507"
-msgstr ""
+msgstr "M507"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36689
 msgid "elektroniskSignatur Sikkerhetsnivaa"
-msgstr ""
+msgstr "elektroniskSignaturSikkerhetsnivaa"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36705
 msgid "M508"
-msgstr ""
+msgstr "M508"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36708
 msgid "elektroniskSignatur Verifisert"
-msgstr ""
+msgstr "elektroniskSignaturVerifisert"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36724
 msgid "M622"
-msgstr ""
+msgstr "M622"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36727
 msgid "verifisertDato"
-msgstr ""
+msgstr "verifisertDato"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36730
 msgid "DI.SIGVER DATO"
-msgstr ""
+msgstr "DI.SIGVER DATO"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36744
 msgid "M623"
-msgstr ""
+msgstr "M623"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36747
 msgid "verifisertAv"
-msgstr ""
+msgstr "verifisertAv"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36750
 msgid "DI.SIGVERAV"
-msgstr ""
+msgstr "DI.SIGVERAV"
 
 #. type: Content of: <book><appendix><sect1><title>
 #: docbook/spesifikasjon-complete.xml:36768
@@ -26676,12 +26676,12 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36821
 msgid "M680"
-msgstr ""
+msgstr "M680"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36824
 msgid "referanseArkivenhet"
-msgstr ""
+msgstr "referanseArkivenhet"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36835
@@ -26691,12 +26691,12 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36840
 msgid "M681"
-msgstr ""
+msgstr "M681"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36843
 msgid "referanseMetadata"
-msgstr ""
+msgstr "referanseMetadata"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36854
@@ -26706,42 +26706,42 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36859
 msgid "M682"
-msgstr ""
+msgstr "M682"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36862
 msgid "endretDato"
-msgstr ""
+msgstr "endretDato"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36878
 msgid "M683"
-msgstr ""
+msgstr "M683"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36881
 msgid "endretAv"
-msgstr ""
+msgstr "endretAv"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36897
 msgid "M684"
-msgstr ""
+msgstr "M684"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36900
 msgid "tidligereVerdi"
-msgstr ""
+msgstr "tidligereVerdi"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36916
 msgid "M685"
-msgstr ""
+msgstr "M685"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36919
 msgid "nyVerdi"
-msgstr ""
+msgstr "nyVerdi"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:36939
@@ -26772,31 +26772,31 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:36986
 #: docbook/spesifikasjon-complete.xml:37902
 msgid "M112"
-msgstr ""
+msgstr "M112"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36989
 #: docbook/spesifikasjon-complete.xml:37905
 msgid "journalStartDato"
-msgstr ""
+msgstr "journalStartDato"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:37005
 #: docbook/spesifikasjon-complete.xml:37921
 msgid "M113"
-msgstr ""
+msgstr "M113"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:37008
 #: docbook/spesifikasjon-complete.xml:37924
 msgid "journalSluttDato"
-msgstr ""
+msgstr "journalSluttDato"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:37024
 #: docbook/spesifikasjon-complete.xml:37940
 msgid "M313"
-msgstr ""
+msgstr "M313"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:37027
@@ -26808,13 +26808,13 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:37043
 #: docbook/spesifikasjon-complete.xml:37959
 msgid "M609"
-msgstr ""
+msgstr "M609"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:37046
 #: docbook/spesifikasjon-complete.xml:37962
 msgid "antallJournalposter"
-msgstr ""
+msgstr "antallJournalposter"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><para>
 #: docbook/spesifikasjon-complete.xml:37067
@@ -26857,13 +26857,13 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:37318
 #: docbook/spesifikasjon-complete.xml:38215
 msgid "SA.AAR"
-msgstr ""
+msgstr "SA.AAR"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:37338
 #: docbook/spesifikasjon-complete.xml:38235
 msgid "SA.SEKNR."
-msgstr ""
+msgstr "SA.SEKNR."
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><para>
 #: docbook/spesifikasjon-complete.xml:37416
@@ -26877,13 +26877,13 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:37673
 #: docbook/spesifikasjon-complete.xml:38511
 msgid "referanseAvskrives AvJournalpost"
-msgstr ""
+msgstr "referanseAvskrivesAvJournalpost"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:37676
 #: docbook/spesifikasjon-complete.xml:38514
 msgid "AM.AVSAV"
-msgstr ""
+msgstr "AM.AVSAV"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><para>
 #: docbook/spesifikasjon-complete.xml:37755
@@ -26897,7 +26897,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:37798
 #: docbook/spesifikasjon-complete.xml:38636
 msgid "(AM.IHTYPE, AM.KOPIMOT, AM.GRUPPEMOT)"
-msgstr ""
+msgstr "(AM.IHTYPE, AM.KOPIMOT, AM.GRUPPEMOT)"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:37855
@@ -26948,47 +26948,47 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38719
 msgid "M580"
-msgstr ""
+msgstr "M580"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38722
 msgid "brukerNavn"
-msgstr ""
+msgstr "brukerNavn"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38738
 msgid "M581"
-msgstr ""
+msgstr "M581"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38741
 msgid "brukerRolle"
-msgstr ""
+msgstr "brukerRolle"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38744
 msgid "RO.NAVN"
-msgstr ""
+msgstr "RO.NAVN"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38763
 msgid "PE.FRADATO"
-msgstr ""
+msgstr "PE.FRADATO"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38800
 msgid "PE.TILDATO"
-msgstr ""
+msgstr "PE.TILDATO"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38813
 msgid "M582"
-msgstr ""
+msgstr "M582"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38816
 msgid "brukerstatus"
-msgstr ""
+msgstr "brukerstatus"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:38834
@@ -27006,57 +27006,57 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38874
 msgid "M583"
-msgstr ""
+msgstr "M583"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38877
 msgid "administrativEnhetNavn"
-msgstr ""
+msgstr "administrativEnhetNavn"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38880
 msgid "AI.ADMBET"
-msgstr ""
+msgstr "AI.ADMBET"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38899
 msgid "AI.FRADATO"
-msgstr ""
+msgstr "AI.FRADATO"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38936
 msgid "AI.TILDATO"
-msgstr ""
+msgstr "AI.TILDATO"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38949
 msgid "M584"
-msgstr ""
+msgstr "M584"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38952
 msgid "administrativEnhetsstatus"
-msgstr ""
+msgstr "administrativEnhetsstatus"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38967
 msgid "M585"
-msgstr ""
+msgstr "M585"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38970
 msgid "referanseOverordnet Enhet"
-msgstr ""
+msgstr "referanseOverordnetEnhet"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38973
 msgid "(AI.IDFAR)"
-msgstr ""
+msgstr "(AI.IDFAR)"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38981
 msgid "Tekststreng (administrativEnhetNavn)"
-msgstr ""
+msgstr "Text string (administrativEnhetNavn)"
 
 #. type: Content of: <book><appendix><title>
 #: docbook/spesifikasjon-complete.xml:38991
@@ -27136,12 +27136,12 @@ msgstr ""
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39096
 msgid "M204"
-msgstr ""
+msgstr "M204"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39099
 msgid "referanseKlassifikasjonssystem"
-msgstr ""
+msgstr "referanseKlassifikasjonssystem"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39158
@@ -27190,7 +27190,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:39345
 #: docbook/spesifikasjon-complete.xml:39359
 msgid "basisregistrering"
-msgstr ""
+msgstr "basisregistrering"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39354
@@ -27217,30 +27217,30 @@ msgstr ""
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39457
 msgid "korespondansepart"
-msgstr ""
+msgstr "korespondansepart"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39471
 #: docbook/spesifikasjon-complete.xml:39485
 #: docbook/spesifikasjon-complete.xml:39499
 msgid "saksansvar"
-msgstr ""
+msgstr "saksansvar"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39513
 #: docbook/spesifikasjon-complete.xml:39527
 msgid "avskrivning"
-msgstr ""
+msgstr "avskrivning"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39516
 msgid "M214"
-msgstr ""
+msgstr "M214"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39519
 msgid "referanseAvskriver Journalpost"
-msgstr ""
+msgstr "referanseAvskriverJournalpost"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39541
@@ -27272,17 +27272,17 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:39681
 #: docbook/spesifikasjon-complete.xml:39695
 msgid "skjerming"
-msgstr ""
+msgstr "skjerming"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39701
 msgid "skjermingOpphørerDato"
-msgstr ""
+msgstr "skjermingOpphørerDato"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39709
 msgid "presedens"
-msgstr ""
+msgstr "presedens"
 
 #. type: Content of: <book><appendix><title>
 #: docbook/spesifikasjon-complete.xml:39726

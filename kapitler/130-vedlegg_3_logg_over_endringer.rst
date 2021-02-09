@@ -153,11 +153,11 @@ Når verdiene for noen sentrale metadataelementer blir endret, skal dette logges
    - Ved endring
  * - avskrivning
    - M214
-   - referanseAvskriver Journalpost
+   - referanseAvskriverJournalpost
    - Ved endring
  * - avskrivning
    - M215
-   - referanseAvskrivesAv Journalpost
+   - referanseAvskrivesAvJournalpost
    - Ved endring
  * - møteregistrering
    - M055

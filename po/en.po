@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
-"PO-Revision-Date: 2021-02-14 10:50+0000\n"
+"PO-Revision-Date: 2021-02-20 11:50+0000\n"
 "Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.5\n"
 
 #. type: Attribute 'lang' of: <book>
 #: docbook/spesifikasjon-complete.xml:4
@@ -882,6 +882,15 @@ msgid ""
 "informasjonstype. En registrering består av et informasjonsinnhold og "
 "metadata som beskriver kontekst, innhold og struktur."
 msgstr ""
+"<emphasis> Registrations </emphasis> are, in other words, the information "
+"objects that have value to the business, and that are important enough that "
+"the business wants to keep them for a shorter or longer period of time, so "
+"that they can be used as evidential value. A <emphasis> registration </"
+"emphasis> thus becomes an object subject to preservation in a system that "
+"contains archival information, and is defined according to a logical "
+"function or information type. A registration consists of both the actual "
+"informational content as well as necessary metadata to describe context, "
+"content and structure."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:486
@@ -889,6 +898,8 @@ msgid ""
 "I følge ISO 30300 skal en <emphasis>registrering</emphasis> inneha disse "
 "fire grunnleggende egenskapene:"
 msgstr ""
+"According to ISO 30300, a <emphasis> registration </emphasis> must comprise "
+"these four basic characteristics:"
 
 #. type: Content of: <book><chapter><sect1><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:492
@@ -899,6 +910,11 @@ msgid ""
 "faktaene som skal dokumenteres, og skal kunne danne grunnlag for "
 "etterfølgende transaksjoner og aktiviteter."
 msgstr ""
+"<emphasis role = \"strong\"> Reliability </emphasis> - a reliable <emphasis> "
+"record </emphasis> has content that can be trusted as a complete and "
+"accurate representation of the transactions, activities and facts to be "
+"documented, and it should be possible to use these transactions as a basis "
+"for subsequent transactions and activities."
 
 #. type: Content of: <book><chapter><sect1><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:502
@@ -908,6 +924,10 @@ msgid ""
 "skapt av den som utgir seg for å ha skapt den, og er skapt på det "
 "tidspunktet den utgir seg for å være skapt."
 msgstr ""
+"<emphasis role = \"strong\"> Authenticity </emphasis> - <emphasis> the "
+"registration </emphasis> is what it claims to be, was created by the person "
+"who is identified to have created it, and was created at that time it is "
+"claimed to have been created."
 
 #. type: Content of: <book><chapter><sect1><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:510
@@ -916,6 +936,9 @@ msgid ""
 "<emphasis>registreringen</emphasis> er fullstendig og uendret, dvs. den er "
 "sikret mot endring."
 msgstr ""
+"<emphasis role = \"strong\"> Integrity </emphasis> - means that the "
+"<emphasis> registration </emphasis> is complete and unchanged, i.e., it is "
+"secured against change."
 
 #. type: Content of: <book><chapter><sect1><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:517
@@ -925,6 +948,10 @@ msgid ""
 "og tolkes. I ettertid bør den kunne presenteres i direkte forbindelse til "
 "forretningsaktiviteten eller transaksjonen som gav opphav til den."
 msgstr ""
+"<emphasis role = \"strong\"> Applicability </emphasis> - means that the "
+"<emphasis> registration </emphasis> can be found, retrieved, presented and "
+"interpreted. In retrospect, it should be possible to present it in direct "
+"connection with the business activity or transaction that gave rise to it."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:526
@@ -936,6 +963,13 @@ msgid ""
 "kontroll av dokumentets innhold og avsender. Uten slike metadata har ikke "
 "dokumentet verdi som arkivdokument, det vil si som dokumentasjon."
 msgstr ""
+"Documentation management requires that the organisation is able to document "
+"when documentation was used and within which context it was used. "
+"Authenticity-supporting metadata must support the document's authenticity "
+"and credibility, e.g. by providing the recipient with information that can "
+"be utilized to verify the content of the document and the sender. Without "
+"such metadata, the document has little value as an archival document, i.e., "
+"as documentation."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:535
@@ -943,6 +977,8 @@ msgid ""
 "Dokumentasjonsforvaltningen skiller seg dermed fra en noe enklere "
 "dokumenthåndtering slik:"
 msgstr ""
+"The management of documentation differs from a somewhat simpler document "
+"management as follows:"
 
 #. type: Content of: <book><chapter><sect1><table><title>
 #: docbook/spesifikasjon-complete.xml:540
@@ -950,6 +986,8 @@ msgid ""
 "<emphasis role=\"strong\">Løsninger for dokumenthåndtering versus "
 "dokumentasjonsforvaltning</emphasis>"
 msgstr ""
+"<emphasis role = \"strong\"> Document Management Versus Documentation "
+"Management Solutions </emphasis>"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:549
@@ -1038,11 +1076,17 @@ msgid ""
 "rette for, skal både sikre at dokumentet kan gjenfinnes, at det er lesbart "
 "og at det er autentisk med opprettholdt integritet."
 msgstr ""
+"It is not a given that solutions for document management, can in retrospect "
+"guarantee that the document can still be found, that it is readable or that "
+"the document you actually find is unchanged. Solutions that have been "
+"developed specifically for documentation management, as the Noark standard "
+"facilitates, must ensure that the document can be retrieved, that it is "
+"readable and that it is authentic with maintained integrity."
 
 #. type: Content of: <book><chapter><sect1><title>
 #: docbook/spesifikasjon-complete.xml:623
 msgid "En konseptuell standard"
-msgstr ""
+msgstr "A conceptual standard"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:625

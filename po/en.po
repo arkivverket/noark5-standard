@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
-"PO-Revision-Date: 2021-02-20 11:50+0000\n"
+"PO-Revision-Date: 2021-02-24 15:50+0000\n"
 "Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
@@ -1116,6 +1116,17 @@ msgid ""
 "det spesifiserte uttrekksformatet som skiller Noark 5 fra andre standarder "
 "og krav."
 msgstr ""
+"The standard defines requirements for WHAT a solution should implement, not "
+"HOW the requirements should be implemented. As such, a Noark 5 core is more "
+"of a conceptual concept, which can be a software system (an archive core), "
+"but it does not have to be. A Noark 5 core is a set of requirements that a "
+"solution (one or more systems) must fulfill in order to be approved in "
+"accordance with Noark 5. Noark 5 can also be interpreted as the inclusion of "
+"basic requirements for the handling of documentation as part of a system "
+"architecture where explicit requirements for the freezing, capturing and "
+"management of documents (for example as the requirements are described in "
+"ISO 16175), together with the specified extraction format descriptions that "
+"distinguishes Noark 5 from other standards and requirements."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:651
@@ -1125,6 +1136,10 @@ msgid ""
 "system, eller ved en «kjerne» som styrer håndteringen av dokument og "
 "metadata i ett eller flere andre system."
 msgstr ""
+"Noark 5 can be implemented in different ways in one or more solutions, "
+"either as one or more archive cores that are integrated with one or more "
+"systems, or by a \"core\" that controls the handling of documents and "
+"metadata in one or more other systems."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:658
@@ -1139,11 +1154,20 @@ msgid ""
 "saksbehandling, hvor mange år de skal oppbevares eller om de skal avleveres "
 "til depotarkiv."
 msgstr ""
+"The standard focuses on the preservation object, i.e., how the archive "
+"document, or the documentation generated in a work process is to be "
+"processed. Noark 5 concerns itself with how an organisation identifies and "
+"\"captures\" information objects and associates them with relevant metadata. "
+"Noark 5 is therefore a standard that can be used for all information objects "
+"with a short-term or long-term preservation requirement, i.e., documents "
+"that are to be archived. This is independent of whether the documents are "
+"part of a traditional case handling process, how many years documentation is "
+"to be kept or whether they are to be transferred to an archive."
 
 #. type: Content of: <book><chapter><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:670
 msgid "Kravtyper i Noark 5"
-msgstr ""
+msgstr "Requirement types in Noark 5"
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:672
@@ -1151,21 +1175,23 @@ msgid ""
 "Alle gjeldende krav framgår av kravtabellene. Kravtabellene er satt opp på "
 "denne måten:"
 msgstr ""
+"All applicable requirements are described in the requirements tables. The "
+"requirement tables are set up as follows:"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><title>
 #: docbook/spesifikasjon-complete.xml:677
 msgid "<emphasis role=\"strong\">Kravtabellen</emphasis>"
-msgstr ""
+msgstr "<emphasis role = \"strong\"> Requirements tables </emphasis>"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:687
 msgid "Krav nr"
-msgstr ""
+msgstr "Requirement number"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:690
 msgid "hva det stilles krav til"
-msgstr ""
+msgstr "what is required"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:693
@@ -1245,7 +1271,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:13946
 #: docbook/spesifikasjon-complete.xml:14154
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:696
@@ -1326,7 +1352,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:13949
 #: docbook/spesifikasjon-complete.xml:14157
 msgid "Merknad"
-msgstr ""
+msgstr "Comment"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:703
@@ -1335,11 +1361,14 @@ msgid ""
 "&lt;løpenummer innen underkapittel&gt; (5.7.6 betyr f. eks. kapittel 5, "
 "underkapittel 7, og krav nr. 6)"
 msgstr ""
+"Requirements numbering is divided into & lt; chapter number & gt ;. & lt; "
+"subchapter number & gt ;, & lt; subchapter serial number & gt; (5.7.6 means, "
+"for example, chapter 5, subchapter 7, and requirement no. 6)"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:709
 msgid "Dette angir området det stilles krav til i tabellen"
-msgstr ""
+msgstr "This indicates the area the requirement covers in the table"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:712
@@ -1347,11 +1376,15 @@ msgid ""
 "Angir type krav. Her brukes: O (Obligatorisk), B (Betinget obligatorisk), V "
 "(Valgfritt)"
 msgstr ""
+"Specifies the type of requirement. Noark uses: O (Mandatory), B ("
+"Conditionally mandatory), V (Optional)"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:716
 msgid "Merknader til kravet, f.eks. betingelser for når kravet er obligatorisk"
 msgstr ""
+"Comments covering the requirement e.g. relevant conditions that make a "
+"requirement mandatory"
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:724
@@ -1361,6 +1394,11 @@ msgid ""
 "obligatoriske krav er obligatoriske under bestemte betingelser. Disse "
 "betingelsene er nærmere beskrevet i merknadsfeltet."
 msgstr ""
+"Mandatory and conditional mandatory requirements are use the term \"shall\" "
+"in the requirements text. Optional requirements use the term \"should\" in "
+"the requirements text. Conditional mandatory requirements are requirements "
+"that are mandatory under certain conditions. These conditions are described "
+"in more detail in the comments field."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:731

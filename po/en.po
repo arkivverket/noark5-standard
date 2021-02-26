@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
-"PO-Revision-Date: 2021-02-24 15:50+0000\n"
+"PO-Revision-Date: 2021-02-27 14:50+0000\n"
 "Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
@@ -1410,6 +1410,13 @@ msgid ""
 "bevares i mer enn 10 år. I andre tilfeller igjen kan betingelsen for et "
 "slikt krav være at et gitt valgfritt krav oppfylles."
 msgstr ""
+"The mandatory requirements must be implemented for all types of systems that "
+"wish to be approved to be in accordance with the Noark standard. Some "
+"conditional mandatory requirements are only applicable if the system will be "
+"used for case handling. Other conditional mandatory requirements can be "
+"implemented for systems that contain documents that are to be preserved for "
+"more than 10 years. In other cases, requirements may be implemented such "
+"that a given optional requirement is met."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:740
@@ -1422,6 +1429,14 @@ msgid ""
 "stilling til hvilke valgfrie krav de trenger, og så stille krav til "
 "leverandøren om at dette oppfylles."
 msgstr ""
+"Most requirements regarding case handling, security and access, user "
+"administration, etc. are optional. However, this does not mean that these "
+"requirements are less important, and that they can therefore be omitted. In "
+"many cases, the way in which the optional requirements are met will be "
+"dependent on which type of system an organisation chooses. Organisations "
+"that procure or develop solutions must decide which optional requirements "
+"they need to implement, and then ensure the software vendor implements the "
+"requirements."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:750
@@ -1430,6 +1445,9 @@ msgid ""
 "Noark 5 spesifiserer ikke et fullstendig system, og det gir derfor ingen "
 "mening å be om at alle obligatoriske krav oppfylles."
 msgstr ""
+"Before purchasing a Noark 5 system, a requirements specification should be "
+"drafted. Noark 5 does not specify a complete system, and it therefore makes "
+"no sense to request that all mandatory requirements must be met."
 
 #. type: Content of: <book><chapter><sect1><sect2><para><footnote><para>
 #: docbook/spesifikasjon-complete.xml:761
@@ -1439,6 +1457,10 @@ msgid ""
 "forvaltning-og-utvikling/noark-standarden/noark-5/godkjenningsordning-"
 "noark5</ulink>"
 msgstr ""
+"<ulink url=\"https://www.arkivverket.no/forvaltning-og-utvikling/"
+"noark-standarden/noark-5/godkjenningsordning-noark5\">https://www.arkivverket"
+".no/forvaltning-og-utvikling/noark-standarden/noark-5/godkjenningsordning-"
+"noark5</ulink>"
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:756
@@ -1448,11 +1470,16 @@ msgid ""
 "godkjenning, og hva en godkjenning innebærer, er nærmere beskrevet på "
 "Arkivverkets sider på Internett.<placeholder type=\"footnote\" id=\"0\"/>"
 msgstr ""
+"There is also no direct connection between mandatory requirements in the "
+"standard and the archive regulations' requirements for approved systems. The "
+"procedure for approval, and what an approval entails, is described in more "
+"detail on the National Archives' pages on the Internet.<placeholder type="
+"\"footnote\" id=\"0\"/>"
 
 #. type: Content of: <book><chapter><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:767
 msgid "Anskaffelse og utvikling av en Noark-løsning"
-msgstr ""
+msgstr "Acquisition and development of a Noark solution"
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:769

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
-"PO-Revision-Date: 2021-03-09 18:06+0000\n"
-"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
+"PO-Revision-Date: 2021-03-10 22:02+0000\n"
+"Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
 "Language: en\n"
@@ -323,7 +323,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:153
 msgid "Standardens virkeområde - journalføringsplikten"
-msgstr ""
+msgstr "Scope of the standard - record keeping obligations"
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:155
@@ -992,12 +992,12 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:549
 msgid "Løsninger for dokumenthåndtering"
-msgstr ""
+msgstr "Document management solutions"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:552
 msgid "Løsninger for dokumentasjonsforvaltning"
-msgstr ""
+msgstr "Solutions for documentation management"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:559
@@ -1011,12 +1011,12 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:564
 msgid "Hindrer at dokumentasjon endres, og har versjonskontroll"
-msgstr ""
+msgstr "Prevents documentation from changing and has version control"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:569
 msgid "Kan tillate at dokumenter slettes av dokumenteier"
-msgstr ""
+msgstr "Can allow documents to be deleted by the document owner"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:572
@@ -1024,6 +1024,8 @@ msgid ""
 "Hindrer at dokumentasjon slettes uten at det er skjer gjennom kontrollert, "
 "autorisert kassasjon"
 msgstr ""
+"Prevents documentation from being deleted unless it is subject to a "
+"controlled, authorised disposal"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:578
@@ -1031,6 +1033,8 @@ msgid ""
 "Kan inneholde noe kontroll over hvor lenge et dokument skal oppbevares og om "
 "det kan slettes"
 msgstr ""
+"May be subject to control regarding how long a document should be kept and "
+"whether it can be deleted"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:582
@@ -1038,11 +1042,14 @@ msgid ""
 "Rigorøs «retention control», det vil si løsningene skal ha funksjoner for å "
 "styre bevaring, migrasjon og kassasjon av dokumentasjon iht. fastsatte planer"
 msgstr ""
+"Rigorous \"retention control\", i.e., a solution has functionality to "
+"managing the preservation, migration and disposal of documentation in "
+"accordance with descriptions"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:589
 msgid "Kan inneholde strukturert dokumentlagring, som kan være brukerstyrt"
-msgstr ""
+msgstr "May contain structured document storage, which may be user controlled"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:593
@@ -1051,6 +1058,9 @@ msgid ""
 "kontekst (sammenhengen den ble skapt i), og som vedlikeholdes av autorisert "
 "administrator"
 msgstr ""
+"Archive structure utilising a classification system that associates "
+"documentation to context (the context in which it was created), and which is "
+"maintained by an authorised administrator"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:600
@@ -1058,6 +1068,8 @@ msgid ""
 "Har som primær funksjon å støtte den daglige produksjonen og bruken av "
 "dokumenter i løpende saksbehandling"
 msgstr ""
+"Its primary function is to support the daily production and use of documents "
+"in ongoing case handling"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:604
@@ -1065,6 +1077,8 @@ msgid ""
 "Støtter den daglige bruken av dokumenter i løpende saksbehandling, men skal "
 "også være et sikkert og troverdig arkiv for dokumentasjon."
 msgstr ""
+"Supports the daily use of documents in ongoing case handling, but should "
+"also be a secure and credible archive for documentation."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:613
@@ -1101,6 +1115,16 @@ msgid ""
 "spesialiserte løsninger og applikasjoner som tidligere ikke er blitt ansett "
 "som dokumentasjonsforvaltningssystemer."
 msgstr ""
+"Noark 5 defines requirements for an archive structure, metadata and "
+"functionality, but does not define a technical implementation of the "
+"requirements. The standard therefore does not define a system, or a type of "
+"system, but facilitates different solutions. The goal is to avoid the "
+"standard resulting in universal solutions used on all types of processes. It "
+"therefore defines some basic core requirements that are common to all "
+"documentation management solutions, and that are scalable and flexible. The "
+"requirements must thus be able to be built into specialized solutions and "
+"applications that have not previously been considered as documentation "
+"management systems."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:638
@@ -1491,6 +1515,13 @@ msgid ""
 "gjennom de kravene virksomheten gjennom en behovsanalyse finner ut at de må "
 "stille til det nye systemet."
 msgstr ""
+"A procurement or development of a solution that must meet the requirements "
+"for approval according to the Noark standard must be based on the users' "
+"needs. Noark 5 does not define a complete system for case handling and "
+"archiving, as Noark-4 did. The requirements in Noark 5 must be "
+"operationalized by the organistaion itself, based on the requirements the "
+"company defines from an analysis of the documentation and functionality "
+"requirements that the new system must support."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:778
@@ -1539,11 +1570,16 @@ msgid ""
 "spesifisere en hensiktsmessig løsning. Standarden kan bidra til å finne svar "
 "på noen dokumentasjonskrav, andre krav må man spesifisere selv."
 msgstr ""
+"Noark 5 is used as a basis for realizing these documentation requirements in "
+"a software solution. Some requirements become mandatory, others may be "
+"helpful in specifying an appropriate solution. The standard can help to find "
+"answers to some documentation requirements, other requirements must be "
+"specified yourself."
 
 #. type: Content of: <book><chapter><title>
 #: docbook/spesifikasjon-complete.xml:823
 msgid "Noark 5 datamodell"
-msgstr ""
+msgstr "Noark 5 data model"
 
 #. type: Content of: <book><chapter><para>
 #: docbook/spesifikasjon-complete.xml:825

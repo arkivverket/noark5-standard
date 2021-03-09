@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2020-03-14 08:45+0100\n"
-"PO-Revision-Date: 2021-02-27 14:50+0000\n"
-"Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
+"PO-Revision-Date: 2021-03-09 18:06+0000\n"
+"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
 "Language: en\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 
 #. type: Attribute 'lang' of: <book>
 #: docbook/spesifikasjon-complete.xml:4
@@ -1361,9 +1361,9 @@ msgid ""
 "&lt;løpenummer innen underkapittel&gt; (5.7.6 betyr f. eks. kapittel 5, "
 "underkapittel 7, og krav nr. 6)"
 msgstr ""
-"Requirements numbering is divided into & lt; chapter number & gt ;. & lt; "
-"subchapter number & gt ;, & lt; subchapter serial number & gt; (5.7.6 means, "
-"for example, chapter 5, subchapter 7, and requirement no. 6)"
+"Requirements numbering is divided into &lt; chapter number &gt;. &lt; "
+"subchapter number &gt;, &lt; subchapter serial number &gt; (5.7.6 means, for "
+"example, chapter 5, subchapter 7, and requirement no. 6)"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:709

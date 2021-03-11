@@ -67,6 +67,9 @@ po/spesifikasjon.pot: docbook/spesifikasjon-complete.xml
           -o attributes='href' \
 	  -f docbook -m docbook/spesifikasjon-complete.xml > $@.new && mv $@.new $@
 
+po/en.po po/nn.po: po/spesifikasjon.pot
+	po4a --no-translations po4a.cfg
+
 docbook/spesifikasjon-complete.%.xml: po/%.po docbook/spesifikasjon-complete.xml
 	po4a --translate-only $@ po4a.cfg
 

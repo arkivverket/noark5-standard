@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-12-21 11:10+0100\n"
+"POT-Creation-Date: 2021-03-11 21:26+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -704,31 +704,31 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:559
 msgid ""
 "Kan tillate at dokumenter endres og/eller finnes i flere versjoner uten at "
-"det er kontroll på hvilken versjon som er den endelige"
+"det er kontroll på hvilken versjon som er den endelige."
 msgstr ""
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:564
-msgid "Hindrer at dokumentasjon endres, og har versjonskontroll"
+msgid "Hindrer at dokumentasjon endres, og har versjonskontroll."
 msgstr ""
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:569
-msgid "Kan tillate at dokumenter slettes av dokumenteier"
+msgid "Kan tillate at dokumenter slettes av dokumenteier."
 msgstr ""
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:572
 msgid ""
 "Hindrer at dokumentasjon slettes uten at det er skjer gjennom kontrollert, "
-"autorisert kassasjon"
+"autorisert kassasjon."
 msgstr ""
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:578
 msgid ""
 "Kan inneholde noe kontroll over hvor lenge et dokument skal oppbevares og om "
-"det kan slettes"
+"det kan slettes."
 msgstr ""
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
@@ -736,12 +736,12 @@ msgstr ""
 msgid ""
 "Rigorøs «retention control», det vil si løsningene skal ha funksjoner for å "
 "styre bevaring, migrasjon og kassasjon av dokumentasjon iht. fastsatte "
-"planer"
+"planer."
 msgstr ""
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:589
-msgid "Kan inneholde strukturert dokumentlagring, som kan være brukerstyrt"
+msgid "Kan inneholde strukturert dokumentlagring, som kan være brukerstyrt."
 msgstr ""
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
@@ -749,14 +749,14 @@ msgstr ""
 msgid ""
 "Arkivstruktur med et klassifikasjonssystem som knytter dokumentasjon til "
 "kontekst (sammenhengen den ble skapt i), og som vedlikeholdes av autorisert "
-"administrator"
+"administrator."
 msgstr ""
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:600
 msgid ""
 "Har som primær funksjon å støtte den daglige produksjonen og bruken av "
-"dokumenter i løpende saksbehandling"
+"dokumenter i løpende saksbehandling."
 msgstr ""
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
@@ -21027,8 +21027,8 @@ msgstr ""
 msgid "M215"
 msgstr ""
 
-#. type: Content of: <book><appendix><sect1><sect2><sect3><informaltable><tgroup><tbody><row><entry>
-#: docbook/spesifikasjon-complete.xml:34436 docbook/spesifikasjon-complete.xml:38301 docbook/spesifikasjon-complete.xml:39139
+#. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
+#: docbook/spesifikasjon-complete.xml:34436 docbook/spesifikasjon-complete.xml:38301 docbook/spesifikasjon-complete.xml:39139 docbook/spesifikasjon-complete.xml:40161
 msgid "referanseAvskrivesAvJournalpost"
 msgstr ""
 
@@ -22410,7 +22410,7 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:37317
-msgid "elektroniskSignatur Sikkerhetsnivaa"
+msgid "elektroniskSignaturSikkerhetsnivaa"
 msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
@@ -22420,7 +22420,7 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:37336
-msgid "elektroniskSignatur Verifisert"
+msgid "elektroniskSignaturVerifisert"
 msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
@@ -22841,7 +22841,7 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39598
-msgid "referanseOverordnet Enhet"
+msgid "referanseOverordnetEnhet"
 msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
@@ -22971,12 +22971,7 @@ msgstr ""
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:40147
-msgid "referanseAvskriver Journalpost"
-msgstr ""
-
-#. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
-#: docbook/spesifikasjon-complete.xml:40161
-msgid "referanseAvskrivesAv Journalpost"
+msgid "referanseAvskriverJournalpost"
 msgstr ""
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>

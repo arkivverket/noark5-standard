@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-03-11 21:26+0100\n"
-"PO-Revision-Date: 2021-03-10 22:02+0000\n"
-"Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
-"Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/"
-">\n"
+"PO-Revision-Date: 2021-03-12 22:02+0000\n"
+"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
+"Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
+"\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,10 +30,8 @@ msgstr ""
 
 #. type: Content of: <book><bookinfo><subtitle>
 #: docbook/spesifikasjon-complete.xml:7
-#, fuzzy
-#| msgid "Noark 5 versjon 5.0"
 msgid "versjon 5.0"
-msgstr "Noark 5 version 5.0"
+msgstr "version 5.0"
 
 #. type: Content of: <book><bookinfo>
 #: docbook/spesifikasjon-complete.xml:8
@@ -1003,10 +1001,6 @@ msgstr "Solutions for documentation management"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:559
-#, fuzzy
-#| msgid ""
-#| "Kan tillate at dokumenter endres og/eller finnes i flere versjoner uten "
-#| "at det er kontroll på hvilken versjon som er den endelige"
 msgid ""
 "Kan tillate at dokumenter endres og/eller finnes i flere versjoner uten at "
 "det er kontroll på hvilken versjon som er den endelige."
@@ -19936,10 +19930,8 @@ msgstr "<emphasis role=\"strong\">File</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:21609
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Kravtabellen</emphasis>"
 msgid "<emphasis role=\"strong\">referanseAvskriverJournalpost</emphasis>"
-msgstr "<emphasis role = \"strong\"> Requirements tables </emphasis>"
+msgstr "<emphasis role=\"strong\">referanseAvskriverJournalpost</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:21617
@@ -19972,10 +19964,8 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:21744
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M216</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M216</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:21752
@@ -20269,17 +20259,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22563
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M227</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M227</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22571
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Kravtabellen</emphasis>"
 msgid "<emphasis role=\"strong\">referanseAvsluttetAv</emphasis>"
-msgstr "<emphasis role = \"strong\"> Requirements tables </emphasis>"
+msgstr "<emphasis role=\"strong\">referanseAvsluttetAv</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22579
@@ -20302,17 +20288,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22637
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M228</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M228</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22645
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">referanseArkivertAv</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">referanseArkivertAv</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22653
@@ -20327,38 +20309,28 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22708
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M229</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M229</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22716
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">referanseForelderMappe</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">referanseForelderMappe</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22724
-#, fuzzy
-#| msgid "referanseOverordnet Enhet"
 msgid "Referanse til overordnet mappe"
-msgstr "referanseOverordnetEnhet"
+msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22779
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M230</emphasis>"
 msgstr "<emphasis role=\"strong\">File</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22787
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">referanseEndretAv</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">referanseEndretAv</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22795
@@ -21498,10 +21470,8 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:25708
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">graderingskode</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">graderingskode</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:25716
@@ -21996,17 +21966,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26925
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M606</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M606</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26933
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">ansvarligEksport</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">ansvarligEksport</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26941
@@ -22040,17 +22006,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:27000
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M607</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M607</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:27008
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">eksportertDato</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">eksportertDato</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:27016
@@ -22075,17 +22037,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:27074
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M608</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M608</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:27082
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">antallMapperEksportert</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">antallMapperEksportert</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:27090
@@ -22109,17 +22067,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:27221
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M610</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M610</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:27229
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Kravtabellen</emphasis>"
 msgid "<emphasis role=\"strong\">antallDokumenterEksportert</emphasis>"
-msgstr "<emphasis role = \"strong\"> Requirements tables </emphasis>"
+msgstr "<emphasis role=\"strong\">antallDokumenterEksportert</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:27237
@@ -22576,17 +22530,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:28820
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M632</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M632</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:28828
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">oppdatertDato</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">oppdatertDato</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:28836
@@ -22607,17 +22557,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:28894
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M633</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M633</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:28902
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">oppdatertAv</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">oppdatertAv</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:28952
@@ -22778,17 +22724,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:29426
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M666</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M666</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:29434
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Kravtabellen</emphasis>"
 msgid "<emphasis role=\"strong\">fordeltTil</emphasis>"
-msgstr "<emphasis role = \"strong\"> Requirements tables </emphasis>"
+msgstr "<emphasis role=\"strong\">fordeltTil</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:29442
@@ -22805,17 +22747,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:29499
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M667</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M667</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:29507
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">fordeltAv</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">fordeltAv</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:29515
@@ -22825,17 +22763,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:29572
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M668</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M668</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:29580
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">fordeltDato</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">fordeltDato</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:29588
@@ -23044,17 +22978,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:30320
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M703</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M703</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:30328
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">tidligereFormat</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">tidligereFormat</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:30336
@@ -23069,17 +22999,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:30393
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M704</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M704</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:30401
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Kravtabellen</emphasis>"
 msgid "<emphasis role=\"strong\">tidligereFormatDetaljer</emphasis>"
-msgstr "<emphasis role = \"strong\"> Requirements tables </emphasis>"
+msgstr "<emphasis role=\"strong\">tidligereFormatDetaljer</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:30409
@@ -23162,17 +23088,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:30687
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M708</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M708</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:30695
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">sjekksumMetadata</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">sjekksumMetadata</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:30703
@@ -23184,17 +23106,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:30762
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M709</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M709</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:30770
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Kravtabellen</emphasis>"
 msgid "<emphasis role=\"strong\">sjekksumAvlevering</emphasis>"
-msgstr "<emphasis role = \"strong\"> Requirements tables </emphasis>"
+msgstr "<emphasis role=\"strong\">sjekksumAvlevering</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:30778
@@ -23300,17 +23218,13 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:31193
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">M716</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">M716</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:31201
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Mappe</emphasis>"
 msgid "<emphasis role=\"strong\">mimeType</emphasis>"
-msgstr "<emphasis role=\"strong\">File</emphasis>"
+msgstr "<emphasis role=\"strong\">mimeType</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:31209
@@ -25592,10 +25506,8 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:33121
-#, fuzzy
-#| msgid "referanseKlassifikasjonssystem"
 msgid "referanseSekundaerKlassifikasjon"
-msgstr "referanseKlassifikasjonssystem"
+msgstr "referanseSekundaerKlassifikasjon"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:33124
@@ -26353,8 +26265,6 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:38301
 #: docbook/spesifikasjon-complete.xml:39139
 #: docbook/spesifikasjon-complete.xml:40161
-#, fuzzy
-#| msgid "referanseAvskrives AvJournalpost"
 msgid "referanseAvskrivesAvJournalpost"
 msgstr "referanseAvskrivesAvJournalpost"
 
@@ -26850,10 +26760,8 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:35691
-#, fuzzy
-#| msgid "Type"
 msgid "mimeType"
-msgstr "Type"
+msgstr "mimeType"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:35710
@@ -27608,10 +27516,8 @@ msgstr "M506"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36887
-#, fuzzy
-#| msgid "graderingsdato"
 msgid "graderingskode"
-msgstr "graderingsdato"
+msgstr "graderingskode"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36903
@@ -27744,10 +27650,8 @@ msgstr "M056"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:37239
-#, fuzzy
-#| msgid "presedensStatus"
 msgid "presedensstatus"
-msgstr "presedensStatus"
+msgstr "presedensstatus"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:37258
@@ -27791,8 +27695,6 @@ msgstr "M507"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:37317
-#, fuzzy
-#| msgid "elektroniskSignatur Sikkerhetsnivaa"
 msgid "elektroniskSignaturSikkerhetsnivaa"
 msgstr "elektroniskSignaturSikkerhetsnivaa"
 
@@ -27803,8 +27705,6 @@ msgstr "M508"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:37336
-#, fuzzy
-#| msgid "elektroniskSignatur Verifisert"
 msgid "elektroniskSignaturVerifisert"
 msgstr "elektroniskSignaturVerifisert"
 
@@ -28246,8 +28146,6 @@ msgstr "M585"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39598
-#, fuzzy
-#| msgid "referanseOverordnet Enhet"
 msgid "referanseOverordnetEnhet"
 msgstr "referanseOverordnetEnhet"
 
@@ -28427,8 +28325,6 @@ msgstr "M214"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:40147
-#, fuzzy
-#| msgid "referanseAvskriver Journalpost"
 msgid "referanseAvskriverJournalpost"
 msgstr "referanseAvskriverJournalpost"
 

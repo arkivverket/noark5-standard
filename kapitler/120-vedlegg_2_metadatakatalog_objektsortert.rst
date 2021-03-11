@@ -10,7 +10,7 @@ Mange av metadataelementene i Noark 5 vil være identiske med attributter i Noar
 Forklaring på metadatatabellen i dette vedlegget:
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 0
 
  * - **Nr.**
@@ -84,7 +84,7 @@ Metadata for *arkiv*
 Merk: En og bare en av objekttypene *arkiv* eller *arkivdel* grupperes inn i *arkiv*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -160,7 +160,7 @@ Metadata for *arkivskaper*
 1-M forekomster av *arkivskaper* grupperes inn i 1-M forekomster av *arkiv*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -196,7 +196,7 @@ Metadata for *arkivdel*
 Merk: En og bare en av objekttypene *arkiv* eller *arkivdel* grupperes inn i *arkiv*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -298,7 +298,7 @@ Metadata for *klassifikasjonssystem*
 Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registrering* kan grupperes inn i *arkivdel*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -366,7 +366,7 @@ Metadata for *klasse*
 Merk: Bare en av objekttypene *klasse*, *mappe* eller *registrering* kan grupperes inn i *klasse*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -446,7 +446,7 @@ Merk: Bare en av objekttypene *mappe* eller *registrering* kan grupperes inn i *
 Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registrering* kan grupperes inn i *arkivdel*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -546,7 +546,7 @@ Metadata for *saksmappe*
 Spesialisering av: *mappe*
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -622,7 +622,7 @@ Metadata for *moetemappe*
 Spesialisering av: *mappe*
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -674,7 +674,7 @@ Metadata for *moetedeltaker*
 0-M forekomster av *moetedeltaker* grupperes inn i 1-M forekomst av *moetemappe*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -712,7 +712,7 @@ Merk: Bare en av objekttypene *klasse*, *mappe* eller *registrering* kan grupper
 Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registrering* kan grupperes inn i *arkivdel*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -818,7 +818,7 @@ Metadata for *korrespondansepart*
 0-M forekomster av *korrespondansepart* grupperes inn i 0-M forekomster av *registrering*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -900,7 +900,7 @@ Metadata for *journalpost*
 Spesialisering av: *registrering*
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1008,7 +1008,7 @@ Metadata for *avskrivning*
 Merk: Grupperes inn in den journalposten som avskrives.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1048,7 +1048,7 @@ Metadata for *arkivnotat*
 Spesialisering av: *registrering*
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1114,7 +1114,7 @@ Metadata for *dokumentflyt*
 0-M forekomster av *dokumentflyt* grupperes inn i 1 forekomst av *arkivnotat*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1226,7 +1226,7 @@ Metadata for *dokumentbeskrivelse*
 Merk: En *dokumentbeskrivelse* kan være knyttet til mer enn én enkelt *registrering*. Det kan blant annet bety at et dokument er hoveddokument i en journalpost og vedlegg i en annen.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1334,7 +1334,7 @@ Metadata for *sletting*
 Merk: Angir at dokumentobjektet som refererer til en eldre versjon av et opprinnelig arkivert dokument, eller en arkivert variant av dokumentet, er blitt slettet. Sletting av produksjonsformater skal ikke tas med i en avlevering.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1368,7 +1368,7 @@ Metadata for *dokumentobjekt*
 0-M forekomster av *dokumentobjekt* grupperes inn i 1 forekomst av *dokumentbeskrivelse*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1456,7 +1456,7 @@ Metadata for *konvertering*
 0-M forekomster av *konvertering* grupperes inn i 1 forekomst av *dokumentobjekt*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1519,7 +1519,7 @@ Merk: En forekomst av *kryssreferanse* grupperes inn i en og bare en forekomst a
 Merk: Referansen kan gå fra en *klasse* til en annen *klasse*, fra en *mappe* til en annen *mappe*, fra en *registrering* til en annen *registrering*, fra en *mappe* til en *registrering* og fra en *registrering* til en *mappe*. Kryssreferansen vil også omfatte spesialiseringer av mapper. En kryssreferanse kan derfor gå fra en *moetemappe* til en *saksmappe*. Kryssreferanser grupperes inn i de arkivenhetene det refereres **fra**.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1557,7 +1557,7 @@ Metadata for *merknad*
 0-M forekomster av *merknad* grupperes inn i 0-M forekomst av *dokumentbeskrivelse*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1601,7 +1601,7 @@ Metadata for *part*
 0-M forekomster av *part* grupperes inn i 0-M forekomster av *dokumentbeskrivelse*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1697,7 +1697,7 @@ Metadata om kassasjon skal bare følge med i de arkivenhetene som har et kassasj
 Ved avlevering skal metadata om kassasjon arves til (kopieres inn i) alle underliggende nivåer i arkivstrukturen. Dersom en underliggende arkivenhet skal bevares, skal den ikke ha metadata om kassasjon, og ikke heller de underliggende arkivenhetene.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1741,7 +1741,7 @@ Metadata for *utfoertKassasjon*
 Merk: Ved kassasjon av dokumenter blir dokumentobjektet slettet. Sletting som ikke er et resultat av kassasjon, skal registreres som *sletting* over.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1783,7 +1783,7 @@ Metadata om skjerming skal bare følge med i de arkivenhetene som inneholder inf
 Ved avlevering skal metadata om skjerming være gruppert inn i alle nivåer i arkivstrukturen hvor informasjonen skal være skjermet.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1845,7 +1845,7 @@ Metadata for *gradering*
 Ved avlevering skal metadata om gradering være gruppert inn i alle nivåer i arkivstrukturen hvor informasjonen er gradert.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1893,7 +1893,7 @@ Metadata for *presedens*
 0-M forekomster av *presedens* grupperes inn i 0-M forekomster av *journalpost*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -1987,7 +1987,7 @@ Metadata for *elektroniskSignatur*
 Merk: Elektronisk signatur knyttes til dokumentobjektet i tillegg til dokumentbeskrivelsen i de tilfeller der det er nødvendig i presisere hvilken av dokumentfilene som er signert. Elektronisk signatur knyttes til journalpost hvis en samlet forsendelse er påført en signatur.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2039,7 +2039,7 @@ Metadata for *endring*
 Nærmere spesifikasjon av hvilke endringer som skal logges, følger som et eget vedlegg.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2098,7 +2098,7 @@ Metadata for *journalhode*
 1 forekomst av *journalhode* grupperes inn i 1 forekomst av *loependeJournal*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2138,7 +2138,7 @@ Metadata for *arkivskaper*
 1-M forekomster av *arkivskaper* grupperes inn i 1 forekomster av *journalhode*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2177,7 +2177,7 @@ Metadata for *klasse*
 0-1 forekomster av *klasse* grupperes inn i 1 forekomst av *journalregistrering*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2211,7 +2211,7 @@ Metadata for *saksmappe*
 1 forekomst av *saksmappe* grupperes inn i 1 forekomst av *journalregistrering*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2257,7 +2257,7 @@ Metadata for *journalpost*
 1 forekomst av *journalpost* grupperes inn i 1 forekomst av *journalregistrering*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2363,7 +2363,7 @@ Metadata for *korrespondansepart*
 1-M forekomster av *korrespondansepart* grupperes inn i 1 forekomst av *registrering*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2404,7 +2404,7 @@ Metadata for *journalhode*
 1 forekomst av *journalhode* grupperes inn i 1 forekomst av *offentligJournal*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2444,7 +2444,7 @@ Metadata for *arkivskaper*
 1-M forekomster av *arkivskaper* grupperes inn i 1 forekomster av *journalhode*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2483,7 +2483,7 @@ Metadata for *klasse*
 0-1 forekomster av *klasse* grupperes inn i 1 forekomst av *journalregistrering*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2511,7 +2511,7 @@ Metadata for *saksmappe*
 1 forekomst av *saksmappe* grupperes inn i 1 forekomst av *journalregistrering*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2545,7 +2545,7 @@ Metadata for *journalpost*
 1 forekomst av *journalpost* grupperes inn i 1 forekomst av *journalregistrering*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2645,7 +2645,7 @@ Metadata for *korrespondansepart*
 1-M forekomster av *korrespondansepart* grupperes inn i 1 forekomst av *registrering*.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2676,7 +2676,7 @@ Metadata for *brukeradministrasjon*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**
@@ -2728,7 +2728,7 @@ Metadata for *administrativEnhet*
 Metadata for administrasjonsstruktur skal ikke avleveres, men skal kunne migreres mellom systemer. Slik migrering kan omfatte flere metadata enn det som er listet opp her.
 
 .. list-table::
-   :widths: 2 10 6 2 1 8
+   :widths: 2 11 6 2 1 7
    :header-rows: 1
 
  * - **Nr.**

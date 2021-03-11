@@ -45,6 +45,12 @@ avledet/spesifikasjon.pdf: docbook images
 	#xmlto --with-fop pdf docbook/spesifikasjon.xml
 	#xmlto --with-dblatex pdf docbook/spesifikasjon.xml
 	dblatex $(DBLATEX_OPTS) -o avledet/spesifikasjon.pdf docbook/spesifikasjon.xml
+
+avledet/spesifikasjon.%.pdf: docbook/spesifikasjon-complete.%.xml
+	#xmlto --with-fop pdf docbook/spesifikasjon.xml
+	#xmlto --with-dblatex pdf docbook/spesifikasjon.xml
+	dblatex $(DBLATEX_OPTS) -o $@ $^
+
 html: avledet/spesifikasjon.html
 avledet/spesifikasjon.html: docbook images
 	xmlto -o avledet/ html-nochunks docbook/spesifikasjon.xml
@@ -52,6 +58,20 @@ avledet/spesifikasjon.html: docbook images
 epub: avledet/spesifikasjon.epub
 avledet/spesifikasjon.epub: docbook images
 	dbtoepub -o $@ docbook/spesifikasjon.xml
+
+docbook/spesifikasjon-complete.xml: docbook
+	xmllint --xinclude --nonet docbook/spesifikasjon.xml > $@.new && mv $@.new $@
+
+po/spesifikasjon.pot: docbook/spesifikasjon-complete.xml
+	po4a-gettextize \
+          -o attributes='href' \
+	  -f docbook -m docbook/spesifikasjon-complete.xml > $@.new && mv $@.new $@
+
+docbook/spesifikasjon-complete.%.xml: po/%.po docbook/spesifikasjon-complete.xml
+	po4a --translate-only $@ po4a.cfg
+
+stats:
+	for po in po/*.po; do printf "%s " $$po; msgfmt --output /dev/null --statistics $$po; done
 
 # Rules useful for checking out the docx based documents
 .docx.pdf:

@@ -127,16 +127,17 @@ Dokumentasjonsforvaltningen skiller seg dermed fra en noe enklere dokumenthåndt
    :widths: 1 1
    :header-rows: 1
 
- * - Løsninger for dokumenthåndtering.
-   - Løsninger for dokumentasjonsforvaltning.
+ * - Løsninger for dokumenthåndtering
+   - Løsninger for dokumentasjonsforvaltning
  * - Kan tillate at dokumenter endres og/eller finnes i flere versjoner uten at det er kontroll på hvilken versjon som er den endelige.
    - Hindrer at dokumentasjon endres, og har versjonskontroll.
  * - Kan tillate at dokumenter slettes av dokumenteier.
    - Hindrer at dokumentasjon slettes uten at det er skjer gjennom kontrollert, autorisert kassasjon.
  * - Kan inneholde noe kontroll over hvor lenge et dokument skal oppbevares og om det kan slettes.
-   - Rigorøs «retention control», det vil si løsningene skal ha funksjoner for å styre bevaring, migrasjon og kassasjon av dokumentasjon iht. fastsatte planer.
- * - Kan inneholde strukturert dokumentlagring, som kan være brukerstyrt
-   - Arkivstruktur med et klassifikasjonssystem som knytter dokumentasjon til kontekst (sammenhengen den ble skapt i), og som vedlikeholdes av autorisert administrator
+   - Rigorøs «retention control», det vil si løsningene skal ha funksjoner for å styre bevaring, migrasjon og kassasjon av dokumentasjon  iht. fastsatte planer.
+ * - Kan inneholde strukturert dokumentlagring, som kan være brukerstyrt.
+   - Arkivstruktur med et klassifikasjonssystem som knytter dokumentasjon til kontekst (sammenhengen den ble skapt i), og som  vedlikeholdes av autorisert administrator.
+
  * - Har som primær funksjon å støtte den daglige produksjonen og bruken av dokumenter i løpende saksbehandling.
    - Støtter den daglige bruken av dokumenter i løpende saksbehandling, men skal også være et sikkert og troverdig arkiv for dokumentasjon.
 

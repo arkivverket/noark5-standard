@@ -1997,13 +1997,13 @@ Merk: Elektronisk signatur knyttes til dokumentobjektet i tillegg til dokumentbe
    - **Avl.**
    - **Datatype**
  * - M507
-   - elektroniskSignatur Sikkerhetsnivaa
+   - elektroniskSignaturSikkerhetsnivaa
    - 
    - 1
    - A
    - Tekststreng
  * - M508
-   - elektroniskSignatur Verifisert
+   - elektroniskSignaturVerifisert
    - 
    - 1
    - A
@@ -2768,7 +2768,7 @@ Metadata for administrasjonsstruktur skal ikke avleveres, men skal kunne migrere
    - 
    - Tekststreng
  * - M585
-   - referanseOverordnet Enhet
+   - referanseOverordnetEnhet
    - (AI.IDFAR)
    - 0-1
    - 

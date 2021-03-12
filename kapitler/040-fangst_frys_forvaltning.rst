@@ -762,8 +762,7 @@ Restanselisten er ment å gi en leder informasjon om hvordan restansesituasjonen
      - *administrativEnhet* (Her bør det kunne angis om underliggende
        enheter skal inkluderes).
      - *avskrivingsmåte* (Her bør det kunne velges mellom *uavskrevne
-       dokumente*r og *uavskrevne* og *foreløpig avskrevne dokumenter*
-       (verdi ***).
+       dokumenter*, *avskrevne dokumenter* og *foreløpig avskrevne dokumenter*).
      - *kopimottaker*. Det bør kunne angis om kopimottakere skal
        inkluderes eller ikke.
    - V

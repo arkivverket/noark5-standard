@@ -821,23 +821,7 @@ Nøkkelord
 
 Det bør være mulig å føye ett eller flere nøkkelord til en *klasse*, en *mappe* eller en *registrering*. Nøkkelord må ikke blandes sammen med fasettert klassifikasjon basert på emneord. Mens *klassifikasjonen* normalt skal gi informasjon om dokumentets *kontekst* (hvilken funksjon som har skapt dokumentet), kan *nøkkelordene* brukes til å si noe om dokumentets *innhold*. Hensikten med nøkkelord er å forbedre søkemulighetene for en klasse, mappe eller registrering. Nøkkelord kan knyttes til en kontrollert ordliste (tesaurus). Det er ikke obligatorisk å implementere nøkkelord.
 
-Nøkkelord består bare av ett metadataelement: *M022 noekkelord*, og er derfor ikke definert som et eget objekt men plassert direkte i tabellene for de aktuelle arkivenhetene.
-
 Nøkkelord er valgfritt, og kan forekomme en eller flere ganger i klasse, mappe eller registrering.
-
-.. list-table:: **Funksjonelle krav til nøkkelord**
-   :widths: 1 8 1 4
-   :header-rows: 1
-
- * - Krav nr.
-   - Funksjonelle krav til *nøkkelord*
-   - Type
-   - Merknad
- * - 2.8.3
-   - Det bør finnes en tjeneste/funksjon for å knytte ett eller flere
-     nøkkelord til klasser, mapper og registreringer.
-   - V
-   - 
 
 Kryssreferanse
 ~~~~~~~~~~~~~~

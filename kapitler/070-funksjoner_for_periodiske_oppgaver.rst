@@ -660,8 +660,7 @@ Hele klassifikasjonsstrukturen skal tas med i uttrekket, også klasser som er "u
      
      Dokumentene skal ligge i en underkatalog kalt **DOKUMENT**. Denne
      katalogen kan struktureres i nye underkataloger etter fritt
-     valg. Dokumentfilene endelse skal angi arkivformat: **pdf**,
-     **tif**, **txt** osv.
+     valg. 
    - B
    - Obligatorisk ved avlevering til arkivdepot.
 

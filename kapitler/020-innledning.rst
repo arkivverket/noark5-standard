@@ -12,7 +12,7 @@ Historikk
 
 Noark (Norsk arkivsystem) ble opprinnelig utarbeidet som en kravspesifikasjon for elektroniske journalsystemer i statsforvaltningen i 1984, og den etablerte seg raskt som de facto standard. Den ble videreutviklet med nye rapporter i 1987 (Noark-2) og 1994 (Noark-3). Videreutviklingen omfattet dels modernisering i tråd med den teknologiske utviklingen, dels utvidelser i systemenes informasjonsinnhold og funksjonalitet.
 
-I 1995 ble det utarbeidet en tilsvarende kravspesifikasjon for kommunal sektor. Koark bygde på samme prinsipper som Noark, men hadde en del tillegg spesielt tilpasset kommunens behov, som f. eks. politisk saksbehandling i en egen møte- og utvalgsmodul.
+I 1995 ble det utarbeidet en tilsvarende kravspesifikasjon for kommunal sektor. Koark bygde på samme prinsipper som Noark, men hadde en del tillegg spesielt tilpasset kommunens behov, som f.eks. politisk saksbehandling i en egen møte- og utvalgsmodul.
 
 Noark-4, som kom i 1999, inkluderte spesifikasjonene i Koark og ble en felles standard for offentlig forvaltning. Noark-4 førte standarden et langt skritt videre ved å spesifisere et fullstendig elektronisk arkivsystem, integrert med e-post og generelle saksbehandlingssystemer.
 
@@ -136,7 +136,7 @@ Dokumentasjonsforvaltningen skiller seg dermed fra en noe enklere dokumenthåndt
  * - Kan inneholde noe kontroll over hvor lenge et dokument skal oppbevares og om det kan slettes.
    - Rigorøs «retention control», det vil si løsningene skal ha funksjoner for å styre bevaring, migrasjon og kassasjon av dokumentasjon  iht. fastsatte planer.
  * - Kan inneholde strukturert dokumentlagring, som kan være brukerstyrt.
-   - Arkivstruktur med et klassifikasjonssystem som knytter dokumentasjon til kontekst (sammenhengen den ble skapt i), og som  vedlikeholdes av autorisert administrator.
+   - Arkivstruktur med et klassifikasjonssystem som knytter dokumentasjon til kontekst (sammenhengen den ble skapt i), og som vedlikeholdes av autorisert administrator.
  * - Har som primær funksjon å støtte den daglige produksjonen og bruken av dokumenter i løpende saksbehandling.
    - Støtter den daglige bruken av dokumenter i løpende saksbehandling, men skal også være et sikkert og troverdig arkiv for dokumentasjon.
 

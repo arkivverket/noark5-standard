@@ -1,0 +1,12 @@
+Arkivenhet: punkt
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Høyden til et geografisk punkt
+Gruppe: Nasjonale identifikatorer
+Kilde:
+Kommentarer: Høyde avhenger av koordinatsystemet (f.eks. høyde over havet eller høyde vs. overflaten).
+Navn: z-koordinat
+Nr: M042
+X: true

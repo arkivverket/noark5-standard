@@ -1,12 +1,12 @@
-Arkivenhet: mappe, registrering
+Arkivenhet: part, korrespondansepart
 Arv: Nei
 Avleveres: A
 Betingelser:
-Datatype: Heltall
-Definisjon: Et nisifferet registreringsnummer som tildeles av Enhetsregistret ved Brønnøysundregistrene til organisasjoner som opptrer som offentlige aktører.
+Datatype: Tekststreng
+Definisjon: Entydig identifikasjon av en organisasjon
 Gruppe: Nasjonale identifikatorer
 Kilde:
-Kommentarer: NB! Ikke tatt i bruk
-Navn: organisasjonsnummer
+Kommentarer: For norske organisasjoner, organisasjonsnummer som definert i Enhetsregisteret. For utenlandske organisasjoner, firesifret landkode i hht. ISO 6523 etterfulgt av kolon, etterfulgt av nasjonal organisasjons-identifikator.
+Navn: organisasjonsID
 Nr: M037
 X: true

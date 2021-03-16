@@ -1,12 +1,12 @@
-Arkivenhet: mappe, registrering
+Arkivenhet: part, korrespondansepart
 Arv: Nei
 Avleveres: A
 Betingelser:
-Datatype: Heltall
-Definisjon: Et ellevesiffret registreringsnummer som tildeles alle som er bosatt i Norge og innført i folkeregistret.
+Datatype: Tekststreng
+Definisjon: Entydig identifikasjon av en person
 Gruppe: Nasjonale identifikatorer
 Kilde:
-Kommentarer: NB! Ikke tatt i bruk
-Navn: foedselsnummer
+Kommentarer: For norske eller utenlandske personer med midlertidig opphold i Norge, fødselsnummer eller d-nummer fra Folkeregisteret. For utenlandske personer, to-bokstavers landkode i hht. ISO 3166 etterfulgt av skråstrek etterfulgt av nasjonal person-identifikator.
+Navn: personID
 Nr: M035
 X: true

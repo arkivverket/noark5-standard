@@ -1,0 +1,12 @@
+Arkivenhet: planident
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Entydig identifikasjon for en plan innen en kommune eller et fylke
+Gruppe: Nasjonale identifikatorer
+Kilde:
+Kommentarer: Jf. pbl. 1985 § 18, § 19-1 sjette ledd, § 20-1 andre og femte ledd og § 22 og § 28-2/pbl. §§ 6-4, 8-1, 9-1, 11-1 og § 12-1, samt kart- og planforskriften § 9 andre og sjette ledd
+Navn: planidentifikasjon
+Nr: M039
+X: true

@@ -1,0 +1,12 @@
+Arkivenhet: planident
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Heltall
+Definisjon: To-sifret kode som entydig identifiserer et fylke
+Gruppe: Nasjonale identifikatorer
+Kilde:
+Kommentarer:
+Navn: fylkesnummer
+Nr: M037
+X: true

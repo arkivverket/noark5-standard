@@ -3,10 +3,10 @@ Arv: Nei
 Avleveres: A
 Betingelser:
 Datatype: Tekststreng
-Definisjon: Entydig identifikasjon av en kommune
+Definisjon: Firesifret kode som entydig identifiserer en kommune
 Gruppe: Nasjonale identifikatorer
 Kilde:
-Kommentarer: Et firesifret nummer der de to første identifiserer fylke og de to siste identifiserer kommunen innefor fylket.
+Kommentarer: De to første sifrene identifiserer fylke og de to siste identifiserer kommunen innefor fylket. Tildeles av SSB.
 Navn: kommunenummer
 Nr: M030
 X: true

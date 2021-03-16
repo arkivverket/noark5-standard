@@ -1,12 +1,12 @@
-Arkivenhet: mappe, registrering
+Arkivenhet: matrikkelnummer
 Arv: Nei
 Avleveres: A
 Betingelser:
 Datatype: Heltall
-Definisjon: Nummeret på en gårdsenhet i matrikkelen, er unikt innenfor hver kommune.
+Definisjon: Entydig dentifikasjon av en gårdsenhet innenfor en kommune.
 Gruppe: Nasjonale identifikatorer
 Kilde:
-Kommentarer: NB! Ikke tatt i bruk
+Kommentarer: SOSI-format-navn/datatype/lengde: GNR/H/5.
 Navn: gaardsnummer
 Nr: M031
 X: true

@@ -6,7 +6,7 @@ Datatype: Heltall
 Definisjon: Fortløpende nummerering av fester under gårdsnummer/bruksnummer
 Gruppe: Nasjonale identifikatorer
 Kilde:
-Kommentarer: Underoppdeling under bruksnummer, angir enheter som kan omsettes og pantsettes. Del av matrikkelnummeret som identifiserer festegrunn (tomt). Tas i bruk når et bruksnummer skal deles opp i flere grunneiendommer. SOSI-format-navn/datatype/lengde: FNR/H/4.
+Kommentarer: "Underoppdeling under bruksnummer, angir enheter som kan omsettes og pantsettes. Del av matrikkelnummeret som identifiserer festegrunn (tomt). Tas i bruk når et bruksnummer skal deles opp i flere grunneiendommer. SOSI-format-navn/datatype/lengde: FNR/H/4."
 Navn: festenummer
 Nr: M033
 X: true

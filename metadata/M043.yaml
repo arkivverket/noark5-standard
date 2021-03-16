@@ -1,0 +1,12 @@
+Arkivenhet: punkt
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: Tekststreng
+Definisjon: Geografiske koordinaters referansesystem
+Gruppe: Nasjonale identifikatorer
+Kilde:
+Kommentarer: Koordinatsystem for geografisk punkt, flate etc. Normalt en kode angitt som EPSG:nnnnn hvor nnnnn er 32632 (Sør-Norge), 32632 (Nord-Norge, Norge generelt) og 32635 (Finnmark). Kan også være en kode som EUREFSonenn der nn normalt er 32, 33 eller 35.
+Navn: koordinatsystem
+Nr: M043
+X: true

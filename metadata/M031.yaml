@@ -3,7 +3,7 @@ Arv: Nei
 Avleveres: A
 Betingelser:
 Datatype: Heltall
-Definisjon: Entydig dentifikasjon av en gårdsenhet innenfor en kommune.
+Definisjon: Nummerering av gårdsenhet i matrikkelen, nummeret er unikt innenfor kommunen
 Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer: SOSI-format-navn/datatype/lengde: GNR/H/5.

@@ -471,9 +471,9 @@ Nasjonale identifikatorer
  * - **Navn**
    - **kommunenummer**
  * - **Definisjon**
-   - Et firesifferet nummer som er unikt for hver kommune i Norge. De to første siffrene angir fylke, de to siste er løpende innenfor hvert fylke.
+   - Firesifret kode som entydig identifiserer en kommune
  * - **Arkivenhet**
-   - mappe, registrering
+   - matrikkelnummer, planident
  * - **Kilde**
    - 
  * - **Arv**
@@ -481,7 +481,7 @@ Nasjonale identifikatorer
  * - **Betingelser**
    - 
  * - **Kommentarer**
-   - NB! Ikke tatt i bruk
+   - De to første sifrene identifiserer fylke og de to siste identifiserer kommunen innefor fylket. Tildeles av SSB.
 
 .. list-table::
    :widths: 2 6
@@ -492,9 +492,9 @@ Nasjonale identifikatorer
  * - **Navn**
    - **gaardsnummer**
  * - **Definisjon**
-   - Nummeret på en gårdsenhet i matrikkelen, er unikt innenfor hver kommune.
+   - Nummerering av gårdsenhet i matrikkelen, nummeret er unikt innenfor kommunen
  * - **Arkivenhet**
-   - mappe, registrering
+   - matrikkelnummer
  * - **Kilde**
    - 
  * - **Arv**
@@ -502,7 +502,7 @@ Nasjonale identifikatorer
  * - **Betingelser**
    - 
  * - **Kommentarer**
-   - NB! Ikke tatt i bruk
+   - SOSI-format-navn/datatype/lengde: GNR/H/5.
 
 .. list-table::
    :widths: 2 6
@@ -513,9 +513,9 @@ Nasjonale identifikatorer
  * - **Navn**
    - **bruksnummer**
  * - **Definisjon**
-   - Undernummer under en matrikkelgård, som har blitt delt opp i mindre enheter.
+   - Fortløpende nummerering av bruk under gårdsnummer
  * - **Arkivenhet**
-   - mappe, registrering
+   - matrikkelnummer
  * - **Kilde**
    - 
  * - **Arv**
@@ -523,7 +523,7 @@ Nasjonale identifikatorer
  * - **Betingelser**
    - 
  * - **Kommentarer**
-   - NB! Ikke tatt i bruk
+   - SOSI-format-navn/datatype/lengde: BNR/H/4
 
 .. list-table::
    :widths: 2 6
@@ -534,9 +534,9 @@ Nasjonale identifikatorer
  * - **Navn**
    - **festenummer**
  * - **Definisjon**
-   - Underoppdeling under bruksnummer, angir enheter som kan omsettes og pantsettes.
+   - Fortløpende nummerering av fester under gårdsnummer/bruksnummer
  * - **Arkivenhet**
-   - mappe, registrering
+   - matrikkelnummer
  * - **Kilde**
    - 
  * - **Arv**
@@ -544,7 +544,7 @@ Nasjonale identifikatorer
  * - **Betingelser**
    - 
  * - **Kommentarer**
-   - NB! Ikke tatt i bruk
+   - Underoppdeling under bruksnummer, angir enheter som kan omsettes og pantsettes. Del av matrikkelnummeret som identifiserer festegrunn (tomt). Tas i bruk når et bruksnummer skal deles opp i flere grunneiendommer. SOSI-format-navn/datatype/lengde: FNR/H/4.
 
 .. list-table::
    :widths: 2 6
@@ -555,9 +555,9 @@ Nasjonale identifikatorer
  * - **Navn**
    - **seksjonsnummer**
  * - **Definisjon**
-   - Underoppdeling under bruksnummer, angir enheter som kan omsettes og selges. Typisk i leilighetesbygg i flere etasjer, forretningsgårder eller en blanding av forretninger og leiligheter.
+   - Fortløpende nummerering av seksjoner under gårdsnummer/bruksnummer og eventuelt festenummer
  * - **Arkivenhet**
-   - mappe, registrering
+   - matrikkelnummer
  * - **Kilde**
    - 
  * - **Arv**
@@ -565,7 +565,7 @@ Nasjonale identifikatorer
  * - **Betingelser**
    - 
  * - **Kommentarer**
-   - NB! Ikke tatt i bruk
+   - Underoppdeling under bruksnummer, angir enheter som kan omsettes og selges. Typisk i leilighetesbygg i flere etasjer, forretningsgårder eller en blanding av forretninger og leiligheter. SOSI-format-navn/datatype/lengde: SNR/H/3.
 
 .. list-table::
    :widths: 2 6
@@ -574,11 +574,11 @@ Nasjonale identifikatorer
  * - **Nr**
    - **M035**
  * - **Navn**
-   - **foedselsnummer**
+   - **bygningsnummer**
  * - **Definisjon**
-   - Et ellevesiffret registreringsnummer som tildeles alle som er bosatt i Norge og innført i folkeregistret.
+   - Entydig identifikasjon av bygning i matrikkelen
  * - **Arkivenhet**
-   - mappe, registrering
+   - byggident
  * - **Kilde**
    - 
  * - **Arv**
@@ -586,7 +586,7 @@ Nasjonale identifikatorer
  * - **Betingelser**
    - 
  * - **Kommentarer**
-   - NB! Ikke tatt i bruk
+   - Bygningsnumrene er unike på landsbasis, og tildeles automatisk. SOSI-format-navn/datatype/lengde: BYGGNR/H/9
 
 .. list-table::
    :widths: 2 6
@@ -595,11 +595,11 @@ Nasjonale identifikatorer
  * - **Nr**
    - **M036**
  * - **Navn**
-   - **dNummer**
+   - **endringsloepenummer**
  * - **Definisjon**
-   - Et midlertidig ellevesiffret registreringsnummer som tildeles utenlandske statsborgere som ennå ikke har fått fødselsnummer
+   - Entydig identifikasjon av endring av bygning i matrikkelen
  * - **Arkivenhet**
-   - mappe, registrering
+   - byggident
  * - **Kilde**
    - 
  * - **Arv**
@@ -607,7 +607,7 @@ Nasjonale identifikatorer
  * - **Betingelser**
    - 
  * - **Kommentarer**
-   - NB! Ikke tatt i bruk
+   - Løpende nummerering av bygningsendringer til en bygning. SOSI-format-navn/datatype/lengde: BYGN_ENDR_LØPENR/H/2 Denne kan utelates når det kun er bygningen som skal identifiseres.
 
 .. list-table::
    :widths: 2 6
@@ -616,11 +616,11 @@ Nasjonale identifikatorer
  * - **Nr**
    - **M037**
  * - **Navn**
-   - **organisasjonsnummer**
+   - **fylkesnummer**
  * - **Definisjon**
-   - Et nisifferet registreringsnummer som tildeles av Enhetsregistret ved Brønnøysundregistrene til organisasjoner som opptrer som offentlige aktører.
+   - To-sifret kode som entydig identifiserer et fylke
  * - **Arkivenhet**
-   - mappe, registrering
+   - planident
  * - **Kilde**
    - 
  * - **Arv**
@@ -628,7 +628,175 @@ Nasjonale identifikatorer
  * - **Betingelser**
    - 
  * - **Kommentarer**
-   - NB! Ikke tatt i bruk
+   - 
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M038**
+ * - **Navn**
+   - **landkode**
+ * - **Definisjon**
+   - Entydig identifikasjon av et land
+ * - **Arkivenhet**
+   - part, korrespondansepart, planident
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - To-bokstavs kode i hht. ISO 3166
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M039**
+ * - **Navn**
+   - **planidentifikasjon**
+ * - **Definisjon**
+   - Entydig identifikasjon for en plan innen en kommune eller et fylke
+ * - **Arkivenhet**
+   - planident
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - Jf. pbl. 1985 § 18, § 19-1 sjette ledd, § 20-1 andre og femte ledd og § 22 og § 28-2/pbl. §§ 6-4, 8-1, 9-1, 11-1 og § 12-1, samt kart- og planforskriften § 9 andre og sjette ledd
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M040**
+ * - **Navn**
+   - **x-koordinat**
+ * - **Definisjon**
+   - Østlig koordinat for et geografisk punkt
+ * - **Arkivenhet**
+   - punkt
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - Østlig UTM-koordinat for et punkt, definisjonen er avhengig av valgt koordinatsystem.
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M041**
+ * - **Navn**
+   - **y-koordinat**
+ * - **Definisjon**
+   - Nordlig koordinat for et geografisk punkt
+ * - **Arkivenhet**
+   - punkt
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - Nordlig UTM-koordinat for et punkt, definisjonen er avhengig av valgt koordinatsystem.
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M042**
+ * - **Navn**
+   - **z-koordinat**
+ * - **Definisjon**
+   - Høyden til et geografisk punkt
+ * - **Arkivenhet**
+   - punkt
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - Høyde avhenger av koordinatsystemet (f.eks. høyde over havet eller høyde vs. overflaten).
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M043**
+ * - **Navn**
+   - **koordinatsystem**
+ * - **Definisjon**
+   - Geografiske koordinaters referansesystem
+ * - **Arkivenhet**
+   - punkt
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - Koordinatsystem for geografisk punkt, flate etc. Normalt en kode angitt som EPSG:nnnnn hvor nnnnn er 32632 (Sør-Norge), 32632 (Nord-Norge, Norge generelt) og 32635 (Finnmark). Kan også være en kode som EUREFSonenn der nn normalt er 32, 33 eller 35.
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M048**
+ * - **Navn**
+   - **personID**
+ * - **Definisjon**
+   - Entydig identifikasjon av en person
+ * - **Arkivenhet**
+   - part, korrespondansepart
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - For norske eller utenlandske personer med midlertidig opphold i Norge, fødselsnummer eller d-nummer fra Folkeregisteret. For utenlandske personer, to-bokstavers landkode i hht. ISO 3166 etterfulgt av skråstrek etterfulgt av nasjonal person-identifikator.
+
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M049**
+ * - **Navn**
+   - **organisasjonsID**
+ * - **Definisjon**
+   - Entydig identifikasjon av en organisasjon
+ * - **Arkivenhet**
+   - part, korrespondansepart
+ * - **Kilde**
+   - 
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - 
+ * - **Kommentarer**
+   - For norske organisasjoner, organisasjonsnummer fra Enhetsregisteret. For utenlandske organisasjoner, firesifret landkode i hht. ISO 6523 etterfulgt av kolon etterfulgt av nasjonal organisasjons-identifikator.
 
 
 Status

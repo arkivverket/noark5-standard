@@ -1,12 +1,12 @@
-Arkivenhet: mappe, registrering
+Arkivenhet: matrikkelnummer
 Arv: Nei
 Avleveres: A
 Betingelser:
 Datatype: Heltall
-Definisjon: Undernummer under en matrikkelgård, som har blitt delt opp i mindre enheter.
+Definisjon: Fortløpende nummerering av bruk under gårdsnummer
 Gruppe: Nasjonale identifikatorer
 Kilde:
-Kommentarer: NB! Ikke tatt i bruk
+Kommentarer: SOSI-format-navn/datatype/lengde: BNR/H/4
 Navn: bruksnummer
 Nr: M032
 X: true

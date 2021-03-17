@@ -1682,13 +1682,13 @@ Metadata for *part*
    - 0-1
    - A
    - Tekststreng
-  * - M048
+ * - M048
    - personID
    - 
    - 0-1
    - A
    - Tekststreng
-* - M049
+ * - M049
    - organisasjonsID
    - 
    - 0-1

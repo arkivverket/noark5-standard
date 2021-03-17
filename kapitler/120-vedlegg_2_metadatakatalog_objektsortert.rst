@@ -893,6 +893,18 @@ Metadata for *korrespondansepart*
    - 0-1
    - A
    - Tekststreng
+  * - M048
+   - personID
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+* - M049
+   - organisasjonsID
+   - 
+   - 0-1
+   - A
+   - Tekststreng
 
 Metadata for *journalpost*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1670,6 +1682,18 @@ Metadata for *part*
    - 0-1
    - A
    - Tekststreng
+  * - M048
+   - personID
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+* - M049
+   - organisasjonsID
+   - 
+   - 0-1
+   - A
+   - Tekststreng
  * - M711
    - virksomhetsspesifikkeMetadata
    - 
@@ -2018,6 +2042,164 @@ Merk: Elektronisk signatur knyttes til dokumentobjektet i tillegg til dokumentbe
    - verifisertAv
    - DI.SIGVERAV
    - 1
+   - A
+   - Tekststreng
+
+Metadata for *matrikkelnummer*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0-M forekomster av *matrikkelnummer* grupperes inn i 0-M forekomster av *saksmappe*.
+
+Hvis kommune ikke er angitt, anses matrikkelnummeret å angi en eiendom i gjeldende kommune.
+
+.. list-table::
+   :widths: 2 11 6 2 1 7
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M030
+   - kommunenummer
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M031
+   - gaardsnummer
+   - 
+   - 1
+   - A
+   - Heltall
+ * - M032
+   - bruksnummer
+   - 
+   - 1
+   - A
+   - Heltall
+ * - M033
+   - festenummer
+   - 
+   - 0-1
+   - A
+   - Heltall
+ * - M034
+   - seksjonsnummer
+   - 
+   - 0-1
+   - A
+   - Heltall
+
+Metadata for *byggident*
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+0-M forekomster av *byggident* grupperes inn i 0-M forekomster av *saksmappe*.
+
+.. list-table::
+   :widths: 2 11 6 2 1 7
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M035
+   - bygningsnummer
+   - 
+   - 1
+   - A
+   - Heltall
+ * - M036
+   - endringsloepenummer
+   - 
+   - 0-1
+   - A
+   - Heltall
+
+Metadata for *planident*
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+0-M forekomster av *planident* grupperes inn i 0-M forekomster av *saksmappe*.
+
+Merk: Kun ett av feltene landkode, fylkesnummer, kommunenummer kan ha verdi (samlebetegnelse administrativEnhet i SOSI). Hvis ingen av disse er angitt anses planidenten å angi en plan i gjeldende kommune.
+
+.. list-table::
+   :widths: 2 11 6 2 1 7
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M038
+   - landkode
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M037
+   - fylkesnummer
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M030
+   - kommunenummer
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+ * - M030
+   - planidentifikasjon
+   - 
+   - 0-1
+   - A
+   - Tekststreng
+
+Metadata for *punkt*
+~~~~~~~~~~~~~~~~~~~~
+
+0-M forekomster av *punkt* grupperes inn i 0-M forekomster av *saksmappe*.
+
+.. list-table::
+   :widths: 2 11 6 2 1 7
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M043
+   - koordinatsystem
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M040
+   - x-koordinat
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M041
+   - y-koordinat
+   - 
+   - 1
+   - A
+   - Tekststreng
+ * - M042
+   - z-koordinat
+   - 
+   - 0-1
    - A
    - Tekststreng
 

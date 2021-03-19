@@ -2185,19 +2185,19 @@ Metadata for *punkt*
    - A
    - Tekststreng
  * - M040
-   - x-koordinat
+   - x
    - 
    - 1
    - A
    - Tekststreng
  * - M041
-   - y-koordinat
+   - y
    - 
    - 1
    - A
    - Tekststreng
  * - M042
-   - z-koordinat
+   - z
    - 
    - 0-1
    - A

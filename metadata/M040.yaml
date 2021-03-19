@@ -7,6 +7,6 @@ Definisjon: Østlig koordinat for et geografisk punkt
 Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer: Østlig UTM-koordinat for et punkt, definisjonen er avhengig av valgt koordinatsystem.
-Navn: x-koordinat
+Navn: x
 Nr: M040
 X: true

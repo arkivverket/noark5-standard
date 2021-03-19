@@ -679,7 +679,7 @@ Nasjonale identifikatorer
  * - **Nr**
    - **M040**
  * - **Navn**
-   - **x-koordinat**
+   - **x**
  * - **Definisjon**
    - Østlig koordinat for et geografisk punkt
  * - **Arkivenhet**
@@ -700,7 +700,7 @@ Nasjonale identifikatorer
  * - **Nr**
    - **M041**
  * - **Navn**
-   - **y-koordinat**
+   - **y**
  * - **Definisjon**
    - Nordlig koordinat for et geografisk punkt
  * - **Arkivenhet**
@@ -721,7 +721,7 @@ Nasjonale identifikatorer
  * - **Nr**
    - **M042**
  * - **Navn**
-   - **z-koordinat**
+   - **z**
  * - **Definisjon**
    - Høyden til et geografisk punkt
  * - **Arkivenhet**
@@ -754,7 +754,7 @@ Nasjonale identifikatorer
  * - **Betingelser**
    - 
  * - **Kommentarer**
-   - Koordinatsystem for geografisk punkt, flate etc. Normalt en kode angitt som EPSG:nnnnn hvor nnnnn er 32632 (Sør-Norge), 32632 (Nord-Norge, Norge generelt) og 32635 (Finnmark). Kan også være en kode som EUREFSonenn der nn normalt er 32, 33 eller 35.
+   - Koordinatsystem for geografisk punkt, flate etc. Normalt en kode angitt som EPSG:nnnnn hvor nnnnn er 32632 (Sør-Norge), 32633 (Nord-Norge, Norge generelt) og 32635 (Finnmark). Kan også være en kode som EUREFSonenn der nn normalt er 32, 33 eller 35.
 
 .. list-table::
    :widths: 2 6

@@ -2163,10 +2163,10 @@ Merk: Kun ett av feltene landkode, fylkesnummer, kommunenummer kan ha verdi (sam
    - A
    - Tekststreng
 
-Metadata for *punkt*
-~~~~~~~~~~~~~~~~~~~~
+Metadata for *posisjon*
+~~~~~~~~~~~~~~~~~~~~~~~
 
-0-M forekomster av *punkt* grupperes inn i 0-M forekomster av *saksmappe*.
+0-M forekomster av *posisjon* grupperes inn i 0-M forekomster av *saksmappe*.
 
 .. list-table::
    :widths: 2 11 6 2 1 7

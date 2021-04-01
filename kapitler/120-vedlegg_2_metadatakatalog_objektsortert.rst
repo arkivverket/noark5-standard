@@ -533,6 +533,12 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
    - 0-M
    - A
    - arkivdel.systemID
+ * - M209
+   - referanseSekundaerKlassifikasjon
+   - (KL.ORDNVER)
+   - 0-M
+   - A
+   - klasse.systemID
  * - M711
    - virksomhetsspesifikkeMetadata
    - 
@@ -609,12 +615,6 @@ Spesialisering av: *mappe*
    - 0-1
    - 
    - Tekststreng
- * - M209
-   - referanseSekundaerKlassifikasjon
-   - (KL.ORDNVER)
-   - 0-M
-   - A
-   - klasse.systemID
 
 Metadata for *moetemappe*
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -805,6 +805,12 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
    - 0-M
    - 
    - Tekststreng
+ * - M209
+   - referanseSekundaerKlassifikasjon
+   - (KL.ORDNVER)
+   - 0-M
+   - A
+   - klasse.systemID
  * - M711
    - virksomhetsspesifikkeMetadata
    - 

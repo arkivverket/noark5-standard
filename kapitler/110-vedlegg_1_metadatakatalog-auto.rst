@@ -683,7 +683,7 @@ Nasjonale identifikatorer
  * - **Definisjon**
    - Østlig koordinat for et geografisk punkt
  * - **Arkivenhet**
-   - punkt
+   - posisjon
  * - **Kilde**
    - 
  * - **Arv**
@@ -704,7 +704,7 @@ Nasjonale identifikatorer
  * - **Definisjon**
    - Nordlig koordinat for et geografisk punkt
  * - **Arkivenhet**
-   - punkt
+   - posisjon
  * - **Kilde**
    - 
  * - **Arv**
@@ -725,7 +725,7 @@ Nasjonale identifikatorer
  * - **Definisjon**
    - Høyden til et geografisk punkt
  * - **Arkivenhet**
-   - punkt
+   - posisjon
  * - **Kilde**
    - 
  * - **Arv**
@@ -746,7 +746,7 @@ Nasjonale identifikatorer
  * - **Definisjon**
    - Geografiske koordinaters referansesystem
  * - **Arkivenhet**
-   - punkt
+   - posisjon
  * - **Kilde**
    - 
  * - **Arv**

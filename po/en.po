@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-03 13:19+0200\n"
-"PO-Revision-Date: 2021-03-25 09:29+0000\n"
+"PO-Revision-Date: 2021-04-03 11:46+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
-"Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/"
-">\n"
+"Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
+"\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.2-dev\n"
+"X-Generator: Weblate 4.6-dev\n"
 
 #. type: Attribute 'lang' of: <book>
 #: docbook/spesifikasjon-complete.xml:4
@@ -26,7 +26,7 @@ msgstr "en"
 #. type: Content of: <book><bookinfo><title>
 #: docbook/spesifikasjon-complete.xml:6
 msgid "Noark 5"
-msgstr ""
+msgstr "Noark 5"
 
 #. type: Content of: <book><bookinfo><subtitle>
 #: docbook/spesifikasjon-complete.xml:7
@@ -1418,8 +1418,8 @@ msgid ""
 "&lt;løpenummer innen underkapittel&gt; (5.7.6 betyr f. eks. kapittel 5, "
 "underkapittel 7, og krav nr. 6)"
 msgstr ""
-"Requirements numbering is divided into &lt; chapter number &gt;. &lt; "
-"subchapter number &gt;, &lt; subchapter serial number &gt; (5.7.6 means, for "
+"Requirements numbering is divided into &lt;chapter number&gt;. &lt;"
+"subchapter number&gt;, &lt;subchapter serial number&gt; (5.7.6 means, for "
 "example, chapter 5, subchapter 7, and requirement no. 6)"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
@@ -3988,7 +3988,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:2675
 msgid "Konvertering til arkivformat"
-msgstr ""
+msgstr "Converting to archive format"
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:2677
@@ -28064,10 +28064,8 @@ msgstr "DI.SIGVERAV"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:38049
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">fylkesnummer</emphasis>"
 msgid "Metadata for <emphasis>matrikkelnummer</emphasis>"
-msgstr "<emphasis role=\"strong\">fylkesnummer</emphasis>"
+msgstr "Metadata for <emphasis>matrikkelnummer</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:38051
@@ -28170,10 +28168,8 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:38269
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">planidentifikasjon</emphasis>"
 msgid "Metadata for <emphasis>planident</emphasis>"
-msgstr "<emphasis role=\"strong\">planidentifikasjon</emphasis>"
+msgstr "Metadata for <emphasis>planident</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:38271

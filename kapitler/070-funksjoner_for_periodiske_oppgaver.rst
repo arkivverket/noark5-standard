@@ -1090,7 +1090,8 @@ I en avleveringspakke skal journalen normalt dekke en *arkivperiode*, dvs. den p
 Virksomhetsspesifikke metadata
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Dersom Noark 5-løsningen inneholder metadataelementer som ikke er spesifisert i Noark 5, er det likevel mulig å ta disse med i arkivuttrekket. Slike virksomhetsspesifikke metadata blir en del av arkivstrukturen og tas derfor med i **arkivstruktur.xml**. De virksomhetsspesifikke metadataene kan knyttes til arkivenhetene mappe, registrering eller sakspart gjennom det overordnede elementet *virksomhetsspesifikkeMetadata* som er av XML Schema-datatypen *anyType*.
+Dersom Noark 5-løsningen inneholder metadataelementer som ikke er spesifisert i Noark 5, er det likevel mulig å ta disse med i arkivuttrekket. Slike virksomhetsspesifikke metadata blir en del av arkivstrukturen og tas derfor med i **arkivstruktur.xml**. De virksomhetsspesifikke metadataene kan knyttes til arkivenhetene
+klassifikasjonssystem, klasse, arkiv, arkivdel, mappe, registrering, dokumentobjekt eller sakspart gjennom det overordnede elementet *virksomhetsspesifikkeMetadata* som er av XML Schema-datatypen *anyType*.
 
 Alle virksomhetsspesifikke metadataelementer må være definert i ett eller flere XML-skjemaer, og referanse til aktuelle skjemaer må finnes i arkivstruktur.xml. I tillegg må de virksomhetsspesifikke metadataelementene være tilordnet et *namespace* gjennom tilhørende XML-skjema.
 

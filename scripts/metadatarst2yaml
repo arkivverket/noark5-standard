@@ -66,6 +66,7 @@ class MetadataRstVisitor(docutils.nodes.NodeVisitor):
     def depart_table(self, node: docutils.nodes.Node) -> None:
         """Called when leaving a table."""
         #print(self.entry)
+        self.entry['X'] = True
 
         if self.entry['Nr'] in self.metadata:
             for field in ('Avleveres', 'Datatype'):
@@ -151,6 +152,11 @@ class MetadataObjSortRstVisitor(docutils.nodes.NodeVisitor):
                         info[attribute],
                         info['Entitet'],
                     ))
+            if self.metadata[field]['Navn'] != info['Navn']:
+                print('error: field %s name miswmatch (%s should be %s) in %s'
+                      % (field,
+                         info['Navn'], self.metadata[field]['Navn'],
+                         info['Entitet']))
         self.metadata[field] = info
 
     def unknown_visit(self, node: docutils.nodes.Node) -> None:

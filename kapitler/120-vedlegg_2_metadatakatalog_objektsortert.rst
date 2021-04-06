@@ -2527,7 +2527,7 @@ Metadata for *journalpost*
    - A
    - Tekststreng
  * - M506
-   - gradering
+   - graderingskode
    - 
    - 0-1
    - A
@@ -2809,7 +2809,7 @@ Metadata for *journalpost*
    - A
    - Tekststreng
  * - M506
-   - gradering
+   - graderingskode
    - 
    - 0-1
    - A

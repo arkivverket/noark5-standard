@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser: Skal ikke kunne endres
 Datatype: systemID
 Definisjon: Referanse til bruker som oppdaterte arkivenheten eller endret metadata
+Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres automatisk ved oppdatering av en arkivenhet eller endring av metadata
 Kommentarer: Erstatter M226 referanseOppdatertAv
 Navn: referanseEndretAv
 Nr: M230
-X: true

@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser: Skal ikke kunne endres
 Datatype: Heltall
 Definisjon: Viser året journalposten ble opprettet
+Gjeldende: true
 Gruppe: Identifikasjon
 Kilde: Registreres automatisk når journalposten opprettes
 Kommentarer: Kombineres med *M014 journalsekvensnummer*, se kommentar under denne
 Navn: journalaar
 Nr: M013
-X: true

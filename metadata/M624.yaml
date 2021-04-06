@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: Dato og klokkeslett
 Definisjon: Dato og klokkeslett når et dokument ble gradert
+Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk ved gradering
 Kommentarer:
 Navn: graderingsdato
 Nr: M624
-X: true

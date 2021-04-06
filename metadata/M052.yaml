@@ -11,10 +11,10 @@ Betingelser: |-
   Skifte av status kan bare utføres av autoriserte personer.
 Datatype: Tekststreng
 Definisjon: Status til saksmappen, dvs. hvor langt saksbehandlingen har kommet.
+Gjeldende: true
 Gruppe: Status
 Kilde: Registreres automatisk gjennom forskjellig saksbehandlings­funksjonalitet,
   eller overstyres manuelt.
 Kommentarer: Saksmapper som avleveres skal ha status "Avsluttet" eller "Utgår".
 Navn: saksstatus
 Nr: M052
-X: true

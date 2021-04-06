@@ -4,10 +4,10 @@ Avleveres: A
 Betingelser: Skal kunne endres manuelt
 Datatype: Dato og klokkeslett
 Definisjon: Dato for starten av en arkivperiode
+Gjeldende: true
 Gruppe: Datoer
 Kilde: Settes automatisk til samme dato som *M600 opprettetDato*
 Kommentarer: Det kan tenkes tilfeller hvor startdatoen ikke er identisk med datoen
   arkivdelen ble opprettet
 Navn: arkivperiodeStartDato
 Nr: M107
-X: true

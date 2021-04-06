@@ -10,9 +10,9 @@ Betingelser: |-
   - "Saksbehandler"
 Datatype: Tekststreng
 Definisjon: Rollen til en bruker av en Noark 5-løsning.
+Gjeldende: true
 Gruppe: Brukeradministrasjon og administrasjonsstruktur
 Kilde: Registreres manuelt av administrator
 Kommentarer:
 Navn: brukerRolle
 Nr: M581
-X: true

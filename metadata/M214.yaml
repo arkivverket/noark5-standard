@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Referanse til en eller flere journalposter som blir avskrevet av denne journalposten
+Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres manuelt eller automatisk ved avskrivning
 Kommentarer: NB! Gyldig t.o.m. versjon 2.1
 Navn: referanseAvskriverJournalpost
 Nr: M214
-X: true

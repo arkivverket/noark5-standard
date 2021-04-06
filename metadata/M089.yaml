@@ -9,10 +9,10 @@ Betingelser: |-
   - "Sletting av variant med sladdet informasjon"
 Datatype: Tekststreng
 Definisjon: Navn på hvilket objekt som er slettet
+Gjeldende: true
 Gruppe: Typer
 Kilde:
 Kommentarer: Siste versjon av et dokument skal vanligvis ikke kunne slettes. Sletting
   av innholdet i en arkivdel skal bare kunne utføres av autorisert personale.
 Navn: slettingstype
 Nr: M089
-X: true

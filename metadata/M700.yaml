@@ -11,9 +11,9 @@ Betingelser: |-
   Kan ikke endres
 Datatype: Tekststreng
 Definisjon: Angivelse av hvilken variant et dokument forekommer i
+Gjeldende: true
 Gruppe: Tekniske metadata
 Kilde: Registreres automatisk når dokumentet arkiveres
 Kommentarer:
 Navn: variantformat
 Nr: M700
-X: true

@@ -6,10 +6,10 @@ Betingelser: Obligatorisk i arkivuttrekk dersom tittelen inneholder ord som skal
 Datatype: Tekststreng
 Definisjon: Offentlig tittel på arkivenheten, ord som skal skjermes er fjernet fra
   innholdet i tittelen (erstattet med ******)
+Gjeldende: true
 Gruppe: Kjernemetadata (jf. Dublin Core)
 Kilde:
 Kommentarer: I løpende og offentlig journaler skal også offentligTittel være med dersom
   ord i tittelfeltet skal skjermes.
 Navn: offentligTittel
 Nr: M025
-X: true

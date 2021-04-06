@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Referanse til overordnet mappe
+Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres automatisk av systemet ved arkivering av enheten
 Kommentarer:
 Navn: referanseForelderMappe
 Nr: M229
-X: true

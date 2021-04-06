@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser: Kan ikke endres
 Datatype: Dato og klokkeslett
 Definisjon: Dato en elektronisk signatur ble verifisert
+Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk når verifisering utføres
 Kommentarer:
 Navn: verifisertDato
 Nr: M622
-X: true

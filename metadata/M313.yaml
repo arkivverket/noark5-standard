@@ -6,10 +6,10 @@ Betingelser:
 Datatype: Tekststreng
 Definisjon: Beskrivelse av kriteriene som er brukt ved seleksjon av journalrapportenes
   innhold.
+Gjeldende: true
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde:
 Kommentarer: Både løpende og offentlig journal er i utgangspunktet selektert etter
   journaldato. Andre kriterier kan eventuelt brukes i tillegg.
 Navn: seleksjon
 Nr: M313
-X: true

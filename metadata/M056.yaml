@@ -8,9 +8,9 @@ Betingelser: |-
   - "Foreldet"
 Datatype: Tekststreng
 Definisjon: Informasjon om presedensen er gjeldende eller foreldet
+Gjeldende: true
 Gruppe: Status
 Kilde: Registreres manuelt ved foreldelse
 Kommentarer:
 Navn: presedensstatus
 Nr: M056
-X: true

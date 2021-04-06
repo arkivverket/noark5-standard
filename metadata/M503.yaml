@@ -8,6 +8,7 @@ Betingelser: |-
   - "Skjerming av deler av dokumentet"
 Datatype: Tekststreng
 Definisjon: Angivelse av at hele dokumentet eller deler av det må skjermes.
+Gjeldende: true
 Gruppe: Skjerming og gradering
 Kilde: Registreres manuelt ved valg fra liste eller annen funksjonalitet, kan også
   registreres automatisk
@@ -15,4 +16,3 @@ Kommentarer: Dersom deler av dokumentet skal skjermes, må dokumentet også finn
   en variant. Her må all informasjon som skal skjermes, være "sladdet".
 Navn: skjermingDokument
 Nr: M503
-X: true

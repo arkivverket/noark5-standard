@@ -5,9 +5,9 @@ Betingelser:
 Datatype: systemID
 Definisjon: Kryssreferanse til en *registrering* fra en annen *registrering* eller
   *mappe*
+Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres automatisk når en kryssreferanse opprettes
 Kommentarer:
 Navn: referanseTilRegistrering
 Nr: M212
-X: true

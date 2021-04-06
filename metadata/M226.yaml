@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Referanse til bruker som oppdaterte arkivenheten
+Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres automatisk av systemet ved opprettelse av enheten
 Kommentarer:
 Navn: referanseOppdatertAv
 Nr: M226
-X: true

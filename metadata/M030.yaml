@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Firesifret kode som entydig identifiserer en kommune
+Gjeldende: true
 Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer: De to første sifrene identifiserer fylke og de to siste identifiserer kommunen innefor fylket. Tildeles av SSB.
 Navn: kommunenummer
 Nr: M030
-X: true

@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser: Kan ikke endres
 Datatype: Dato og klokkeslett
 Definisjon: Dato et dokument ble avskrevet
+Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk nå avskrivning foretas
 Kommentarer:
 Navn: avskrivningsdato
 Nr: M617
-X: true

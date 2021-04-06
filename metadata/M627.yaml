@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på person som foretok nedgraderingen
+Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk ved nedgradering
 Kommentarer:
 Navn: nedgradertAv
 Nr: M627
-X: true

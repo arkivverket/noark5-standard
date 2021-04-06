@@ -5,6 +5,7 @@ Betingelser: Kan ikke endres
 Datatype: Dato og klokkeslett
 Definisjon: Dato og klokkeslett når alle dokumentene som er tilknyttet registreringen
   ble arkivert
+Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk ved utførelse av en funksjon som markerer at dokumentene
   er arkivert. For journalposter kan dette knyttes til endring av journalstatus.
@@ -12,4 +13,3 @@ Kommentarer: Arkivering innebærer at dokumentene blir "frosset", dvs. sperret f
   all videre redigering/endring
 Navn: arkivertDato
 Nr: M604
-X: true

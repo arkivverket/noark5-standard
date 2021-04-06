@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Navnet på metadataelementet som ble endret
+Gjeldende: true
 Gruppe: Logging av endringer
 Kilde: Registreres automatisk ved endring av metadata
 Kommentarer:
 Navn: referanseMetadata
 Nr: M681
-X: true

@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på organisasjonen som har skapt arkivet
+Gjeldende: true
 Gruppe: Kjernemetadata (jf. Dublin Core)
 Kilde: Registreres manuelt ved opprettelsen av arkivet.
 Kommentarer:
 Navn: arkivskaperNavn
 Nr: M023
-X: true

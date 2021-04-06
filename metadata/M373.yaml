@@ -8,9 +8,9 @@ Betingelser: |-
   - "Referent"
 Datatype: Tekststreng
 Definisjon: Funksjon eller rolle til personen som deltok på møtet
+Gjeldende: true
 Gruppe: Møtebehandling
 Kilde:
 Kommentarer:
 Navn: moetedeltakerFunksjon
 Nr: M373
-X: true

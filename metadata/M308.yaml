@@ -8,9 +8,9 @@ Datatype: Tekststreng
 Definisjon: Navn på enhet som har det arkivmessige ansvaret for kvalitetssikring av
   arkivdanningen, og eventuelt registrering (journalføring) og arkivering av fysiske
   dokumenter
+Gjeldende: true
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde: Registreres automatisk på grunnlag av innlogget bruker, kan overstyres manuelt
 Kommentarer:
 Navn: journalenhet
 Nr: M308
-X: true

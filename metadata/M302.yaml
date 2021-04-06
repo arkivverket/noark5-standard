@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på virksomhet eller person som er part
+Gjeldende: true
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde: Registreres manuelt eller automatisk fra fagsystem
 Kommentarer:
 Navn: partNavn
 Nr: M302
-X: true

@@ -5,9 +5,9 @@ Betingelser:
 Datatype: Tekststreng
 Definisjon: Referanse til arkivenheten (systemID) som inneholder metadata­elementet
   som ble endret
+Gjeldende: true
 Gruppe: Logging av endringer
 Kilde: Registreres automatisk ved endring av metadata
 Kommentarer:
 Navn: referanseArkivenhet
 Nr: M680
-X: true

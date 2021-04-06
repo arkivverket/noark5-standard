@@ -5,9 +5,9 @@ Betingelser: Kan ikke endres
 Datatype: Dato og klokkeslett
 Definisjon: Dato og klokkeslett for når et dokument ble konvertert fra et format til
   et annet
+Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk ved konvertering
 Kommentarer:
 Navn: konvertertDato
 Nr: M615
-X: true

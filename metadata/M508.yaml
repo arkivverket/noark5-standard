@@ -9,10 +9,10 @@ Betingelser: |-
 Datatype: Tekststreng
 Definisjon: Angivelse av om et dokument er mottatt med elektronisk signatur, og om
   signaturen er verifisert.
+Gjeldende: true
 Gruppe: Skjerming og gradering
 Kilde: Registreres automatisk knyttet til funksjonalitet for elektronisk signatur
 Kommentarer: Dersom signaturen er verifisert, skal det logges hvem som verifiserte
   den og når det skjedde
 Navn: elektroniskSignaturVerifisert
 Nr: M508
-X: true

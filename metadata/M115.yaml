@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser: Sluttdatoen kan selekteres på M602 avsluttetDato for mappen. Andre seleksjonskriterier kan være aktuelle.
 Datatype: Dato
 Definisjon: Sluttdato for avleveringspakken.
+Gjeldende: true
 Gruppe: Datoer
 Kilde: Registreres når avleveringspakken produseres
 Kommentarer: Sluttdatoen vil være identisk med M108 arkivperiodeSluttdato dersom uttrekket bare omfatter en avleveringspakke.
 Navn: avleveringspakkeSluttDato
 Nr: M115
-X: true

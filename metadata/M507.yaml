@@ -11,9 +11,9 @@ Betingelser: |-
 Datatype: Tekststreng
 Definisjon: Angivelse av hvilket sikkerhetsnivå som ble brukt ved forsendelse og mottak
   av elektroniske dokumenter
+Gjeldende: true
 Gruppe: Skjerming og gradering
 Kilde: Registreres automatisk knyttet til funksjonalitet for elektronisk signatur
 Kommentarer:
 Navn: elektroniskSignaturSikkerhetsnivaa
 Nr: M507
-X: true

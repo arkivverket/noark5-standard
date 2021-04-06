@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Merknad eller kommentar til et dokument som er sendt på flyt
+Gjeldende: true
 Gruppe: Logging av arbeidsflyt og saksfordeling
 Kilde: Registreres manuelt
 Kommentarer:
 Navn: flytMerknad
 Nr: M664
-X: true

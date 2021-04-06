@@ -4,9 +4,9 @@ Avleveres:
 Betingelser:
 Datatype: Dato og klokkeslett
 Definisjon: Dato som angir fristen for når et inngående dokument må være besvart
+Gjeldende: true
 Gruppe: Datoer
 Kilde: Registreres manuelt
 Kommentarer: Forfallsdato kan være angitt som en betingelse i det inngående dokumentet
 Navn: forfallsdato
 Nr: M109
-X: true

@@ -5,6 +5,7 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på person som er saksbehandler
+Gjeldende: true
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde: Registreres automatisk på grunnlag av innlogget bruker eller annen saksbehandlingsfunksjonalitet
   (f.eks. saksfordeling), kan overstyres manuelt.
@@ -12,4 +13,3 @@ Kommentarer: Merk at *saksbehandler* grupperes inn i korrespondansepart på jour
   Se kommentar til *M305 administrativEnhet*.
 Navn: saksbehandler
 Nr: M307
-X: true

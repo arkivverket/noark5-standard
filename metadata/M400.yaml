@@ -4,6 +4,7 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på person eller organisasjon som er avsender eller mottaker av dokumentet
+Gjeldende: true
 Gruppe: Korrespondanse
 Kilde: Registreres manuelt eller automatisk fra dokumentet
 Kommentarer: Navn på korrespondansepart forekommer én gang innenfor objektet korrespondansepart,
@@ -11,4 +12,3 @@ Kommentarer: Navn på korrespondansepart forekommer én gang innenfor objektet k
   elementene nedenfor.
 Navn: korrespondansepartNavn
 Nr: M400
-X: true

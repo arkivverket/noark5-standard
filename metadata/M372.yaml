@@ -4,10 +4,10 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på person som var til stedet på møtet
+Gjeldende: true
 Gruppe: Møtebehandling
 Kilde: Registreres manuelt ved opprettelsen av møtemappen, kan eventuelt også hentes
   automatisk fra f.eks. møteinnkalling
 Kommentarer:
 Navn: moetedeltakerNavn
 Nr: M372
-X: true

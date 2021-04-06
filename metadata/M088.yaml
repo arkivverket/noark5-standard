@@ -10,9 +10,9 @@ Betingelser: |-
   - "Interpellasjon"
 Datatype: Tekststreng
 Definisjon: Navn på type møtesak
+Gjeldende: true
 Gruppe: Typer
 Kilde:
 Kommentarer:
 Navn: moetesakstype
 Nr: M088
-X: true

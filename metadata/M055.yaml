@@ -9,9 +9,9 @@ Betingelser: |-
   - "Sendt tilbake til foregående utvalg"
 Datatype: Tekststreng
 Definisjon: Status til møteregistreringen
+Gjeldende: true
 Gruppe: Status
 Kilde:
 Kommentarer:
 Navn: moeteregistreringsstatus
 Nr: M055
-X: true

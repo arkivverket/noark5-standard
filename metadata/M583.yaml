@@ -4,10 +4,10 @@ Avleveres:
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på administrativ enhet
+Gjeldende: true
 Gruppe: Brukeradministrasjon og administrasjonsstruktur
 Kilde: Registreres manuelt av administrator
 Kommentarer: Navn på administrativ enhet vil registreres flere steder i arkivstrukturen,
   f.eks. sammen med saksansvarlig eller saksbehandler på saksmappe eller journalpost.
 Navn: administrativEnhetNavn
 Nr: M583
-X: true

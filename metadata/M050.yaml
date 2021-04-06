@@ -10,9 +10,9 @@ Betingelser: |-
   Skifte av status kan bare utføres av autoriserte personer.
 Datatype: Tekststreng
 Definisjon: Status til arkivet
+Gjeldende: true
 Gruppe: Status
 Kilde: Registreres manuelt når arkivet opprettes eller ved skifte av status.
 Kommentarer:
 Navn: arkivstatus
 Nr: M050
-X: true

@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser: Obligatorisk ved avlevering dersom eksporten omfatter elektroniske dokumenter. Kan ikke endres
 Datatype: Heltall
 Definisjon: Antall elektroniske dokumenter (dokumentfiler) som inngikk i eksporten
+Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk ved produksjon av avleveringsuttrekk
 Kommentarer: NB! Gyldig t.o.m. versjon 2.1
 Navn: antallDokumenterEksportert
 Nr: M610
-X: true

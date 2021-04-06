@@ -14,9 +14,9 @@ Betingelser: |-
   - "Gårds- og bruksnummer"
 Datatype: Tekststreng
 Definisjon: Type klassifikasjonssystem
+Gjeldende: true
 Gruppe: Typer
 Kilde: Registreres manuelt ved opprettelse av *klassifikasjonssystem*
 Kommentarer:
 Navn: klassifikasjonstype
 Nr: M086
-X: true

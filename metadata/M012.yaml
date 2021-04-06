@@ -5,10 +5,10 @@ Betingelser: Skal ikke kunne endres
 Datatype: Heltall
 Definisjon: Inngår i *M003 mappeID*. Viser rekkefølgen når saksmappen ble opprettet
   innenfor året.
+Gjeldende: true
 Gruppe: Identifikasjon
 Kilde: Registreres automatisk når saksmappen opprettes
 Kommentarer: Kombinasjonen saksår og sakssekvensnummer er ikke obligatorisk, men anbefales
   brukt i sakarkiver.
 Navn: sakssekvensnummer
 Nr: M012
-X: true

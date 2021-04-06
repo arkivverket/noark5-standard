@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Nordlig koordinat for et geografisk punkt
+Gjeldende: true
 Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer: Nordlig UTM-koordinat for et punkt, definisjonen er avhengig av valgt koordinatsystem.
 Navn: y
 Nr: M041
-X: true

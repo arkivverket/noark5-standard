@@ -5,6 +5,7 @@ Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på person (eller eventuelt organisasjon) som har forfattet eller
   skapt dokumentet.
+Gjeldende: true
 Gruppe: Kjernemetadata (jf. Dublin Core)
 Kilde: Registreres automatisk av systemet, automatisk fra innholdet i dokumentet eller
   manuelt
@@ -16,4 +17,3 @@ Kommentarer: Sakarkiver har tradisjonelt ikke noen forfatter på journalposten, 
   erstattes med en kilde (f.eks. et system).
 Navn: forfatter
 Nr: M024
-X: true

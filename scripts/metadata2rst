@@ -24,7 +24,7 @@ def main():
     for filename in args.yamlfile:
         with open(filename, 'r') as f:
             info = yaml.load(f)
-            if 'X' in info and not info['X']:
+            if 'Gjeldende' in info and not info['Gjeldende']:
                 continue
             for field in required:
                 if not field in info:

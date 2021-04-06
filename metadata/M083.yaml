@@ -10,9 +10,9 @@ Betingelser: |-
   - "Ordrebekreftelser"
 Datatype: Tekststreng
 Definisjon: Navn på type dokument
+Gjeldende: true
 Gruppe: Typer
 Kilde: Registreres automatisk av systemet eller manuelt
 Kommentarer:
 Navn: dokumenttype
 Nr: M083
-X: true

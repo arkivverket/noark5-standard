@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Entydig identifikasjon av en organisasjon
+Gjeldende: true
 Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer: For norske organisasjoner, organisasjonsnummer fra Enhetsregisteret. For utenlandske organisasjoner, firesifret landkode i hht. ISO 6523 etterfulgt av kolon etterfulgt av nasjonal organisasjons-identifikator.
 Navn: organisasjonsID
 Nr: M049
-X: true

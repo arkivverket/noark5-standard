@@ -8,9 +8,9 @@ Betingelser: |-
   - "Passiv enhet"
 Datatype: Tekststreng
 Definisjon: Status til den administrative enheten
+Gjeldende: true
 Gruppe: Brukeradministrasjon og administrasjonsstruktur
 Kilde: Registreres manuelt av administrator
 Kommentarer:
 Navn: administrativEnhetsstatus
 Nr: M584
-X: true

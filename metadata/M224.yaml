@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Referanse fra en annen møteregistrering
+Gjeldende: true
 Gruppe: Referanser
 Kilde:
 Kommentarer: Kan brukes for å knytte sammen dokumenter som tilhører samme "møtesak"
 Navn: referanseFraMoeteregistrering
 Nr: M224
-X: true

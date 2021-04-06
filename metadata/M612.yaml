@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser: Kan ikke endres
 Datatype: Tekststreng
 Definisjon: Navn på person som har registrert merknaden
+Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk av systemet
 Kommentarer:
 Navn: merknadRegistrertAv
 Nr: M612
-X: true

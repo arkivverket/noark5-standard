@@ -5,10 +5,10 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Tekstlig beskrivelse av arkivenheten
+Gjeldende: true
 Gruppe: Kjernemetadata (jf. Dublin Core)
 Kilde: Registreres manuelt
 Kommentarer: Tilsvarende attributt finnes ikke i Noark 4 (men noen tabeller hadde
   egne attributter for merknad som kunne brukes som et beskrivelsesfelt)
 Navn: beskrivelse
 Nr: M021
-X: true

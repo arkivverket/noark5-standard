@@ -4,6 +4,7 @@ Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Referanse til arkivdelen som denne arkivenheten er tilknyttet
+Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres automatisk, kan overstyres manuelt
 Kommentarer: 'Alle mapper skal ha referanse til arkivdel (selv om tilhørigheten til
@@ -22,4 +23,3 @@ Kommentarer: 'Alle mapper skal ha referanse til arkivdel (selv om tilhørigheten
   opprettes.'
 Navn: referanseArkivdel
 Nr: M208
-X: true

@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser: Kan ikke endres
 Datatype: Tekststreng
 Definisjon: En verdi som beregnes ut fra innholdet i hele avleveringspakken (både metadata- og dokumentobjekter), og som dermed gir integritetssikring til hele  avleveringspakken
+Gjeldende: true
 Gruppe: Tekniske metadata
 Kilde: Påføres automatisk i forbindelse med eksport for avlevering  
 Kommentarer: NB! Gyldig t.o.m. versjon 2.1
 Navn: sjekksumAvlevering
 Nr: M709
-X: true

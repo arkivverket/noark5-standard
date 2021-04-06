@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Kryssreferanse fra en registrering til en annen registrering eller saksmappe
+Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres automatisk når kryssreferanse opprettes
 Kommentarer: NB! Gyldig t.o.m. versjon 2.1
 Navn: referanseFraRegistrering
 Nr: M213
-X: true

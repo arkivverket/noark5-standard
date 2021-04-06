@@ -6,6 +6,7 @@ Betingelser: Skal ikke kunne endres
 Datatype: Tekststreng
 Regex: "[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}"
 Definisjon: Globalt unik identifikasjon av arkivenheten (UID).
+Gjeldende: true
 Gruppe: Identifikasjon
 Kilde: Registreres automatisk av systemet
 Kommentarer: Alle referanser fra en arkivenhet til en annen skal peke til arkivenhetens
@@ -13,4 +14,3 @@ Kommentarer: Alle referanser fra en arkivenhet til en annen skal peke til arkive
   f.eks. mellom to arkivperioder som avleveres på forskjellig tidspunkt.
 Navn: systemID
 Nr: M001
-X: true

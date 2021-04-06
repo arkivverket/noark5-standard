@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser: Skal ikke kunne endres. Obligatorisk dersom arkivenheten er avsluttet.
 Datatype: Tekststreng
 Definisjon: Navn på person som avsluttet/lukket arkivenheten
+Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk av systemet ved opprettelse av enheten
 Kommentarer:
 Navn: avsluttetAv
 Nr: M603
-X: true

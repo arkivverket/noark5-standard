@@ -11,9 +11,9 @@ Betingelser: |-
   - "Saksframlegg"
 Datatype: Tekststreng
 Definisjon: Navn på type journalpost
+Gjeldende: true
 Gruppe: Typer
 Kilde: Registreres automatisk av systemet eller manuelt
 Kommentarer: Tilsvarer "Noark dokumenttype" i Noark 4
 Navn: journalposttype
 Nr: M082
-X: true

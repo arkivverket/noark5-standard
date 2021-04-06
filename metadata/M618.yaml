@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser: Kan ikke endres
 Datatype: Tekststreng
 Definisjon: Navn på person som har foretatt avskrivning
+Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk når avskrivning foretas
 Kommentarer:
 Navn: avskrevetAv
 Nr: M618
-X: true

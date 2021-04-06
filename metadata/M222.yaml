@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Referanse til neste utvalgsmøte
+Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres manuelt
 Kommentarer: Kan brukes dersom et møte går over flere dager
 Navn: referanseNesteMoete
 Nr: M222
-X: true

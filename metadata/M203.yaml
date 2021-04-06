@@ -5,10 +5,10 @@ Betingelser:
 Datatype: systemID
 Definisjon: Referanse til den arkivdelen som er arvtaker for denne arkivdelen, dvs.
   inneholder neste arkivperiode.
+Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres automatisk når det opprettes en arkivdel som defineres som arvtaker
   til en eksisterende arkivdel
 Kommentarer:
 Navn: referanseArvtaker
 Nr: M203
-X: true

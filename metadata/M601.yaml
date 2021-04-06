@@ -5,9 +5,9 @@ Avleveres:
 Betingelser: Skal ikke kunne endres
 Datatype: Tekststreng
 Definisjon: Navn på person som opprettet/registrerte arkivenheten
+Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk av systemet ved opprettelse av enheten
 Kommentarer:
 Navn: opprettetAv
 Nr: M601
-X: true

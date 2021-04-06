@@ -5,9 +5,9 @@ Avleveres: A
 Betingelser: Kan ikke endres
 Datatype: Heltall
 Definisjon: Antall journalposter i rapporten
+Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk ved produksjon av avleveringsuttrekk
 Kommentarer:
 Navn: antallJournalposter
 Nr: M609
-X: true

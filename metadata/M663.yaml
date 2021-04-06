@@ -9,9 +9,9 @@ Betingelser: |-
   - "Sendt tilbake til saksbehandler med kommentarer"
 Datatype: Tekststreng
 Definisjon: Godkjennelse/ikke godkjennelse av dokumentet som er sendt på flyt
+Gjeldende: true
 Gruppe: Logging av arbeidsflyt og saksfordeling
 Kilde: Registreres automatisk av funksjonalitet knyttet til arbeidsflyt
 Kommentarer:
 Navn: flytStatus
 Nr: M663
-X: true

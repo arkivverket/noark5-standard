@@ -5,9 +5,9 @@ Betingelser: Obligatorisk dersom dokumentet har blitt sendt på flyt. Skal ikke 
   endres.
 Datatype: Dato og klokkeslett
 Definisjon: Dato og klokkeslett et dokument på flyt ble sendt videre
+Gjeldende: true
 Gruppe: Logging av arbeidsflyt og saksfordeling
 Kilde: Registreres automatisk av funksjonalitet knyttet til arbeidsflyt
 Kommentarer:
 Navn: flytSendtDato
 Nr: M662
-X: true

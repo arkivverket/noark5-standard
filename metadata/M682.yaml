@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser: Skal ikke kunne endres
 Datatype: Dato og klokkeslett
 Definisjon: Dato og klokkeslett når arkivenheten ble oppdatert eller et metadataelement sist ble endret
+Gjeldende: true
 Gruppe: Logging av endringer
 Kilde: Registreres automatisk ved oppdatering av en arkivenhet eller endring av metadata
 Kommentarer: Erstatter M632 oppdatertDato
 Navn: endretDato
 Nr: M682
-X: true

@@ -11,9 +11,9 @@ Betingelser: |-
   - "Tatt til orientering"
 Datatype: Tekststreng
 Definisjon: Måten en journalpost har blitt avskrevet på
+Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk når konvertering utføres.
 Kommentarer:
 Navn: avskrivningsmaate
 Nr: M619
-X: true

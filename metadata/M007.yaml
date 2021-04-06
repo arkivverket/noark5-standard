@@ -4,10 +4,10 @@ Avleveres: A
 Betingelser: Skal ikke kunne endres
 Datatype: Heltall
 Definisjon: Identifikasjon av dokumentene innenfor en registrering
+Gjeldende: true
 Gruppe: Identifikasjon
 Kilde: Registreres automatisk av systemet
 Kommentarer: Dokumentnummeret avgjør i hvilken rekkefølge dokumentene vises i brukergrensesnittet.
   Normalt skal hoveddokument vises før vedleggene.
 Navn: dokumentnummer
 Nr: M007
-X: true

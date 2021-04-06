@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Sted hvor møtet ble avholdt
+Gjeldende: true
 Gruppe: Møtebehandling
 Kilde: Registreres manuelt ved opprettelsen av møtemappen
 Kommentarer:
 Navn: moetested
 Nr: M371
-X: true

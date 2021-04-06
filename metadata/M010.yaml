@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Unik ID for en part
+Gjeldende: true
 Gruppe: Identifikasjon
 Kilde: Registreres manuelt når part opprettes
 Kommentarer: Kan være fødselsnummer eller annen personidentifikasjon
 Navn: partID
 Nr: M010
-X: true

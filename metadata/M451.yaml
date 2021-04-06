@@ -4,6 +4,7 @@ Avleveres: A
 Betingelser:
 Datatype: Heltall
 Definisjon: Antall år dokumentene som tilhører denne arkivdelen skal bevares.
+Gjeldende: true
 Gruppe: Bevaring og kassasjon
 Kilde: Registreres manuelt ved opprettelse av *arkivdel* eller *klasse*. Arves til
   underliggende enheter, men kan endres manuelt.
@@ -11,4 +12,3 @@ Kommentarer: Tidspunktet for når bevaringstiden starter å løpe, vil vanligvis
   når en mappe avsluttes. Men andre regler kan være aktuelle.
 Navn: bevaringstid
 Nr: M451
-X: true

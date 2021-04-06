@@ -6,9 +6,9 @@ Betingelser: Obligatorisk dersom dokumentet har blitt sendt på flyt. Skal ikke 
 Datatype: Tekststreng
 Definisjon: Person som har mottatt for godkjennelse et dokument som har vært sendt
   på flyt
+Gjeldende: true
 Gruppe: Logging av arbeidsflyt og saksfordeling
 Kilde: Registreres automatisk av funksjonalitet knyttet til arbeidsflyt
 Kommentarer:
 Navn: flytTil
 Nr: M660
-X: true

@@ -8,9 +8,9 @@ Betingelser: |-
   - "Dokumentet er ferdigstilt"
 Datatype: Tekststreng
 Definisjon: Status til dokumentet
+Gjeldende: true
 Gruppe: Status
 Kilde: Kan endres automatisk ved endring i saksstatus eller journalstatus.
 Kommentarer: Dokumentbeskrivelser som avlevers skal ha status "Dokumentet er ferdigstilt".
 Navn: dokumentstatus
 Nr: M054
-X: true

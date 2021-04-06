@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser: Kan ikke endres
 Datatype: Tekststreng
 Definisjon: Navn på person som har verifisert en elektronisk signatur
+Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk når verifisering utføres
 Kommentarer:
 Navn: verifisertAv
 Nr: M623
-X: true

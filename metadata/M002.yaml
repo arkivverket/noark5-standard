@@ -6,6 +6,7 @@ Avleveres: A
 Betingelser: Skal ikke kunne endres
 Datatype: Tekststreng
 Definisjon: Entydig identifikasjon av klassen innenfor klassifikasjonssystemet.
+Gjeldende: true
 Gruppe: Identifikasjon
 Kilde: Alle klasser i et klassifikasjonssystem opprettes vanligvis når et arkivsystem
   tas i bruk. Men enkelte løsninger kan tillate at det opprettes nye klasser ved behov
@@ -16,4 +17,3 @@ Kommentarer: Ulike klassifikasjonssystemer innenfor samme arkivsystem kan inneho
   er identisk med begrepene ordningsverdi og arkivkode i Noark 4.
 Navn: klasseID
 Nr: M002
-X: true

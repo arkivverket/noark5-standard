@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser: Skal kunne endres manuelt inntil mappen avsluttes.
 Datatype: Dato og klokkeslett
 Definisjon: Datoen når et utvalgsmøte blir avholdt
+Gjeldende: true
 Gruppe: Datoer
 Kilde: Registreres manuelt ved opprettelsen av en møtemappe.
 Kommentarer:
 Navn: moetedato
 Nr: M102
-X: true

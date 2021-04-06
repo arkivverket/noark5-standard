@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: Heltall
 Definisjon: Fortløpende nummerering av bruk under gårdsnummer
+Gjeldende: true
 Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer: "SOSI-format-navn/datatype/lengde: BNR/H/4"
 Navn: bruksnummer
 Nr: M032
-X: true

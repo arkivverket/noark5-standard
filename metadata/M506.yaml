@@ -15,6 +15,7 @@ Betingelser: |-
 Datatype: Tekststreng
 Definisjon: Angivelse av at dokumentene er gradert i henhold til sikkerhetsloven eller
   beskyttelsesinstruksen.
+Gjeldende: true
 Gruppe: Skjerming og gradering
 Kilde: Registreres manuelt ved valg fra liste, kan også registres automatisk
 Kommentarer: Dokumenter gradert "Strengt hemmelig", "Hemmelig", "Konfidensielt" og
@@ -22,4 +23,3 @@ Kommentarer: Dokumenter gradert "Strengt hemmelig", "Hemmelig", "Konfidensielt" 
   innsyn.
 Navn: graderingskode
 Nr: M506
-X: true

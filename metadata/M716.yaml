@@ -4,6 +4,7 @@ Avleveres: A
 Betingelser: Kan ikke endres
 Datatype: Tekststreng
 Definisjon: Dokumentets MIME-type
+Gjeldende: true
 Gruppe: Tekniske metadata
 Kilde: Registreres automatisk når et dokument overføres til arkivet
   eller settes av arkivklient.

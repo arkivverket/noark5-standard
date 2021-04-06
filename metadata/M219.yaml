@@ -4,6 +4,7 @@ Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Referanse til en annen klasse
+Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres vanligvis manuelt når klassifikasjonssystemet opprettes
 Kommentarer: Kryssreferansen kan gå til en eller flere klasser innenfor samme klassifikasjonssystem,
@@ -11,4 +12,3 @@ Kommentarer: Kryssreferansen kan gå til en eller flere klasser innenfor samme k
   sammen beslektede klasser som ikke kan utledes fra det hierarkiske klassifikasjonssystemet.
 Navn: referanseTilKlasse
 Nr: M219
-X: true

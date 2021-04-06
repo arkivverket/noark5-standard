@@ -5,9 +5,9 @@ Betingelser: Utlån skal også kunne registreres etter at en saksmappe er avslut
   eller at dokumentene i en journalpost ble arkivert
 Datatype: Tekststreng
 Definisjon: Navnet på person som har lånt en fysisk saksmappe
+Gjeldende: true
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde: Registreres manuelt ved utlån
 Kommentarer:
 Navn: utlaantTil
 Nr: M309
-X: true

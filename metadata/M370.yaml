@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på utvalget som avholdt møte
+Gjeldende: true
 Gruppe: Møtebehandling
 Kilde: Registreres manuelt ved opprettelsen av møtemappen
 Kommentarer:
 Navn: utvalg
 Nr: M370
-X: true

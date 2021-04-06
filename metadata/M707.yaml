@@ -4,9 +4,9 @@ Avleveres: A
 Betingelser: Kan ikke endres
 Datatype: Tekststreng
 Definisjon: Størrelsen på fila i antall bytes oppgitt med desimaltall
+Gjeldende: true
 Gruppe: Tekniske metadata
 Kilde: Registreres automatisk i forbindelse med eksport for avlevering
 Kommentarer:
 Navn: filstoerrelse
 Nr: M707
-X: true

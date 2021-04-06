@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser: Skal kunne endres manuelt inntil saksmappen avsluttes
 Datatype: Dato og klokkeslett
 Definisjon: Datoen saken er opprettet
-Gjeldende: true
 Gruppe: Datoer
 Kilde: Settes automatisk til samme dato som *M600 opprettetDato*
 Kommentarer:
 Navn: saksdato
 Nr: M100
+Utdatert: nei

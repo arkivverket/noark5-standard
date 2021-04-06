@@ -8,10 +8,10 @@ Betingelser: |-
   - "Vurderes senere"
 Datatype: Tekststreng
 Definisjon: Handling som skal utføres ved bevaringstidens slutt.
-Gjeldende: true
 Gruppe: Bevaring og kassasjon
 Kilde: Registreres manuelt ved opprettelse av *arkivdel* eller *klasse*. Arves til
   underliggende enheter, men kan endres manuelt.
 Kommentarer:
 Navn: kassasjonsvedtak
 Nr: M450
+Utdatert: nei

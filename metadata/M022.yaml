@@ -3,7 +3,6 @@ Arv: Nei
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Nøkkeord eller stikkord som beskriver innholdet i enheten
-Gjeldende: true
 Gruppe: Kjernemetadata (jf. Dublin Core)
 Kilde: Registreres vanligvis ved oppslag fra liste (f.eks. en tesaurus). Kan også
   registreres automatisk på grunnlag av dokumentinnhold eller integrering med fagsystem.
@@ -11,3 +10,4 @@ Kommentarer: Nøkkelord kan brukes for å forbedre mulighetene for søking og gj
   Nøkkelord skal ikke erstatte klassifikasjon.
 Navn: noekkelord
 Nr: M022
+Utdatert: nei

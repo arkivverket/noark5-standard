@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Entydig identifikasjon av et land
-Gjeldende: true
 Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer: To-bokstavs kode i hht. ISO 3166
 Navn: landkode
 Nr: M038
+Utdatert: nei

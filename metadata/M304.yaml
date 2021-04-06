@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Heltall
 Definisjon: Antall fysiske vedlegg til et fysisk hoveddokument
-Gjeldende: true
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde: Registreres manuelt
 Kommentarer:
 Navn: antallVedlegg
 Nr: M304
+Utdatert: nei

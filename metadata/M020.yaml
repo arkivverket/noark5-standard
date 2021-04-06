@@ -5,7 +5,6 @@ Betingelser: Skal normalt ikke kunne endres etter at enheten er lukket, eller do
   arkivert
 Datatype: Tekststreng
 Definisjon: Tittel eller navn på arkivenheten
-Gjeldende: true
 Gruppe: Kjernemetadata (jf. Dublin Core)
 Kilde: Registreres manuelt eller hentes automatisk fra innholdet i arkivdokumentet.
   Ja fra klassetittel dersom alle mapper skal ha samme tittel som klassen. Kan også
@@ -14,3 +13,4 @@ Kommentarer: For saksmappe og journalpost vil dette tilsvare "Sakstittel" og "Do
   Disse navnene kan beholdes i grensesnittet.
 Navn: tittel
 Nr: M020
+Utdatert: nei

@@ -3,7 +3,6 @@ Arv: Nei
 Betingelser: Kan ikke endres
 Datatype: Dato og klokkeslett
 Definisjon: Dato og klokkeslett når et dokument ble slettet
-Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk når en tidligere versjon eller en variant av et dokument
   slettes.
@@ -11,3 +10,4 @@ Kommentarer: Informasjon om sletting av dokumenter i produksjonsformat skal ikke
   Sletting må ikke blandes sammen med kassasjon.
 Navn: slettetDato
 Nr: M613
+Utdatert: nei

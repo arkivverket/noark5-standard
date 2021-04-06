@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Referanse til en eller flere journalposter som avskriver denne journalposten
-Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres manuelt eller automatisk ved avskrivning
 Kommentarer:
 Navn: referanseAvskrivesAvJournalpost
 Nr: M215
+Utdatert: nei

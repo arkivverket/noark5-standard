@@ -4,9 +4,9 @@ Arv: Nei
 Betingelser: Skal ikke kunne endres
 Datatype: Dato og klokkeslett
 Definisjon: Dato og klokkeslett når arkivenheten ble opprettet/registrert
-Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk av systemet ved opprettelse av enheten
 Kommentarer:
 Navn: opprettetDato
 Nr: M600
+Utdatert: nei

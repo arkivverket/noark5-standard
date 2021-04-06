@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Telefonnummeret til en avsender/mottaker eller part
-Gjeldende: true
 Gruppe: Korrespondanse
 Kilde: Registreres manuelt eller automatisk
 Kommentarer:
 Navn: telefonnummer
 Nr: M411
+Utdatert: nei

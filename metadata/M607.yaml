@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser: Kan ikke endres
 Datatype: Dato og klokkeslett
 Definisjon: Dato og klokkeslett når eksporten skjedde
-Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk ved produksjon av avleveringsuttrekk
 Kommentarer: NB! Gyldig t.o.m. versjon 2.1. Informasjonen skal både inngå i uttrekket og lagres i systemet.
 Navn: eksportertDato
 Nr: M607
+Utdatert: nei

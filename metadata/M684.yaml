@@ -3,9 +3,9 @@ Arv:
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Innholdet i metadataelementet før det ble endret
-Gjeldende: true
 Gruppe: Logging av endringer
 Kilde: Registreres automatisk ved endring av metadata
 Kommentarer:
 Navn: tidligereVerdi
 Nr: M684
+Utdatert: nei

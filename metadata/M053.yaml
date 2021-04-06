@@ -12,10 +12,10 @@ Betingelser: |-
 Datatype: Tekststreng
 Definisjon: Status til journalposten, dvs. om dokumentet er registrert, under behandling
   eller endelig arkivert.
-Gjeldende: true
 Gruppe: Status
 Kilde: Registreres automatisk gjennom forskjellig saksbehandlings­funksjonalitet,
   eller overstyres manuelt.
 Kommentarer: Journalposter som avleveres skal ha status "Arkivert" eller "Utgår".
 Navn: journalstatus
 Nr: M053
+Utdatert: nei

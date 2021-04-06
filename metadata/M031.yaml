@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Heltall
 Definisjon: Nummerering av gårdsenhet i matrikkelen, nummeret er unikt innenfor kommunen
-Gjeldende: true
 Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer: "SOSI-format-navn/datatype/lengde: GNR/H/5."
 Navn: gaardsnummer
 Nr: M031
+Utdatert: nei

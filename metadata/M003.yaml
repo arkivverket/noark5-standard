@@ -4,7 +4,6 @@ Arv: Ja, til registrering, og aggregeres i *M004* *registreringsID* i kombinasjo
 Betingelser: Skal ikke kunne endres
 Datatype: Tekststreng
 Definisjon: Entydig identifikasjon av mappen innenfor det arkivet mappen tilhører.
-Gjeldende: true
 Gruppe: Identifikasjon
 Kilde: Registreres automatisk av systemet etter interne regler
 Kommentarer: |-
@@ -13,3 +12,4 @@ Kommentarer: |-
   Er en videreføring av kombinasjonen saksår og sakssekvensnummer (oftest bare kalt "saksnummer") i Noark 4, som fortsatt er obligatorisk identifikasjon på saksmappe. I slike tilfeller skal verdien i mappeID også kopieres til de to metadataelementene *M011 saksaar* og *M012 sakssekvensnummer* i saksmappen.
 Navn: mappeID
 Nr: M003
+Utdatert: nei

@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser: Skal ikke kunne endres. 
 Datatype: systemID
 Definisjon: Referanse til den arkivenheten i hierarkiet som er direkte overordnet denne arkivenheten
-Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres automatisk av systemet
 Kommentarer: NB! Gyldig t.o.m. versjon 2.1. Er obligatorisk for arkiv bare dersom denne enheten er et underarkiv (delarkiv). Ved klasse kan forelder både være en annen klasse eller et klassifikasjonssystem. Ved mappe kan forelder være på en annen overordnet mappe eller en klasse. Dersom mappenivået utelates, kan forelder til en registrering være en klasse.
 Navn: referanseForelder
 Nr: M200
+Utdatert: nei

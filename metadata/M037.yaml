@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Heltall
 Definisjon: To-sifret kode som entydig identifiserer et fylke
-Gjeldende: true
 Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer:
 Navn: fylkesnummer
 Nr: M037
+Utdatert: nei

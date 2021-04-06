@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Postnummeret til en avsender /mottaker eller part
-Gjeldende: true
 Gruppe: Korrespondanse
 Kilde: Registreres manuelt eller automatisk fra dokumentet
 Kommentarer:
 Navn: postnummer
 Nr: M407
+Utdatert: nei

@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: systemID
 Definisjon: Referanse til registreringer som er knyttet til denne enheten
-Gjeldende: true
 Gruppe: Logging av endringer
 Kilde: Registreres automatisk når registreringer opprettes
 Kommentarer: NB! Gyldig t.o.m. Versjon 2.1. En og samme dokumentbeskrivelse kan være knyttet til flere registreringer (det er et M:M forhold mellom registrering og dokumentbeskrivelse). En arkivdel kan være direkte knyttet til en eller flere registreringer (f.eks. aktuelt ved kassasjon av bestemte typer  dokumenter).  Referansen er også aktuell i fagsystemer som verken inneholder mapper eller et klassifikasjonssystem.
 Navn: referanseRegistrering
 Nr: M206  
+Utdatert: nei

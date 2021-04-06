@@ -4,9 +4,9 @@ Betingelser:
 Datatype: Tekststreng
 Definisjon: Henvisning til hjemmel (paragraf) i offentlighetsloven, sikkerhetsloven
   eller beskyttelsesinstruksen
-Gjeldende: true
 Gruppe: Skjerming og gradering
 Kilde: Registreres automatisk på grunnlag av valgt tilgangskode, kan overstyres manuelt
 Kommentarer:
 Navn: skjermingshjemmel
 Nr: M501
+Utdatert: nei

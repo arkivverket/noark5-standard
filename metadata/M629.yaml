@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på person som har godkjent presedensen
-Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk dersom det finnes funksjonalitet for å godkjenne presedenser
 Kommentarer:
 Navn: presedensGodkjentAv
 Nr: M629
+Utdatert: nei

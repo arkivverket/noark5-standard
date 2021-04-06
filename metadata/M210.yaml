@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: systemID
 Definisjon: Kryssreferanse til en *mappe* fra en annen *mappe* eller *registrering*
-Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres automatisk når kryssreferanse opprettes
 Kommentarer:
 Navn: referanseTilMappe
 Nr: M210
+Utdatert: nei

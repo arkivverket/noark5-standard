@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser: Skal kunne endres manuelt inntil arkivering
 Datatype: Dato og klokkeslett
 Definisjon: Dato som er påført selve dokumentet
-Gjeldende: true
 Gruppe: Datoer
 Kilde: Datoen hentes automatisk fra dokumentet, eller registreres manuelt
 Kommentarer: Kan brukes både for inngående, utgående og organinterne dokumenter
 Navn: dokumentetsDato
 Nr: M103
+Utdatert: nei

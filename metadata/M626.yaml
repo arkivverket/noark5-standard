@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Dato og klokkeslett
 Definisjon: Dato og klokkeslett når et dokument ble nedgradert
-Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk ved nedgradering
 Kommentarer:
 Navn: nedgraderingsdato
 Nr: M626
+Utdatert: nei

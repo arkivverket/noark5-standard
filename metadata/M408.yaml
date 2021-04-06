@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Poststedet til en avsender/mottaker eller part
-Gjeldende: true
 Gruppe: Korrespondanse
 Kilde: Registreres manuelt eller automatisk fra dokumentet
 Kommentarer:
 Navn: poststed
 Nr: M408
+Utdatert: nei

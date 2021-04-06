@@ -4,9 +4,9 @@ Betingelser:
 Datatype: Tekststreng
 Definisjon: Kontaktperson hos en organisasjon som er avsender eller mottaker, eller
   part
-Gjeldende: true
 Gruppe: Korrespondanse
 Kilde: Registreres manuelt eller automatisk
 Kommentarer:
 Navn: kontaktperson
 Nr: M412
+Utdatert: nei

@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser: Kan ikke endres
 Datatype: Dato og klokkeslett
 Definisjon: Datoen et dokument ble knyttet til en registrering
-Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk nå tilknytning foretas
 Kommentarer:
 Navn: tilknyttetDato
 Nr: M620
+Utdatert: nei

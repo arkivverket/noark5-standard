@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser: Skal ikke kunne endres
 Datatype: Tekststreng
 Definisjon: Navn på person som har utført kassasjonen
-Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk når kassasjon utføres
 Kommentarer:
 Navn: kassertAv
 Nr: M631
+Utdatert: nei

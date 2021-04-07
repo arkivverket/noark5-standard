@@ -2209,7 +2209,7 @@ Metadata som avleveres som egne filer
 Metadata for endringslogg
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Avleveres som en egen fil kalt **endringslogg.xml**
+Avleveres som en egen fil kalt **endringslogg.xml**.
 
 Øverste nivå i strukturen.
 

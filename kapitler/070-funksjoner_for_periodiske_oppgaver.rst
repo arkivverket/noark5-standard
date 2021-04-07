@@ -115,7 +115,7 @@ Bevaring og kassasjon er altså i utgangpunktet knyttet til metadata som arves f
 
 Kassasjon av dokumenttyper kan implementeres ved at bestemte registreringstyper eller dokumenttyper automatisk knyttes til en arkivdel som inneholder bevarings- og kassasjonsvedtaket for den bestemte typen. Dette vedtaket skal da arves til registreringen eller dokumentbeskrivelsen. Men det kan også være andre måter å implementere denne funksjonaliteten uten å bruke arkivdel.
 
-.. list-table:: **Funksjonelle krav til bevaring og kassasjon**
+.. list-table:: **Funksjonelle krav til kassasjon av dokumenttyper**
    :widths: 1 8 1 4
    :header-rows: 1
 
@@ -141,7 +141,7 @@ På samme måte skal det være mulig å få presentert en oversikt over dokument
 
 En slik funksjonalitet er bare nødvendig å ha i de tilfeller en arkivdeler inneholder både informasjon som skal kasseres og informasjon som skal bevares. Det er obligatorisk for alminnelig sakarkivsystem å ha slik funksjonalitet. Det kan tenkes løsninger der det ikke vil være nødvendig med en slik avansert funksjonalitet, der det ikke vil våre nødvendig med funksjon for å åpne dokumenter fra presentasjonen av kassable dokumenter eller det å kunne lage en særskilt oversikt over kassable dokumenter.
 
-.. list-table:: **Funksjonelle krav til bevaring og kassasjon**
+.. list-table:: **Funksjonelle krav til oversikt over dokumenter som skal kasseres**
    :widths: 1 8 1 4
    :header-rows: 1
 
@@ -187,7 +187,7 @@ Selve funksjonen for å utføre kassasjon skal kunne begrenses til å omfatte ut
 
 Kassasjon av dokumenter betyr ikke at metadata skal slettes. Arkivforskriften har et bevaringspåbud for "journaldatabaser". Det betyr altså at metadata om kasserte dokumenter i utgangspunktet skal bevares, og avleveres til depot. Det skal likevel være mulig å angi at kassasjon også innebærer sletting av tilhørende metadata. Dette vil da være særlig aktuelt ved bestemte typer fagsystemer eller "enstypeserier". I slike tilfeller skal verken metadata eller dokumenter bevares.
 
-.. list-table:: **Funksjonelle krav til bevaring og kassasjon**
+.. list-table:: **Funksjonelle krav til sletting av dokument og metadata**
    :widths: 1 8 1 4
    :header-rows: 1
 

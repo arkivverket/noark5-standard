@@ -1,6 +1,5 @@
 Arkivenhet: Egen fil
 Arv: Nei
-Avleveres: A
 Betingelser: Kan ikke endres
 Datatype: Tekststreng
 Definisjon: En verdi som beregnes ut fra innholdet i metadataobjektene i avleveringspakken, og som dermed gir integritessikring til metadataenes innhold

@@ -1,7 +1,6 @@
 Arkivenhet: mappe
 Arv: Ja, til registrering, og aggregeres i *M004* *registreringsID* i kombinasjon
   med *M015 journalpostnummer*
-Avleveres: A
 Betingelser: Skal ikke kunne endres
 Datatype: Tekststreng
 Definisjon: Entydig identifikasjon av mappen innenfor det arkivet mappen tilhører.

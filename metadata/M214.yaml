@@ -1,6 +1,5 @@
 Arkivenhet: journalpost
 Arv: Nei
-Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Referanse til en eller flere journalposter som blir avskrevet av denne journalposten

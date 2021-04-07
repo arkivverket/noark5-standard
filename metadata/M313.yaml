@@ -1,7 +1,6 @@
 Arkivenhet: 'Egne filer med journalutskrift for løpende og offentlig journal: loependeJournal.xml
   og offentligJournal.xml'
 Arv:
-Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Beskrivelse av kriteriene som er brukt ved seleksjon av journalrapportenes

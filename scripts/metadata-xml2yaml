@@ -27,7 +27,6 @@ class Converter(object):
         for sub in element.iterchildren():
             entry = {
                 'Datatype': '?',
-                'Avleveres': '?',
             }
             for line in sub.iterchildren():
                 field = line.tag

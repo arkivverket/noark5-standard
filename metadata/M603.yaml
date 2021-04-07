@@ -1,6 +1,5 @@
 Arkivenhet: arkiv, arkivdel, klassifikasjonssystem, klasse og mappe
 Arv: Nei
-Avleveres: A
 Betingelser: Skal ikke kunne endres. Obligatorisk dersom arkivenheten er avsluttet.
 Datatype: Tekststreng
 Definisjon: Navn på person som avsluttet/lukket arkivenheten

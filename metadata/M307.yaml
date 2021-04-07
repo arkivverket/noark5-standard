@@ -1,7 +1,6 @@
 Arkivenhet: journalpost, moeteregistrering
 Arv: Ja fra saksmappe til journalpost, jf. *M306* *saksansvarlig.* Saksansvarlig og
   saksbehandler vil i mange tilfeller være samme person.
-Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på person som er saksbehandler

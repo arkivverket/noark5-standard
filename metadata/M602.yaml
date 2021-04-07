@@ -1,6 +1,5 @@
 Arkivenhet: arkiv, arkivdel, klassifikasjonssystem, klasse og mappe
 Arv: Nei
-Avleveres:
 Betingelser: Skal ikke kunne endres. Obligatorisk dersom arkivdelen er avsluttet.
 Datatype: Dato og klokkeslett
 Definisjon: Dato og klokkeslett når arkivenheten ble avsluttet/lukket

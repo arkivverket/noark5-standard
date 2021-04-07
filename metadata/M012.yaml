@@ -1,6 +1,5 @@
 Arkivenhet: saksmappe
 Arv: Kopieres fra *M003 mappeID*
-Avleveres: A
 Betingelser: Skal ikke kunne endres
 Datatype: Heltall
 Definisjon: Inngår i *M003 mappeID*. Viser rekkefølgen når saksmappen ble opprettet

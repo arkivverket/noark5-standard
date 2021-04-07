@@ -8,7 +8,7 @@ import yaml
 
 def main():
     retval = 0
-    required = ('Nr', 'Navn', 'Datatype', 'Avleveres',
+    required = ('Nr', 'Navn', 'Datatype',
                 'Definisjon', 'Arkivenhet', 'Kilde')
     optional = ('Noark 4', 'Arv', 'Betingelser', 'Kommentarer',)
     parser = argparse.ArgumentParser()
@@ -60,7 +60,7 @@ def main():
             print("By %s" % unit)
             for number in byunit[unit]:
                 line = []
-                for f in ('Nr', 'Navn', 'Avleveres', 'Datatype'):
+                for f in ('Nr', 'Navn', 'Datatype'):
                     line.append(byunit[unit][number][f])
                 print(line)
             print()

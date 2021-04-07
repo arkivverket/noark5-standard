@@ -1,6 +1,5 @@
 Arkivenhet: Egen fil
 Arv: Nei
-Avleveres: A
 Betingelser: Obligatorisk ved avlevering dersom eksporten omfatter elektroniske dokumenter. Kan ikke endres
 Datatype: Heltall
 Definisjon: Antall elektroniske dokumenter (dokumentfiler) som inngikk i eksporten

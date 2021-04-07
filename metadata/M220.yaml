@@ -1,6 +1,5 @@
 Arkivenhet: klasse
 Arv: Nei
-Avleveres: A
 Betingelser:
 Datatype: systemID
 Definisjon: Kryssreferanse fra en annen klasse

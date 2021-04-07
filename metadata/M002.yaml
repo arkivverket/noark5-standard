@@ -2,7 +2,6 @@ Arkivenhet: klasse
 Arv: I hierarkiske klassifikasjonssystemer (f.eks. statens arkivnøkkel) skal en underordnet
   klasse arve og aggregere (slå sammen) identifikasjonen fra alle overordnede klasser,
   se kommentar nedenfor.
-Avleveres: A
 Betingelser: Skal ikke kunne endres
 Datatype: Tekststreng
 Definisjon: Entydig identifikasjon av klassen innenfor klassifikasjonssystemet.

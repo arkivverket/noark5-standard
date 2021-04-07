@@ -1,6 +1,5 @@
 Arkivenhet: journalpost
 Arv: Nei
-Avleveres: A
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Referanse til en eller flere journalposter som avskriver denne journalposten

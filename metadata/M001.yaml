@@ -1,7 +1,6 @@
 Arkivenhet: arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse,
   dokumentobjekt
 Arv: Nei
-Avleveres: A
 Betingelser: Skal ikke kunne endres
 Datatype: Tekststreng
 Regex: "[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}"

@@ -1218,7 +1218,7 @@ Spesialisering av: *registrering*
    - A
    - Tekststreng
  * - M223
-   - referanseTil Moeteregistrering
+   - referanseTilMoeteregistrering
    - 
    - 0-M
    - A
@@ -1508,7 +1508,7 @@ Metadata for *konvertering*
    - A
    - Tekststreng
  * - M715
-   - konverterings­kommentar
+   - konverteringskommentar
    - 
    - 0-1
    - A

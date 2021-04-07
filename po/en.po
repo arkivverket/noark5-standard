@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-03 13:19+0200\n"
-"PO-Revision-Date: 2021-04-03 11:46+0000\n"
+"PO-Revision-Date: 2021-04-07 17:17+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
@@ -28189,32 +28189,32 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38313
 msgid "M038"
-msgstr ""
+msgstr "M038"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38316
 msgid "landkode"
-msgstr ""
+msgstr "landkode"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38332
 msgid "M037"
-msgstr ""
+msgstr "M037"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38335
 msgid "fylkesnummer"
-msgstr ""
+msgstr "fylkesnummer"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38373
 msgid "planidentifikasjon"
-msgstr ""
+msgstr "planidentifikasjon"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:38392
 msgid "Metadata for <emphasis>posisjon</emphasis>"
-msgstr ""
+msgstr "Metadata for <emphasis>posisjon</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:38394
@@ -28226,42 +28226,42 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38430
 msgid "M043"
-msgstr ""
+msgstr "M043"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38433
 msgid "koordinatsystem"
-msgstr ""
+msgstr "koordinatsystem"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38449
 msgid "M040"
-msgstr ""
+msgstr "M040"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38452
 msgid "x"
-msgstr ""
+msgstr "x"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38468
 msgid "M041"
-msgstr ""
+msgstr "M041"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38471
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38487
 msgid "M042"
-msgstr ""
+msgstr "M042"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38490
 msgid "z"
-msgstr ""
+msgstr "z"
 
 #. type: Content of: <book><appendix><sect1><title>
 #: docbook/spesifikasjon-complete.xml:38510
@@ -28385,7 +28385,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:38690
 #: docbook/spesifikasjon-complete.xml:39606
 msgid "Metadata for <emphasis>journalhode</emphasis>"
-msgstr ""
+msgstr "Metadata for <emphasis>journalhode</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><para>
 #: docbook/spesifikasjon-complete.xml:38692

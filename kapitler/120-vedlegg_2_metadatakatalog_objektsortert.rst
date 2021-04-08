@@ -827,6 +827,12 @@ Metadata for *korrespondansepart*
    - **Forek.**
    - **Avl.**
    - **Datatype**
+ * - M001
+   - systemID
+   -
+   - 1
+   - A
+   - Tekststreng
  * - M087
    - korrespondanseparttype
    - (AM.IHTYPE, AM.KOPIMOT, AM.GRUPPE MOT)
@@ -1053,6 +1059,12 @@ Merk: Grupperes inn in den journalposten som avskrives.
    - 0-1
    - A
    - registrering.systemID
+ * - M231
+   - referanseAvskrivesAvKorrespondansepart
+   -
+   - 0-1
+   - A
+   - korrespondansepart.systemID
 
 Metadata for *arkivnotat*
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1622,6 +1634,12 @@ Metadata for *part*
    - **Forek.**
    - **Avl.**
    - **Datatype**
+ * - M001
+   - systemID
+   -
+   - 1
+   - A
+   - Tekststreng
  * - M010
    - partID
    - 

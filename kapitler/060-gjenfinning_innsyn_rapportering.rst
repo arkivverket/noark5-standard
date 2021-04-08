@@ -285,7 +285,7 @@ Kravene under er obligatoriske for sakarkivløsninger eller andre løsninger und
      
      *referanseAvskrivesAvJournalpost*
      
-     *referanseAvskriverJournalpost*
+     *referanseAvskrivesAvKorrespondansepart*
    - B
    - Obligatorisk for arkiv underlagt Offentleglova.
  * - 5.2.10

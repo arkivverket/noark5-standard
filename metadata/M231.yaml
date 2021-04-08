@@ -3,10 +3,10 @@ Arv: Nei
 Avleveres: A
 Betingelser:
 Datatype: systemID
-Definisjon: Referanse til journalpost som avskriver denne journalposten.
+Definisjon: Referanse til korrespondansepart i journalpost som avskriver denne journalposten.
 Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres manuelt eller automatisk ved avskrivning
 Kommentarer:
-Navn: referanseAvskrivesAvJournalpost
-Nr: M215
+Navn: referanseAvskrivesAvKorrespondansepart
+Nr: M231

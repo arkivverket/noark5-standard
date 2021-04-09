@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-03 13:19+0200\n"
-"PO-Revision-Date: 2021-04-07 17:17+0000\n"
-"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
+"PO-Revision-Date: 2021-04-09 14:26+0000\n"
+"Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
 "Language: en\n"
@@ -231,22 +231,17 @@ msgstr ""
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:107
-#, fuzzy
-#| msgid ""
-#| "I 1995 ble det utarbeidet en tilsvarende kravspesifikasjon for kommunal "
-#| "sektor. Koark bygde på samme prinsipper som Noark, men hadde en del "
-#| "tillegg spesielt tilpasset kommunens behov, som f.  eks. politisk "
-#| "saksbehandling i en egen møte- og utvalgsmodul."
 msgid ""
 "I 1995 ble det utarbeidet en tilsvarende kravspesifikasjon for kommunal "
 "sektor. Koark bygde på samme prinsipper som Noark, men hadde en del tillegg "
 "spesielt tilpasset kommunens behov, som f.eks. politisk saksbehandling i en "
 "egen møte- og utvalgsmodul."
 msgstr ""
-"In 1995, a corresponding requirement specification was prepared for the "
-"municipal sector. Koark built on the same principles as Noark, but with some "
-"additions specifically adapted to the needs of the municipality, like "
-"political proceedings in a separate meeting and selection module."
+"In 1995, a corresponding requirements specification was devloped for the "
+"municipal sector. The specification, called Koark, built on the same "
+"principles as Noark, but with some specific requirements relevant for "
+"municipalities, e.g., recording of political proceedings in a separate "
+"meeting and committee module."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:113
@@ -587,6 +582,16 @@ msgid ""
 "på hensynene bak offentlighetsprinsippet da kriteriene for "
 "journalføringsplikt ble utarbeidet."
 msgstr ""
+"The Public Access to Information Act of 1970 introduced the right to inspect "
+"the public administration's records, and when the archive regulations were "
+"drawn up in the 1990s, draft provisions on record keeping were prepared in "
+"parallel with the parliaments report on the principle of public access. An "
+"important concept introduced with the registration of records, in a journal, "
+"came in 1984 and all archival documents that were to be included in the "
+"internal case processing system. Later the provisions on record keeping "
+"legislation from 1999 was more directly linked to the Public Access to "
+"Information Act's case documents. Significant emphasis was thus placed on "
+"the principle of openness when the criteria for record keeping were drawn up."
 
 #. type: Content of: <book><chapter><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:305
@@ -860,6 +865,12 @@ msgid ""
 "Noark 5 ble <emphasis>registrering</emphasis> valgt som norsk oversettelse "
 "av record. Det er dermed dette begrepet som blir brukt i fortsettelsen her."
 msgstr ""
+"The Norwegian word <emphasis>Dokumentasjon</emphasis> is the Norwegian "
+"translation of the English word <emphasis> record </emphasis>, as used in "
+"these standards. Noark 5 was developed before these standards were "
+"translated to Norwegian, and as such the standard was not afforded an "
+"opportunity to use these translated terms. In Noark 5, <emphasis> "
+"registration </emphasis> was chosen as the Norwegian translation of record."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:466
@@ -1021,44 +1032,29 @@ msgstr "Prevents documentation from changing and has version control."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:569
-#, fuzzy
-#| msgid "Kan tillate at dokumenter slettes av dokumenteier"
 msgid "Kan tillate at dokumenter slettes av dokumenteier."
-msgstr "Can allow documents to be deleted by the document owner"
+msgstr "Allows documents to be deleted by the document owner."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:572
-#, fuzzy
-#| msgid ""
-#| "Hindrer at dokumentasjon slettes uten at det er skjer gjennom "
-#| "kontrollert, autorisert kassasjon"
 msgid ""
 "Hindrer at dokumentasjon slettes uten at det er skjer gjennom kontrollert, "
 "autorisert kassasjon."
 msgstr ""
 "Prevents documentation from being deleted unless it is subject to a "
-"controlled, authorised disposal"
+"controlled, authorised disposal."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:578
-#, fuzzy
-#| msgid ""
-#| "Kan inneholde noe kontroll over hvor lenge et dokument skal oppbevares og "
-#| "om det kan slettes"
 msgid ""
 "Kan inneholde noe kontroll over hvor lenge et dokument skal oppbevares og om "
 "det kan slettes."
 msgstr ""
 "May be subject to control regarding how long a document should be kept and "
-"whether it can be deleted"
+"whether it can be deleted."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:582
-#, fuzzy
-#| msgid ""
-#| "Rigorøs «retention control», det vil si løsningene skal ha funksjoner for "
-#| "å styre bevaring, migrasjon og kassasjon av dokumentasjon iht. fastsatte "
-#| "planer"
 msgid ""
 "Rigorøs «retention control», det vil si løsningene skal ha funksjoner for å "
 "styre bevaring, migrasjon og kassasjon av dokumentasjon iht. fastsatte "
@@ -1066,22 +1062,15 @@ msgid ""
 msgstr ""
 "Rigorous \"retention control\", i.e., a solution has functionality to "
 "managing the preservation, migration and disposal of documentation in "
-"accordance with descriptions"
+"accordance with descriptions."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:589
-#, fuzzy
-#| msgid "Kan inneholde strukturert dokumentlagring, som kan være brukerstyrt"
 msgid "Kan inneholde strukturert dokumentlagring, som kan være brukerstyrt."
-msgstr "May contain structured document storage, which may be user controlled"
+msgstr "May contain structured document storage, which may be user controlled."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:593
-#, fuzzy
-#| msgid ""
-#| "Arkivstruktur med et klassifikasjonssystem som knytter dokumentasjon til "
-#| "kontekst (sammenhengen den ble skapt i), og som vedlikeholdes av "
-#| "autorisert administrator"
 msgid ""
 "Arkivstruktur med et klassifikasjonssystem som knytter dokumentasjon til "
 "kontekst (sammenhengen den ble skapt i), og som vedlikeholdes av autorisert "
@@ -1089,20 +1078,16 @@ msgid ""
 msgstr ""
 "Archive structure utilising a classification system that associates "
 "documentation to context (the context in which it was created), and which is "
-"maintained by an authorised administrator"
+"maintained by an authorised administrator."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:600
-#, fuzzy
-#| msgid ""
-#| "Har som primær funksjon å støtte den daglige produksjonen og bruken av "
-#| "dokumenter i løpende saksbehandling"
 msgid ""
 "Har som primær funksjon å støtte den daglige produksjonen og bruken av "
 "dokumenter i løpende saksbehandling."
 msgstr ""
 "Its primary function is to support the daily production and use of documents "
-"in ongoing case handling"
+"in ongoing case handling."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:604
@@ -2530,16 +2515,22 @@ msgid ""
 "skal alle obligatoriske metadata inngå i en felles struktur. Slike "
 "strukturer vil bl.a. bli beskrevet i form av XML-skjema i Noark 5."
 msgstr ""
+"There is no requirement that all metadata in the catalogue must be stored in "
+"the core. In some solutions, it may be more appropriate to store parts of "
+"the metadata in an external system. But it is a requirement that when "
+"exporting or exchanging, all mandatory metadata must be included in a common "
+"structure. Such structures will be described in the form of an XML form in "
+"Noark 5."
 
 #. type: Content of: <book><chapter><sect1><table><title>
 #: docbook/spesifikasjon-complete.xml:1152
 msgid "<emphasis role=\"strong\">Overordnede krav til metadata</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">General requirements for metadata</emphasis>"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:1165
 msgid "Overordnede krav til metadata"
-msgstr ""
+msgstr "General requirements for metadata"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1178
@@ -2555,6 +2546,11 @@ msgid ""
 "klasser som er dokumentert i de konseptuelle modellene og metadatatabellene "
 "i Noark 5."
 msgstr ""
+"A Noark 5 solution shall have services / functions for <emphasis> storing, "
+"retrieving, modifying and deleting </emphasis> data and selections of data "
+"according to the metadata descriptions in all <emphasis> archive units </"
+"emphasis> and associated classes that are documented in the conceptual "
+"models and metadata tables in Noark 5."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1192
@@ -2562,6 +2558,8 @@ msgid ""
 "Funksjonelle enkeltkrav i de forskjellige kapitlene kan overstyre dette "
 "kravet."
 msgstr ""
+"Individual functional requirements in the various chapters may override this "
+"requirement."
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1198
@@ -2578,11 +2576,17 @@ msgid ""
 "et arkivuttrekk, skal identifiseres entydig, slik at identiske arkivenheter "
 "har ulik systemID."
 msgstr ""
+"An archive unit must be uniquely identifiable within the organisation. In an "
+"extraction, this identification shall be called systemID, and be unambiguous "
+"across all extracts that the organisation produces, thus also across all "
+"systems the organisation uses. Archive units that are duplicated in an "
+"extraction must also be uniquely identified, so that identical archive units "
+"have different system IDs."
 
 #. type: Content of: <book><chapter><sect1><title>
 #: docbook/spesifikasjon-complete.xml:1220
 msgid "Arkiv og arkivdel"
-msgstr ""
+msgstr "Fonds and Series"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1222
@@ -2590,6 +2594,8 @@ msgid ""
 "Forskjellige virksomheter vil ha forskjellig behov for definering av arkiv "
 "og arkivdeler. Både arkiv og arkivdel obligatoriske nivå i arkivstrukturen."
 msgstr ""
+"Different organisation will have different needs for defining fonds and "
+"series. Both fonds and series are mandatory levels in the archive structure."
 
 #. type: Content of: <book><chapter><sect1><figure><mediaobject><textobject><phrase>
 #: docbook/spesifikasjon-complete.xml:1227
@@ -2598,6 +2604,8 @@ msgid ""
 "<emphasis role=\"strong\">Konseptuell modell for <emphasis>arkiv</emphasis> "
 "og <emphasis>arkivdel</emphasis></emphasis>"
 msgstr ""
+"<emphasis role = \"strong\"> Conceptual model for <emphasis> fonds </"
+"emphasis> and <emphasis>series </emphasis> </emphasis>"
 
 #. type: Content of: <book><chapter><sect1><figure><mediaobject>
 #: docbook/spesifikasjon-complete.xml:1231
@@ -2613,7 +2621,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:4439
 #: docbook/spesifikasjon-complete.xml:4477
 msgid "Arkiv"
-msgstr ""
+msgstr "Fonds"
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:1242
@@ -2626,17 +2634,25 @@ msgid ""
 "arkiver. Det kan være aktuelt dersom flere organ deler samme løsning. En "
 "Noark-løsning kan derfor omfatte ett eller flere arkiver."
 msgstr ""
+"A fonds normally consists of documentation that are created beloning to a "
+"single organisation, i.e., documents that are received or produced by a "
+"single organisation and collected as a result of their business activities. "
+"A fonds is the top level entity in the archive structure. Most organisations "
+"will only need to create one fonds in their Noark 5 solution. But it should "
+"be possible to create multiple fonds. This may be the case if several "
+"organisations share the same solution. A Noark solution can therefore "
+"include one or more fonds."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:1253
 msgid "Arkiv er obligatorisk i et arkivuttrekk."
-msgstr ""
+msgstr "Fonds is mandatory in an extraction."
 
 #. type: Content of: <book><chapter><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1257
 #: docbook/spesifikasjon-complete.xml:14437
 msgid "Arkivskaper"
-msgstr ""
+msgstr "Fonds creator"
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:1259
@@ -2650,6 +2666,14 @@ msgid ""
 "arkivskapere (avdelinger, etater i en kommune) som skaper hvert sitt arkiv "
 "(desentralisert arkiv)."
 msgstr ""
+"Traditionally, an archive is defined by an <emphasis> organization </"
+"emphasis>. An archive creators is an organizational unit or a person who "
+"forms an archive as part of their business. A creator of an archive can be a "
+"public body, a company, an organization, an institution, a foundation, etc., "
+"or part of such an entity. A public body can be seen as a single "
+"organisatorical entity and thus have only one archive (centralized archive), "
+"or it can constitute several organisatorical entity (departments, agencies "
+"in a municipality) who each create their own archive (decentralized archive)."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:1270
@@ -2659,16 +2683,23 @@ msgid ""
 "<emphasis>funksjon</emphasis>, ikke organisasjon.  I en Noark 5-løsning skal "
 "det derfor være mulig å knytte en eller flere arkivskapere til ett arkiv."
 msgstr ""
+"With the rise in digitization it has become common for several archive "
+"creators to create a single archive together. Such an archive is defined by "
+"<emphasis> function </emphasis>, not organization. In a Noark 5 solution, it "
+"must therefore be possible to link one or more organisations to a single "
+"archive."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:1277
 msgid "Informasjon om arkivskapere er obligatorisk i arkivuttrekk."
 msgstr ""
+"Information about the organisations seen as the archive creators is "
+"mandatory in extractions."
 
 #. type: Content of: <book><chapter><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:1281
 msgid "Underarkiv"
-msgstr ""
+msgstr "subfonds"
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:1283
@@ -2680,11 +2711,18 @@ msgid ""
 "en hierarkisk struktur innenfor arkivet og kan således defineres i flere "
 "nivåer. I praksis vil det vanligvis være ett nivå."
 msgstr ""
+"In some cases, there is a need for an extra level between a fonds and a "
+"series. This is particualarly relevant for physical archives within the "
+"municipality sector , where there may be a need to section archives into "
+"several (physical) parts. This has been solved by introducing rhe so-called "
+"sub-fonds into the conceptual model. A subfonds is a hierarchical structure "
+"within the archive and can thus be defined at several levels. In practice "
+"though, there will usually only be one level."
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:1292
 msgid "Underarkiv er ikke obligatorisk i arkivstrukturen."
-msgstr ""
+msgstr "Subafonds is not mandatory in the archive structure."
 
 #. type: Content of: <book><chapter><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:1296
@@ -2693,7 +2731,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:8146
 #: docbook/spesifikasjon-complete.xml:14390
 msgid "Arkivdel"
-msgstr ""
+msgstr "Series"
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:1298
@@ -2701,6 +2739,9 @@ msgid ""
 "Et arkiv skal kunne deles opp i arkivdeler for å gruppere arkivet etter "
 "overordnede kriterier. De viktigste kriteriene for oppdeling i arkivdeler er:"
 msgstr ""
+"It must be possible to divide a fonds into series to aggregate documentation "
+"according to general criteria. The most important criteria for division into "
+"series are:"
 
 #. type: Content of: <book><chapter><sect1><sect2><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:1305
@@ -2708,12 +2749,15 @@ msgid ""
 "Skille mellom aktivt arkiv og avsluttede arkivperioder.  Funksjoner for "
 "periodisering og produksjon av arkivuttrekk er knyttet til en arkivdel."
 msgstr ""
+"Distinguish between active and completed archival periods. Functionality to "
+"accrue and the production of extracttions are linked to a series."
 
 #. type: Content of: <book><chapter><sect1><sect2><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:1312
 msgid ""
 "Skille mellom mapper som skal periodiseres etter forskjellige prinsipper."
 msgstr ""
+"Distinguish between files to be aggregated according to different principles."
 
 #. type: Content of: <book><chapter><sect1><sect2><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:1318

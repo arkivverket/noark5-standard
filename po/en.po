@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-03 13:19+0200\n"
 "PO-Revision-Date: 2021-04-09 14:26+0000\n"
-"Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
+"Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
 "Language: en\n"
@@ -18465,10 +18465,8 @@ msgstr "<emphasis role=\"strong\">M040</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:18064
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">M009</emphasis>"
 msgid "<emphasis role=\"strong\">x</emphasis>"
-msgstr "<emphasis role=\"strong\">M009</emphasis>"
+msgstr "<emphasis role=\"strong\">x</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:18072
@@ -18497,10 +18495,8 @@ msgstr "<emphasis role=\"strong\">M041</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:18135
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">M009</emphasis>"
 msgid "<emphasis role=\"strong\">y</emphasis>"
-msgstr "<emphasis role=\"strong\">M009</emphasis>"
+msgstr "<emphasis role=\"strong\">y</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:18143
@@ -18521,10 +18517,8 @@ msgstr "<emphasis role=\"strong\">M042</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:18206
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">M009</emphasis>"
 msgid "<emphasis role=\"strong\">z</emphasis>"
-msgstr "<emphasis role=\"strong\">M009</emphasis>"
+msgstr "<emphasis role=\"strong\">z</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:18214

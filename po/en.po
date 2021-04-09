@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-03 13:19+0200\n"
-"PO-Revision-Date: 2021-04-09 14:30+0000\n"
+"PO-Revision-Date: 2021-04-09 14:42+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
@@ -357,7 +357,7 @@ msgid ""
 "offentleglova § 4.</emphasis>"
 msgstr ""
 "<emphasis role=\"strong\">It is a case document belonging to the public "
-"body, as defined in the Public Administration Act § 4.</emphasis>"
+"body, as defined in the Freedom of Information Act § 4.</emphasis>"
 
 #. type: Content of: <book><chapter><sect1><sect2><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:172

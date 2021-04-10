@@ -53,7 +53,13 @@ avledet/spesifikasjon.%.pdf: docbook/spesifikasjon-complete.%.xml
 
 html: avledet/spesifikasjon.html
 avledet/spesifikasjon.html: docbook images
-	xmlto -o avledet/ html-nochunks docbook/spesifikasjon.xml
+	xmlto -o avledet/ html-nochunks docbook/spesifikasjon-complete.xml
+	mv avledet/spesifikasjon-complete.html avledet/spesifikasjon.html
+
+avledet/spesifikasjon.%.html: docbook/spesifikasjon-complete.%.xml
+	xmlto -o avledet/ html-nochunks $^
+	b=$$(basename $^ .xml) ; \
+	mv avledet/$$b.html avledet/$$(echo $$b | sed s/-complete//).html
 
 epub: avledet/spesifikasjon.epub
 avledet/spesifikasjon.epub: docbook images

@@ -6,11 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-04-03 13:19+0200\n"
+"POT-Creation-Date: 2021-04-09 17:22+0200\n"
 "PO-Revision-Date: 2021-04-09 14:42+0000\n"
 "Last-Translator: Thomas Sødring <tsodring@gmail.com>\n"
-"Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
-"\n"
+"Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/"
+">\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26794,8 +26794,10 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:35565
-msgid "referanseTil Moeteregistrering"
-msgstr ""
+#, fuzzy
+#| msgid "basisregistrering"
+msgid "referanseTilMoeteregistrering"
+msgstr "basisregistrering"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:35581
@@ -27196,8 +27198,10 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36462
-msgid "konverterings­kommentar"
-msgstr ""
+#, fuzzy
+#| msgid "Konvertering til arkivformat"
+msgid "konverteringskommentar"
+msgstr "Converting to archive format"
 
 #. type: Content of: <book><appendix><sect1><title>
 #: docbook/spesifikasjon-complete.xml:36482
@@ -28315,10 +28319,12 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:38514
+#, fuzzy
+#| msgid "<emphasis role=\"strong\">endringsloepenummer</emphasis>"
 msgid ""
 "Avleveres som en egen fil kalt <emphasis role=\"strong\">endringslogg.xml</"
-"emphasis>"
-msgstr ""
+"emphasis>."
+msgstr "<emphasis role=\"strong\">endringsloepenummer</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><sect3><title>
 #: docbook/spesifikasjon-complete.xml:38521
@@ -29490,6 +29496,3 @@ msgstr ""
 
 #~ msgid "Avdeling for Dokumentasjonsforvaltning"
 #~ msgstr "Department for Document Management"
-
-#~ msgid "basisregistrering"
-#~ msgstr "basisregistrering"

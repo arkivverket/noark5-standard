@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-04-03 13:19+0200\n"
+"POT-Creation-Date: 2021-04-09 17:22+0200\n"
 "PO-Revision-Date: 2020-12-23 11:29+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: Norwegian Nynorsk <https://hosted.weblate.org/projects/noark/"
@@ -34131,7 +34131,9 @@ msgstr "M223"
 #
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:35565
-msgid "referanseTil Moeteregistrering"
+#, fuzzy
+#| msgid "referanseTil Moeteregistrering"
+msgid "referanseTilMoeteregistrering"
 msgstr "referanseTil Moeteregistrering"
 
 #
@@ -34628,7 +34630,9 @@ msgstr "M715"
 #
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36462
-msgid "konverterings­kommentar"
+#, fuzzy
+#| msgid "konverterings­kommentar"
+msgid "konverteringskommentar"
 msgstr "konverteringskommentar"
 
 #
@@ -36081,9 +36085,13 @@ msgstr "Metadata for endringslogg"
 #
 #. type: Content of: <book><appendix><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:38514
+#, fuzzy
+#| msgid ""
+#| "Avleveres som en egen fil kalt <emphasis role=\"strong\">endringslogg."
+#| "xml</emphasis>"
 msgid ""
 "Avleveres som en egen fil kalt <emphasis role=\"strong\">endringslogg.xml</"
-"emphasis>"
+"emphasis>."
 msgstr ""
 "Avleverast som ein eiga fil kalla <emphasis role=\"strong\">endringslogg."
 "xml</emphasis>"

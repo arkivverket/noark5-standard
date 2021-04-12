@@ -2,8 +2,8 @@ Arkivenhet: dokumentobjekt
 Arv: Nei
 Avleveres: A
 Betingelser: Kan ikke endres
-Datatype: Tekststreng
-Definisjon: Størrelsen på fila i antall bytes oppgitt med desimaltall
+Datatype: Heltall
+Definisjon: Størrelsen på fila i antall bytes.
 Gjeldende: true
 Gruppe: Tekniske metadata
 Kilde: Registreres automatisk i forbindelse med eksport for avlevering

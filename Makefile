@@ -52,7 +52,7 @@ avledet/spesifikasjon.%.pdf: docbook/spesifikasjon-complete.%.xml
 	dblatex $(DBLATEX_OPTS) -o $@ $^
 
 html: avledet/spesifikasjon.html
-avledet/spesifikasjon.html: docbook images
+avledet/spesifikasjon.html: docbook/spesifikasjon-complete.xml images
 	xmlto -x docbook/docbook-utf8.xsl -m docbook/pdf.xsl -o avledet/ html-nochunks docbook/spesifikasjon-complete.xml
 	mv avledet/spesifikasjon-complete.html avledet/spesifikasjon.html
 

@@ -4460,7 +4460,7 @@ Tekniske metadata
  * - **Navn**
    - **filstoerrelse**
  * - **Definisjon**
-   - Størrelsen på fila i antall bytes oppgitt med desimaltall
+   - Størrelsen på fila i antall bytes.
  * - **Arkivenhet**
    - dokumentobjekt
  * - **Kilde**

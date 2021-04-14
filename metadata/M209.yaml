@@ -2,7 +2,7 @@ Arkivenhet: saksmappe
 Arv: Nei
 Avleveres: A
 Betingelser:
-Datatype: systemID
+Datatype: ID
 Definisjon: Referanse til sekundærklassifikasjon. Kan også referere til flere enn
   én sekundær klassifikasjon (tertiærklassifikasjon osv.)
 Gjeldende: true

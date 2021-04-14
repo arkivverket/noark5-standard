@@ -2,7 +2,7 @@ Arkivenhet: Filen endringslogg.xml
 Arv: Nei
 Avleveres: A
 Betingelser:
-Datatype: Tekststreng
+Datatype: ID
 Definisjon: Referanse til arkivenheten (systemID) som inneholder metadata­elementet
   som ble endret
 Gjeldende: true

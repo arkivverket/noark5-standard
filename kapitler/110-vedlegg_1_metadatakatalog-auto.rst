@@ -328,6 +328,27 @@ Identifikasjon
  * - **Kommentarer**
    - Er ikke obligatorisk, men anbefales brukt i sakarkiver. Kombineres med *M003 mappeID*, og inngår i *M004 registreringsID*. Dersom journalpostnummer ikke brukes, må andre kriterier kunne identifisere journalpostenes rekkefølge innenfor saksmappen.
 
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+ * - **Nr**
+   - **M016**
+ * - **Navn**
+   - **ID**
+ * - **Definisjon**
+   - Globalt unik identifikasjon av arkivenheten (UID).
+ * - **Arkivenhet**
+   - 
+ * - **Kilde**
+   - Registreres automatisk av systemet
+ * - **Arv**
+   - Nei
+ * - **Betingelser**
+   - Skal ikke kunne endres
+ * - **Kommentarer**
+   - Alle referanser fra en arkivenhet til en annen skal peke til arkivenhetens systemidentifikasjon. Dette gjelder også referanser fra en arkivdel til en annen, f.eks. mellom to arkivperioder som avleveres på forskjellig tidspunkt.
+
 
 Kjernemetadata (jf. Dublin Core)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

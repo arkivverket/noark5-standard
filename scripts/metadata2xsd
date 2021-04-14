@@ -117,11 +117,20 @@ def main():
                         with output.tag('xs:annotation'):
                             output.writetag('xs:documentation', number)
                         output.writetag('xs:restriction', attr='base="xs:dateTime"')
-                if 'systemID' == metadata[number]['Datatype']:
+                if 'ID' == metadata[number]['Datatype'] \
+                   and 'M001' == metadata[number]['Nr']:
+                    with output.tag('xs:complexType', attr='name="%s"' % metadata[number]['Navn']):
+                        with output.tag('xs:annotation'):
+                            output.writetag('xs:documentation', number)
+                        with output.tag('xs:simpleContent'):
+                            with output.tag('xs:extension', attr='base="ID"'):
+                                output.writetag('xs:attribute', attr='name="label" type="xs:string"')
+                elif metadata[number]['Datatype'] in ('ID', 'systemID'):
                     with output.tag('xs:simpleType', attr='name="%s"' % metadata[number]['Navn']):
                         with output.tag('xs:annotation'):
                             output.writetag('xs:documentation', number)
-                        output.writetag('xs:restriction', attr='base="systemID"')
+                        output.writetag('xs:restriction',
+                                        attr='base="%s"' % metadata[number]['Datatype'])
                 output.write("\n")
     return retval
 

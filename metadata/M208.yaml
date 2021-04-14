@@ -2,7 +2,7 @@ Arkivenhet: mappe, registrering, dokumentbeskrivelse
 Arv: Nei
 Avleveres: A
 Betingelser:
-Datatype: systemID
+Datatype: ID
 Definisjon: Referanse til arkivdelen som denne arkivenheten er tilknyttet
 Gjeldende: true
 Gruppe: Referanser

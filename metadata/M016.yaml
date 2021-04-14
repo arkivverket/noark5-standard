@@ -1,9 +1,9 @@
-Arkivenhet: arkiv, arkivdel, klassifikasjonssystem, klasse, mappe,
-  registrering, dokumentbeskrivelse, dokumentobjekt
+Arkivenhet:
 Arv: Nei
 Avleveres: A
 Betingelser: Skal ikke kunne endres
-Datatype: ID
+Regex: "[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}"
+Datatype: Tekststreng
 Definisjon: Globalt unik identifikasjon av arkivenheten (UID).
 Gjeldende: true
 Gruppe: Identifikasjon
@@ -12,5 +12,5 @@ Kommentarer: Alle referanser fra en arkivenhet til en annen skal peke
   til arkivenhetens systemidentifikasjon. Dette gjelder også referanser
   fra en arkivdel til en annen, f.eks. mellom to arkivperioder som
   avleveres på forskjellig tidspunkt.
-Navn: systemID
-Nr: M001
+Navn: ID
+Nr: M016

@@ -2,7 +2,7 @@ Arkivenhet: arkivdel
 Arv: Nei
 Avleveres: A
 Betingelser:
-Datatype: systemID
+Datatype: ID
 Definisjon: Referanse til den arkivdelen som er arvtaker for denne arkivdelen, dvs.
   inneholder neste arkivperiode.
 Gjeldende: true

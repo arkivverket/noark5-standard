@@ -2,7 +2,7 @@ Arkivenhet: journalpost
 Arv: Nei
 Avleveres: A
 Betingelser:
-Datatype: Tekststreng
+Datatype: ID
 Definisjon: Referanse til en eller flere journalposter som avskriver denne journalposten
 Gjeldende: true
 Gruppe: Referanser

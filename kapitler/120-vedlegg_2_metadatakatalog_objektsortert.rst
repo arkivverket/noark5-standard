@@ -2156,7 +2156,7 @@ Merk: Kun ett av feltene landkode, fylkesnummer, kommunenummer kan ha verdi (sam
    - 0-1
    - A
    - Tekststreng
- * - M030
+ * - M039
    - planidentifikasjon
    - 
    - 1

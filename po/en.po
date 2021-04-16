@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-21 21:53+0200\n"
-"PO-Revision-Date: 2021-04-13 17:14+0000\n"
+"PO-Revision-Date: 2021-04-17 22:26+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/"
 ">\n"
@@ -16186,7 +16186,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:42704
 #: docbook/spesifikasjon-complete.xml:42859
 msgid "<emphasis role=\"strong\">Datatype</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">Data type</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:15737
@@ -18995,7 +18995,7 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:17671
 msgid "SOSI-format-navn/datatype/lengde: GNR/H/5."
-msgstr ""
+msgstr "SOSI format name/data type/length: GNR/H/5."
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:17687
@@ -19015,7 +19015,7 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:17749
 msgid "SOSI-format-navn/datatype/lengde: BNR/H/4"
-msgstr ""
+msgstr "SOSI format name/data type/length: BNR/H/4"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:17765
@@ -24912,7 +24912,7 @@ msgstr ""
 #. type: Content of: <book><appendix><variablelist><varlistentry><term>
 #: docbook/spesifikasjon-complete.xml:34027
 msgid "<emphasis role=\"strong\">Datatype:</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">Data type:</emphasis>"
 
 #. type: Content of: <book><appendix><variablelist><varlistentry><listitem><para>
 #: docbook/spesifikasjon-complete.xml:34031

@@ -1,6 +1,6 @@
 Arkivenhet: Filen endringslogg.xml
 Arv: Nei
-Betingelser:
+Betingelser: Må inneholde gyldig systemID for aktuell arkivenhet
 Datatype: Tekststreng
 Definisjon: Referanse til arkivenheten (systemID) som inneholder metadata­elementet
   som ble endret

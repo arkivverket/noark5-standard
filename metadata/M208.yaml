@@ -1,6 +1,6 @@
 Arkivenhet: mappe, registrering, dokumentbeskrivelse
 Arv: Nei
-Betingelser:
+Betingelser: Må inneholde gyldig systemID for arkivdel
 Datatype: systemID
 Definisjon: Referanse til arkivdelen som denne arkivenheten er tilknyttet
 Gruppe: Referanser

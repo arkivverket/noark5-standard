@@ -1,6 +1,6 @@
 Arkivenhet: moeteregistrering
 Arv: Nei
-Betingelser:
+Betingelser: Må inneholde gyldig systemID for registrering
 Datatype: systemID
 Definisjon: Referanse fra en annen møteregistrering
 Gruppe: Referanser

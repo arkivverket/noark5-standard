@@ -69,6 +69,7 @@ def main():
     else:
         fields = ('Nr',
                   'Navn',
+                  'Datatype',
                   'Definisjon',
                   'Arkivenhet',
                   'Kilde',

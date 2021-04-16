@@ -1,6 +1,6 @@
 Arkivenhet: klasse
 Arv: Nei
-Betingelser:
+Betingelser: Må inneholde gyldig systemID for klasse
 Datatype: systemID
 Definisjon: Referanse til en annen klasse
 Gruppe: Referanser

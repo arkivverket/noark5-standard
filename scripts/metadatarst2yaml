@@ -69,10 +69,10 @@ class MetadataRstVisitor(docutils.nodes.NodeVisitor):
         self.entry['Utdatert'] = 'nei'
 
         if self.entry['Nr'] in self.metadata:
-            for field in ('Datatype'):
+            for field in ('Datatype',):
                 self.entry[field] = self.metadata[self.entry['Nr']][field]
         else:
-            for field in ('Datatype'):
+            for field in ('Datatype',):
                 self.entry[field] = '?'
         filepath = 'metadata/%s.yaml' % self.entry['Nr']
         import sys

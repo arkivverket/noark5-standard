@@ -1,6 +1,6 @@
 Arkivenhet: saksmappe
 Arv: Nei
-Betingelser:
+Betingelser: Må inneholde gyldig systemID for klasse
 Datatype: systemID
 Definisjon: Referanse til sekundærklassifikasjon. Kan også referere til flere enn
   én sekundær klassifikasjon (tertiærklassifikasjon osv.)

@@ -1,6 +1,6 @@
 Arkivenhet: moetemappe
 Arv: Nei
-Betingelser:
+Betingelser: Må inneholde gyldig systemID for mappe
 Datatype: systemID
 Definisjon: Referanse til forrige utvalgsmøte
 Gruppe: Referanser

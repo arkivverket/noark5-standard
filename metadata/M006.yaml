@@ -3,10 +3,10 @@ Arv: Nei
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Unik ID for arkivskaperen
-Gjeldende: true
 Gruppe: Identifikasjon
 Kilde: Registreres manuelt ved opprettelsen av arkivet
 Kommentarer: Kan være organisasjonsnummer (Brønnøysundregistrene) eller annen identifikasjon
   avtalt med arkivdepotet
 Navn: arkivskaperID
 Nr: M006
+Utdatert: nei

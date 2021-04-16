@@ -3,7 +3,6 @@ Arv: Nei
 Betingelser: Kan ikke endres
 Datatype: Tekststreng
 Definisjon: Dokumentets MIME-type
-Gjeldende: true
 Gruppe: Tekniske metadata
 Kilde: Registreres automatisk når et dokument overføres til arkivet
   eller settes av arkivklient.
@@ -14,3 +13,4 @@ Kommentarer: MIME-type for bruk når fil overføres via for eksempel
  MIME-typer og en MIME-type kan være koblet til flere PRONOM-koder.
 Navn: mimeType
 Nr: M716
+Utdatert: nei

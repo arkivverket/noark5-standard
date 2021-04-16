@@ -9,9 +9,9 @@ Betingelser: |-
   - Advokat
 Datatype: Tekststreng
 Definisjon: Angivelse av rollen til parten
-Gjeldende: true
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde: Registreres manuelt eller automatisk fra fagsystem
 Kommentarer:
 Navn: partRolle
 Nr: M303
+Utdatert: nei

@@ -9,9 +9,9 @@ Betingelser: |-
   - "Vedlegg til møtesak"
 Datatype: Tekststreng
 Definisjon: Navn på type møteregistrering
-Gjeldende: true
 Gruppe: Typer
 Kilde:
 Kommentarer:
 Navn: moeteregistreringstype
 Nr: M085
+Utdatert: nei

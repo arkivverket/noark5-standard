@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Lovparagrafen som saken eller journalposten danner presedens for
-Gjeldende: true
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde: Registreres manuelt ved opprettelse av presedens
 Kommentarer:
 Navn: presedensHjemmel
 Nr: M311
+Utdatert: nei

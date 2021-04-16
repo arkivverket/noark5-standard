@@ -3,9 +3,9 @@ Arv: Ja
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på person som foretok graderingen
-Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk ved gradering
 Kommentarer:
 Navn: gradertAv
 Nr: M625
+Utdatert: nei

@@ -4,9 +4,9 @@ Arv: Nei
 Betingelser:
 Datatype: systemID
 Definisjon: Referanse til det klassifikasjonssystemet som mappene i denne arkivdelen er klassifisert etter
-Gjeldende: true
 Gruppe: Logging av endringer
 Kilde: Registreres manuelt når arkivdelen opprettes
 Kommentarer: NB! Gyldig t.o.m. versjon 2.1
 Navn: referanseKlassifikasjonssystem
 Nr: M204
+Utdatert: nei

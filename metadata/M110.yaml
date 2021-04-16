@@ -3,7 +3,6 @@ Arv: Nei
 Betingelser:
 Datatype: Dato og klokkeslett
 Definisjon: Datoen da offentlighetsvurdering ble foretatt
-Gjeldende: true
 Gruppe: Datoer
 Kilde: Registreres automatisk knyttet til funksjonalitet for skjerming
 Kommentarer: Dato for offentlighetsvurdering kan brukes dersom inngående dokumenter
@@ -11,3 +10,4 @@ Kommentarer: Dato for offentlighetsvurdering kan brukes dersom inngående dokume
   på et litt senere tidspunkt.
 Navn: offentlighetsvurdertDato
 Nr: M110
+Utdatert: nei

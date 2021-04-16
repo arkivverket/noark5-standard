@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Person som har fått fordelt en saksmappe eller journalpost til saksbehandling
-Gjeldende: true
 Gruppe: Logging av arbeidsflyt og saksfordeling
 Kilde: Registreres automatisk av funksjonalitet knyttet til fordeling
 Kommentarer: NB! Gyldig t.o.m. versjon 2.1
 Navn: fordeltTil
 Nr: M666
+Utdatert: nei

@@ -4,7 +4,6 @@ Betingelser:
 Datatype: Tekststreng
 Definisjon: Navn på avdeling, kontor eller annen administrativ enhet som har ansvaret
   for saksbehandlingen.
-Gjeldende: true
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde: Registreres automatisk f.eks. på grunnlag av innlogget bruker, kan overstyres
 Kommentarer: Merk at på journalpostnivå grupperes *administrativEnhet* sammen med
@@ -13,3 +12,4 @@ Kommentarer: Merk at på journalpostnivå grupperes *administrativEnhet* sammen 
   som skal følges opp.
 Navn: administrativEnhet
 Nr: M305
+Utdatert: nei

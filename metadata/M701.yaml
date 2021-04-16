@@ -3,10 +3,10 @@ Arv: Nei
 Betingelser: Kan ikke endres
 Datatype: Tekststreng
 Definisjon: Dokumentets format
-Gjeldende: true
 Gruppe: Tekniske metadata
 Kilde: Registreres automatisk når dokumentet arkiveres
 Kommentarer:  Verdier hentes fra PRONOM og Arkivverket, nærmere
  beskrevet i del 2.7, Dokumentbeskrivelse og dokumentobjekt.
 Navn: format
 Nr: M701
+Utdatert: nei

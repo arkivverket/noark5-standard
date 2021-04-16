@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Dato og klokkeslett
 Definisjon: Dato og klokkeslett for når presedensen er godkjent
-Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk dersom det finnes funksjonalitet for å godkjenne presedenser
 Kommentarer:
 Navn: presedensGodkjentDato
 Nr: M628
+Utdatert: nei

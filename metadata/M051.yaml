@@ -11,9 +11,9 @@ Betingelser: |-
   Skifte av status kan bare utføres av autoriserte personer.
 Datatype: Tekststreng
 Definisjon: Status til den arkivperioden som arkivdelen omfatter
-Gjeldende: true
 Gruppe: Status
 Kilde: Registreres manuelt når arkivdelen opprettes eller ved skifte av status.
 Kommentarer: Arkivdeler som avleveres skal ha status "Avsluttet periode"
 Navn: arkivdelstatus
 Nr: M051
+Utdatert: nei

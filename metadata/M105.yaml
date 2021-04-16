@@ -4,9 +4,9 @@ Betingelser: Skal ikke kunne endres ved automatisk registrering, dato for forsen
   av fysiske dokumenter skal kunne endres inntil arkivering
 Datatype: Dato og klokkeslett
 Definisjon: Dato et internt produsert dokument ble sendt/ekspedert
-Gjeldende: true
 Gruppe: Datoer
 Kilde: Registreres manuelt eller automatisk av systemet ved elektronisk kommunikasjon
 Kommentarer:
 Navn: sendtDato
 Nr: M105
+Utdatert: nei

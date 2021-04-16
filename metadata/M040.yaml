@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Østlig koordinat for et geografisk punkt
-Gjeldende: true
 Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer: Østlig UTM-koordinat for et punkt, definisjonen er avhengig av valgt koordinatsystem.
 Navn: x
 Nr: M040
+Utdatert: nei

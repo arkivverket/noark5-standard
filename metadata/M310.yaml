@@ -3,10 +3,10 @@ Arv: Nei
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Merknad fra saksbehandler, leder eller arkivpersonale.
-Gjeldende: true
 Gruppe: Arkiv- og saksbehandlingsfunksjonalitet
 Kilde: Registreres manuelt
 Kommentarer: Merknaden bør gjelde selve saksbehandlingen eller forhold rundt arkiveringen
   av dokumentene som tilhører arkivenheten.
 Navn: merknadstekst
 Nr: M310
+Utdatert: nei

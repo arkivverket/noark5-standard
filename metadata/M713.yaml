@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser: Kan ikke endres
 Datatype: Tekststreng
 Definisjon: Formatet dokumentet fikk etter konvertering
-Gjeldende: true
 Gruppe: Tekniske metadata
 Kilde: Registreres automatisk ved konvertering
 Kommentarer: Bruker samme verdier som M701 format.
 Navn: konvertertTilFormat
 Nr: M713
+Utdatert: nei

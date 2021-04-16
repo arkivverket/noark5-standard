@@ -4,9 +4,9 @@ Betingelser:
 Datatype: systemID
 Definisjon: Referanse til den arkivdelen som er forløper for denne arkivdelen, dvs.
   inneholder forrige arkivperiode.
-Gjeldende: true
 Gruppe: Referanser
 Kilde: Registreres automatisk når arkivdelen som er arvtaker opprettes
 Kommentarer:
 Navn: referanseForloeper
 Nr: M202
+Utdatert: nei

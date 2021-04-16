@@ -4,9 +4,9 @@ Betingelser: Kan ikke endres
 Datatype: Tekststreng
 Definisjon: Navn på person som har utført en kontrollert kassasjon av dokumenter,
   eller sletting av versjoner, formater og varianter.
-Gjeldende: true
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk når et dokument blir slettet
 Kommentarer: Sletting må ikke blandes sammen med kassasjon.
 Navn: slettetAv
 Nr: M614
+Utdatert: nei

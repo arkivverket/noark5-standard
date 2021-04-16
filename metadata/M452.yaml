@@ -4,10 +4,10 @@ Betingelser:
 Datatype: Dato og klokkeslett
 Definisjon: Dato for når dokumentene som tilhører denne arkivenheten skal kunne kasseres,
   eller vurderes for bevaring og kassasjon på ny
-Gjeldende: true
 Gruppe: Bevaring og kassasjon
 Kilde: Datoen beregnes automatisk på grunnlag av *M451 Bevaringstid*, eller registreres
   manuelt
 Kommentarer:
 Navn: kassasjonsdato
 Nr: M452
+Utdatert: nei

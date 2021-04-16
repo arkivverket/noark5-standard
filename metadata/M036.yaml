@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser:
 Datatype: Heltall
 Definisjon: Entydig identifikasjon av endring av bygning i matrikkelen
-Gjeldende: true
 Gruppe: Nasjonale identifikatorer
 Kilde:
 Kommentarer: "Løpende nummerering av bygningsendringer til en bygning. SOSI-format-navn/datatype/lengde: BYGN_ENDR_LØPENR/H/2 Denne kan utelates når det kun er bygningen som skal identifiseres."
 Navn: endringsloepenummer
 Nr: M036
+Utdatert: nei

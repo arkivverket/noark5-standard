@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser: Kan ikke endres
 Datatype: Tekststreng
 Definisjon: Dokumentets format før det ble konvertert
-Gjeldende: true
 Gruppe: Tekniske metadata
 Kilde: Registreres automatisk ved konvertering
 Kommentarer: NB! Gyldig t.o.m. versjon 2.1. Dette vil vanligvis være produksjonsformatet
 Navn: tidligereFormat
 Nr: M703
+Utdatert: nei

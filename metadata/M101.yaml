@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser: Skal kunne endres manuelt inntil arkivering
 Datatype: Dato og klokkeslett
 Definisjon: Datoen journalposten er journalført
-Gjeldende: true
 Gruppe: Datoer
 Kilde: Settes automatisk når journalstatus settes til journalført.
 Kommentarer:
 Navn: journaldato
 Nr: M101
+Utdatert: nei

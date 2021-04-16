@@ -3,10 +3,10 @@ Arv: Nei
 Betingelser:
 Datatype: Tekststreng
 Definisjon: Postadressen til en avsender /mottaker eller part
-Gjeldende: true
 Gruppe: Korrespondanse
 Kilde: Registreres manuelt eller automatisk fra dokumentet
 Kommentarer: En postadresse kan angis som flere elementer ("adresselinjer"), noe som
   kan være aktuelt ved bestemte utenlandske adresser
 Navn: postadresse
 Nr: M406
+Utdatert: nei

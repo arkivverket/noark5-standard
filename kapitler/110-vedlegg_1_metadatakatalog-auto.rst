@@ -15,6 +15,8 @@ Identifikasjon
    - **M001**
  * - **Navn**
    - **systemID**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Globalt unik identifikasjon av arkivenheten (UID).
  * - **Arkivenhet**
@@ -36,6 +38,8 @@ Identifikasjon
    - **M002**
  * - **Navn**
    - **klasseID**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Entydig identifikasjon av klassen innenfor klassifikasjonssystemet.
  * - **Arkivenhet**
@@ -57,6 +61,8 @@ Identifikasjon
    - **M003**
  * - **Navn**
    - **mappeID**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Entydig identifikasjon av mappen innenfor det arkivet mappen tilhører.
  * - **Arkivenhet**
@@ -80,6 +86,8 @@ Identifikasjon
    - **M004**
  * - **Navn**
    - **registreringsID**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Entydig identifikasjon av registreringen innenfor arkivet.
  * - **Arkivenhet**
@@ -103,6 +111,8 @@ Identifikasjon
    - **M005**
  * - **Navn**
    - **versjonsnummer**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Identifikasjon av versjoner innenfor ett og samme dokument.
  * - **Arkivenhet**
@@ -124,6 +134,8 @@ Identifikasjon
    - **M006**
  * - **Navn**
    - **arkivskaperID**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Unik ID for arkivskaperen
  * - **Arkivenhet**
@@ -145,6 +157,8 @@ Identifikasjon
    - **M007**
  * - **Navn**
    - **dokumentnummer**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Identifikasjon av dokumentene innenfor en registrering
  * - **Arkivenhet**
@@ -166,6 +180,8 @@ Identifikasjon
    - **M008**
  * - **Navn**
    - **moetenummer**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Identifikasjon av møter som et utvalg har avholdt, viser rekkefølgene på møtene
  * - **Arkivenhet**
@@ -187,6 +203,8 @@ Identifikasjon
    - **M009**
  * - **Navn**
    - **loepenummer**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Rekkefølgenummer for  journalposter
  * - **Arkivenhet**
@@ -208,6 +226,8 @@ Identifikasjon
    - **M010**
  * - **Navn**
    - **partID**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Unik ID for en part
  * - **Arkivenhet**
@@ -229,6 +249,8 @@ Identifikasjon
    - **M011**
  * - **Navn**
    - **saksaar**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Inngår i *M003 mappeID*. Viser året saksmappen ble opprettet.
  * - **Arkivenhet**
@@ -250,6 +272,8 @@ Identifikasjon
    - **M012**
  * - **Navn**
    - **sakssekvensnummer**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Inngår i *M003 mappeID*. Viser rekkefølgen når saksmappen ble opprettet innenfor året.
  * - **Arkivenhet**
@@ -271,6 +295,8 @@ Identifikasjon
    - **M013**
  * - **Navn**
    - **journalaar**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Viser året journalposten ble opprettet
  * - **Arkivenhet**
@@ -292,6 +318,8 @@ Identifikasjon
    - **M014**
  * - **Navn**
    - **journalsekvensnummer**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Viser rekkefølgen når journalposten ble opprettet under året
  * - **Arkivenhet**
@@ -315,6 +343,8 @@ Identifikasjon
    - **M015**
  * - **Navn**
    - **journalpostnummer**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Viser rekkefølgen på journalpostene innenfor saksmappen,.
  * - **Arkivenhet**
@@ -340,6 +370,8 @@ Kjernemetadata (jf. Dublin Core)
    - **M020**
  * - **Navn**
    - **tittel**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Tittel eller navn på arkivenheten
  * - **Arkivenhet**
@@ -361,6 +393,8 @@ Kjernemetadata (jf. Dublin Core)
    - **M021**
  * - **Navn**
    - **beskrivelse**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Tekstlig beskrivelse av arkivenheten
  * - **Arkivenhet**
@@ -382,6 +416,8 @@ Kjernemetadata (jf. Dublin Core)
    - **M022**
  * - **Navn**
    - **noekkelord**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Nøkkeord eller stikkord som beskriver innholdet i enheten
  * - **Arkivenhet**
@@ -403,6 +439,8 @@ Kjernemetadata (jf. Dublin Core)
    - **M023**
  * - **Navn**
    - **arkivskaperNavn**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på organisasjonen som har skapt arkivet
  * - **Arkivenhet**
@@ -424,6 +462,8 @@ Kjernemetadata (jf. Dublin Core)
    - **M024**
  * - **Navn**
    - **forfatter**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person (eller eventuelt organisasjon) som har forfattet eller skapt dokumentet.
  * - **Arkivenhet**
@@ -445,6 +485,8 @@ Kjernemetadata (jf. Dublin Core)
    - **M025**
  * - **Navn**
    - **offentligTittel**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Offentlig tittel på arkivenheten, ord som skal skjermes er fjernet fra innholdet i tittelen (erstattet med ******)
  * - **Arkivenhet**
@@ -470,6 +512,8 @@ Nasjonale identifikatorer
    - **M030**
  * - **Navn**
    - **kommunenummer**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Firesifret kode som entydig identifiserer en kommune
  * - **Arkivenhet**
@@ -491,6 +535,8 @@ Nasjonale identifikatorer
    - **M031**
  * - **Navn**
    - **gaardsnummer**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Nummerering av gårdsenhet i matrikkelen, nummeret er unikt innenfor kommunen
  * - **Arkivenhet**
@@ -512,6 +558,8 @@ Nasjonale identifikatorer
    - **M032**
  * - **Navn**
    - **bruksnummer**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Fortløpende nummerering av bruk under gårdsnummer
  * - **Arkivenhet**
@@ -533,6 +581,8 @@ Nasjonale identifikatorer
    - **M033**
  * - **Navn**
    - **festenummer**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Fortløpende nummerering av fester under gårdsnummer/bruksnummer
  * - **Arkivenhet**
@@ -554,6 +604,8 @@ Nasjonale identifikatorer
    - **M034**
  * - **Navn**
    - **seksjonsnummer**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Fortløpende nummerering av seksjoner under gårdsnummer/bruksnummer og eventuelt festenummer
  * - **Arkivenhet**
@@ -575,6 +627,8 @@ Nasjonale identifikatorer
    - **M035**
  * - **Navn**
    - **bygningsnummer**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Entydig identifikasjon av bygning i matrikkelen
  * - **Arkivenhet**
@@ -596,6 +650,8 @@ Nasjonale identifikatorer
    - **M036**
  * - **Navn**
    - **endringsloepenummer**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Entydig identifikasjon av endring av bygning i matrikkelen
  * - **Arkivenhet**
@@ -617,6 +673,8 @@ Nasjonale identifikatorer
    - **M037**
  * - **Navn**
    - **fylkesnummer**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - To-sifret kode som entydig identifiserer et fylke
  * - **Arkivenhet**
@@ -638,6 +696,8 @@ Nasjonale identifikatorer
    - **M038**
  * - **Navn**
    - **landkode**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Entydig identifikasjon av et land
  * - **Arkivenhet**
@@ -659,6 +719,8 @@ Nasjonale identifikatorer
    - **M039**
  * - **Navn**
    - **planidentifikasjon**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Entydig identifikasjon for en plan innen en kommune eller et fylke
  * - **Arkivenhet**
@@ -680,6 +742,8 @@ Nasjonale identifikatorer
    - **M040**
  * - **Navn**
    - **x**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Østlig koordinat for et geografisk punkt
  * - **Arkivenhet**
@@ -701,6 +765,8 @@ Nasjonale identifikatorer
    - **M041**
  * - **Navn**
    - **y**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Nordlig koordinat for et geografisk punkt
  * - **Arkivenhet**
@@ -722,6 +788,8 @@ Nasjonale identifikatorer
    - **M042**
  * - **Navn**
    - **z**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Høyden til et geografisk punkt
  * - **Arkivenhet**
@@ -743,6 +811,8 @@ Nasjonale identifikatorer
    - **M043**
  * - **Navn**
    - **koordinatsystem**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Geografiske koordinaters referansesystem
  * - **Arkivenhet**
@@ -764,6 +834,8 @@ Nasjonale identifikatorer
    - **M048**
  * - **Navn**
    - **personID**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Entydig identifikasjon av en person
  * - **Arkivenhet**
@@ -785,6 +857,8 @@ Nasjonale identifikatorer
    - **M049**
  * - **Navn**
    - **organisasjonsID**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Entydig identifikasjon av en organisasjon
  * - **Arkivenhet**
@@ -810,6 +884,8 @@ Status
    - **M050**
  * - **Navn**
    - **arkivstatus**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Status til arkivet
  * - **Arkivenhet**
@@ -836,6 +912,8 @@ Status
    - **M051**
  * - **Navn**
    - **arkivdelstatus**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Status til den arkivperioden som arkivdelen omfatter
  * - **Arkivenhet**
@@ -864,6 +942,8 @@ Status
    - **M052**
  * - **Navn**
    - **saksstatus**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Status til saksmappen, dvs. hvor langt saksbehandlingen har kommet.
  * - **Arkivenhet**
@@ -891,6 +971,8 @@ Status
    - **M053**
  * - **Navn**
    - **journalstatus**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Status til journalposten, dvs. om dokumentet er registrert, under behandling eller endelig arkivert.
  * - **Arkivenhet**
@@ -919,6 +1001,8 @@ Status
    - **M054**
  * - **Navn**
    - **dokumentstatus**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Status til dokumentet
  * - **Arkivenhet**
@@ -943,6 +1027,8 @@ Status
    - **M055**
  * - **Navn**
    - **moeteregistreringsstatus**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Status til møteregistreringen
  * - **Arkivenhet**
@@ -968,6 +1054,8 @@ Status
    - **M056**
  * - **Navn**
    - **presedensstatus**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Informasjon om presedensen er gjeldende eller foreldet
  * - **Arkivenhet**
@@ -996,6 +1084,8 @@ Typer
    - **M082**
  * - **Navn**
    - **journalposttype**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på type journalpost
  * - **Arkivenhet**
@@ -1023,6 +1113,8 @@ Typer
    - **M083**
  * - **Navn**
    - **dokumenttype**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på type dokument
  * - **Arkivenhet**
@@ -1049,6 +1141,8 @@ Typer
    - **M084**
  * - **Navn**
    - **merknadstype**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på type merknad
  * - **Arkivenhet**
@@ -1074,6 +1168,8 @@ Typer
    - **M085**
  * - **Navn**
    - **moeteregistreringstype**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på type møteregistrering
  * - **Arkivenhet**
@@ -1100,6 +1196,8 @@ Typer
    - **M086**
  * - **Navn**
    - **klassifikasjonstype**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Type klassifikasjonssystem
  * - **Arkivenhet**
@@ -1130,6 +1228,8 @@ Typer
    - **M087**
  * - **Navn**
    - **korrespondanseparttype**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Type korrespondansepart
  * - **Arkivenhet**
@@ -1158,6 +1258,8 @@ Typer
    - **M088**
  * - **Navn**
    - **moetesakstype**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på type møtesak
  * - **Arkivenhet**
@@ -1184,6 +1286,8 @@ Typer
    - **M089**
  * - **Navn**
    - **slettingstype**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på hvilket objekt som er slettet
  * - **Arkivenhet**
@@ -1213,6 +1317,8 @@ Datoer
    - **M100**
  * - **Navn**
    - **saksdato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Datoen saken er opprettet
  * - **Arkivenhet**
@@ -1234,6 +1340,8 @@ Datoer
    - **M101**
  * - **Navn**
    - **journaldato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Datoen journalposten er journalført
  * - **Arkivenhet**
@@ -1255,6 +1363,8 @@ Datoer
    - **M102**
  * - **Navn**
    - **moetedato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Datoen når et utvalgsmøte blir avholdt
  * - **Arkivenhet**
@@ -1276,6 +1386,8 @@ Datoer
    - **M103**
  * - **Navn**
    - **dokumentetsDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato som er påført selve dokumentet
  * - **Arkivenhet**
@@ -1297,6 +1409,8 @@ Datoer
    - **M104**
  * - **Navn**
    - **mottattDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato et eksternt dokument ble mottatt
  * - **Arkivenhet**
@@ -1318,6 +1432,8 @@ Datoer
    - **M105**
  * - **Navn**
    - **sendtDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato et internt produsert dokument ble sendt/ekspedert
  * - **Arkivenhet**
@@ -1339,6 +1455,8 @@ Datoer
    - **M106**
  * - **Navn**
    - **utlaantDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato når en fysisk saksmappe eller journalpost ble utlånt
  * - **Arkivenhet**
@@ -1360,6 +1478,8 @@ Datoer
    - **M107**
  * - **Navn**
    - **arkivperiodeStartDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato for starten av en arkivperiode
  * - **Arkivenhet**
@@ -1381,6 +1501,8 @@ Datoer
    - **M108**
  * - **Navn**
    - **arkivperiodeSluttDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato for slutten av en arkivperiode
  * - **Arkivenhet**
@@ -1402,6 +1524,8 @@ Datoer
    - **M109**
  * - **Navn**
    - **forfallsdato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato som angir fristen for når et inngående dokument må være besvart
  * - **Arkivenhet**
@@ -1423,6 +1547,8 @@ Datoer
    - **M110**
  * - **Navn**
    - **offentlighetsvurdertDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Datoen da offentlighetsvurdering ble foretatt
  * - **Arkivenhet**
@@ -1444,6 +1570,8 @@ Datoer
    - **M111**
  * - **Navn**
    - **presedensDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Datoen på presedensen
  * - **Arkivenhet**
@@ -1465,6 +1593,8 @@ Datoer
    - **M112**
  * - **Navn**
    - **journalStartDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Startdato for journalutskriftene som inngår i avleveringspakken.
  * - **Arkivenhet**
@@ -1486,6 +1616,8 @@ Datoer
    - **M113**
  * - **Navn**
    - **journalSluttDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Sluttdato for journalutskriftene som inngår i avleveringspakken.
  * - **Arkivenhet**
@@ -1507,6 +1639,8 @@ Datoer
    - **M114**
  * - **Navn**
    - **avleveringspakkeStartDato**
+ * - **Datatype**
+   - Dato
  * - **Definisjon**
    - Startdato avleveringspakken.
  * - **Arkivenhet**
@@ -1528,6 +1662,8 @@ Datoer
    - **M115**
  * - **Navn**
    - **avleveringspakkeSluttDato**
+ * - **Datatype**
+   - Dato
  * - **Definisjon**
    - Sluttdato for avleveringspakken.
  * - **Arkivenhet**
@@ -1553,6 +1689,8 @@ Referanser
    - **M200**
  * - **Navn**
    - **referanseForelder**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til den arkivenheten i hierarkiet som er direkte overordnet denne arkivenheten
  * - **Arkivenhet**
@@ -1574,6 +1712,8 @@ Referanser
    - **M201**
  * - **Navn**
    - **referanseBarn**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til den eller de arkivenhetene i hierarkiet som er direkte underordnet denne arkivenheten
  * - **Arkivenhet**
@@ -1595,6 +1735,8 @@ Referanser
    - **M202**
  * - **Navn**
    - **referanseForloeper**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til den arkivdelen som er forløper for denne arkivdelen, dvs. inneholder forrige arkivperiode.
  * - **Arkivenhet**
@@ -1604,7 +1746,7 @@ Referanser
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - 
+   - Må inneholde gyldig systemID for arkivdel
  * - **Kommentarer**
    - 
 
@@ -1616,6 +1758,8 @@ Referanser
    - **M203**
  * - **Navn**
    - **referanseArvtaker**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til den arkivdelen som er arvtaker for denne arkivdelen, dvs. inneholder neste arkivperiode.
  * - **Arkivenhet**
@@ -1625,7 +1769,7 @@ Referanser
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - 
+   - Må inneholde gyldig systemID for arkivdel
  * - **Kommentarer**
    - 
 
@@ -1641,6 +1785,8 @@ Logging av endringer
    - **M204**
  * - **Navn**
    - **referanseKlassifikasjonssystem**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til det klassifikasjonssystemet som mappene i denne arkivdelen er klassifisert etter
  * - **Arkivenhet**
@@ -1662,6 +1808,8 @@ Logging av endringer
    - **M205**
  * - **Navn**
    - **referanseMappe**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til  mapper som tilhører en arkivdel
  * - **Arkivenhet**
@@ -1683,6 +1831,8 @@ Logging av endringer
    - **M206**
  * - **Navn**
    - **referanseRegistrering**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til registreringer som er knyttet til denne enheten
  * - **Arkivenhet**
@@ -1704,6 +1854,8 @@ Logging av endringer
    - **M207**
  * - **Navn**
    - **referanseDokumentbeskrivelse**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til dokumentbeskrivelser som tilknyttet denne arkivenheten
  * - **Arkivenhet**
@@ -1729,6 +1881,8 @@ Referanser
    - **M208**
  * - **Navn**
    - **referanseArkivdel**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til arkivdelen som denne arkivenheten er tilknyttet
  * - **Arkivenhet**
@@ -1738,7 +1892,7 @@ Referanser
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - 
+   - Må inneholde gyldig systemID for arkivdel
  * - **Kommentarer**
    - Alle mapper skal ha referanse til arkivdel (selv om tilhørigheten til arkivdel også kan finnes via klasse og klassifikasjonssystem). En mappe, registrering eller en dokumentbeskrivelse som har en annen skjerming, kassasjonsbestemmelse eller dokumentmedium (fysisk/elektronisk) enn resten av dokumentene som tilhører arkivdelen, kan ha referanse til en annen arkivdel som inneholder informasjon om disse "unntakene". Slike arkivdeler vil ikke ha egne barn (dvs. underordnede arkivenheter). Merk at selv om disse arkivenhetene har referanse til en "tom" arkivdel, tilhører de indirekte også den arkivdelen som er utgangspunktet for den hierarkiske arkivstrukturen. Opplysninger om skjerming, kassasjonsbestemmelse og dokumentmedium skal arves fra arkivenheten det refereres til. Slik arv skal da overstyre arven gjennom selve arkivstrukturen. Et eksempel: Alle saksmapper som tilhører en bestemt klasse skal kasseres etter 10 år, unntatt de organinterne dokumentene som skal bevares. Disse dokumentene kan da automatisk tilordnes en annen arkivdel når journalposter med organinterne dokumenter opprettes.
 
@@ -1750,6 +1904,8 @@ Referanser
    - **M209**
  * - **Navn**
    - **referanseSekundaerKlassifikasjon**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til sekundærklassifikasjon. Kan også referere til flere enn én sekundær klassifikasjon (tertiærklassifikasjon osv.)
  * - **Arkivenhet**
@@ -1759,7 +1915,7 @@ Referanser
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - 
+   - Må inneholde gyldig systemID for klasse
  * - **Kommentarer**
    - Kan også brukes for å bygge opp mangefasettert klassifikasjon og kommunenes klassifikasjonssystem "K-kodene".
 
@@ -1771,6 +1927,8 @@ Referanser
    - **M210**
  * - **Navn**
    - **referanseTilMappe**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Kryssreferanse til en *mappe* fra en annen *mappe* eller *registrering*
  * - **Arkivenhet**
@@ -1780,7 +1938,7 @@ Referanser
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - 
+   - Må inneholde gyldig systemID for mappe
  * - **Kommentarer**
    - 
 
@@ -1792,6 +1950,8 @@ Referanser
    - **M211**
  * - **Navn**
    - **referanseFraMappe**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Kryssreferanse fra en mappe til en annen mappe eller registrering
  * - **Arkivenhet**
@@ -1813,6 +1973,8 @@ Referanser
    - **M212**
  * - **Navn**
    - **referanseTilRegistrering**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Kryssreferanse til en *registrering* fra en annen *registrering* eller *mappe*
  * - **Arkivenhet**
@@ -1822,7 +1984,7 @@ Referanser
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - 
+   - Må inneholde gyldig systemID for registrering
  * - **Kommentarer**
    - 
 
@@ -1834,6 +1996,8 @@ Referanser
    - **M213**
  * - **Navn**
    - **referanseFraRegistrering**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Kryssreferanse fra en registrering til en annen registrering eller saksmappe
  * - **Arkivenhet**
@@ -1855,6 +2019,8 @@ Referanser
    - **M214**
  * - **Navn**
    - **referanseAvskriverJournalpost**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til en eller flere journalposter som blir avskrevet av denne journalposten
  * - **Arkivenhet**
@@ -1876,6 +2042,8 @@ Referanser
    - **M215**
  * - **Navn**
    - **referanseAvskrivesAvJournalpost**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Referanse til en eller flere journalposter som avskriver denne journalposten
  * - **Arkivenhet**
@@ -1885,7 +2053,7 @@ Referanser
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - 
+   - Må inneholde gyldig systemID for registrering
  * - **Kommentarer**
    - 
 
@@ -1897,6 +2065,8 @@ Referanser
    - **M216**
  * - **Navn**
    - **referanseDokumentobjekt**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til dokumentobjektet
  * - **Arkivenhet**
@@ -1918,6 +2088,8 @@ Referanser
    - **M217**
  * - **Navn**
    - **tilknyttetRegistreringSom**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Angivelse av hvilken "rolle" dokumentet har i forhold til registreringen
  * - **Arkivenhet**
@@ -1942,6 +2114,8 @@ Referanser
    - **M218**
  * - **Navn**
    - **referanseDokumentfil**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Referanse til filen som inneholder det elektroniske dokumentet som dokumentobjektet beskriver
  * - **Arkivenhet**
@@ -1963,6 +2137,8 @@ Referanser
    - **M219**
  * - **Navn**
    - **referanseTilKlasse**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til en annen klasse
  * - **Arkivenhet**
@@ -1972,7 +2148,7 @@ Referanser
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - 
+   - Må inneholde gyldig systemID for klasse
  * - **Kommentarer**
    - Kryssreferansen kan gå til en eller flere klasser innenfor samme klassifikasjonssystem, og til en eller flere klasser i andre klassifika­sjonssystem. Kan brukes for å knytte sammen beslektede klasser som ikke kan utledes fra det hierarkiske klassifikasjonssystemet.
 
@@ -1984,6 +2160,8 @@ Referanser
    - **M220**
  * - **Navn**
    - **referanseFraKlasse**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Kryssreferanse fra en annen klasse
  * - **Arkivenhet**
@@ -2005,6 +2183,8 @@ Referanser
    - **M221**
  * - **Navn**
    - **referanseForrigeMoete**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til forrige utvalgsmøte
  * - **Arkivenhet**
@@ -2014,7 +2194,7 @@ Referanser
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - 
+   - Må inneholde gyldig systemID for mappe
  * - **Kommentarer**
    - Kan brukes dersom et møte går over flere dager
 
@@ -2026,6 +2206,8 @@ Referanser
    - **M222**
  * - **Navn**
    - **referanseNesteMoete**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til neste utvalgsmøte
  * - **Arkivenhet**
@@ -2035,7 +2217,7 @@ Referanser
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - 
+   - Må inneholde gyldig systemID for mappe
  * - **Kommentarer**
    - Kan brukes dersom et møte går over flere dager
 
@@ -2047,6 +2229,8 @@ Referanser
    - **M223**
  * - **Navn**
    - **referanseTilMoeteregistrering**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til en annen møteregistrering
  * - **Arkivenhet**
@@ -2056,7 +2240,7 @@ Referanser
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - 
+   - Må inneholde gyldig systemID for registrering
  * - **Kommentarer**
    - Kan brukes for å knytte sammen dokumenter som tilhører samme "møtesak" (Møtemappen har ikke noe eget nivå for møtesaker.)
 
@@ -2068,6 +2252,8 @@ Referanser
    - **M224**
  * - **Navn**
    - **referanseFraMoeteregistrering**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse fra en annen møteregistrering
  * - **Arkivenhet**
@@ -2077,7 +2263,7 @@ Referanser
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - 
+   - Må inneholde gyldig systemID for registrering
  * - **Kommentarer**
    - Kan brukes for å knytte sammen dokumenter som tilhører samme "møtesak"
 
@@ -2089,6 +2275,8 @@ Referanser
    - **M225**
  * - **Navn**
    - **referanseOpprettetAv**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til bruker som opprettet/registrerte arkivenheten
  * - **Arkivenhet**
@@ -2110,6 +2298,8 @@ Referanser
    - **M226**
  * - **Navn**
    - **referanseOppdatertAv**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til bruker som oppdaterte arkivenheten
  * - **Arkivenhet**
@@ -2131,6 +2321,8 @@ Referanser
    - **M227**
  * - **Navn**
    - **referanseAvsluttetAv**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til bruker som avsluttet/lukket arkivenheten
  * - **Arkivenhet**
@@ -2152,6 +2344,8 @@ Referanser
    - **M228**
  * - **Navn**
    - **referanseArkivertAv**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til bruker som arkiverte arkivenheten
  * - **Arkivenhet**
@@ -2173,6 +2367,8 @@ Referanser
    - **M229**
  * - **Navn**
    - **referanseForelderMappe**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til overordnet mappe
  * - **Arkivenhet**
@@ -2194,6 +2390,8 @@ Referanser
    - **M230**
  * - **Navn**
    - **referanseEndretAv**
+ * - **Datatype**
+   - systemID
  * - **Definisjon**
    - Referanse til bruker som oppdaterte arkivenheten eller endret metadata
  * - **Arkivenhet**
@@ -2219,6 +2417,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M300**
  * - **Navn**
    - **dokumentmedium**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Angivelse av om arkivenheten inneholder fysiske dokumenter, elektroniske dokumenter eller en blanding av fysiske og elektroniske dokumenter
  * - **Arkivenhet**
@@ -2244,6 +2444,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M301**
  * - **Navn**
    - **oppbevaringssted**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Stedet hvor de fysiske dokumentene oppbevares. Kan være angivelse av rom, hylle, skap osv. Overordnede arkivdeler (f.eks. en arkivdel) kan oppbevares på flere steder.
  * - **Arkivenhet**
@@ -2265,6 +2467,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M302**
  * - **Navn**
    - **partNavn**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på virksomhet eller person som er part
  * - **Arkivenhet**
@@ -2286,6 +2490,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M303**
  * - **Navn**
    - **partRolle**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Angivelse av rollen til parten
  * - **Arkivenhet**
@@ -2312,6 +2518,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M304**
  * - **Navn**
    - **antallVedlegg**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Antall fysiske vedlegg til et fysisk hoveddokument
  * - **Arkivenhet**
@@ -2333,6 +2541,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M305**
  * - **Navn**
    - **administrativEnhet**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på avdeling, kontor eller annen administrativ enhet som har ansvaret for saksbehandlingen.
  * - **Arkivenhet**
@@ -2354,6 +2564,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M306**
  * - **Navn**
    - **saksansvarlig**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som er saksansvarlig
  * - **Arkivenhet**
@@ -2375,6 +2587,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M307**
  * - **Navn**
    - **saksbehandler**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som er saksbehandler
  * - **Arkivenhet**
@@ -2396,6 +2610,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M308**
  * - **Navn**
    - **journalenhet**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på enhet som har det arkivmessige ansvaret for kvalitetssikring av arkivdanningen, og eventuelt registrering (journalføring) og arkivering av fysiske dokumenter
  * - **Arkivenhet**
@@ -2417,6 +2633,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M309**
  * - **Navn**
    - **utlaantTil**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navnet på person som har lånt en fysisk saksmappe
  * - **Arkivenhet**
@@ -2438,6 +2656,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M310**
  * - **Navn**
    - **merknadstekst**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Merknad fra saksbehandler, leder eller arkivpersonale.
  * - **Arkivenhet**
@@ -2459,6 +2679,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M311**
  * - **Navn**
    - **presedensHjemmel**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Lovparagrafen som saken eller journalposten danner presedens for
  * - **Arkivenhet**
@@ -2480,6 +2702,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M312**
  * - **Navn**
    - **rettskildefaktor**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - En argumentkilde som brukes til å løse rettslige problemer. En retts­anvender som skal ta stilling til et juridisk spørsmål, vil ta utgangspunkt i en rettskildefaktor.
  * - **Arkivenhet**
@@ -2501,6 +2725,8 @@ Arkiv- og saksbehandlingsfunksjonalitet
    - **M313**
  * - **Navn**
    - **seleksjon**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Beskrivelse av kriteriene som er brukt ved seleksjon av journalrapportenes innhold.
  * - **Arkivenhet**
@@ -2526,6 +2752,8 @@ Møtebehandling
    - **M370**
  * - **Navn**
    - **utvalg**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på utvalget som avholdt møte
  * - **Arkivenhet**
@@ -2547,6 +2775,8 @@ Møtebehandling
    - **M371**
  * - **Navn**
    - **moetested**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Sted hvor møtet ble avholdt
  * - **Arkivenhet**
@@ -2568,6 +2798,8 @@ Møtebehandling
    - **M372**
  * - **Navn**
    - **moetedeltakerNavn**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som var til stedet på møtet
  * - **Arkivenhet**
@@ -2589,6 +2821,8 @@ Møtebehandling
    - **M373**
  * - **Navn**
    - **moetedeltakerFunksjon**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Funksjon eller rolle til personen som deltok på møtet
  * - **Arkivenhet**
@@ -2617,6 +2851,8 @@ Korrespondanse
    - **M400**
  * - **Navn**
    - **korrespondansepartNavn**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person eller organisasjon som er avsender eller mottaker av dokumentet
  * - **Arkivenhet**
@@ -2638,6 +2874,8 @@ Korrespondanse
    - **M406**
  * - **Navn**
    - **postadresse**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Postadressen til en avsender /mottaker eller part
  * - **Arkivenhet**
@@ -2659,6 +2897,8 @@ Korrespondanse
    - **M407**
  * - **Navn**
    - **postnummer**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Postnummeret til en avsender /mottaker eller part
  * - **Arkivenhet**
@@ -2680,6 +2920,8 @@ Korrespondanse
    - **M408**
  * - **Navn**
    - **poststed**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Poststedet til en avsender/mottaker eller part
  * - **Arkivenhet**
@@ -2701,6 +2943,8 @@ Korrespondanse
    - **M409**
  * - **Navn**
    - **land**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Land dersom adressen er i utlandet
  * - **Arkivenhet**
@@ -2722,6 +2966,8 @@ Korrespondanse
    - **M410**
  * - **Navn**
    - **epostadresse**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - E-postadressen til en avsender/mottaker eller part
  * - **Arkivenhet**
@@ -2743,6 +2989,8 @@ Korrespondanse
    - **M411**
  * - **Navn**
    - **telefonnummer**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Telefonnummeret til en avsender/mottaker eller part
  * - **Arkivenhet**
@@ -2764,6 +3012,8 @@ Korrespondanse
    - **M412**
  * - **Navn**
    - **kontaktperson**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Kontaktperson hos en organisasjon som er avsender eller mottaker, eller part
  * - **Arkivenhet**
@@ -2789,6 +3039,8 @@ Bevaring og kassasjon
    - **M450**
  * - **Navn**
    - **kassasjonsvedtak**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Handling som skal utføres ved bevaringstidens slutt.
  * - **Arkivenhet**
@@ -2814,6 +3066,8 @@ Bevaring og kassasjon
    - **M451**
  * - **Navn**
    - **bevaringstid**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Antall år dokumentene som tilhører denne arkivdelen skal bevares.
  * - **Arkivenhet**
@@ -2835,6 +3089,8 @@ Bevaring og kassasjon
    - **M452**
  * - **Navn**
    - **kassasjonsdato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato for når dokumentene som tilhører denne arkivenheten skal kunne kasseres, eller vurderes for bevaring og kassasjon på ny
  * - **Arkivenhet**
@@ -2856,6 +3112,8 @@ Bevaring og kassasjon
    - **M453**
  * - **Navn**
    - **kassasjonshjemmel**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Angivelse av hjemmel for kassasjon
  * - **Arkivenhet**
@@ -2881,6 +3139,8 @@ Skjerming og gradering
    - **M500**
  * - **Navn**
    - **tilgangsrestriksjon**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Angivelse av at dokumentene som tilhører arkivenheten ikke er offentlig tilgjengelig i henhold til offentlighetsloven eller av en annen grunn
  * - **Arkivenhet**
@@ -2909,6 +3169,8 @@ Skjerming og gradering
    - **M501**
  * - **Navn**
    - **skjermingshjemmel**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Henvisning til hjemmel (paragraf) i offentlighetsloven, sikkerhetsloven eller beskyttelsesinstruksen
  * - **Arkivenhet**
@@ -2930,6 +3192,8 @@ Skjerming og gradering
    - **M502**
  * - **Navn**
    - **skjermingMetadata**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Angivelse av hvilke metadataelementer som skal skjermes.
  * - **Arkivenhet**
@@ -2964,6 +3228,8 @@ Skjerming og gradering
    - **M503**
  * - **Navn**
    - **skjermingDokument**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Angivelse av at hele dokumentet eller deler av det må skjermes.
  * - **Arkivenhet**
@@ -2988,6 +3254,8 @@ Skjerming og gradering
    - **M504**
  * - **Navn**
    - **skjermingsvarighet**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Antall år skjermingen skal opprettholdes.
  * - **Arkivenhet**
@@ -3009,6 +3277,8 @@ Skjerming og gradering
    - **M505**
  * - **Navn**
    - **skjermingOpphoererDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Datoen skjermingen skal oppheves.
  * - **Arkivenhet**
@@ -3030,6 +3300,8 @@ Skjerming og gradering
    - **M506**
  * - **Navn**
    - **graderingskode**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Angivelse av at dokumentene er gradert i henhold til sikkerhetsloven eller beskyttelsesinstruksen.
  * - **Arkivenhet**
@@ -3060,6 +3332,8 @@ Skjerming og gradering
    - **M507**
  * - **Navn**
    - **elektroniskSignaturSikkerhetsnivaa**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Angivelse av hvilket sikkerhetsnivå som ble brukt ved forsendelse og mottak av elektroniske dokumenter
  * - **Arkivenhet**
@@ -3086,6 +3360,8 @@ Skjerming og gradering
    - **M508**
  * - **Navn**
    - **elektroniskSignaturVerifisert**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Angivelse av om et dokument er mottatt med elektronisk signatur, og om signaturen er verifisert.
  * - **Arkivenhet**
@@ -3114,6 +3390,8 @@ Brukeradministrasjon og administrasjonsstruktur
    - **M580**
  * - **Navn**
    - **brukerNavn**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på bruker av en Noark 5-løsning
  * - **Arkivenhet**
@@ -3135,6 +3413,8 @@ Brukeradministrasjon og administrasjonsstruktur
    - **M581**
  * - **Navn**
    - **brukerRolle**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Rollen til en bruker av en Noark 5-løsning.
  * - **Arkivenhet**
@@ -3161,6 +3441,8 @@ Brukeradministrasjon og administrasjonsstruktur
    - **M582**
  * - **Navn**
    - **brukerstatus**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Status til en bruker av en Noark 5-løsning.
  * - **Arkivenhet**
@@ -3185,6 +3467,8 @@ Brukeradministrasjon og administrasjonsstruktur
    - **M583**
  * - **Navn**
    - **administrativEnhetNavn**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på administrativ enhet
  * - **Arkivenhet**
@@ -3206,6 +3490,8 @@ Brukeradministrasjon og administrasjonsstruktur
    - **M584**
  * - **Navn**
    - **administrativEnhetsstatus**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Status til den administrative enheten
  * - **Arkivenhet**
@@ -3230,6 +3516,8 @@ Brukeradministrasjon og administrasjonsstruktur
    - **M585**
  * - **Navn**
    - **referanseOverordnetEnhet**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Referanse til enhet som er direkte overordnet denne enheten
  * - **Arkivenhet**
@@ -3255,6 +3543,8 @@ Logging av hendelser
    - **M600**
  * - **Navn**
    - **opprettetDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten ble opprettet/registrert
  * - **Arkivenhet**
@@ -3276,6 +3566,8 @@ Logging av hendelser
    - **M601**
  * - **Navn**
    - **opprettetAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som opprettet/registrerte arkivenheten
  * - **Arkivenhet**
@@ -3297,6 +3589,8 @@ Logging av hendelser
    - **M602**
  * - **Navn**
    - **avsluttetDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten ble avsluttet/lukket
  * - **Arkivenhet**
@@ -3318,6 +3612,8 @@ Logging av hendelser
    - **M603**
  * - **Navn**
    - **avsluttetAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som avsluttet/lukket arkivenheten
  * - **Arkivenhet**
@@ -3339,6 +3635,8 @@ Logging av hendelser
    - **M604**
  * - **Navn**
    - **arkivertDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett når alle dokumentene som er tilknyttet registreringen ble arkivert
  * - **Arkivenhet**
@@ -3360,6 +3658,8 @@ Logging av hendelser
    - **M605**
  * - **Navn**
    - **arkivertAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som arkiverte dokumentet og frøs det for all videre redigering
  * - **Arkivenhet**
@@ -3381,6 +3681,8 @@ Logging av hendelser
    - **M606**
  * - **Navn**
    - **ansvarligEksport**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som har foretatt (eller er ansvarlig for) eksport av metadata og dokumenter
  * - **Arkivenhet**
@@ -3402,6 +3704,8 @@ Logging av hendelser
    - **M607**
  * - **Navn**
    - **eksportertDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett når eksporten skjedde
  * - **Arkivenhet**
@@ -3423,6 +3727,8 @@ Logging av hendelser
    - **M608**
  * - **Navn**
    - **antallMapperEksportert**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Antall mapper som inngikk i eksporten
  * - **Arkivenhet**
@@ -3444,6 +3750,8 @@ Logging av hendelser
    - **M609**
  * - **Navn**
    - **antallJournalposter**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Antall journalposter i rapporten
  * - **Arkivenhet**
@@ -3465,6 +3773,8 @@ Logging av hendelser
    - **M610**
  * - **Navn**
    - **antallDokumenterEksportert**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Antall elektroniske dokumenter (dokumentfiler) som inngikk i eksporten
  * - **Arkivenhet**
@@ -3486,6 +3796,8 @@ Logging av hendelser
    - **M611**
  * - **Navn**
    - **merknadsdato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett når merknaden ble registrert
  * - **Arkivenhet**
@@ -3507,6 +3819,8 @@ Logging av hendelser
    - **M612**
  * - **Navn**
    - **merknadRegistrertAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som har registrert merknaden
  * - **Arkivenhet**
@@ -3528,6 +3842,8 @@ Logging av hendelser
    - **M613**
  * - **Navn**
    - **slettetDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett når et dokument ble slettet
  * - **Arkivenhet**
@@ -3549,6 +3865,8 @@ Logging av hendelser
    - **M614**
  * - **Navn**
    - **slettetAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som har utført en kontrollert kassasjon av dokumenter, eller sletting av versjoner, formater og varianter.
  * - **Arkivenhet**
@@ -3570,6 +3888,8 @@ Logging av hendelser
    - **M615**
  * - **Navn**
    - **konvertertDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett for når et dokument ble konvertert fra et format til et annet
  * - **Arkivenhet**
@@ -3591,6 +3911,8 @@ Logging av hendelser
    - **M616**
  * - **Navn**
    - **konvertertAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Person eller system som har foretatt konverteringen
  * - **Arkivenhet**
@@ -3612,6 +3934,8 @@ Logging av hendelser
    - **M617**
  * - **Navn**
    - **avskrivningsdato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato et dokument ble avskrevet
  * - **Arkivenhet**
@@ -3633,6 +3957,8 @@ Logging av hendelser
    - **M618**
  * - **Navn**
    - **avskrevetAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som har foretatt avskrivning
  * - **Arkivenhet**
@@ -3654,6 +3980,8 @@ Logging av hendelser
    - **M619**
  * - **Navn**
    - **avskrivningsmaate**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Måten en journalpost har blitt avskrevet på
  * - **Arkivenhet**
@@ -3681,6 +4009,8 @@ Logging av hendelser
    - **M620**
  * - **Navn**
    - **tilknyttetDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Datoen et dokument ble knyttet til en registrering
  * - **Arkivenhet**
@@ -3702,6 +4032,8 @@ Logging av hendelser
    - **M621**
  * - **Navn**
    - **tilknyttetAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som knyttet et dokument til en registrering
  * - **Arkivenhet**
@@ -3723,6 +4055,8 @@ Logging av hendelser
    - **M622**
  * - **Navn**
    - **verifisertDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato en elektronisk signatur ble verifisert
  * - **Arkivenhet**
@@ -3744,6 +4078,8 @@ Logging av hendelser
    - **M623**
  * - **Navn**
    - **verifisertAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som har verifisert en elektronisk signatur
  * - **Arkivenhet**
@@ -3765,6 +4101,8 @@ Logging av hendelser
    - **M624**
  * - **Navn**
    - **graderingsdato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett når et dokument ble gradert
  * - **Arkivenhet**
@@ -3786,6 +4124,8 @@ Logging av hendelser
    - **M625**
  * - **Navn**
    - **gradertAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som foretok graderingen
  * - **Arkivenhet**
@@ -3807,6 +4147,8 @@ Logging av hendelser
    - **M626**
  * - **Navn**
    - **nedgraderingsdato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett når et dokument ble nedgradert
  * - **Arkivenhet**
@@ -3828,6 +4170,8 @@ Logging av hendelser
    - **M627**
  * - **Navn**
    - **nedgradertAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som foretok nedgraderingen
  * - **Arkivenhet**
@@ -3849,6 +4193,8 @@ Logging av hendelser
    - **M628**
  * - **Navn**
    - **presedensGodkjentDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett for når presedensen er godkjent
  * - **Arkivenhet**
@@ -3870,6 +4216,8 @@ Logging av hendelser
    - **M629**
  * - **Navn**
    - **presedensGodkjentAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som har godkjent presedensen
  * - **Arkivenhet**
@@ -3891,6 +4239,8 @@ Logging av hendelser
    - **M630**
  * - **Navn**
    - **kassertDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett når kassasjonen ble utført
  * - **Arkivenhet**
@@ -3912,6 +4262,8 @@ Logging av hendelser
    - **M631**
  * - **Navn**
    - **kassertAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som har utført kassasjonen
  * - **Arkivenhet**
@@ -3933,6 +4285,8 @@ Logging av hendelser
    - **M632**
  * - **Navn**
    - **oppdatertDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten sist ble oppdatert
  * - **Arkivenhet**
@@ -3954,6 +4308,8 @@ Logging av hendelser
    - **M633**
  * - **Navn**
    - **oppdatertAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten sist ble oppdatert
  * - **Arkivenhet**
@@ -3979,6 +4335,8 @@ Logging av arbeidsflyt og saksfordeling
    - **M660**
  * - **Navn**
    - **flytTil**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Person som har mottatt for godkjennelse et dokument som har vært sendt på flyt
  * - **Arkivenhet**
@@ -4000,6 +4358,8 @@ Logging av arbeidsflyt og saksfordeling
    - **M661**
  * - **Navn**
    - **flytMottattDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett et dokument på flyt ble mottatt
  * - **Arkivenhet**
@@ -4021,6 +4381,8 @@ Logging av arbeidsflyt og saksfordeling
    - **M662**
  * - **Navn**
    - **flytSendtDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett et dokument på flyt ble sendt videre
  * - **Arkivenhet**
@@ -4042,6 +4404,8 @@ Logging av arbeidsflyt og saksfordeling
    - **M663**
  * - **Navn**
    - **flytStatus**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Godkjennelse/ikke godkjennelse av dokumentet som er sendt på flyt
  * - **Arkivenhet**
@@ -4067,6 +4431,8 @@ Logging av arbeidsflyt og saksfordeling
    - **M664**
  * - **Navn**
    - **flytMerknad**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Merknad eller kommentar til et dokument som er sendt på flyt
  * - **Arkivenhet**
@@ -4088,6 +4454,8 @@ Logging av arbeidsflyt og saksfordeling
    - **M665**
  * - **Navn**
    - **flytFra**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Person som har sendt et dokument på flyt
  * - **Arkivenhet**
@@ -4109,6 +4477,8 @@ Logging av arbeidsflyt og saksfordeling
    - **M666**
  * - **Navn**
    - **fordeltTil**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Person som har fått fordelt en saksmappe eller journalpost til saksbehandling
  * - **Arkivenhet**
@@ -4130,6 +4500,8 @@ Logging av arbeidsflyt og saksfordeling
    - **M667**
  * - **Navn**
    - **fordeltAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Person som har fordelt en saksmappe eller journalpost til saksbehandling
  * - **Arkivenhet**
@@ -4151,6 +4523,8 @@ Logging av arbeidsflyt og saksfordeling
    - **M668**
  * - **Navn**
    - **fordeltDato**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Dato da en saksmappe eller journalpost ble fordelt til saksbehandling
  * - **Arkivenhet**
@@ -4176,6 +4550,8 @@ Logging av endringer
    - **M680**
  * - **Navn**
    - **referanseArkivenhet**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Referanse til arkivenheten (systemID) som inneholder metadata­elementet som ble endret
  * - **Arkivenhet**
@@ -4185,7 +4561,7 @@ Logging av endringer
  * - **Arv**
    - Nei
  * - **Betingelser**
-   - 
+   - Må inneholde gyldig systemID for aktuell arkivenhet
  * - **Kommentarer**
    - 
 
@@ -4197,6 +4573,8 @@ Logging av endringer
    - **M681**
  * - **Navn**
    - **referanseMetadata**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navnet på metadataelementet som ble endret
  * - **Arkivenhet**
@@ -4218,6 +4596,8 @@ Logging av endringer
    - **M682**
  * - **Navn**
    - **endretDato**
+ * - **Datatype**
+   - Dato og klokkeslett
  * - **Definisjon**
    - Dato og klokkeslett når arkivenheten ble oppdatert eller et metadataelement sist ble endret
  * - **Arkivenhet**
@@ -4239,6 +4619,8 @@ Logging av endringer
    - **M683**
  * - **Navn**
    - **endretAv**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på person som oppdaterte en arkivenhet eller endret metadata
  * - **Arkivenhet**
@@ -4260,6 +4642,8 @@ Logging av endringer
    - **M684**
  * - **Navn**
    - **tidligereVerdi**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Innholdet i metadataelementet før det ble endret
  * - **Arkivenhet**
@@ -4281,6 +4665,8 @@ Logging av endringer
    - **M685**
  * - **Navn**
    - **nyVerdi**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Det nye innholdet i metadataelementet
  * - **Arkivenhet**
@@ -4306,6 +4692,8 @@ Tekniske metadata
    - **M700**
  * - **Navn**
    - **variantformat**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Angivelse av hvilken variant et dokument forekommer i
  * - **Arkivenhet**
@@ -4333,6 +4721,8 @@ Tekniske metadata
    - **M701**
  * - **Navn**
    - **format**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Dokumentets format
  * - **Arkivenhet**
@@ -4354,6 +4744,8 @@ Tekniske metadata
    - **M702**
  * - **Navn**
    - **formatDetaljer**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Nærmere spesifikasjon av dokuments format, f.eks. informasjon om komprimering
  * - **Arkivenhet**
@@ -4375,6 +4767,8 @@ Tekniske metadata
    - **M703**
  * - **Navn**
    - **tidligereFormat**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Dokumentets format før det ble konvertert
  * - **Arkivenhet**
@@ -4396,6 +4790,8 @@ Tekniske metadata
    - **M704**
  * - **Navn**
    - **tidligereFormatDetaljer**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Nærmere spesifikasjon av dokuments format før det ble konvertert, f.eks. informasjon om komprimering
  * - **Arkivenhet**
@@ -4417,6 +4813,8 @@ Tekniske metadata
    - **M705**
  * - **Navn**
    - **sjekksum**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - En verdi som beregnes ut fra innholdet i dokumentet, og som dermed gir integritetssikring til dokumentets innhold
  * - **Arkivenhet**
@@ -4438,6 +4836,8 @@ Tekniske metadata
    - **M706**
  * - **Navn**
    - **sjekksumAlgoritme**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Algoritmen som er brukt for å beregne sjekksummen
  * - **Arkivenhet**
@@ -4459,6 +4859,8 @@ Tekniske metadata
    - **M707**
  * - **Navn**
    - **filstoerrelse**
+ * - **Datatype**
+   - Heltall
  * - **Definisjon**
    - Størrelsen på fila i antall bytes.
  * - **Arkivenhet**
@@ -4480,6 +4882,8 @@ Tekniske metadata
    - **M708**
  * - **Navn**
    - **sjekksumMetadata**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - En verdi som beregnes ut fra innholdet i metadataobjektene i avleveringspakken, og som dermed gir integritessikring til metadataenes innhold
  * - **Arkivenhet**
@@ -4501,6 +4905,8 @@ Tekniske metadata
    - **M709**
  * - **Navn**
    - **sjekksumAvlevering**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - En verdi som beregnes ut fra innholdet i hele avleveringspakken (både metadata- og dokumentobjekter), og som dermed gir integritetssikring til hele  avleveringspakken
  * - **Arkivenhet**
@@ -4522,6 +4928,8 @@ Tekniske metadata
    - **M711**
  * - **Navn**
    - **virksomhetsspesifikkeMetadata**
+ * - **Datatype**
+   - Vilkårlig struktur
  * - **Definisjon**
    - Et overordnet metadataelement som kan inneholde egendefinerte metadata. Disse metadataene må da være spesifisert i et eller flere XML-skjema.
  * - **Arkivenhet**
@@ -4543,6 +4951,8 @@ Tekniske metadata
    - **M712**
  * - **Navn**
    - **konvertertFraFormat**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Formatet dokumentet hadde før det ble konvertert
  * - **Arkivenhet**
@@ -4564,6 +4974,8 @@ Tekniske metadata
    - **M713**
  * - **Navn**
    - **konvertertTilFormat**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Formatet dokumentet fikk etter konvertering
  * - **Arkivenhet**
@@ -4585,6 +4997,8 @@ Tekniske metadata
    - **M714**
  * - **Navn**
    - **konverteringsverktoey**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Navn på det IT-verktøyet som ble brukt til å foreta konverteringen
  * - **Arkivenhet**
@@ -4606,6 +5020,8 @@ Tekniske metadata
    - **M715**
  * - **Navn**
    - **konverteringskommentar**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Kommentarer til konverteringen
  * - **Arkivenhet**
@@ -4627,6 +5043,8 @@ Tekniske metadata
    - **M716**
  * - **Navn**
    - **mimeType**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Dokumentets MIME-type
  * - **Arkivenhet**

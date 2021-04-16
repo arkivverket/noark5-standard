@@ -1,6 +1,6 @@
 Arkivenhet: mappe, registrering
 Arv: Nei
-Betingelser:
+Betingelser: Må inneholde gyldig systemID for registrering
 Datatype: systemID
 Definisjon: Kryssreferanse til en *registrering* fra en annen *registrering* eller
   *mappe*

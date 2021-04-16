@@ -1,6 +1,5 @@
 Arkivenhet: dokumentobjekt
 Arv: Nei
-Avleveres: A
 Betingelser: Kan ikke endres. Sjekksummen skal være heksadesimal uten noen formatteringstegn.
 Datatype: Tekststreng
 Definisjon: En verdi som beregnes ut fra innholdet i dokumentet, og som dermed gir

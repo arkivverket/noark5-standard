@@ -1,6 +1,5 @@
 Arkivenhet: arkiv, arkivdel, klassifikasjonssystem, klasse og mappe
 Arv: Nei
-Avleveres: A
 Betingelser: Skal ikke kunne endres. Obligatorisk dersom arkivenheten er avsluttet. Obligatorisk ved bruk av Noark 5 tjenestegrensesnitt.
 Datatype: systemID
 Definisjon: Referanse til bruker som avsluttet/lukket arkivenheten

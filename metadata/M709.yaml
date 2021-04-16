@@ -1,6 +1,5 @@
 Arkivenhet: Egen fil
 Arv: Nei
-Avleveres: A
 Betingelser: Kan ikke endres
 Datatype: Tekststreng
 Definisjon: En verdi som beregnes ut fra innholdet i hele avleveringspakken (både metadata- og dokumentobjekter), og som dermed gir integritetssikring til hele  avleveringspakken

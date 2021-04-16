@@ -1,6 +1,5 @@
 Arkivenhet: matrikkelnummer
 Arv: Nei
-Avleveres: A
 Betingelser:
 Datatype: Heltall
 Definisjon: Nummerering av gårdsenhet i matrikkelen, nummeret er unikt innenfor kommunen

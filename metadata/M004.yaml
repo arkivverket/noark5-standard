@@ -1,6 +1,5 @@
 Arkivenhet: registrering
 Arv: Kan arve *M003 mappeID* fra mappe og kombinere det med *M015 journalpostnummer*
-Avleveres: A
 Betingelser: Skal normalt ikke kunne endres. Ved flytting til en annen mappe, kan
   endring av *registreringsID* forekomme.
 Datatype: Tekststreng

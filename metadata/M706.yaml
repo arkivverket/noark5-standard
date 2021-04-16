@@ -1,6 +1,5 @@
 Arkivenhet: dokumentobjekt
 Arv: Nei
-Avleveres: A
 Betingelser: Kan ikke endres. Algoritmen som skal brukes inntil videre er SHA256.
 Datatype: Tekststreng
 Definisjon: Algoritmen som er brukt for å beregne sjekksummen

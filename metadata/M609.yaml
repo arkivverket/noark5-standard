@@ -1,7 +1,6 @@
 Arkivenhet: 'Egne filer med journalutskrift for løpende og offentlig journal: loependeJournal.xml
   og offentligJournal.xml.'
 Arv: Nei
-Avleveres: A
 Betingelser: Kan ikke endres
 Datatype: Heltall
 Definisjon: Antall journalposter i rapporten

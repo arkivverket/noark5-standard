@@ -1,7 +1,6 @@
 Arkivenhet: 'Egne filer med journalutskrift for løpende og offentlig journal: loependeJournal.xml
   og offentligJournal.xml.'
 Arv:
-Avleveres: A
 Betingelser: Sluttdato skal selekteres på *M101 journaldato*
 Datatype: Dato og klokkeslett
 Definisjon: Sluttdato for journalutskriftene som inngår i avleveringspakken.

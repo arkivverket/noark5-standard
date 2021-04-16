@@ -1,6 +1,6 @@
 Arkivenhet: arkivdel
 Arv: Nei
-Betingelser:
+Betingelser: Må inneholde gyldig systemID for arkivdel
 Datatype: systemID
 Definisjon: Referanse til den arkivdelen som er forløper for denne arkivdelen, dvs.
   inneholder forrige arkivperiode.

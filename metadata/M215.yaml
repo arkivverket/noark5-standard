@@ -1,6 +1,6 @@
 Arkivenhet: journalpost
 Arv: Nei
-Betingelser:
+Betingelser: Må inneholde gyldig systemID for registrering
 Datatype: Tekststreng
 Definisjon: Referanse til en eller flere journalposter som avskriver denne journalposten
 Gruppe: Referanser

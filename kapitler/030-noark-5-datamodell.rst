@@ -634,6 +634,10 @@ Konvertering til arkivformat
 
 Alle arkivdokumenter som skal avleveres må være i arkivformat. Konvertering til arkivformat skal foretas senest ved avslutning av mappe. Systemet skal logge alle konverteringer, og informasjon om dette skal tas med ved deponering/avlevering.
 
+Som del av konvertering bør det logges sjekksum for filen det ble
+konvertert fra (fra-filen), og filen det ble konvertert til
+(til-filen), som kan brukes til å dokumentere konverteringskjeden.
+
 .. list-table:: **Krav til konvertering til arkivformat**
    :widths: 1 8 1 4
    :header-rows: 1
@@ -672,6 +676,13 @@ Alle arkivdokumenter som skal avleveres må være i arkivformat. Konvertering ti
      registreringer og/eller dokumentbeskrivelser som ikke inneholder
      dokumenter lagret i godkjent arkivformat.
    - O
+   -
+ * - 2.7.26
+   - For hver konvertering bør det registreres sjekksum for fra-filen
+     og til-filen, slik at kjeden av konverteringer dokumenteres.  Det
+     brukes samme sjekksumalgoritme som i dokumentobjekt, slik at
+     kjeden frem til arkivformat er dokumentert.
+   - V
    - 
 
 Sletting av versjoner, varianter og formater

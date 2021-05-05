@@ -4820,7 +4820,8 @@ Tekniske metadata
  * - **Arkivenhet**
    - dokumentobjekt
  * - **Kilde**
-   - Påføres automatisk i forbindelse med eksport for avlevering
+   - Påføres automatisk ved mottak, konvertering eller i forbindelse
+     med eksport for avlevering.
  * - **Arv**
    - Nei
  * - **Betingelser**

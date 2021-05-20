@@ -2,7 +2,7 @@ Arkivenhet: arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering,
 Arv: Nei
 Betingelser: Skal ikke kunne endres.
 Datatype: Tekststreng
-Definisjon: Dato og klokkeslett når arkivenheten sist ble oppdatert
+Definisjon: Navn på person som oppdaterte arkivenheten
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk av systemet når oppdatering gjøres
 Kommentarer: NB! Ikke i bruk, slått sammen med M683 endretAv

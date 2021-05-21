@@ -1,7 +1,7 @@
 Arkivenhet: planident
 Arv: Nei
 Betingelser:
-Datatype: Heltall
+Datatype: Tekststreng
 Definisjon: To-sifret kode som entydig identifiserer et fylke
 Gruppe: Nasjonale identifikatorer
 Kilde:

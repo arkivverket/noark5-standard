@@ -153,6 +153,12 @@ Merk: En og bare en av objekttypene *arkiv* eller *arkivdel* grupperes inn i *ar
    - 1
    - A
    - Tekststreng
+ * - M711
+   - virksomhetsspesifikkeMetadata
+   - 
+   - 0-1
+   - A
+   - Vilkårlig struktur
 
 Metadata for *arkivskaper*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -289,6 +295,12 @@ Merk: En og bare en av objekttypene *arkiv* eller *arkivdel* grupperes inn i *ar
    - 0-1
    - A
    - arkivdel.systemID
+ * - M711
+   - virksomhetsspesifikkeMetadata
+   - 
+   - 0-1
+   - A
+   - Vilkårlig struktur
 
 Metadata for *klassifikasjonssystem*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -355,6 +367,12 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
    - 0-1
    - A
    - Tekststreng
+ * - M711
+   - virksomhetsspesifikkeMetadata
+   - 
+   - 0-1
+   - A
+   - Vilkårlig struktur
 
 Metadata for *klasse*
 ~~~~~~~~~~~~~~~~~~~~~
@@ -429,6 +447,12 @@ Merk: Bare en av objekttypene *klasse*, *mappe* eller *registrering* kan grupper
    - 0-1
    - A
    - Tekststreng
+ * - M711
+   - virksomhetsspesifikkeMetadata
+   - 
+   - 0-1
+   - A
+   - Vilkårlig struktur
 
 Metadata for *mappe*
 ~~~~~~~~~~~~~~~~~~~~
@@ -1343,6 +1367,12 @@ Merk: En *dokumentbeskrivelse* kan være knyttet til mer enn én enkelt *registr
    - 1
    - A
    - Tekststreng
+ * - M???
+   - eksternReferanse
+   - AM.REF
+   - 0-M
+   - Teststreng
+   - Ekstern referanse på innkommende dokumenter.
 
 Metadata for *sletting*
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -1467,6 +1497,12 @@ Metadata for *dokumentobjekt*
    - 0-1
    - A
    - Tekststreng
+ * - M711
+   - virksomhetsspesifikkeMetadata
+   - 
+   - 0-1
+   - A
+   - Vilkårlig struktur
 
 Metadata for *konvertering*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

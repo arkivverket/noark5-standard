@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-21 21:53+0200\n"
-"PO-Revision-Date: 2021-04-17 22:26+0000\n"
+"PO-Revision-Date: 2021-06-21 20:17+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
-"Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/"
-">\n"
+"Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
+"\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6-dev\n"
+"X-Generator: Weblate 4.7\n"
 
 #. type: Attribute 'lang' of: <book>
 #: docbook/spesifikasjon-complete.xml:4
@@ -3287,12 +3287,12 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:8174
 #: docbook/spesifikasjon-complete.xml:15036
 msgid "Mappe"
-msgstr ""
+msgstr "File"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1881
 msgid "En mappe grupperer dokument som på en eller annen måte hører sammen."
-msgstr ""
+msgstr "A file group documents that somehow belong together."
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1885
@@ -3320,6 +3320,8 @@ msgid ""
 "<emphasis role=\"strong\">Konseptuell modell for <emphasis>mappe</emphasis></"
 "emphasis>"
 msgstr ""
+"<emphasis role=\"strong\">Conceptual model of "
+"<emphasis>file</emphasis></emphasis>"
 
 #. type: Content of: <book><chapter><sect1><figure><mediaobject>
 #: docbook/spesifikasjon-complete.xml:1901
@@ -3350,7 +3352,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1922
 msgid "<emphasis role=\"strong\">Undermappe</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">Sub file</emphasis>"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1925
@@ -3365,7 +3367,7 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1933
 msgid "<emphasis role=\"strong\">Saksmappe</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">Case file</emphasis>"
 
 #. type: Content of: <book><chapter><sect1><para>
 #: docbook/spesifikasjon-complete.xml:1936
@@ -4131,10 +4133,8 @@ msgstr ""
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2796
-#, fuzzy
-#| msgid "2.7.2"
 msgid "2.7.26"
-msgstr "2.7.2"
+msgstr "2.7.26"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2799
@@ -13926,27 +13926,27 @@ msgstr ""
 #. type: Content of: <book><chapter><title>
 #: docbook/spesifikasjon-complete.xml:14357
 msgid "Ordforklaringer"
-msgstr ""
+msgstr "Dictionary"
 
 #. type: Content of: <book><chapter><para>
 #: docbook/spesifikasjon-complete.xml:14359
 msgid "Listen er begrenset til begreper som er benyttet i standarden."
-msgstr ""
+msgstr "The list is limited to terms used in the standard."
 
 #. type: Content of: <book><chapter><informaltable><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:14368
 msgid "<emphasis role=\"strong\">Begrep</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">Term</emphasis>"
 
 #. type: Content of: <book><chapter><informaltable><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:14371
 msgid "<emphasis role=\"strong\">Forklaring</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">Description</emphasis>"
 
 #. type: Content of: <book><chapter><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:14378
 msgid "AIP"
-msgstr ""
+msgstr "AIP"
 
 #. type: Content of: <book><chapter><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:14381
@@ -13956,7 +13956,7 @@ msgstr ""
 #. type: Content of: <book><chapter><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:14386
 msgid "Algoritme"
-msgstr ""
+msgstr "Algorithm"
 
 #. type: Content of: <book><chapter><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:14389
@@ -13964,6 +13964,8 @@ msgid ""
 "Oppskrift for utføring av en oppgave, for eksempel et program i en "
 "datamaskin som beskriver steg for steg hva datamaskinen skal gjøre."
 msgstr ""
+"Recipe for performing a task, such as a computer program that describes step "
+"by step what the computer should do."
 
 #. type: Content of: <book><chapter><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:14396
@@ -24455,27 +24457,21 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:33558
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">M217</emphasis>"
 msgid "<emphasis role=\"strong\">M717</emphasis>"
-msgstr "<emphasis role=\"strong\">M217</emphasis>"
+msgstr "<emphasis role=\"strong\">M717</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:33566
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">moetested</emphasis>"
 msgid "<emphasis role=\"strong\">konvertertFraSjekksum</emphasis>"
-msgstr "<emphasis role=\"strong\">moetested</emphasis>"
+msgstr "<emphasis role=\"strong\">konvertertFraSjekksum</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:33592
 #: docbook/spesifikasjon-complete.xml:33674
 #: docbook/spesifikasjon-complete.xml:33757
 #: docbook/spesifikasjon-complete.xml:33839
-#, fuzzy
-#| msgid "konverteringskommentar"
 msgid "konvertering"
-msgstr "konverteringskommentar"
+msgstr "konvertering"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:33600
@@ -24491,18 +24487,14 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:33641
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">M218</emphasis>"
 msgid "<emphasis role=\"strong\">M718</emphasis>"
-msgstr "<emphasis role=\"strong\">M218</emphasis>"
+msgstr "<emphasis role=\"strong\">M718</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:33649
 #: docbook/spesifikasjon-complete.xml:33814
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">sjekksumAvlevering</emphasis>"
 msgid "<emphasis role=\"strong\">konvertertFraSjekksumAlgoritme</emphasis>"
-msgstr "<emphasis role=\"strong\">sjekksumAvlevering</emphasis>"
+msgstr "<emphasis role=\"strong\">konvertertFraSjekksumAlgoritme</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:33665
@@ -24529,24 +24521,18 @@ msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:33723
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">M219</emphasis>"
 msgid "<emphasis role=\"strong\">M719</emphasis>"
-msgstr "<emphasis role=\"strong\">M219</emphasis>"
+msgstr "<emphasis role=\"strong\">M719</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:33731
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">fordeltTil</emphasis>"
 msgid "<emphasis role=\"strong\">konvertertTilSjekksum</emphasis>"
-msgstr "<emphasis role=\"strong\">fordeltTil</emphasis>"
+msgstr "<emphasis role=\"strong\">konvertertTilSjekksum</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:33806
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">M020</emphasis>"
 msgid "<emphasis role=\"strong\">M720</emphasis>"
-msgstr "<emphasis role=\"strong\">M020</emphasis>"
+msgstr "<emphasis role=\"strong\">M720</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:33830

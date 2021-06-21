@@ -674,7 +674,7 @@ Nasjonale identifikatorer
  * - **Navn**
    - **fylkesnummer**
  * - **Datatype**
-   - Heltall
+   - Tekststreng
  * - **Definisjon**
    - To-sifret kode som entydig identifiserer et fylke
  * - **Arkivenhet**
@@ -1909,7 +1909,7 @@ Referanser
  * - **Definisjon**
    - Referanse til sekundærklassifikasjon. Kan også referere til flere enn én sekundær klassifikasjon (tertiærklassifikasjon osv.)
  * - **Arkivenhet**
-   - saksmappe
+   - mappe, registrering
  * - **Kilde**
    - Registreres automatisk ved klassifikasjon
  * - **Arv**
@@ -4311,7 +4311,7 @@ Logging av hendelser
  * - **Datatype**
    - Tekststreng
  * - **Definisjon**
-   - Dato og klokkeslett når arkivenheten sist ble oppdatert
+   - Navn på person som oppdaterte arkivenheten
  * - **Arkivenhet**
    - arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse
  * - **Kilde**
@@ -5066,6 +5066,8 @@ Tekniske metadata
    - **M717**
  * - **Navn**
    - **konvertertFraSjekksum**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - En verdi som beregnes ut fra innholdet i dokumentet, og som dermed gir integritetssikring til dokumentets innhold
  * - **Arkivenhet**
@@ -5087,6 +5089,8 @@ Tekniske metadata
    - **M718**
  * - **Navn**
    - **konvertertFraSjekksumAlgoritme**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Algoritmen som er brukt for å beregne konvertertFraSjekksum
  * - **Arkivenhet**
@@ -5108,6 +5112,8 @@ Tekniske metadata
    - **M719**
  * - **Navn**
    - **konvertertTilSjekksum**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - En verdi som beregnes ut fra innholdet i dokumentet, og som dermed gir integritetssikring til dokumentets innhold
  * - **Arkivenhet**
@@ -5129,6 +5135,8 @@ Tekniske metadata
    - **M720**
  * - **Navn**
    - **konvertertFraSjekksumAlgoritme**
+ * - **Datatype**
+   - Tekststreng
  * - **Definisjon**
    - Algoritmen som er brukt for å beregne konvertertTilSjekksum
  * - **Arkivenhet**

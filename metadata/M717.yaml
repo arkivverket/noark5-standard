@@ -1,0 +1,13 @@
+Arkivenhet: konvertering
+Arv: Nei
+Avleveres: A
+Betingelser: Kan ikke endres. Sjekksummen skal være heksadesimal uten noen formatteringstegn.
+Datatype: Tekststreng
+Definisjon: En verdi som beregnes ut fra innholdet i dokumentet, og som
+  dermed gir integritetssikring til dokumentets innhold
+Gruppe: Tekniske metadata
+Kilde: Påføres automatisk ved konvertering.
+Kommentarer: Bruker samme verdier som M705 sjekksum.
+Navn: konvertertFraSjekksum
+Nr: M717
+X: true

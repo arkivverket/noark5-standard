@@ -1543,6 +1543,30 @@ Metadata for *konvertering*
    - 1
    - A
    - Tekststreng
+ * - M717
+   - konvertertFraSjekksum
+   -
+   - 0-1
+   - A
+   - Tekststreng
+ * - M718
+   - konvertertFraSjekksumAlgoritme
+   -
+   - 0-1
+   - A
+   - Tekststreng
+ * - M719
+   - konvertertTilSjekksum
+   -
+   - 0-1
+   - A
+   - Tekststreng
+ * - M720
+   - konvertertTilSjekksumAlgoritme
+   -
+   - 0-1
+   - A
+   - Tekststreng
  * - M714
    - konverteringsverktoey
    - 

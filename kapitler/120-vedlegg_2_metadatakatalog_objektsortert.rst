@@ -1047,7 +1047,7 @@ Metadata for *avskrivning*
 
 0-M forekomster av *avskrivning* grupperes inn i 1-M forekomster av *journalpost*.
 
-Merk: Grupperes inn in den journalposten som avskrives.
+Merk: Grupperes inn i den journalposten som avskrives.
 
 .. list-table::
    :widths: 2 11 6 2 1 7

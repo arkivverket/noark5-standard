@@ -847,6 +847,8 @@ Metadata for *korrespondansepart*
 
 0-M forekomster av *korrespondansepart* grupperes inn i 0-M forekomster av *registrering*.
 
+Merk: Kun ett av feltene personID og organisasjonsID kan ha verdi.
+
 .. list-table::
    :widths: 2 11 6 2 1 7
    :header-rows: 1
@@ -926,7 +928,7 @@ Metadata for *korrespondansepart*
  * - M048
    - personID
    - 
-   - 0-1
+   - 0-M
    - A
    - Tekststreng
  * - M049
@@ -1678,6 +1680,8 @@ Metadata for *part*
 
 0-M forekomster av *part* grupperes inn i 0-M forekomster av *dokumentbeskrivelse*.
 
+Merk: Kun ett av feltene personID og organisasjonsID kan ha verdi.
+
 .. list-table::
    :widths: 2 11 6 2 1 7
    :header-rows: 1
@@ -1751,7 +1755,7 @@ Metadata for *part*
  * - M048
    - personID
    - 
-   - 0-1
+   - 0-M
    - A
    - Tekststreng
  * - M049
@@ -2111,10 +2115,18 @@ Merk: Elektronisk signatur knyttes til dokumentobjektet i tillegg til dokumentbe
    - A
    - Tekststreng
 
+Metadata for *nasjonalIdentifikator*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0-M forekomster av *nasjonalIdentifikator* grupperes inn i 0-M forekomster av *mappe*.
+
+0-M forekomster av *nasjonalIdentifikator* grupperes inn i 0-M forekomster av *registrering*.
+
+
 Metadata for *matrikkelnummer*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-0-M forekomster av *matrikkelnummer* grupperes inn i 0-M forekomster av *saksmappe*.
+Spesialisering av: *nasjonalIdentifikator*
 
 Hvis kommune ikke er angitt, anses matrikkelnummeret å angi en eiendom i gjeldende kommune.
 
@@ -2162,7 +2174,7 @@ Hvis kommune ikke er angitt, anses matrikkelnummeret å angi en eiendom i gjelde
 Metadata for *byggident*
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-0-M forekomster av *byggident* grupperes inn i 0-M forekomster av *saksmappe*.
+Spesialisering av: *nasjonalIdentifikator*
 
 .. list-table::
    :widths: 2 11 6 2 1 7
@@ -2190,7 +2202,7 @@ Metadata for *byggident*
 Metadata for *planident*
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-0-M forekomster av *planident* grupperes inn i 0-M forekomster av *saksmappe*.
+Spesialisering av: *nasjonalIdentifikator*
 
 Merk: Kun ett av feltene landkode, fylkesnummer, kommunenummer kan ha verdi (samlebetegnelse administrativEnhet i SOSI). Hvis ingen av disse er angitt anses planidenten å angi en plan i gjeldende kommune.
 
@@ -2232,7 +2244,7 @@ Merk: Kun ett av feltene landkode, fylkesnummer, kommunenummer kan ha verdi (sam
 Metadata for *posisjon*
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-0-M forekomster av *posisjon* grupperes inn i 0-M forekomster av *saksmappe*.
+Spesialisering av: *nasjonalIdentifikator*
 
 .. list-table::
    :widths: 2 11 6 2 1 7
@@ -2266,6 +2278,50 @@ Metadata for *posisjon*
    - z
    - 
    - 0-1
+   - A
+   - Tekststreng
+
+Metadata for *personidentifikator*
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Spesialisering av: *nasjonalIdentifikator*
+
+.. list-table::
+   :widths: 2 11 6 2 1 7
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M048
+   - personID
+   -
+   - 1
+   - A
+   - Tekststreng
+
+Metadata for *enhetsidentifikator*
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Spesialisering av: *nasjonalIdentifikator*
+
+.. list-table::
+   :widths: 2 11 6 2 1 7
+   :header-rows: 1
+
+ * - **Nr.**
+   - **Navn**
+   - **Noark 4**
+   - **Forek.**
+   - **Avl.**
+   - **Datatype**
+ * - M049
+   - organisasjonsID
+   -
+   - 1
    - A
    - Tekststreng
 

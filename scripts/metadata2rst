@@ -113,12 +113,12 @@ Katalogoppføringer
             print("   :header-rows: 0")
             print()
             for f, v in table:
-                print(" * - %s" % f)
+                print("   * - %s" % f)
                 if v:
-                    v = v.replace("\n", "\n     ")
+                    v = v.replace("\n", "\n       ")
                 else:
                     v = ""
-                print("   - %s" % v)
+                print("     - %s" % v)
             print()
     return retval
 

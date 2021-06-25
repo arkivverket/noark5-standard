@@ -200,29 +200,6 @@ Identifikasjon
    :header-rows: 0
 
  * - **Nr**
-   - **M009**
- * - **Navn**
-   - **loepenummer**
- * - **Datatype**
-   - Tekststreng
- * - **Definisjon**
-   - Rekkefølgenummer for  journalposter
- * - **Arkivenhet**
-   - journalpost
- * - **Kilde**
-   - Registreres automatisk av systemet når nye journalposter opprettes
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - 
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1. Det anbefales at løpenummer bygges opp av "journalår" og "sekvens-nummer" som i Noark 4. Metadataelementet styrer bl.a. sorteringsrekke-følgen i rapportene "Offentlig journal" og "Løpende journal".
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
    - **M010**
  * - **Navn**
    - **partID**
@@ -824,7 +801,7 @@ Nasjonale identifikatorer
  * - **Betingelser**
    - 
  * - **Kommentarer**
-   - Koordinatsystem for geografisk punkt, flate etc. Normalt en kode angitt som EPSG:nnnnn hvor nnnnn er 32632 (Sør-Norge), 32633 (Nord-Norge, Norge generelt) og 32635 (Finnmark). Kan også være en kode som EUREFSonenn der nn normalt er 32, 33 eller 35.
+   - Referansekoordinatsystem for geografiske koordinater, som definert av `EPSG <http://www.epsg.org/>`__.  Formatet på kodeverdiene er «EPSG:{nummer}», der {nummer} er EPSG-koden.  Typisk brukt verdier er «EPSG:32632» (Sør-Norge), «EPSG:32633» (Nord-Norge, Norge generelt) og «EPSG:32635» (Finnmark).  Hvis det ikke eksisterer EPSG-kode for referansekoordinatsystemet som er brukt, så kan en definere egne verdier som ikke starter med «EPSG:».  Slik bruk bør avklares med Arkivverket i forkant.  EPSG-verdier kan blant annet hentes enten fra direkte fra EPSG eller fra katalogen til GeoNorge, tilgjengelig på https://register.geonorge.no/epsg-koder .
 
 .. list-table::
    :widths: 2 6
@@ -1686,52 +1663,6 @@ Referanser
    :header-rows: 0
 
  * - **Nr**
-   - **M200**
- * - **Navn**
-   - **referanseForelder**
- * - **Datatype**
-   - systemID
- * - **Definisjon**
-   - Referanse til den arkivenheten i hierarkiet som er direkte overordnet denne arkivenheten
- * - **Arkivenhet**
-   - arkiv, arkivdel, klasse, mappe, registrering
- * - **Kilde**
-   - Registreres automatisk av systemet
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - Skal ikke kunne endres.
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1. Er obligatorisk for arkiv bare dersom denne enheten er et underarkiv (delarkiv). Ved klasse kan forelder både være en annen klasse eller et klassifikasjonssystem. Ved mappe kan forelder være på en annen overordnet mappe eller en klasse. Dersom mappenivået utelates, kan forelder til en registrering være en klasse.
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M201**
- * - **Navn**
-   - **referanseBarn**
- * - **Datatype**
-   - systemID
- * - **Definisjon**
-   - Referanse til den eller de arkivenhetene i hierarkiet som er direkte underordnet denne arkivenheten
- * - **Arkivenhet**
-   - arkiv, arkivdel, klasse, mappe, registrering
- * - **Kilde**
-   - Registreres automatisk av systemet
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - Skal ikke kunne endres.
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1. Ved klasse kan barn være en/flere klasse(r) eller en/flere mappe(r). Dersom mappenivået utelates, kan det også være en/flere registrering(er). Ved mappe kan barn være en en/flere undermappe(r) eller en/flere registrering(er).
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
    - **M202**
  * - **Navn**
    - **referanseForloeper**
@@ -1772,106 +1703,6 @@ Referanser
    - Må inneholde gyldig systemID for arkivdel
  * - **Kommentarer**
    - 
-
-
-Logging av endringer
-~~~~~~~~~~~~~~~~~~~~
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M204**
- * - **Navn**
-   - **referanseKlassifikasjonssystem**
- * - **Datatype**
-   - systemID
- * - **Definisjon**
-   - Referanse til det klassifikasjonssystemet som mappene i denne arkivdelen er klassifisert etter
- * - **Arkivenhet**
-   - arkivdel
- * - **Kilde**
-   - Registreres manuelt når arkivdelen opprettes
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - 
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M205**
- * - **Navn**
-   - **referanseMappe**
- * - **Datatype**
-   - systemID
- * - **Definisjon**
-   - Referanse til  mapper som tilhører en arkivdel
- * - **Arkivenhet**
-   - arkivdel
- * - **Kilde**
-   - Registreres automatisk når mapper opprettes
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - 
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. Versjon 2.1
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M206**
- * - **Navn**
-   - **referanseRegistrering**
- * - **Datatype**
-   - systemID
- * - **Definisjon**
-   - Referanse til registreringer som er knyttet til denne enheten
- * - **Arkivenhet**
-   - arkivdel, dokumentbeskrivelse, dokumentobjekt
- * - **Kilde**
-   - Registreres automatisk når registreringer opprettes
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - 
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. Versjon 2.1. En og samme dokumentbeskrivelse kan være knyttet til flere registreringer (det er et M:M forhold mellom registrering og dokumentbeskrivelse). En arkivdel kan være direkte knyttet til en eller flere registreringer (f.eks. aktuelt ved kassasjon av bestemte typer  dokumenter).  Referansen er også aktuell i fagsystemer som verken inneholder mapper eller et klassifikasjonssystem.
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M207**
- * - **Navn**
-   - **referanseDokumentbeskrivelse**
- * - **Datatype**
-   - systemID
- * - **Definisjon**
-   - Referanse til dokumentbeskrivelser som tilknyttet denne arkivenheten
- * - **Arkivenhet**
-   - registrering, dokumentobjekt
- * - **Kilde**
-   - Registreres automatisk når dokumentbeskrivelser opprettes
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - 
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. Versjon 2.1
-
-
-Referanser
-~~~~~~~~~~
 
 .. list-table::
    :widths: 2 6
@@ -1947,29 +1778,6 @@ Referanser
    :header-rows: 0
 
  * - **Nr**
-   - **M211**
- * - **Navn**
-   - **referanseFraMappe**
- * - **Datatype**
-   - systemID
- * - **Definisjon**
-   - Kryssreferanse fra en mappe til en annen mappe eller registrering
- * - **Arkivenhet**
-   - mappe, registrering
- * - **Kilde**
-   - Registreres automatisk når kryssreferanse opprettes
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - 
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
    - **M212**
  * - **Navn**
    - **referanseTilRegistrering**
@@ -1993,52 +1801,6 @@ Referanser
    :header-rows: 0
 
  * - **Nr**
-   - **M213**
- * - **Navn**
-   - **referanseFraRegistrering**
- * - **Datatype**
-   - systemID
- * - **Definisjon**
-   - Kryssreferanse fra en registrering til en annen registrering eller saksmappe
- * - **Arkivenhet**
-   - mappe, registrering
- * - **Kilde**
-   - Registreres automatisk når kryssreferanse opprettes
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - 
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M214**
- * - **Navn**
-   - **referanseAvskriverJournalpost**
- * - **Datatype**
-   - systemID
- * - **Definisjon**
-   - Referanse til en eller flere journalposter som blir avskrevet av denne journalposten
- * - **Arkivenhet**
-   - journalpost
- * - **Kilde**
-   - Registreres manuelt eller automatisk ved avskrivning
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - 
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
    - **M215**
  * - **Navn**
    - **referanseAvskrivesAvJournalpost**
@@ -2056,29 +1818,6 @@ Referanser
    - Må inneholde gyldig systemID for registrering
  * - **Kommentarer**
    - 
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M216**
- * - **Navn**
-   - **referanseDokumentobjekt**
- * - **Datatype**
-   - systemID
- * - **Definisjon**
-   - Referanse til dokumentobjektet
- * - **Arkivenhet**
-   - registrering, dokumentbeskrivelse
- * - **Kilde**
-   - Registreres automatisk når et eller flere dokumenter knyttes til en registrering
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - 
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1. Dersom registreringen bare består av ett dokument, kan referansen gå direkte fra registrering til dokumentobjekt
 
 .. list-table::
    :widths: 2 6
@@ -2151,29 +1890,6 @@ Referanser
    - Må inneholde gyldig systemID for klasse
  * - **Kommentarer**
    - Kryssreferansen kan gå til en eller flere klasser innenfor samme klassifikasjonssystem, og til en eller flere klasser i andre klassifika­sjonssystem. Kan brukes for å knytte sammen beslektede klasser som ikke kan utledes fra det hierarkiske klassifikasjonssystemet.
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M220**
- * - **Navn**
-   - **referanseFraKlasse**
- * - **Datatype**
-   - systemID
- * - **Definisjon**
-   - Kryssreferanse fra en annen klasse
- * - **Arkivenhet**
-   - klasse
- * - **Kilde**
-   - Registreres manuelt
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - 
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1. Kryssreferansen kan gå til en eller flere klasser innenfor samme klassifikasjonssystem, og til en eller flere klasser i andre klassifikasjonssystem
 
 .. list-table::
    :widths: 2 6
@@ -3678,75 +3394,6 @@ Logging av hendelser
    :header-rows: 0
 
  * - **Nr**
-   - **M606**
- * - **Navn**
-   - **ansvarligEksport**
- * - **Datatype**
-   - Tekststreng
- * - **Definisjon**
-   - Navn på person som har foretatt (eller er ansvarlig for) eksport av metadata og dokumenter
- * - **Arkivenhet**
-   - Egen fil
- * - **Kilde**
-   - Registreres manuelt eller automatisk ved produksjon av avleveringsuttrekk
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - Kan ikke endres
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1. Informasjonen skal både inngå i uttrekket og lagres i systemet
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M607**
- * - **Navn**
-   - **eksportertDato**
- * - **Datatype**
-   - Dato og klokkeslett
- * - **Definisjon**
-   - Dato og klokkeslett når eksporten skjedde
- * - **Arkivenhet**
-   - Egen fil
- * - **Kilde**
-   - Registreres automatisk ved produksjon av avleveringsuttrekk
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - Kan ikke endres
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1. Informasjonen skal både inngå i uttrekket og lagres i systemet.
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M608**
- * - **Navn**
-   - **antallMapperEksportert**
- * - **Datatype**
-   - Dato og klokkeslett
- * - **Definisjon**
-   - Antall mapper som inngikk i eksporten
- * - **Arkivenhet**
-   - Egen fil
- * - **Kilde**
-   - Registreres automatisk ved produksjon av avleveringsuttrekk
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - Kan ikke endres
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1. Informasjonen skal både inngå i uttrekket og lagres i systemet.
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
    - **M609**
  * - **Navn**
    - **antallJournalposter**
@@ -3764,29 +3411,6 @@ Logging av hendelser
    - Kan ikke endres
  * - **Kommentarer**
    - 
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M610**
- * - **Navn**
-   - **antallDokumenterEksportert**
- * - **Datatype**
-   - Heltall
- * - **Definisjon**
-   - Antall elektroniske dokumenter (dokumentfiler) som inngikk i eksporten
- * - **Arkivenhet**
-   - Egen fil
- * - **Kilde**
-   - Registreres automatisk ved produksjon av avleveringsuttrekk
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - Obligatorisk ved avlevering dersom eksporten omfatter elektroniske dokumenter. Kan ikke endres
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1
 
 .. list-table::
    :widths: 2 6
@@ -4469,75 +4093,6 @@ Logging av arbeidsflyt og saksfordeling
  * - **Kommentarer**
    - 
 
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M666**
- * - **Navn**
-   - **fordeltTil**
- * - **Datatype**
-   - Tekststreng
- * - **Definisjon**
-   - Person som har fått fordelt en saksmappe eller journalpost til saksbehandling
- * - **Arkivenhet**
-   - saksmappe, journalpost
- * - **Kilde**
-   - Registreres automatisk av funksjonalitet knyttet til fordeling
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - 
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M667**
- * - **Navn**
-   - **fordeltAv**
- * - **Datatype**
-   - Tekststreng
- * - **Definisjon**
-   - Person som har fordelt en saksmappe eller journalpost til saksbehandling
- * - **Arkivenhet**
-   - saksmappe, journalpost
- * - **Kilde**
-   - Registreres automatisk av funksjonalitet knyttet til fordeling
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - 
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M668**
- * - **Navn**
-   - **fordeltDato**
- * - **Datatype**
-   - Tekststreng
- * - **Definisjon**
-   - Dato da en saksmappe eller journalpost ble fordelt til saksbehandling
- * - **Arkivenhet**
-   - saksmappe, journalpost
- * - **Kilde**
-   - Registreres automatisk av funksjonalitet knyttet til fordeling
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - 
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1
-
 
 Logging av endringer
 ~~~~~~~~~~~~~~~~~~~~
@@ -4764,52 +4319,6 @@ Tekniske metadata
    :header-rows: 0
 
  * - **Nr**
-   - **M703**
- * - **Navn**
-   - **tidligereFormat**
- * - **Datatype**
-   - Tekststreng
- * - **Definisjon**
-   - Dokumentets format før det ble konvertert
- * - **Arkivenhet**
-   - dokumentobjekt
- * - **Kilde**
-   - Registreres automatisk ved konvertering
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - Kan ikke endres
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1. Dette vil vanligvis være produksjonsformatet
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M704**
- * - **Navn**
-   - **tidligereFormatDetaljer**
- * - **Datatype**
-   - Tekststreng
- * - **Definisjon**
-   - Nærmere spesifikasjon av dokuments format før det ble konvertert, f.eks. informasjon om komprimering
- * - **Arkivenhet**
-   - dokumentobjekt
- * - **Kilde**
-   - Registreres automatisk ved konvertering
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - Kan ikke endres
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
    - **M705**
  * - **Navn**
    - **sjekksum**
@@ -4873,52 +4382,6 @@ Tekniske metadata
    - Kan ikke endres
  * - **Kommentarer**
    - 
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M708**
- * - **Navn**
-   - **sjekksumMetadata**
- * - **Datatype**
-   - Tekststreng
- * - **Definisjon**
-   - En verdi som beregnes ut fra innholdet i metadataobjektene i avleveringspakken, og som dermed gir integritessikring til metadataenes innhold
- * - **Arkivenhet**
-   - Egen fil
- * - **Kilde**
-   - Påføres automatisk i forbindelse med eksport for avlevering
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - Kan ikke endres
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
- * - **Nr**
-   - **M709**
- * - **Navn**
-   - **sjekksumAvlevering**
- * - **Datatype**
-   - Tekststreng
- * - **Definisjon**
-   - En verdi som beregnes ut fra innholdet i hele avleveringspakken (både metadata- og dokumentobjekter), og som dermed gir integritetssikring til hele  avleveringspakken
- * - **Arkivenhet**
-   - Egen fil
- * - **Kilde**
-   - Påføres automatisk i forbindelse med eksport for avlevering
- * - **Arv**
-   - Nei
- * - **Betingelser**
-   - Kan ikke endres
- * - **Kommentarer**
-   - NB! Gyldig t.o.m. versjon 2.1
 
 .. list-table::
    :widths: 2 6

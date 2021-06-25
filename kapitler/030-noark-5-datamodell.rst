@@ -431,7 +431,7 @@ Metadata for møtedeltaker grupperes inn i metadata for møtemappe.
    - Funksjonelle krav til *mappe*
    - Type
    - Merknad
- * - 2.5.6.
+ * - 2.5.6
    - Dersom det er angitt et primært klassifikasjonssystem for
      *arkivdel*, skal alle *mapper* i arkivdelen ha verdier fra dette
      klassifikasjonssystemet som primær klasse.

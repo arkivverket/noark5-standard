@@ -2116,7 +2116,7 @@ Merk: Elektronisk signatur knyttes til dokumentobjektet i tillegg til dokumentbe
    - Tekststreng
 
 Metadata for *nasjonalIdentifikator*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 0-M forekomster av *nasjonalIdentifikator* grupperes inn i 0-M forekomster av *mappe*.
 
@@ -2282,7 +2282,7 @@ Spesialisering av: *nasjonalIdentifikator*
    - Tekststreng
 
 Metadata for *personidentifikator*
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spesialisering av: *nasjonalIdentifikator*
 
@@ -2304,7 +2304,7 @@ Spesialisering av: *nasjonalIdentifikator*
    - Tekststreng
 
 Metadata for *enhetsidentifikator*
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Spesialisering av: *nasjonalIdentifikator*
 

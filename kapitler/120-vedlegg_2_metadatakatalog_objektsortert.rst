@@ -3,7 +3,7 @@ Metadata gruppert på objekter
 
 I denne oversikten blir metadata i Noark 5 gruppert på objekter. Tabellene nedenfor er utgangspunktet for XML-skjemaene som spesifiserer avleveringsformatet. De fleste objektene nedenfor inngår i arkivstrukturen, og skal nøstes inn i én samlet, hierarkisk struktur.
 
-Hver arkivenhet i arkivstrukturen skal ha en *systemID*. Det betyr altså at arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse og dokumentobjekt har en systemID. Andre objekter, som sakspart og korrespondansepart, skal grupperes inn i den arkivenheten de tilhører, og systemID er derfor ikke nødvendig når denne informasjonen avleveres.
+Hver arkivenhet i arkivstrukturen skal ha en *systemID*. Det betyr altså at arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse og dokumentobjekt har en systemID. Andre objekter, som part og korrespondansepart, skal grupperes inn i den arkivenheten de tilhører, og systemID er derfor ikke nødvendig når denne informasjonen avleveres.
 
 Mange av metadataelementene i Noark 5 vil være identiske med attributter i Noark 4. Referanse fra metadataelement til attributt er derfor tatt med i tabellene nedenfor, og kan gi nyttig informasjon om bakoverkompatibilitet. Dersom attributtet angis i parentes, betyr det at det ikke er direkte samsvar mellom metadata og attributt. Attributtene i Noark 4 kan f.eks. være identifikatorer (nøkkelfelter) som brukes for oppslag i hjelpetabeller. I Noark 5 skal ingen slike nøkkelfelter eller kodeverdier avleveres. Alle koder skal være erstattet med mest mulig selvforklarende tekst. Journalposttype (Noark dokumenttype i Noark 4) skal f.eks. avleveres som *"Inngående dokument"* og *"Utgående dokument"*, og ikke med kodene I og U.
 
@@ -1369,12 +1369,12 @@ Merk: En *dokumentbeskrivelse* kan være knyttet til mer enn én enkelt *registr
    - 1
    - A
    - Tekststreng
- * - M???
-   - eksternReferanse
-   - AM.REF
-   - 0-M
-   - Teststreng
-   - Ekstern referanse på innkommende dokumenter.
+ * - M711
+   - virksomhetsspesifikkeMetadata
+   -
+   - 0-1
+   - A
+   - Vilkårlig struktur
 
 Metadata for *sletting*
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -2694,6 +2694,12 @@ Metadata for *korrespondansepart*
    - 0-1
    - A
    - Tekststreng
+ * - M711
+   - virksomhetsspesifikkeMetadata
+   -
+   - 0-1
+   - A
+   - Vilkårlig struktur
 
 Metadata for offentligJournal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

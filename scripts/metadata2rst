@@ -26,7 +26,7 @@ def main():
         with open(filename, 'r') as f:
             info = yaml.load(f)
             if 'Utdatert' in info and 'nei' != info['Utdatert'] \
-               and date.fromisoformat(info['Utdatert']) < date.today():
+               and info['Utdatert'] <= date.today():
                 continue
             for field in required:
                 if not field in info:

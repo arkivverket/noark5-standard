@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-06-21 21:53+0200\n"
-"PO-Revision-Date: 2021-06-21 20:17+0000\n"
+"PO-Revision-Date: 2021-06-27 11:32+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.7.1-dev\n"
 
 #. type: Attribute 'lang' of: <book>
 #: docbook/spesifikasjon-complete.xml:4
@@ -12049,43 +12049,44 @@ msgstr ""
 msgid ""
 "Tabellen under angir hvilke XML-filer som hører sammen med hvilke XML-"
 "skjemaer."
-msgstr ""
+msgstr "The table below specify which XML files belong with which XML schemas."
 
 #. type: Content of: <book><chapter><sect1><sect2><table><title>
 #: docbook/spesifikasjon-complete.xml:12296
 msgid ""
 "<emphasis role=\"strong\">Xml-filer og tilhørende xml-skjemaer</emphasis>"
 msgstr ""
+"<emphasis role=\"strong\">XML files and associated XML schemas</emphasis>"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:12305
 msgid "<emphasis role=\"strong\">XML-fil</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">XML file</emphasis>"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:12308
 msgid "<emphasis role=\"strong\">XML-skjema</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">XML schema</emphasis>"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12315
 msgid "arkivuttrekk.xml"
-msgstr ""
+msgstr "arkivuttrekk.xml"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12318
 msgid "addml.xsd"
-msgstr ""
+msgstr "addml.xsd"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12323
 msgid "arkivstruktur.xml"
-msgstr ""
+msgstr "arkivstruktur.xml"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:12327
 msgid "arkivstruktur.xsd"
-msgstr ""
+msgstr "arkivstruktur.xsd"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:12330
@@ -12093,37 +12094,37 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:12356
 #: docbook/spesifikasjon-complete.xml:12369
 msgid "metadatakatalog.xsd"
-msgstr ""
+msgstr "metadatakatalog.xsd"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12336
 msgid "endringslogg.xml"
-msgstr ""
+msgstr "endringslogg.xml"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:12340
 msgid "endringslogg.xsd"
-msgstr ""
+msgstr "endringslogg.xsd"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12349
 msgid "loependeJournal.xml"
-msgstr ""
+msgstr "loependeJournal.xml"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:12353
 msgid "loependeJournal.xsd"
-msgstr ""
+msgstr "loependeJournal.xsd"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:12362
 msgid "offentligJournal.xml"
-msgstr ""
+msgstr "offentligJournal.xml"
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><para>
 #: docbook/spesifikasjon-complete.xml:12366
 msgid "offentligJournal.xsd"
-msgstr ""
+msgstr "offentligJournal.xsd"
 
 #. type: Content of: <book><chapter><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:12377
@@ -12140,6 +12141,8 @@ msgid ""
 "Merk at navnene slik de er brukt i tabellen, er obligatoriske, også når det "
 "gjelder bruken av små bokstaver."
 msgstr ""
+"Note, the names as listed in the table is required, also regarding the use "
+"of small and capital letters."
 
 #. type: Content of: <book><chapter><sect1><sect2><table><title>
 #: docbook/spesifikasjon-complete.xml:12389
@@ -22457,7 +22460,7 @@ msgstr "<emphasis role=\"strong\">M502</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26987
 msgid "<emphasis role=\"strong\">skjermingMetadata</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">skjermingMetadata</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:27003
@@ -22475,62 +22478,62 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:27041
 msgid "\"Skjerming klasseID\""
-msgstr ""
+msgstr "\"Skjerming klasseID\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:27046
 msgid "\"Skjerming tittel klasse\""
-msgstr ""
+msgstr "\"Skjerming tittel klasse\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:27051
 msgid "\"Skjerming tittel mappe - unntatt første linje\""
-msgstr ""
+msgstr "\"Skjerming tittel mappe - unntatt første linje\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:27057
 msgid "\"Skjerming tittel mappe - utvalgte ord\""
-msgstr ""
+msgstr "\"Skjerming tittel mappe - utvalgte ord\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:27062
 msgid "\"Skjerming navn part i sak\""
-msgstr ""
+msgstr "\"Skjerming navn part i sak\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:27067
 msgid "\"Skjerming tittel registrering - unntatt første linje\""
-msgstr ""
+msgstr "\"Skjerming tittel registrering - unntatt første linje\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:27073
 msgid "\"Skjerming tittel registrering - utvalgte ord\""
-msgstr ""
+msgstr "\"Skjerming tittel registrering - utvalgte ord\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:27079
 msgid "\"Skjerming navn avsender\""
-msgstr ""
+msgstr "\"Skjerming navn avsender\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:27084
 msgid "\"Skjerming navn mottaker\""
-msgstr ""
+msgstr "\"Skjerming navn mottaker\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:27089
 msgid "\"Skjerming tittel dokumentbeskrivelse\""
-msgstr ""
+msgstr "\"Skjerming tittel dokumentbeskrivelse\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:27094
 msgid "\"Skjerming merknadstekst\""
-msgstr ""
+msgstr "\"Skjerming merknadstekst\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:27099
 msgid "\"Midlertidig skjerming\""
-msgstr ""
+msgstr "\"Midlertidig skjerming\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:27110
@@ -22554,7 +22557,7 @@ msgstr "<emphasis role=\"strong\">M503</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:27145
 msgid "<emphasis role=\"strong\">skjermingDokument</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">skjermingDokument</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:27161
@@ -22633,6 +22636,8 @@ msgid ""
 "Datoen beregnes automatisk på grunnlag av <emphasis>M504 skjermingsvarighet</"
 "emphasis>"
 msgstr ""
+"The date is automatically calculated based on <emphasis>M504 "
+"skjermingsvarighet</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:27395
@@ -26833,7 +26838,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:42642
 #: docbook/spesifikasjon-complete.xml:43452
 msgid "M400"
-msgstr ""
+msgstr "M400"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36514
@@ -26854,7 +26859,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:36531
 #: docbook/spesifikasjon-complete.xml:39100
 msgid "M406"
-msgstr ""
+msgstr "M406"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36534
@@ -26871,7 +26876,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:36551
 #: docbook/spesifikasjon-complete.xml:39120
 msgid "M407"
-msgstr ""
+msgstr "M407"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36554
@@ -26888,7 +26893,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:36571
 #: docbook/spesifikasjon-complete.xml:39140
 msgid "M408"
-msgstr ""
+msgstr "M408"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36574
@@ -26899,13 +26904,13 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36577
 msgid "AM.POSTSTED"
-msgstr ""
+msgstr "AM.POSTSTED"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36591
 #: docbook/spesifikasjon-complete.xml:39160
 msgid "M409"
-msgstr ""
+msgstr "M409"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36594
@@ -26917,7 +26922,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:36610
 #: docbook/spesifikasjon-complete.xml:39179
 msgid "M410"
-msgstr ""
+msgstr "M410"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36613
@@ -26928,13 +26933,13 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36616
 msgid "AM.EPOSTADR"
-msgstr ""
+msgstr "AM.EPOSTADR"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36630
 #: docbook/spesifikasjon-complete.xml:39199
 msgid "M411"
-msgstr ""
+msgstr "M411"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36633
@@ -26946,7 +26951,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:36649
 #: docbook/spesifikasjon-complete.xml:39219
 msgid "M412"
-msgstr ""
+msgstr "M412"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:36652
@@ -28301,7 +28306,7 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39370
 msgid "M450"
-msgstr ""
+msgstr "M450"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39376
@@ -28312,7 +28317,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:39390
 #: docbook/spesifikasjon-complete.xml:43592
 msgid "M453"
-msgstr ""
+msgstr "M453"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39393
@@ -28324,7 +28329,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:39409
 #: docbook/spesifikasjon-complete.xml:43606
 msgid "M451"
-msgstr ""
+msgstr "M451"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39412
@@ -28341,7 +28346,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:39429
 #: docbook/spesifikasjon-complete.xml:43620
 msgid "M452"
-msgstr ""
+msgstr "M452"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39432
@@ -28394,7 +28399,7 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39520
 msgid "M631"
-msgstr ""
+msgstr "M631"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:39523

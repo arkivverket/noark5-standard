@@ -937,6 +937,12 @@ Merk: Kun ett av feltene personID og organisasjonsID kan ha verdi.
    - 0-1
    - A
    - Tekststreng
+ * - M711
+   - virksomhetsspesifikkeMetadata
+   -
+   - 0-1
+   - A
+   - Vilkårlig struktur
 
 Metadata for *journalpost*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2694,12 +2700,6 @@ Metadata for *korrespondansepart*
    - 0-1
    - A
    - Tekststreng
- * - M711
-   - virksomhetsspesifikkeMetadata
-   -
-   - 0-1
-   - A
-   - Vilkårlig struktur
 
 Metadata for offentligJournal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

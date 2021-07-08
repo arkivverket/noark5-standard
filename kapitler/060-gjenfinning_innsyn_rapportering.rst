@@ -78,7 +78,7 @@ Søkeresultat skal ta hensyn til tilgangen til dokumentene i kjernen og til skje
    - Søkeresultat skal avspeile aktuell tilgang.
    - O
    - 
- * - 5.1.12x
+ * - 5.1.12
    - Søkeresultat skal være nødvendig skjermet.
    - O
    - 

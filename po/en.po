@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-07-09 15:13+0200\n"
-"PO-Revision-Date: 2021-06-27 11:32+0000\n"
+"PO-Revision-Date: 2021-07-10 15:32+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
-"Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/"
-">\n"
+"Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
+"\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.1-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #. type: Attribute 'lang' of: <book>
 #: docbook/spesifikasjon-complete.xml:4
@@ -3492,10 +3492,8 @@ msgstr ""
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2102
-#, fuzzy
-#| msgid "2.5.6."
 msgid "2.5.6"
-msgstr "2.5.6."
+msgstr "2.5.6"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:2105
@@ -7077,19 +7075,11 @@ msgstr ""
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:6379
-#, fuzzy
-#| msgid ""
-#| "<emphasis>arkiv</emphasis>, <emphasis>arkivdel</emphasis>, "
-#| "<emphasis>registrering</emphasis>, <emphasis>dokumentbeskrivelse</"
-#| "emphasis> og <emphasis>dokumentobjekt</emphasis>."
 msgid ""
 "<emphasis>avskrivingsmåte</emphasis> (Her bør det kunne velges mellom "
 "<emphasis>uavskrevne dokumenter</emphasis>, <emphasis>avskrevne dokumenter</"
 "emphasis> og <emphasis>foreløpig avskrevne dokumenter</emphasis>)."
 msgstr ""
-"<emphasis>fonds</emphasis>, <emphasis>series</emphasis>, <emphasis>record</"
-"emphasis>, <emphasis>document description</emphasis> and <emphasis>document "
-"object</emphasis>."
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:6388
@@ -9031,10 +9021,8 @@ msgstr ""
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8780
-#, fuzzy
-#| msgid "5.1.12x"
 msgid "5.1.12"
-msgstr "5.1.12x"
+msgstr "5.1.12"
 
 #. type: Content of: <book><chapter><sect1><table><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:8783
@@ -10481,12 +10469,10 @@ msgstr ""
 
 #. type: Content of: <book><chapter><sect1><sect2><table><title>
 #: docbook/spesifikasjon-complete.xml:10534
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Overordnede krav til metadata</emphasis>"
 msgid ""
 "<emphasis role=\"strong\">Funksjonelle krav til kassasjon av dokumenttyper</"
 "emphasis>"
-msgstr "<emphasis role=\"strong\">General requirements for metadata</emphasis>"
+msgstr ""
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:10545
@@ -10563,12 +10549,10 @@ msgstr ""
 
 #. type: Content of: <book><chapter><sect1><sect2><table><title>
 #: docbook/spesifikasjon-complete.xml:10620
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">referanseDokumentbeskrivelse</emphasis>"
 msgid ""
 "<emphasis role=\"strong\">Funksjonelle krav til oversikt over dokumenter som "
 "skal kasseres</emphasis>"
-msgstr "<emphasis role=\"strong\">referanseDokumentbeskrivelse</emphasis>"
+msgstr ""
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:10631
@@ -10692,12 +10676,10 @@ msgstr ""
 
 #. type: Content of: <book><chapter><sect1><sect2><table><title>
 #: docbook/spesifikasjon-complete.xml:10759
-#, fuzzy
-#| msgid "<emphasis role=\"strong\">Overordnede krav til metadata</emphasis>"
 msgid ""
 "<emphasis role=\"strong\">Funksjonelle krav til sletting av dokument og "
 "metadata</emphasis>"
-msgstr "<emphasis role=\"strong\">General requirements for metadata</emphasis>"
+msgstr ""
 
 #. type: Content of: <book><chapter><sect1><sect2><table><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:10770
@@ -17069,7 +17051,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:31825
 #: docbook/spesifikasjon-complete.xml:31907
 msgid "<emphasis role=\"strong\">Kilde</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">Source</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:15712
@@ -17077,7 +17059,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:27826
 #: docbook/spesifikasjon-complete.xml:27905
 msgid "Registreres automatisk av systemet"
-msgstr ""
+msgstr "Automatically registered by the system"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:15717
@@ -17271,7 +17253,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:31833
 #: docbook/spesifikasjon-complete.xml:31915
 msgid "<emphasis role=\"strong\">Arv</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">Inheritance</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:15720
@@ -17430,7 +17412,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:31836
 #: docbook/spesifikasjon-complete.xml:31918
 msgid "Nei"
-msgstr ""
+msgstr "No"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:15725
@@ -17624,7 +17606,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:31841
 #: docbook/spesifikasjon-complete.xml:31923
 msgid "<emphasis role=\"strong\">Betingelser</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">Terms</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:15728
@@ -17837,7 +17819,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:31850
 #: docbook/spesifikasjon-complete.xml:31932
 msgid "<emphasis role=\"strong\">Kommentarer</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">Comment</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:15736
@@ -17856,7 +17838,7 @@ msgstr "<emphasis role=\"strong\">M002</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:15764
 msgid "<emphasis role=\"strong\">klasseID</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">klasseID</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:15780
@@ -17868,7 +17850,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:22367
 #: docbook/spesifikasjon-complete.xml:41344
 msgid "klasse"
-msgstr ""
+msgstr "klasse"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:15797
@@ -22185,7 +22167,7 @@ msgstr "<emphasis role=\"strong\">M508</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26595
 msgid "<emphasis role=\"strong\">elektroniskSignaturVerifisert</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">elektroniskSignaturVerifisert</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26611
@@ -22197,12 +22179,12 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:26649
 msgid "\"Signatur påført, ikke verifisert\""
-msgstr ""
+msgstr "\"Signatur påført, ikke verifisert\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:26654
 msgid "\"Signatur påført og verifisert\""
-msgstr ""
+msgstr "\"Signatur påført og verifisert\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26665
@@ -22210,11 +22192,13 @@ msgid ""
 "Dersom signaturen er verifisert, skal det logges hvem som verifiserte den og "
 "når det skjedde"
 msgstr ""
+"It must be logged who verified it and when it happened if the signature is "
+"verified"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:26674
 msgid "Brukeradministrasjon og administrasjonsstruktur"
-msgstr ""
+msgstr "User administration and administration stucture"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26685
@@ -22224,19 +22208,19 @@ msgstr "<emphasis role=\"strong\">M580</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26693
 msgid "<emphasis role=\"strong\">brukerNavn</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">brukerNavn</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26709
 msgid "Navn på bruker av en Noark 5-løsning"
-msgstr ""
+msgstr "The name of a user of the Noark 5 system"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26717
 #: docbook/spesifikasjon-complete.xml:26798
 #: docbook/spesifikasjon-complete.xml:26899
 msgid "Brukeradministrasjon inngår ikke i arkivstrukturen"
-msgstr ""
+msgstr "User administration is not part of the archive structure"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26725
@@ -22246,7 +22230,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:27079
 #: docbook/spesifikasjon-complete.xml:27171
 msgid "Registreres manuelt av administrator"
-msgstr ""
+msgstr "Manually registered by the administrator"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26748
@@ -22263,12 +22247,12 @@ msgstr "<emphasis role=\"strong\">M581</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26774
 msgid "<emphasis role=\"strong\">brukerRolle</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">brukerRolle</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26790
 msgid "Rollen til en bruker av en Noark 5-løsning."
-msgstr ""
+msgstr "The role of a user of a Noark 5 system."
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:26822
@@ -22280,7 +22264,7 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:26826
 msgid "\"Arkivansvarlig\""
-msgstr ""
+msgstr "\"Arkivansvarlig\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:26831
@@ -28053,10 +28037,8 @@ msgstr "DI.SIGVERAV"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:38388
-#, fuzzy
-#| msgid "Metadata for <emphasis>journalhode</emphasis>"
 msgid "Metadata for <emphasis>nasjonalIdentifikator</emphasis>"
-msgstr "Metadata for <emphasis>journalhode</emphasis>"
+msgstr "Metadata for <emphasis>nasjonalIdentifikator</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:38391
@@ -28084,10 +28066,8 @@ msgstr "Metadata for <emphasis>matrikkelnummer</emphasis>"
 #: docbook/spesifikasjon-complete.xml:38742
 #: docbook/spesifikasjon-complete.xml:38859
 #: docbook/spesifikasjon-complete.xml:38919
-#, fuzzy
-#| msgid "Metadata for <emphasis>journalhode</emphasis>"
 msgid "Spesialisering av: <emphasis>nasjonalIdentifikator</emphasis>"
-msgstr "Metadata for <emphasis>journalhode</emphasis>"
+msgstr ""
 
 #. type: Content of: <book><appendix><sect1><sect2><para>
 #: docbook/spesifikasjon-complete.xml:38406
@@ -28100,68 +28080,68 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:38442
 #: docbook/spesifikasjon-complete.xml:38699
 msgid "M030"
-msgstr ""
+msgstr "M030"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38445
 #: docbook/spesifikasjon-complete.xml:38702
 msgid "kommunenummer"
-msgstr ""
+msgstr "kommunenummer"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38461
 msgid "M031"
-msgstr ""
+msgstr "M031"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38464
 msgid "gaardsnummer"
-msgstr ""
+msgstr "gaardsnummer"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38480
 msgid "M032"
-msgstr ""
+msgstr "M032"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38483
 msgid "bruksnummer"
-msgstr ""
+msgstr "bruksnummer"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38499
 msgid "M033"
-msgstr ""
+msgstr "M033"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38502
 msgid "festenummer"
-msgstr ""
+msgstr "festenummer"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38518
 msgid "M034"
-msgstr ""
+msgstr "M034"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38521
 msgid "seksjonsnummer"
-msgstr ""
+msgstr "seksjonsnummer"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:38540
 msgid "Metadata for <emphasis>byggident</emphasis>"
-msgstr ""
+msgstr "Metadata for <emphasis>byggident</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38577
 msgid "M035"
-msgstr ""
+msgstr "M035"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38580
 msgid "bygningsnummer"
-msgstr ""
+msgstr "bygningsnummer"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:38596
@@ -28263,17 +28243,13 @@ msgstr "z"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:38856
-#, fuzzy
-#| msgid "Metadata for <emphasis>planident</emphasis>"
 msgid "Metadata for <emphasis>personidentifikator</emphasis>"
-msgstr "Metadata for <emphasis>planident</emphasis>"
+msgstr "Metadata for <emphasis>personidentifikator</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><title>
 #: docbook/spesifikasjon-complete.xml:38916
-#, fuzzy
-#| msgid "Metadata for <emphasis>planident</emphasis>"
 msgid "Metadata for <emphasis>enhetsidentifikator</emphasis>"
-msgstr "Metadata for <emphasis>planident</emphasis>"
+msgstr "Metadata for <emphasis>enhetsidentifikator</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><title>
 #: docbook/spesifikasjon-complete.xml:38977

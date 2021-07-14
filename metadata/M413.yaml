@@ -1,0 +1,11 @@
+Arkivenhet: journalpost
+Arv: Nei
+Betingelser:
+Datatype: Tekststreng
+Definisjon: "Vår referanse" på inngående journalposter og "Deres referanse" på utgående journalposter"
+Gruppe: Korrespondanse
+Kilde: Registreres manuelt eller automatisk
+Kommentarer:
+Navn: eksternReferanse
+Nr: M413
+Utdatert: nei

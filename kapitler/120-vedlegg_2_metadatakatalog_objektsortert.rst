@@ -931,6 +931,12 @@ Merk: Kun ett av feltene personID og organisasjonsID kan ha verdi.
    - **Forek.**
    - **Avl.**
    - **Datatype**
+ * - M001
+   - systemID
+   -
+   - 1
+   - A
+   - Tekststreng
  * - M087
    - korrespondanseparttype
    - (AM.IHTYPE, AM.KOPIMOT, AM.GRUPPE MOT)
@@ -1009,6 +1015,12 @@ Merk: Kun ett av feltene personID og organisasjonsID kan ha verdi.
    - 0-1
    - A
    - Tekststreng
+ * - M711
+   - virksomhetsspesifikkeMetadata
+   -
+   - 0-1
+   - A
+   - Vilkårlig struktur
 
 Metadata for *journalpost*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1157,7 +1169,7 @@ Merk: Grupperes inn i den journalposten som avskrives.
    - 0-1
    - A
    - registrering.systemID
- * - M??? https://github.com/arkivverket/noark5-standard/pull/111
+ * - M231
    - referanseAvskrivesAvKorrespondansepart
    -
    - 0-1
@@ -1794,6 +1806,12 @@ Merk: Kun ett av feltene personID og organisasjonsID kan ha verdi.
    - **Forek.**
    - **Avl.**
    - **Datatype**
+ * - M001
+   - systemID
+   -
+   - 1
+   - A
+   - Tekststreng
  * - M010
    - partID
    - 
@@ -2808,12 +2826,6 @@ Metadata for *korrespondansepart*
    - 0-1
    - A
    - Tekststreng
- * - M711
-   - virksomhetsspesifikkeMetadata
-   -
-   - 0-1
-   - A
-   - Vilkårlig struktur
 
 Metadata for offentligJournal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

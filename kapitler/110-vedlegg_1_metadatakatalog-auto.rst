@@ -1805,7 +1805,7 @@ Referanser
    * - **Navn**
      - **referanseAvskrivesAvJournalpost**
    * - **Datatype**
-     - Tekststreng
+     - systemID
    * - **Definisjon**
      - Referanse til en eller flere journalposter som avskriver denne journalposten
    * - **Arkivenhet**

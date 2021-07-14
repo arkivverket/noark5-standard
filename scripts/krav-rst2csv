@@ -96,20 +96,23 @@ def main():
             json.dump(requirements, f, ensure_ascii=False, indent=4)
     # Tab separate file output
     if True:
-        list = [('Krav nr.', 'Kravgruppe', 'Beskrivelse', 'Type', 'Merknad')]
-        for r in requirements:
+        reqlist = [('Krav nr.', 'Kravgruppe', 'Beskrivelse', 'Type', 'Merknad')]
+        # numeric version sort (1.2.3 < 1.19.2)
+        def nrsort(s):
+            return list(map(int, s['Krav nr.'].split('.')))
+        for r in sorted(requirements, key=nrsort):
             row = []
             for f, v in r.items():
-                if f in list[0]:
+                if f in reqlist[0]:
                     row.append(v)
                 else:
                     row.append(f.replace("\n", " "))
                     row.append(v)
-            list.append(row)
+            reqlist.append(row)
 
         with open('avledet/krav.tsv', 'w', encoding='utf-8') as f:
             writer = csv.writer(f, delimiter='\t')
-            writer.writerows(list)
+            writer.writerows(reqlist)
     return 0
 
 if __name__ == '__main__':

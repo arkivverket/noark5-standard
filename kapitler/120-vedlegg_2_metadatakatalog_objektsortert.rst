@@ -141,6 +141,18 @@ Merk: En og bare en av objekttypene *arkiv* eller *arkivdel* grupperes inn i *ar
    - 1
    - A
    - Tekststreng
+ * - M682
+   - endretDato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M683
+   - endretAv
+   - 
+   - 0-1
+   - A
+   - Tekststreng
  * - M602
    - avsluttetDato
    - AR.TILDATO
@@ -259,6 +271,18 @@ Merk: En og bare en av objekttypene *arkiv* eller *arkivdel* grupperes inn i *ar
    - 1
    - A
    - Tekststreng
+ * - M682
+   - endretDato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M683
+   - endretAv
+   - 
+   - 0-1
+   - A
+   - Tekststreng
  * - M602
    - avsluttetDato
    - AD.TILDATO
@@ -355,6 +379,18 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
    - 1
    - A
    - Tekststreng
+ * - M682
+   - endretDato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M683
+   - endretAv
+   - 
+   - 0-1
+   - A
+   - Tekststreng
  * - M602
    - avsluttetDato
    - OP.TILDATO
@@ -433,6 +469,18 @@ Merk: Bare en av objekttypene *klasse*, *mappe* eller *registrering* kan grupper
    - opprettetAv
    - 
    - 1
+   - A
+   - Tekststreng
+ * - M682
+   - endretDato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M683
+   - endretAv
+   - 
+   - 0-1
    - A
    - Tekststreng
  * - M602
@@ -537,6 +585,18 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
    - opprettetAv
    - 
    - 1
+   - A
+   - Tekststreng
+ * - M682
+   - endretDato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M683
+   - endretAv
+   - 
+   - 0-1
    - A
    - Tekststreng
  * - M602
@@ -761,6 +821,18 @@ Merk: Bare en av objekttypene *klassifikasjonssystem*, *mappe* eller *registreri
    - opprettetAv
    - 
    - 1
+   - A
+   - Tekststreng
+ * - M682
+   - endretDato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M683
+   - endretAv
+   - 
+   - 0-1
    - A
    - Tekststreng
  * - M604
@@ -1345,6 +1417,18 @@ Merk: En *dokumentbeskrivelse* kan være knyttet til mer enn én enkelt *registr
    - 1
    - A
    - Tekststreng
+ * - M682
+   - endretDato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M683
+   - endretAv
+   - 
+   - 0-1
+   - A
+   - Tekststreng
  * - M300
    - dokumentmedium
    - DB.PAPIR
@@ -1485,6 +1569,18 @@ Metadata for *dokumentobjekt*
    - opprettetAv
    - 
    - 1
+   - A
+   - Tekststreng
+ * - M682
+   - endretDato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M683
+   - endretAv
+   - 
+   - 0-1
    - A
    - Tekststreng
  * - M218
@@ -2036,6 +2132,18 @@ Metadata for *presedens*
    - opprettetAv
    - 
    - 1
+   - A
+   - Tekststreng
+ * - M682
+   - endretDato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M683
+   - endretAv
+   - 
+   - 0-1
    - A
    - Tekststreng
  * - M020
@@ -3037,6 +3145,18 @@ Metadata for *brukeradministrasjon*
    - 0-1
    - 
    - Tekststreng
+ * - M682
+   - endretDato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M683
+   - endretAv
+   - 
+   - 0-1
+   - A
+   - Tekststreng
  * - M602
    - avsluttetDato
    - PE.TILDATO
@@ -3082,6 +3202,18 @@ Metadata for administrasjonsstruktur skal ikke avleveres, men skal kunne migrere
    - 
    - 0-1
    - 
+   - Tekststreng
+ * - M682
+   - endretDato
+   - 
+   - 0-1
+   - A
+   - Dato og klokkeslett
+ * - M683
+   - endretAv
+   - 
+   - 0-1
+   - A
    - Tekststreng
  * - M602
    - avsluttetDato

@@ -1,0 +1,12 @@
+Arkivenhet: journalpost
+Arv: Nei
+Avleveres: A
+Betingelser:
+Datatype: systemID
+Definisjon: Referanse til korrespondansepart i journalpost som avskriver denne journalposten.
+Gruppe: Referanser
+Kilde: Registreres manuelt eller automatisk ved avskrivning
+Kommentarer:
+Navn: referanseAvskrivesAvKorrespondansepart
+Nr: M231
+Utdatert: nei

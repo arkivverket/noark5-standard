@@ -2,7 +2,7 @@ Arkivenhet: journalpost
 Arv: Nei
 Betingelser: Må inneholde gyldig systemID for registrering
 Datatype: systemID
-Definisjon: Referanse til en eller flere journalposter som avskriver denne journalposten
+Definisjon: Referanse til en journalpost som avskriver denne journalposten
 Gruppe: Referanser
 Kilde: Registreres manuelt eller automatisk ved avskrivning
 Kommentarer:

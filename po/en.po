@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-07-09 15:13+0200\n"
-"PO-Revision-Date: 2021-07-12 09:33+0000\n"
+"PO-Revision-Date: 2021-07-18 21:34+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #. type: Attribute 'lang' of: <book>
 #: docbook/spesifikasjon-complete.xml:4
@@ -1742,7 +1742,7 @@ msgstr ""
 #: docbook/spesifikasjon-complete.xml:926
 #: docbook/spesifikasjon-complete.xml:932
 msgid "<emphasis role=\"strong\">Forenklet arkivstruktur</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">Simplified archive structure</emphasis>"
 
 #. type: Content of: <book><chapter><sect1><figure><mediaobject>
 #: docbook/spesifikasjon-complete.xml:929
@@ -21075,7 +21075,7 @@ msgstr "<emphasis role=\"strong\">M303</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:23515
 msgid "<emphasis role=\"strong\">partRolle</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">partRolle</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:23531
@@ -21115,7 +21115,7 @@ msgstr "<emphasis role=\"strong\">M304</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:23616
 msgid "<emphasis role=\"strong\">antallVedlegg</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">antallVedlegg</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:23632
@@ -21130,7 +21130,7 @@ msgstr "<emphasis role=\"strong\">M305</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:23694
 msgid "<emphasis role=\"strong\">administrativEnhet</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">administrativEnhet</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:23710
@@ -21167,7 +21167,7 @@ msgstr "<emphasis role=\"strong\">M306</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:23780
 msgid "<emphasis role=\"strong\">saksansvarlig</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">saksansvarlig</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:23796
@@ -21194,7 +21194,7 @@ msgstr "<emphasis role=\"strong\">M307</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:23861
 msgid "<emphasis role=\"strong\">saksbehandler</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">saksbehandler</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:23877
@@ -21238,7 +21238,7 @@ msgstr "<emphasis role=\"strong\">M308</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:23947
 msgid "<emphasis role=\"strong\">journalenhet</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">journalenhet</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:23963
@@ -21277,7 +21277,7 @@ msgstr "<emphasis role=\"strong\">M309</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:24034
 msgid "<emphasis role=\"strong\">utlaantTil</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">utlaantTil</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:24050
@@ -21321,7 +21321,7 @@ msgstr "<emphasis role=\"strong\">M311</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:24196
 msgid "<emphasis role=\"strong\">presedensHjemmel</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">presedensHjemmel</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:24212
@@ -21342,7 +21342,7 @@ msgstr "<emphasis role=\"strong\">M312</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:24275
 msgid "<emphasis role=\"strong\">rettskildefaktor</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">rettskildefaktor</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:24291
@@ -21369,7 +21369,7 @@ msgstr "<emphasis role=\"strong\">M313</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:24361
 msgid "<emphasis role=\"strong\">seleksjon</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">seleksjon</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:24377
@@ -21405,7 +21405,7 @@ msgstr "<emphasis role=\"strong\">M370</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:24445
 msgid "<emphasis role=\"strong\">utvalg</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">utvalg</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:24461
@@ -21528,7 +21528,7 @@ msgstr "<emphasis role=\"strong\">M406</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:24858
 msgid "<emphasis role=\"strong\">postadresse</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">postadresse</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:24874
@@ -28686,7 +28686,7 @@ msgstr ""
 #. type: Content of: <book><appendix><informaltable><tgroup><thead><row><entry>
 #: docbook/spesifikasjon-complete.xml:41225
 msgid "<emphasis role=\"strong\">Loggingstidspunkt</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">Loggingstidspunkt</emphasis>"
 
 #. type: Content of: <book><appendix><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:41241

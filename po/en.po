@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-07-09 15:13+0200\n"
-"PO-Revision-Date: 2021-07-18 21:34+0000\n"
+"PO-Revision-Date: 2021-08-02 15:34+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #. type: Attribute 'lang' of: <book>
 #: docbook/spesifikasjon-complete.xml:4
@@ -20631,12 +20631,12 @@ msgstr ""
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:22217
 msgid "\"Hoveddokument\""
-msgstr ""
+msgstr "\"Hoveddokument\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry><itemizedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:22222
 msgid "\"Vedlegg\""
-msgstr ""
+msgstr "\"Vedlegg\""
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22248
@@ -20646,7 +20646,7 @@ msgstr "<emphasis role=\"strong\">M218</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22256
 msgid "<emphasis role=\"strong\">referanseDokumentfil</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">referanseDokumentfil</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22272
@@ -20654,6 +20654,8 @@ msgid ""
 "Referanse til filen som inneholder det elektroniske dokumentet som "
 "dokumentobjektet beskriver"
 msgstr ""
+"Reference to the file containing the electronic document described by the "
+"document object"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22289
@@ -20680,12 +20682,12 @@ msgstr "<emphasis role=\"strong\">M219</emphasis>"
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22343
 msgid "<emphasis role=\"strong\">referanseTilKlasse</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">referanseTilKlasse</emphasis>"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22359
 msgid "Referanse til en annen klasse"
-msgstr ""
+msgstr "Reference to another class"
 
 #. type: Content of: <book><appendix><sect1><sect2><informaltable><tgroup><tbody><row><entry>
 #: docbook/spesifikasjon-complete.xml:22375

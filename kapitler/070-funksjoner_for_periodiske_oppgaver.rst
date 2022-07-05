@@ -545,7 +545,7 @@ OAIS grupperer den bevaringsbeskrivende informasjonen - dvs. metadataene - i fem
    - Obligatorisk ved avlevering til arkivdepot.
  * - 6.4.2
    - Arkivuttrekket skal utgjøre en avleveringspakke (Submission
-     Information Packages), slik dette er definert i ISO 14571 OAIS.
+     Information Packages), slik dette er definert i ISO 14721 OAIS.
    - B
    - Obligatorisk ved avlevering til arkivdepot.
  * - 6.4.3

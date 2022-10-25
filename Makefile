@@ -18,7 +18,7 @@ PLANTUML = java -jar scripts/plantuml.jar
 	$(PLANTUML) -svg -p < $^ > $@.new && mv $@.new $@
 
 kapitler/110-vedlegg_1_metadatakatalog-auto.rst: metadata/*.yaml
-	scripts/metadata2rst $^ > $@
+	scripts/metadata2rst $^ > $@.new && mv $@.new $@
 
 # Draft Docbook based PDF building.  Remove colwidth to let the
 # docbook processors calculate columns widths.  Can pandoc be told to

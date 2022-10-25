@@ -86,6 +86,6 @@ jobs:
     - name: Archive generated documents
       uses: actions/upload-artifact@v3
       with:
-        name: debs
+        name: documents.zip
         retention-days: 7
         path: avledet/*

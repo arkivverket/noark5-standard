@@ -24,7 +24,7 @@ def main():
     puids = {}
     for filename in args.yamlfile:
         with open(filename, 'r') as f:
-            info = yaml.load(f)
+            info = yaml.load(f, Loader=yaml.FullLoader)
             if 'Utdatert' in info and 'nei' != info['Utdatert'] \
                and info['Utdatert'] <= date.today():
                 continue

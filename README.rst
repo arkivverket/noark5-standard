@@ -22,3 +22,13 @@ Oversettelser
 
 Teksten oversettes ved hjelp av
 https://hosted.weblate.org/projects/noark/noark5/
+
+Opphavsrettslig vern
+--------------------
+
+Denne spesifikasjonen faller inn under unntakene i åndsverkslovens §
+9, og er ikke opphavsrettslig vernet.
+
+Videredistribusjon og bruk i kildeformat (RST) og kompilert form (XML,
+HTML, PDF, PostScript, RTF og så videre) er tillatt både med og uten
+endringer.

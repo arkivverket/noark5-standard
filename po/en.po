@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-07-09 15:13+0200\n"
-"PO-Revision-Date: 2022-10-27 14:01+0000\n"
+"PO-Revision-Date: 2023-06-10 15:06+0000\n"
 "Last-Translator: Petter Reinholdtsen <pere-weblate@hungry.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/noark/noark5/en/>"
 "\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #. type: Attribute 'lang' of: <book>
 #: docbook/spesifikasjon-complete.xml:4
@@ -12271,17 +12271,17 @@ msgstr ""
 #. type: Content of: <book><chapter><sect1><sect2><orderedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:12483
 msgid "<emphasis role=\"strong\">Arkivskapernavn</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">Arkivskapernavn</emphasis>"
 
 #. type: Content of: <book><chapter><sect1><sect2><orderedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:12486
 msgid "Kan være flere enn én"
-msgstr ""
+msgstr "May be more than one"
 
 #. type: Content of: <book><chapter><sect1><sect2><orderedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:12491
 msgid "<emphasis role=\"strong\">Navn på systemet/løsningen</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"strong\">The system/solution name</emphasis>"
 
 #. type: Content of: <book><chapter><sect1><sect2><orderedlist><listitem><para>
 #: docbook/spesifikasjon-complete.xml:12497
@@ -28886,7 +28886,7 @@ msgstr "presedens"
 #. type: Content of: <book><appendix><title>
 #: docbook/spesifikasjon-complete.xml:41935
 msgid "Eksempel på virksomhetsspesifikke metadata"
-msgstr ""
+msgstr "Domain specific metadata example"
 
 #. type: Content of: <book><appendix><para>
 #: docbook/spesifikasjon-complete.xml:41937

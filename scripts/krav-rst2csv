@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+__license__ = 'GNU General Public License v2 or later at users choice'
+__author__ = 'Petter Reinholdtsen'
+
 import glob
 import json
 import csv
@@ -80,26 +83,28 @@ def parse_rst(text: str) -> docutils.nodes.document:
     return document
 
 def main():
+    fmt = "tsv"
     requirements = []
     for filepath in sorted(glob.glob('kapitler/0*.rst')):
         #print("Processing %s" % filepath)
         with open(filepath, 'r', encoding='utf-8') as fh:
             content = fh.read()
-            doc = parse_rst(content)
+            doc = parse_rst(content, parser, settings)
             visitor = RstVisitor(doc)
             visitor.req = requirements
             doc.walkabout(visitor)
             requirements = visitor.req
+    # numeric version sort (1.2.3 < 1.19.2)
+    def nrsort(s):
+        return list(map(int, s['Krav nr.'].split('.')))
     # JSON output
-    if False:
+    if "json" == fmt:
         with open('krav.json', 'w', encoding='utf-8') as f:
-            json.dump(requirements, f, ensure_ascii=False, indent=4)
+            json.dump(sorted(requirements, key=nrsort), f,
+                      ensure_ascii=False, indent=4)
     # Tab separate file output
-    if True:
+    elif "tsv" == fmt:
         reqlist = [('Krav nr.', 'Kravgruppe', 'Beskrivelse', 'Type', 'Merknad')]
-        # numeric version sort (1.2.3 < 1.19.2)
-        def nrsort(s):
-            return list(map(int, s['Krav nr.'].split('.')))
         for r in sorted(requirements, key=nrsort):
             row = []
             for f, v in r.items():
@@ -113,6 +118,21 @@ def main():
         with open('avledet/krav.tsv', 'w', encoding='utf-8') as f:
             writer = csv.writer(f, delimiter='\t')
             writer.writerows(reqlist)
+    elif "rst" == fmt:
+        with open('avledet/krav.rst', 'w', encoding='utf-8') as f:
+            f.write("""
+.. list-table:: **Kravliste for Noark 5**
+   :header-rows: 1
+""")
+            first = "*"
+            for key in requirements[0].keys():
+                f.write(" " + first + " - " + key + "\n")
+                first = " "
+            for r in sorted(requirements, key=nrsort):
+                first = "*"
+                for key in r.keys():
+                    f.write(" " + first + " - " + r[key] + "\n")
+                    first = " "
     return 0
 
 if __name__ == '__main__':

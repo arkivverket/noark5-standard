@@ -17,7 +17,8 @@ jobs:
     strategy:
       matrix:
         image: [
-        "debian:bookworm",
+        "debian:bullseye",
+#       "debian:bookworm",
 #       "debian:sid"
 	]
     container:

@@ -89,7 +89,7 @@ def main():
         #print("Processing %s" % filepath)
         with open(filepath, 'r', encoding='utf-8') as fh:
             content = fh.read()
-            doc = parse_rst(content, parser, settings)
+            doc = parse_rst(content)
             visitor = RstVisitor(doc)
             visitor.req = requirements
             doc.walkabout(visitor)
@@ -99,7 +99,7 @@ def main():
         return list(map(int, s['Krav nr.'].split('.')))
     # JSON output
     if "json" == fmt:
-        with open('krav.json', 'w', encoding='utf-8') as f:
+        with open('avledet/krav.json', 'w', encoding='utf-8') as f:
             json.dump(sorted(requirements, key=nrsort), f,
                       ensure_ascii=False, indent=4)
     # Tab separate file output

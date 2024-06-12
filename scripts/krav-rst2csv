@@ -123,6 +123,7 @@ def main():
             f.write("""
 .. list-table:: **Kravliste for Noark 5**
    :header-rows: 1
+
 """)
             first = "*"
             for key in requirements[0].keys():

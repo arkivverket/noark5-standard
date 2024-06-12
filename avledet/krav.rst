@@ -1,6 +1,7 @@
 
 .. list-table:: **Kravliste for Noark 5**
    :header-rows: 1
+
  * - Krav nr.
    - Overordnede krav til arkivstrukturen
    - Type

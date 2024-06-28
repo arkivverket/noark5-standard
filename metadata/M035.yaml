@@ -5,7 +5,7 @@ Datatype: Heltall
 Definisjon: Entydig identifikasjon av bygning i matrikkelen
 Gruppe: Nasjonale identifikatorer
 Kilde:
-Kommentarer: «Bygningsnumrene er unike på landsbasis, og tildeles automatisk. SOSI-format-navn/datatype/lengde: BYGGNR/H/9»
+Kommentarer: "Bygningsnumrene er unike på landsbasis, og tildeles automatisk. SOSI-format-navn/datatype/lengde: BYGGNR/H/9"
 Navn: bygningsnummer
 Nr: M035
 Utdatert: nei

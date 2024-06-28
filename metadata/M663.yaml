@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser: |-
   Anbefalte verdier:
 
-  - "Godkjent"
-  - "Ikke godkjent"
-  - "Sendt tilbake til saksbehandler med kommentarer"
+  - «Godkjent»
+  - «Ikke godkjent»
+  - «Sendt tilbake til saksbehandler med kommentarer»
 Datatype: Tekststreng
 Definisjon: Godkjennelse/ikke godkjennelse av dokumentet som er sendt på flyt
 Gruppe: Logging av arbeidsflyt og saksfordeling

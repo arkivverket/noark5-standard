@@ -21,11 +21,11 @@ Kassasjon betyr ikke at en må gå inn og vurdere bevaringsverdien for hvert ene
 
 Overordnede kassasjonsbestemmelser kan settes på arkiv- og klassenivå, og skal da arves nedover i arkivstrukturen til mappe, registrering og dokumentbeskrivelse. Verdiene som arves skal kunne overstyres. Ved deponering/avlevering er det bare kassasjonsvedtak som innebærer kassasjon som skal være med. Det skal altså ikke knyttes opplysninger om kassasjon til arkivenheter hvor alle tilordnede dokumenter skal bevares. Kassasjon kan altså være knyttet en gang til arkivdel, klasse, mappe, registrering og dokumentbeskrivelse.
 
-Et *bevarings- og kassasjonsvedtak* forteller hva som skal skje med dokumentene når *bevaringstiden* er nådd. Obligatoriske verdier er "Bevares", "Kasseres" og "Vurderes senere". Bevaringstiden kan typisk være 5, 10 eller 30 år. *Kassasjonsdatoen* beregnes automatisk på grunnlag av bevaringstiden. Bevaringstiden skal begynne å løpe fra tidspunktet når en saksmappe er avsluttet, men det skal også være mulig å fastsette andre regler for beregning av kassasjonsdato.
+Et *bevarings- og kassasjonsvedtak* forteller hva som skal skje med dokumentene når *bevaringstiden* er nådd. Obligatoriske verdier er «Bevares», «Kasseres» og «Vurderes senere». Bevaringstiden kan typisk være 5, 10 eller 30 år. *Kassasjonsdatoen* beregnes automatisk på grunnlag av bevaringstiden. Bevaringstiden skal begynne å løpe fra tidspunktet når en saksmappe er avsluttet, men det skal også være mulig å fastsette andre regler for beregning av kassasjonsdato.
 
 Funksjonsbasert kassasjon forutsetter at klassifikasjonssystemet beskriver virksomhetens funksjoner og aktiviteter. I Noark 5 skal det være mulig å sette bevarings- og kassasjonsvedtak på de enkelte klassene i et klassifikasjonssystem. Dette skal da automatisk kunne arves til alle mapper som tilordnes klassen.
 
-Det skal også være mulig å sette bevarings- og kassasjonsvedtak på en arkivdel. Det betyr da at alle mapper i arkivdelen arver det samme vedtaket. Dersom arv skjer fra arkivdelen, skal det ikke samtidig være mulig med arv fra klassene. Bevarings- og kassasjonsvedtak for en hel arkivdel er først og fremst aktuelt ved enkelte fagsystemer som produserer såkalte "enstypeserier".
+Det skal også være mulig å sette bevarings- og kassasjonsvedtak på en arkivdel. Det betyr da at alle mapper i arkivdelen arver det samme vedtaket. Dersom arv skjer fra arkivdelen, skal det ikke samtidig være mulig med arv fra klassene. Bevarings- og kassasjonsvedtak for en hel arkivdel er først og fremst aktuelt ved enkelte fagsystemer som produserer såkalte «enstypeserier».
 
 Arv skal kunne skje videre ned til registrerings- og dokumentbeskrivelsesnivå. Selv om kassasjon ofte omfatter hele mapper, skal det være mulig å bevare en eller flere av registreringene i mappen, og kassere resten. [14]_
 
@@ -177,15 +177,15 @@ En slik funksjonalitet er bare nødvendig å ha i de tilfeller en arkivdeler inn
 Sletting av dokumenter og metadata
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Kriteriet for at et dokument skal kunne kasseres er at metadata for kassasjonsvedtak har verdien "Kasseres", og at dagens dato har passert bevaringsdatoen. Løsningen bør kontrollere at presedenssaker aldri tillates kassert.
+Kriteriet for at et dokument skal kunne kasseres er at metadata for kassasjonsvedtak har verdien «Kasseres», og at dagens dato har passert bevaringsdatoen. Løsningen bør kontrollere at presedenssaker aldri tillates kassert.
 
 Kassasjon av elektroniske dokumenter innebærer at referansen mellom metadata og dokumenter slettes, slik at dokumentene ikke lenger kan hentes fram ved hjelp av metadata. Dette skjer ved at all metadata om dokumentobjektet fjernes. Alle versjoner, varianter eller formater av dokumentet skal omfattes av kassasjonen. Dersom samme dokument (dokumentbeskrivelse) er knyttet til flere registreringer, må ikke dokumentet slettes fra filsystemet. Finnes det ingen slik tilknytning, skal også dokumentet slettes.
 
-Kassasjon av dokumenter er altså en kritisk funksjon som mange vil kvie seg for å utføre. Det bør derfor være mulig å angre en kassasjon og gjenopprette tilknytningen til de kasserte dokumentene, jf. muligheten som operativsystemene har til å hente fram igjen dokumenter som er "kastet i papirkurven".
+Kassasjon av dokumenter er altså en kritisk funksjon som mange vil kvie seg for å utføre. Det bør derfor være mulig å angre en kassasjon og gjenopprette tilknytningen til de kasserte dokumentene, jf. muligheten som operativsystemene har til å hente fram igjen dokumenter som er «kastet i papirkurven».
 
 Selve funksjonen for å utføre kassasjon skal kunne begrenses til å omfatte utvalgte dokumenter, f.eks. alle dokumenter som tilhørere en bestemt klasse. Det skal være mulig å utføre kassasjonen som en automatisk prosess, men det skal også være mulig å be om å få spørsmål om kassasjon er aktuelt for hvert eneste dokument.
 
-Kassasjon av dokumenter betyr ikke at metadata skal slettes. Arkivforskriften har et bevaringspåbud for "journaldatabaser". Det betyr altså at metadata om kasserte dokumenter i utgangspunktet skal bevares, og avleveres til depot. Det skal likevel være mulig å angi at kassasjon også innebærer sletting av tilhørende metadata. Dette vil da være særlig aktuelt ved bestemte typer fagsystemer eller "enstypeserier". I slike tilfeller skal verken metadata eller dokumenter bevares.
+Kassasjon av dokumenter betyr ikke at metadata skal slettes. Arkivforskriften har et bevaringspåbud for «journaldatabaser». Det betyr altså at metadata om kasserte dokumenter i utgangspunktet skal bevares, og avleveres til depot. Det skal likevel være mulig å angi at kassasjon også innebærer sletting av tilhørende metadata. Dette vil da være særlig aktuelt ved bestemte typer fagsystemer eller «enstypeserier». I slike tilfeller skal verken metadata eller dokumenter bevares.
 
 .. list-table:: **Funksjonelle krav til sletting av dokument og metadata**
    :widths: 1 8 1 4
@@ -193,14 +193,14 @@ Kassasjon av dokumenter betyr ikke at metadata skal slettes. Arkivforskriften ha
 
  * - 6.1.19
    - Det skal finnes en funksjon for å kassere alle dokumenter som har
-     verdien "Kasseres" som kassasjonsvedtak, og hvor bevaringsdatoen
+     verdien «Kasseres» som kassasjonsvedtak, og hvor bevaringsdatoen
      er eldre enn dagens dato. En slik funksjon skal kunne begrenses
      til et mindre utvalg dokumenter.
    - B
    - Obligatorisk i løsninger hvor kassasjon skal skje og ved behov
      for skille mellom kassable og ikke kassable dokumenter.
  * - 6.1.20
-   - Det skal ikke være mulig å sette kassasjonsvedtak "Kasseres" på
+   - Det skal ikke være mulig å sette kassasjonsvedtak «Kasseres» på
      en mappe som er registrert som presedenssak.
    - O
    - 
@@ -324,11 +324,11 @@ Prinsippene for periodisering som ble introdusert i Noark-4 videreføres i Noark
 
 *Skarpt periodeskille* vil si at alle åpne mapper (pågående saker) i en avsluttet periode må lukkes, og så opprettes på nytt i en ny periode (arvtakeren) ved neste registrering. Dette betyr altså at dokumenter som hører sammen vil befinne seg i to forskjellige mapper, og disse vil tilhøre hver sin periode. Disse mappene må derfor bindes sammen med en referanse. Skarpt periodeskille anbefales ikke ved elektronisk arkiv.
 
-Periodisering med *overlappingsperiode* (også kalt "mykt" periodeskille) innebærer at dersom en mappe ikke er avsluttet ved periodens slutt, skal hele mappen - med alle tidligere registreringer - flyttes over til en ny, aktiv periode ved neste registrering. Denne overflyttingen skal skje automatisk så lenge overlappingsperioden varer. Ved overlappingsperiodens slutt vil de fleste aktive saker være overført til ny periode.
+Periodisering med *overlappingsperiode* (også kalt «mykt» periodeskille) innebærer at dersom en mappe ikke er avsluttet ved periodens slutt, skal hele mappen - med alle tidligere registreringer - flyttes over til en ny, aktiv periode ved neste registrering. Denne overflyttingen skal skje automatisk så lenge overlappingsperioden varer. Ved overlappingsperiodens slutt vil de fleste aktive saker være overført til ny periode.
 
 Ved periodisering spiller *arkivdel* en sentral rolle. Arkivdelene representerer forskjellige perioder, og det er mappenes tilhørighet til arkivdel som avgjør hvilken periode de befinner seg i. En arkivperiode kan være representert ved flere arkivdeler, som da dekker samme periode eller tidsrom. Arkivdelens *arkivstatus* gir informasjon om det dreier seg om en aktiv periode, overlappingsperiode eller avsluttet periode. Arkivdelene må dessuten ha en referanse seg imellom, slik at en kan knytte sammen forløper og arvtaker.
 
-Dokumenter som skal periodiseres etter forskjellige prinsipper - f.eks. funksjonsordnede saksmapper som periodiseres ved overlappingsperiode og personalmapper som fortløpende periodiseres når de er uaktuelle - må tilhøre hver sin arkivdel. Flere arkivdeler kan altså være aktive på én gang, og de uaktuelle periodene kan utgjøre flere "generasjoner" med arkivperioder.
+Dokumenter som skal periodiseres etter forskjellige prinsipper - f.eks. funksjonsordnede saksmapper som periodiseres ved overlappingsperiode og personalmapper som fortløpende periodiseres når de er uaktuelle - må tilhøre hver sin arkivdel. Flere arkivdeler kan altså være aktive på én gang, og de uaktuelle periodene kan utgjøre flere «generasjoner» med arkivperioder.
 
 .. list-table:: **Strukturelle krav til periodisering**
    :widths: 1 8 1 4
@@ -351,7 +351,7 @@ Dokumenter som skal periodiseres etter forskjellige prinsipper - f.eks. funksjon
 
 En arkivdel som inneholder en *aktiv periode*, er åpen for all registrering. Nye mapper skal kunne knyttes til arkivdelen etter hvert som de opprettes.
 
-En arkivdel som inneholder en *avsluttet periode*, er stengt for nye mapper, og mappene som allerede finnes skal være avsluttet. En avsluttet arkivdel er altså "frosset" for all ny tilvekst av mapper og dokumenter, og stort sett også for endring av metadata.
+En arkivdel som inneholder en *avsluttet periode*, er stengt for nye mapper, og mappene som allerede finnes skal være avsluttet. En avsluttet arkivdel er altså «frosset» for all ny tilvekst av mapper og dokumenter, og stort sett også for endring av metadata.
 
 En arkivdel som inneholder en *overlappingsperiode* står i en mellomstilling. Nye mapper kan ikke tilknyttes, men eksisterende mapper kan fremdeles være åpne. Det tillates at det legges en ny registrering til en mappe i overlappingsperioden. Men løsningen skal da *automatisk* overføre hele denne mappen til arkivdelen som er arvtaker. Det betyr altså at hele mappen med alle registreringer og tilknyttede dokumenter skifter tilhørighet fra en arkivdel til en annen automatisk. Før statusen til overlappingsperioden settes til avsluttet, må det kontrolleres at det ikke finnes flere åpne mapper igjen. Dersom det er tilfelle, må mappene enten avsluttes eller overføres manuelt til arvtakeren. Det skal være mulig å overføre alle åpne mapper i en samlet, automatisert prosess.
 
@@ -606,9 +606,9 @@ Innholdet i endringsloggen skal bare referere til metadata og arkivdokumenter i 
 
 Fra enkelte fagsystemer kan det være aktuelt å produsere uttrekk basert på en startdato og en sluttdato, uten hensyn til om mappene er avsluttet eller hvilken arkivdel mappene tilhører. Aktuelt seleksjonskriterium kan da f.eks. være journaldato.
 
-Det er ikke ønskelig at data "vaskes" før uttrekket produseres, f.eks. ved at brukere med administrasjonsrettigheter går direkte inn i databasen og gjør endringer. Det kan lett føre til at nødvendige data går tapt, og det kan også stilles spørsmål ved autentisiteten til slike uttrekk. Dersom det f.eks. finnes mapper eller registreringer som er merket med "Utgår" på grunn av feilregistrering skal de likevel være med i uttrekket. Dokumentfiler som er knyttet til registreringen som utgår skal ikke være med i arkivuttrekket.
+Det er ikke ønskelig at data «vaskes» før uttrekket produseres, f.eks. ved at brukere med administrasjonsrettigheter går direkte inn i databasen og gjør endringer. Det kan lett føre til at nødvendige data går tapt, og det kan også stilles spørsmål ved autentisiteten til slike uttrekk. Dersom det f.eks. finnes mapper eller registreringer som er merket med «Utgår» på grunn av feilregistrering skal de likevel være med i uttrekket. Dokumentfiler som er knyttet til registreringen som utgår skal ikke være med i arkivuttrekket.
 
-Hele klassifikasjonsstrukturen skal tas med i uttrekket, også klasser som er "ubrukte" fordi ingen mapper er tilknyttet klassen (arkivkoden). Klassifikasjonssystemet gir nyttig informasjon om arkivskaperens funksjoner og aktiviteter (arbeidsområder), og tilfører således viktig kontekstinformasjon til pakken. Unntak kan gjøres dersom klassifikasjonssystemet er svært omfattende, f.eks. ved objektbasert klassifikasjon. Dersom det er brukt sekundær klassifikasjon, skal også det sekundære klassifikasjonssystemet inngå. Men klassene i dette systemet skal ikke inneholde noen mapper. Alle mapper skal ligge under sin primære klassifikasjon, men kan samtidig ha referanse til en eller flere sekundære klasser.
+Hele klassifikasjonsstrukturen skal tas med i uttrekket, også klasser som er «ubrukte» fordi ingen mapper er tilknyttet klassen (arkivkoden). Klassifikasjonssystemet gir nyttig informasjon om arkivskaperens funksjoner og aktiviteter (arbeidsområder), og tilfører således viktig kontekstinformasjon til pakken. Unntak kan gjøres dersom klassifikasjonssystemet er svært omfattende, f.eks. ved objektbasert klassifikasjon. Dersom det er brukt sekundær klassifikasjon, skal også det sekundære klassifikasjonssystemet inngå. Men klassene i dette systemet skal ikke inneholde noen mapper. Alle mapper skal ligge under sin primære klassifikasjon, men kan samtidig ha referanse til en eller flere sekundære klasser.
 
 .. list-table:: **Krav til innholdet i en avleveringspakke**
    :widths: 1 8 1 4
@@ -935,7 +935,7 @@ Tabellen under viser påkrevde elementer i arkivuttrekk.xml og og hvilket navn d
 Metadata om arkivdokumentene: *arkivstruktur.xml*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Metadata om de arkivdokumentene som inngår i avleveringspakken, skal ligge samlet i én fil kalt **arkivstruktur.xml**. Metadata for alle arkivenheter, og for de objektene som kan inngå i disse arkivenhetene, skal nøstes inn i hverandre slik at de utgjør en samlet hierarkisk struktur. Alle metadataelementer som er merket med "A" i kolonnen "Avl." skal tas med i uttrekket dersom de er tilordnet verdier i løsningen. Tomme elementer skal altså ikke være med. Vedlegg 2 "Metadata gruppert på objekter" gir en samlet oversikt over alle definerte metadata i Noark 5.
+Metadata om de arkivdokumentene som inngår i avleveringspakken, skal ligge samlet i én fil kalt **arkivstruktur.xml**. Metadata for alle arkivenheter, og for de objektene som kan inngå i disse arkivenhetene, skal nøstes inn i hverandre slik at de utgjør en samlet hierarkisk struktur. Alle metadataelementer som er merket med «A» i kolonnen «Avl.» skal tas med i uttrekket dersom de er tilordnet verdier i løsningen. Tomme elementer skal altså ikke være med. Vedlegg 2 «Metadata gruppert på objekter» gir en samlet oversikt over alle definerte metadata i Noark 5.
 
 I denne hierarkiske strukturen vil ikke alle grenene gå ned til laveste nivå. Det vil finnes klasser som ikke inneholder mapper, det vil finnes mapper uten registreringer (f.eks. dersom mappen utgår fordi alle registreringer er flyttet over til en annen mappe), det vil finnes registreringer uten dokumentbeskrivelse (når arkivdokumentet er fysisk) og det vil finnes dokumentbeskrivelser uten dokumentobjekt (når dokumentet er kassert).
 
@@ -956,8 +956,8 @@ Dersom arkivdokumenter i et sakarkiv er kassert, skal metadata for disse dokumen
    - B
    - Obligatorisk ved avlevering til arkivdepot.
  * - 6.4.25
-   - Alle metadataelementer som er merket med "A" i kolonnen "Avl." i
-     vedlegget "Metadata gruppert på objekter" skal være med i
+   - Alle metadataelementer som er merket med «A» i kolonnen «Avl.» i
+     vedlegget «Metadata gruppert på objekter» skal være med i
      arkivuttrekket, såfremt de er tilordnet verdier.
    - B
    - Obligatorisk ved avlevering til arkivdepot
@@ -1033,7 +1033,7 @@ Metadata om endringer skal ikke grupperes inn i de tilhørende arkivenhetene, me
 
 6. Ny verdi etter at endringen er utført
 
-Endringsloggen skal bare vise til arkivenheter som befinner seg i samme avleveringspakke, dvs. til identifikasjoner som er representert i filen arkivstruktur.xml i samme pakken. Hvilke metadata det skal logges endringer for, og når logging av disse endringene skal utføres, er beskrevet i et eget vedlegg 3: "Oversikt over metadata hvor det skal logges at det gjøres endringer i innholdet ".
+Endringsloggen skal bare vise til arkivenheter som befinner seg i samme avleveringspakke, dvs. til identifikasjoner som er representert i filen arkivstruktur.xml i samme pakken. Hvilke metadata det skal logges endringer for, og når logging av disse endringene skal utføres, er beskrevet i et eget vedlegg 3: «Oversikt over metadata hvor det skal logges at det gjøres endringer i innholdet «.
 
 .. list-table:: **Krav til Endringslogg**
    :widths: 1 8 1 4
@@ -1047,7 +1047,7 @@ Endringsloggen skal bare vise til arkivenheter som befinner seg i samme avleveri
    - En avleveringspakke skal inneholde en endringslogg for metadata
      som har fått en ny verdi. Hvilke metadata dette gjelder, og når
      logging av disse endringene skal utføres, går fram av vedlegg 3
-     "Oversikt over metadata hvor det skal logges at det gjøres
+     «Oversikt over metadata hvor det skal logges at det gjøres
      endringer i innholdet.
    - B
    - Obligatorisk ved avlevering til arkivdepot.
@@ -1059,7 +1059,7 @@ Både en *løpende journal* og en *offentlig journal* skal avleveres som to fors
 
 I norsk arkivteori betraktes journalen som et arkivdokument, ikke som rene metadata. En av grunnene til at journalen også skal avleveres, er at den viser rekkefølgen i registreringen av journalpostene. Dessuten kan journalen være et enklere alternativ å publisere for arkivdepotene enn de samlede metadata i filen **arkivstruktur.xml**. Men journalen inneholder bare et begrenset utvalg metadata, og kan på ingen måte erstatte innholdet i arkivstruktur.xml.
 
-Journalrapportene skal være i XML-format, og skal inneholde et "journalhode" med overordnet informasjon om utskriftene. Seleksjonskriterium skal være *journaldato,* med eventuelt andre kriterier i tillegg. Seleksjonskriteriene skal oppgis i "journalhodet". Ved bruk av mykt periodeskille, vil journalen vanligvis inneholde journalposter som tilhører flere arkivdeler. De enkelte "journalinnføringer" skal være sortert på journalpostens løpenummer (*journalår og sekvensnummer).* Det er bare registreringer av typen *journalpost* som skal være med i journalen.
+Journalrapportene skal være i XML-format, og skal inneholde et «journalhode» med overordnet informasjon om utskriftene. Seleksjonskriterium skal være *journaldato,* med eventuelt andre kriterier i tillegg. Seleksjonskriteriene skal oppgis i «journalhodet». Ved bruk av mykt periodeskille, vil journalen vanligvis inneholde journalposter som tilhører flere arkivdeler. De enkelte «journalinnføringer» skal være sortert på journalpostens løpenummer (*journalår og sekvensnummer).* Det er bare registreringer av typen *journalpost* som skal være med i journalen.
 
 I en avleveringspakke skal journalen normalt dekke en *arkivperiode*, dvs. den perioden innholdet i en avsluttet arkivdel omfatter. Men ved bruk av mykt periodeskille vil ikke journalpostene i journalen være identisk med journalpostene i fila **arkivstruktur.xml.** Denne fila skal bare inneholde journalposter som er knyttet til avsluttede saksmapper. I journalen vil det også forekomme journalposter som er knyttet til saker som ikke er avsluttet, og som derfor er overført til den avsluttede arkivdelens arvtaker.
 
@@ -1151,7 +1151,7 @@ Arkivdokumentene skal avleveres/deponeres i arkivformater som er godtatt av Riks
 
 Hvert enkelt dokument skal eksporteres som én dokumentfil. I denne versjonen av Noark 5 er det ikke tillatt å avlevere dokumenter som består av flere filer (f.eks. som en tekstfil i XML-format med tilknyttet grafikk/bilder som egne separate filer).
 
-Dersom ett dokument er arkivert i flere versjoner - og dersom de foregående versjonene ikke har blitt slettet før eksporten - skal alle versjonene være med i uttrekket, forutsatt at de er lagret i godkjent arkivformat. I slike tilfeller vil hver arkiverte versjon av dokumentet utgjøre en egen dokumentfil. Det samme er tilfellet med varianter som blir arkivert sammen med originaldokumentet, f.eks. offentlige varianter hvor informasjon som er unntatt offentligheten er "sladdet".
+Dersom ett dokument er arkivert i flere versjoner - og dersom de foregående versjonene ikke har blitt slettet før eksporten - skal alle versjonene være med i uttrekket, forutsatt at de er lagret i godkjent arkivformat. I slike tilfeller vil hver arkiverte versjon av dokumentet utgjøre en egen dokumentfil. Det samme er tilfellet med varianter som blir arkivert sammen med originaldokumentet, f.eks. offentlige varianter hvor informasjon som er unntatt offentligheten er «sladdet».
 
 Dokumenter i et sakarkiv som er arkivert uten journalføring, skal være med i avleveringen/deponeringen dersom de ikke har blitt kassert før uttrekket blir produsert. I arkivstrukturen vil disse dokumentene være knyttet til registreringer av type *registrering*.
 
@@ -1163,7 +1163,7 @@ strukturen. Alle dokumentfiler som det blir referert til i
 **arkivstruktur.xml**, skal være med i uttrekket. Dessuten må ikke
 uttrekket inneholde noen dokumentfiler som mangler referanse fra
 dokumentobjektet. Referansen fra arkivstrukturen skal være relativ til
-dokumentfilene, dvs. inneholde hele "stien" til dokumentet - for
+dokumentfilene, dvs. inneholde hele «stien» til dokumentet - for
 eksempel slik: *DOKUMENT/2010/januar/123456789.pdf*.
 
 Dokumentobjektet skal også inneholde informasjon om hvilket format arkivdokument blir avlevert på, og størrelsen i antall bytes på dokumentfilen. I tillegg skal dokumentobjektet inneholde sjekksummen til dokumentet det refererer til. Det siste er viktig for å kunne opprettholde dokumentets autentisitet og integritet, også etter at det er eksportert fra sitt opprinnelige produksjonssystem. Algoritmen som er brukt for å generere sjekksummen skal også dokumenteres.
@@ -1211,7 +1211,7 @@ Kravene nedenfor er obligatoriske for alle Noark-løsninger som inneholder elekt
      referanser til dokumenter som ikke finnes i pakken, og det må
      ikke være dokumenter i pakken som det ikke blir referert
      til. Referansen fra arkivstrukturen skal være relativ til
-     dokumentfilene, dvs. inneholde hele "stien" til dokumentet.
+     dokumentfilene, dvs. inneholde hele «stien» til dokumentet.
    - B
    - Obligatorisk ved avlevering av elektroniske arkivdokumenter til
      arkivdepot.

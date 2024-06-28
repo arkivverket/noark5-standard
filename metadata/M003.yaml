@@ -9,7 +9,7 @@ Kilde: Registreres automatisk av systemet etter interne regler
 Kommentarer: |-
   Ulike arkiver innenfor samme arkivsystem, kan inneholde en eller flere av de samme kodene. Koden kan være rent numerisk, men kan også ha en logisk oppbygning.
 
-  Er en videreføring av kombinasjonen saksår og sakssekvensnummer (oftest bare kalt "saksnummer") i Noark 4, som fortsatt er obligatorisk identifikasjon på saksmappe. I slike tilfeller skal verdien i mappeID også kopieres til de to metadataelementene *M011 saksaar* og *M012 sakssekvensnummer* i saksmappen.
+  Er en videreføring av kombinasjonen saksår og sakssekvensnummer (oftest bare kalt «saksnummer») i Noark 4, som fortsatt er obligatorisk identifikasjon på saksmappe. I slike tilfeller skal verdien i mappeID også kopieres til de to metadataelementene *M011 saksaar* og *M012 sakssekvensnummer* i saksmappen.
 Navn: mappeID
 Nr: M003
 Utdatert: nei

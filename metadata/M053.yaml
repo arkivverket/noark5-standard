@@ -3,10 +3,10 @@ Arv: Nei
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Journalført"
-  - "Ekspedert"
-  - "Arkivert"
-  - "Utgår"
+  - «Journalført»
+  - «Ekspedert»
+  - «Arkivert»
+  - «Utgår»
 
   Skifte av status kan bare utføres av autoriserte personer.
 Datatype: Tekststreng
@@ -15,7 +15,7 @@ Definisjon: Status til journalposten, dvs. om dokumentet er registrert, under be
 Gruppe: Status
 Kilde: Registreres automatisk gjennom forskjellig saksbehandlings­funksjonalitet,
   eller overstyres manuelt.
-Kommentarer: Journalposter som avleveres skal ha status "Arkivert" eller "Utgår".
+Kommentarer: Journalposter som avleveres skal ha status «Arkivert» eller «Utgår».
 Navn: journalstatus
 Nr: M053
 Utdatert: nei

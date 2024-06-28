@@ -9,7 +9,7 @@ Gruppe: Kjernemetadata (jf. Dublin Core)
 Kilde: Registreres manuelt eller hentes automatisk fra innholdet i arkivdokumentet.
   Ja fra klassetittel dersom alle mapper skal ha samme tittel som klassen. Kan også
   hentes automatisk fra et fagsystem.
-Kommentarer: For saksmappe og journalpost vil dette tilsvare "Sakstittel" og "Dokumentbeskrivelse".
+Kommentarer: For saksmappe og journalpost vil dette tilsvare «Sakstittel» og «Dokumentbeskrivelse».
   Disse navnene kan beholdes i grensesnittet.
 Navn: tittel
 Nr: M020

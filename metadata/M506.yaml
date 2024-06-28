@@ -3,12 +3,12 @@ Arv: Ja
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Strengt hemmelig (sikkerhetsgrad)"
-  - "Hemmelig (sikkerhetsgrad)"
-  - "Konfidensielt (sikkerhetsgrad)"
-  - "Begrenset (sikkerhetsgrad)"
-  - "Fortrolig (beskyttelsesgrad)"
-  - "Strengt fortrolig (beskyttelsesgrad)"
+  - «Strengt hemmelig (sikkerhetsgrad)»
+  - «Hemmelig (sikkerhetsgrad)»
+  - «Konfidensielt (sikkerhetsgrad)»
+  - «Begrenset (sikkerhetsgrad)»
+  - «Fortrolig (beskyttelsesgrad)»
+  - «Strengt fortrolig (beskyttelsesgrad)»
 
   Disse verdiene har et hierarkisk forhold seg i mellom
 Datatype: Tekststreng
@@ -16,8 +16,8 @@ Definisjon: Angivelse av at dokumentene er gradert i henhold til sikkerhetsloven
   beskyttelsesinstruksen.
 Gruppe: Skjerming og gradering
 Kilde: Registreres manuelt ved valg fra liste, kan også registres automatisk
-Kommentarer: Dokumenter gradert "Strengt hemmelig", "Hemmelig", "Konfidensielt" og
-  "Strengt fortrolig" skal føres i en egen journal som i sin helhet er unntatt fra
+Kommentarer: Dokumenter gradert «Strengt hemmelig», «Hemmelig», «Konfidensielt» og
+  «Strengt fortrolig» skal føres i en egen journal som i sin helhet er unntatt fra
   innsyn.
 Navn: graderingskode
 Nr: M506

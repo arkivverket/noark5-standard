@@ -3,16 +3,16 @@ Arv: Nei
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Inngående dokument"
-  - "Utgående dokument"
-  - "Organinternt dokument for oppfølging"
-  - "Organinternt dokument uten oppfølging"
-  - "Saksframlegg"
+  - «Inngående dokument»
+  - «Utgående dokument»
+  - «Organinternt dokument for oppfølging»
+  - «Organinternt dokument uten oppfølging»
+  - «Saksframlegg»
 Datatype: Tekststreng
 Definisjon: Navn på type journalpost
 Gruppe: Typer
 Kilde: Registreres automatisk av systemet eller manuelt
-Kommentarer: Tilsvarer "Noark dokumenttype" i Noark 4
+Kommentarer: Tilsvarer «Noark dokumenttype» i Noark 4
 Navn: journalposttype
 Nr: M082
 Utdatert: nei

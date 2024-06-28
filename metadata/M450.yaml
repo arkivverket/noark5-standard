@@ -3,9 +3,9 @@ Arv: Ja
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Bevares"
-  - "Kasseres" ,
-  - "Vurderes senere"
+  - «Bevares»
+  - «Kasseres» ,
+  - «Vurderes senere»
 Datatype: Tekststreng
 Definisjon: Handling som skal utføres ved bevaringstidens slutt.
 Gruppe: Bevaring og kassasjon

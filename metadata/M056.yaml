@@ -3,8 +3,8 @@ Arv: Nei
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Gjeldende"
-  - "Foreldet"
+  - «Gjeldende»
+  - «Foreldet»
 Datatype: Tekststreng
 Definisjon: Informasjon om presedensen er gjeldende eller foreldet
 Gruppe: Status

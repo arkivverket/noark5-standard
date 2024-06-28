@@ -3,18 +3,18 @@ Arv: Ja
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Skjerming klasseID"
-  - "Skjerming tittel klasse"
-  - "Skjerming tittel mappe - unntatt første linje"
-  - "Skjerming tittel mappe - utvalgte ord"
-  - "Skjerming navn part i sak"
-  - "Skjerming tittel registrering - unntatt første linje"
-  - "Skjerming tittel registrering - utvalgte ord"
-  - "Skjerming navn avsender"
-  - "Skjerming navn mottaker"
-  - "Skjerming tittel dokumentbeskrivelse"
-  - "Skjerming merknadstekst"
-  - "Midlertidig skjerming"
+  - «Skjerming klasseID»
+  - «Skjerming tittel klasse»
+  - «Skjerming tittel mappe - unntatt første linje»
+  - «Skjerming tittel mappe - utvalgte ord»
+  - «Skjerming navn part i sak»
+  - «Skjerming tittel registrering - unntatt første linje»
+  - «Skjerming tittel registrering - utvalgte ord»
+  - «Skjerming navn avsender»
+  - «Skjerming navn mottaker»
+  - «Skjerming tittel dokumentbeskrivelse»
+  - «Skjerming merknadstekst»
+  - «Midlertidig skjerming»
 Datatype: Tekststreng
 Definisjon: Angivelse av hvilke metadataelementer som skal skjermes.
 Gruppe: Skjerming og gradering

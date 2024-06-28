@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Under behandling"
-  - "Avsluttet"
-  - "Utgår"
+  - «Under behandling»
+  - «Avsluttet»
+  - «Utgår»
 
   Skifte av status kan bare utføres av autoriserte personer.
 Datatype: Tekststreng
@@ -13,7 +13,7 @@ Definisjon: Status til saksmappen, dvs. hvor langt saksbehandlingen har kommet.
 Gruppe: Status
 Kilde: Registreres automatisk gjennom forskjellig saksbehandlings­funksjonalitet,
   eller overstyres manuelt.
-Kommentarer: Saksmapper som avleveres skal ha status "Avsluttet" eller "Utgår".
+Kommentarer: Saksmapper som avleveres skal ha status «Avsluttet» eller «Utgår».
 Navn: saksstatus
 Nr: M052
 Utdatert: nei

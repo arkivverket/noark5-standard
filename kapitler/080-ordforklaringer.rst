@@ -297,7 +297,7 @@ Listen er begrenset til begreper som er benyttet i standarden.
      valg som skal eller bør være tilgjengelig i løsningen.
  * - Periodeskille
    - Måten en periode avsluttes på. Ved skarpt skille lukkes alle
-     saksmapper. Ved "mykt" periodeskille overføres uavsluttede
+     saksmapper. Ved «mykt» periodeskille overføres uavsluttede
      saksmapper til ny periode.
  * - Periodisering
    - Sette et kontrollert tidsskille i arkivet med jevne
@@ -426,7 +426,7 @@ Listen er begrenset til begreper som er benyttet i standarden.
    - En alternativ utgave av et arkivdokument, som arkiveres i tillegg
      til selve arkivdokumentet. I en variant av et arkivdokument er
      innholdet endret fra det opprinnelige arkivdokumentet. Den mest
-     vanlige varianten vil være et "sladdet" dokumentet hvor
+     vanlige varianten vil være et «sladdet» dokumentet hvor
      taushetsbelagt informasjon er fjernet slik at det kan være
      offentlig tilgjengelig.
  * - Versjon

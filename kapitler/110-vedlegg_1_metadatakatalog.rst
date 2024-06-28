@@ -20,7 +20,7 @@ Navnene er obligatoriske ved avlevering og utveksling. Internt i systemet og i g
 
 -  Dersom navnet er satt sammen av flere ord, skal alle etterfølgende ord begynne med stor forbokstav (camelCase), f.eks. *opprettetDato*.
 
--  De særnorske bokstavene æ, ø og å skal ikke brukes i navnene. De konverteres etter følgende mønster: æ > ae, ø > oe og å > aa. Grunnen til dette er at navn på metadata blir "taggnavn" i XML, og her bør ikke disse bokstavene brukes.
+-  De særnorske bokstavene æ, ø og å skal ikke brukes i navnene. De konverteres etter følgende mønster: æ > ae, ø > oe og å > aa. Grunnen til dette er at navn på metadata blir «taggnavn» i XML, og her bør ikke disse bokstavene brukes.
 
 Hovedprinsipper for spesifisering av metadataelementer i Noark 5
 ----------------------------------------------------------------
@@ -29,13 +29,13 @@ Hovedprinsipper for spesifisering av metadataelementer i Noark 5
 
 -  Metadataene i katalogen grupperes etter innhold, se nedenfor. Hver gruppe har sin nummerserie, og det er god plass til å føye til ekstra metadata ved senere versjoner.
 
--  I senere versjoner kan eksisterende metadata bli slettet fordi en har kommet fram til at de er unødvendige. Dette vil skape "huller" i nummerrekkefølgen.
+-  I senere versjoner kan eksisterende metadata bli slettet fordi en har kommet fram til at de er unødvendige. Dette vil skape «huller» i nummerrekkefølgen.
 
 -  Metadata blir bare spesifisert én gang, selv om det samme elementet vil kunne forekomme i mange forskjellige arkivenheter.
 
 -  Det oppgis i hvilke arkivenheter de forskjellige elementene forekommer. Dersom det oppgis at et element forekommer i en mappe eller registrering, betyr det at de forekommer i alle spesialiseringer av mapper og registreringer. Oppgis det at de forekommer i saksmappe eller journalpost, trenger de ikke forekomme i mappe eller registrering.
 
--  Obligatorisk eller valgfri oppgis for hvert metadataelement. Merk at en gruppe metadata godt kan være valgfri, men hvis gruppen forekommer kan enkelte av metadataelementene i gruppen være obligatoriske. Mer detaljert informasjon om dette finnes i vedlegg 2, "Metadata gruppert på objekter". Det samme gjelder antall forekomster.
+-  Obligatorisk eller valgfri oppgis for hvert metadataelement. Merk at en gruppe metadata godt kan være valgfri, men hvis gruppen forekommer kan enkelte av metadataelementene i gruppen være obligatoriske. Mer detaljert informasjon om dette finnes i vedlegg 2, «Metadata gruppert på objekter». Det samme gjelder antall forekomster.
 
 -  Alle arkivenheter skal inneholde en entydig systemidentifikasjon, *systemID*.
 

@@ -252,7 +252,7 @@ I henhold til ISO 15489 og 30300 er klassifikasjon den systematiske identifikasj
 
 Alle virksomheter utøver et bestemt antall *funksjoner*. Disse er ofte stabile over tid, men funksjoner kan overføres fra en virksomhet til en annen. Funksjoner/underfunksjoner består av ulike prosesser (eller grupper av prosesser), som igjen kan deles inn i *aktiviteter*. I motsetning til en funksjon, har en prosess en begynnelse og en slutt. En prosess har ofte også deltakere, og den fører til et resultat. Alle dokumenter som produseres når en prosess utføres, skal normalt tilhøre samme (saks)mappe. Prosesser kan deles opp i forskjellige aktiviteter, eller *transaksjoner*. Det er transaksjoner som skaper arkivdokumenter (records). Typiske transaksjoner er mottak av en søknad i form av et inngående dokument, og vedtaket i form av et utgående dokument.
 
-Dette hierarkiet av funksjoner, prosesser og aktiviteter skal gjenspeiles i et funksjonsbasert klassifikasjonssystem. Stort sett vil dette kunne tilsvare det som kalles "emnebasert" klassifikasjon. Men det er litt feil å snakke om emne i stedet for funksjon. Et emne vil si noe om *hva et objekt inneholder* eller *handler om*, mens en funksjon vil si noe om *hvorfor et objekt har blitt til*.
+Dette hierarkiet av funksjoner, prosesser og aktiviteter skal gjenspeiles i et funksjonsbasert klassifikasjonssystem. Stort sett vil dette kunne tilsvare det som kalles «emnebasert» klassifikasjon. Men det er litt feil å snakke om emne i stedet for funksjon. Et emne vil si noe om *hva et objekt inneholder* eller *handler om*, mens en funksjon vil si noe om *hvorfor et objekt har blitt til*.
 
 Det er mange grunner til å organisere et arkiv etter et funksjonsbasert klassifikasjonssystem:
 
@@ -264,7 +264,7 @@ Det er mange grunner til å organisere et arkiv etter et funksjonsbasert klassif
 
 -  Kan være et utgangspunkt for bevaring og kassasjon. Det er i dag allment akseptert at kassasjonsvedtak bør baseres på virksomhetens funksjoner, prosesser og aktiviteter, og ikke på dokumentenes innhold.
 
-Den andre hovedtypen av klassifikasjonssystemer er *objektbasert* klassifikasjon. "Objektene" vil ofte være personer, men kan også være virksomheter, eiendommer o.l. I motsetning til funksjonsbaserte klassifikasjonssystemer, er objektbaserte systemer ofte flate - dvs. de består av bare ett nivå.
+Den andre hovedtypen av klassifikasjonssystemer er *objektbasert* klassifikasjon. «Objektene» vil ofte være personer, men kan også være virksomheter, eiendommer o.l. I motsetning til funksjonsbaserte klassifikasjonssystemer, er objektbaserte systemer ofte flate - dvs. de består av bare ett nivå.
 
 Funksjonsbasert klassifikasjon og objektbasert klassifikasjon vil oftest tilhøre to forskjellige klassifikasjonssystemer. Men det er også tillatt å blande disse to i ett og samme klassifikasjonssystem.
 
@@ -358,7 +358,7 @@ En mappe grupperer dokument som på en eller annen måte hører sammen.
 
 Noark 5 legger til rette for en fleksibel bruk av mapper. Grunnen til dette er at det skal være mulig å innpasse dokument som mottas og skapes i de fleste typer system i kjernen.
 
-En *sak* i Noark-4 utgjør en bestemt mappetype i Noark 5, nemlig *saksmappe*. Dersom et system basert på Noark 5 bare skal brukes for sakarkiver, er det ikke noe i veien for å bruke begrepet "sak" i alle grensesnitt mot brukerne, på samme måte som i Noark-4. Men i denne standarden er mappe det generelle begrepet for arkivenheten på dette nivået.
+En *sak* i Noark-4 utgjør en bestemt mappetype i Noark 5, nemlig *saksmappe*. Dersom et system basert på Noark 5 bare skal brukes for sakarkiver, er det ikke noe i veien for å bruke begrepet «sak» i alle grensesnitt mot brukerne, på samme måte som i Noark-4. Men i denne standarden er mappe det generelle begrepet for arkivenheten på dette nivået.
 
 .. figure:: ./media/uml-mappestrukturen-diagram.png
    :width: 100%
@@ -442,7 +442,7 @@ Metadata for møtedeltaker grupperes inn i metadata for møtemappe.
 Registrering
 ------------
 
-En *registrering* tilsvarer "record" eller "dokumentasjon" i ISO-standarder, og utgjør arkivenes primære byggeklosser. En aktivitet kan deles opp i flere trinn som vi kaller *transaksjoner*. En transaksjon innebærer normalt at minst to personer eller enheter må være involvert, men det behøver ikke alltid være tilfelle. Vi bruker likevel begrepet transaksjon generelt for alle trinn en aktivitet kan deles opp i. Det er transaksjoner som genererer *arkivdokumenter,* og arkivdokumentet er dokumentasjon på at transaksjonen er utført.
+En *registrering* tilsvarer «record» eller «dokumentasjon» i ISO-standarder, og utgjør arkivenes primære byggeklosser. En aktivitet kan deles opp i flere trinn som vi kaller *transaksjoner*. En transaksjon innebærer normalt at minst to personer eller enheter må være involvert, men det behøver ikke alltid være tilfelle. Vi bruker likevel begrepet transaksjon generelt for alle trinn en aktivitet kan deles opp i. Det er transaksjoner som genererer *arkivdokumenter,* og arkivdokumentet er dokumentasjon på at transaksjonen er utført.
 
 .. figure:: ./media/uml-registrering-diagram.png
    :width: 100%
@@ -455,7 +455,7 @@ På samme måte som Noark 5 er fleksibel når det gjelder mappenivået, er stand
 
 **Journalpost**
 
-En *journalpost* representer en "innføring i journalen". Journalen er en kronologisk fortegnelse over inn- og utgående dokumenter (dvs. korrespondansedokumenter) brukt i saksbehandlingen, og eventuelt også organinterne dokumenter som journalføres.
+En *journalpost* representer en «innføring i journalen». Journalen er en kronologisk fortegnelse over inn- og utgående dokumenter (dvs. korrespondansedokumenter) brukt i saksbehandlingen, og eventuelt også organinterne dokumenter som journalføres.
 
 Registreringstypen *journalpost* er obligatorisk for sakarkiver, og journalposter skal alltid legges i saksmapper. Alle *journalføringspliktige* dokumenter i offentlig forvaltning skal registreres som journalposter og inngå i et sakarkiv.
 
@@ -526,7 +526,7 @@ Dokumentbeskrivelse og dokumentobjekt
 
 En *registrering* er altså en arkivenhet som består av metadata som beskriver et innhold. Det er innholdet som utgjør «dokumentet». Et dokument er et informasjonsobjekt som kan behandles som en enhet, men som kan bestå av ulike komponenter eller ha ulike representasjoner. I Noark 5 brukes *dokumentbeskrivelse* og *dokumentobjekt* for å skille på dette.
 
-I en relasjonsdatabase vil det typisk være et mange-til-mange-forhold mellom registrering og dokumentbeskrivelse. Ved deponering/avlevering skal imidlertid metadata både for dokumentbeskrivelse og dokumentobjekt dupliseres for hver gang det samme dokumentet er knyttet til forskjellige registreringer. I tillegg skal dokumentobjektet ha informasjon om når dokumentet ble knyttet til registreringen, hvilken "rolle" dokumentet har i forhold til registreringen (hoveddokument eller vedlegg), rekkefølgenummer osv. Dette vil være unik informasjon for hver tilknytning (i Noark-4 ble attributtene for dette beskrevet i en tabell kalt Dokumentlink). Hver dokumentbeskrivelse skal derfor ha en unik *systemID*.
+I en relasjonsdatabase vil det typisk være et mange-til-mange-forhold mellom registrering og dokumentbeskrivelse. Ved deponering/avlevering skal imidlertid metadata både for dokumentbeskrivelse og dokumentobjekt dupliseres for hver gang det samme dokumentet er knyttet til forskjellige registreringer. I tillegg skal dokumentobjektet ha informasjon om når dokumentet ble knyttet til registreringen, hvilken «rolle» dokumentet har i forhold til registreringen (hoveddokument eller vedlegg), rekkefølgenummer osv. Dette vil være unik informasjon for hver tilknytning (i Noark-4 ble attributtene for dette beskrevet i en tabell kalt Dokumentlink). Hver dokumentbeskrivelse skal derfor ha en unik *systemID*.
 
 .. figure:: ./media/uml-dokumentbeskrivelse-diagram.png
    :width: 100%
@@ -539,28 +539,28 @@ Den vanligste bruken av *dokumentbeskrivelse* er for å skille mellom hoveddokum
 
 **Dokumentobjekt**
 
-Dokumentobjekt er det laveste metadatanivået i arkivstrukturen. Et dokumentobjekt skal referere til én og kun en *dokumentfil.* Dokumentfila inneholder selve dokumentet. Dersom dokumentet er arkivert i flere *versjoner*, må vi ha et dokumentobjekt og en dokumentfil for hver versjon. Hver versjon av dokumentet kan dessuten arkiveres i flere forskjellige *formater*, og da må det i tillegg opprettes egne dokumentobjekter og dokumentfiler for hvert format. I noen tilfeller kan det også være aktuelt å lage *varianter* av enkelte dokumenter. Den mest vanlige varianten vil være et "sladdet" dokument hvor taushetsbelagt informasjon er fjernet slik at varianten kan være offentlig tilgjengelig. Dokumentobjektet inneholder mer tekniske metadata enn de andre arkivenhetene, bl.a. sjekksummen til bytesekvensen som representerer dokumentet.
+Dokumentobjekt er det laveste metadatanivået i arkivstrukturen. Et dokumentobjekt skal referere til én og kun en *dokumentfil.* Dokumentfila inneholder selve dokumentet. Dersom dokumentet er arkivert i flere *versjoner*, må vi ha et dokumentobjekt og en dokumentfil for hver versjon. Hver versjon av dokumentet kan dessuten arkiveres i flere forskjellige *formater*, og da må det i tillegg opprettes egne dokumentobjekter og dokumentfiler for hvert format. I noen tilfeller kan det også være aktuelt å lage *varianter* av enkelte dokumenter. Den mest vanlige varianten vil være et «sladdet» dokument hvor taushetsbelagt informasjon er fjernet slik at varianten kan være offentlig tilgjengelig. Dokumentobjektet inneholder mer tekniske metadata enn de andre arkivenhetene, bl.a. sjekksummen til bytesekvensen som representerer dokumentet.
 
 Verdier i formatfeltene (M701, M712, M713) hentes fra
 PRONOM-registeret over formater fra det britiske nasjonalarkivet.
 Informasjon om PRONOM er tilgjengelig fra deres nettsider,
 ``https://www.nationalarchives.gov.uk/PRONOM/``.  Slike formatverdier
-består at et prefiks "fmt" eller "x-fmt", en skråstrek og et heltall,
-for eksempel "fmt/13" (PNG) og "x-fmt/18" (CSV).
+består at et prefiks «fmt» eller «x-fmt», en skråstrek og et heltall,
+for eksempel «fmt/13» (PNG) og «x-fmt/18» (CSV).
 
 Ved bruk av formater som ikke har fått PRONOM-verdi, bør det brukes en
 midlertidig formatverdi. Det er definert to slike sett med
 midlertidige formatverdier. Offisielle midlertidige formatverdier
-registrert i regi av Arkivverket har prefiks "av/", mens midlertidige
-formatverdier fastsatt av arkivskaper gis prefiks "vnd/". For å
+registrert i regi av Arkivverket har prefiks «av/», mens midlertidige
+formatverdier fastsatt av arkivskaper gis prefiks «vnd/». For å
 identifisere ukjente formater som arkivsystemet ikke kjenner igjen
-skal verdi "av/0" brukes.  Formatet til filer med formatkode "av/0" må
+skal verdi «av/0» brukes.  Formatet til filer med formatkode «av/0» må
 identifiseres og få spesifikke formatkoder før deponering og
 avlevering.  For mer informasjon om formatverdier og autorativ liste
 over både permanente og midlertidige, se tillegg D i spesifikasjonen
 for Noark 5 Tjenestegrensesnitt.
 
-Før en tar i bruk en lokalt definert verdi (med prefix "vnd/"), så bør
+Før en tar i bruk en lokalt definert verdi (med prefix «vnd/»), så bør
 en sjekke om formatet allerede er registrert i formatkatalogen, og
 bruke formatverdi derfra hvis mulig. Når et format med midlertidig
 formatverdi får en offisiell formatverdi fra PRONOM, så skal

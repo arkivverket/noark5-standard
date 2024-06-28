@@ -3,9 +3,9 @@ Arv: Ja
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Fysisk arkiv"
-  - "Elektronisk arkiv"
-  - "Blandet fysisk og elektronisk arkiv"
+  - «Fysisk arkiv»
+  - «Elektronisk arkiv»
+  - «Blandet fysisk og elektronisk arkiv»
 Datatype: Tekststreng
 Definisjon: Angivelse av om arkivenheten inneholder fysiske dokumenter, elektroniske
   dokumenter eller en blanding av fysiske og elektroniske dokumenter

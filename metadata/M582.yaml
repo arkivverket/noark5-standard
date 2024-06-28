@@ -3,8 +3,8 @@ Arv: Nei
 Betingelser: |-
   Ingen obligatoriske verdier. Aktuelle verdier kan være:
 
-  - "Ansatt"
-  - "Sluttet"
+  - «Ansatt»
+  - «Sluttet»
 Datatype: Tekststreng
 Definisjon: Status til en bruker av en Noark 5-løsning.
 Gruppe: Brukeradministrasjon og administrasjonsstruktur

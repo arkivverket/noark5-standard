@@ -3,8 +3,8 @@ Arv: Nei
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Opprettet"
-  - "Avsluttet"
+  - «Opprettet»
+  - «Avsluttet»
 
   Skifte av status kan bare utføres av autoriserte personer.
 Datatype: Tekststreng

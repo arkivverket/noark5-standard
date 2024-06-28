@@ -7,7 +7,7 @@ Definisjon: Dato og klokkeslett når alle dokumentene som er tilknyttet registre
 Gruppe: Logging av hendelser
 Kilde: Registreres automatisk ved utførelse av en funksjon som markerer at dokumentene
   er arkivert. For journalposter kan dette knyttes til endring av journalstatus.
-Kommentarer: Arkivering innebærer at dokumentene blir "frosset", dvs. sperret for
+Kommentarer: Arkivering innebærer at dokumentene blir «frosset», dvs. sperret for
   all videre redigering/endring
 Navn: arkivertDato
 Nr: M604

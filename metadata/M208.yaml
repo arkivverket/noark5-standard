@@ -9,9 +9,9 @@ Kommentarer: 'Alle mapper skal ha referanse til arkivdel (selv om tilhørigheten
   arkivdel også kan finnes via klasse og klassifikasjonssystem). En mappe, registrering
   eller en dokumentbeskrivelse som har en annen skjerming, kassasjonsbestemmelse eller
   dokumentmedium (fysisk/elektronisk) enn resten av dokumentene som tilhører arkivdelen,
-  kan ha referanse til en annen arkivdel som inneholder informasjon om disse "unntakene".
+  kan ha referanse til en annen arkivdel som inneholder informasjon om disse «unntakene».
   Slike arkivdeler vil ikke ha egne barn (dvs. underordnede arkivenheter). Merk at
-  selv om disse arkivenhetene har referanse til en "tom" arkivdel, tilhører de indirekte
+  selv om disse arkivenhetene har referanse til en «tom» arkivdel, tilhører de indirekte
   også den arkivdelen som er utgangspunktet for den hierarkiske arkivstrukturen. Opplysninger
   om skjerming, kassasjonsbestemmelse og dokumentmedium skal arves fra arkivenheten
   det refereres til. Slik arv skal da overstyre arven gjennom selve arkivstrukturen.

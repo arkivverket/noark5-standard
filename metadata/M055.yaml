@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser: |-
   Valgfrie verdier, eksempler:
 
-  - "Ferdig behandlet av utvalget"
-  - "Utsatt til nytt møte i samme utvalg"
-  - "Sendt tilbake til foregående utvalg"
+  - «Ferdig behandlet av utvalget»
+  - «Utsatt til nytt møte i samme utvalg»
+  - «Sendt tilbake til foregående utvalg»
 Datatype: Tekststreng
 Definisjon: Status til møteregistreringen
 Gruppe: Status

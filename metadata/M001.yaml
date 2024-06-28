@@ -3,7 +3,7 @@ Arkivenhet: arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering,
 Arv: Nei
 Betingelser: Skal ikke kunne endres
 Datatype: Tekststreng
-Regex: "[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}"
+Regex: «[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}»
 Definisjon: Globalt unik identifikasjon av arkivenheten (UID).
 Gruppe: Identifikasjon
 Kilde: Registreres automatisk av systemet

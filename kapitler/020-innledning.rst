@@ -171,7 +171,7 @@ Alle gjeldende krav framgår av kravtabellene. Kravtabellene er satt opp på den
    - Angir type krav. Her brukes: O (Obligatorisk), B (Betinget obligatorisk), V (Valgfritt) 
    - Merknader til kravet, f.eks. betingelser for når kravet er obligatorisk
   
-Obligatoriske og betinget obligatoriske krav er angitt med "skal" i kravteksten. Valgfrie krav er angitt med "bør" i kravteksten. Betinget obligatoriske krav er obligatoriske under bestemte betingelser. Disse betingelsene er nærmere beskrevet i merknadsfeltet.
+Obligatoriske og betinget obligatoriske krav er angitt med «skal» i kravteksten. Valgfrie krav er angitt med «bør» i kravteksten. Betinget obligatoriske krav er obligatoriske under bestemte betingelser. Disse betingelsene er nærmere beskrevet i merknadsfeltet.
 
 De obligatoriske kravene er obligatoriske for alle typer systemer som skal godkjennes etter standarden. Noen betinget obligatoriske krav vil være obligatoriske kun for system med sakarkiv. Andre betinget obligatoriske krav kan være obligatoriske for systemer som inneholder dokumenter som skal bevares i mer enn 10 år. I andre tilfeller igjen kan betingelsen for et slikt krav være at et gitt valgfritt krav oppfylles.
 

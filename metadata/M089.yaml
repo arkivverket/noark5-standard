@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Sletting av produksjonsformat"
-  - "Sletting av tidligere versjon"
-  - "Sletting av variant med sladdet informasjon"
+  - «Sletting av produksjonsformat»
+  - «Sletting av tidligere versjon»
+  - «Sletting av variant med sladdet informasjon»
 Datatype: Tekststreng
 Definisjon: Navn på hvilket objekt som er slettet
 Gruppe: Typer

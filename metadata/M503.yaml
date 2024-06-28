@@ -3,15 +3,15 @@ Arv: Ja
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Skjerming av hele dokumentet"
-  - "Skjerming av deler av dokumentet"
+  - «Skjerming av hele dokumentet»
+  - «Skjerming av deler av dokumentet»
 Datatype: Tekststreng
 Definisjon: Angivelse av at hele dokumentet eller deler av det må skjermes.
 Gruppe: Skjerming og gradering
 Kilde: Registreres manuelt ved valg fra liste eller annen funksjonalitet, kan også
   registreres automatisk
 Kommentarer: Dersom deler av dokumentet skal skjermes, må dokumentet også finnes i
-  en variant. Her må all informasjon som skal skjermes, være "sladdet".
+  en variant. Her må all informasjon som skal skjermes, være «sladdet».
 Navn: skjermingDokument
 Nr: M503
 Utdatert: nei

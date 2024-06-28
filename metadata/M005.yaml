@@ -2,7 +2,7 @@ Arkivenhet: dokumentobjekt
 Arv: Nei
 Betingelser: Skal ikke endres. Den eldste versjonen skal ha det laveste nummeret.
   Dersom arkiverte versjoner er slettet (gjelder ikke siste versjon), vil dette skape
-  "huller" i nummerrekkefølgen.
+  «huller» i nummerrekkefølgen.
 Datatype: Heltall
 Definisjon: Identifikasjon av versjoner innenfor ett og samme dokument.
 Gruppe: Identifikasjon

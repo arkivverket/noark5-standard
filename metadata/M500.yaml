@@ -3,12 +3,12 @@ Arv: Ja
 Betingelser: |-
   Obligatorisk verdi:
 
-  - "Unntatt offentlighet"
+  - «Unntatt offentlighet»
 
   Valgfrie verdier:
 
-  - "Personalsaker"
-  - "Klientsaker"
+  - «Personalsaker»
+  - «Klientsaker»
 Datatype: Tekststreng
 Definisjon: Angivelse av at dokumentene som tilhører arkivenheten ikke er offentlig
   tilgjengelig i henhold til offentlighetsloven eller av en annen grunn

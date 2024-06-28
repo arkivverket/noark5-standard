@@ -3,12 +3,12 @@ Arv: Nei
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Avsender"
-  - "Mottaker"
-  - "Kopimottaker"
-  - "Gruppemottaker"
-  - "Intern avsender"
-  - "Intern mottaker"
+  - «Avsender»
+  - «Mottaker»
+  - «Kopimottaker»
+  - «Gruppemottaker»
+  - «Intern avsender»
+  - «Intern mottaker»
 Datatype: Tekststreng
 Definisjon: Type korrespondansepart
 Gruppe: Typer

@@ -3,8 +3,8 @@ Arv: Nei
 Betingelser: |-
   Ingen obligatoriske verdier. Aktuelle verdier kan være:
 
-  - "Aktiv enhet"
-  - "Passiv enhet"
+  - «Aktiv enhet»
+  - «Passiv enhet»
 Datatype: Tekststreng
 Definisjon: Status til den administrative enheten
 Gruppe: Brukeradministrasjon og administrasjonsstruktur

@@ -3,10 +3,10 @@ Arv: Nei
 Betingelser: |-
   Foreslåtte verdier:
 
-  - "Politisk sak"
-  - "Delegert møtesak"
-  - "Referatsak"
-  - "Interpellasjon"
+  - «Politisk sak»
+  - «Delegert møtesak»
+  - «Referatsak»
+  - «Interpellasjon»
 Datatype: Tekststreng
 Definisjon: Navn på type møtesak
 Gruppe: Typer

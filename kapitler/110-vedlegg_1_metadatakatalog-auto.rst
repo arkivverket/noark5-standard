@@ -76,7 +76,7 @@ Identifikasjon
    * - **Kommentarer**
      - Ulike arkiver innenfor samme arkivsystem, kan inneholde en eller flere av de samme kodene. Koden kan være rent numerisk, men kan også ha en logisk oppbygning.
        
-       Er en videreføring av kombinasjonen saksår og sakssekvensnummer (oftest bare kalt "saksnummer") i Noark 4, som fortsatt er obligatorisk identifikasjon på saksmappe. I slike tilfeller skal verdien i mappeID også kopieres til de to metadataelementene *M011 saksaar* og *M012 sakssekvensnummer* i saksmappen.
+       Er en videreføring av kombinasjonen saksår og sakssekvensnummer (oftest bare kalt «saksnummer») i Noark 4, som fortsatt er obligatorisk identifikasjon på saksmappe. I slike tilfeller skal verdien i mappeID også kopieres til de to metadataelementene *M011 saksaar* og *M012 sakssekvensnummer* i saksmappen.
 
 .. list-table::
    :widths: 2 6
@@ -101,7 +101,7 @@ Identifikasjon
    * - **Kommentarer**
      - Ulike arkiv innenfor samme system kan inneholde samme identifikasjon. Identifikasjonen kan være rent numerisk, men den kan også ha en logisk oppbygging.
        
-       Er en videreføring av saksår og sakssekvensnummer (oftest bare kalt "saksnummer") i kombinasjon med "dokumentnummer" i Noark 4 (f.eks. 2011/3869-8, dvs. dokument nummer 8 i saksnummer 2011/3869), men trenger ikke ha denne formen for andre deler av arkivet.
+       Er en videreføring av saksår og sakssekvensnummer (oftest bare kalt «saksnummer») i kombinasjon med «dokumentnummer» i Noark 4 (f.eks. 2011/3869-8, dvs. dokument nummer 8 i saksnummer 2011/3869), men trenger ikke ha denne formen for andre deler av arkivet.
 
 .. list-table::
    :widths: 2 6
@@ -122,7 +122,7 @@ Identifikasjon
    * - **Arv**
      - Nei
    * - **Betingelser**
-     - Skal ikke endres. Den eldste versjonen skal ha det laveste nummeret. Dersom arkiverte versjoner er slettet (gjelder ikke siste versjon), vil dette skape "huller" i nummerrekkefølgen.
+     - Skal ikke endres. Den eldste versjonen skal ha det laveste nummeret. Dersom arkiverte versjoner er slettet (gjelder ikke siste versjon), vil dette skape «huller» i nummerrekkefølgen.
    * - **Kommentarer**
      - Versjonsnummer gjelder bare arkiverte versjoner. Annen versjons­håndtering ligger i komplett Noark, og genererer ikke metadata skal følge med i et arkivuttrekk.
 
@@ -360,7 +360,7 @@ Kjernemetadata (jf. Dublin Core)
    * - **Betingelser**
      - Skal normalt ikke kunne endres etter at enheten er lukket, eller dokumentene arkivert
    * - **Kommentarer**
-     - For saksmappe og journalpost vil dette tilsvare "Sakstittel" og "Dokumentbeskrivelse". Disse navnene kan beholdes i grensesnittet.
+     - For saksmappe og journalpost vil dette tilsvare «Sakstittel» og «Dokumentbeskrivelse». Disse navnene kan beholdes i grensesnittet.
 
 .. list-table::
    :widths: 2 6
@@ -874,8 +874,8 @@ Status
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Opprettet"
-       - "Avsluttet"
+       - «Opprettet»
+       - «Avsluttet»
        
        Skifte av status kan bare utføres av autoriserte personer.
    * - **Kommentarer**
@@ -902,14 +902,14 @@ Status
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Aktiv periode"
-       - "Overlappingsperiode"
-       - "Avsluttet periode"
-       - "Uaktuelle mapper"
+       - «Aktiv periode»
+       - «Overlappingsperiode»
+       - «Avsluttet periode»
+       - «Uaktuelle mapper»
        
        Skifte av status kan bare utføres av autoriserte personer.
    * - **Kommentarer**
-     - Arkivdeler som avleveres skal ha status "Avsluttet periode"
+     - Arkivdeler som avleveres skal ha status «Avsluttet periode»
 
 .. list-table::
    :widths: 2 6
@@ -932,13 +932,13 @@ Status
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Under behandling"
-       - "Avsluttet"
-       - "Utgår"
+       - «Under behandling»
+       - «Avsluttet»
+       - «Utgår»
        
        Skifte av status kan bare utføres av autoriserte personer.
    * - **Kommentarer**
-     - Saksmapper som avleveres skal ha status "Avsluttet" eller "Utgår".
+     - Saksmapper som avleveres skal ha status «Avsluttet» eller «Utgår».
 
 .. list-table::
    :widths: 2 6
@@ -961,14 +961,14 @@ Status
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Journalført"
-       - "Ekspedert"
-       - "Arkivert"
-       - "Utgår"
+       - «Journalført»
+       - «Ekspedert»
+       - «Arkivert»
+       - «Utgår»
        
        Skifte av status kan bare utføres av autoriserte personer.
    * - **Kommentarer**
-     - Journalposter som avleveres skal ha status "Arkivert" eller "Utgår".
+     - Journalposter som avleveres skal ha status «Arkivert» eller «Utgår».
 
 .. list-table::
    :widths: 2 6
@@ -991,10 +991,10 @@ Status
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Dokumentet er under redigering"
-       - "Dokumentet er ferdigstilt"
+       - «Dokumentet er under redigering»
+       - «Dokumentet er ferdigstilt»
    * - **Kommentarer**
-     - Dokumentbeskrivelser som avlevers skal ha status "Dokumentet er ferdigstilt".
+     - Dokumentbeskrivelser som avlevers skal ha status «Dokumentet er ferdigstilt».
 
 .. list-table::
    :widths: 2 6
@@ -1017,9 +1017,9 @@ Status
    * - **Betingelser**
      - Valgfrie verdier, eksempler:
        
-       - "Ferdig behandlet av utvalget"
-       - "Utsatt til nytt møte i samme utvalg"
-       - "Sendt tilbake til foregående utvalg"
+       - «Ferdig behandlet av utvalget»
+       - «Utsatt til nytt møte i samme utvalg»
+       - «Sendt tilbake til foregående utvalg»
    * - **Kommentarer**
      - 
 
@@ -1044,8 +1044,8 @@ Status
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Gjeldende"
-       - "Foreldet"
+       - «Gjeldende»
+       - «Foreldet»
    * - **Kommentarer**
      - 
 
@@ -1074,13 +1074,13 @@ Typer
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Inngående dokument"
-       - "Utgående dokument"
-       - "Organinternt dokument for oppfølging"
-       - "Organinternt dokument uten oppfølging"
-       - "Saksframlegg"
+       - «Inngående dokument»
+       - «Utgående dokument»
+       - «Organinternt dokument for oppfølging»
+       - «Organinternt dokument uten oppfølging»
+       - «Saksframlegg»
    * - **Kommentarer**
-     - Tilsvarer "Noark dokumenttype" i Noark 4
+     - Tilsvarer «Noark dokumenttype» i Noark 4
 
 .. list-table::
    :widths: 2 6
@@ -1103,10 +1103,10 @@ Typer
    * - **Betingelser**
      - Ingen obligatoriske typer. Aktuelle verdier kan f.eks. være:
        
-       - "Brev"
-       - "Rundskriv"
-       - "Faktura"
-       - "Ordrebekreftelser"
+       - «Brev»
+       - «Rundskriv»
+       - «Faktura»
+       - «Ordrebekreftelser»
    * - **Kommentarer**
      - 
 
@@ -1131,9 +1131,9 @@ Typer
    * - **Betingelser**
      - Ingen obligatoriske typer. Aktuelle verdier kan f.eks. være:
        
-       - "Merknad fra saksbehandler"
-       - "Merknad fra leder"
-       - "Merknad fra arkivansvarlig"
+       - «Merknad fra saksbehandler»
+       - «Merknad fra leder»
+       - «Merknad fra arkivansvarlig»
    * - **Kommentarer**
      - 
 
@@ -1158,10 +1158,10 @@ Typer
    * - **Betingelser**
      - Ingen obligatoriske typer. Aktuelle verdier kan f.eks. være:
        
-       - "Møteinnkallelse"
-       - "Saksliste"
-       - "Saksframlegg"
-       - "Vedlegg til møtesak"
+       - «Møteinnkallelse»
+       - «Saksliste»
+       - «Saksframlegg»
+       - «Vedlegg til møtesak»
    * - **Kommentarer**
      - 
 
@@ -1186,14 +1186,14 @@ Typer
    * - **Betingelser**
      - Ingen obligatoriske typer. Aktuelle verdier kan f.eks. være:
        
-       - "Funksjonsbasert, hierarkisk"
-       - "Emnebasert, hierarkisk arkivnøkkel"
-       - "Emnebasert, ett nivå"
-       - "K-koder"
-       - "Mangefasettert, ikke hierarki"
-       - "Objektbasert"
-       - "Fødselsnummer"
-       - "Gårds- og bruksnummer"
+       - «Funksjonsbasert, hierarkisk»
+       - «Emnebasert, hierarkisk arkivnøkkel»
+       - «Emnebasert, ett nivå»
+       - «K-koder»
+       - «Mangefasettert, ikke hierarki»
+       - «Objektbasert»
+       - «Fødselsnummer»
+       - «Gårds- og bruksnummer»
    * - **Kommentarer**
      - 
 
@@ -1218,12 +1218,12 @@ Typer
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Avsender"
-       - "Mottaker"
-       - "Kopimottaker"
-       - "Gruppemottaker"
-       - "Intern avsender"
-       - "Intern mottaker"
+       - «Avsender»
+       - «Mottaker»
+       - «Kopimottaker»
+       - «Gruppemottaker»
+       - «Intern avsender»
+       - «Intern mottaker»
    * - **Kommentarer**
      - Korrespondansetype forekommer én gang innenfor objektet korrespondansepart, men denne kan forekomme flere ganger innenfor en journalpost.
 
@@ -1248,10 +1248,10 @@ Typer
    * - **Betingelser**
      - Foreslåtte verdier:
        
-       - "Politisk sak"
-       - "Delegert møtesak"
-       - "Referatsak"
-       - "Interpellasjon"
+       - «Politisk sak»
+       - «Delegert møtesak»
+       - «Referatsak»
+       - «Interpellasjon»
    * - **Kommentarer**
      - 
 
@@ -1276,9 +1276,9 @@ Typer
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Sletting av produksjonsformat"
-       - "Sletting av tidligere versjon"
-       - "Sletting av variant med sladdet informasjon"
+       - «Sletting av produksjonsformat»
+       - «Sletting av tidligere versjon»
+       - «Sletting av variant med sladdet informasjon»
    * - **Kommentarer**
      - Siste versjon av et dokument skal vanligvis ikke kunne slettes. Sletting av innholdet i en arkivdel skal bare kunne utføres av autorisert personale.
 
@@ -1725,7 +1725,7 @@ Referanser
    * - **Betingelser**
      - Må inneholde gyldig systemID for arkivdel
    * - **Kommentarer**
-     - Alle mapper skal ha referanse til arkivdel (selv om tilhørigheten til arkivdel også kan finnes via klasse og klassifikasjonssystem). En mappe, registrering eller en dokumentbeskrivelse som har en annen skjerming, kassasjonsbestemmelse eller dokumentmedium (fysisk/elektronisk) enn resten av dokumentene som tilhører arkivdelen, kan ha referanse til en annen arkivdel som inneholder informasjon om disse "unntakene". Slike arkivdeler vil ikke ha egne barn (dvs. underordnede arkivenheter). Merk at selv om disse arkivenhetene har referanse til en "tom" arkivdel, tilhører de indirekte også den arkivdelen som er utgangspunktet for den hierarkiske arkivstrukturen. Opplysninger om skjerming, kassasjonsbestemmelse og dokumentmedium skal arves fra arkivenheten det refereres til. Slik arv skal da overstyre arven gjennom selve arkivstrukturen. Et eksempel: Alle saksmapper som tilhører en bestemt klasse skal kasseres etter 10 år, unntatt de organinterne dokumentene som skal bevares. Disse dokumentene kan da automatisk tilordnes en annen arkivdel når journalposter med organinterne dokumenter opprettes.
+     - Alle mapper skal ha referanse til arkivdel (selv om tilhørigheten til arkivdel også kan finnes via klasse og klassifikasjonssystem). En mappe, registrering eller en dokumentbeskrivelse som har en annen skjerming, kassasjonsbestemmelse eller dokumentmedium (fysisk/elektronisk) enn resten av dokumentene som tilhører arkivdelen, kan ha referanse til en annen arkivdel som inneholder informasjon om disse «unntakene». Slike arkivdeler vil ikke ha egne barn (dvs. underordnede arkivenheter). Merk at selv om disse arkivenhetene har referanse til en «tom» arkivdel, tilhører de indirekte også den arkivdelen som er utgangspunktet for den hierarkiske arkivstrukturen. Opplysninger om skjerming, kassasjonsbestemmelse og dokumentmedium skal arves fra arkivenheten det refereres til. Slik arv skal da overstyre arven gjennom selve arkivstrukturen. Et eksempel: Alle saksmapper som tilhører en bestemt klasse skal kasseres etter 10 år, unntatt de organinterne dokumentene som skal bevares. Disse dokumentene kan da automatisk tilordnes en annen arkivdel når journalposter med organinterne dokumenter opprettes.
 
 .. list-table::
    :widths: 2 6
@@ -1748,7 +1748,7 @@ Referanser
    * - **Betingelser**
      - Må inneholde gyldig systemID for klasse
    * - **Kommentarer**
-     - Kan også brukes for å bygge opp mangefasettert klassifikasjon og kommunenes klassifikasjonssystem "K-kodene".
+     - Kan også brukes for å bygge opp mangefasettert klassifikasjon og kommunenes klassifikasjonssystem «K-kodene».
 
 .. list-table::
    :widths: 2 6
@@ -1807,7 +1807,7 @@ Referanser
    * - **Datatype**
      - systemID
    * - **Definisjon**
-     - Referanse til en eller flere journalposter som avskriver denne journalposten
+     - Referanse til en journalpost som avskriver denne journalposten
    * - **Arkivenhet**
      - journalpost
    * - **Kilde**
@@ -1830,7 +1830,7 @@ Referanser
    * - **Datatype**
      - Tekststreng
    * - **Definisjon**
-     - Angivelse av hvilken "rolle" dokumentet har i forhold til registreringen
+     - Angivelse av hvilken «rolle» dokumentet har i forhold til registreringen
    * - **Arkivenhet**
      - dokumentbeskrivelse
    * - **Kilde**
@@ -1840,8 +1840,8 @@ Referanser
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Hoveddokument"
-       - "Vedlegg"
+       - «Hoveddokument»
+       - «Vedlegg»
    * - **Kommentarer**
      - 
 
@@ -1866,7 +1866,7 @@ Referanser
    * - **Betingelser**
      - 
    * - **Kommentarer**
-     - Referansen skal være en "sti" (dvs. også inneholde katalogstrukturen) til filnavnet som gjør det mulig å identifisere riktig fil i et arkivuttrekk. Stien skal angis relativt i forhold til filen *arkivstruktur.xml*.
+     - Referansen skal være en «sti» (dvs. også inneholde katalogstrukturen) til filnavnet som gjør det mulig å identifisere riktig fil i et arkivuttrekk. Stien skal angis relativt i forhold til filen *arkivstruktur.xml*.
 
 .. list-table::
    :widths: 2 6
@@ -1958,7 +1958,7 @@ Referanser
    * - **Betingelser**
      - Må inneholde gyldig systemID for registrering
    * - **Kommentarer**
-     - Kan brukes for å knytte sammen dokumenter som tilhører samme "møtesak" (Møtemappen har ikke noe eget nivå for møtesaker.)
+     - Kan brukes for å knytte sammen dokumenter som tilhører samme «møtesak» (Møtemappen har ikke noe eget nivå for møtesaker.)
 
 .. list-table::
    :widths: 2 6
@@ -1981,7 +1981,7 @@ Referanser
    * - **Betingelser**
      - Må inneholde gyldig systemID for registrering
    * - **Kommentarer**
-     - Kan brukes for å knytte sammen dokumenter som tilhører samme "møtesak"
+     - Kan brukes for å knytte sammen dokumenter som tilhører samme «møtesak»
 
 .. list-table::
    :widths: 2 6
@@ -2121,6 +2121,29 @@ Referanser
    * - **Kommentarer**
      - Erstatter M226 referanseOppdatertAv
 
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+   * - **Nr**
+     - **M231**
+   * - **Navn**
+     - **referanseAvskrivesAvKorrespondansepart**
+   * - **Datatype**
+     - systemID
+   * - **Definisjon**
+     - Referanse til korrespondansepart i journalpost som avskriver denne journalposten.
+   * - **Arkivenhet**
+     - journalpost
+   * - **Kilde**
+     - Registreres manuelt eller automatisk ved avskrivning
+   * - **Arv**
+     - Nei
+   * - **Betingelser**
+     - 
+   * - **Kommentarer**
+     - 
+
 
 Arkiv- og saksbehandlingsfunksjonalitet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2146,9 +2169,9 @@ Arkiv- og saksbehandlingsfunksjonalitet
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Fysisk arkiv"
-       - "Elektronisk arkiv"
-       - "Blandet fysisk og elektronisk arkiv"
+       - «Fysisk arkiv»
+       - «Elektronisk arkiv»
+       - «Blandet fysisk og elektronisk arkiv»
    * - **Kommentarer**
      - Obligatorisk ved blanding av fysisk og elektronisk arkiv. Er hele arkivet enten fysisk eller elektronisk, er det tilstrekkelig med verdi på arkivnivå. Er en hel arkivdel enten fysisk eller elektronisk, er det tilstrekkelig å angi det på arkivdelnivå. Dersom underordnede arkivdeler inneholder både fysiske og elektroniske dokumenter, må informasjon om dette arves nedover i hierarkiet. Se også kommentar til *M208 referanseArkivdel.*
 
@@ -2173,7 +2196,7 @@ Arkiv- og saksbehandlingsfunksjonalitet
    * - **Betingelser**
      - 
    * - **Kommentarer**
-     - Fysiske dokumenters plassering skal ellers gå fram av arkivstrukturen. Fysiske dokumenter i et sakarkiv skal i utgangspunktet være ordnet i overordnede omslag (f.eks. hengemapper) etter stigende klasseID. Innenfor hver av disse skal omslagene skal dokumentene ligge i fysiske saksmapper som er ordnet etter stigende mappeID. Innenfor saksmappene skal dokumentene være ordnet etter stigende journalpostnummer ("dokumentnummer"). Vedlegg skal legges sammen med tilhørende hoveddokument.
+     - Fysiske dokumenters plassering skal ellers gå fram av arkivstrukturen. Fysiske dokumenter i et sakarkiv skal i utgangspunktet være ordnet i overordnede omslag (f.eks. hengemapper) etter stigende klasseID. Innenfor hver av disse skal omslagene skal dokumentene ligge i fysiske saksmapper som er ordnet etter stigende mappeID. Innenfor saksmappene skal dokumentene være ordnet etter stigende journalpostnummer (»dokumentnummer»). Vedlegg skal legges sammen med tilhørende hoveddokument.
 
 .. list-table::
    :widths: 2 6
@@ -2550,8 +2573,8 @@ Møtebehandling
    * - **Betingelser**
      - Ingen obligatoriske typer. Aktuelle verdier kan f.eks. være:
        
-       - "Møteleder"
-       - "Referent"
+       - «Møteleder»
+       - «Referent»
    * - **Kommentarer**
      - 
 
@@ -2603,7 +2626,7 @@ Korrespondanse
    * - **Betingelser**
      - 
    * - **Kommentarer**
-     - En postadresse kan angis som flere elementer ("adresselinjer"), noe som kan være aktuelt ved bestemte utenlandske adresser
+     - En postadresse kan angis som flere elementer (»adresselinjer»), noe som kan være aktuelt ved bestemte utenlandske adresser
 
 .. list-table::
    :widths: 2 6
@@ -2743,6 +2766,29 @@ Korrespondanse
    * - **Kommentarer**
      - 
 
+.. list-table::
+   :widths: 2 6
+   :header-rows: 0
+
+   * - **Nr**
+     - **M413**
+   * - **Navn**
+     - **eksternReferanse**
+   * - **Datatype**
+     - Tekststreng
+   * - **Definisjon**
+     - «Vår referanse» på inngående journalposter og «Deres referanse» på utgående journalposter
+   * - **Arkivenhet**
+     - journalpost
+   * - **Kilde**
+     - Registreres manuelt eller automatisk
+   * - **Arv**
+     - Nei
+   * - **Betingelser**
+     - 
+   * - **Kommentarer**
+     - 
+
 
 Bevaring og kassasjon
 ~~~~~~~~~~~~~~~~~~~~~
@@ -2768,9 +2814,9 @@ Bevaring og kassasjon
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Bevares"
-       - "Kasseres" ,
-       - "Vurderes senere"
+       - «Bevares»
+       - «Kasseres» ,
+       - «Vurderes senere»
    * - **Kommentarer**
      - 
 
@@ -2868,12 +2914,12 @@ Skjerming og gradering
    * - **Betingelser**
      - Obligatorisk verdi:
        
-       - "Unntatt offentlighet"
+       - «Unntatt offentlighet»
        
        Valgfrie verdier:
        
-       - "Personalsaker"
-       - "Klientsaker"
+       - «Personalsaker»
+       - «Klientsaker»
    * - **Kommentarer**
      - 
 
@@ -2921,18 +2967,18 @@ Skjerming og gradering
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Skjerming klasseID"
-       - "Skjerming tittel klasse"
-       - "Skjerming tittel mappe - unntatt første linje"
-       - "Skjerming tittel mappe - utvalgte ord"
-       - "Skjerming navn part i sak"
-       - "Skjerming tittel registrering - unntatt første linje"
-       - "Skjerming tittel registrering - utvalgte ord"
-       - "Skjerming navn avsender"
-       - "Skjerming navn mottaker"
-       - "Skjerming tittel dokumentbeskrivelse"
-       - "Skjerming merknadstekst"
-       - "Midlertidig skjerming"
+       - «Skjerming klasseID»
+       - «Skjerming tittel klasse»
+       - «Skjerming tittel mappe - unntatt første linje»
+       - «Skjerming tittel mappe - utvalgte ord»
+       - «Skjerming navn part i sak»
+       - «Skjerming tittel registrering - unntatt første linje»
+       - «Skjerming tittel registrering - utvalgte ord»
+       - «Skjerming navn avsender»
+       - «Skjerming navn mottaker»
+       - «Skjerming tittel dokumentbeskrivelse»
+       - «Skjerming merknadstekst»
+       - «Midlertidig skjerming»
    * - **Kommentarer**
      - Skjerming av klasseID (arkivnøkkel, arkivkode) er f.eks. aktuelt når identifikasjonen er et fødselsnummer. Dersom utvalgte ord fra tittel skjermes, er metadataelementet *M025 offentligTittel* obligatorisk. Skjerming av navn på part i sak angis for *saksmappe*, skjerming av navn på avsender og mottaker angis for *journalpost*, skjerming av merknader angis for *saksmappe* og *journalpost*. Ved midlertidig skjerming skal alle metadata ovenfor skjermes, må bare brukes inntil skjermingsbehovet er vurdert.
 
@@ -2957,10 +3003,10 @@ Skjerming og gradering
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Skjerming av hele dokumentet"
-       - "Skjerming av deler av dokumentet"
+       - «Skjerming av hele dokumentet»
+       - «Skjerming av deler av dokumentet»
    * - **Kommentarer**
-     - Dersom deler av dokumentet skal skjermes, må dokumentet også finnes i en variant. Her må all informasjon som skal skjermes, være "sladdet".
+     - Dersom deler av dokumentet skal skjermes, må dokumentet også finnes i en variant. Her må all informasjon som skal skjermes, være «sladdet».
 
 .. list-table::
    :widths: 2 6
@@ -3029,16 +3075,16 @@ Skjerming og gradering
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Strengt hemmelig (sikkerhetsgrad)"
-       - "Hemmelig (sikkerhetsgrad)"
-       - "Konfidensielt (sikkerhetsgrad)"
-       - "Begrenset (sikkerhetsgrad)"
-       - "Fortrolig (beskyttelsesgrad)"
-       - "Strengt fortrolig (beskyttelsesgrad)"
+       - «Strengt hemmelig (sikkerhetsgrad)»
+       - «Hemmelig (sikkerhetsgrad)»
+       - «Konfidensielt (sikkerhetsgrad)»
+       - «Begrenset (sikkerhetsgrad)»
+       - «Fortrolig (beskyttelsesgrad)»
+       - «Strengt fortrolig (beskyttelsesgrad)»
        
        Disse verdiene har et hierarkisk forhold seg i mellom
    * - **Kommentarer**
-     - Dokumenter gradert "Strengt hemmelig", "Hemmelig", "Konfidensielt" og "Strengt fortrolig" skal føres i en egen journal som i sin helhet er unntatt fra innsyn.
+     - Dokumenter gradert «Strengt hemmelig», «Hemmelig», «Konfidensielt» og «Strengt fortrolig» skal føres i en egen journal som i sin helhet er unntatt fra innsyn.
 
 .. list-table::
    :widths: 2 6
@@ -3061,10 +3107,10 @@ Skjerming og gradering
    * - **Betingelser**
      - Aktuelle verdier:
        
-       - "Symmetrisk kryptert"
-       - "Sendt med PKI/virksomhetssertifikat"
-       - "Sendt med PKI/" person standard"-sertifikat"
-       - "Sendt med PKI/" person høy"-sertifikat"
+       - «Symmetrisk kryptert»
+       - «Sendt med PKI/virksomhetssertifikat»
+       - «Sendt med PKI/» person standard»-sertifikat»
+       - «Sendt med PKI/» person høy»-sertifikat»
    * - **Kommentarer**
      - 
 
@@ -3089,8 +3135,8 @@ Skjerming og gradering
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Signatur påført, ikke verifisert"
-       - "Signatur påført og verifisert"
+       - «Signatur påført, ikke verifisert»
+       - «Signatur påført og verifisert»
    * - **Kommentarer**
      - Dersom signaturen er verifisert, skal det logges hvem som verifiserte den og når det skjedde
 
@@ -3142,10 +3188,10 @@ Brukeradministrasjon og administrasjonsstruktur
    * - **Betingelser**
      - Ingen obligatoriske verdier. Aktuelle verdier kan være:
        
-       - "Arkivansvarlig"
-       - "Arkivpersonale"
-       - "Leder"
-       - "Saksbehandler"
+       - «Arkivansvarlig»
+       - «Arkivpersonale»
+       - «Leder»
+       - «Saksbehandler»
    * - **Kommentarer**
      - 
 
@@ -3170,8 +3216,8 @@ Brukeradministrasjon og administrasjonsstruktur
    * - **Betingelser**
      - Ingen obligatoriske verdier. Aktuelle verdier kan være:
        
-       - "Ansatt"
-       - "Sluttet"
+       - «Ansatt»
+       - «Sluttet»
    * - **Kommentarer**
      - 
 
@@ -3219,8 +3265,8 @@ Brukeradministrasjon og administrasjonsstruktur
    * - **Betingelser**
      - Ingen obligatoriske verdier. Aktuelle verdier kan være:
        
-       - "Aktiv enhet"
-       - "Passiv enhet"
+       - «Aktiv enhet»
+       - «Passiv enhet»
    * - **Kommentarer**
      - 
 
@@ -3364,7 +3410,7 @@ Logging av hendelser
    * - **Betingelser**
      - Kan ikke endres
    * - **Kommentarer**
-     - Arkivering innebærer at dokumentene blir "frosset", dvs. sperret for all videre redigering/endring
+     - Arkivering innebærer at dokumentene blir «frosset», dvs. sperret for all videre redigering/endring
 
 .. list-table::
    :widths: 2 6
@@ -3617,11 +3663,11 @@ Logging av hendelser
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Besvart med brev"
-       - "Besvart med e-post"
-       - "Besvart på telefon"
-       - "Tatt til etterretning"
-       - "Tatt til orientering"
+       - «Besvart med brev»
+       - «Besvart med e-post»
+       - «Besvart på telefon»
+       - «Tatt til etterretning»
+       - «Tatt til orientering»
    * - **Kommentarer**
      - 
 
@@ -3901,52 +3947,6 @@ Logging av hendelser
    * - **Kommentarer**
      - 
 
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
-   * - **Nr**
-     - **M632**
-   * - **Navn**
-     - **oppdatertDato**
-   * - **Datatype**
-     - Dato og klokkeslett
-   * - **Definisjon**
-     - Dato og klokkeslett når arkivenheten sist ble oppdatert
-   * - **Arkivenhet**
-     - arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse
-   * - **Kilde**
-     - Registreres automatisk av systemet når oppdatering gjøres
-   * - **Arv**
-     - Nei
-   * - **Betingelser**
-     - Skal ikke kunne endres.
-   * - **Kommentarer**
-     - NB! Ikke i bruk, slått sammen med M682 endretDato
-
-.. list-table::
-   :widths: 2 6
-   :header-rows: 0
-
-   * - **Nr**
-     - **M633**
-   * - **Navn**
-     - **oppdatertAv**
-   * - **Datatype**
-     - Tekststreng
-   * - **Definisjon**
-     - Navn på person som oppdaterte arkivenheten
-   * - **Arkivenhet**
-     - arkiv, arkivdel, klassifikasjonssystem, klasse, mappe, registrering, dokumentbeskrivelse
-   * - **Kilde**
-     - Registreres automatisk av systemet når oppdatering gjøres
-   * - **Arv**
-     - Nei
-   * - **Betingelser**
-     - Skal ikke kunne endres.
-   * - **Kommentarer**
-     - NB! Ikke i bruk, slått sammen med M683 endretAv
-
 
 Logging av arbeidsflyt og saksfordeling
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4041,9 +4041,9 @@ Logging av arbeidsflyt og saksfordeling
    * - **Betingelser**
      - Anbefalte verdier:
        
-       - "Godkjent"
-       - "Ikke godkjent"
-       - "Sendt tilbake til saksbehandler med kommentarer"
+       - «Godkjent»
+       - «Ikke godkjent»
+       - «Sendt tilbake til saksbehandler med kommentarer»
    * - **Kommentarer**
      - 
 
@@ -4260,9 +4260,9 @@ Tekniske metadata
    * - **Betingelser**
      - Obligatoriske verdier:
        
-       - "Produksjonsformat"
-       - "Arkivformat"
-       - "Dokument hvor deler av innholdet er skjermet"
+       - «Produksjonsformat»
+       - «Arkivformat»
+       - «Dokument hvor deler av innholdet er skjermet»
        
        Kan ikke endres
    * - **Kommentarer**

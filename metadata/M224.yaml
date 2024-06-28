@@ -5,7 +5,7 @@ Datatype: systemID
 Definisjon: Referanse fra en annen møteregistrering
 Gruppe: Referanser
 Kilde:
-Kommentarer: Kan brukes for å knytte sammen dokumenter som tilhører samme "møtesak"
+Kommentarer: Kan brukes for å knytte sammen dokumenter som tilhører samme «møtesak»
 Navn: referanseFraMoeteregistrering
 Nr: M224
 Utdatert: nei

@@ -3,10 +3,10 @@ Arv: Nei
 Betingelser: |-
   Ingen obligatoriske typer. Aktuelle verdier kan f.eks. være:
 
-  - "Brev"
-  - "Rundskriv"
-  - "Faktura"
-  - "Ordrebekreftelser"
+  - «Brev»
+  - «Rundskriv»
+  - «Faktura»
+  - «Ordrebekreftelser»
 Datatype: Tekststreng
 Definisjon: Navn på type dokument
 Gruppe: Typer

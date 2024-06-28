@@ -5,7 +5,7 @@ Datatype: Heltall
 Definisjon: Fortløpende nummerering av seksjoner under gårdsnummer/bruksnummer og eventuelt festenummer
 Gruppe: Nasjonale identifikatorer
 Kilde:
-Kommentarer: "Underoppdeling under bruksnummer, angir enheter som kan omsettes og selges. Typisk i leilighetesbygg i flere etasjer, forretningsgårder eller en blanding av forretninger og leiligheter. SOSI-format-navn/datatype/lengde: SNR/H/3."
+Kommentarer: «Underoppdeling under bruksnummer, angir enheter som kan omsettes og selges. Typisk i leilighetesbygg i flere etasjer, forretningsgårder eller en blanding av forretninger og leiligheter. SOSI-format-navn/datatype/lengde: SNR/H/3.»
 Navn: seksjonsnummer
 Nr: M034
 Utdatert: nei

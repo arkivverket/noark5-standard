@@ -3,10 +3,10 @@ Arv: Nei
 Betingelser: |-
   Aktuelle verdier:
 
-  - "Symmetrisk kryptert"
-  - "Sendt med PKI/virksomhetssertifikat"
-  - "Sendt med PKI/" person standard"-sertifikat"
-  - "Sendt med PKI/" person høy"-sertifikat"
+  - «Symmetrisk kryptert»
+  - «Sendt med PKI/virksomhetssertifikat»
+  - «Sendt med PKI/» person standard»-sertifikat»
+  - «Sendt med PKI/» person høy»-sertifikat»
 Datatype: Tekststreng
 Definisjon: Angivelse av hvilket sikkerhetsnivå som ble brukt ved forsendelse og mottak
   av elektroniske dokumenter

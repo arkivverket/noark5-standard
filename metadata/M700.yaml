@@ -3,9 +3,9 @@ Arv: Nei
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Produksjonsformat"
-  - "Arkivformat"
-  - "Dokument hvor deler av innholdet er skjermet"
+  - «Produksjonsformat»
+  - «Arkivformat»
+  - «Dokument hvor deler av innholdet er skjermet»
 
   Kan ikke endres
 Datatype: Tekststreng

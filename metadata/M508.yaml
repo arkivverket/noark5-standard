@@ -3,8 +3,8 @@ Arv: Nei
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Signatur påført, ikke verifisert"
-  - "Signatur påført og verifisert"
+  - «Signatur påført, ikke verifisert»
+  - «Signatur påført og verifisert»
 Datatype: Tekststreng
 Definisjon: Angivelse av om et dokument er mottatt med elektronisk signatur, og om
   signaturen er verifisert.

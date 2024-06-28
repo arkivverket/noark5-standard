@@ -3,11 +3,11 @@ Arv: Nei
 Betingelser: |-
   Obligatoriske verdier:
 
-  - "Besvart med brev"
-  - "Besvart med e-post"
-  - "Besvart på telefon"
-  - "Tatt til etterretning"
-  - "Tatt til orientering"
+  - «Besvart med brev»
+  - «Besvart med e-post»
+  - «Besvart på telefon»
+  - «Tatt til etterretning»
+  - «Tatt til orientering»
 Datatype: Tekststreng
 Definisjon: Måten en journalpost har blitt avskrevet på
 Gruppe: Logging av hendelser

@@ -69,11 +69,9 @@ docbook/spesifikasjon-complete.xml: docbook
 	xmllint --xinclude --nonet docbook/spesifikasjon.xml > $@.new && mv $@.new $@
 
 po/spesifikasjon.pot: docbook/spesifikasjon-complete.xml
-	po4a-gettextize \
-          -o attributes='href' \
-	  -f docbook -m docbook/spesifikasjon-complete.xml > $@.new && mv $@.new $@
+	po4a --no-translations po4a.cfg
 
-po/en.po po/nn.po: po/spesifikasjon.pot
+po/%.po: po/spesifikasjon.pot
 	po4a --no-translations po4a.cfg
 
 docbook/spesifikasjon-complete.%.xml: po/%.po docbook/spesifikasjon-complete.xml

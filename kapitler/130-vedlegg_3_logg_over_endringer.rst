@@ -1,7 +1,7 @@
 Oversikt over metadata hvor det skal logges at det gjøres endringer i innholdet
 ===============================================================================
 
-Når verdiene for noen sentrale metadataelementer blir endret, skal dette logges. Nedenfor følger en oversikt over hvilke metadata det skal logges endringer for.
+Når verdiene for noen sentrale metadataelementer blir endret, skal dette logges. Nedenfor følger en oversikt over hvilke metadata det som minimum skal avleveres logg over endringer for.
 
 .. list-table::
    :widths: 3 1 5 3

@@ -50,7 +50,7 @@ Når verdiene for noen sentrale metadataelementer blir endret, skal dette logges
  * - mappe
    - M020
    - tittel
-   - Ved endring etter arkivstatus «Avsluttet» eller arkivdelstatus «Avsluttet periode».
+   - Ved endring etter arkivstatus «Avsluttet», arkivdelstatus «Avsluttet periode» eller saksstatus «Avsluttet» for undertype saksmappe.
  * - mappe
    - M208
    - referanseArkivdel
@@ -106,7 +106,7 @@ Når verdiene for noen sentrale metadataelementer blir endret, skal dette logges
  * - registrering
    - M020
    - tittel
-   - Ved endring etter arkivstatus/saksstatus «Avsluttet» eller arkivdelstatus «Avsluttet periode».
+   - Ved endring etter arkivstatus/saksstatus «Avsluttet», arkivdelstatus «Avsluttet periode», journalstatus «Ekspedert»/«Journalført»/«Arkivert» for undertype journalpost eller moeteregistreringsstatus «Ferdig behandlet av utvalget» for undertype møteregistrering.
  * - registrering
    - M024
    - forfatter

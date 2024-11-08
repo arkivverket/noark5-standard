@@ -1,7 +1,7 @@
 Arkivenhet: mappe, registrering
 Arv:
 Betingelser: Obligatorisk i arkivuttrekk dersom tittelen inneholder ord som skal skjermes,
-  jf. *M504 skjermingMetadata.*
+  jf. *M502 skjermingMetadata.*
 Datatype: Tekststreng
 Definisjon: Offentlig tittel på arkivenheten, ord som skal skjermes er fjernet fra
   innholdet i tittelen (erstattet med ******)

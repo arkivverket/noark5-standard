@@ -473,7 +473,7 @@ Kjernemetadata (jf. Dublin Core)
    * - **Arv**
      - 
    * - **Betingelser**
-     - Obligatorisk i arkivuttrekk dersom tittelen inneholder ord som skal skjermes, jf. *M504 skjermingMetadata.*
+     - Obligatorisk i arkivuttrekk dersom tittelen inneholder ord som skal skjermes, jf. *M502 skjermingMetadata.*
    * - **Kommentarer**
      - I løpende og offentlig journaler skal også offentligTittel være med dersom ord i tittelfeltet skal skjermes.
 
